@@ -1,0 +1,2 @@
+com.topcoder.util.config.ConfigManager=com/topcoder/util/config/ConfigManager.properties
+

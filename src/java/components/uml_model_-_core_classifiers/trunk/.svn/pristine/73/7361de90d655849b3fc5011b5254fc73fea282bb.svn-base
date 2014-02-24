@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=UML Model - Core Classifiers
+component.distfilename=uml_model_-_core_classifiers
+component.package=com.topcoder.uml.model.core.classifiers
+component.packagedir=com/topcoder/uml/model/core/classifiers
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

@@ -1,0 +1,23 @@
+
+<Namespace name="lang">
+	<!-- example of interface method usage -->
+	<Interface name="Comparable"> 
+		<Method name="compareTo" />
+	</Interface>
+	<Interface name="Cloneable" />
+	
+	<!-- methods are optional though, they can be omitted: -->
+	<Class name="Boolean" />
+	<Class name="Character" />
+	<Class name="Class" />
+	<Class name="String" />
+	
+	<!-- example enumeration -->
+	<Class name="Thread">
+		<Enumeration name=" " />
+	</Class>
+	
+	<DataType name="Deprecated" />
+</Namespace>    
+
+      

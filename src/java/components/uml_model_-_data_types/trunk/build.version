@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=UML Model - Data Types
+component.distfilename=uml_model_-_data_types
+component.package=com.topcoder.uml.model.datatypes
+component.packagedir=com/topcoder/uml/model/datatypes
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

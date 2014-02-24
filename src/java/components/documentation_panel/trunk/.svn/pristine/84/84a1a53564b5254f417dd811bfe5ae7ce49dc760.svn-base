@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+
+<!-- File containing sample configuration details for use with
+ the Documentation Panel component -->
+    
+<CMConfig>
+    
+    
+     <!-- default tag editor namespace -->
+    <Config name="defaultTagEditor">
+            <!-- set up the new tag prompt Value here if desired:
+        <Property name="tagprompt">
+            <Value>Insert new tag...</Value>
+        </Property>
+            -->
+        
+            <!-- set up the new tag documentation string here if desired:
+        <Property name="valueprompt>
+            <Value>new Value</Value>
+        </Property>
+            -->
+            
+            <!-- set up the two column names here if desired:
+        <Property name="columnnames">
+            <Value>Tag</Value>
+            <Value>Documentation</Value>
+        </Property>
+            -->
+            
+        <!-- required parameter, option manager namespace -->
+        <Property name="tagoptionNamespace">
+            <Value>defaultTagOptions</Value>
+        </Property>
+    </Config>
+
+<!-- sample tag option manager configuration -->
+    <Config name="defaultTagOptions">
+    
+     <Property name="TYPES">
+    <Value>GLOBAL</Value>
+    <Value>com.topcoder.uml.model.core.OperationImpl</Value>
+    <Value>accuracytests.my2</Value>
+    </Property>
+
+        <!-- global options -->
+        <Property name="GLOBAL">
+            <!-- some common javadocs options -->
+            <Property name="options">
+                <Value>see</Value>
+                <Value>since</Value>
+                <Value>deprecated</Value>
+            </Property>
+        </Property>
+        
+        <!-- method options -->
+        <Property name="com.topcoder.uml.model.core.OperationImpl">
+            <!-- add two operation options -->
+            <Property name="options">
+                <Value>throws</Value>
+                <Value>exception</Value>
+            </Property>
+            
+            <!-- inherit the global set -->
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <!-- class options, adding two to global -->
+        <Property name="accuracytests.my2">
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+    </Config>
+    
+   
+           
+</CMConfig>

@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<CMConfig>
+  <Config name="com.topcoder.xmi.reader.handlers.uml.model.ModelElementFactory">
+    <Property name="xml_to_element_mapping">
+        <Value>UML:Multiplicity, com.topcoder.uml.model.datatypes.MultiplicityImpl</Value>
+        <Value>UML:MultiplicityRange, com.topcoder.uml.model.datatypes.MultiplicityRangeImpl</Value>
+        <Value>UML:Expression, com.topcoder.uml.model.datatypes.expressions.ExpressionImpl</Value>
+        <Value>UML:BooleanExpression, com.topcoder.uml.model.datatypes.expressions.BooleanExpressionImpl</Value>
+        <Value>UML:MappingExpression, com.topcoder.uml.model.datatypes.expressions.MappingExpressionImpl</Value>
+        <Value>UML:ProcedureExpression, com.topcoder.uml.model.datatypes.expressions.ProcedureExpressionImpl</Value>
+        <Value>UML:TypeExpression, com.topcoder.uml.model.datatypes.expressions.TypeExpressionImpl</Value>
+        <Value>UML:Class, com.topcoder.uml.model.core.classifiers.ClassImpl</Value>
+        <Value>UML:DataType, com.topcoder.uml.model.core.classifiers.DataTypeImpl</Value>
+        <Value>UML:AssociationEnd, com.topcoder.uml.model.core.relationships.AssociationEndImpl</Value>
+        <Value>UML:Interface, com.topcoder.uml.model.core.classifiers.InterfaceImpl</Value>
+        <Value>UML:Association, com.topcoder.uml.model.core.relationships.AssociationImpl</Value>
+        <Value>UML:Attribute, com.topcoder.uml.model.core.AttributeImpl</Value>
+        <Value>UML:Operation, com.topcoder.uml.model.core.OperationImpl</Value>
+        <Value>UML:Parameter, com.topcoder.uml.model.core.ParameterImpl</Value>
+        <Value>UML:Method, com.topcoder.uml.model.core.MethodImpl</Value>
+        <Value>UML:Generalization, com.topcoder.uml.model.core.relationships.GeneralizationImpl</Value>
+        <Value>UML:AssociationClass, com.topcoder.uml.model.core.relationships.AssociationClassImpl</Value>
+        <Value>UML:Dependency, com.topcoder.uml.model.core.dependencies.DependencyImpl</Value>
+        <Value>UML:Abstraction, com.topcoder.uml.model.core.dependencies.AbstractionImpl</Value>
+        <Value>UML:Usage, com.topcoder.uml.model.core.dependencies.UsageImpl</Value>
+        <Value>UML:Binding, com.topcoder.uml.model.core.dependencies.BindingImpl</Value>
+        <Value>UML:Comment, com.topcoder.uml.model.core.auxiliaryelements.CommentImpl</Value>
+        <Value>UML:TemplateParameter, com.topcoder.uml.model.core.auxiliaryelements.TemplateParameterImpl</Value>
+        <Value>UML:Primitive, com.topcoder.uml.model.core.classifiers.PrimitiveImpl</Value>
+        <Value>UML:Enumeration, com.topcoder.uml.model.core.classifiers.EnumerationImpl</Value>
+        <Value>UML:EnumerationLiteral, com.topcoder.uml.model.core.classifiers.EnumerationLiteralImpl</Value>
+        <Value>UML:Stereotype, com.topcoder.uml.model.core.extensionmechanisms.StereotypeImpl</Value>
+        <Value>UML:TagDefinition, com.topcoder.uml.model.core.extensionmechanisms.TagDefinitionImpl</Value>
+        <Value>UML:TaggedValue, com.topcoder.uml.model.core.extensionmechanisms.TaggedValueImpl</Value>
+        <Value>UML:ProgrammingLanguageDataType, com.topcoder.uml.model.core.classifiers.ProgrammingLanguageDataTypeImpl</Value>
+        <Value>UML:TemplateArgument, com.topcoder.uml.model.core.auxiliaryelements.TemplateArgumentImpl</Value>
+        <Value>UML:Procedure, com.topcoder.uml.model.commonbehavior.procedure.ProcedureImpl</Value>
+        <Value>UML:Object, com.topcoder.uml.model.commonbehavior.instances.ObjectImpl</Value>
+        <Value>UML:Stimulus, com.topcoder.uml.model.commonbehavior.instances.StimulusImpl</Value>
+        <Value>UML:Link, com.topcoder.uml.model.commonbehavior.links.LinkImpl</Value>
+        <Value>UML:LinkEnd, com.topcoder.uml.model.commonbehavior.links.LinkEndImpl</Value>
+        <Value>UML:CallOperationAction, com.topcoder.uml.model.actions.messagingactions.CallOperationActionImpl</Value>
+        <Value>UML:SendSignalAction, com.topcoder.uml.model.actions.messagingactions.SendSignalActionImpl</Value>
+        <Value>UML:CreateObjectAction, com.topcoder.uml.model.actions.objectactions.CreateObjectActionImpl</Value>
+        <Value>UML:DestroyObjectAction, com.topcoder.uml.model.actions.objectactions.DestroyObjectActionImpl</Value>
+        <Value>UML:Message, com.topcoder.uml.model.collaborations.collaborationroles.MessageImpl</Value>
+        <Value>UML:CollaborationInstanceSet, com.topcoder.uml.model.collaborations.collaborationinstances.CollaborationInstanceSetImpl</Value>
+        <Value>UML:Collaboration, com.topcoder.uml.model.collaborations.collaborationinteractions.CollaborationImpl</Value>
+        <Value>UML:ElementImport, com.topcoder.uml.model.modelmanagement.ElementImportImpl</Value>
+        <Value>UML:Package, com.topcoder.uml.model.modelmanagement.PackageImpl</Value>
+        <Value>UML:Subsystem, com.topcoder.uml.model.modelmanagement.SubsystemImpl</Value>
+        <Value>UML:Model, com.topcoder.uml.model.modelmanagement.ModelImpl</Value>
+        <Value>UML:Actor, com.topcoder.uml.model.usecases.ActorImpl</Value>
+        <Value>UML:UseCase, com.topcoder.uml.model.usecases.UseCaseImpl</Value>
+        <Value>UML:Include, com.topcoder.uml.model.usecases.IncludeImpl</Value>
+        <Value>UML:Extend, com.topcoder.uml.model.usecases.ExtendImpl</Value>
+    </Property>
+  </Config>
+
+
+
+  <Config name="com.topcoder.xmi.reader.XMIReader">
+<Property name="reuse">
+       <Value>true</Value>
+     </Property>
+     <Property name="handlers">
+        <Property name="UML:Multiplicity">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:MultiplicityRange">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Expression">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:BooleanExpression">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:MappingExpression">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:ProcedureExpression">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:TypeExpression">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Class">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:DataType">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:AssociationEnd">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Interface">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Association">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Attribute">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Operation">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Parameter">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Method">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Generalization">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:AssociationClass">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Dependency">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Abstraction">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Usage">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Binding">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Comment">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:TemplateParameter">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Primitive">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Enumeration">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:EnumerationLiteral">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Stereotype">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:TagDefinition">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:TaggedValue">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:ProgrammingLanguageDataType">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:TemplateArgument">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Procedure">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Object">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Stimulus">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Link">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:LinkEnd">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:CallOperationAction">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:SendSignalAction">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:CreateObjectAction">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:DestroyObjectAction">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Message">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:CollaborationInstanceSet">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Collaboration">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:ElementImport">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Package">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Subsystem">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Model">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Actor">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:UseCase">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Include">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+        <Property name="UML:Extend">
+            <Value>com.topcoder.xmi.reader.handlers.uml.model.XMI2ModelHandler</Value>
+        </Property>
+
+
+          <Property name="UML:StateMachine">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:Transition">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+          <Property name="UML:Guard">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:Pseudostate">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+	      <Property name="UML:CompositeState">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:SimpleState">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+          <Property name="UML:FinalState">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+
+		  <Property name="UML:ActivityGraph">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+	      <Property name="UML:ActionState">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:CallState">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:ObjectFlowState">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+
+		  <Property name="UML:Diagram">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:GraphNode">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:GraphEdge">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:Property">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:GraphConnector">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:Point">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:Dimension">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:TextElement">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:Reference">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:BezierPoint">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:Polyline">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:Image">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:CoreSemanticModelBridge">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:SimpleSemanticModelElement">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:Uml1SemanticModelBridge">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+		  <Property name="UML:DiagramLink">
+              <Value>com.topcoder.xmi.reader.handlers.uml.model.OtherXMIHandler</Value>
+          </Property>
+    </Property>
+  </Config>
+</CMConfig>

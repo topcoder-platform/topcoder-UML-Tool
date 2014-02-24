@@ -1,0 +1,32 @@
+<CMConfig>
+    <Property name="standardClassDataLoader">
+      <Property name="type">
+        <Value>com.topcoder.uml.projectconfiguration.MockStandardClassDataLoader</Value>
+      </Property>
+            <Property name="params">
+        <Property name="param1">
+          <Property name="type">
+            <Value>String</Value>
+          </Property>
+          <Property name="value">
+            <Value>namespace</Value>
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+    <Property name="stereotypeLoader">
+      <Property name="type">
+        <Value>com.topcoder.uml.projectconfiguration.stereotypeloader.XMLStereotypeLoader</Value>
+      </Property>
+      <Property name="params">
+        <Property name="param1">
+          <Property name="type">
+            <Value>String</Value>
+          </Property>
+          <Property name="value">
+            <Value>namespace</Value>
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+</CMConfig>

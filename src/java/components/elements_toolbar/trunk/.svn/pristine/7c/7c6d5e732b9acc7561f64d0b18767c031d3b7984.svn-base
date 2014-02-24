@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!--This is a configuration file used for configuring the SectionPanel-->
+<CMConfig>
+    <!--The namespace of all parameters is free to be set any string-->
+    <Config name="com.topcoder.gui.toolbars.elements.SectionPanel">
+	    <Property name="look">
+	  		<Value>javax.swing.plaf.metal.MetalLookAndFeel</Value> 
+	  	</Property>
+	  	<Property name="sectionText">
+	  		<Value>connectors</Value> 
+	  	</Property>
+	  	<Property name="backgroundColor">
+	  		<Value>BLACK</Value> 
+	  	</Property>
+	 	  <Property name="buttonsName">
+	  		<Value>left</Value> 
+	  		<Value>right</Value> 
+	 	  </Property>
+	 	  <Property name="imageLocations">
+	  		<Value>test_files/toolbarButtonGraphics/images/left.gif</Value> 
+	  		<Value>test_files/toolbarButtonGraphics/images/right.gif</Value> 
+	 	  </Property>
+ 	  </Config>
+</CMConfig>

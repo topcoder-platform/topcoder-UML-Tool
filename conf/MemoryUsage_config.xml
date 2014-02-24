@@ -1,0 +1,54 @@
+<CMConfig>
+	<Config name="com.topcoder.util.memoryusage.MemoryUsage">
+        	<Property name="analyzers_namespace">
+            		<Value>com.topcoder.util.memoryusage.MemoryUsage.ObjectFactory</Value>
+        	</Property>
+	        <Property name="analyzers">
+	            <Value>Sun12Analyzer</Value>
+	            <Value>Sun13Analyzer</Value>
+	            <Value>Sun14Analyzer</Value>
+	            <Value>Sun15Analyzer</Value>
+	            <Value>IBM14Analyzer</Value>
+	            <Value>IBM15Analyzer</Value>
+	        </Property>
+	        <Property name="fallback_analyzer">
+	            <Value>Sun15Analyzer</Value>
+	        </Property>
+	        <Property name="default_fallback_analyzer_flag">
+	            <Value>false</Value>
+	        </Property>
+	</Config>
+	    
+	<Config name="com.topcoder.util.memoryusage.MemoryUsage.ObjectFactory">
+	        <Property name="Sun12Analyzer">
+	            <Property name="type">
+	                <Value>com.topcoder.util.memoryusage.analyzers.Sun12Analyzer</Value>
+	            </Property>
+	        </Property>
+	        <Property name="Sun13Analyzer">
+	            <Property name="type">
+	                <Value>com.topcoder.util.memoryusage.analyzers.Sun13Analyzer</Value>
+	            </Property>
+	        </Property>
+	        <Property name="Sun14Analyzer">
+	            <Property name="type">
+	                <Value>com.topcoder.util.memoryusage.analyzers.Sun14Analyzer</Value>
+	            </Property>
+	        </Property>
+	        <Property name="Sun15Analyzer">
+	            <Property name="type">
+	                <Value>com.topcoder.util.memoryusage.analyzers.Sun15Analyzer</Value>
+	            </Property>
+	        </Property>
+	        <Property name="IBM14Analyzer">
+	            <Property name="type">
+	                <Value>com.topcoder.util.memoryusage.analyzers.IBM14Analyzer</Value>
+	            </Property>
+	        </Property>
+	        <Property name="IBM15Analyzer">
+	            <Property name="type">
+	                <Value>com.topcoder.util.memoryusage.analyzers.IBM15Analyzer</Value>
+	            </Property>
+	        </Property>
+	</Config>
+</CMConfig>

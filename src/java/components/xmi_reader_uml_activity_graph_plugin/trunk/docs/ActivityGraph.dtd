@@ -1,0 +1,142 @@
+<!-- ========= UML:StateMachine ========= -->
+<!ELEMENT UML:StateMachine.context (UML:ModelElement)*>
+<!ELEMENT UML:StateMachine.top (UML:State|UML:CompositeState|
+   UML:SubmachineState|UML:SubactivityState|UML:SimpleState|UML:ActionState|
+   UML:CallState|UML:ObjectFlowState|UML:FinalState)*>
+<!ELEMENT UML:StateMachine.transitions (UML:Transition)*>
+<!ELEMENT UML:StateMachine.submachineState (UML:SubmachineState)*>
+<!ENTITY % UML:StateMachineFeatures '%UML:ModelElementFeatures; |
+   UML:StateMachine.context |
+   UML:StateMachine.top |
+   UML:StateMachine.transitions |
+   UML:StateMachine.submachineState'>
+<!ENTITY % UML:StateMachineAtts '%UML:ModelElementAtts;
+   context IDREFS #IMPLIED
+   submachineState IDREFS #IMPLIED'>
+<!ELEMENT UML:StateMachine (%UML:StateMachineFeatures;)*>
+<!ATTLIST UML:StateMachine %UML:StateMachineAtts;>
+
+
+<!-- ========= UML:Transition ========= -->
+<!ELEMENT UML:Transition.guard (UML:Guard)*>
+<!ELEMENT UML:Transition.effect (UML:Procedure)*>
+<!ELEMENT UML:Transition.trigger (UML:Event)*>
+<!ELEMENT UML:Transition.source (UML:StateVertex)*>
+<!ELEMENT UML:Transition.target (UML:StateVertex)*>
+<!ELEMENT UML:Transition.stateMachine (UML:StateMachine)*>
+<!ENTITY % UML:TransitionFeatures '%UML:ModelElementFeatures; |
+   UML:Transition.guard |
+   UML:Transition.effect |
+   UML:Transition.trigger |
+   UML:Transition.source |
+   UML:Transition.target |
+   UML:Transition.stateMachine'>
+<!ENTITY % UML:TransitionAtts '%UML:ModelElementAtts;
+   trigger IDREFS #IMPLIED
+   source IDREFS #IMPLIED
+   target IDREFS #IMPLIED
+   stateMachine IDREFS #IMPLIED'>
+<!ELEMENT UML:Transition (%UML:TransitionFeatures;)*>
+<!ATTLIST UML:Transition %UML:TransitionAtts;>
+
+
+<!-- ========= UML:Guard ========= -->
+<!ELEMENT UML:Guard.expression (UML:BooleanExpression)*>
+<!ELEMENT UML:Guard.transition (UML:Transition)*>
+<!ENTITY % UML:GuardFeatures '%UML:ModelElementFeatures; |
+   UML:Guard.expression |
+   UML:Guard.transition'>
+<!ENTITY % UML:GuardAtts '%UML:ModelElementAtts;
+   transition IDREFS #IMPLIED'>
+<!ELEMENT UML:Guard (%UML:GuardFeatures;)*>
+<!ATTLIST UML:Guard %UML:GuardAtts;>
+
+
+<!-- ========= UML:Pseudostate ========= -->
+<!ELEMENT UML:Pseudostate.kind EMPTY>
+<!ATTLIST UML:Pseudostate.kind xmi.value %UML:PseudostateKind; #REQUIRED>
+<!ENTITY % UML:PseudostateFeatures '%UML:StateVertexFeatures; |
+   UML:Pseudostate.kind'>
+<!ENTITY % UML:PseudostateAtts '%UML:StateVertexAtts;
+   kind %UML:PseudostateKind; #IMPLIED'>
+<!ELEMENT UML:Pseudostate (%UML:PseudostateFeatures;)*>
+<!ATTLIST UML:Pseudostate %UML:PseudostateAtts;>
+
+
+<!-- ========= UML:CompositeState ========= -->
+<!ELEMENT UML:CompositeState.isConcurrent EMPTY>
+<!ATTLIST UML:CompositeState.isConcurrent xmi.value (true|false) #REQUIRED>
+<!ELEMENT UML:CompositeState.subvertex (UML:StateVertex|UML:State|
+   UML:CompositeState|UML:SubmachineState|UML:SubactivityState|
+   UML:SimpleState|UML:ActionState|UML:CallState|UML:ObjectFlowState|
+   UML:FinalState|UML:Pseudostate|UML:SynchState|UML:StubState)*>
+<!ENTITY % UML:CompositeStateFeatures '%UML:StateFeatures; |
+   UML:CompositeState.isConcurrent |
+   UML:CompositeState.subvertex'>
+<!ENTITY % UML:CompositeStateAtts '%UML:StateAtts;
+   isConcurrent (true|false) #IMPLIED'>
+<!ELEMENT UML:CompositeState (%UML:CompositeStateFeatures;)*>
+<!ATTLIST UML:CompositeState %UML:CompositeStateAtts;>
+
+
+<!-- ========= UML:SimpleState ========= -->
+<!ENTITY % UML:SimpleStateFeatures '%UML:StateFeatures;'>
+<!ENTITY % UML:SimpleStateAtts '%UML:StateAtts;'>
+<!ELEMENT UML:SimpleState (%UML:SimpleStateFeatures;)*>
+<!ATTLIST UML:SimpleState %UML:SimpleStateAtts;>
+
+
+<!-- ========= UML:FinalState ========= -->
+<!ENTITY % UML:FinalStateFeatures '%UML:StateFeatures;'>
+<!ENTITY % UML:FinalStateAtts '%UML:StateAtts;'>
+<!ELEMENT UML:FinalState (%UML:FinalStateFeatures;)*>
+<!ATTLIST UML:FinalState %UML:FinalStateAtts;>
+
+
+<!-- ========= UML:ActivityGraph ========= -->
+<!ELEMENT UML:ActivityGraph.partition (UML:Partition)*>
+<!ENTITY % UML:ActivityGraphFeatures '%UML:StateMachineFeatures; |
+   UML:ActivityGraph.partition'>
+<!ENTITY % UML:ActivityGraphAtts '%UML:StateMachineAtts;'>
+<!ELEMENT UML:ActivityGraph (%UML:ActivityGraphFeatures;)*>
+<!ATTLIST UML:ActivityGraph %UML:ActivityGraphAtts;>
+
+
+
+<!-- ========= UML:ActionState ========= -->
+<!ELEMENT UML:ActionState.isDynamic EMPTY>
+<!ATTLIST UML:ActionState.isDynamic xmi.value (true|false) #REQUIRED>
+<!ELEMENT UML:ActionState.dynamicArguments (UML:ArgListsExpression)*>
+<!ELEMENT UML:ActionState.dynamicMultiplicity (UML:Multiplicity)*>
+<!ENTITY % UML:ActionStateFeatures '%UML:SimpleStateFeatures; |
+   UML:ActionState.isDynamic |
+   UML:ActionState.dynamicArguments |
+   UML:ActionState.dynamicMultiplicity'>
+<!ENTITY % UML:ActionStateAtts '%UML:SimpleStateAtts;
+   isDynamic (true|false) #IMPLIED'>
+<!ELEMENT UML:ActionState (%UML:ActionStateFeatures;)*>
+<!ATTLIST UML:ActionState %UML:ActionStateAtts;>
+
+
+
+<!-- ========= UML:CallState ========= -->
+<!ENTITY % UML:CallStateFeatures '%UML:ActionStateFeatures;'>
+<!ENTITY % UML:CallStateAtts '%UML:ActionStateAtts;'>
+<!ELEMENT UML:CallState (%UML:CallStateFeatures;)*>
+<!ATTLIST UML:CallState %UML:CallStateAtts;>
+
+<!-- ========= UML:ObjectFlowState ========= -->
+<!ELEMENT UML:ObjectFlowState.isSynch EMPTY>
+<!ATTLIST UML:ObjectFlowState.isSynch xmi.value (true|false) #REQUIRED>
+<!ELEMENT UML:ObjectFlowState.parameter (UML:Parameter)*>
+<!ELEMENT UML:ObjectFlowState.type (UML:Classifier)*>
+<!ENTITY % UML:ObjectFlowStateFeatures '%UML:SimpleStateFeatures; |
+   UML:ObjectFlowState.isSynch |
+   UML:ObjectFlowState.parameter |
+   UML:ObjectFlowState.type'>
+<!ENTITY % UML:ObjectFlowStateAtts '%UML:SimpleStateAtts;
+   isSynch (true|false) #IMPLIED
+   parameter IDREFS #IMPLIED
+   type IDREFS #IMPLIED'>
+<!ELEMENT UML:ObjectFlowState (%UML:ObjectFlowStateFeatures;)*>
+<!ATTLIST UML:ObjectFlowState %UML:ObjectFlowStateAtts;>

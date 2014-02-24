@@ -1,0 +1,220 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033\deflangfe1033\deftab420{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fprq2\fcharset2 Wingdings;}{\f2\fmodern\fprq1\fcharset0 Courier New;}{\f3\froman\fprq2\fcharset0 Times New Roman;}{\f4\froman\fprq2\fcharset2 Symbol;}{\f5\fnil\fcharset0 Courier New;}{\f6\fnil Courier New;}{\f7\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red63\green127\blue95;\red232\green242\blue254;\red127\green0\blue85;\red42\green0\blue255;}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}{\s3 heading 3;}}
+{\*\generator Msftedit 5.41.15.1507;}{\info{\horzdoc}{\*\lchars ([\'7b\'b7\'91\'93<\'ab?????(.[\'7b??}{\*\fchars !),.:\'3b?]\'7d\'a8\'b7?\'af??\'92\'94\'85:????>\'bb?????!"'),.:\'3b?]`|\'7d~?}}
+\viewkind4\uc1\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx720\ul\b\f0\fs28 UML Tool Actions - Diagram Actions 1.0 Component Specification\par
+\pard\nowidctlpar\li720\sa120\ulnone\b0\fs20\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 1.\tab Design\par
+\pard\nowidctlpar\li720\cf1\b0\fs20 The Diagram Actions component provides the Actions related to the Diagrams declared in Diagram Interchange component. The actions are strategy implementations of the action interfaces in the Action Manager component. The provided actions are for creating a diagram, removing a diagram, changing the diagram title, adjusting the zoom level and changing the diagram viewport.\cf0\par
+\par
+This design provides implementations of undoable actions: create diagram actions, remove diagram actions and change diagram title action. Create diagram actions include create class diagram, sequence diagram, use case diagram and activity diagram actions. Remove diagram actions include remove class diagram, sequence diagram, use case diagram and activity diagram action. \par
+And a log function for undoable actions is provided by this design. It will log the execute/undo/redo actions in INFO level and log the exceptions in ERROR level.\par
+\par
+This design also provides implementations of transient actions: adjust diagram zoom level action and scroll diagram view action.\par
+\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.1\tab Design Patterns \par
+\pard\nowidctlpar\fi-420\li1140\tx1140\b0\f1 l\tab\f0 Template Pattern is used by UndoableAbstractAction to provide general undoable functionalities.\par
+\f1 l\tab\f0 Strategy Pattern is used for UndoableAction and TransientAction to be implemented as different undoable and transient actions.\par
+\pard\nowidctlpar\li720\tx1140\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.2\tab Industry Standards \par
+\pard\nowidctlpar\li720\b0 None\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.3\tab Required Algorithms\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0\b0\i 1.3.1\tab Constructs CreateDiagramAction\par
+\pard\nowidctlpar\li720\i0\f2 Call super("Create "+type+" diagram " + name)\par
+Create a new diagram with new DiagramImpl()\par
+Set the diagram type (the typeInfo property of the Diagram) to type\par
+Set the owner property of the Diagram to the owner. If owner is null, the root Model(get by UMLModelManager) will be the owner.\par
+To set the owner of a Diagram should:\par
+1. create a modelBridge by new UML1SemanticModelBridge()\par
+2. set the element of the modelBridge by modelBridge.setElement(owner)\par
+3. set the owner of the Diagram by diagram.setOwner(modelBridge )\par
+Set the diagram name (the name attribute of the Diagram) to the name\par
+Set the viewport, size and position of the diagrams to (0.0,0.0).\par
+Set the zoom attribute of the diagrams to "1.0".\par
+Get the ProjectConfigurationManager and the project language from the UMLModelManager, apply initial formatting for the diagram with the project language and ProjectConfigurationManager.\par
+Save diagram to the like named variable\par
+\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0\i\f0 1.3.2\tab Constructs CreateActivityDiagramAction\par
+\pard\nowidctlpar\li720\i0\f2\par
+Call super("Create activity diagram" + name)\par
+Create an ActivityGraph with new ActivityGraphImpl()\par
+If the owner is not null, set the context property of the ActivityGraph to the owner,\par
+Else set the context to a new use case element added directly to the Model.\par
+Create an empty CompositeState and set the "top" attribute of the ActivityGraph to it.\par
+Save the activityGraph to the variable\par
+Create the helpAction by new CreateActivityDiagramHelpAction(activityGraph, name) and save to the variable\par
+\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0 1.4\tab Component Class Overview\par
+\pard\nowidctlpar\li720 UndoableAbstractAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is an implementation of UndoableAction. It applies the template pattern to provide undoable functionalities for its subclass. And it will log the execute/undo/redo actions in INFO level and log the exceptions in ERROR level.\par
+\par
+\pard\nowidctlpar\li720\b ActionState\b0 :\par
+\pard\nowidctlpar\li1440 This class is an enumeration which representing the state of the undoable action.\par
+\par
+\pard\nowidctlpar\li720\b CreateDiagramAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is a subclass of UndoableAbstractAction. This action will support creating a class diagram, a use case diagram, a sequence diagram or an activity diagram.\par
+\par
+\pard\nowidctlpar\li720\b CreateClassDiagramAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is a subclass of CreateDiagramAction. The action will create a class diagram with no contained elements.\par
+\par
+\pard\nowidctlpar\li720\b CreateUseCaseDiagramAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is a subclass of CreateDiagramAction. The action will create a use case diagram with no contained elements.\par
+\par
+\pard\nowidctlpar\li720\b CreateSequenceDiagramAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is a subclass of CreateDiagramAction. The action will create a sequence diagram with no contained elements.\par
+\par
+\pard\nowidctlpar\li720\b CreateActivityDiagramHelperAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is a subclass of CreateDiagramAction. This action will help CreateActivityDiagramAction to create an activity diagram.\par
+\par
+\pard\nowidctlpar\li720\b CreateActivityDiagramAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is a subclass of UndoableAbstractAction. This action will support creating an activity graph diagram.\par
+\par
+\pard\nowidctlpar\li720\b RemoveDiagramAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is a subclass of UndoableAbstractAction. This action will support removing a class diagram, a use case diagram, a sequence diagram or an activity diagram.\par
+\par
+\pard\nowidctlpar\li720\b RemoveClassDiagramAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is a subclass of RemoveDiagramAction. The action will simply remove the class diagram.\par
+\par
+\pard\nowidctlpar\li720\b RemoveUseCaseDiagramAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is a subclass of RemoveDiagramAction. The action will simply remove the use case diagram.\par
+\par
+\pard\nowidctlpar\li720\b RemoveSequenceDiagramAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is a subclass of RemoveDiagramAction. The action will simply remove the sequence diagram.\par
+\par
+\pard\nowidctlpar\li720\b RemoveActivityDiagramAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is a subclass of UndoableAbstractAction. This action will support removing an activity graph diagram.\par
+\par
+\pard\nowidctlpar\li720\b ChangeDiagramTitleAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is a subclass of UndoableAbstractAction. This action will change the title of a diagram.\par
+\par
+\pard\nowidctlpar\li720\b AdjustDiagramZoomLevelAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is an implementation of TransientAction. This action will change the zoom attribute of a diagram.\par
+\par
+\pard\nowidctlpar\li720\b ScrollDiagramViewAction\b0 :\par
+\pard\nowidctlpar\li1440 This class is an implementation of TransientAction. This action will change the viewport property of a diagram.\par
+\f3\fs24\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.5\tab Component Exception Definitions\b0\par
+\pard\nowidctlpar\li720\b UndoableActionException\b0 :\par
+\pard\nowidctlpar\li710 This exception will be created and thrown by all the undoAction and redoAction methods in subclasses of UndoableAbstractAction when the redo/undo action can't complete successfully. This exception will be exposed to the UndoableAbstractAction's redo/undo methods.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.6\tab Thread Safety\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\cf1\b0 This component is not thread-safe.\par
+This component is considered to be used in single thread environment. The undoable actions are not thread safe by containing mutable state information. If an application using this component does intend to change the arguments in separate threads, then it should ensure the redo, undo and execute methods synchronized externally.\par
+The transient actions are thread safe by being immutable.\cf0\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 2.\tab Environment Requirements\tab\tab\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 2.1\tab Environment\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-360\li1080\tx1080\b0 Development language: Java1.5\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-360\li1080 Compile target: Java1.5\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 2.2\tab TopCoder Software Components\par
+\pard\nowidctlpar\fi-360\li1080\sa120\sl240\slmult0\tx1080\cf1\b0\f4\'b7\tab\f0 Action Manager 1.0\par
+\f4\'b7\tab\f0 Diagram Interchange 1.0\par
+\f4\'b7\tab\f0 UML Model - Core 1.0\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-360\li1080\sa120\sl240\slmult0 UML Model - Activity Graphs 1.0\par
+\pard\nowidctlpar\fi-360\li1080\sa120\sl240\slmult0\tx1080\f4\'b7\tab\f0 UML Model Manager 1.0\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-360\li1080\sa120\sl240\slmult0\tx1080 UML Project Configuration 1.0\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-360\li1080\sa120\sl240\slmult0\tx1080\cf0 Logging Wrapper 1.2\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 2.3\tab Third Party Components\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\nowidctlpar\s3\li720\sb120\sa60\sl240\slmult0\tx720\b0 None\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 3.\tab Installation and Configuration\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 3.1\tab Package Name\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\nowidctlpar\li720\sa120\cf1\b0 com.topcoder.uml.actions.diagram\cf0\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\nowidctlpar\sa120\sl240\slmult0\b 3.2\tab Configuration Parameters\cf1\b0\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\nowidctlpar\li720\sa120\sl240\slmult0 None\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\keepn\nowidctlpar\s2\fi-720\li720\sb120\sa60\sl240\slmult0\tx0\tx720\cf0\b 3.3\tab Dependencies Configuration\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\nowidctlpar\li720\sa120\sl240\slmult0\cf1\b0 Please review the documentation for the \cf0 Logging Wrapper \cf1 components for specifics on its configuration needs.\cf0\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 4.\tab Usage Notes\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 4.1\tab Required steps to test the component\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-360\li1080\sa120\tx1080\b0\f4\'b7\tab\f0 Extract the component distribution.\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-360\li1080\sa120\f4\'b7\tab\f0 Follow \cf2\ul Dependencies Configuration <C:\\filez\\work\\tc\\tcs_corp\\templates\\component\\>\cf0\ulnone .\par
+\f4{\pntext\f7\'B7\tab}\'b7\tab\f0 Execute \lquote ant test\rquote  within the directory that the distribution was extracted to.\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 4.2\tab Required steps to use the component\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\nowidctlpar\li720\sa120\sl240\slmult0\b0 Nothing special required\par
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlcont\pnf7\pnindent0{\pntxtb\'B7}}\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 4.3\tab Demo\par
+\pard\keepn\nowidctlpar\sb120\sa60\sl240\slmult0\tx0\b0\i 4.3.1\tab Simple Demo: Create Create/Remove Diagram Actions\par
+\i0\tab     \cf3\highlight4\f2 // Assume all the Diagrams is valid and added to the UMLModelManager instance\cf0\highlight0\i\f0\par
+\pard\nowidctlpar\li720\cf3\i0\f5\fs18 // If create/remove action is triggered by the user of UML Model Tool, the action will be created to be handled\cf0\par
+\cf3 // Create a ChangeEntityNameAction, which will create and add a new class diagram named "New Class Diagram"\cf0\par
+\cf1 UndoableAction action = \cf5\b new\cf1\b0  CreateClassDiagramAction(\cf5\b null\cf1\b0 , \cf6 "New Class Diagram"\cf1 );\cf0\par
+\cf3\par
+// Create a CreateUseCaseDiagramAction, which will create and add a new use case diagram named\cf0\par
+\cf3 // "New Use Case Diagram"\cf0\par
+\cf1\f6 action \f5 = \cf5\b new\cf1\b0  CreateUseCaseDiagramAction(\cf5\b null\cf1\b0 , \cf6 "New Use Case Diagram"\cf1 );\cf0\f6\fs20\par
+\cf3\fs18\par
+// Create a CreateSequenceDiagramAction, which will create and add a new sequence diagram named\cf0\par
+\cf3 // "New Sequence Diagram"\cf0\par
+\cf1 action = \cf5\b new\cf1\b0  CreateSequenceDiagramAction(\cf5\b null\cf1\b0 , \cf6 "New Sequence Diagram"\cf1 );\cf0\fs20\par
+\cf3\f5\fs18\par
+// Create a CreateActivityDiagramAction, which will create and add a new activity diagram named\cf0\par
+\cf3 // "New Activity Diagram"\cf0\par
+\cf1 action = \cf5\b new\cf1\b0  CreateActivityDiagramAction(\cf5\b null\cf1\b0 , \cf6 "New Activity Diagram"\cf1 );\cf0\f6\fs20\par
+\cf3\f5\fs18\par
+// Create a RemoveClassDiagramAction, which will remove the class diagram classDiagram\cf0\par
+\cf1 Diagram classDiagram = \cf5\b new\cf1\b0  Diagram();\cf0\par
+\cf1 action = \cf5\b new\cf1\b0  RemoveClassDiagramAction(classDiagram);\cf0\i\f0\fs20\par
+\cf3\i0\f5\fs18\par
+// Create a RemoveUseCaseDiagramAction, which will remove the use case diagram useCaseDiagram\cf0\par
+\cf1 Diagram useCaseDiagram = \cf5\b new\cf1\b0  Diagram();\cf0\par
+\cf1 action = \cf5\b new\cf1\b0  RemoveUseCaseDiagramAction(useCaseDiagram);\cf0\i\f0\fs20\par
+\cf3\i0\f6\fs18\par
+// Create a RemoveSequenceDiagramAction, which will remove the sequence diagram sequenceDiagram\cf0\par
+\cf1 Diagram sequenceDiagram = \cf5\b new\cf1\b0  Diagram();\cf0\par
+\cf1 action = \cf5\b new\cf1\b0  RemoveSequenceDiagramAction(sequenceDiagram);\cf0\i\f0\fs20\par
+\cf1\i0\f5\fs18\par
+Diagram activityDiagram = \cf5\b new\cf1\b0  Diagram();\cf0\par
+\cf1 activityDiagram.setName(\cf6 "Name"\cf1 );\cf0\par
+\cf1 Uml1SemanticModelBridge uml1SemanticModelBridge = \cf5\b new\cf1\b0  Uml1SemanticModelBridge();\cf0\par
+\cf1 uml1SemanticModelBridge.setElement(\cf5\b new\cf1\b0  ActivityGraphImpl());\cf0\par
+\cf1 activityDiagram.setOwner(uml1SemanticModelBridge);\cf0\par
+\cf3 // Create a RemoveActivityDiagramAction, which will remove the activity diagram activityDiagram\cf0\par
+\cf1 action = \cf5\b new\cf1\b0  RemoveActivityDiagramAction(activityDiagram);\cf0\par
+\cf1 action.die();\cf0\i\f0\fs20\par
+\par
+\pard\keepn\nowidctlpar\sb120\sa60\sl240\slmult0\tx0 4.3.2\tab Simple Demo: Handle Action\par
+\pard\nowidctlpar\li720\par
+\cf1\i0\f5\fs18 UndoableAction action = \cf5\b new\cf1\b0  CreateClassDiagramAction(\cf5\b null\cf1\b0 , \cf6 "New Class Diagram"\cf1 );\cf0\par
+\cf1\par
+\cf3 // If execute an action is triggered by the user of UML Model Tool, it will be executed after created.\cf0\par
+\cf3 // Execute the action\cf0\par
+\cf1 action.execute();\cf0\par
+\cf1\par
+\cf3 // If undo an action is triggered by the user of UML Model Tool, it will be undone\cf0\par
+\cf1 action.undo();\cf0\par
+\par
+\cf3 // If redo an action is triggered by the user of UML Model Tool, it will be redone\cf0\par
+\cf1 action.redo();\cf0\par
+\cf1\par
+\cf3 // If redo an action when it is already redone, it is invalid\cf0\par
+\cf1 action.redo();\cf0\par
+\par
+\cf3 // The log is taken CreateClassDiagramAction as example\cf0\par
+\cf3 // The log should be:\cf0\par
+\cf3 // Create Class diagram New Class Diagram\cf0\par
+\cf3 // Undo Create Class diagram New Class Diagram\cf0\par
+\cf3 // Redo Create Class diagram New Class Diagram\cf0\par
+\cf3 // Can't Redo Create Class diagram New Class Diagram. Current state is UNDOABLE.\cf0\f3\fs24\par
+\i\f0\fs20\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0 4.3.3\tab Simple Demo of Transient Actions\par
+\pard\nowidctlpar\li720\cf1\i0\f5\fs18 Diagram diagram = \cf5\b new\cf1\b0  Diagram();\cf0\par
+\cf3 // Create an adjust diagram zoom level action which will change zoom level of the diagram to 200%\cf0\par
+\cf1 AdjustDiagramZoomLevelAction adjustDiagramZoomLevelAction = \cf5\b new\cf1\b0  AdjustDiagramZoomLevelAction(diagram, 2.0);\cf0\par
+\cf3 // Execute the action\cf0\par
+\cf1 adjustDiagramZoomLevelAction.execute();\cf0\par
+\cf3 // check the zoom level\cf0\par
+\cf1\i assertEquals\i0 (\cf6 "The zoom level of the diagram is incorrect."\cf1 , 0, Double.\i compare\i0 (2.0, diagram.getZoom()));\cf0\par
+\cf1\par
+\cf3 // Create a new view port (10, 20)\cf0\par
+\cf1 Point viewport = \cf5\b new\cf1\b0  Point();\cf0\par
+\cf1 viewport.setX(10);\cf0\par
+\cf1 viewport.setY(20);\cf0\par
+\cf3 // Create a scroll diagram view action which will change view port of the diagram to (10,20)\cf0\par
+\cf1 ScrollDiagramViewAction scrollDiagramViewAction = \cf5\b new\cf1\b0  ScrollDiagramViewAction(diagram, viewport);\cf0\par
+\cf3 // Execute the action\cf0\par
+\cf1 scrollDiagramViewAction.execute();\cf0\par
+\cf3 // check the view port\cf0\par
+\cf1\i assertSame\i0 (\cf6 "The view port of the diagram is incorrect."\cf1 , viewport, diagram.getViewport());\cf0\f2\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0\fs24 5.\tab Future Enhancements\b0\fs20\par
+\pard\keepn\nowidctlpar\s1\li710\sb120\sa60\sl240\slmult0\tx360\cf1 None\cf0\par
+\pard\nowidctlpar\li720\sa120\par
+\pard\nowidctlpar\f3\fs24\par
+\f0\par
+}
+ 

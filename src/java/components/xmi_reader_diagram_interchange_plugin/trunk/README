@@ -1,0 +1,59 @@
+
+  Installation Requirements
+  -------------------------
+  JDK 1.4.2  <http://java.sun.com>
+  Apache Ant 1.6.5  <http://www.apache.org>
+  JUnit 3.8.1  <http://www.junit.org>
+      Note: The junit.jar should be located inside the Ant lib/ directory in 
+      order to build the component test cases.
+  
+  
+  TopCoder Software Environment Configuration
+  -------------------------------------------
+  TopCoder Software has defined a directory structure to promote component reuse
+  and facilitate Component Based Development.
+  
+  Steps to setting up your environment:
+  1- Designate a directory on your file system to be used as your TCS_HOME.
+     (i.e. c:\tcs or /etc/home/user/tcs)
+  2- Copy the sample topcoder_global.properties located in this distribution to your TCS_HOME directory.
+     (If the sample does not exists, you can create your own.
+      Using a text editor, create a file named topcoder_global.properties in your TCS_HOME directory.
+      This file will be used to overwrite any Ant build properties defined in each TopCoder Software 
+      component build script.)
+  3- The topcoder_global.properties is used to overwrite properties defined in each component's build.xml file.
+     This setup gives you the flexibility to define where files exist and what version all components should use.
+     
+     When overwriting properties, use the PROPERTYNAME=PROPERTYVALUE format.
+     To overwrite the TopCoder Software /lib and 3rd party /lib directories, set these properties in
+     the topcoder_global.properties file:
+     
+     tcs_libdir={PATH}
+     ext_libdir={PATH}
+     
+     For Example:
+     tcs_libdir=e:/tcs/cvs/tcs/lib/tcs
+     ext_libdir=e:/tcs/cvs/tcs/lib
+     
+     Notes: Only define one property per line.
+          : Enter text at the begining of the line.
+          : Do not include any whitespace.
+          
+     By overwriting the ext_libdir property, any reference to this property will now point to the new directory.
+     Some properties that use the ext_libdir property include junit.jar and xerces.jar.
+     If you prefer to define the location of xerces.jar specifically, you can also set xerces.jar in the 
+     topcoder_global.properties file.
+          
+  4- All TopCoder Software components are distributed with Ant (ant.apache.org) based build scripts
+     and Junit (www.junit.org) based test cases.  Please properly install and configure these tools 
+     before working with TopCoder Software components.
+     Note: Be sure to place the junit.jar in the ANT_HOME/lib directory.
+  
+  
+  Thanks for using TopCoder Software components!
+  
+  The TopCoder Software Team
+  service@topcodersoftware.com
+  
+
+ 

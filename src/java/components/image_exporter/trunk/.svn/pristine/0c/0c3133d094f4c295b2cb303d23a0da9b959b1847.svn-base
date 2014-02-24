@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=Image Exporter
+component.distfilename=image_exporter
+component.package=com.topcoder.swing.imageexporter
+component.packagedir=com/topcoder/swing/imageexporter
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

@@ -1,0 +1,3 @@
+Modify the "build.xml" to update the value of "junit" and "jfcunit", maybe you also need to configure the path for dependencies.
+and jfcunit.jar can be obtained in http://jfcunit.sourceforge.net, the test also need jakarta-regexp-1.4.jar, this can be obtained in
+http://www.ibiblio.org/maven/regexp/jakarta-regexp-1.4.jar

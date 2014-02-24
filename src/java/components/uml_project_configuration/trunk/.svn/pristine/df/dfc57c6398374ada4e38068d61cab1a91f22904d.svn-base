@@ -1,0 +1,9 @@
+#property file defining the components information
+component.name=UML Project Configuration
+component.distfilename=uml_project_configuration
+component.package=com.topcoder.uml.projectconfiguration
+component.packagedir=com/topcoder/uml
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

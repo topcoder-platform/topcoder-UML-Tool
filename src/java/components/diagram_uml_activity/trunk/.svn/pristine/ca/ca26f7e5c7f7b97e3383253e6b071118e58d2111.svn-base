@@ -1,0 +1,429 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff1\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Palatino};}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial{\*\falt Arial};}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New{\*\falt Courier New};}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol{\*\falt Symbol};}{\f4\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Helvetica;}{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings{\*\falt Wingdings};}
+{\f36\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma{\*\falt Lucidasans};}{\f37\froman\fcharset0\fprq2{\*\panose 02040602050305030304}Book Antiqua{\*\falt Palatino};}{\f38\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Palatino};}
+{\f39\froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Palatino};}{\f41\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Palatino};}{\f42\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Palatino};}
+{\f43\froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Palatino};}{\f44\froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Palatino};}{\f45\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Palatino};}
+{\f46\froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Palatino};}{\f48\fswiss\fcharset238\fprq2 Arial CE{\*\falt Arial};}{\f49\fswiss\fcharset204\fprq2 Arial Cyr{\*\falt Arial};}{\f51\fswiss\fcharset161\fprq2 Arial Greek{\*\falt Arial};}
+{\f52\fswiss\fcharset162\fprq2 Arial Tur{\*\falt Arial};}{\f53\fswiss\fcharset177\fprq2 Arial (Hebrew){\*\falt Arial};}{\f54\fswiss\fcharset178\fprq2 Arial (Arabic){\*\falt Arial};}{\f55\fswiss\fcharset186\fprq2 Arial Baltic{\*\falt Arial};}
+{\f56\fswiss\fcharset163\fprq2 Arial (Vietnamese){\*\falt Arial};}{\f58\fmodern\fcharset238\fprq1 Courier New CE{\*\falt Courier New};}{\f59\fmodern\fcharset204\fprq1 Courier New Cyr{\*\falt Courier New};}
+{\f61\fmodern\fcharset161\fprq1 Courier New Greek{\*\falt Courier New};}{\f62\fmodern\fcharset162\fprq1 Courier New Tur{\*\falt Courier New};}{\f63\fmodern\fcharset177\fprq1 Courier New (Hebrew){\*\falt Courier New};}
+{\f64\fmodern\fcharset178\fprq1 Courier New (Arabic){\*\falt Courier New};}{\f65\fmodern\fcharset186\fprq1 Courier New Baltic{\*\falt Courier New};}{\f66\fmodern\fcharset163\fprq1 Courier New (Vietnamese){\*\falt Courier New};}
+{\f78\fswiss\fcharset238\fprq2 Helvetica CE;}{\f79\fswiss\fcharset204\fprq2 Helvetica Cyr;}{\f81\fswiss\fcharset161\fprq2 Helvetica Greek;}{\f82\fswiss\fcharset162\fprq2 Helvetica Tur;}{\f83\fswiss\fcharset177\fprq2 Helvetica (Hebrew);}
+{\f84\fswiss\fcharset178\fprq2 Helvetica (Arabic);}{\f85\fswiss\fcharset186\fprq2 Helvetica Baltic;}{\f86\fswiss\fcharset163\fprq2 Helvetica (Vietnamese);}{\f398\fswiss\fcharset238\fprq2 Tahoma CE{\*\falt Lucidasans};}
+{\f399\fswiss\fcharset204\fprq2 Tahoma Cyr{\*\falt Lucidasans};}{\f401\fswiss\fcharset161\fprq2 Tahoma Greek{\*\falt Lucidasans};}{\f402\fswiss\fcharset162\fprq2 Tahoma Tur{\*\falt Lucidasans};}
+{\f403\fswiss\fcharset177\fprq2 Tahoma (Hebrew){\*\falt Lucidasans};}{\f404\fswiss\fcharset178\fprq2 Tahoma (Arabic){\*\falt Lucidasans};}{\f405\fswiss\fcharset186\fprq2 Tahoma Baltic{\*\falt Lucidasans};}
+{\f406\fswiss\fcharset163\fprq2 Tahoma (Vietnamese){\*\falt Lucidasans};}{\f407\fswiss\fcharset222\fprq2 Tahoma (Thai){\*\falt Lucidasans};}{\f408\froman\fcharset238\fprq2 Book Antiqua CE{\*\falt Palatino};}
+{\f409\froman\fcharset204\fprq2 Book Antiqua Cyr{\*\falt Palatino};}{\f411\froman\fcharset161\fprq2 Book Antiqua Greek{\*\falt Palatino};}{\f412\froman\fcharset162\fprq2 Book Antiqua Tur{\*\falt Palatino};}
+{\f415\froman\fcharset186\fprq2 Book Antiqua Baltic{\*\falt Palatino};}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;
+\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red255\green255\blue255;}{\stylesheet{
+\ql \li0\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\s1\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin720\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 2;}{\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 3;}{\s4\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin720\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 4;}{\s5\ql \li2880\ri0\sb240\sa60\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl4\outlinelevel4\adjustright\rin0\lin2880\itap0 \f1\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 5;}{\s6\ql \li2880\ri0\sb240\sa60\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl5\outlinelevel5\adjustright\rin0\lin2880\itap0 \i\f1\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 6;}{\s7\ql \li2880\ri0\sb240\sa60\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl6\outlinelevel6\adjustright\rin0\lin2880\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 7;}{\s8\ql \li2880\ri0\sb240\sa60\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl7\outlinelevel7\adjustright\rin0\lin2880\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 8;}{\s9\ql \li2880\ri0\sb240\sa60\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl8\outlinelevel8\adjustright\rin0\lin2880\itap0 \b\i\f1\fs18\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 9;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\s15\qj \li720\ri0\sb80\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \f1\fs20\cf1\lang3081\langfe1033\cgrid\langnp3081\langfenp1033 \sbasedon0 \snext15 Paragraph2;}{\s16\qc \li0\ri0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\b\f1\fs36\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 Title;}{\s17\qc \li0\ri0\sa60\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \i\f1\fs36\lang3081\langfe1033\cgrid\langnp3081\langfenp1033 
+\sbasedon0 \snext17 Subtitle;}{\s18\ql \fi-900\li900\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin900\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext18 Normal Indent;}{
+\s19\ql \li0\ri720\sb240\sa60\sl240\slmult0\nowidctlpar\tqr\tx9360\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 1;}{
+\s20\ql \li432\ri720\sl240\slmult0\nowidctlpar\tqr\tx9360\aspalpha\aspnum\faauto\adjustright\rin720\lin432\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 2;}{\s21\ql \li864\ri0\sl240\slmult0
+\nowidctlpar\tx1440\tqr\tx9360\aspalpha\aspnum\faauto\adjustright\rin0\lin864\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 3;}{\s22\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext22 header;}{\s23\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext23 footer;}{\*\cs24 \additive \sbasedon10 page number;}{\s25\ql \fi-432\li720\ri0\sl240\slmult0
+\nowidctlpar{\*\pn \pnlvlbody\ilvl11\ls2047\pnrnot0\pnf2\pnfs16\pnstart1\pnindent432\pnhang {\pntxtb ?}}\aspalpha\aspnum\faauto\ls2047\ilvl11\adjustright\rin0\lin720\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext25 
+Bullet1;}{\s26\ql \fi-360\li1440\ri0\sl240\slmult0\nowidctlpar{\*\pn \pnlvlbody\ilvl11\ls2047\pnrnot0\pnf3\pnfs16\pnstart1\pnindent360\pnhang {\pntxtb ?}}\aspalpha\aspnum\faauto\ls2047\ilvl11\adjustright\rin0\lin1440\itap0 
+\f1\fs20\cf9\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext26 Bullet2;}{\s27\ql \li0\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext27 Tabletext;}{\s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext28 Body Text;}{\s29\ql \li0\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \cbpat9 \f36\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext29 \ssemihidden Document Map;}{\*\cs30 \additive \fs20\super \sbasedon10 \ssemihidden footnote reference;}{\s31\ql \fi-360\li360\ri0\sb40\sa40\sl240\slmult0\keep\keepn\nowidctlpar\brdrb\brdrs\brdrw15\brdrcf1 
+\aspalpha\aspnum\faauto\adjustright\rin0\lin360\itap0 \f4\fs16\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext31 \ssemihidden footnote text;}{\s32\qc \li0\ri0\sb480\sa60\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\b\f1\fs32\lang1033\langfe1033\kerning28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext32 Main Title;}{\s33\qj \li0\ri0\sb80\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext33 Paragraph1;}{\s34\qj \li1530\ri0\sb80\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1530\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext34 Paragraph3;}{
+\s35\qj \li2250\ri0\sb80\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin2250\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext35 Paragraph4;}{\s36\ql \li600\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin600\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 4;}{\s37\ql \li800\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin800\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 5;}{\s38\ql \li1000\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1000\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 6;}{\s39\ql \li1200\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1200\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 7;}{\s40\ql \li1400\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1400\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 8;}{\s41\ql \li1600\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1600\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 9;}{\s42\ql \li720\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \i\f1\fs20\ul\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext42 Body Text 2;}{\s43\qj \li0\ri0\sb120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\f37\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext43 Body;}{\s44\qj \li720\ri360\sb120\widctlpar\jclisttab\tx360\tx720\aspalpha\aspnum\faauto\ls81\adjustright\rin360\lin720\itap0 
+\f37\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext44 Bullet;}{\s45\ql \fi-360\li1080\ri0\sa120\sl240\slmult0\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls8\adjustright\rin0\lin1080\itap0 
+\f1\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext28 \sautoupd \styrsid722709 InfoBlue;}{\*\cs46 \additive \ul\cf2 \sbasedon10 Hyperlink;}{\*\cs47 \additive \ul\cf12 \sbasedon10 FollowedHyperlink;}{\*\cs48 \additive \b 
+\sbasedon10 Strong;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\listtable{\list\listtemplateid-1{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144\levelindent0{\leveltext\'02\'00.;}{\levelnumbers
+\'01;}\s1}{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}\s2}{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelold\levelspace144\levelindent0{\leveltext\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\s3}{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144\levelindent0{\leveltext
+\'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\s4}{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144\levelindent0{\leveltext\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\s5
+}{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144\levelindent0{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\s6}{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\s7}{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelold\levelspace144\levelindent0{\leveltext\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\s8}{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144
+\levelindent0{\leveltext\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\s9}{\listname ;}\listid-5}{\list\listtemplateid2071078380\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\leveltemplateid-974121232\'01-;}{\levelnumbers;}\loch\af1\hich\af1\dbch\af0\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}
+\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400
+\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid133839141}
+{\list\listtemplateid683723970\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080
+\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid168252355}{\list\listtemplateid-505747262\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace0
+\levelindent0{\leveltext\leveltemplateid-603947636\'01-;}{\levelnumbers;}\loch\af1\hich\af1\dbch\af0\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}
+\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960
+\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid254823870}{\list\listtemplateid2071078380{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\'01-;}{\levelnumbers;}\loch\af1\hich\af1\dbch\af0\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 
+\fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840
+\jclisttab\tx6840\lin6840 }{\listname ;}\listid472675464}{\list\listtemplateid-1075038572\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520
+\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid568855267}{\list\listtemplateid-1059837802\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680
+\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid926965074}{\list\listtemplateid507960286
+\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840
+\jclisttab\tx6840\lin6840 }{\listname ;}\listid1178543496}{\list\listtemplateid-477056020\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid271066630
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \s45\fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520
+\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid1444956161}{\list\listtemplateid610721838\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680
+\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid1903901903}}{\*\listoverridetable
+{\listoverride\listid-5\listoverridecount0\ls1}{\listoverride\listid168252355\listoverridecount0\ls2}{\listoverride\listid168252355\listoverridecount9{\lfolevel}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}
+{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat
+\levelstartat1}\ls3}{\listoverride\listid926965074\listoverridecount0\ls4}{\listoverride\listid1178543496\listoverridecount0\ls5}{\listoverride\listid133839141\listoverridecount0\ls6}{\listoverride\listid472675464\listoverridecount0\ls7}
+{\listoverride\listid1444956161\listoverridecount0\ls8}{\listoverride\listid1903901903\listoverridecount0\ls9}{\listoverride\listid568855267\listoverridecount0\ls10}{\listoverride\listid254823870\listoverridecount0\ls11}}{\*\pgptbl {\pgp\ipgp0\itap0\li0
+\ri0\sb0\sa0}}{\*\rsidtbl \rsid26753\rsid28375\rsid73725\rsid85635\rsid88735\rsid216064\rsid221568\rsid277975\rsid284007\rsid286067\rsid329094\rsid331698\rsid352138\rsid354455\rsid355380\rsid469133\rsid489963\rsid669130\rsid672568\rsid678423\rsid722709
+\rsid731399\rsid936518\rsid1010740\rsid1074092\rsid1186389\rsid1187651\rsid1196247\rsid1205671\rsid1311101\rsid1319912\rsid1327031\rsid1338110\rsid1338714\rsid1528028\rsid1534876\rsid1592585\rsid1600052\rsid1713485\rsid1801436\rsid1929506\rsid2041437
+\rsid2058537\rsid2112262\rsid2165969\rsid2193617\rsid2368242\rsid2382586\rsid2434101\rsid2436395\rsid2445008\rsid2494354\rsid2503481\rsid2647452\rsid2692576\rsid2705885\rsid2764794\rsid2772758\rsid2819267\rsid2834665\rsid3024750\rsid3036598\rsid3107531
+\rsid3162586\rsid3211288\rsid3350568\rsid3412584\rsid3414930\rsid3432285\rsid3435319\rsid3474526\rsid3477514\rsid3478768\rsid3482490\rsid3686058\rsid3750043\rsid3807916\rsid3952857\rsid3955920\rsid4205397\rsid4210758\rsid4216190\rsid4415105\rsid4526675
+\rsid4526792\rsid4541362\rsid4680006\rsid4745852\rsid4793433\rsid4815450\rsid4854698\rsid5012741\rsid5057936\rsid5117919\rsid5316414\rsid5403297\rsid5591311\rsid5720884\rsid5767691\rsid5922770\rsid5972927\rsid5986645\rsid6109660\rsid6360810\rsid6559253
+\rsid6689013\rsid6885937\rsid6952246\rsid7087015\rsid7153056\rsid7213655\rsid7303775\rsid7344790\rsid7358062\rsid7420600\rsid7484902\rsid7547847\rsid7552538\rsid7555695\rsid7668005\rsid7676468\rsid7734566\rsid7825698\rsid7866111\rsid7870715\rsid7876537
+\rsid7895628\rsid7950396\rsid8015241\rsid8136217\rsid8197022\rsid8459247\rsid8474468\rsid8606059\rsid8741351\rsid8791957\rsid8862213\rsid8878396\rsid8931435\rsid9256454\rsid9310009\rsid9315240\rsid9321741\rsid9323694\rsid9329053\rsid9376096\rsid9596079
+\rsid9656966\rsid9728654\rsid9731717\rsid9899940\rsid9923984\rsid10042784\rsid10246874\rsid10317888\rsid10367469\rsid10442207\rsid10505126\rsid10832657\rsid10838933\rsid10954326\rsid11015089\rsid11088392\rsid11151481\rsid11488688\rsid11540566\rsid11606297
+\rsid11610226\rsid11693102\rsid11732030\rsid11737273\rsid11812950\rsid11958824\rsid11995941\rsid12214341\rsid12282108\rsid12326738\rsid12338899\rsid12353051\rsid12459316\rsid12471254\rsid12522473\rsid12523451\rsid12612270\rsid12653308\rsid12914507
+\rsid12995501\rsid13006793\rsid13120310\rsid13329466\rsid13376853\rsid13598236\rsid13636723\rsid13663459\rsid13718546\rsid13921690\rsid13972366\rsid14096098\rsid14241178\rsid14431806\rsid14550879\rsid14568567\rsid14578303\rsid14690400\rsid14971755
+\rsid15085102\rsid15090729\rsid15144219\rsid15153245\rsid15213793\rsid15225488\rsid15296542\rsid15472841\rsid15484202\rsid15557719\rsid15605198\rsid15799101\rsid15800561\rsid15803416\rsid15929312\rsid16023214\rsid16320140\rsid16337274\rsid16409542
+\rsid16468342\rsid16474815\rsid16525620\rsid16592156}{\*\generator Microsoft Word 11.0.5604;}{\info{\title Requirements Specification}{\subject UML Tool}{\author Luca}{\keywords Software Requirements}{\operator Unknown}
+{\creatim\yr2006\mo9\dy27\hr21\min45}{\revtim\yr2006\mo10\dy20\hr15\min7}{\printim\yr2002\mo5\dy28\hr17\min14}{\version67}{\edmins291}{\nofpages6}{\nofwords1853}{\nofchars10566}{\*\company TopCoder Software}{\*\category Specification}{\nofcharsws12395}
+{\vern24689}}\margl1440\margr1440 \widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dghspace180\dgvspace180\dghorigin1701\dgvorigin1984\dghshow0\dgvshow0
+\jexpand\viewkind1\viewscale110\pgbrdrhead\pgbrdrfoot\bdrrlswsix\nolnhtadjtbl\rsidroot15472841 \fet0{\*\ftnsep \pard\plain \ql \li0\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid5972927 \chftnsep 
+\par }}{\*\ftnsepc \pard\plain \ql \li0\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid5972927 \chftnsepc 
+\par }}{\*\aftnsep \pard\plain \ql \li0\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid5972927 \chftnsep 
+\par }}{\*\aftnsepc \pard\plain \ql \li0\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid5972927 \chftnsepc 
+\par }}\sectd \psz1\linex0\endnhere\sectdefaultcl\sftnbj {\header \pard\plain \qc \li0\ri0\sl240\slmult0\nowidctlpar\tqc\tx4320\tqr\tx8640\faauto\rin0\lin0\itap0\pararsid15557719 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\b\fs32\insrsid15557719 [ T}{\b\fs28\insrsid15557719 OP}{\b\fs32\cf6\insrsid15557719 C}{\b\fs28\cf6\insrsid15557719 ODER }{\b\fs28\insrsid15557719 ]}{\b\insrsid15557719 
+\par }\pard\plain \s22\qc \li0\ri0\sl240\slmult0\nowidctlpar\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15557719 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15557719 SOFTWARE}{
+\b\fs24\insrsid12459316\charrsid15557719 
+\par }}{\footer \trowd \irow0\irowband0\lastrow \ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw15 \trbrdrl\brdrs\brdrw15 \trbrdrb\brdrs\brdrw15 \trbrdrr\brdrs\brdrw15 \trbrdrh\brdrs\brdrw15 \trbrdrv\brdrs\brdrw15 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3162\clshdrawnil \cellx3054\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb
+\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3162\clshdrawnil \cellx6216\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3162\clshdrawnil \cellx9378\pard\plain 
+\ql \li0\ri360\sl240\slmult0\nowidctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin360\lin0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Confidential\cell }\pard \qc \li0\ri0\sl240\slmult0
+\nowidctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\insrsid12459316 {\field{\*\fldinst SYMBOL 211 \\f "Symbol" \\s 10}{\fldrslt\f3\fs20}}}{\insrsid12459316 TopCoder Software, Inc. 2002\cell }\pard \qr \li0\ri0\sl240\slmult0
+\nowidctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\insrsid12459316 Page }{\field{\*\fldinst {\cs24\insrsid12459316  PAGE }}{\fldrslt {\cs24\lang1024\langfe1024\noproof\insrsid12522473 4}}}{\insrsid12459316 \cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\insrsid12459316 \trowd \irow0\irowband0\lastrow \ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw15 \trbrdrl\brdrs\brdrw15 \trbrdrb\brdrs\brdrw15 \trbrdrr\brdrs\brdrw15 \trbrdrh
+\brdrs\brdrw15 \trbrdrv\brdrs\brdrw15 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3162\clshdrawnil \cellx3054\clvertalt\clbrdrt
+\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3162\clshdrawnil \cellx6216\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3162\clshdrawnil 
+\cellx9378\row }\pard\plain \s23\ql \li0\ri0\sl240\slmult0\nowidctlpar\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid11488688 {\*\bkmkstart _Toc456598592}{\*\bkmkstart _Toc10301853}Diagram }{
+\insrsid7344790\charrsid7344790 UML }{\insrsid3750043\charrsid3750043 Activity }{\insrsid11015089 Elements}{\insrsid1319912  }{\insrsid9731717 1.0 }{\insrsid12459316 Requirements Specification
+\par {\*\bkmkstart _Toc456598593}{\*\bkmkend _Toc456598592}{\listtext\pard\plain\s1 \b\f1\insrsid12459316 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard \s1\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\outlinelevel0
+\pnrdate1717955493\pnrstart0\pnrxst2\pnrxst0\pnrxst0\pnrxst0\pnrxst46\pnrxst0\pnrstop6\pnrstart1\pnrrgb1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0
+\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc1\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr1\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin720\itap0 {\insrsid12459316 Scope
+
+\par {\*\bkmkend _Toc456598593}{\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 1.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Overview
+\par }\pard\plain \s45\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15296542 \f1\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid1187651\charrsid14096098 The}{\insrsid1187651  }{
+\insrsid1187651\charrsid13636723 Diagram UML }{\insrsid11488688\charrsid3750043 Activity }{\insrsid1187651\charrsid13636723 Elements}{\insrsid1187651 
+ component provides the graphical diagram elements and edges representing the model elements specific to an activity diagram.}{\insrsid12459316\charrsid14096098 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 1.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Logic Requirements
+\par {\*\bkmkstart _Toc10301867}{\*\bkmkstart _Toc10301854}{\*\bkmkend _Toc10301853}{\listtext\pard\plain\s3 \i\f1\fs20\insrsid3036598 \hich\af1\dbch\af0\loch\f1 1.2.1\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid4745852 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid3036598 InitialNode}{\insrsid11693102  }{\insrsid12523451 Node}{
+\insrsid4745852 
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid1187651 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid1187651 
+This class is a concrete Node. It takes its information from the }{\insrsid13972366 Pseudostate class with the kind equal to Pseudostate.INITIAL}{\insrsid1187651  from the UML Model and from the GraphNode associated with it.
+\par The structure of the GraphNode that corresponds to }{\insrsid13972366 it}{\insrsid1187651  is given in section 3.2.1.
+\par The stereotype compartment could be hidden. The \lquote isVisible\rquote  attribute of the compartment graph node is for this property. There should be methods to tell the interface that the compartment\rquote }{\insrsid11693102 s}{\insrsid1187651 
+ visibility has changed. The }{\insrsid11693102 initial node}{\insrsid1187651  will be resized and an event will be triggered, to signal the size change (the reason is also passed, as a string).}{\insrsid1187651\charrsid8606059  }{\insrsid1187651 
+The node should also have a method that computes the preferred size, according to the new visible/hidden compartment.
+\par }\pard \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid3435319 {\insrsid8878396 The name compartment will not be visible if there is no name.}{\insrsid3435319 
+\par }\pard \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid8878396 {\insrsid1187651 The stereotype compartment do not react to any events. They let the events pass to the }{\insrsid3482490 
+component}{\insrsid1187651 , which reacts as described below.}{\insrsid8878396 
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\faauto\rin0\lin720\itap0\pararsid3107531 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid1187651 
+The whole component will react to a mouse double-click event, by showing the edit control of the DiagramViewer in order to edit the name of the }{\insrsid10505126 node}{\insrsid1187651 . }{\insrsid3107531 
+The text of the Name compartment will not be shown while the edit control is up (though the node will not be resized). The event should provide to the DiagramViewer the position where to show the edit control, so it
+ fits on top of the Name compartment, and the initial text. It will also register a listener to receive the event that the text was entered or cancelled in the edit control. It will remove the listener after receiving the event.
+\par The new name will not be se
+t. An event is generated instead, with the old and new name, and with the node and graph node for which the name is set. The node will also provide a method to check the size that will be required for the node if the name would be set (this is required, a
+s
+ other representations of the same model element could be resized as a side effect). The application will register for the event and, eventually it will set the new name. The component should make it easy for the application to set the new name, by perfor
+ming the resize needed when the name is changed. The method for setting the name will perform the resize of the name, and it will generate a resize event (the reason is also passed, as a string).
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid1187651 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid1187651 
+The graphical component will not be implemented as a drag and drop DropTarget, as it is not a container. However, it should not interfere with the drag and drop action initiated by the user. The user should be able to drop the element on top of the }{
+\insrsid3107531 node}{\insrsid1187651  and the event should be handled by the diagram behind it (as the intention of the user is to add the element to the diagram).
+\par The }{\insrsid11088392 node}{\insrsid1187651  should define a minimum size. It should also have a method that computes the preferred size, according to the name compartment and the }{\insrsid11088392 stereotype compartment}{\insrsid1187651 
+. It should also provide a method to compute the preferred size if }{\insrsid11088392 the name or the stereotypes change}{\insrsid1187651 .
+\par }{\insrsid3435319 The node will show only the four selection corners, when it is selected (not the ones at the middle of the edges). The corners will be shown around the round shape.
+\par The round shape is the base of the component. It should remain at the same place if the stereotype compartment is shown or hidden.
+\par }{\insrsid1187651 In case the diagram viewer\rquote s flag for adding new elements from the toolbar is on, the }{\insrsid11088392 node}{\insrsid1187651  should react to mouse events differently}{\insrsid11088392 , by lett
+ing the events pass to the element behind.}{\insrsid1187651 
+\par There will be a connector for the edges defined for the }{\insrsid11088392 node}{\insrsid1187651 . It will behave differently than the connector for the rectangle shaped elements. }{\insrsid11088392 
+The last segment of the edge should point to the closest point on the round }{\insrsid8878396 shape}{\insrsid1187651 .}{\insrsid8878396  The name compartment and the stereotype compartment should be taken into consideration, when they are active.}{
+\insrsid1187651 
+\par }\pard \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid4745852 {\insrsid1187651 There should be a way to set }{\insrsid8878396 a }{\insrsid1187651 
+popup that will be shown if a popup trigger mouse event action occurs. There will be a popup general for the component.}{\insrsid4745852 
+\par }\pard \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9376096 {\insrsid9376096 The node should have several properties configurable through }{\insrsid216064 graph node}{\insrsid9376096 
+:
+\par {\listtext\pard\plain\s28 \f1\fs20\insrsid9376096 \hich\af1\dbch\af0\loch\f1 -\tab}}\pard \s28\ql \fi-360\li1080\ri0\sa120\sl240\slmult0\keep\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls11\adjustright\rin0\lin1080\itap0\pararsid9376096 {
+\insrsid9376096 the stroke color (defaults to black)
+\par {\listtext\pard\plain\s28 \f1\fs20\insrsid9376096 \hich\af1\dbch\af0\loch\f1 -\tab}the fill color (defaults to black)
+\par {\listtext\pard\plain\s28 \f1\fs20\insrsid9376096 \hich\af1\dbch\af0\loch\f1 -\tab}the font color (defaults to black)
+\par {\listtext\pard\plain\s28 \f1\fs20\insrsid9376096 \hich\af1\dbch\af0\loch\f1 -\tab}the font family (defaults to Arial)
+\par {\listtext\pard\plain\s28 \f1\fs20\insrsid9376096 \hich\af1\dbch\af0\loch\f1 -\tab}the font size (defaults to 10).
+\par }\pard \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9376096 {\insrsid5720884 The component should receive events only in the round shape and in the text compartments.}{
+\insrsid9376096 
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid8459247 \hich\af1\dbch\af0\loch\f1 1.2.2\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid4745852 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid8459247 ObjectFlowNode}{\insrsid4745852  }{\insrsid7213655 Node}{\insrsid4745852 
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid7213655 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7213655 This class is a co
+ncrete Node. It takes its information from the ObjectFlowNode from the UML Model and from the GraphNode associated with it.
+\par The structure of the GraphNode that corresponds to it is given in section 3.2.1.
+\par }\pard \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid4745852 {\insrsid4745852 Th}{\insrsid11995941 e node is similar to the one above}{\insrsid10505126 , with a few differences}{
+\insrsid4745852 .
+\par }{\insrsid10505126 The stereotype compartment and the name compartment are contained in the shape.}{\insrsid11995941 
+\par }{\insrsid10505126 All the selection corners are shown.
+\par The connector for the edges is the default connector for the rectangle shaped elements.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid8459247 \hich\af1\dbch\af0\loch\f1 1.2.3\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid8459247 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid8459247 Action}{\insrsid286067 State Node}{\insrsid8459247 
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5720884 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid5720884 Th
+is class is a concrete Node. It takes its information from the ActionState from the UML Model and from the GraphNode associated with it.
+\par The structure of the GraphNode that corresponds to it is given in section 3.2.1.
+\par The node is similar to the one above (ObjectFlowNode), with a few differences, related to the shape.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid8459247 \hich\af1\dbch\af0\loch\f1 1.2.4\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid8459247 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid8459247 SendSignalAction }{\insrsid286067 Node}{\insrsid8459247 
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid10367469 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid10367469 
+This class is a concrete Node. It takes its information from the SimpleAction}{\insrsid10367469\charrsid11812950  }{\insrsid10367469 with a tag definition attached (TagDefinition(\'93SendSignalAction\'94).value=\'94True\'94) from th
+e UML Model and from the GraphNode associated with it.
+\par The structure of the GraphNode that corresponds to it is given in section 3.2.1.
+\par The node is similar to the one above (ObjectFlowNode), with a few differences, related to the shape.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid8459247 \hich\af1\dbch\af0\loch\f1 1.2.5\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid8459247 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid8459247 Accep}{\insrsid286067 t}{\insrsid8459247 EventAction }{\insrsid286067 Node}{\insrsid8459247 
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid26753 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid26753 
+This class is a concrete Node. It takes its information from the SimpleAction}{\insrsid26753\charrsid11812950  }{\insrsid26753 with a tag definition attached (TagDefinition(\'93AcceptEventAction\'94).value=\'94True\'94
+) from the UML Model and from the GraphNode associated with it.
+\par The structure of the GraphNode that corresponds to it is given in section 3.2.1.
+\par The node is similar to the one above (ObjectFlowNode), with a few differences, related to the shape.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid8459247 \hich\af1\dbch\af0\loch\f1 1.2.6\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid8459247 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid8459247 ForkNode }{\insrsid286067 Node}{\insrsid8459247 
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid26753 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid26753 
+This class is a concrete Node. It takes its information from the Pseudostate with the kind equal to Pseudostate.FORK from the UML Model and from the GraphNode associated with it.
+\par The structure of the GraphNode that corresponds to it is given in section 3.2.1.
+\par The node is similar to the one above (InitialNode), with a few differences, related to the shape.
+\par In addition, the node has only the selection corners from the middle of the vertical edges (only the width can change).
+\par The connector for the edges works a bit differently. The incoming transitions go directly to the point at the top. The outgoing transitions go from the closest point of the two outer points at the bottom.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid8459247 \hich\af1\dbch\af0\loch\f1 1.2.7\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid8459247 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid8459247 JoinNode }{\insrsid286067 Node}{\insrsid8459247 
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid26753 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid26753 
+This class is a concrete Node. It takes its information from the Pseudostate with the kind equal to Pseudostate.JOIN from the UML Model and from the GraphNode associated with it.
+\par The structure of the GraphNode that corresponds to it is given in section 3.2.1.
+\par The node is similar to the one above (InitialNode), with a few differences, related to the shape.
+\par In addition, the node has only the selection corners from the middle of the vertical edges (only the width can change).
+\par The connector for the edges works a bit differently. The incoming transitions go to the closest point of the two outer points at the top.}{\insrsid26753\charrsid26753  }{\insrsid26753 The outgoing transitions go directly from the point at the bottom.
+
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid8459247 \hich\af1\dbch\af0\loch\f1 1.2.8\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid8459247 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid8459247 DecisionNode }{\insrsid286067 Node}{\insrsid8459247 
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5591311 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid5591311 
+This class is a concrete Node. It takes its information from the Pseudostate with the kind equal to Pseudostate.CHOICE from the UML Model and from the GraphNode associated with it.
+\par The structure of the GraphNode that corresponds to it is given in section 3.2.1.
+\par The node is similar to the one above (InitialNode), with a few differences, related to the shape.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid8459247 \hich\af1\dbch\af0\loch\f1 1.2.9\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid8459247 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid8459247 MergeNode }{\insrsid286067 Node}{\insrsid8459247 
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5591311 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid5591311 This class is a concrete Node. It take
+s its information from the Pseudostate with the kind equal to Pseudostate.JUNCTION from the UML Model and from the GraphNode associated with it.
+\par The structure of the GraphNode that corresponds to it is given in section 3.2.1.
+\par The node is similar to the one above (InitialNode), with a few differences, related to the shape.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid8459247 \hich\af1\dbch\af0\loch\f1 1.2.10\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid8459247 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid8459247 FlowFinalNode }{\insrsid286067 Node}{\insrsid8459247 
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid4680006 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid4680006 
+This class is a concrete Node. It takes its information from the FinalState with a tag definition attached (TagDefinition(\'93FinalNodeType\'94).value=\'94FlowFinalNode\'94) from the UML Model and from the GraphNode associated with it.
+\par The structure of the GraphNode that corresponds to it is given in section 3.2.1.
+\par The node is similar to the one above (InitialNode), with a few differences, related to the shape.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid8459247 \hich\af1\dbch\af0\loch\f1 1.2.11\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid8459247 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid8459247 FinalNode }{\insrsid286067 Node}{\insrsid8459247 
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid4680006 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid4680006 
+This class is a concrete Node. It takes its information from the FinalState from the UML Model and from the GraphNode associated with it.
+\par The structure of the GraphNode that corresponds to it is given in section 3.2.1.
+\par The node is similar to the one above (InitialNode), with a few differences, related to the shape.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid12471254 \hich\af1\dbch\af0\loch\f1 1.2.12\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid3955920 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12471254 Transition}{\insrsid3955920  }{\insrsid286067 Edge}{\insrsid3955920 
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2165969 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid2165969 
+This class is a concrete Edge. It takes its information from the Transition class from the UML Model and from the }{\insrsid12522473 GraphEdge }{\insrsid2165969 associated with it.
+\par The structure of the Graph}{\insrsid12353051 Edge}{\insrsid2165969  that corresponds to a Transition is given in section 3.2.1.
+\par The stereotype compartment could be hidden. The \lquote isVisible\rquote  attribute of the compartment graph node is for this property. There should be methods to tell the }{\insrsid2834665 edge}{\insrsid2165969  that the compartment\rquote 
+s visibility has changed.
+\par The }{\insrsid2692576 transition}{\insrsid2165969  has a continuous line}{\insrsid2834665 , with the exception of when it is connected to an ObjectFlowNode, in which case it is a dashed line}{\insrsid2165969 .
+\par }\pard \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2834665 {\insrsid2834665 There should be two Transition end types defined:
+\par {\listtext\pard\plain\s28 \f1\fs20\insrsid2834665 \hich\af1\dbch\af0\loch\f1 -\tab}}\pard \s28\ql \fi-360\li1080\ri0\sa120\sl240\slmult0\keep\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls11\adjustright\rin0\lin1080\itap0\pararsid2834665 {
+\insrsid2834665 target end: none
+\par {\listtext\pard\plain\s28 \f2\fs20\insrsid2834665 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \s28\ql \fi-360\li1800\ri0\sa120\sl240\slmult0\keep\nowidctlpar\jclisttab\tx1800\aspalpha\aspnum\faauto\ls11\ilvl1\adjustright\rin0\lin1800\itap0\pararsid2834665 {
+\insrsid2834665 ----
+\par {\listtext\pard\plain\s28 \f1\fs20\insrsid2834665 \hich\af1\dbch\af0\loch\f1 -\tab}}\pard \s28\ql \fi-360\li1080\ri0\sa120\sl240\slmult0\keep\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls11\adjustright\rin0\lin1080\itap0\pararsid2834665 {
+\insrsid2834665 source end: a simple arrow, with the color of the edge
+\par {\listtext\pard\plain\s28 \f2\fs20\insrsid2834665 \hich\af2\dbch\af0\loch\f2 o\tab}}\pard \s28\ql \fi-360\li1800\ri0\sa120\sl240\slmult0\keep\nowidctlpar\jclisttab\tx1800\aspalpha\aspnum\faauto\ls11\ilvl1\adjustright\rin0\lin1800\itap0\pararsid2834665 {
+\insrsid2834665 ---->
+\par }\pard \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2165969 {\insrsid2165969 The edge supports the name and the stereotypes as text fields attached to the edge.
+\par Selecting the text fields of the edge will result in selecting the }{\insrsid3474526 edge.
+\par }{\insrsid2165969 Double clicking on a text fields will bring the diagram\rquote s viewer editing text field in front, with the text that s}{\insrsid277975 hould be edited. The name and the guard name are used for this in this. The format could be \'93
+name [ guardName ]\'94}{\insrsid7303775 . Each one of those two names can be missing.}{\insrsid2165969 
+\par There should be a way to set popups that will be shown if a popup trigger mouse event action occurs. There will be a popup general for the component.
+\par {\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 1.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Required Algorithms
+\par }\pard\plain \s45\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid489963 \f1\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid3478768 None.}{\insrsid12459316 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 1.4\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Example of the Software Usage
+\par }\pard\plain \s45\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid489963 \f1\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid1338110 {\*\bkmkend _Toc10301867}
+The component will be used in  the TopCoder UML Tool to display the class diagram related elements on a diagram in the diagram viewer.}{\insrsid12459316 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 1.5\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Future Component Direction
+\par }\pard\plain \s45\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2193617 \f1\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid2193617 None}{\insrsid2494354 .
+\par {\listtext\pard\plain\s1 \b\f1\insrsid12459316 \hich\af1\dbch\af0\loch\f1 2.\tab}}\pard\plain \s1\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin720\itap0 
+\b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Interface Requirements{\*\bkmkend _Toc10301854}
+\par {\*\bkmkstart _Toc10301855}{\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 2.1.1\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2
+\pnrdate1181082618\pnrstart0\pnrxst5\pnrxst0\pnrxst0\pnrxst0\pnrxst46\pnrxst0\pnrxst1\pnrxst0\pnrxst46\pnrxst0\pnrxst2\pnrxst0\pnrstop12\pnrstart1\pnrrgb1\pnrrgb3\pnrrgb5\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9
+\pnrstart2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc1\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr2\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr1\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr1\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrstop36\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Graphical User Interface Requirements{\*\bkmkend _Toc10301855}
+\par }\pard\plain \s45\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid489963 \f1\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid11151481 None.}{\insrsid12459316 
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 2.1.2\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2
+\pnrdate1181082618\pnrstart0\pnrxst5\pnrxst0\pnrxst0\pnrxst0\pnrxst46\pnrxst0\pnrxst1\pnrxst0\pnrxst46\pnrxst0\pnrxst2\pnrxst0\pnrstop12\pnrstart1\pnrrgb1\pnrrgb3\pnrrgb5\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9
+\pnrstart2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc1\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr2\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr1\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr2\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrstop36\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 External Interfaces
+\par }\pard\plain \s45\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid489963 \f1\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid11151481 
+The design must follow the interface found in the class diagram with the component interfaces. The designer is encouraged to add to the existing interface, but not to remove anything.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 2.1.3\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Environment Requirements
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls5\adjustright\rin0\lin1080\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Development language: Java}{\insrsid6109660  }{\insrsid12459316 1.}{\insrsid7825698 5}{\insrsid12459316 
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Compile target: Java}{\insrsid6109660  }{\insrsid12459316 1.}{\insrsid7825698 5}{\insrsid12459316 
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 2.1.4\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Package Structure
+\par }\pard\plain \s45\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid4793433 \f1\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid4793433\charrsid2819267 com.topcoder.}{
+\insrsid4793433 gui}{\insrsid4793433\charrsid2819267 .}{\insrsid4793433 diagramviewer.uml.activityelements}{\insrsid12459316 
+\par {\*\bkmkstart _Toc10369244}{\listtext\pard\plain\s1 \b\f1\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.\tab}}\pard\plain \s1\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin720\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Software Requirements{\*\bkmkend _Toc10369244}
+\par {\*\bkmkstart _Toc10369245}{\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Administration Requirements{\*\bkmkend _Toc10369245}
+\par {\*\bkmkstart _Toc10369246}{\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.1.1\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 What elements of the application need to be configurable?{\*\bkmkend _Toc10369246}
+
+\par }\pard\plain \s45\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5986645 \f1\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid5986645 None}{\insrsid489963 .}{
+\insrsid355380\charrsid355380 
+\par {\*\bkmkstart _Toc10369247}{\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Technical Constraints{\*\bkmkend _Toc10369247}
+\par {\*\bkmkstart _Toc10369248}{\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.2.1\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Are there particular frameworks or standards that are required?
+{\*\bkmkend _Toc10369248}
+\par }\pard\plain \s45\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid7303775 \f1\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7303775 The structure of the Diagram Interch
+ange elements should be respected. The names of the compartments are provided in this file.
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid7303775 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7303775\charrsid3412584 UML Tool - }{
+\insrsid7303775 Activity }{\insrsid7303775\charrsid3412584 Diagram Elements Compartments.rtf
+\par {\*\bkmkstart _Toc10369249}{\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.2.2\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid5986645 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 TopCoder Software Component Dependencies:}{\insrsid12612270 
+{\*\bkmkend _Toc10369249}
+\par {\listtext\pard\plain\s45 \f3\fs20\cf1\insrsid16468342 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \s45\ql \fi-360\li1080\ri0\sa120\sl240\slmult0\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls8\adjustright\rin0\lin1080\itap0\pararsid16468342 
+\f1\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid16468342 Diagram Viewer 1.0}{\insrsid16468342\charrsid15144219 
+\par {\listtext\pard\plain\s45 \f3\fs20\cf1\insrsid16468342 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}{\insrsid16468342 Diagram Elements 1.0
+\par {\listtext\pard\plain\s45 \f3\fs20\cf1\insrsid16468342 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Diagram Edges 1.0
+\par {\listtext\pard\plain\s45 \f3\fs20\cf1\insrsid16468342 \loch\af3\dbch\af0\hich\f3 \'b7\tab}UML Model Manager 1.0
+\par {\listtext\pard\plain\s45 \f3\fs20\cf1\insrsid16468342 \loch\af3\dbch\af0\hich\f3 \'b7\tab}UML Model components}{\insrsid16468342\charrsid15605198 
+\par {\listtext\pard\plain\s45 \f3\fs20\cf1\insrsid16468342 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}{\insrsid16468342 Diagram Interchange 1.0
+\par {\listtext\pard\plain\s45 \f3\fs20\cf1\insrsid16468342 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Configuration Manager 2.1.5 - recommended
+\par }\pard\plain \ql \li720\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 **Please review the }{\field\fldedit{\*\fldinst {\insrsid12459316 
+HYPERLINK "http://www.topcodersoftware.com/pages/c_showroom.jsp"}{\insrsid12214341 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b6a00000068007400740070003a002f002f007700770077002e0074006f00700063006f0064006500720073006f006600740077006100720065002e0063006f006d002f00700061006700650073002f0063005f007300
+68006f00770072006f006f006d002e006a0073007000000000000000000000002000000000000000000000000000000000550000}}}{\fldrslt {\cs46\ul\cf2\insrsid12459316 TopCoder Software component catalog}}}{\insrsid12459316 
+ for existing components that can be used in the design.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.2.3\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Third Party Component, Library, or Product Dependencies:
+\par }\pard\plain \s45\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15929312 \f1\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15929312 None}{\insrsid12459316 
+\par {\*\bkmkstart _Toc10369250}{\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.2.4\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 QA Environment:{\*\bkmkend _Toc10369250}
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin1080\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Solaris 7
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}RedHat Linux 7.1
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Windows 2000
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Windows 2003
+\par {\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Design Constraints
+\par }\pard\plain \ql \li720\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 
+The component design and development solutions must adhere to the guidelines as outlined in the TopCoder Software Component Guidelines.  Modifications to these guidelines for this component should be detailed below.
+\par {\*\bkmkstart _Toc10369268}{\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.4\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Required Documentation{\*\bkmkend _Toc10369268}
+\par {\*\bkmkstart _Toc10369269}{\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.4.1\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Design Documentation{\*\bkmkend _Toc10369269}
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls2\adjustright\rin0\lin1080\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Use-Case Diagram
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Class Diagram
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Sequence Diagram
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Component Specification
+\par {\*\bkmkstart _Toc10369270}{\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.4.2\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Help / User Documentation{\*\bkmkend _Toc10369270}
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls4\adjustright\rin0\lin1080\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Design documents must clearly define intended component usage in the \lquote Documentation\rquote  tab of Poseidon.
+\par }}

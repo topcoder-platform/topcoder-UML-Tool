@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<CMConfig>
+    <Config name="StressNamespace">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/stresstests/closeActiveHovered.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/stresstests/closeActiveNotHovered.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/stresstests/closeInactiveHovered.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/stresstests/closeInactiveNotHovered.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>5</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#FFAA52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>8</Value>
+        </Property>
+    </Config>
+
+    <Config name="ofNamespace">
+        <Property name="selector:default">
+            <Property name="type">
+                <Value>com.topcoder.gui.closabletabbedpane.activetabselector.DirectionalActiveTabSelector</Value>
+            </Property>
+            <Property name="params">
+				<Property name="param1">
+					<Property name="type">
+						<Value>boolean</Value>
+					</Property>
+					<Property name="value">
+						<Value>true</Value>
+					</Property>
+				</Property>
+            </Property>
+        </Property>
+    </Config>
+</CMConfig>

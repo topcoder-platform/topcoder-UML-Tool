@@ -1,0 +1,12 @@
+log4j.rootLogger=INFO, file
+
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%c{1} %p - %m%n
+
+log4j.appender.file=org.apache.log4j.RollingFileAppender
+log4j.appender.file.File=test_files/stresstests/stresstests.log
+log4j.appender.file.MaxBackupIndex=1
+log4j.appender.file.MaxFileSize=100KB
+log4j.appender.file.layout=org.apache.log4j.PatternLayout
+log4j.appender.file.layout.ConversionPattern=%c{1} %p - %m%n

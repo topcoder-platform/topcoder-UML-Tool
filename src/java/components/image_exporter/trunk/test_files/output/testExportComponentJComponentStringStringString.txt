@@ -1,0 +1,1 @@
+export component:400(w) 400(h) within rectangle [0,0,400,400]

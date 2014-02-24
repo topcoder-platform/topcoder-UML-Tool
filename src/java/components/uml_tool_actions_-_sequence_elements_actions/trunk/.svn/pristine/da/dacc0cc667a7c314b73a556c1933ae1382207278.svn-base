@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config name="com.topcoder.util.log">
+	<Property name="basic.log.target">
+		<Value>System.err</Value>
+	</Property>
+	<Property name="logClass">
+		<Value>com.topcoder.util.log.basic.BasicLog</Value>
+	</Property>
+</Config>

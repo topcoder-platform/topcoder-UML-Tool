@@ -1,0 +1,9 @@
+#property file defining the components information
+component.name=Xmi Reader
+component.distfilename=xmi_reader
+component.package=com.topcoder.util.xmi.reader
+component.packagedir=com/topcoder/util/xmi/reader
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

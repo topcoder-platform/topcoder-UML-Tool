@@ -1,0 +1,170 @@
+<CMConfig>
+	<Config name="com.topcoder.gui.diagramviewer.DiagramViewer">
+
+		<Property name="object_factory_namespace">
+			<Value>com.topcoder.gui.diagramviewer.ObjectFactory</Value>
+		</Property>
+
+		<Property name="max_open_tabs">
+			<Value>5</Value>
+		</Property>
+
+
+		<Property name="backgound_grid_visibility">
+			<Value>true</Value>
+		</Property>
+
+		<Property name="tab_title_displayed_in_full_version">
+			<Value>false</Value>
+		</Property>
+
+		<Property name="tab_shortened_title_max_length">
+			<Value>20</Value>
+		</Property>
+
+		<Property name="diagram_view_background_color">
+		<Value>FE01A9</Value>
+		</Property>
+
+		<Property name="diagram_view_gap">
+			<Value>5</Value>
+		</Property>
+
+		<Property name="diagram_view_cache">
+			<Value>viewCache</Value>
+		</Property>
+
+		<Property name="zoom_rotate_increment">
+			<Value>5</Value>
+		</Property>
+
+		<Property name="zoom_in_action_namespace">
+			<Value>com.topcoder.gui.diagramviewer.ZoomInAction</Value>
+		</Property>
+
+		<Property name="zoom_out_action_namespace">
+			<Value>com.topcoder.gui.diagramviewer.ZoomOutAction</Value>
+		</Property>
+
+		<Property name="close_tab_action_namespace">
+			<Value>com.topcoder.gui.diagramviewer.CloseTabAction</Value>
+		</Property>
+	</Config>
+
+
+<!-- Configure the Zoom In Button -->
+	<Config name="com.topcoder.gui.diagramviewer.ZoomInAction">
+		<Property name="name">
+			<Value>zoom in</Value>
+		</Property>
+
+		<Property name="icon">
+			<Value>resources/images/ZoomIn.png</Value>
+		</Property>
+
+		<Property name="increment">
+			<Value>0.2</Value>
+		</Property>
+	</Config>
+
+<!-- Configure the Zoom Out Button -->
+	<Config name="com.topcoder.gui.diagramviewer.ZoomOutAction">
+		<Property name="name">
+			<Value>zoom out</Value>
+		</Property>
+
+		<Property name="icon">
+			<Value>resources/images/ZoomOut.png</Value>
+		</Property>
+		<Property name="increment">
+			<Value>-0.2</Value>
+		</Property>
+	</Config>
+
+<!-- Configure the Close Tab Button -->
+	<Config name="com.topcoder.gui.diagramviewer.CloseTabAction">
+	    <Property name="name">
+			<Value>close tab</Value>
+		</Property>
+
+		<Property name="icon">
+			<Value>resources/images/CloseTab.png</Value>
+		</Property>
+	</Config>
+
+
+
+<!-- Configure the ObjectFactory -->
+	<Config name="com.topcoder.gui.diagramviewer.ObjectFactory">
+		<Property name="viewCache">
+			<Property name="type">
+				<Value>com.topcoder.util.cache.SimpleCache</Value>
+			</Property>
+			<Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>com.topcoder.util.cache.SimpleCache</Value>
+                    </Property>
+                </Property>
+            </Property>
+		</Property>
+	</Config>
+
+
+	<Config name="com.topcoder.util.memoryusage.MemoryUsage">
+        	<Property name="analyzers_namespace">
+            		<Value>com.topcoder.util.memoryusage.MemoryUsage.ObjectFactory</Value>
+        	</Property>
+	        <Property name="analyzers">
+	            <Value>Sun12Analyzer</Value>
+	            <Value>Sun13Analyzer</Value>
+	            <Value>Sun14Analyzer</Value>
+	            <Value>Sun15Analyzer</Value>
+	            <Value>IBM14Analyzer</Value>
+	            <Value>IBM15Analyzer</Value>
+	        </Property>
+	        <Property name="fallback_analyzer">
+	            <Value>Sun15Analyzer</Value>
+	        </Property>
+	        <Property name="default_fallback_analyzer_flag">
+	            <Value>false</Value>
+	        </Property>
+	</Config>
+
+	<Config name="com.topcoder.util.memoryusage.MemoryUsage.ObjectFactory">
+	        <Property name="Sun12Analyzer">
+	            <Property name="type">
+	                <Value>com.topcoder.util.memoryusage.analyzers.Sun12Analyzer</Value>
+	            </Property>
+	        </Property>
+	        <Property name="Sun13Analyzer">
+	            <Property name="type">
+	                <Value>com.topcoder.util.memoryusage.analyzers.Sun13Analyzer</Value>
+	            </Property>
+	        </Property>
+	        <Property name="Sun14Analyzer">
+	            <Property name="type">
+	                <Value>com.topcoder.util.memoryusage.analyzers.Sun14Analyzer</Value>
+	            </Property>
+	        </Property>
+	        <Property name="Sun15Analyzer">
+	            <Property name="type">
+	                <Value>com.topcoder.util.memoryusage.analyzers.Sun15Analyzer</Value>
+	            </Property>
+	        </Property>
+	        <Property name="IBM14Analyzer">
+	            <Property name="type">
+	                <Value>com.topcoder.util.memoryusage.analyzers.IBM14Analyzer</Value>
+	            </Property>
+	        </Property>
+	        <Property name="IBM15Analyzer">
+	            <Property name="type">
+	                <Value>com.topcoder.util.memoryusage.analyzers.IBM15Analyzer</Value>
+	            </Property>
+	        </Property>
+	</Config>
+</CMConfig>

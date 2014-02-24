@@ -1,0 +1,23 @@
+<project name="Dependency Import" basedir=".">
+    <!-- property file defining the component's dependencies -->
+
+    <!-- Properties used in compile_targets ANT target for JDK version x -->
+    <property name="component.target" value="1.x"/>
+    <property name="component.bootclasspath" value="${java_1_5_bootclasspath}"/>
+
+    <!-- TCS dependencies -->
+    <property name="zoom_panel.jar" value="${tcs_libdir}/zoom_panel/1.0.0/zoom_panel.jar"/>
+
+    <!-- 3rd party dependencies -->
+    <property name="junit.jar" value="${ext_libdir}/junit/3.8.2/junit.jar"/>
+
+    <path id="component.tcs-dependencies">
+    	<pathelement location="${zoom_panel.jar}"/>
+    </path>
+
+    <path id="component.3rdParty-dependencies"/>
+
+    <path id="component.test.3rdParty-dependencies">
+        <pathelement location="${junit.jar}"/>
+    </path>
+</project>

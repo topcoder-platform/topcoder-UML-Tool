@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+  <!-- example of interface method usage -->
+   <Interface name="Comparable"> 
+      <Method name="compareTo" />
+      <Test name="compareTo" />
+   </Interface>
+   
+          

@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<CMConfig>
+	<Config name="com.topcoder.gui.trees.document.impl">
+		<Property name="config_manager_specification_factory_namespace">
+			<Value>com.topcoder.gui.trees.document.impl.objectfactory</Value>
+		</Property>
+		<Property name="tree_cell_renderer">
+			<Value>cell_render</Value>
+		</Property>
+		<Property name="default_tabs">
+			<Value>com.topcoder.gui.trees.document.impl.DiagramCentricDocumentTreeView</Value>
+			<Value>com.topcoder.gui.trees.document.impl.ClassCentricDocumentTreeView</Value>
+			<Value>com.topcoder.gui.trees.document.impl.PackageCentricDocumentTreeView</Value>
+		</Property>
+		<Property name="default_tab_names">
+			<Value>Diagram</Value>
+			<Value>Class</Value>
+			<Value>Package</Value>
+		</Property>
+		<Property name="icons">
+			<Property name="class#name">
+				<!-- Class Centric Tree -->
+				<Property name="com.topcoder.uml.model.modelmanagement.Package">
+					<Value>resources/images/documentTreeIcons/ClassTree/Package.png</Value>
+				</Property>
+				<Property name="com.topcoder.uml.model.core.classifiers.ClassImpl">
+					<Value>resources/images/documentTreeIcons/ClassTree/Class.png</Value>
+				</Property>
+				<Property name="com.topcoder.uml.model.core.classifiers.InterfaceImpl">
+					<Value>resources/images/documentTreeIcons/ClassTree/Interface.png</Value>
+				</Property>
+				<Property name="com.topcoder.uml.model.core.Attribute">
+					<Value>resources/images/documentTreeIcons/ClassTree/Attribute.png</Value>
+				</Property>
+				<Property name="com.topcoder.uml.model.core.Operation">
+					<Value>resources/images/documentTreeIcons/ClassTree/Operation.png</Value>
+				</Property>
+				<Property name="com.topcoder.uml.model.usecases.UseCaseImpl">
+					<Value>resources/images/documentTreeIcons/ClassTree/Usecase.png</Value>
+				</Property>
+				<Property name="com.topcoder.uml.model.modelmanagement.SubsystemImpl">
+					<Value>resources/images/documentTreeIcons/ClassTree/System.png</Value>
+				</Property>
+				<Property name="com.topcoder.uml.model.usecases.ActorImpl">
+					<Value>resources/images/documentTreeIcons/ClassTree/Actor.png</Value>
+				</Property>
+				<Property name="com.topcoder.uml.model.collaborations.collaborationinteractions.Collaboration">
+					<Value> resources/images/documentTreeIcons/ClassTree/Collaboration.png</Value>
+				</Property>
+				<Property name="com.topcoder.uml.model.core.Classifier">
+					<Value>resources/images/documentTreeIcons/ClassTree/Classifier.png</Value>
+				</Property>
+
+				<!-- Package Centric Tree -->
+				<Property name="com.topcoder.uml.model.commonbehavior.instances.Object">
+					<Value>resources/images/documentTreeIcons/PackageTree/Lifeline.png</Value>
+				</Property>
+				<Property name="com.topcoder.uml.model.activitygraphs.ActivityGraph">
+					<Value> resources/images/documentTreeIcons/PackageTree/ActivityGraph.png</Value>
+				</Property>
+
+				<!--  Diagram Centric Tree -->
+				<Property name="java.lang.String">
+					<Value>resources/images/documentTreeIcons/ClassTree/Package.png</Value>
+				</Property>
+			</Property>
+			<Property name="semanticModel#typeInfo">
+				<!--  Diagram Centric Tree -->
+				<Property name="ClassDiagram">
+					<Value>resources/images/NewClassDiagram_16.png</Value>
+				</Property>
+				<Property name="ActivityDiagram">
+					<Value>resources/images/NewActivityDiagram_16.png</Value>
+				</Property>
+				<Property name="SequenceDiagram">
+					<Value>resources/images/NewSequenceDiagram_16.png</Value>
+				</Property>
+				<Property name="UseCaseDiagram">
+					<Value>resources/images/NewUseCaseDiagram_16.png</Value>
+				</Property>
+			</Property>
+		</Property>
+		<Property name="activity_graphs_category_name">
+			<Value>Activity Graphs</Value>
+		</Property>
+		<Property name="collaborations_category_name">
+			<Value>Collaborations</Value>
+		</Property>
+		<Property name="diagram_categories">
+			<Property name="ActivityDiagram">
+				<Property name="display">
+					<Value>Activity Diagram</Value>
+				</Property>
+			</Property>
+			<Property name="ClassDiagram">
+				<Property name="display">
+					<Value>Class Diagram</Value>
+				</Property>
+			</Property>
+			<Property name="SequenceDiagram">
+				<Property name="display">
+					<Value>Sequence Diagram</Value>
+				</Property>
+			</Property>
+			<Property name="UseCaseDiagram">
+				<Property name="display">
+					<Value>Use Case Diagram</Value>
+				</Property>
+			</Property>
+		</Property>
+		<Property name="show_child_diagram_view">
+			<Value>false</Value>
+		</Property>
+	</Config>
+	<Config name="com.topcoder.gui.trees.document.impl.objectfactory">
+		<Property name="cell_render">
+			<Property name="type">
+				<Value>com.topcoder.gui.trees.document.impl.IconTreeCellRenderer</Value>
+			</Property>
+			<Property name="params">
+				<Property name="param1">
+					<Property name="type">
+						<Value>java.lang.String</Value>
+					</Property>
+					<Property name="value">
+						<Value>com.topcoder.gui.trees.document.impl</Value>
+					</Property>
+				</Property>
+			</Property>
+		</Property>
+	</Config>
+</CMConfig>

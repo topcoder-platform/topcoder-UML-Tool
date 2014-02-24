@@ -1,0 +1,13 @@
+<UML:Interface1 xmi.id='48bb7b87-1b07-4679-8913-a0bef8ef23bb' isLeaf='false' enum1='tYPE1'>
+	<UML:Interface1.namespace>namespace</UML:Interface1.namespace>
+	<UML:Interface1.child><Value>zz</Value></UML:Interface1.child>
+	<UML:Interface1.innerBean>
+		<UML:InnerBeanInterface xmi.id='b42ed09e-284f-4db8-8739-388a046cb9db'>
+			<UML:InnerBeanInterface.name>n</UML:InnerBeanInterface.name>
+			<UML:InnerBeanInterface.type>t</UML:InnerBeanInterface.type>
+		</UML:InnerBeanInterface>
+	</UML:Interface1.innerBean>
+	<UML:Interface1.reference>
+		<UML:ReferenceInterface xmi.idref='52ada599-ca94-40bc-8432-9c3c37ae8d9b'/>
+	</UML:Interface1.reference>
+</UML:Interface1>

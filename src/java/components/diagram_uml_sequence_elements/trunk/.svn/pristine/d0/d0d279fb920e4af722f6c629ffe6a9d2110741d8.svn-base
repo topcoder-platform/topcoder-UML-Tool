@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<CMConfig>
+
+<Config name="com.topcoder.gui.diagramviewer.DiagramViewer">
+
+                               <Property name="object_factory_namespace">
+                                   <Value>com.topcoder.gui.diagramviewer.ObjectFactory</Value>
+                               </Property>
+
+                               <Property name="grid_size">
+                                    <Value>10</Value>
+                                </Property>
+
+                               <Property name="max_open_tabs">
+                                   <Value>5</Value>
+                               </Property>
+
+
+                               <Property name="background_grid_visibility">
+                                   <Value>true</Value>
+                               </Property>
+
+                               <Property name="tab_title_displayed_in_full_version">
+                                   <Value>false</Value>
+                               </Property>
+
+                               <Property name="tab_shortened_title_max_length">
+                                    <Value>10</Value>
+                               </Property>
+
+                               <Property name="diagram_view_background_color">
+                                    <Value>FE01A9</Value>
+                               </Property>
+
+                               <Property name="grid_renderer">
+                                    <Value>gridRenderer</Value>
+                               </Property>
+
+                               <Property name="diagram_view_gap">
+                                    <Value>50</Value>
+                               </Property>
+
+                               <Property name="diagram_view_cache">
+                                   <Value>viewCache</Value>
+                               </Property>
+
+                               <Property name="zoom_rotate_increment">
+                                   <Value>5</Value>
+                               </Property>
+
+                               <Property name="zoom_in_action_namespace">
+                                   <Value>com.topcoder.gui.diagramviewer.ZoomInAction</Value>
+                               </Property>
+
+                               <Property name="zoom_out_action_namespace">
+                                    <Value>com.topcoder.gui.diagramviewer.ZoomOutAction</Value>
+                               </Property>
+
+                               <Property name="close_tab_action_namespace">
+                                   <Value>com.topcoder.gui.diagramviewer.CloseTabAction</Value>
+                               </Property>
+                           </Config>
+
+
+                           <!-- Configure the Zoom In Button -->
+                               <Config name="com.topcoder.gui.diagramviewer.ZoomInAction">
+                                   <Property name="name">
+                                        <Value>zoom in</Value>
+                                   </Property>
+
+                                <Property name="icon">
+                                   <Value>test_files/zoomin.icon</Value>
+                               </Property>
+
+                               <Property name="increment">
+                                   <Value>10</Value>
+                                </Property>
+                           </Config>
+
+                           <!-- Configure the Zoom Out Button -->
+                               <Config name="com.topcoder.gui.diagramviewer.ZoomOutAction">
+                                   <Property name="name">
+                                       <Value>zoom out</Value>
+                                   </Property>
+
+                                   <Property name="icon">
+                                       <Value>test_files/zoomout.icon</Value>
+                                   </Property>
+
+                                   <Property name="increment">
+                                       <Value>-10</Value>
+                                   </Property>
+                           </Config>
+
+                           <!-- Configure the Close Tab Button -->
+                               <Config name="com.topcoder.gui.diagramviewer.CloseTabAction">
+                                   <Property name="name">
+                                       <Value>close tab</Value>
+                                   </Property>
+
+                               <Property name="icon">
+                                    <Value>test_files/close.icon</Value>
+                               </Property>
+                           </Config>
+
+
+
+                           <!-- Configure the ObjectFactory -->
+                               <Config name="com.topcoder.gui.diagramviewer.ObjectFactory">
+                                   <Property name="viewCache">
+                                       <Property name="type">
+                                           <Value>com.topcoder.gui.diagramviewer.MockCache</Value>
+                                       </Property>
+                                   </Property>
+
+                                   <Property name="gridRenderer">
+                                       <Property name="type">
+                                           <Value>com.topcoder.gui.diagramviewer.MockGridRenderer</Value>
+                                       </Property>
+                                   </Property>
+                           </Config>
+
+
+
+
+
+	<Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.objectnode">
+		<Property name="NodeStrokeColor">
+			<Value>Color.WHITE</Value>
+		</Property>
+		<Property name="NodeFillColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="NodeFillColor2">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="NodeShadowColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="NodeFontColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="NodeFontFamily">
+			<Value>Times</Value>
+		</Property>
+		<Property name="NodeFontStyle">
+			<Value>Font.ITALIC</Value>
+		</Property>
+		<Property name="NodeFontSize">
+			<Value>15</Value>
+		</Property>
+		<Property name="NodeRenderScheme">
+			<Value>1</Value>
+		</Property>
+		<Property name="NodeWidth">
+			<Value>150</Value>
+		</Property>		
+		<Property name="NodeHeight">
+			<Value>140</Value>
+		</Property>
+		<Property name="NodeWidthMinimum">
+			<Value>100</Value>
+		</Property>
+		<Property name="NodeHeightMinimum">
+			<Value>100</Value>
+		</Property>
+		<Property name="NodeShadowLength">
+			<Value>15</Value>
+		</Property>		
+		<Property name="NodeRoundingRadius">
+			<Value>25</Value>
+		</Property>				
+	</Config>
+
+	<Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.sequenceedge">
+		<Property name="EdgeStrokeColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeFillColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeFillColor2">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeShadowColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeFontColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeTextBoxStrokeColor">
+			<Value>Color.BLACK</Value>
+		</Property>		
+		<Property name="EdgeTextBoxFillColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeTextBoxFillColor2">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeFontFamily">
+			<Value>Times</Value>
+		</Property>	
+		<Property name="EdgeFontStyle">
+			<Value>Font.BOLD</Value>
+		</Property>		
+		<Property name="EdgeFontSize">
+			<Value>6</Value>
+		</Property>		
+		<Property name="EdgeRenderScheme">
+			<Value>1</Value>
+		</Property>
+		<Property name="EdgeDashLength">
+			<Value>15</Value>
+		</Property>
+		<Property name="EdgeBlankLength">
+			<Value>0</Value>
+		</Property>					
+	</Config>
+
+	<Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.edgeendings.configurededgeending">
+		<Property name="EdgeEndingStrokeColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeEndingFillColor">
+			<Value>Color.BLACK</Value>
+		</Property>	
+		<Property name="EdgeEndingRenderScheme">
+			<Value>1</Value>
+		</Property>		
+		<Property name="EdgeEndingArrowXLength">
+			<Value>15</Value>
+		</Property>		
+		<Property name="EdgeEndingArrowYLength">
+			<Value>15</Value>
+		</Property>
+	</Config>
+
+	<Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.lifeline.lifeline">
+		<Property name="LifelineLength">
+			<Value>-120</Value>
+		</Property>
+		<Property name="LifelineStrokeColor">
+			<Value>Color.GRAY</Value>
+		</Property>
+		<Property name="LifelineShadowColor">
+			<Value>Color.GRAY</Value>
+		</Property>	
+		<Property name="LifelineRenderScheme">
+			<Value>0</Value>
+		</Property>		
+		<Property name="LifelineDashLength">
+			<Value>-5</Value>
+		</Property>		
+		<Property name="LifelineBlankLength">
+			<Value>-5</Value>
+		</Property>
+		<Property name="LifelineShadowLength">
+			<Value>-4</Value>
+		</Property>
+	</Config>
+
+       <Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.lifeline.lifelinesegment">
+		<Property name="LifelineSegmentStrokeColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="LifelineSegmentFillColor">
+			<Value>Color.GREEN</Value>
+		</Property>
+		<Property name="LifelineSegmentShadowColor">
+			<Value>Color.GRAY</Value>
+		</Property>	
+		<Property name="LifelineSegmentRenderScheme">
+			<Value>0</Value>
+		</Property>		
+		<Property name="LifelineSegmentWidth">
+			<Value>-4</Value>
+		</Property>		
+		<Property name="LifelineSegmentHeight">
+			<Value>-16</Value>
+		</Property>
+		<Property name="LifelineSegmentWidthMinimum">
+			<Value>-4</Value>
+		</Property>
+		<Property name="LifelineSegmentHeightMinimum">
+			<Value>-6</Value>
+		</Property>
+		<Property name="LifelineSegmentShadowLength">
+			<Value>-10</Value>
+		</Property>
+	</Config>
+
+        <Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.edgelayout.defaultedgelayoutstrategy">
+		<Property name="LayoutEdgeSpace">
+			<Value>-10</Value>
+		</Property>			
+	</Config>
+</CMConfig>

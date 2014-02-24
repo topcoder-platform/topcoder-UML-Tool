@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMConfig>
+  	<Config name="com.topcoder.gui.panels.style.StylePanel">
+		<Property name="looknfeel">
+			<Property name="minimumWidth">
+				<Value>100</Value>
+			</Property>
+			<Property name="minimumHeight">
+				<Value>100</Value>
+			</Property>
+			<Property name="preferredWidth">
+				<Value>200</Value>
+			</Property>
+			<Property name="preferredHeight">
+				<Value>200</Value>
+			</Property>
+		</Property>
+		<Property name="propertyKey">
+			<Property name="widthKey">
+				<Value>width</Value>
+			</Property>
+			<Property name="heightKey">
+				<Value>height</Value>
+			</Property>
+			<Property name="xKey">
+				<Value>x</Value>
+			</Property>
+			<Property name="yKey">
+				<Value>y</Value>
+			</Property>
+			<Property name="fontNameKey">
+				<Value>FONT_FAMILY</Value>
+			</Property>
+			<Property name="fontSizeKey">
+				<Value>FONT_SIZE</Value>
+			</Property>
+			<Property name="fillColorKey">
+				<Value>FILL_COLOR</Value>
+			</Property>
+			<Property name="outlineColorKey">
+				<Value>STROKE_COLOR</Value>
+			</Property>
+			<Property name="textColorKey">
+				<Value>FONT_COLOR</Value>
+			</Property>
+		</Property>
+		<Property name="palette">
+			<Property name="width">
+				<Value>80</Value>
+			</Property>
+			<Property name="height">
+				<Value>35</Value>
+			</Property>
+			<Property name="columns">
+				<Value>4</Value>
+			</Property>
+			<Property name="rows">
+				<Value>3</Value>
+			</Property>
+			<Property name="color">
+				<Property name="col0row0">
+					<Value>#FFFFFF</Value>
+				</Property>
+				<Property name="col0row1">
+					<Value>#808080</Value>
+				</Property>
+				<Property name="col0row2">
+					<Value>#404040</Value>
+				</Property>
+				<Property name="col1row0">
+					<Value>#000000</Value>
+				</Property>
+				<Property name="col1row1">
+					<Value>#FF0000</Value>
+				</Property>
+				<Property name="col1row2">
+					<Value>#FFAFAF</Value>
+				</Property>
+				<Property name="col2row0">
+					<Value>#FFC800</Value>
+				</Property>
+				<Property name="col2row1">
+					<Value>#FFFF00</Value>
+				</Property>
+				<Property name="col2row2">
+					<Value>#00FF00</Value>
+				</Property>
+				<Property name="col3row0">
+					<Value>#FF00FF</Value>
+				</Property>
+				<Property name="col3row1">
+					<Value>#00FFFF</Value>
+				</Property>
+				<Property name="col3row2">
+					<Value>#0000FF</Value>
+				</Property>
+			</Property>
+		</Property>
+		<Property name="fontFamily">
+		</Property>
+    </Config>
+</CMConfig>

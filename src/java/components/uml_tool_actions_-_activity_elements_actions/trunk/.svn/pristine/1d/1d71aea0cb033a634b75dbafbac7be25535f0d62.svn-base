@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+           "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Coverage Report Classes</title>
+<link title="Style" type="text/css" rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+<h5>
+All Packages
+</h5>
+<div class="separator">&nbsp;</div>
+<h5>Classes</h5>
+<table width="100%">
+<tbody>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AbstractActivityUndoableAction.html">AbstractActivityUndoableAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.ActivityDataFlavor.html">ActivityDataFlavor</a> <i>(86%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.ActivityObjectClipboardUtility.html">ActivityObjectClipboardUtility</a> <i>(88%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.ActivityObjectCloneException.html">ActivityObjectCloneException</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.ActivityObjectCloneUtility.html">ActivityObjectCloneUtility</a> <i>(77%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.ActivityObjectSelection.html">ActivityObjectSelection</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AddAcceptEventActionAction.html">AddAcceptEventActionAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AddActionStateAction.html">AddActionStateAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AddDecisionNodeAction.html">AddDecisionNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AddFinalNodeAction.html">AddFinalNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AddFlowFinalNodeAction.html">AddFlowFinalNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AddForkNodeAction.html">AddForkNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AddInitialNodeAction.html">AddInitialNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AddJoinNodeAction.html">AddJoinNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AddMergeNodeAction.html">AddMergeNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AddObjectFlowStateAction.html">AddObjectFlowStateAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AddSendSignalActionAction.html">AddSendSignalActionAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AddStateNodeAbstractAction.html">AddStateNodeAbstractAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.AddTransitionAction.html">AddTransitionAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CopyAcceptEventActionAction.html">CopyAcceptEventActionAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CopyActionStateAction.html">CopyActionStateAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CopyDecisionNodeAction.html">CopyDecisionNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CopyFinalNodeAction.html">CopyFinalNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CopyFlowFinalNodeAction.html">CopyFlowFinalNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CopyForkNodeAction.html">CopyForkNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CopyInitialNodeAction.html">CopyInitialNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CopyJoinNodeAction.html">CopyJoinNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CopyMergeNodeAction.html">CopyMergeNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CopyObjectFlowStateAction.html">CopyObjectFlowStateAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CopySendSignalActionAction.html">CopySendSignalActionAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CopyStateNodeAbstractAction.html">CopyStateNodeAbstractAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CopyTransitionAction.html">CopyTransitionAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CutAcceptEventActionAction.html">CutAcceptEventActionAction</a> <i>(75%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CutActionStateAction.html">CutActionStateAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CutDecisionNodeAction.html">CutDecisionNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CutFinalNodeAction.html">CutFinalNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CutFlowFinalNodeAction.html">CutFlowFinalNodeAction</a> <i>(75%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CutForkNodeAction.html">CutForkNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CutInitialNodeAction.html">CutInitialNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CutJoinNodeAction.html">CutJoinNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CutMergeNodeAction.html">CutMergeNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CutObjectFlowStateAction.html">CutObjectFlowStateAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CutSendSignalActionAction.html">CutSendSignalActionAction</a> <i>(75%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CutStateNodeAbstractAction.html">CutStateNodeAbstractAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.CutTransitionAction.html">CutTransitionAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.PasteAcceptEventActionAction.html">PasteAcceptEventActionAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.PasteActionStateAction.html">PasteActionStateAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.PasteDecisionNodeAction.html">PasteDecisionNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.PasteFinalNodeAction.html">PasteFinalNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.PasteFlowFinalNodeAction.html">PasteFlowFinalNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.PasteForkNodeAction.html">PasteForkNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.PasteInitialNodeAction.html">PasteInitialNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.PasteJoinNodeAction.html">PasteJoinNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.PasteMergeNodeAction.html">PasteMergeNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.PasteObjectFlowStateAction.html">PasteObjectFlowStateAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.PasteSendSignalActionAction.html">PasteSendSignalActionAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.PasteStateNodeAbstractAction.html">PasteStateNodeAbstractAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.PasteTransitionAction.html">PasteTransitionAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.RemoveAcceptEventActionAction.html">RemoveAcceptEventActionAction</a> <i>(75%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.RemoveActionStateAction.html">RemoveActionStateAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.RemoveDecisionNodeAction.html">RemoveDecisionNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.RemoveFinalNodeAction.html">RemoveFinalNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.RemoveFlowFinalNodeAction.html">RemoveFlowFinalNodeAction</a> <i>(75%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.RemoveForkNodeAction.html">RemoveForkNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.RemoveInitialNodeAction.html">RemoveInitialNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.RemoveJoinNodeAction.html">RemoveJoinNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.RemoveMergeNodeAction.html">RemoveMergeNodeAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.RemoveObjectFlowStateAction.html">RemoveObjectFlowStateAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.RemoveSendSignalActionAction.html">RemoveSendSignalActionAction</a> <i>(75%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.RemoveStateNodeAbstractAction.html">RemoveStateNodeAbstractAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.RemoveTransitionAction.html">RemoveTransitionAction</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.uml.actions.model.activity.Util.html">Util</a> <i>(85%)</i></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

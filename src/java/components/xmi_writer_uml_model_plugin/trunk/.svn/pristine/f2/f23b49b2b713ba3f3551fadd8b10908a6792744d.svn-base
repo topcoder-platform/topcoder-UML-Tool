@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<CMConfig>
+	<Config name="com.topcoder.xmi.writer.transformers.model">
+	  <!-- ignoreUnknownElementType flag, true/false, REQUIRED-->
+	  <Property name="ignoreUnknownElementType">
+	    <Value>true</Value>
+	  </Property>
+	  <!-- namespace to create object factory instance, REQUIRED -->
+	  <Property name="objectFactory">
+		<Value>com.topcoder.xmi.writer.transformers.model.object.factory</Value>
+	  </Property>
+	  <!-- XMIDescription object name in objectFactory, REQUIRED -->
+	  <Property name="xmiDescription">
+		<Value>ReflectedXMIDescription</Value>
+	  </Property>
+	</Config>
+
+  <!-- Configuration of Object Factory Component -->
+  <Config name="com.topcoder.xmi.writer.transformers.model.object.factory">
+  	<Property name="ReflectedXMIDescription">
+		<Property name="type">
+			<Value>com.topcoder.xmi.writer.transformers.model.xmidescription.ReflectedXMIDescription</Value>
+		</Property>
+		<Property name="params">
+        	<Property name="param1">
+          		<Property name="type">
+            		<Value>String</Value>
+          		</Property>
+          		<Property name="value">
+            		<Value>com.topcoder.xmi.writer.transformers.model.Parents</Value>
+          		</Property>
+        	</Property>
+      </Property>
+  	</Property>
+  </Config>
+		
+		<Config name="com.topcoder.xmi.writer.transformers.model.Parents">
+	  <!-- Below two elements' configuration is expected to be correct -->
+		<Property name="MockModelElement">
+		  <Property name="containedNodes">
+		    <Value>child</Value>
+		  </Property>
+		</Property>
+		
+		
+	  <Property name="ModelElementAbstractImpl">
+		  <Property name="containedNodes">
+		    <Value>getChildren</Value>
+		  </Property>
+		</Property>
+	</Config>
+	
+</CMConfig>

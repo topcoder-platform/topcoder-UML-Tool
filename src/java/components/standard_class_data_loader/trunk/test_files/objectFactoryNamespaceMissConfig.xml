@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+
+<!-- File containing sample configuration details for use with
+ the Standard Class Data Loader component -->
+    
+<CMConfig>
+    <!-- configuration for the overall panel -->
+    <Config name="strategyClassDataLoader">
+        
+        <!-- supported languages -->
+        <Property name="languages">
+            <Value>Java</Value>
+            <!-- <Value>CSharp</Value> -->
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>javaLoader</Value>
+            </Property>
+        </Property>   
+         
+        <!-- CSharp loader information
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>csharpPlugin</Value>
+            </Property>
+        </Property>
+        -->
+    </Config>
+    
+    <Config name="com.topcoder.uml.standardclassloader">
+        
+        <!-- supported languages -->
+        <Property name="languages">
+            <Value>Java</Value>
+            <!-- <Value>CSharp</Value> -->
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>javaLoader</Value>
+            </Property>
+        </Property>            
+    </Config>     
+    
+    <!-- Namespace for possible use with the object factory component -->
+    <Config name="classData_objectFactory">  
+        <!-- Object factory configuration for the default java loader -->
+        <Property name="javaLoader">
+            <Property name="type">
+                <Value>com.topcoder.uml.standardclassloader.implementations.XMLLanguageClassDataLoader</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string filename constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <!-- using the sample file provided -->
+                        <Value>test_files/sampleJavaFile.xml</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+    </Config>
+</CMConfig>

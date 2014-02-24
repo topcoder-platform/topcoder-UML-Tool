@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!--This is a configuration file used for configuring the SectionPanel-->
+<CMConfig>
+    <!--The namespace of all parameters is free to be set any string-->
+    <Config name="com.topcoder.gui.toolbars.elements.SectionPanel">
+	    <!--The name of the class that implements the look and feel, which is required-->
+	    <Property name="look">
+	  		<Value>javax.swing.plaf.metal.MetalLookAndFeel</Value> 
+	  	</Property>
+	  	<!--The section text, which is label at the head of section panel and is required-->
+	  	<Property name="sectionText">
+	  		<Value>connectors</Value> 
+	  	</Property>
+	  	<!--The background color of section text panel. The value given here is the system property, 
+	  	whose value is a numerical representation of BackGround color. In this scenario there should be a 
+	  	system property named BLACK and its value should represents the numerical rgb representation of
+	  	background color. If this system property doesn’t exist, the component will use default Color.LIGHT_GRAY-->
+	  	<Property name="backgroundColor">
+	  		<Value>BLACK</Value> 
+	  	</Property>
+	  	<!--The buttons' name array. If it doesn’t exist, the component will create an empty section panel-->
+	 	<Property name="buttonsName">
+	  		<Value>left</Value> 
+	  		<Value>right</Value> 
+	 	</Property>
+	 	<!--The locations of button’s icon images. If it doesn’t exist, no image icon will be created for buttons-->
+	 	<Property name="imageLocations">
+	  		<Value>test_files/toolbarButtonGraphics/images/left.gif</Value> 
+	  		<Value>test_files/toolbarButtonGraphics/images/right.gif</Value> 
+	 	</Property>
+ 	</Config>
+</CMConfig>

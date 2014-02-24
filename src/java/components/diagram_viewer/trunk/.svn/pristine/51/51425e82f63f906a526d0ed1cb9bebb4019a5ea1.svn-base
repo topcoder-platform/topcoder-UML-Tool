@@ -1,0 +1,8 @@
+<CMConfig>
+
+    <!-- Configure the Zoom Action -->
+
+	<Config name="com.topcoder.gui.diagramviewer.ZoomAction">
+	</Config>
+
+</CMConfig>

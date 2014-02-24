@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<CMConfig>
+	<Property name="logClass">
+		<Value>com.topcoder.util.log.basic.BasicLog</Value>
+	</Property>
+	<Property name="basic.log.target">
+		<Value>System.out</Value>
+	</Property>
+</CMConfig>

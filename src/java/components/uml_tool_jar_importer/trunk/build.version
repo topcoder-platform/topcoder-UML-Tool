@@ -1,0 +1,9 @@
+#property file defining the components information
+component.name=UML Tool JAR Importer
+component.distfilename=uml_tool_jar_importer
+component.package=com.topcoder.uml.importer.jarimporter
+component.packagedir=com/topcoder/uml/importer/jarimporter
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

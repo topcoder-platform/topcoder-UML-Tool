@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<CMConfig>
+    <Property name="xml_to_element_mapping">
+    	<Value>UML:Property,com.topcoder.diagraminterchange.Property</Value>
+    	<Value>UML:Reference,com.topcoder.diagraminterchange.Reference</Value>
+    	<Value>UML:DiagramLink,com.topcoder.diagraminterchange.DiagramLink</Value>
+    	<Value>UML:GraphConnector,com.topcoder.diagraminterchange.GraphConnector</Value>
+    	<Value>UML:GraphEdge,com.topcoder.diagraminterchange.GraphEdge</Value>
+    	<Value>UML:Point,com.topcoder.diagraminterchange.Point</Value>
+    	<Value>UML:BezierPoint,com.topcoder.diagraminterchange.BezierPoint</Value>
+    	<Value>UML:Dimension,com.topcoder.diagraminterchange.Dimension</Value>
+    	<Value>UML:Polyline,com.topcoder.diagraminterchange.Polyline</Value>
+    	<Value>UML:TextElement,com.topcoder.diagraminterchange.TextElement</Value>
+		<Value>UML:Image,com.topcoder.diagraminterchange.Image</Value>
+		<Value>UML:CoreSemanticModelBridge,com.topcoder.diagraminterchange.CoreSemanticModelBridge</Value>
+		<Value>UML:Uml1SemanticModelBridge,com.topcoder.diagraminterchange.Uml1SemanticModelBridge</Value>
+		<Value>UML:SimpleSemanticModelElement,com.topcoder.diagraminterchange.SimpleSemanticModelElement</Value>
+		<Value>UML:GraphNode,com.topcoder.diagraminterchange.GraphNode</Value>
+		<Value>UML:Diagram,com.topcoder.diagraminterchange.Diagram</Value>
+		<Value>UML:Ellipse,com.topcoder.diagraminterchange.Ellipse</Value>
+		
+		<Value>UML:Multiplicity, com.topcoder.uml.model.datatypes.MultiplicityImpl</Value>
+        <Value>UML:MultiplicityRange, com.topcoder.uml.model.datatypes.MultiplicityRangeImpl</Value>
+        <Value>UML:Expression, com.topcoder.uml.model.datatypes.expressions.ExpressionImpl</Value>
+        <Value>UML:BooleanExpression, com.topcoder.uml.model.datatypes.expressions.BooleanExpressionImpl</Value>
+        <Value>UML:MappingExpression, com.topcoder.uml.model.datatypes.expressions.MappingExpressionImpl</Value>
+        <Value>UML:ProcedureExpression, com.topcoder.uml.model.datatypes.expressions.ProcedureExpressionImpl</Value>
+        <Value>UML:TypeExpression, com.topcoder.uml.model.datatypes.expressions.TypeExpressionImpl</Value>
+        <Value>UML:Class, com.topcoder.uml.model.core.classifiers.ClassImpl</Value>
+        <Value>UML:DataType, com.topcoder.uml.model.core.classifiers.DataTypeImpl</Value>
+      <Value>UML:AssociationEnd, com.topcoder.uml.model.core.relationships.AssociationEndImpl</Value>
+        <Value>UML:Interface, com.topcoder.uml.model.core.classifiers.InterfaceImpl</Value>
+      <Value>UML:Association, com.topcoder.uml.model.core.relationships.AssociationImpl</Value>
+        <Value>UML:Attribute, com.topcoder.uml.model.core.AttributeImpl</Value>
+        <Value>UML:Operation, com.topcoder.uml.model.core.OperationImpl</Value>
+        <Value>UML:Parameter, com.topcoder.uml.model.core.ParameterImpl</Value>
+        <Value>UML:Method, com.topcoder.uml.model.core.MethodImpl</Value>
+      <Value>UML:Generalization, com.topcoder.uml.model.core.relationships.GeneralizationImpl</Value>
+      <Value>UML:AssociationClass, com.topcoder.uml.model.core.relationships.AssociationClassImpl</Value>
+        <Value>UML:Dependency, com.topcoder.uml.model.core.dependencies.DependencyImpl</Value>
+        <Value>UML:Abstraction, com.topcoder.uml.model.core.dependencies.AbstractionImpl</Value>
+        <Value>UML:Usage, com.topcoder.uml.model.core.dependencies.UsageImpl</Value>
+        <Value>UML:Binding, com.topcoder.uml.model.core.dependencies.BindingImpl</Value>
+        <Value>UML:Comment, com.topcoder.uml.model.core.auxiliaryelements.CommentImpl</Value>
+        <Value>UML:TemplateParameter, com.topcoder.uml.model.core.auxiliaryelements.TemplateParameterImpl</Value>
+        <Value>UML:Primitive, com.topcoder.uml.model.core.classifiers.PrimitiveImpl</Value>
+        <Value>UML:Enumeration, com.topcoder.uml.model.core.classifiers.EnumerationImpl</Value>
+        <Value>UML:EnumerationLiteral, com.topcoder.uml.model.core.classifiers.EnumerationLiteralImpl</Value>
+        <Value>UML:Stereotype, com.topcoder.uml.model.core.extensionmechanisms.StereotypeImpl</Value>
+        <Value>UML:TagDefinition, com.topcoder.uml.model.core.extensionmechanisms.TagDefinitionImpl</Value>
+        <Value>UML:TaggedValue, com.topcoder.uml.model.core.extensionmechanisms.TaggedValueImpl</Value>
+        <Value>UML:ProgrammingLanguageDataType, com.topcoder.uml.model.core.classifiers.ProgrammingLanguageDataTypeImpl</Value>
+        <Value>UML:TemplateArgument, com.topcoder.uml.model.core.auxiliaryelements.TemplateArgumentImpl</Value>
+        <Value>UML:Procedure, com.topcoder.uml.model.commonbehavior.procedure.ProcedureImpl</Value>
+        <Value>UML:Object, com.topcoder.uml.model.commonbehavior.instances.ObjectImpl</Value>
+        <Value>UML:Stimulus, com.topcoder.uml.model.commonbehavior.instances.StimulusImpl</Value>
+        <Value>UML:Link, com.topcoder.uml.model.commonbehavior.links.LinkImpl</Value>
+        <Value>UML:LinkEnd, com.topcoder.uml.model.commonbehavior.links.LinkEndImpl</Value>
+        <Value>UML:CallOperationAction, com.topcoder.uml.model.actions.messagingactions.CallOperationActionImpl</Value>
+        <Value>UML:SendSignalAction, com.topcoder.uml.model.actions.messagingactions.SendSignalActionImpl</Value>
+        <Value>UML:CreateObjectAction, com.topcoder.uml.model.actions.objectactions.CreateObjectActionImpl</Value>
+        <Value>UML:DestroyObjectAction, com.topcoder.uml.model.actions.objectactions.DestroyObjectActionImpl</Value>
+        <Value>UML:Message, com.topcoder.uml.model.collaborations.collaborationroles.MessageImpl</Value>
+        <Value>UML:CollaborationInstanceSet, com.topcoder.uml.model.collaborations.collaborationinstances.CollaborationInstanceSetImpl</Value>
+        <Value>UML:Collaboration, com.topcoder.uml.model.collaborations.collaborationinteractions.CollaborationImpl</Value>
+        <Value>UML:ElementImport, com.topcoder.uml.model.modelmanagement.ElementImportImpl</Value>
+        <Value>UML:Package, com.topcoder.uml.model.modelmanagement.PackageImpl</Value>
+        <Value>UML:Subsystem, com.topcoder.uml.model.modelmanagement.SubsystemImpl</Value>
+        <Value>UML:Model, com.topcoder.uml.model.modelmanagement.ModelImpl</Value>
+        <Value>UML:Actor, com.topcoder.uml.model.usecases.ActorImpl</Value>
+        <Value>UML:UseCase, com.topcoder.uml.model.usecases.UseCaseImpl</Value>
+        <Value>UML:Include, com.topcoder.uml.model.usecases.IncludeImpl</Value>
+        <Value>UML:Extend, com.topcoder.uml.model.usecases.ExtendImpl</Value>
+        
+        <Value>UML2:Interaction, com.topcoder.umltool.xmiconverters.poseidon5.model.impl.InteractionImpl</Value>
+        <Value>UML2:EventOccurrence, com.topcoder.umltool.xmiconverters.poseidon5.model.impl.EventOccurrenceImpl</Value>
+        <Value>UML2:ExecutionOccurrence, com.topcoder.umltool.xmiconverters.poseidon5.model.impl.ExecutionOccurrenceImpl</Value>
+        <Value>UML2:Message, com.topcoder.umltool.xmiconverters.poseidon5.model.impl.MessageImpl</Value>
+        <Value>UML2:Lifeline, com.topcoder.umltool.xmiconverters.poseidon5.model.impl.LifelineImpl</Value>
+    </Property>
+</CMConfig>

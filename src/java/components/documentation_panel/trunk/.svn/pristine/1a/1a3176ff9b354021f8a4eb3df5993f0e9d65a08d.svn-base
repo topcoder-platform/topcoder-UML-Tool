@@ -1,0 +1,16 @@
+<CMConfig>
+   <!-- Set it to word wrap. Any other Value, 
+        or no Value, results in no wordwrap -->
+   <Config name="defaultDocEditor_1">
+        <Property name="wordwrap">
+            <Value>yes</Value>
+        </Property>
+   </Config>
+   
+   <Config name="defaultDocEditor_2">
+        <Property name="wordwrap">
+            <Value> </Value>
+        </Property>
+   </Config>
+
+</CMConfig>    

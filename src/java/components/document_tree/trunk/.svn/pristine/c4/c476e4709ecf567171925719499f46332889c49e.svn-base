@@ -1,0 +1,167 @@
+<CMConfig>
+	<Config name="com.topcoder.uml.projectconfiguration.ProjectConfigurationManager">
+		<Property name="exceptionStereotypeName">
+			<Value>exception</Value>
+		</Property>
+		<Property name="enumStereotypeName">
+			<Value>enum</Value>
+		</Property>
+		<Property name="createStereotypeName">
+			<Value>create</Value>
+		</Property>
+		<Property name="stringClassName">
+			<Value>String</Value>
+		</Property>
+		<Property name="enumClassName">
+			<Value>Enum</Value>
+		</Property>
+		<Property name="throwableClassName">
+			<Value>Throwable</Value>
+		</Property>
+		<Property name="exceptionClassName">
+			<Value>Exception</Value>
+		</Property>
+		<Property name="serializationInfoClassName">
+			<Value>SerializationInfo</Value>
+		</Property>
+		<Property name="streamingContextClassName">
+			<Value>StreamingContext</Value>
+		</Property>
+		<Property name="operationStereotypeBaseClass">
+			<Value>Operation</Value>
+		</Property>
+		
+		<Property name="stereotypes">
+			<Property name="Java">
+				<Property name="Class">
+					<Value>exception</Value>
+					<Value>abstract</Value>
+				</Property>
+				<Property name="Operation">
+					<Value>final</Value>
+					<Value>abstract</Value>
+				</Property>
+			</Property>
+			<Property name="CSharp">
+				<Property name="Class">
+					<Value>exception</Value>
+					<Value>abstract</Value>
+				</Property>
+			</Property>
+		</Property>
+		
+		<Property name="defaultProjectLanguage">
+			<Value>Test</Value>
+		</Property>
+		
+		<Property name="com.topcoder.diagraminterchange.Reference">
+			<Property name="property1">
+				<Value>value1</Value>
+			</Property>
+			<Property name="property2">
+				<Value>value2</Value>
+			</Property>
+		</Property>
+		
+		<Property name="com.topcoder.diagraminterchange.GraphNode">
+			<Property name="property1">
+				<Value>value1</Value>
+			</Property>
+		</Property>
+	</Config>
+	
+	<Config name="com.topcoder.uml.projectconfiguration.ProjectConfigurationManager.objectfactory">
+		<Property name="standardClassDataLoader">
+			<Property name="type">
+				<Value>com.topcoder.gui.trees.document.failuretests.MockStandardClassDataLoader</Value>
+			</Property>
+		</Property>
+		<Property name="stereotypeLoader">
+			<Property name="type">
+				<Value>com.topcoder.uml.projectconfiguration.stereotypeloader.XMLStereotypeLoader</Value>
+			</Property>
+			<Property name="params">
+				<Property name="param1">
+					<Property name="type">
+						<Value>String</Value>
+					</Property>
+					<Property name="value">
+						<Value>namespace</Value>
+					</Property>
+				</Property>
+			</Property>
+		</Property>
+	</Config>
+	
+	<Config name="com.topcoder.gui.trees.document.impl">
+		<Property name="config_manager_specification_factory_namespace">
+			<Value>com.topcoder.gui.trees.document.impl.objectfactory</Value>
+		</Property>
+		<Property name="tree_cell_renderer">
+			<Value>cell_render</Value>
+		</Property>
+		<Property name="view_types">
+			<Property name="DIAGRAM_CENTRIC">
+				<Property name="view_class">
+					<Value>com.topcoder.gui.trees.document.impl.DiagramCentricDocumentTreeView</Value>
+				</Property>
+			</Property>
+			<Property name="CLASS_CENTRIC">
+				<Property name="view_class">
+					<Value>com.topcoder.gui.trees.document.impl.ClassCentricDocumentTreeView</Value>
+				</Property>
+				<Property name="view_text">
+					<Value>Class-Centric</Value>
+				</Property>
+			</Property>
+			<Property name="PACKAGE_CENTRIC">
+				<Property name="view_class">
+					<Value>com.topcoder.gui.trees.document.impl.PackageCentricDocumentTreeView</Value>
+				</Property>
+				<Property name="view_text">
+					<Value>Package-Centric</Value>
+				</Property>
+			</Property>
+		</Property>
+		<Property name="icons">
+			<Property name="com.topcoder.uml.model.core.Namespace">
+				<Value>test_files/icons/namespace.gif</Value>
+			</Property>
+			<Property name="com.topcoder.uml.model.core.Classifier">
+				<Value>test_files/icons/classifier.gif</Value>
+			</Property>
+		</Property>
+		<Property name="activity_graphs_category_name">
+			<Value>Activity Graphs</Value>
+		</Property>
+		<Property name="collaborations_category_name">
+			<Value>Collaborations</Value>
+		</Property>
+		<Property name="diagram_categories">
+			<Property name="Use Case">
+				<Value>Use Case Diagram</Value>
+			</Property>
+			<Property name="Class">
+				<Value>Class Diagram</Value>
+			</Property>
+		</Property>
+	</Config>
+	
+	<Config name="com.topcoder.gui.trees.document.impl.objectfactory">
+		<Property name="cell_render">
+			<Property name="type">
+				<Value>com.topcoder.gui.trees.document.impl.IconTreeCellRenderer</Value>
+			</Property>
+			<Property name="params">
+				<Property name="param1">
+					<Property name="type">
+						<Value>java.lang.String</Value>
+					</Property>
+					<Property name="value">
+						<Value>com.topcoder.gui.trees.document.impl</Value>
+					</Property>
+				</Property>
+			</Property>
+		</Property>
+	</Config>
+</CMConfig>

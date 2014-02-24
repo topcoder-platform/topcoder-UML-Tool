@@ -1,0 +1,246 @@
+{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fnil\fprq1\fcharset128 Monospace;}{\f3\froman\fprq2\fcharset2 Symbol;}{\f4\fnil Courier New;}{\f5\fmodern\fprq6\fcharset0 ??;}}
+{\colortbl ;\red63\green127\blue95;\red0\green0\blue0;\red127\green0\blue85;\red0\green0\blue192;\red255\green0\blue0;\red0\green0\blue255;\red42\green0\blue255;\red212\green212\blue212;\red0\green128\blue128;\red63\green127\blue127;\red127\green0\blue127;}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}{\s3 heading 3;}}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx720\ul\b\f0\fs28 Image Exporter 1.0 Component Specification\par
+\pard\nowidctlpar\li720\sa120\ulnone\b0\f1\fs20\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0\fs24 1.\tab Design\par
+\pard\nowidctlpar\li720\sa120\b0\fs20 This component provides the ability to save the image of javax.swing.JComponent to an image file (the required specification of saving the image of java.awt.Component is dropped by the forum). It supports JPEG, GIF, TIFF, BMP, PNM, PNG formats.\par
+The core of this design is JComponentImageExporter that permits to print the jComponent's image to a Graphics and export the image to a file or an output stream. A pluggable way for visibility is provided. The default way is DefaultVisibleMaker, but the way is also configurable in the config file. For exporting the jComponent's image is necessary to implement JcomponentImageExporter. By default ImageManipulationImageExporter is provided for all formats permitted by Image Manipulation Component. The encoders are also extensible through config, if Image Manipulation changes. ImageExporter is a facade class for all exporting operations. The exporters are configurable through config file, but by default ImageManipulationImageExporter is provided for all formats.\par
+The extendibility of this component is obtained by Object Factory componet. The new exporters and new encoders for Image Manipulation can be defined in configuration file. Through Config Manager component, these properties and other properties are read and loaded in ImageExporter class and ImageManipulationImageExporter class.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.1\tab Design Patterns \par
+\pard\nowidctlpar\li720\sa120 Fa\'e7ade\b0  \endash  ImageExporter is a facade class of exporting jComponent's image.\par
+\b Strategy\b0  \endash  The pattern is applicate in ImageExporter class when an exporter is chosen using the exporters map. The pattern is also applicate in ImageManipulationImageExporter when the encoders are chosen through the encoders map.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.2\tab Industry Standards \par
+\pard\nowidctlpar\li720\sa120\b0 None\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.3\tab Required Algorithms\par
+\b0\i 1.3.1\tab Export a Jcomponent's image using ImageManipulationImageExporter\par
+\pard\keepn\nowidctlpar\s2\li720\sb120\sa60\sl240\slmult0\i0 This algorithm is the core of the class. The purpose is to write the Jcomponent's image to a Graphics context of a BufferedImage. It's necessary that the Jcomponent is visible and displayable.A pluggable way is used for set the visibility, but this way is used in ImageExporter and not in this algorithm. \par
+\pard\nowidctlpar\li720\sb120\sa60\sl240\slmult0 This is the detailed algorithm:\par
+\cf1\f2\fs16 //Retrieve the current state doubleBuffering \par
+\pard\nowidctlpar\cf2\f1\tab\f2 RepaintManager currentManager = RepaintManager.\i currentManager\i0 (jComponent);\par
+\tab\cf3\b boolean\cf2\b0  doubleBufferingOld=currentManager.isDoubleBufferingEnabled();\cf0\f1\par
+\cf2\tab\cf1\f2 //Set the double buffering global to off (optimization)\cf0\f1\par
+\cf2\tab\f2 currentManager.setDoubleBufferingEnabled(\cf3\b false\cf2\b0 );\cf0\f1\par
+\cf2\tab\par
+\tab\cf1\f2 //Create the bufferedImage using the input.\cf0\f1\par
+\pard\nowidctlpar\li720\cf2\f2 BufferedImage bufferedImage = \cf3\b new\cf2\b0  BufferedImage(jComponent.getWidth(),jComponent.getHeight(),imageType);\cf0\f1\par
+\pard\nowidctlpar\cf2\tab\tab\par
+\tab\cf1\f2 //Create graphics for printing the component to an Image\cf0\f1\par
+\cf2\tab\f2 Graphics2D graphics = bufferedImage.createGraphics();\par
+\tab\par
+\tab\cf1 //Use the rendering hints (optimizations) if they exists\cf0\f1\par
+\cf2\tab\f2 graphics.setRenderingHints(renderingHints);\par
+\tab\tab\par
+\tab\cf1 //Print the image of the component to graphics of bufferedImage\cf0\f1\par
+\cf2\tab\f2 jComponent.print(graphics);\par
+\tab\tab\par
+\tab\cf1 //Capture only the rectangle area from the input. If the rectangle area covers entirely the component then x=y=0\cf0\f1\par
+\cf2\tab\cf1\f2 //This variable is the field that will be used for the exporting.\cf0\f1\par
+\pard\nowidctlpar\li645\cf2\f2 Image image=\cf3\b new\cf2\b0  MutableMemoryImage(bufferedImage.getSubimage(viewport.\cf4 x\cf2 ,viewport.\cf4 y\cf2 ,viewport.\cf4 width\cf2 ,viewport.\cf4 height\cf2 ));\cf0\f1\par
+\pard\nowidctlpar\cf2\tab\tab\par
+\tab\cf1\f2 //Retrieve the encoder from encoders map and encode the image with the specified format\cf0\f1\par
+\cf2\f2         BaseImageEncoder encoder=encodersMap.get(format);\par
+\tab encoder.encode(image,outputStream,\cf3\b null\cf2\b0 );\cf0\f1\par
+\cf2\f2         \par
+        currentManager.setDoubleBufferingEnabled(doubleBufferingOld);\par
+\par
+\tab\f0\fs20 Catch every Exceptions derived from this algorithm, wrap it through a JComponentPrintImageException and throws this last.\f1\fs16\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\cf0\i\fs20\par
+\pard\keepn\nowidctlpar\s2\li720\sb120\sa60\sl240\slmult0\i0\par
+\pard\keepn\nowidctlpar\s2\fi-360\li360\sb120\sa60\sl240\slmult0\tx0\b\f0 1.\tab Component Class Overview\par
+\pard\nowidctlpar\sb120\sa60\sl240\slmult0\tx0\b0 com.topcoder.swing.imageexporter\par
+\pard\nowidctlpar\li720\sa120\b ImageManipulationImageExporter\par
+\b0 The purpose of this class is to export the jComponent's image through the encoders\rquote  package in Image Manipulation Component. For obtain this, the component print its image to a graphics of BufferedImage and this last is used in a MutableMemoryImage instance. Several optimizations are possible through RenderingHints object. Other encoders can be used by simply added them to encoders map: this mechanism permits to extend the encoders, if image manipulation changes, only using the config file of the component.\par
+\b ImageExporter\par
+\b0 This is a Fa\'e7ade class, a convenience utility for exporter JComponent(s) into an image file(s) or outputStream(s). When a jComponent is exported, the method controls if the format exists in exporters map. So the exportes map is a way for extend the component with new JComponentImageExporters. The main method for exporting is exportComponent(components:List<JComponent>, viewPort:Rectangle, outputStreams:List<OutputStream>, format:String) and is called by other methods.\par
+\b JComponentVisibleMaker\par
+\b0 This interface defines the contract for render visible a jComponent. The methods are called by ImageExporterClass before the print method. makeVisibile(...) is the firts method called, after the print mechanism occurs and then restoreVisibility(...) is called\par
+\b DefaultVisibleMaker\par
+\b0 This is the default way for render visibility of a JComponent. The default way is to do nothing if the component is visibile and if it isn't set the visible just a moment. This is for maintaining the correct layout of the jComponent's container, without removing the jComponent.\par
+\b JComponentImageExporter\par
+\b0 This interface defines the contract for exporting a jComponent's image. For extendibility using Object Factory, it's expected that the classes that implement this interface have an empty constructor.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.5\tab Component Exception Definitions\par
+\pard\nowidctlpar\li720\sa120 ImageExporterException\par
+\b0 This is the general exception of this component. It is thrown when some error occurs during the exporter process.\par
+\b JComponentVisibleMakerException\par
+\b0 This exception is thrown by JComponentVisibleMaker when some error occurs.\par
+\b ImageExporterConfigurationException\par
+\b0 This exception is thrown when a constructor read from config file and some error occurs: for example the config file is malformed.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.6\tab Thread Safety\par
+\pard\nowidctlpar\li720\sa120\b0 The normal scenario of this component is used in UML Application in a single thread for exporting the images of jComponents, so the thread safe is not required. But all the properties of the components are loaded through the constructor and all method of the facade are synchronized. So the normal use, through the facade, guarantees the thread safe.\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 2.\tab Environment Requirements\tab\tab\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 2.1\tab Environment\par
+\pard\nowidctlpar\li1080\tx1080\b0\f1\tab\f0  Java 1.5 is required for compilation and executing test cases.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 2.2\tab TopCoder Software Components\par
+\pard\nowidctlpar\li1080\sa120\tx1080\b0\f1\tab\f0  \b Base Exception\b0  \b 1.0 \b0 : for the custom exceptions.\par
+\f1\tab\f0  \b Configuration Manager\b0  \b 2.1.5 \b0 : it's used for load all parameters from configuration file in ImageExporter and ImageManipulationImageExporter classes.\par
+\f1\tab\f0  \b Object Factory 2.0.1\b0 : for provide the extendibility of the component : create new exporters and new encoders.\par
+\f1\tab\f0  \b Image Manipulation 1.0: \b0  for perform the encode of the JComponent's image in several formats \par
+\pard\nowidctlpar\li720\i\f1\fs24 NOTE: The default location for TopCoder Software component jars is../lib/tcs/COMPONENT_NAME/COMPONENT_VERSION relative to the component installation.\cf2   Setting the tcs_libdir property in topcoder_global.properties will overwrite this default location.\cf0\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\i0\f0\fs20 2.3\tab Third Party Components\par
+\pard\nowidctlpar\fi-360\li1080\sa120\tx1080\b0\f3\fs24\'b7\f1\fs20\tab\f0  \b Java Advanced Imaging (JAI)\cf5  \cf0\f1\fs24\par
+\pard\nowidctlpar\s3\li720\sb120\sa60\sl240\slmult0\tx720\cf2\b0\i\f0\fs20 NOTE: The default location for 3\up6 rd\up0  party packages is ../lib relative to this component installation.  Setting the ext_libdir property in topcoder_global.properties will overwrite this default location.\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\cf0\b\i0\fs24 3.\tab Installation and Configuration\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 3.1\tab Package Name\par
+\pard\nowidctlpar\li720\sa120\b0 com.topcoder.swing.imageexporter\par
+\pard\keepn\nowidctlpar\s2\fi-360\li360\sb120\sa60\sl240\slmult0\tx0\b\f3 3.\tab\f0 Configuration Parameters\par
+\pard\nowidctlpar\sb120\sa60\sl240\slmult0\tx0\b0 These are the parameter for Image Exporter namespace\par
+\trowd\trgaph10\trleft-128\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrt\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx1834\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrt\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx5586\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrt\brdrw5\brdrs\brdrcf2\clbrdrr\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx8630\pard\intbl\nowidctlpar\sa120\b Parameter\cell Description\cell Values\cell\row\trowd\trgaph10\trleft-128\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx1834\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx5586\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrr\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx8630\pard\intbl\nowidctlpar\sa120\b0 exportersMap\cell A multivalue property that define the map of new exporters for ImageExporter.\cell several String that represents object_factory_key_1\par
+object_factory_key is the key for instantiate the exporter by object factory\par
+\i optional\cell\row\trowd\trgaph10\trleft-128\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx1834\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx5586\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrr\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx8630\pard\intbl\nowidctlpar\sa120\i0 jComponentVisibleMaker\cell The visibility way for set he Jcomponent visibile.\cell a String that represents the key for Object Factory\par
+\i optional\cell\row\trowd\trgaph10\trleft-128\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx1834\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx5586\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrr\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx8630\pard\intbl\nowidctlpar\sa120\i0 objectFactoryNameSpace\cell The namespace for Object Factory component.\cell a String that represents the namespace for Object Factory\par
+\i optional\i0  or \i required\i0  if the \b exportersMap\b0   or \b jComponentVisibleMaker\cf5\b0  \cf0 exists.\cell\row\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f1\par
+\pard\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b0\f0 These are the parameters for \ldblquote ImageManipulationImageExporterProperties\rdblquote  namespace.\par
+\pard\nowidctlpar\sb120\sa60\sl240\slmult0\tx0\f1\par
+\trowd\trgaph10\trleft-128\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrt\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx1834\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrt\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx5586\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrt\brdrw5\brdrs\brdrcf2\clbrdrr\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx8630\pard\intbl\nowidctlpar\sa120\f0 encodersMap\cell A multivalue property that define tha map of new encoders of Image Manipulation Component.\cell <image_format>,<object_Factory_key>;\par
+image_format is a String that represents the image format\par
+object_Factory_key is a String that represent the key for instantiate the encoder by Object Factory\par
+\i optional\cell\row\trowd\trgaph10\trleft-128\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx1834\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx5586\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrr\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx8630\pard\intbl\nowidctlpar\sa120\i0 imageType\cell The image type used for construct the BufferedImage.\cell String: the name of a valid constant from BufferedImage class\par
+\i optional\cell\row\trowd\trgaph10\trleft-128\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx1834\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx5586\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrr\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx8630\pard\intbl\nowidctlpar\sa120\i0 renderingHints\cell A multivalue property that define rendering hints for render the Jcomponent's image for ImageManipulationImageExporter\cell <rendering_hints_key>,<rendering_hints_value>\par
+rendering_hints is a valid name RenderingHints.Key from   constants of RenderingHints class\par
+rendering_value is a valid value name for RenderingHints.Key from constants of RenderingHints class\par
+\i optional\cell\row\trowd\trgaph10\trleft-128\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx1834\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx5586\clbrdrl\brdrw5\brdrs\brdrcf2\clbrdrr\brdrw5\brdrs\brdrcf2\clbrdrb\brdrw5\brdrs\brdrcf2 \cellx8630\pard\intbl\nowidctlpar\sa120\i0 objectFactoryNameSpace\cell The namespace for Object Factory component.\cell a String that represents the namespace for Object Factory\par
+\i optional\i0  or \i required\i0  if the encodersMap exists.\cell\row\pard\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 3.3\tab Dependencies Configuration\par
+\pard\nowidctlpar\li720\sa120\b0 Image Manipulation needs to be configured properly.\par
+Object Factory needs to be configured properly.\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 4.\tab Usage Notes\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 4.1\tab Required steps to test the component\par
+\pard\nowidctlpar\li1080\sa120\tx1080\b0\f1\tab\f0 Extract the component distribution.\par
+\pard\nowidctlpar\li1080\sa120\f1\tab\f0 Follow .\par
+\f1\tab\f0 Execute \lquote ant test\rquote  within the directory that the distribution was extracted to.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 4.2\tab Required steps to use the component\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\b0 Follow configuration instructions.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 4.3\tab Demo\par
+\pard\nowidctlpar\sa120\b0\i 1. Use the ImageExporter utility class for exporting jcomponent(s)'s image(s).\par
+\i0\tab Exports images to files:\par
+\pard\nowidctlpar\cf2\f4         \cf1 //exports a JComponent image to a file\cf0\par
+\cf2         \cf4 exporter\cf2 .exportComponent(\cf6\ul jComponent\cf2\ulnone , \cf4\i OUTPUT_DIR\cf2\i0 , \cf7 "test_export_to_file.jpg"\cf2 , ImageExporter.\cf4\i JPEG_FORMAT\cf2\i0 );\cf0\par
+\par
+\cf2         \cf1 //exports a JComponent image to a file, capturing only a rectangle area of jComponent's image\cf0\par
+\cf2         \cf4 exporter\cf2 .exportComponent(jComponent, \cf4 viewport\cf2 , \cf4\i OUTPUT_DIR\cf2\i0 , \cf7 "test_export_to_file_viewport.gif"\cf2 ,\cf0\par
+\cf2             ImageExporter.\cf4\i JPEG_FORMAT\cf2\i0 );\cf0\par
+\par
+\cf2         \cf1 //exports a list of JComponents to files\cf0\par
+\cf2         List<JComponent> jComponentsList = \cf3\b new\cf2\b0  ArrayList<JComponent>();\cf0\par
+\cf2         jComponentsList.add(jComponent);\cf0\par
+\par
+\cf2         List<String> \highlight8 fileNamesList\highlight0  = \cf3\b new\cf2\b0  ArrayList<String>();\cf0\par
+\cf2         \highlight8 fileNamesList\highlight0 .add(\cf7 "test_export_to_file_list_1.jpg"\cf2 );\cf0\par
+\par
+\cf2         \cf4 exporter\cf2 .exportComponent(jComponentsList, \cf4\i OUTPUT_DIR\cf2\i0 , \highlight8 fileNamesList\highlight0 , ImageExporter.\cf4\i JPEG_FORMAT\cf2\i0 );\cf0\par
+\par
+\cf2         \cf1 //exports a list of JComponents to files, capturing only a rectangle area of jComponents' images\cf0\par
+\cf2         \highlight8 fileNamesList\highlight0  = \cf3\b new\cf2\b0  ArrayList<String>();\cf0\par
+\cf2         \highlight8 fileNamesList\highlight0 .add(\cf7 "test_export_to_file_viewport_list_1.jpg"\cf2 );\cf0\par
+\cf2         \cf4 exporter\cf2 .exportComponent(jComponentsList, \cf4 viewport\cf2 , \cf4\i OUTPUT_DIR\cf2\i0 , \highlight8 fileNamesList\highlight0 , ImageExporter.\cf4\i JPEG_FORMAT\cf2\i0 );\par
+\f5\tab Export images to output streams:\par
+\f4         \cf1 //uses FileOutputStream to export the component\cf0\par
+\cf2         os = \cf3\b new\cf2\b0  FileOutputStream(\cf4\i OUTPUT_DIR\cf2\i0  + \cf7 "test_export_to_outputStream.bmp"\cf2 );\cf0\par
+\cf2         \cf1 //exports a JComponent to the outputStream\cf0\par
+\cf2         \cf4 exporter\cf2 .exportComponent(jComponent, os, ImageExporter.\cf4\i BMP_FORMAT\cf2\i0 );\cf0\par
+\par
+\cf2         \cf1 //uses FileOutputStream to export the component\cf0\par
+\cf2         os = \cf3\b new\cf2\b0  FileOutputStream(\cf6\ul\i OUTPUT_DIR\cf2\ulnone\i0  + \cf7 "test_export_to_outputStream_viewport.bmp"\cf2 );\cf0\par
+\cf2         \cf1 //exports a JComponent to an outputStream with viewport restricted\cf0\par
+\cf2         \cf4 exporter\cf2 .exportComponent(jComponent, \cf4 viewport\cf2 , os, ImageExporter.\cf4\i BMP_FORMAT\cf2\i0 );\cf0\par
+\par
+\cf2         \cf1 //exports to a list of output streams\cf0\par
+\cf2         List<OutputStream> outputStreamsList = \cf3\b new\cf2\b0  ArrayList<OutputStream>();\cf0\par
+\cf2         outputStreamsList.add(\cf3\b new\cf2\b0  ByteArrayOutputStream());\cf0\par
+\par
+\cf2         List<JComponent> jComponentsList = \cf3\b new\cf2\b0  ArrayList<JComponent>();\cf0\par
+\cf2         jComponentsList.add(jComponent);\cf0\par
+\cf2         \cf4 exporter\cf2 .exportComponent(jComponentsList, outputStreamsList, ImageExporter.\cf4\i BMP_FORMAT\cf2\i0 );\cf0\par
+\par
+\cf2         \cf1 //exports to a list of output streams with viewport restricted\cf0\par
+\cf2         outputStreamsList = \cf3\b new\cf2\b0  ArrayList<OutputStream>();\cf0\par
+\cf2         outputStreamsList.add(\cf3\b new\cf2\b0  ByteArrayOutputStream());\cf0\par
+\par
+\cf2         jComponentsList = \cf3\b new\cf2\b0  ArrayList<JComponent>();\cf0\par
+\cf2         jComponentsList.add(jComponent);\cf0\par
+\cf2         \cf4 exporter\cf2 .exportComponent(jComponentsList, \cf4 viewport\cf2 , outputStreamsList, ImageExporter.\cf4\i BMP_FORMAT\cf2\i0 );\cf0\f1\fs16\par
+\cf2\i\fs20\par
+\pard\nowidctlpar\sa120\f0 2. Use ImageExporter with custom namespace\par
+\pard\nowidctlpar\f2\fs16 ImageExporter imageExporter=new ImageExporter(\cf7 "topcodernamespace"\cf2 );\par
+\i0\f1\fs20\par
+\i\f0 4. Example of configuration file\par
+\pard\nowidctlpar\sb120\sa60\sl240\slmult0\tx0\cf9\i0\f2\fs16 <?\cf10 xml \cf11 version\cf2 =\cf7 "1.0" \cf9 ?>\cf0\f1\par
+\pard\nowidctlpar\cf9\f2 <\cf10 CMConfig\cf9 >\cf0\f1\par
+\cf2\tab\cf9\f2 <\cf10 Config \cf11 name\cf2 =\cf7 "com.topcoder.swing.imageexporter"\cf9 >\cf0\f1\par
+\par
+\par
+\cf2\tab\tab\cf9\f2 <\cf10 Property \cf11 name\cf2 =\cf7 "exportersMap"\cf9 >\cf0\f1\par
+\cf2\tab\tab\tab\cf9\f2 <\cf10 Value\cf9 >\cf2 myExporter1\cf9 </\cf10 Value\cf9 >\cf0\f1\par
+\cf2\tab\tab\tab\cf9\f2 <\cf10 Value\cf9 >\cf2 myExporter2\cf9 </\cf10 Value\cf9 >\cf0\f1\par
+\cf2\tab\tab\cf9\f2 </\cf10 Property\cf9 >\cf0\f1\par
+\par
+\cf2\tab\tab\cf9\f2 <\cf10 Property \cf11 name\cf2 =\cf7 "jComponentVisibleMaker"\cf9 >\cf0\f1\par
+\cf2\tab\tab\tab\cf9\f2 <\cf10 Value\cf9 >\cf2 myVisibleMaker\cf9 </\cf10 Value\cf9 >\cf0\f1\par
+\cf2\tab\tab\cf9\f2 </\cf10 Property\cf9 >\cf0\f1\par
+\par
+\cf2\tab\tab\cf9\f2 <\cf10 Property \cf11 name\cf2 =\cf7 "objectFactoryNamespace"\cf9 >\cf0\f1\par
+\cf2\tab\tab\tab\cf9\f2 <\cf10 Value\cf9 >\cf2 objectFactoryNamespaceImageExporter\cf9 </\cf10 Value\cf9 >\cf0\f1\par
+\cf2\tab\tab\cf9\f2 </\cf10 Property\cf9 >\cf0\f1\par
+\par
+\cf2\tab\cf9\f2 </\cf10 Config\cf9 >\cf0\f1\par
+\par
+\par
+\cf2\tab\cf9\f2 <\cf10 Config \cf11 name\cf2 =\cf7 "ImageManipulationImageExporterProperties"\cf9 >\cf0\f1\par
+\par
+\cf2\tab\tab\cf9\f2 <\cf10 Property \cf11 name\cf2 =\cf7 "imageType"\cf9 >\cf0\f1\par
+\cf2\tab\tab\tab\cf9\f2 <\cf10 Value\cf9 >\cf2 TYPE_INT_RGB\cf9 </\cf10 Value\cf9 >\cf0\f1\par
+\cf2\tab\tab\cf9\f2 </\cf10 Property\cf9 >\cf0\f1\par
+\par
+\cf2\tab\tab\cf9\f2 <\cf10 Property \cf11 name\cf2 =\cf7 "renderingHints"\cf9 >\cf0\f1\par
+\cf2\tab\tab\tab\cf9\f2 <\cf10 Value\cf9 >\cf0\f1\par
+\cf2\tab\tab\tab\tab\f2 KEY_FRACTIONALMETRICS,VALUE_FRACTIONALMETRICS_ON\par
+\tab\tab\tab\cf9 </\cf10 Value\cf9 >\cf0\f1\par
+\cf2\tab\tab\tab\cf9\f2 <\cf10 Value\cf9 >\cf2 KEY_ANTIALIASING,VALUE_ANTIALIAS_ON\cf9 </\cf10 Value\cf9 >\cf0\f1\par
+\cf2\tab\tab\cf9\f2 </\cf10 Property\cf9 >\cf0\f1\par
+\par
+\cf2\tab\tab\cf9\f2 <\cf10 Property \cf11 name\cf2 =\cf7 "encodersMap"\cf9 >\cf0\f1\par
+\cf2\tab\tab\tab\cf9\f2 <\cf10 Value\cf9 >\cf2 NEW_FORMAT_A,myEncoderA\cf9 </\cf10 Value\cf9 >\cf0\f1\par
+\cf2\tab\tab\tab\cf9\f2 <\cf10 Value\cf9 >\cf2 NEW_FORMAT_B,myEncoderB\cf9 </\cf10 Value\cf9 >\cf0\f1\par
+\cf2\tab\tab\cf9\f2 </\cf10 Property\cf9 >\cf0\f1\par
+\par
+\cf2\tab\tab\cf9\f2 <\cf10 Property \cf11 name\cf2 =\cf7 "objectFactoryNamespace"\cf9 >\cf0\f1\par
+\cf2\tab\tab\tab\cf9\f2 <\cf10 Value\cf9 >\cf0\f1\par
+\cf2\tab\tab\tab\tab\f2 objectFactoryNamespaceImageManipulationImageExporter\par
+\tab\tab\tab\cf9 </\cf10 Value\cf9 >\cf0\f1\par
+\cf2\tab\tab\cf9\f2 </\cf10 Property\cf9 >\cf0\f1\par
+\par
+\cf2\tab\cf9\f2 </\cf10 Config\cf9 >\cf0\f1\par
+\par
+\cf2\tab\cf9\f2 <\cf10 Config \cf11 name\cf2 =\cf7 "objectFactoryNamespaceImageExporter"\cf9 >\cf0\f1\par
+\cf2\tab\tab\cf9\f2 <\cf10 Property \cf11 name\cf2 =\cf7 "myExporter1"\cf9 >\cf2 ...\cf9 </\cf10 Property\cf9 >\cf0\f1\par
+\par
+\cf2\tab\tab\cf9\f2 <\cf10 Property \cf11 name\cf2 =\cf7 "myExporter2"\cf9 >\cf2 ...\cf9 </\cf10 Property\cf9 >\cf0\f1\par
+\par
+\cf2\tab\tab\cf9\f2 <\cf10 Property \cf11 name\cf2 =\cf7 "myVisibleMaker"\cf9 >\cf2 ...\cf9 </\cf10 Property\cf9 >\cf0\f1\par
+\par
+\cf2\tab\cf9\f2 </\cf10 Config\cf9 >\cf0\f1\par
+\par
+\cf2\tab\cf9\f2 <\cf10 Config\cf0\f1\par
+\cf10\tab\tab\cf11\f2 name\cf2 =\cf7 "objectFactoryNamespaceImageManipulationImageExporter"\cf9 >\cf0\f1\par
+\par
+\cf2\tab\tab\cf9\f2 <\cf10 Property \cf11 name\cf2 =\cf7 "myEncoderA"\cf9 >\cf2 ...\cf9 </\cf10 Property\cf9 >\cf0\f1\par
+\par
+\cf2\tab\tab\cf9\f2 <\cf10 Property \cf11 name\cf2 =\cf7 "myEncoderB"\cf9 >\cf2 ...\cf9 </\cf10 Property\cf9 >\cf0\f1\par
+\par
+\cf2\tab\cf9\f2 </\cf10 Config\cf9 >\cf0\f1\par
+\cf9\f2 </\cf10 CMConfig\cf9 >\cf0\f1\par
+\pard\nowidctlpar\sb120\sa60\sl240\slmult0\tx0\cf9\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\cf0\b\f0\fs24 5.\tab Future Enhancements\par
+\pard\nowidctlpar\li720\sa120\b0\fs20 It's possbile to add other formats, example: SVG format or PDF.\par
+\pard\nowidctlpar\sa120\f1\par
+\pard\nowidctlpar\fs24\par
+}
+ 

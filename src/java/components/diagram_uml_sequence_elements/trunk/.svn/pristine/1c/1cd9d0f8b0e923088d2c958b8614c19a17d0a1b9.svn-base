@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<CMConfig>
+
+        <!-- Accuracy test properties for ObjectNode -->
+
+                <Property name="NodeStrokeColor">
+                        <Value>Color.BLACK</Value>
+                </Property>
+                <Property name="NodeFillColor">
+                        <Value>Color.WHITE</Value>
+                </Property>
+                <Property name="NodeFillColor2">
+                        <Value>Color.YELLOW</Value>
+                </Property>
+                <Property name="NodeShadowColor">
+                        <Value>Color.GRAY</Value>
+                </Property>
+                <Property name="NodeFontColor">
+                        <Value>Color.BLACK</Value>
+                </Property>
+                <Property name="NodeFontFamily">
+                        <Value>Times</Value>
+                </Property>
+                <Property name="NodeFontStyle">
+                        <Value>Font.PLAIN</Value>
+                </Property>
+                <Property name="NodeFontSize">
+                        <Value>15</Value>
+                </Property>
+                <Property name="NodeRenderScheme">
+                        <Value>1</Value>
+                </Property>
+                <Property name="NodeWidth">
+                        <Value>150</Value>
+                </Property>
+                <Property name="NodeHeight">
+                        <Value>150</Value>
+                </Property>
+                <Property name="NodeWidthMinimum">
+                        <Value>50</Value>
+                </Property>
+                <Property name="NodeHeightMinimum">
+                        <Value>50</Value>
+                </Property>
+                <Property name="NodeShadowLength">
+                        <Value>10</Value>
+                </Property>
+                <Property name="NodeRoundingRadius">
+                        <Value>15</Value>
+                </Property>
+
+
+        <!-- Accuracy test properties for SequenceEdge. -->
+
+                <Property name="EdgeStrokeColor">
+                        <Value>Color.BLACK</Value>
+                </Property>
+                <Property name="EdgeFillColor">
+                        <Value>Color.YELLOW</Value>
+                </Property>
+                <Property name="EdgeFillColor2">
+                        <Value>Color.BLUE</Value>
+                </Property>
+                <Property name="EdgeShadowColor">
+                        <Value>Color.GRAY</Value>
+                </Property>
+                <Property name="EdgeFontColor">
+                        <Value>Color.LIGHT_GRAY</Value>
+                </Property>
+                <Property name="EdgeTextBoxStrokeColor">
+                        <Value>Color.BLACK</Value>
+                </Property>
+                <Property name="EdgeTextBoxFillColor">
+                        <Value>Color.WHITE</Value>
+                </Property>
+                <Property name="EdgeTextBoxFillColor2">
+                        <Value>Color.YELLOW</Value>
+                </Property>
+                <Property name="EdgeFontFamily">
+                        <Value>Times</Value>
+                </Property>
+                <Property name="EdgeFontStyle">
+                        <Value>Font.ITALIC</Value>
+                </Property>
+                <Property name="EdgeFontSize">
+                        <Value>8</Value>
+                </Property>
+                <Property name="EdgeRenderScheme">
+                        <Value>1</Value>
+                </Property>
+                <Property name="EdgeDashLength">
+                        <Value>2</Value>
+                </Property>
+                <Property name="EdgeBlankLength">
+                        <Value>3</Value>
+                </Property>
+
+
+        <!-- Accuracy test properties for edge ending. -->
+                <Property name="EdgeEndingStrokeColor">
+                        <Value>Color.BLACK</Value>
+                </Property>
+                <Property name="EdgeEndingFillColor">
+                        <Value>Color.WHITE</Value>
+                </Property>
+                <Property name="EdgeEndingRenderScheme">
+                        <Value>1</Value>
+                </Property>
+                <Property name="EdgeEndingArrowXLength">
+                        <Value>10</Value>
+                </Property>
+                <Property name="EdgeEndingArrowYLength">
+                        <Value>10</Value>
+                </Property>
+
+
+</CMConfig>

@@ -1,0 +1,82 @@
+<CMConfig>
+    <Config name="com.topcoder.gui.panels.style.failuretests.FontSizeSelectorFailureTests.EmptyFontSize">
+		<Property name="fontSize">
+			<Property name="small">
+				<Value></Value>
+			</Property>
+			<Property name="smaller">
+				<Value>6</Value>
+			</Property>
+			<Property name="normal">
+				<Value>10</Value>
+			</Property>
+			<Property name="default">
+				<Value>10</Value>
+			</Property>
+		</Property>
+	</Config>
+	<Config name="com.topcoder.gui.panels.style.failuretests.FontSizeSelectorFailureTests.InvalidFontSize1">
+		<Property name="fontSize">
+			<Property name="small">
+				<Value>8</Value>
+			</Property>
+			<Property name="smaller">
+				<Value>0</Value>
+			</Property>
+			<Property name="normal">
+				<Value>10</Value>
+			</Property>
+			<Property name="default">
+				<Value>10</Value>
+			</Property>
+		</Property>
+	</Config>
+	<Config name="com.topcoder.gui.panels.style.failuretests.FontSizeSelectorFailureTests.InvalidFontSize2">
+		<Property name="fontSize">
+			<Property name="small">
+				<Value>8</Value>
+			</Property>
+			<Property name="smaller">
+				<Value>6</Value>
+			</Property>
+			<Property name="normal">
+				<Value>-10</Value>
+			</Property>
+			<Property name="default">
+				<Value>10</Value>
+			</Property>
+		</Property>
+	</Config>
+	<Config name="com.topcoder.gui.panels.style.failuretests.FontSizeSelectorFailureTests.DuplicatedFontSize">
+		<Property name="fontSize">
+			<Property name="small">
+				<Value>8</Value>
+			</Property>
+			<Property name="smaller">
+				<Value>8</Value>
+			</Property>
+			<Property name="normal">
+				<Value>10</Value>
+			</Property>
+			<Property name="default">
+				<Value>10</Value>
+			</Property>
+		</Property>
+	</Config>
+	<Config name="com.topcoder.gui.panels.style.failuretests.FontSizeSelectorFailureTests.NotFoundDefaultFontSize">
+		<Property name="fontSize">
+			<Property name="small">
+				<Value>8</Value>
+			</Property>
+			<Property name="smaller">
+				<Value>6</Value>
+			</Property>
+			<Property name="normal">
+				<Value>10</Value>
+			</Property>
+			<Property name="default">
+				<Value>12</Value>
+			</Property>
+		</Property>
+	</Config>
+</CMConfig>

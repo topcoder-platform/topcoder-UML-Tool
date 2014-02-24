@@ -1,0 +1,5 @@
+<Interface1 name="Comparable"> 
+	<Method name="compareTo" />
+</Interface1>
+
+

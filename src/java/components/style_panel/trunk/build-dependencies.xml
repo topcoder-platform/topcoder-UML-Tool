@@ -1,0 +1,30 @@
+<project name="Dependency Import" default="dist" basedir=".">
+    <!-- property file defining the component's dependencies -->
+    <property name="base_exception.jar" value="${tcs_libdir}/base_exception/2.0.0/base_exception.jar"/>
+    <property name="configuration_manager.jar"
+              value="${tcs_libdir}/configuration_manager/2.1.5/configuration_manager.jar"/>
+    <property name="diagram_interchange.jar" value="${tcs_libdir}/diagram_interchange/1.0.1/diagram_interchange.jar"/>
+
+    <!-- 3rd party dependencies -->
+    <property name="junit.jar" value="${ext_libdir}/junit/3.8.2/junit.jar"/>
+    <property name="jakarta-regexp.jar" value="${ext_libdir}/jakarta-regexp/1.5/jakarta-regexp-1.5.jar"/>
+    <property name="jfcunit.jar" value="${ext_libdir}/jfcunit/2.0.8/jfcunit.jar"/>
+
+    <path id="component.tcs-dependencies">
+        <pathelement location="${base_exception.jar}"/>
+        <pathelement location="${configuration_manager.jar}"/>
+        <pathelement location="${diagram_interchange.jar}"/>
+    </path>
+
+    <path id="component.3rdParty-dependencies">
+        <pathelement location="${junit.jar}"/>
+        <pathelement location="${jakarta-regexp.jar}"/>
+        <pathelement location="${jfcunit.jar}"/>
+    </path>
+
+    <path id="component.test.3rdParty-dependencies"/>
+
+    <!-- Properties used in compile_targets ANT target -->
+    <property name="component.target" value="1.5"/>
+    <property name="component.bootclasspath" value="${java_1_5_bootclasspath}"/>
+</project>

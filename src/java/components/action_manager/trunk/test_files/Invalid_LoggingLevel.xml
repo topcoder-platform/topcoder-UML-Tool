@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+
+<!-- 
+
+This is the configuration file for this component and defines the set of configuration properties for the component.
+These configuration properties define the information like maximum number of UndoableAction(s) that should be 
+maintained in the UndoManager [AdvancedUndoManager] instance for performing the Undo-Redo operations, and once the
+limit is crossed, the UndoManager will flush out the old entries to maintain the size of the entries in the UndoManager.
+It also contains the configuration properties that define the instance name of the Log to be used for performing the logging 
+using the Logging Wrapper 1.2 component.
+
+-->
+
+<CMConfig>
+
+    <!--
+        This property is a required property and a single-valued property and specifies the maximum number of UndoableAction(s) that should be 
+        maintained in the UndoManager [AdvancedUndoManager] instance for performing the Undo-Redo operations, and once the
+        limit is crossed, the UndoManager will flush out the old entries to maintain the size of the entries in the UndoManager.
+        The value has to be an integer value greater than 0.
+    -->
+
+    <Property name="MaximumUndoableActions">
+      <Value>10</Value>
+    </Property>
+
+
+    <!--
+        This property is an optional property and a single-valued property and specifies the name of the 
+        instance of the Log from the Logging Wrapper 1.2 component to be used for performing the logging.
+    -->
+
+    <Property name="LoggerName">
+      <Value>DefaultLog</Value>
+    </Property>
+
+    <!-- 
+         This is an optional property and a single valued property. If the value is not specified or an invalid value 
+         is specified then it defaults to the value of "DEBUG". This property can take the value "OFF", "WARN", "DEBUG" or "ERROR" 
+         and specifies the level of logging to be done by the ActionManager.
+      -->
+
+    <Property name="LoggingLevel">
+      <Value>FATAL ERROR</Value>
+    </Property>
+
+</CMConfig>

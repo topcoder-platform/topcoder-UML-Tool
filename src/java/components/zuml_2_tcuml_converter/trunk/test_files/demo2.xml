@@ -1,0 +1,207 @@
+<CMConfig>
+    <Config name="demo">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:xmiheader</Value>
+            </Property>
+            <Property name="UML:Method">
+                <Value>handlers:umlmethod</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>converters:diagramtitle</Value>
+                <Value>converters:diagramsize</Value>
+                <Value>converters:replaceproperties</Value>
+            </Property>
+            <Property name="UML:Attribute">
+                <Value>converters:renamename</Value>
+            </Property>
+            <Property name="UML:Parameter">
+                <Value>converters:renamename</Value>
+            </Property>
+            <Property name="UML:Operation">
+                <Value>converters:ignoreoperationmethod</Value>
+            </Property>
+        </Property>
+        
+        <!--DiagramTitleConverter's config-->
+        <Property name="ConvertDiagramTitleToTextElement">
+            <Value>true</Value>
+        </Property>
+        <Property name="DefaultTextElementProperties">
+            <Property name="FILL_COLOR">
+                <Value>CCFFCC</Value>
+            </Property>
+            <Property name="FONT_FAMILY">
+                <Value>Arial</Value>
+            </Property>    
+        </Property>
+       
+       <!--RenameConverter's config--> 
+       <Property name="ToRenameNames">
+            <Property name="UML2:TypedElement$type">
+                <Value>UML:StructuralFeature.type</Value>
+            </Property>
+            <Property name="UML:Class">
+                <Value>UML:Classifier</Value>
+            </Property>
+            <Property name="UML:DateType">
+                <Value>UML:Classifier</Value>
+            </Property>
+        </Property>
+       
+       <!-- GraphPropertiesConverter's config--> 
+        <Property name="PropertyValueTransformers">
+            <Value>transformer:regex</Value>
+        </Property>
+        <Property name="ToReplacePropertyKeys">
+            <Property name="fill">
+                <Value>FILL_COLOR</Value>
+            </Property>
+            <Property name="font-color">
+                <Value>FONT_COLOR</Value>
+            </Property>
+        </Property>
+        
+    </Config>
+    
+    <Config name="object_factory_namespace">
+         <!--Transformer's config-->
+     <Property name="transformer:regex">
+          <Property name="type">
+              <Value>com.topcoder.umltool.xmiconverters.poseidon5.propertytransformers.RegexToLowerPropertyValueTransformer</Value>
+          </Property>
+          <Property name="params">
+              <Property name="param1">
+                  <Property name="type">
+                      <Value>String</Value>
+                  </Property>
+                  <Property name="value">
+                      <Value>font-.*</Value>
+                  </Property>
+             </Property>
+          </Property>
+     </Property>
+     
+        <Property name="handlers:xmiheader">
+            <Property name="type">
+                <Value>com.topcoder.umltool.xmiconverters.poseidon5.handlers.ZUMLHeaderHandler</Value>
+            </Property>
+            <Property name="params">
+                 <Property name="param1">
+                     <Property name="name">
+                          <Value>acceptableVersions</Value>
+                     </Property>
+                 </Property>
+            </Property>
+        </Property>
+        
+        <Property name="acceptableVersions">
+            <Property name="arrayType">
+                <Value>String</Value>
+            </Property>
+            <Property name="dimension">
+                <Value>1</Value>
+            </Property>
+            <Property name="values">
+                <Value>{"1.4.5", "1.4.6"}</Value>
+            </Property>
+        </Property>
+        
+        <Property name="handlers:umlmethod">
+            <Property name="type">
+                <Value>com.topcoder.umltool.xmiconverters.poseidon5.handlers.ZUMLMethodHandler</Value>
+            </Property>
+        </Property>
+        
+        <Property name="converters:diagramsize">
+            <Property name="type">
+                <Value>com.topcoder.umltool.xmiconverters.poseidon5.converters.DiagramSizeConverter</Value>
+            </Property>
+            <Property name="params">
+                 <Property name="param1">
+                     <Property name="type">
+                          <Value>double</Value>
+                     </Property>
+                     <Property name="value">
+                          <Value>200</Value>
+                     </Property>
+                 </Property>
+                 <Property name="param2">
+                     <Property name="type">
+                          <Value>double</Value>
+                     </Property>
+                     <Property name="value">
+                          <Value>400</Value>
+                     </Property>
+                 </Property>
+                 <Property name="param3">
+                     <Property name="type">
+                          <Value>double</Value>
+                     </Property>
+                     <Property name="value">
+                          <Value>20</Value>
+                     </Property>
+                 </Property>
+            </Property>
+        </Property>
+        
+        <Property name="converters:diagramtitle">
+            <Property name="type">
+                <Value>com.topcoder.umltool.xmiconverters.poseidon5.converters.DiagramTitleConverter</Value>
+            </Property>
+            <Property name="params">
+                 <Property name="param1">
+                     <Property name="type">
+                          <Value>java.lang.String</Value>
+                     </Property>
+                     <Property name="value">
+                          <Value>demo</Value>
+                     </Property>
+                 </Property>
+            </Property>
+        </Property>
+        
+        <Property name="converters:replaceproperties">
+            <Property name="type">
+                <Value>com.topcoder.umltool.xmiconverters.poseidon5.converters.GraphPropertiesConverter</Value>
+            </Property>
+            <Property name="params">
+                 <Property name="param1">
+                     <Property name="type">
+                          <Value>java.lang.String</Value>
+                     </Property>
+                     <Property name="value">
+                          <Value>demo</Value>
+                     </Property>
+                 </Property>
+            </Property>
+        </Property>
+        
+        <Property name="converters:renamename">
+            <Property name="type">
+                <Value>com.topcoder.umltool.xmiconverters.poseidon5.converters.RenameConverter</Value>
+            </Property>
+            <Property name="params">
+                 <Property name="param1">
+                     <Property name="type">
+                          <Value>java.lang.String</Value>
+                     </Property>
+                     <Property name="value">
+                          <Value>demo</Value>
+                     </Property>
+                 </Property>
+            </Property>
+        </Property>
+        
+        <Property name="converters:ignoreoperationmethod">
+            <Property name="type">
+                <Value>com.topcoder.umltool.xmiconverters.poseidon5.converters.IgnoreOperationInMethodConverter</Value>
+            </Property>
+        </Property>
+    </Config>
+</CMConfig>

@@ -1,0 +1,9 @@
+#property file defining the components information
+component.name=Closable Tab
+component.distfilename=closable_tab
+component.package=com.topcoder.gui.closabletabbedpane
+component.packagedir=com/topcoder/gui/closabletabbedpane
+component.version.major=1
+component.version.minor=0
+component.version.micro=2
+component.version.build=1

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xmi="http://www.omg.org/XMI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:org.omg.uml2.diagram_interchange=
+    "http://schema.omg.org/uml2/diagram_interchange.xml" targetNamespace=
+    "http://schema.omg.org/uml2/diagram_interchange.xml">
+  <xsd:import schemaLocation="XMI.xsd" 
+      namespace="http://www.omg.org/XMI"/>
+  <xsd:complexType name="BezierPoint">
+    <xsd:complexContent>
+      <xsd:extension 
+          base="org.omg.uml2.diagram_interchange:Point">
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+          <xsd:element name="controls"
+              type="org.omg.uml2.diagram_interchange:Point"/>
+        </xsd:choice>
+        <xsd:attribute name="controls" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="BezierPoint" type="org.omg.uml2.diagram_interchange:BezierPoint"/>
+  <xsd:complexType name="CoreSemanticModelBridge">
+    <xsd:complexContent>
+      <xsd:extension base=
+          "org.omg.uml2.diagram_interchange:SemanticModelBridge">
+        <xsd:attribute name="element" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="CoreSemanticModelBridge" type=
+      "org.omg.uml2.diagram_interchange:CoreSemanticModelBridge"/>
+  <xsd:complexType name="Diagram">
+    <xsd:complexContent>
+      <xsd:extension 
+          base="org.omg.uml2.diagram_interchange:GraphNode">
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+          <xsd:element name="viewport" 
+              type="org.omg.uml2.diagram_interchange:Point"/>
+          <xsd:element name="diagramLink"
+              type="org.omg.uml2.diagram_interchange:DiagramLink"/>
+          <xsd:element name="owner" type=
+              "org.omg.uml2.diagram_interchange:SemanticModelBridge"/>
+        </xsd:choice>
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="zoom" type="xsd:double"/>
+        <xsd:attribute name="viewport" type="xsd:string"/>
+        <xsd:attribute name="diagramLink" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Diagram" 
+      type="org.omg.uml2.diagram_interchange:Diagram"/>
+  <xsd:complexType name="DiagramElement">
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+      <xsd:element name="property" 
+          type="org.omg.uml2.diagram_interchange:Property"/>
+      <xsd:element name="reference" 
+          type="org.omg.uml2.diagram_interchange:Reference"/>
+      <xsd:element ref="xmi:Extension"/>
+    </xsd:choice>
+    <xsd:attribute ref="xmi:id"/>
+    <xsd:attributeGroup ref="xmi:ObjectAttribs"/>
+    <xsd:attribute name="isVisible" type="xsd:boolean"/>
+    <xsd:attribute name="reference" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:element name="DiagramElement" 
+      type="org.omg.uml2.diagram_interchange:DiagramElement"/>
+  <xsd:complexType name="DiagramLink">
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+      <xsd:element name="viewport" 
+          type="org.omg.uml2.diagram_interchange:Point"/>
+      <xsd:element name="diagram" 
+          type="org.omg.uml2.diagram_interchange:Diagram"/>
+      <xsd:element ref="xmi:Extension"/>
+    </xsd:choice>
+    <xsd:attribute ref="xmi:id"/>
+    <xsd:attributeGroup ref="xmi:ObjectAttribs"/>
+    <xsd:attribute name="zoom" type="xsd:double"/>
+    <xsd:attribute name="viewport" type="xsd:string"/>
+    <xsd:attribute name="diagram" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:element name="DiagramLink" 
+      type="org.omg.uml2.diagram_interchange:DiagramLink"/>
+  <xsd:complexType name="Dimension">
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+      <xsd:element ref="xmi:Extension"/>
+    </xsd:choice>
+    <xsd:attribute ref="xmi:id"/>
+    <xsd:attributeGroup ref="xmi:ObjectAttribs"/>
+    <xsd:attribute name="width" type="xsd:double"/>
+    <xsd:attribute name="height" type="xsd:double"/>
+  </xsd:complexType>
+  <xsd:element name="Dimension" 
+      type="org.omg.uml2.diagram_interchange:Dimension"/>
+  <xsd:complexType name="Ellipse">
+    <xsd:complexContent>
+      <xsd:extension 
+          base="org.omg.uml2.diagram_interchange:GraphicPrimitive">
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+          <xsd:element name="center" 
+              type="org.omg.uml2.diagram_interchange:Point"/>
+        </xsd:choice>
+        <xsd:attribute name="radiusX" type="xsd:double"/>
+        <xsd:attribute name="radiusY" type="xsd:double"/>
+        <xsd:attribute name="rotation" type="xsd:double"/>
+        <xsd:attribute name="startAngle" type="xsd:double"/>
+        <xsd:attribute name="endAngle" type="xsd:double"/>
+        <xsd:attribute name="center" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Ellipse" 
+      type="org.omg.uml2.diagram_interchange:Ellipse"/>
+  <xsd:complexType name="GraphConnector">
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+      <xsd:element name="position" 
+          type="org.omg.uml2.diagram_interchange:Point"/>
+      <xsd:element name="graphEdge" 
+          type="org.omg.uml2.diagram_interchange:GraphEdge"/>
+      <xsd:element ref="xmi:Extension"/>
+    </xsd:choice>
+    <xsd:attribute ref="xmi:id"/>
+    <xsd:attributeGroup ref="xmi:ObjectAttribs"/>
+    <xsd:attribute name="position" type="xsd:string"/>
+    <xsd:attribute name="graphEdge" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:element name="GraphConnector" 
+      type="org.omg.uml2.diagram_interchange:GraphConnector"/>
+  <xsd:complexType name="GraphEdge">
+    <xsd:complexContent>
+      <xsd:extension 
+          base="org.omg.uml2.diagram_interchange:GraphElement">
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+          <xsd:element name="waypoints" 
+              type="org.omg.uml2.diagram_interchange:Point"/>
+          <xsd:element name="anchor" 
+              type="org.omg.uml2.diagram_interchange:GraphConnector"/>
+        </xsd:choice>
+        <xsd:attribute name="waypoints" type="xsd:string"/>
+        <xsd:attribute name="anchor" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="GraphEdge" 
+      type="org.omg.uml2.diagram_interchange:GraphEdge"/>
+  <xsd:complexType name="GraphElement">
+    <xsd:complexContent>
+      <xsd:extension 
+          base="org.omg.uml2.diagram_interchange:DiagramElement">
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+          <xsd:element name="position" 
+              type="org.omg.uml2.diagram_interchange:Point"/>
+          <xsd:element name="anchorage" 
+              type="org.omg.uml2.diagram_interchange:GraphConnector"/>
+          <xsd:element name="contained" 
+              type="org.omg.uml2.diagram_interchange:DiagramElement"/>
+          <xsd:element name="semanticModel" type=
+        "org.omg.uml2.diagram_interchange:SimpleSemanticModelElement"/>
+          <xsd:element name="link" 
+              type="org.omg.uml2.diagram_interchange:DiagramLink"/>
+        </xsd:choice>
+        <xsd:attribute name="position" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="GraphElement" 
+      type="org.omg.uml2.diagram_interchange:GraphElement"/>
+  <xsd:complexType name="GraphNode">
+    <xsd:complexContent>
+      <xsd:extension 
+          base="org.omg.uml2.diagram_interchange:GraphElement">
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+          <xsd:element name="size" 
+              type="org.omg.uml2.diagram_interchange:Dimension"/>
+        </xsd:choice>
+        <xsd:attribute name="size" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="GraphNode" 
+      type="org.omg.uml2.diagram_interchange:GraphNode"/>
+  <xsd:complexType name="GraphicPrimitive">
+    <xsd:complexContent>
+      <xsd:extension 
+          base="org.omg.uml2.diagram_interchange:LeafElement"/>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="GraphicPrimitive" 
+      type="org.omg.uml2.diagram_interchange:GraphicPrimitive"/>
+  <xsd:complexType name="Image">
+    <xsd:complexContent>
+      <xsd:extension 
+          base="org.omg.uml2.diagram_interchange:LeafElement">
+        <xsd:attribute name="url" type="xsd:string"/>
+        <xsd:attribute name="mimeType" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Image" type="org.omg.uml2.diagram_interchange:Image"/>
+  <xsd:complexType name="LeafElement">
+    <xsd:complexContent>
+      <xsd:extension 
+          base="org.omg.uml2.diagram_interchange:DiagramElement"/>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="LeafElement" 
+      type="org.omg.uml2.diagram_interchange:LeafElement"/>
+  <xsd:complexType name="Point">
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+      <xsd:element ref="xmi:Extension"/>
+    </xsd:choice>
+    <xsd:attribute ref="xmi:id"/>
+    <xsd:attributeGroup ref="xmi:ObjectAttribs"/>
+    <xsd:attribute name="x" type="xsd:double"/>
+    <xsd:attribute name="y" type="xsd:double"/>
+  </xsd:complexType>
+  <xsd:element name="Point" 
+      type="org.omg.uml2.diagram_interchange:Point"/>
+  <xsd:complexType name="Polyline">
+    <xsd:complexContent>
+      <xsd:extension 
+          base="org.omg.uml2.diagram_interchange:GraphicPrimitive">
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+          <xsd:element name="waypoints" 
+              type="org.omg.uml2.diagram_interchange:Point"/>
+        </xsd:choice>
+        <xsd:attribute name="closed" type="xsd:boolean"/>
+        <xsd:attribute name="waypoints" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Polyline" 
+      type="org.omg.uml2.diagram_interchange:Polyline"/>
+  <xsd:complexType name="Property">
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+      <xsd:element ref="xmi:Extension"/>
+    </xsd:choice>
+    <xsd:attribute ref="xmi:id"/>
+    <xsd:attributeGroup ref="xmi:ObjectAttribs"/>
+    <xsd:attribute name="key" type="xsd:string"/>
+    <xsd:attribute name="value" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:element name="Property" 
+      type="org.omg.uml2.diagram_interchange:Property"/>
+  <xsd:complexType name="Reference">
+    <xsd:complexContent>
+      <xsd:extension 
+          base="org.omg.uml2.diagram_interchange:DiagramElement">
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+          <xsd:element name="referenced" 
+              type="org.omg.uml2.diagram_interchange:DiagramElement"/>
+        </xsd:choice>
+        <xsd:attribute name="isIndividualRepresentation" 
+            type="xsd:boolean"/>
+        <xsd:attribute name="referenced" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="Reference" 
+      type="org.omg.uml2.diagram_interchange:Reference"/>
+  <xsd:complexType name="SemanticModelBridge">
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+      <xsd:element ref="xmi:Extension"/>
+    </xsd:choice>
+    <xsd:attribute ref="xmi:id"/>
+    <xsd:attributeGroup ref="xmi:ObjectAttribs"/>
+    <xsd:attribute name="presentation" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:element name="SemanticModelBridge" 
+      type="org.omg.uml2.diagram_interchange:SemanticModelBridge"/>
+  <xsd:complexType name="SimpleSemanticModelElement">
+    <xsd:complexContent>
+      <xsd:extension 
+          base="org.omg.uml2.diagram_interchange:SemanticModelBridge">
+        <xsd:attribute name="typeInfo" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="SimpleSemanticModelElement" type=
+      "org.omg.uml2.diagram_interchange:SimpleSemanticModelElement"/>
+  <xsd:complexType name="TextElement">
+    <xsd:complexContent>
+      <xsd:extension 
+          base="org.omg.uml2.diagram_interchange:LeafElement">
+        <xsd:attribute name="text" type="xsd:string"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="TextElement" 
+      type="org.omg.uml2.diagram_interchange:TextElement"/>
+</xsd:schema>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="dist" name="Dependency Import">
+    <!--property file defining the component's dependencies-->
+    <!--Properties used in compile_targets ANT target for JDK version x-->
+    <property name="component.target" value="1.5"/>
+    <property name="component.bootclasspath" value="${java_1_5_bootclasspath}"/>
+    <!--TCS dependencies-->
+    
+    <!--3rd party dependencies-->
+    <property name="junit.jar" value="${ext_libdir}/junit/3.8.2/junit.jar"/> 
+     
+    <!--Path declarations which are to be used in the master build file.-->
+    <path id="component.tcs-dependencies"/>
+    <path id="component.3rdParty-dependencies"/>
+    <path id="component.test.3rdParty-dependencies">
+        <pathelement location="${junit.jar}"/>
+    </path>
+</project>

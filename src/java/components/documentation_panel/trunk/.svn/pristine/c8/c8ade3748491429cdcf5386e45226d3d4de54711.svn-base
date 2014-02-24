@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+    
+<CMConfig>
+    <!-- configuration for the overall panel -->
+    <Config name="DocPanel_Namespace">
+        <Property name="objectFactoryNamespace">
+            <Value>documentationPanel_objectFactory</Value>
+        </Property>
+        <Property name="documentEditorKey">
+            <Value>documentEditor</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor</Value>
+        </Property>   
+    </Config>
+
+   <Config name="DocEditor_Namespace">
+        <Property name="wordwrap">
+            <Value>yes</Value>
+        </Property>
+    </Config>
+    
+        <Config name="TagEditor_Namespace">
+        <Property name="tagprompt">
+            <Value>Insert new test tag...</Value>
+        </Property>
+        <Property name="valueprompt">
+            <Value>new test value</Value>
+        </Property>
+        <Property name="columnnames">
+            <Value>Test_Tag</Value>
+            <Value>Test_Documentation</Value>
+        </Property>
+        <Property name="tagoptionNamespace">
+            <Value>defaultTagOptionNamespace</Value>
+        </Property>
+    </Config>
+    
+    <Config name="defaultTagOptionNamespace">
+    		<Property name="TYPES">
+			    <Value>GLOBAL</Value>
+			    <Value>com.topcoder.uml.model.core.OperationImpl</Value>
+			    <Value>com.topcoder.uml.model.core.MethodImpl</Value>
+			  </Property> 
+			  
+			  <!-- global options -->
+        <Property name="GLOBAL">
+            <!-- some common javadocs options -->
+            <Property name="options">
+                <Value>see</Value>
+                <Value>since</Value>
+                <Value>deprecated</Value>
+            </Property>
+        </Property>
+        
+        <!-- method options -->
+        <Property name="com.topcoder.uml.model.core.OperationImpl">
+            <!-- add two operation options -->
+            <Property name="options">
+                <Value>throws</Value>
+                <Value>exception</Value>
+            </Property>
+            
+            <!-- inherit the global set -->
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <!-- class options, adding two to global -->
+        <Property name="com.topcoder.uml.model.core.MethodImpl">
+            
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+		</Config>
+		
+		<Config name="documentationPanel_objectFactory">  
+  
+        <Property name="documentEditor">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultDocumentationEditor</Value>
+            </Property>
+            <Property name="params">
+
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>DocEditor_Namespace</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        
+        <Property name="tagEditor">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultTagEditor</Value>
+            </Property>
+            <Property name="params">
+               
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>TagEditor_Namespace</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+    </Config>  
+    
+</CMConfig>

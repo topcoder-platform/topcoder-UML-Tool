@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=Zoom Panel
+component.distfilename=zoom_panel
+component.package=com.topcoder.gui.panels.zoom
+component.packagedir=com/topcoder/gui/panels/zoom
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

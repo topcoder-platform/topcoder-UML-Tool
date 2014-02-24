@@ -1,0 +1,5 @@
+/**
+*/
+protected interface InterfaceForTest{
+}
+

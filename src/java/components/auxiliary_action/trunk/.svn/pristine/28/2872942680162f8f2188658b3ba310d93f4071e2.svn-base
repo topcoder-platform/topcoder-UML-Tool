@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File with invalid configs.-->
+<CMConfig>
+    <Config name="com.topcoder.uml.projectconfiguration.ProjectConfigurationManager">
+        <Property name="stereotypes">
+            <Property name="Java">
+                <Property name="Class">
+                    <Value>exception</Value>
+                    <Value>abstract</Value>
+                </Property>
+                <Property name="Operation">
+                    <Value>final</Value>
+                    <Value>abstract</Value>
+                </Property>
+            </Property>
+            <Property name="CSharp">
+                <Property name="Class">
+                    <Value>exception</Value>
+                    <Value>abstract</Value>
+                </Property>
+            </Property>
+        </Property>
+        <Property name="defaultProjectLanguage">
+            <Value>Java</Value>
+        </Property>
+    </Config>
+
+    <Config name="com.topcoder.uml.projectconfiguration.ProjectConfigurationManager.objectfactory">
+        <Property name = "standardClassDataLoader">
+            <Property name="type">
+                <Value>com.topcoder.uml.actions.auxiliary.failuretests.impls.StandardClassDataLoaderImpl</Value>
+            </Property>
+        </Property>
+
+        <Property name = "stereotypeLoader">
+            <Property name="type">
+                <Value>com.topcoder.uml.actions.auxiliary.failuretests.impls.StandardStereotypeLoaderImpl</Value>
+            </Property>
+        </Property>
+    </Config>
+
+    <Config name="com.topcoder.util.log">
+        <!-- The Log implementation class -->
+        <Property name="logClass">
+            <Value>com.topcoder.util.log.basic.BasicLog</Value>
+        </Property>
+
+        <!-- Specifies where the output should be written to, System.out or System.err -->
+        <Property name="basic.log.target">
+            <Value>System.out</Value>
+        </Property>
+    </Config>
+</CMConfig>

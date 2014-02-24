@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=UML Model - Core Relationships
+component.distfilename=uml_model_-_core_relationships
+component.package=com.topcoder.uml.model.core.relationships
+component.packagedir=com/topcoder/uml/model/core/relationships
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

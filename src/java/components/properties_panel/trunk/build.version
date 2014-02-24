@@ -1,0 +1,9 @@
+#property file defining the components information
+component.name=Properties Panel
+component.distfilename=properties_panel
+component.package=com.topcoder.gui.panels.properties
+component.packagedir=com/topcoder/gui/panels/properties
+component.version.major=1
+component.version.minor=1
+component.version.micro=0
+component.version.build=1

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<installation version="5.0">
+ 
+    <natives>
+        <native type="izpack" name="ShellLink.dll"/>
+        <native type="izpack" name="ShellLink_x64.dll"/>
+    </natives>
+
+    <resources>
+        <res src="windows_shortcut_specification.xml"
+            id="shortcutSpec.xml"/>
+        <res src="unix_shortcut_specification.xml"
+            id="Unix_shortcutSpec.xml"/>
+        <res id="InfoPanel.info" 
+            src="../docs/Readme.txt"/>
+        <res id="HTMLLicencePanel.licence" 
+            src="license.html"/>
+        <res id="license_files/image001.gif" 
+            src="license_files/image001.gif"/>
+    </resources>
+    
+    <info>
+        <appname>TopCoder UML Tool</appname>
+        <appversion>1.2.6</appversion>
+        <appsubpath>TopCoder UML Tool</appsubpath>
+        <url>http://www.topcoder.com/</url>
+        <authors>
+            <author name="TopCoder" email="service@topcoder.com"/>
+        </authors>
+        <javaversion>1.7</javaversion>
+        <version>1.2.6</version>
+    </info>
+
+    <guiprefs height="600" resizable="yes" width="800">
+    </guiprefs>
+
+    <locale>
+        <langpack iso3="eng"/>
+    </locale>
+
+    <panels>
+        <panel classname="HelloPanel"/>
+        <panel classname="HTMLLicencePanel"/>
+        <panel classname="InfoPanel"/>
+        <panel classname="TargetPanel"/>
+        <panel classname="PacksPanel"/>
+        <panel classname="InstallPanel"/>
+        <panel classname="ShortcutPanel"/>
+        <panel classname="SimpleFinishPanel"/>
+    </panels>
+
+    <listeners>
+        <listener classname="com.topcoder.umltool.izpack.api.event.UninstallerListener" jar="topcoder/topcoder_uml_tool_izpack.jar" stage="uninstall"/>
+    </listeners>
+
+    <packs>
+        <pack name="Core" required="yes">
+            <description>TopCoder UML Tool Required Files</description>
+            <fileset dir="../" targetdir="$INSTALL_PATH/bin">
+                <include name="lib/**/*" />
+                <exclude name="lib/jfcunit/**/*" />
+                <exclude name="lib/jfcunit" />
+                <exclude name="lib/junit/**/*" />
+                <exclude name="lib/junit" />
+                <include name="resources/**/*" />
+                <include name="conf/**/*" />
+            </fileset>
+            <fileset dir="../docs" targetdir="$INSTALL_PATH">
+                <include name="Readme.txt" />
+            </fileset>
+            <fileset dir="../build/classes" targetdir="$INSTALL_PATH/bin">
+                <include name="**/*" />
+            </fileset>
+            <fileset dir="." targetdir="$INSTALL_PATH/bin">
+                <os family="windows"/>
+                <include name="run.cmd" />
+            </fileset>
+            <fileset dir="." targetdir="$INSTALL_PATH/bin">
+                <os family="unix"/>
+                <include name="run.sh" />
+            </fileset>
+            <fileset dir="." targetdir="$INSTALL_PATH/bin">
+                <os family="mac"/>
+                <include name="run.sh" />
+            </fileset>
+            <executable targetfile="$INSTALL_PATH/bin/run.sh" stage="never"/>
+        </pack>
+    </packs>
+
+</installation>

@@ -1,0 +1,24 @@
+<CMConfig>
+<!-- Configure the Close Tab Button -->
+	<Config name="com.topcoder.gui.diagramviewer.CloseTabAction">
+	    <Property name="name">
+			<Value>Close</Value>
+		</Property>
+		<Property name="close_tab_action_icon">
+			<Value>accuracyTests/close.icon</Value>
+		</Property>
+	</Config>
+
+	<Config name="name.optional">
+		<Property name="close_tab_action_icon">
+			<Value>accuracyTests/close.icon</Value>
+		</Property>
+	</Config>
+
+	<Config name="icon.optional">
+	    <Property name="name">
+			<Value>Close</Value>
+		</Property>
+	</Config>
+
+</CMConfig>

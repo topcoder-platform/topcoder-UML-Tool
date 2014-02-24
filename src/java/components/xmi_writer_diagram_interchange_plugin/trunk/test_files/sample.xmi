@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<XMI xmlns:UML2='org.omg.xmi.namespace.UML2' xmlns:UML='org.omg.xmi.namespace.UML' xmi.version='1.5'>
+<XMI.content>
+<UML:Diagram name="Main Class Diagram" visible="true" xmi.id="TC_UML_cbe65f4d-9f85-4e49-8382-9275954253ad" zoom="0.9">
+<UML:Diagram.viewport>
+<UML:Point x="0.0" y="0.0"/>
+</UML:Diagram.viewport>
+<UML:GraphNode.size>
+<UML:Dimension height="250.0" width="250.0"/>
+</UML:GraphNode.size>
+<UML:GraphElement.position>
+<UML:Point x="0.0" y="0.0"/>
+</UML:GraphElement.position>
+<UML:GraphElement.contained>
+<UML:GraphNode visible="true" xmi.id="TC_UML_ab1b226e-2c08-4da4-9f39-81d5b410a66a">
+<UML:GraphNode.size>
+<UML:Dimension height="25.0" width="40.0"/>
+</UML:GraphNode.size>
+<UML:GraphElement.position>
+<UML:Point x="120.0" y="30.0"/>
+</UML:GraphElement.position>
+<UML:GraphElement.contained>
+<UML:TextElement text="Title" visible="true" xmi.id="TC_UML_612ac4f1-bd77-4e4b-b966-9f6dac83a2ec"/>
+</UML:GraphElement.contained>
+<UML:DiagramElement.property>
+<UML:Property key="font-size" value="20.0"/>
+</UML:DiagramElement.property>
+</UML:GraphNode>
+<UML:Ellipse endAngle="6.283185307179586" radiusX="22.0" radiusY="22.0" rotation="0.0" startAngle="0.0" visible="false" xmi.id="TC_UML_6501b2cf-7f44-4fa2-9e9a-9d6ff5e9600b">
+<UML:Ellipse.center>
+<UML:Point x="200.0" y="30.0"/>
+</UML:Ellipse.center>
+<UML:DiagramElement.property>
+<UML:Property key="fill" value="#0000ff"/>
+</UML:DiagramElement.property>
+</UML:Ellipse>
+</UML:GraphElement.contained>
+</UML:Diagram>
+</XMI.content>
+</XMI>

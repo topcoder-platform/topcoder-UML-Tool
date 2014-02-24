@@ -1,0 +1,263 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033\deflangfe1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fmodern\fprq1\fcharset0 Courier New;}{\f3\fnil\fprq2\fcharset2 Wingdings;}{\f4\froman\fprq2\fcharset2 Symbol;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue255;\red0\green128\blue128;}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}{\s3 heading 3;}}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\keepn\nowidctlpar\s1\sb120\sa120\sl240\slmult0\tx720\ul\b\f0\fs28 UML Model - State Machines 1.0 \f1 Component Specification\par
+\pard\ulnone\b0\f0\fs20 The UML Model - State Machines component declares the interfaces from the UML 1.5 framework, from the State Machines package. It provides concrete implementations for each interface and provides powerful API to access the collection attributes.\par
+This is basically an object model for a State Machine, which is used for modeling of state information.\f1\par
+\pard\sa120\par
+\pard\keepn\nowidctlpar\s1\sb120\sa120\sl240\slmult0\tx360\b\f0 1.\tab Design\par
+\pard\sa120\b0 This component is really something of a fundamental base for the state diagrams that are used in UML. It defines a set of interfaces (contracts) and basic implementations for the purpose of defining a State Machine. The following have been defined\par
+\tab 1. Contract and relations definitions\par
+\tab 2. Base implementations\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0\i 1.1.1\tab Base implementations decisions\par
+\pard\i0 It was decided (actual requirement) that only very basic validation of passed in parameters will be done, and only on the level of input that directly affects lists and collections. Thus we do not allow null elements to be placed into lists or collections. We do allow the setting of null collections/lists though as well as other non-primitive instances. The idea is that validation and the assurance of proper input data should be mostly decided by a higher level which would be put around and on top of this component. \par
+\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0\i 1.1.2\tab DOM Validation\par
+\pard\i0 It is assumed that DOM validation would be done outside of the DOM itself. This means that we are anticipating something of a validation framework, which would take as input a State Machine for example (or a StateVertex) and then validate it based on some external rules.\par
+\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0\b 1.2\tab Design Patterns \par
+\pard\li720\sa120 Composite\b0  has been used to model the different states since they are made up of other nodes including other states, transitions, and elements.\f1\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0\b\f0 1.3\tab Industry Standards \par
+\pard\li720\b0 UML 1.5\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0\b 1.4\tab Required Algorithms\par
+\pard\sa120\b0 Please refer to the class docs. There are no real algorithms here. \par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0\b 1.5\tab Component Class Overview\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0\b0\i 1.5.1\tab Interfaces\par
+\pard\li720\b\i0 Guard\par
+\b0 A guard is a condition that must be true in order to traverse a transition. It prevents the transition being taken unless the condition evaluates to true. To expand on this concept: A guard is a boolean expression that is attached to a transition as a fine-grained control over its firing. The guard is evaluated when an event instance is dispatched by the \par
+state machine. If the guard is true at that time, the transition is enabled, otherwise, it is disabled. Guards should be pure expressions without side effects. Guard expressions with side effects are ill formed.\par
+NOTE: Guards Should Not Overlap.  The guards on similar transitions leaving a state must be consistent with one another.  For example guards such as [x <0], [x = 0], and [x > 0] are consistent whereas guard such as [x <= 0] and [x >= 0] are not consistent because they overlap.\par
+Implementations are mutable, there is no requirement to make implementations of this interface thread-safe.\par
+\par
+\b Transition\par
+\b0 A transition is a progression (or a moving from) from one state to another and is triggered by an event that is either internal or external to the entity being modeled.  For a class, transitions are typically the result of the invocation of an operation that causes an important change in state, although it is important to understand that not all method invocations will result in transitions.  An action is something; in the case of a class it is an operation that is invoked by/on the entity being modeled.\par
+A transition is a directed relationship between a source vertex and a target vertex. It may be part of a compound transition, which takes the state machine from one state configuration to another, representing the complete response of the state machine to an occurrence of an event of a particular type.(OMG Unified Modeling Language Specification - UML 2.0 Superstructure Specification, p. 624) \par
+Implementations are mutable; there is no requirement to make implementations of this interface thread-safe.\par
+\par
+\b StateMachine\par
+\b0 A State Machine models the behavior of a single object, specifying the sequence of events that an object goes through during its lifetime in response to events.\par
+It is a specification that describes all possible behaviors of some dynamic model element (i.e. object). Behavior is modeled as a traversal of a graph of state nodes interconnected by one or more joined transitions (i.e. transition arcs) that are triggered by the dispatching of series of event instances. During this traversal, the state machine executes a series of \par
+actions associated with various elements of the state machine. StateMachine contains a top State, which represents the top-level state, and a set of transitions. This means that a state machine owns its transitions and its top state. All remaining states are transitively owned through the state containment hierarchy rooted in the top state (i.e. top state is \par
+like a root in a graph) The association to \f2 ModelElement\f0  provides the context of the state machine. A common case of the context relation is where a state machine is used to specify the lifecycle of a classifier.\par
+Implementations are mutable, there is no requirement to make implementations of this interface thread-safe. \par
+\par
+\b StateVertex\par
+\b0 A StateVertex is an abstraction of a node in a state chart (state machine) graph. In general, it can be the source or destination of any number of transitions.\par
+All types of states in a state machine are children of StateVertex. Currently we have the following types of vertexes: Pseudostate, State, FinalState, SimpleState, CompositeState (recursive since a StateVertex aggregates a CompositeState as well) \par
+Implementations are mutable, there is no requirement to make implementations of this interface thread-safe.\par
+\par
+\b Pseudostate\par
+\b0 Pseudostate are choice vertices which, when reached, result in the dynamic evaluation of the guards of the triggers of its outgoing transitions. This realizes a dynamic conditional branch. It allows splitting of transitions into multiple outgoing paths such that the decision on which path to take may be a function of the results of prior actions performed in the same run-to-completion step.(OMG Unified Modeling Language Specification - UML 2.0 Superstructure Specification, p. 592) Another quick way of defining it would be to state that it is a vertex in a state machine that has the form of a state, but doesn\rquote t behave as a state.\par
+Implementations are mutable, there is no requirement to make implementations of this interface thread-safe.\par
+\par
+\b State\par
+\b0 A state is a stage (or step) in the behavior life cycle of an entity. Another way of stating it is that a state is a condition during the life of an object or an interaction during which it satisfies some condition, performs some action, or waits for some event.\par
+A state is associated with a state-machine to which it belongs.\par
+Implementations are mutable; there is no requirement to make implementations of this interface thread-safe.\par
+\par
+\cf1 CompositeState\par
+  A composite state is decomposed into two or more concurrent substates (called regions) or into mutually exclusive\par
+ disjoint substates (i.e. sequential). A given state may only be refined in one of these two ways. Naturally, any\par
+ substate of a composite state can also be a composite state of either type. (OMG Unified Modeling Language\par
+ Specification - UML 1.5 UML Notation, p. 540)\par
+ A composite state is a state that contains other state vertices (states, pseudostates, etc.). The association between\par
+  the composite and the contained vertices is a composition association. Hence, a state vertex can be a part of at most\par
+  one composite state.\cf0\par
+\b SimpleState\par
+\b0 A simple state is a state that does not have sub states, i.e. it has no regions and it has no submachine state machine.(OMG Unified Modeling Language Specification - UML 2.0 Superstructure Specification, p. 600) We could state that a simple state is the opposite of a Composite state.\par
+There is no requirement to make implementations of this interface thread-safe.\par
+\par
+\b FinalState\par
+\b0 A final state represents the completion of activity in the enclosing state and it triggers a transition on the enclosing state labeled by the implicit activity completion event, if such a transition is defined. If the enclosing region is directly contained in a state machine and all other regions in the state machine also are completed, then it means that the entire state machine is completed. (OMG Unified Modeling Language Specification - UML 2.0 Superstructure Specification, p. 580) \par
+There is no requirement to make implementations of this interface thread-safe\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0\i 1.5.2\tab Implementations including abstract and concrete\par
+\pard\fi720\b\i0 StateMachineImpl\par
+\b0 A simple implementation of the StateMachine interface. Not thread-safe.\par
+\par
+\b TransitionImpl\par
+\b0 A simple implementation of the Transition interface. Not thread-safe.\par
+\par
+\b GuardImpl\par
+\b0 A simple implementation of the Guard interface. Not thread-safe.\par
+\b\par
+StateVertexAbstractImpl\par
+\b0 An abstract implementation of the StateVertex interface. Not thread-safe.\par
+\par
+\b PseudoStateImpl\par
+\b0 A simple implementation of the Pseudostate interface. Not thread-safe.\par
+\par
+\b AbstractStateImpl\par
+\b0 A abstract  implementation of the State interface. Not thread-safe.\par
+\par
+\b FinalStateImpl\par
+\b0 A simple implementation of the FinalState interface. Not thread-safe.\par
+\par
+\b SimpleStateImpl\par
+\b0 A simple implementation of the SimpleState interface. Not thread-safe.\par
+\par
+\b CompositeStateImpl\par
+\pard\li720\sa120\b0 A simple implementation of the CompositeState interface. Not thread-safe.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0\b 1.6\tab Component Exception Definitions\f1\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0\b0\i\f0 1.6.1\tab System exceptions \par
+\pard\fi-420\li1140\sa120\tx1140\i0\f3\'d8\tab\b\f0 IllegalArgumentException\b0 : Exception thrown in various methods where value is invalid or null. In our case we only use this when manipulating element data for any collection or list,\cf1 or if the collection is null or contains null element\cf0 . This is the only portion of the API, which will inherently test input parameters for being null.\b\f1\par
+\pard\sa120\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0\f0 1.7\tab Thread Safety\par
+\pard\li720\sa120\b0 It is has been stated as a requirement that the Dom should not be inherently thread-safe and as such it is not. No specific precautions have been made to ensure thread-safety.\par
+All implemented classes are mutable which is the main reason why they are not thread-safe. To make them thread-safe the developer would need to synchronize access to each internal variable. This could be achieved by simply declaring all methods synchronized or we could use a synchronized block and lock on specific variables (when dealing with instances) and locking on dummy variables (instances) for primitive variables.\par
+One aspects that has been ensured is that lists and collections are internally encapsulated (shallow) which means that any input in terms of a list/collection or any output in terms of collection/list is always copied (shallow copy)\par
+\f1\par
+\pard\keepn\nowidctlpar\s1\sb120\sa120\sl240\slmult0\tx360\b\f0 2.\tab Environment Requirements\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0 2.1\tab Environment\par
+\pard\li720\sa120\b0 jdk 1.5+\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0\b 2.2\tab TopCoder Software Components\par
+Directly use:\f1\par
+\pard\b0\f0\tab\cf1 com.topcoder.uml.model.core: many interface  extends from ModelElement\par
+\tab com.topcoder.uml.model.datatypes.expressions BooleanExpression will be used.\par
+\cf0\b Indirectly use:\par
+\cf1\b0   \tab com.topcoder.uml.model.activitygraphs\par
+\tab com.topcoder.uml.model.commonbehavior.instances\par
+\tab com.topcoder.uml.model.commonbehavior.links\par
+\tab com.topcoder.uml.model.core.auxiliaryelements\par
+\tab com.topcoder.uml.model.core.dependencies\par
+\tab com.topcoder.uml.model.core.relationships\par
+\tab com.topcoder.uml.model.extensionmechanisms\par
+\tab com.topcoder.uml.model.modelmanagement\par
+\cf0\b\par
+  \cf1\b0\par
+\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0\cf0\b 2.3\tab Third Party Components\f1\par
+\pard\fi720\b0\f0 None \par
+\pard\keepn\nowidctlpar\s1\sb120\sa120\sl240\slmult0\tx360\b 3.\tab Installation and Configuration\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0 3.1\tab Package Name\par
+\pard\fi720\b0 com.topcoder.uml.model.statemachines\f1\par
+\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0\b\f0 3.2\tab Configuration Parameters\f1\par
+\pard\li720\sa120\b0\f0 No configuration.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0\b 3.3\tab Dependencies Configuration\par
+\pard\li720\b0 None\par
+\pard\keepn\nowidctlpar\s1\sb120\sa120\sl240\slmult0\tx360\b 4.\tab Usage Notes\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0 4.1\tab Required steps to test the component\par
+\pard\fi-420\li1140\sa120\tx1140\b0\f3\'d8\tab\f0 Extract the component distribution.\par
+\pard\fi-420\li1140\sa120\f3\'d8\tab\f0 Follow {\field{\*\fldinst{HYPERLINK "C:\\\\filez\\\\work\\\\tc\\\\tcs_corp\\\\templates\\\\component\\\\" \\\\l "_Dependencies_Configuration" }}{\fldrslt{\cf2\ul Dependencies Configuration}}}\cf0\ulnone\f0\fs20 .\par
+\f3\'d8\tab\f0 Execute \lquote ant test\rquote  within the directory that the distribution was extracted to.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0\b 4.2\tab Required steps to use the component\par
+\pard\li720\b0 This is a basic state Machine DOM definition. It can be used to create a OM for a state machine. Please refer to the demo section for examples.\par
+\par
+\par
+\pard\keepn\nowidctlpar\s2\sb120\sa120\sl240\slmult0\tx0\b 4.3\tab Demo\par
+\pard\b0 In this demo we will demonstrate how to create a DOM representation of a simple state machine:\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0\i 4.3.1\tab A simple state machine with a couple states\par
+\pard\i0 We will model the following diagram:\par
+\pard\qc\fs16 abort\par
+\pard\f1\fs24\par
+\f0\fs16 Select Amount\par
+\f1\fs24\par
+\pard\qc\f0\fs16 other amount [amount<=500]\par
+\par
+\pard\f1\fs24\par
+\pard\qc\f0\fs16 amount [amount<=500]\par
+\pard\f1\fs24\par
+\f0\fs16 Other Amount\par
+\f1\fs24\par
+\pard\qc\f0\fs16 abort\par
+\pard\f1\fs24\par
+\pard\fi720\par
+\pard\qc\f0\fs16 Ok\par
+\pard\fi720\f1\fs24\par
+\par
+\par
+\pard\par
+\cf3\f2\fs18        // create an empty state machine\par
+        StateMachine myStateMachine = new StateMachineImpl();\par
+        // Create all the states\par
+        // create the top state\par
+        CompositeState top = new CompositeStateImpl();\par
+        top.setName("Select Amount");\par
+        // create another state\par
+        State otherAmount = new SimpleStateImpl();\par
+        otherAmount.setName("Other Amount");\par
+        // create a final state\par
+        FinalState finalState = new FinalStateImpl();\par
+        finalState.setName("Final State");\par
+        // create a abort state\par
+        Pseudostate abortState = new PseudostateImpl();\par
+        abortState.setName("Abort State");\par
+        abortState.setKind(PseudostateKind.JUNCTION);\par
+\par
+        // Create all the transitions (some with guards)\par
+\par
+        // abort transition#1\par
+        Transition abortTransition = new TransitionImpl();\par
+        abortTransition.setName("abort");\par
+        abortTransition.setSource(top);\par
+        abortTransition.setTarget(abortState);\par
+\par
+        // abort transition#2\par
+        Transition abortTransition2 = new TransitionImpl();\par
+        abortTransition2.setName("abort");\par
+        abortTransition2.setSource(otherAmount);\par
+        abortTransition2.setTarget(abortState);\par
+\par
+        // Ok transition\par
+        Transition okTransition = new TransitionImpl();\par
+        okTransition.setName("Ok");\par
+        okTransition.setSource(otherAmount);\par
+        okTransition.setTarget(finalState);\par
+\par
+        // amount transition\par
+        Transition amountTransition = new TransitionImpl();\par
+        amountTransition.setName("Amount");\par
+        amountTransition.setSource(top);\par
+        amountTransition.setTarget(finalState);\par
+        // create a new guard and add it to the transition\par
+        Guard amountTransitionGuard = new GuardImpl(new BooleanExpressionImpl(), amountTransition);\par
+        amountTransition.setGuard(amountTransitionGuard);\par
+\par
+        // Other Amount transition\par
+        Transition otherAmountTransition = new TransitionImpl();\par
+        otherAmountTransition.setName("Other Amount");\par
+        otherAmountTransition.setSource(top);\par
+        otherAmountTransition.setTarget(otherAmount);\par
+        // create a new guard and add it to the transition\par
+        Guard otherAmountTransitionGuard = new GuardImpl(new BooleanExpressionImpl(), otherAmountTransition);\par
+        otherAmountTransition.setGuard(otherAmountTransitionGuard);\par
+\par
+        // Add transitions to states\par
+\par
+        // top state\par
+        top.addOutgoingTransition(abortTransition);\par
+        top.addOutgoingTransition(amountTransition);\par
+        top.addOutgoingTransition(otherAmountTransition);\par
+\par
+        // Other Amount State\par
+        otherAmount.addOutgoingTransition(abortTransition2);\par
+        otherAmount.addOutgoingTransition(okTransition);\par
+        otherAmount.addIncomingTransition(otherAmountTransition);\par
+\par
+        // Final State\par
+        finalState.addIncomingTransition(amountTransition);\par
+        finalState.addIncomingTransition(okTransition);\par
+\par
+        // Abort State\par
+        abortState.addIncomingTransition(abortTransition);\par
+        abortState.addIncomingTransition(abortTransition2);\par
+\par
+        // Add all transitions to the state machine\par
+\par
+        // add top state to the state machine\par
+        myStateMachine.setTop(top);\par
+        // add transitions to the state machine\par
+        myStateMachine.addTransition(abortTransition);\par
+        myStateMachine.addTransition(abortTransition2);\par
+        myStateMachine.addTransition(okTransition);\par
+        myStateMachine.addTransition(amountTransition);\par
+        myStateMachine.addTransition(otherAmountTransition);\cf0\f1\fs24\par
+\pard\keepn\nowidctlpar\s1\sb120\sa120\sl240\slmult0\tx360\b\f0\fs20 5.\tab Future Enhancements\par
+\pard\fi-360\li1080\sa120\tx1080\b0\f4\'b7\tab\f0 Provide DOM validation\par
+\pard\sa120\cf2\f1\par
+\cf1\par
+\par
+\pard\fi720\sa120\par
+\pard\sa120\f0  \par
+}
+ 

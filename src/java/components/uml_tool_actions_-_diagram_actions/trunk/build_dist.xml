@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+
+<project name="UML Tool Actions - Diagram Actions" default="dist" basedir=".">
+
+    <property file="../topcoder_global.properties"/>
+
+    <!-- COMPONENT PARAMETERS -->
+    <property name="component" value="UML_Tool_Actions_-_Diagram_Actions" />
+    <property name="package" value="com.topcoder.uml.actions.diagram" />
+    <property name="packagedir" value="com/topcoder/uml/actions/diagram" />
+    <property name="distfilename" value="uml_tool_actions_-_diagram_actions" />
+    <property name="component_version" value="1.0" />
+    <property name="component_path" value="${distfilename}/${component_version}" />
+
+    <!-- DIRECTORY SETUP -->
+    <property name="srcdir" value="src" />
+    <property name="tcs_libdir" value="lib/tcs" />
+    <property name="ext_libdir" value="lib" />
+    <property name="jar_tcs_libdir" value="lib/tcs" />
+    <property name="jar_ext_libdir" value="lib" />
+    <property name="docsdir" value="docs" />
+    <property name="configdir" value="conf" />
+    <property name="testlogdir" value="log" />
+    <property name="testfiles" value="test_files" />
+    <property name="javadocsdir" value="${docsdir}/javadocs" />
+    <property name="webdir" value="web" />
+    <property name="reports" value="reports" />
+
+    <property name="javasrc" value="${srcdir}/java" />
+    <property name="javamain" value="${javasrc}/main" />
+    <property name="javatests" value="${javasrc}/tests" />
+
+    <property name="builddir" value="build" />
+    <property name="build_classdir" value="${builddir}/classes" />
+    <property name="build_testclassdir" value="${builddir}/testClasses" />
+    <property name="build_targetclassdir" value="${builddir}/targetclasses" />
+    <property name="build_distdir" value="${builddir}/dist" />
+    <property name="build_docsdir" value="${builddir}/${docsdir}" />
+    <property name="build_javadocsdir" value="${builddir}/${javadocsdir}" />
+    <property name="build_webdir" value="${builddir}/${webdir}" />
+    <property name="build_lib" value="${builddir}/lib" />
+    <property name="build_tcsdistdir" value="${build_distdir}/${distfilename}-${component_version}" />
+
+    <!-- EXECUTION TAGS -->
+    <property name="debug" value="off" />
+    <property name="verbose" value="no" />
+
+    <!-- COMPONENT DISTRIBUTION STRUCTURE -->
+    <property name="dist_conf" value="${build_tcsdistdir}/${configdir}" />
+    <property name="dist_lib" value="${build_distdir}/lib/tcs" />
+    <property name="dist_src" value="${build_tcsdistdir}/${srcdir}" />
+    <property name="dist_docs" value="${build_tcsdistdir}/${docsdir}" />
+    <property name="dist_javadocs" value="${build_tcsdistdir}/${javadocsdir}" />
+    <property name="dist_testfiles" value="${build_tcsdistdir}/${testfiles}" />
+    <property name="dist_coverage" value="${dist_docs}/coverage" />
+    <property name="docs_coverage" value="${docsdir}/coverage" />
+
+    <!-- NAME FOR .JAR AND .WAR FILES -->
+    <property name="component.jar" value="${dist_lib}/${component_path}/${distfilename}.jar"/>
+    <property name="javadoc.jar" value="javadocs.jar"/>
+    <property name="component.tests.jar" value="${dist_lib}/${distfilename}_tests.jar"/>
+    <property name="component.war" value="${dist_examples}/${distfilename}.war"/>
+    <property name="component.dist.jar" value="${build_distdir}/${distfilename}-${component_version}.jar"/>
+    <property name="dev_submission.jar" value="${component}_${component_version}_dev_submission.jar"/>
+    <property name="design_submission.jar" value="${component}_${component_version}_design_submission.jar"/>
+    <property name="dev_dist.jar" value="${component}_${component_version}_dev_dist.jar"/>
+    <property name="design_dist.jar" value="${component}_${component_version}_design_dist.jar"/>
+
+    <!-- DOCUMENT PACKAGE -->
+    <property name="dist_docpackage" value="${builddir}/doc_package" />
+    <property name="docpackage.jar" value="${distfilename}_docs.jar" />
+
+		<!-- codertura task definitation -->
+		<property name="cobertura.dir" value="${ext_libdir}/cobertura/1.8" />
+		<path id="cobertura.classpath">
+    	<fileset dir="${cobertura.dir}">
+      	  <include name="cobertura.jar" />
+        	<include name="lib/**/*.jar" />
+    	</fileset>
+		</path>
+		<taskdef classpathref="cobertura.classpath" resource="tasks.properties" />
+		<property name="cobertura.datafile" value="${testlogdir}/cobertura.ser" />
+		<property name="instrumented.dir" value="${builddir}/instrumented" />
+
+    <!-- TCS Dependencies -->
+    <!--
+    <property name="configmanager.version" value="2.1.4"/>
+    <property name="configmanager.jar.name" value="configuration_manager.jar"/>
+    <property name="configmanager.path" value="configuration_manager/${configmanager.version}"/>
+    <property name="configmanager.jar" value="${tcs_libdir}/${configmanager.path}/${configmanager.jar.name}"/>
+    -->
+
+    <!-- 3rd Party Dependencies  -->
+    <!--
+    <property name="junit.jar" value="${ext_libdir}/junit/3.8.2/junit.jar"/>
+    -->
+    <property name="action_manager.version" value="1.0"/>
+    <property name="action_manager.jar.name" value="action_manager.jar"/>
+    <property name="action_manager.path" value="action_manager/${action_manager.version}"/>
+    <property name="action_manager.jar" value="${tcs_libdir}/${action_manager.path}/${action_manager.jar.name}"/>
+
+    <property name="uml_model_manager.version" value="1.0"/>
+    <property name="uml_model_manager.jar.name" value="uml_model_manager.jar"/>
+    <property name="uml_model_manager.path" value="uml_model_manager/${uml_model_manager.version}"/>
+    <property name="uml_model_manager.jar" value="${tcs_libdir}/${uml_model_manager.path}/${uml_model_manager.jar.name}"/>
+
+    <property name="uml_project_configuration.version" value="1.0"/>
+    <property name="uml_project_configuration.jar.name" value="uml_project_configuration.jar"/>
+    <property name="uml_project_configuration.path" value="uml_project_configuration/${uml_project_configuration.version}"/>
+    <property name="uml_project_configuration.jar" value="${tcs_libdir}/${uml_project_configuration.path}/${uml_project_configuration.jar.name}"/>
+
+    <property name="diagram_interchange.version" value="1.0"/>
+    <property name="diagram_interchange.jar.name" value="diagram_interchange.jar"/>
+    <property name="diagram_interchange.path" value="diagram_interchange/${diagram_interchange.version}"/>
+    <property name="diagram_interchange.jar" value="${tcs_libdir}/${diagram_interchange.path}/${diagram_interchange.jar.name}"/>
+
+		<property name="configuration_manager.version" value="2.1.5"/>
+    <property name="configuration_manager.jar.name" value="configuration_manager.jar"/>
+    <property name="configuration_manager.path" value="configuration_manager/${configuration_manager.version}"/>
+    <property name="configuration_manager.jar" value="${tcs_libdir}/${configuration_manager.path}/${configuration_manager.jar.name}"/>
+
+    <property name="uml_model_-_core.version" value="1.0"/>
+    <property name="uml_model_-_core.jar.name" value="uml_model_-_core.jar"/>
+    <property name="uml_model_-_core.path" value="uml_model_-_core/${uml_model_-_core.version}"/>
+    <property name="uml_model_-_core.jar" value="${tcs_libdir}/${uml_model_-_core.path}/${uml_model_-_core.jar.name}"/>
+
+		<property name="logging_wrapper.version" value="1.2"/>
+    <property name="logging_wrapper.jar.name" value="logging_wrapper.jar"/>
+    <property name="logging_wrapper.path" value="logging_wrapper/${logging_wrapper.version}"/>
+    <property name="logging_wrapper.jar" value="${tcs_libdir}/${logging_wrapper.path}/${logging_wrapper.jar.name}"/>
+
+    <property name="uml_model_-_model_management.version" value="1.0"/>
+    <property name="uml_model_-_model_management.jar.name" value="uml_model_-_model_management.jar"/>
+    <property name="uml_model_-_model_management.path" value="uml_model_-_model_management/${uml_model_-_model_management.version}"/>
+    <property name="uml_model_-_model_management.jar" value="${tcs_libdir}/${uml_model_-_model_management.path}/${uml_model_-_model_management.jar.name}"/>
+
+    <property name="uml_model_-_activity_graphs.version" value="1.0"/>
+    <property name="uml_model_-_activity_graphs.jar.name" value="uml_model_-_activity_graphs.jar"/>
+    <property name="uml_model_-_activity_graphs.path" value="uml_model_-_activity_graphs/${uml_model_-_activity_graphs.version}"/>
+    <property name="uml_model_-_activity_graphs.jar" value="${tcs_libdir}/${uml_model_-_activity_graphs.path}/${uml_model_-_activity_graphs.jar.name}"/>
+
+    <property name="base_exception.version" value="1.0"/>
+    <property name="base_exception.jar.name" value="base_exception.jar"/>
+    <property name="base_exception.path" value="base_exception/${base_exception.version}"/>
+    <property name="base_exception.jar" value="${tcs_libdir}/${base_exception.path}/${base_exception.jar.name}"/>
+
+    <property name="uml_model_-_state_machines.version" value="1.0"/>
+    <property name="uml_model_-_state_machines.jar.name" value="uml_model_-_state_machines.jar"/>
+    <property name="uml_model_-_state_machines.path" value="uml_model_-_state_machines/${uml_model_-_state_machines.version}"/>
+    <property name="uml_model_-_state_machines.jar" value="${tcs_libdir}/${uml_model_-_state_machines.path}/${uml_model_-_state_machines.jar.name}"/>
+
+		<property name="typesafe_enum.version" value="1.0"/>
+    <property name="typesafe_enum.jar.name" value="typesafe_enum.jar"/>
+    <property name="typesafe_enum.path" value="typesafe_enum/${typesafe_enum.version}"/>
+    <property name="typesafe_enum.jar" value="${tcs_libdir}/${typesafe_enum.path}/${typesafe_enum.jar.name}"/>
+
+    <property name="uml_model_-_use_cases.version" value="1.0"/>
+    <property name="uml_model_-_use_cases.jar.name" value="uml_model_-_use_cases.jar"/>
+    <property name="uml_model_-_use_cases.path" value="uml_model_-_use_cases/${uml_model_-_use_cases.version}"/>
+    <property name="uml_model_-_use_cases.jar" value="${tcs_libdir}/${uml_model_-_use_cases.path}/${uml_model_-_use_cases.jar.name}"/>
+
+    <property name="uml_model_-_core_classifiers.version" value="1.0"/>
+    <property name="uml_model_-_core_classifiers.jar.name" value="uml_model_-_core_classifiers.jar"/>
+    <property name="uml_model_-_core_classifiers.path" value="uml_model_-_core_classifiers/${uml_model_-_core_classifiers.version}"/>
+    <property name="uml_model_-_core_classifiers.jar" value="${tcs_libdir}/${uml_model_-_core_classifiers.path}/${uml_model_-_core_classifiers.jar.name}"/>
+
+    <property name="uml_model_-_core_relationships.version" value="1.0"/>
+    <property name="uml_model_-_core_relationships.jar.name" value="uml_model_-_core_relationships.jar"/>
+    <property name="uml_model_-_core_relationships.path" value="uml_model_-_core_relationships/${uml_model_-_core_relationships.version}"/>
+    <property name="uml_model_-_core_relationships.jar" value="${tcs_libdir}/${uml_model_-_core_relationships.path}/${uml_model_-_core_relationships.jar.name}"/>
+
+    <property name="uml_model_-_collaborations.version" value="1.0"/>
+    <property name="uml_model_-_collaborations.jar.name" value="uml_model_-_collaborations.jar"/>
+    <property name="uml_model_-_collaborations.path" value="uml_model_-_collaborations/${uml_model_-_collaborations.version}"/>
+    <property name="uml_model_-_collaborations.jar" value="${tcs_libdir}/${uml_model_-_collaborations.path}/${uml_model_-_collaborations.jar.name}"/>
+
+    <property name="object_factory.version" value="2.0.1"/>
+    <property name="object_factory.jar.name" value="object_factory.jar"/>
+    <property name="object_factory.path" value="object_factory/${object_factory.version}"/>
+    <property name="object_factory.jar" value="${tcs_libdir}/${object_factory.path}/${object_factory.jar.name}"/>
+
+    <!-- Java Locations -->
+    <property name="java_1_3_bootclasspath" value="c:\program files\JavaSoft\JRE\1.3.1\lib\rt.jar"/>
+
+    <path id="buildlibs">
+        <pathelement location="${junit.jar}" />
+        <pathelement location="${base_exception.jar}" />
+        <pathelement location="${object_factory.jar}" />
+        <pathelement location="${logging_wrapper.jar}" />
+				<pathelement location="${configuration_manager.jar}" />
+				<pathelement location="${base_exception.jar}" />
+				<pathelement location="${typesafe_enum.jar}" />
+        <pathelement location="${logging_wrapper.jar}" />
+        <pathelement location="${uml_model_manager.jar}" />
+        <pathelement location="${diagram_interchange.jar}" />
+        <pathelement location="${uml_project_configuration.jar}" />
+        <pathelement location="${standard_class_data_loader.jar}" />
+        <pathelement location="${action_manager.jar}" />
+        <pathelement location="${uml_model_-_activity_graphs.jar}" />
+        <pathelement location="${uml_model_-_use_cases.jar}" />
+        <pathelement location="${uml_model_-_state_machines.jar}" />
+        <pathelement location="${uml_model_-_core_extension_mechanisms.jar}" />
+        <pathelement location="${uml_model_-_model_management.jar}" />
+        <pathelement location="${uml_model_-_core_auxiliary_elements.jar}" />
+        <pathelement location="${uml_model_-_data_types.jar}" />
+        <pathelement location="${uml_model_-_core.jar}" />
+        <pathelement location="${uml_model_-_core_classifiers.jar}" />
+        <pathelement location="${uml_model_-_core_relationships.jar}" />
+        <pathelement location="${uml_model_-_collaborations.jar}" />
+        <pathelement location="${configdir}" />
+        <pathelement location="${testfiles}" />
+    </path>
+
+    <path id="test.build.classpath">
+        <pathelement location="${build_testclassdir}"/>
+        <pathelement location="${build_classdir}"/>
+        <path refid="buildlibs"/>
+    </path>
+
+    <path id="runtime.classpath">
+        <pathelement location="${build_classdir}"/>
+        <path refid="buildlibs"/>
+    </path>
+
+    <target name="compile">
+        <mkdir dir="${build_classdir}"/>
+        <javac srcdir="${javamain}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+            <classpath refid="buildlibs" />
+        </javac>
+    </target>
+
+    <target name="compile_targets">
+        <!-- test compile against 1.3 -->
+        <mkdir dir="${build_targetclassdir}"/>
+        <mkdir dir="${javatests}"/>
+        <javac srcdir="${javamain}"
+               destdir="${build_targetclassdir}"
+               includes="${packagedir}/**"
+	       debug="true"
+               verbose="${verbose}"
+               target="1.3"
+               bootclasspath="${java_1_3_bootclasspath}"
+               extdirs=""
+               >
+            <classpath refid="buildlibs" />
+        </javac>
+
+        <!-- compile test cases -->
+        <javac srcdir="${javatests}"
+               destdir="${build_targetclassdir}"
+               includes="${packagedir}/**"
+	       debug="true"
+               verbose="${verbose}"
+               target="1.3"
+               bootclasspath="${java_1_3_bootclasspath}"
+               extdirs=""
+               >
+            <classpath refid="buildlibs" />
+        </javac>
+        <delete dir="${build_targetclassdir}"/>
+    </target>
+
+    <target name="compile_tests" depends="compile">
+        <mkdir dir="${build_testclassdir}"/>
+        <javac srcdir="${javatests}" destdir="${build_testclassdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+            <classpath refid="test.build.classpath" />
+        </javac>
+    </target>
+
+    <target name="test" depends="compile_tests">
+        <mkdir dir="${testlogdir}"/>
+				<mkdir dir="${instrumented.dir}"/>
+
+				<delete file="${cobertura.datafile}" />
+
+				<cobertura-instrument todir="${instrumented.dir}" datafile="${cobertura.datafile}">
+						<!-- all included -->
+						<fileset dir="${build_classdir}">
+        			<include name="**/*.class" />
+    				</fileset>
+				</cobertura-instrument>
+
+        <junit fork="true" haltonerror="false">
+	
+				<sysproperty key="net.sourceforge.cobertura.datafile" file="${cobertura.datafile}" />
+
+						<classpath location="${instrumented.dir}" />
+						<classpath location="${build_testclassdir}" />
+						<classpath refid="test.build.classpath" />
+						<classpath refid="cobertura.classpath" />
+
+            <test name="${package}.AllTests" todir="${testlogdir}">
+                <formatter type="plain" usefile="true"/>
+                <formatter type="xml" usefile="true"/>
+            </test>
+            
+        </junit>
+
+    </target>
+
+		<target name="coveragereport" depends="test">
+
+				<cobertura-report format="html" destdir="${testlogdir}/coverage/" srcdir="${srcdir}" datafile="${cobertura.datafile}">
+    			<fileset dir="${javamain}">
+        		<include name="**/*.java" />
+    			</fileset>
+    			<fileset dir="${javatests}">
+        		<include name="**/*.java" />
+    			</fileset>
+				</cobertura-report>
+
+		</target>
+
+    <target name="reports" depends="test">
+        <mkdir dir="${reports}"/>
+
+        <junitreport todir="${reports}">
+          <fileset dir="${testlogdir}">
+            <include name="*.xml"/>
+          </fileset>
+          <report format="frames" todir="${reports}"/>
+        </junitreport>
+        
+        <echo>The execution of reports is complete.  Reports are available in /${reports}</echo>
+    </target>
+
+    <target name="dist" depends="compile">
+        <mkdir dir="${dist_lib}/${component_path}"/>
+        <jar jarfile="${component.jar}" basedir="${build_classdir}" />
+    </target>
+
+    <target name="dist_tests" depends="compile_tests">
+        <mkdir dir="${dist_lib}"/>
+        <jar jarfile="${component.tests.jar}" basedir="${build_testclassdir}" />
+    </target>
+
+    <target name="javadoc" depends="compile">
+        <mkdir dir="${dist_javadocs}" />
+        <javadoc packagenames="${package}.*"
+            sourcepath="${javamain}"
+            classpath="${build_classdir}"
+            classpathref="buildlibs"
+            destdir="${dist_javadocs}"
+            windowtitle="Topcoder Software"
+            header="&lt;table border=0 cellpadding=0 cellspacing=2&gt;&lt;tr&gt;&lt;td&gt;&lt;font class=tcoder2&gt;&#091; &lt;/font&gt;&lt;font class=tcoder1&gt;TOP&lt;/font&gt;&lt;font class=tcoder2&gt;CODER &lt;/font&gt;&lt;font class=tcoder2&gt;&#093;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font class=tcoder4&gt;&#153;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=tcoder3 align=center&gt;&lt;font class=tcoder3&gt;SOFTWARE&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
+            footer="&lt;table border=0 cellpadding=0 cellspacing=2&gt;&lt;tr&gt;&lt;td&gt;&lt;font class=tcoder2&gt;&#091; &lt;/font&gt;&lt;font class=tcoder1&gt;TOP&lt;/font&gt;&lt;font class=tcoder2&gt;CODER &lt;/font&gt;&lt;font class=tcoder2&gt;&#093;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font class=tcoder4&gt;&#153;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=tcoder3 align=center&gt;&lt;font class=tcoder3&gt;SOFTWARE&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
+            bottom="&lt;font class=tcoder5&gt;Contact TopCoder Software at &lt;a href='http://software.topcoder.com'&gt;software.topcoder.com&lt;/a&gt;&lt;/font&gt;"
+            stylesheetfile="${javadocsdir}/stylesheet.css"
+            verbose="${verbose}">
+            <tag name="copyright" description="Copyright:" scope="types"/>
+		</javadoc>
+    </target>
+
+    <target name="clean">
+        <delete dir="${builddir}"/>
+    </target>
+
+    <target name="deploy" depends="dist">
+    </target>
+
+    <target name="main" depends="deploy,test">
+    </target>
+
+    <!-- ************************************************************************** -->
+    <!-- ************ REMOVE EVERYTHING BELOW HERE FOR THE DISTRIBUTION ************* -->
+    <!-- ************************************************************************** -->
+
+    <!-- ************************************************************************** -->
+    <!-- ************************ END REMOVE EVERYTHING ***************************** -->
+    <!-- ************************************************************************** -->
+
+</project>

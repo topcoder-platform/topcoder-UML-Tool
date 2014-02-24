@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=UML Model - Core Extension Mechanisms
+component.distfilename=uml_model_-_core_extension_mechanisms
+component.package=com.topcoder.uml.model.core.extensionmechanisms
+component.packagedir=com/topcoder/uml/model/core/extensionmechanisms
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

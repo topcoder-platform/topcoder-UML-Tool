@@ -1,0 +1,638 @@
+{\rtf1\ansi\ansicpg936\uc2\deff1\stshfdbch13\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe2052{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Palatino};}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial{\*\falt Arial};}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol{\*\falt Symbol};}
+{\f13\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}\'cb\'ce\'cc\'e5{\*\falt SimSun};}{\f36\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}@\'cb\'ce\'cc\'e5;}{\f38\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Palatino};}
+{\f39\froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Palatino};}{\f41\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Palatino};}{\f42\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Palatino};}
+{\f43\froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Palatino};}{\f44\froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Palatino};}{\f45\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Palatino};}
+{\f46\froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Palatino};}{\f48\fswiss\fcharset238\fprq2 Arial CE{\*\falt Arial};}{\f49\fswiss\fcharset204\fprq2 Arial Cyr{\*\falt Arial};}{\f51\fswiss\fcharset161\fprq2 Arial Greek{\*\falt Arial};}
+{\f52\fswiss\fcharset162\fprq2 Arial Tur{\*\falt Arial};}{\f53\fswiss\fcharset177\fprq2 Arial (Hebrew){\*\falt Arial};}{\f54\fswiss\fcharset178\fprq2 Arial (Arabic){\*\falt Arial};}{\f55\fswiss\fcharset186\fprq2 Arial Baltic{\*\falt Arial};}
+{\f56\fswiss\fcharset163\fprq2 Arial (Vietnamese){\*\falt Arial};}{\f58\fmodern\fcharset238\fprq1 Courier New CE;}{\f59\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f61\fmodern\fcharset161\fprq1 Courier New Greek;}
+{\f62\fmodern\fcharset162\fprq1 Courier New Tur;}{\f63\fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f64\fmodern\fcharset178\fprq1 Courier New (Arabic);}{\f65\fmodern\fcharset186\fprq1 Courier New Baltic;}
+{\f66\fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\f170\fnil\fcharset0\fprq2 SimSun Western{\*\falt SimSun};}{\f400\fnil\fcharset0\fprq2 @\'cb\'ce\'cc\'e5 Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;
+\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;
+\red128\green128\blue128;\red192\green192\blue192;\red63\green127\blue95;\red127\green0\blue85;\red42\green0\blue255;\red0\green0\blue192;}{\stylesheet{\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 
+\fs24\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \snext0 \styrsid2426809 Normal;}{\s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 
+\fs24\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{\s2\ql \li0\ri0\nowidctlpar\faauto\outlinelevel1\rin0\lin0\itap0 
+\fs24\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 2;}{\s3\ql \li0\ri0\nowidctlpar\faauto\outlinelevel2\rin0\lin0\itap0 
+\fs24\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 3;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\loch\f0\hich\af0\dbch\af13\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}
+{\*\rsidtbl \rsid2255571\rsid2426809\rsid2833265\rsid4220864\rsid4750019\rsid5122974\rsid5783200\rsid5988606\rsid6169942\rsid8539831\rsid11152957\rsid11611542\rsid13067082\rsid14221816\rsid16011255\rsid16321919}{\*\generator Microsoft Word 11.0.5604;}
+{\info{\author TCSDEVELOPER}{\operator Gencheng Wu}{\creatim\yr2006\mo11\dy16\hr12\min13}{\revtim\yr2006\mo12\dy7\hr18\min3}{\version12}{\edmins284}{\nofpages11}{\nofwords2948}{\nofchars16806}{\*\company Microsoft}{\nofcharsws19715}{\vern24689}}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\gutter0 \ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3
+\jcompress\viewkind1\viewscale139\viewzk2\nolnhtadjtbl\rsidroot16011255 \fet0\sectd \linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}
+{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta \dbch )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl9
+\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx720\faauto\outlinelevel0\rin0\lin0\itap0 
+\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs28\ul\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Diagram Elements Add Actions 1.0 Component Specification
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\fs20\insrsid4750019 
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 1.
+\tab }{\b\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Design
+\par }\pard\plain \ql \li360\ri0\sa120\nowidctlpar\faauto\rin0\lin360\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\fs20\insrsid4750019 \tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 
+Diagram Elements Add Actions component provides the Actions related to the concrete diagrams elements \hich\f1 \endash \hich\af1\dbch\af13\loch\f1 
+ add and update. The actions are strategy implementation of the action interface in the Action Manager component.
+\par \tab \hich\af1\dbch\af13\loch\f1 The component provides a set of concrete implementation of Action interface for each distinct action (independent on which object it is appli\hich\af1\dbch\af13\loch\f1 ed). Each action is undoable and redoable.}{
+\fs20\lang1033\langfe2052\langfenp2052\insrsid4750019\charrsid2255571 
+\par }{\fs20\insrsid4750019 \tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 
+In addition, the component defines a set of compartment handler of each type of GraphElement object defined in the specification. This component does not perform compartment building at all. In addition, the comp\hich\af1\dbch\af13\loch\f1 
+onent will only perform minimal validation to check whether the given GraphElement is properly configured. The component might throw exception during update/add actions if the related compartment is missing/malformed.
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 1.1
+\tab Design Patterns
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Strategy Pattern}{\fs20\insrsid4750019 
+\hich\af1\dbch\af13\loch\f1 :\hich\af1\dbch\af13\loch\f1 
+ strategy pattern is used in this component to provide independent and pluggable implementation of compartment extractor. The implementation of compartment extractor is specific to each type of object. In addition, the implementation of action interface a
+\hich\af1\dbch\af13\loch\f1 l\hich\af1\dbch\af13\loch\f1 so employs strategy pattern. One variation of strategy pattern which utilizes interface as well as abstract implementation is used.
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Factory Method}{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 : factory method is used for the client to create appropriate compartment extractor object given its type. One
+\hich\af1\dbch\af13\loch\f1  variation of factory pattern is used which is the parameterized constructor.
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Command Pattern}{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 
+: command pattern is used to represent each action in the component. Thus each object can encapsulate the actions required as well as undo and redo functionality.
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 1.2
+\tab Industry Standards 
+\par }\pard\plain \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\fs20\insrsid4750019 \tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Diagram Interchange 2.0
+
+\par \tab \hich\af1\dbch\af13\loch\f1 UML Model 1.5
+\par 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 1.3
+\tab Required Algorithms
+\par }\pard\plain \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \tab }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 
+1.3.1 Compartment Extraction algorithm.
+\par }{\fs20\insrsid4750019 \tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 This algorithm is provided as an example on how the compartment is structured. And thus, how it should be extracted. Develop\hich\af1\dbch\af13\loch\f1 
+ers are free to come up with their own algorithm to perform compartment extraction.
+\par \hich\af1\dbch\af13\loch\f1 In this example, we are working with a GraphNode that corresponds to an Interface, as follow:
+\par 
+\par 
+\par 
+\par 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Uml1SemanticModelBridge.element = <UML:Interface>
+\par }\pard \ql \li1080\ri0\sa120\nowidctlpar\faauto\rin0\lin1080\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "NameCompartment"
+\par }\pard \ql \li1440\ri0\sa120\nowidctlpar\faauto\rin0\lin1440\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "StereotypeCompartment"
+\par \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "Name"
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 SimpleSemanticModelElement.typeInfo = "NamespaceCompartment\'94
+\par }\pard \ql \li1080\ri0\sa120\nowidctlpar\faauto\rin0\lin1080\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeI\hich\af1\dbch\af13\loch\f1 nfo = "CompartmentSeparator"
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 SimpleSemanticModelElement.typeInfo = "AttributeCompartment\'94
+\par }\pard \ql \li1440\ri0\sa120\nowidctlpar\faauto\rin0\lin1440\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "DelimitedSection"
+\par }\pard \ql \fi720\li1440\ri0\sa120\nowidctlpar\faauto\rin0\lin1440\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Uml1SemanticModelBridge.element = <UML:Attribute>
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 The meaning of such hierarchy can be described as follow:
+\par \hich\af1\dbch\af13\loch\f1 There is a GraphNode N in which it has semanticModel attribute set to an instance of Uml1SemanticModelBridge in which the element attribute is set to an instance of UML:Interface.
+\par \hich\af1\dbch\af13\loch\f1 The GraphNode N will have the contained attribute containing 3 GraphNode ele\hich\af1\dbch\af13\loch\f1 \hich\f1 ments corresponds to \'93\loch\f1 \hich\f1 NameCompartment\'94\loch\f1 \hich\f1 ,\'94\loch\f1 \hich\f1 
+CompartmentSeparator\'94\loch\f1 \hich\f1  and \'93\loch\f1 \hich\f1 AttributeCompartment\'94\loch\f1 . Each of those GraphNode will have similar structure.
+\par \hich\af1\dbch\af13\loch\f1 To give a clear picture, information below corresponds to the hierarchy presented above showing the attributes of\hich\af1\dbch\af13\loch\f1  each object and their types.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 GraphElement N;
+\par }\pard \ql \fi720\li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 N.semanticModel = P
+\par }\pard \ql \fi720\li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Uml1SemanticModelBridge P;
+\par }\pard \ql \fi720\li1440\ri0\sa120\nowidctlpar\faauto\rin0\lin1440\itap0 {\fs20\lang1036\langfe1033\langnp1036\insrsid4750019 \hich\af1\dbch\af13\loch\f1 P.element = Q;
+\par }\pard \ql \fi720\li2160\ri0\sa120\nowidctlpar\faauto\rin0\lin2160\itap0 {\fs20\lang1036\langfe1033\langnp1036\insrsid4750019 \hich\af1\dbch\af13\loch\f1 UML:Interface Q;
+\par }\pard \ql \fi720\li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 N.contained = \{A,B,C\}\tab -> ordered list
+\par }\pard \ql \fi720\li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 GraphElement A;
+\par }\pard \ql \fi720\li1440\ri0\sa120\nowidctlpar\faauto\rin0\lin1440\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 A.semanticModel = X;
+\par }\pard \ql \fi720\li2160\ri0\sa120\nowidctlpar\faauto\rin0\lin2160\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement X;
+\par }\pard \ql \fi720\li2880\ri0\sa120\nowidctlpar\faauto\rin0\lin2880\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 \hich\f1 X.typeInfo = \'93\hich\af1\dbch\af13\loch\f1 \hich\f1 NameCompartment\'94
+\par }\pard \ql \fi720\li1440\ri0\sa120\nowidctlpar\faauto\rin0\lin1440\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 A.contained = \{D,E,F\}
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 \tab \tab \tab \tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 GraphElement D
+\par \tab \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 D.semanticModel = D2
+\par }\pard \ql \fi720\li3600\ri0\sa120\nowidctlpar\faauto\rin0\lin3600\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement D2
+\par }\pard \ql \fi720\li4320\ri0\sa120\nowidctlpar\faauto\rin0\lin4320\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 \hich\f1 D2.typeInfo=\'93\loch\f1 \hich\f1 StereoTypeCompartment\'94
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 \tab \tab \tab \tab }{\fs20\lang1040\langfe1033\langnp1040\insrsid4750019 \hich\af1\dbch\af13\loch\f1 GraphElement E
+\par \tab \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 E.semanticModel = E2
+\par }\pard \ql \fi720\li3600\ri0\sa120\nowidctlpar\faauto\rin0\lin3600\itap0 {\fs20\lang1040\langfe1033\langnp1040\insrsid4750019 \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement E2
+\par }\pard \ql \fi720\li4320\ri0\sa120\nowidctlpar\faauto\rin0\lin4320\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 \hich\f1 E2.typeInfo=\'93\loch\f1 \hich\f1 Name\'94
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 \tab \tab \tab \tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 GraphEle\hich\af1\dbch\af13\loch\f1 ment F
+\par \tab \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 F.semanticModel = F2
+\par }\pard \ql \fi720\li3600\ri0\sa120\nowidctlpar\faauto\rin0\lin3600\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement F2
+\par }\pard \ql \fi720\li4320\ri0\sa120\nowidctlpar\faauto\rin0\lin4320\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 \hich\f1 F2.typeInfo=\'93\loch\f1 \hich\f1 NamespaceCompartment\'94
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 \tab \tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 GraphElement B
+\par \tab \tab \tab \hich\af1\dbch\af13\loch\f1 B.semanticModel = B2
+\par \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement B2
+\par \tab \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 B2.typeInfo="CompartmentSeparator"
+\par \tab \tab \hich\af1\dbch\af13\loch\f1 GraphElement C
+\par \tab \tab \tab \hich\af1\dbch\af13\loch\f1 C.semanticModel = C2
+\par \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement C2
+\par \tab \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 \hich\f1 C2.typeInfo=\'94\loch\f1 \hich\f1 AttributeCompartment\'94
+\par \tab \tab \tab \hich\af1\dbch\af13\loch\f1 C.contained = \{C3\}
+\par \tab \tab \tab \hich\af1\dbch\af13\loch\f1 GraphElement C3
+\par \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 C3.semanticModel = C4
+\par \tab \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModel C4
+\par \tab \tab \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 \hich\f1 C4.typeInfo=\'94\loch\f1 \hich\f1 DelimitedSection\'94
+\par \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 C3.contained = \{C5\}
+\par \tab \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 GraphElement C5
+\par \tab \tab \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 C\hich\af1\dbch\af13\loch\f1 5.semanticModel = C6
+\par \tab \tab \tab \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 Uml1SemanticModelBridge C6
+\par \tab \tab \tab \tab \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 C6.element=UML:Attribute
+\par \tab 
+\par 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Thus to extract the name compartment, can be done in the following:
+\par }\pard \ql \fi720\li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 A=N.getElements().get(0)
+\par \hich\af1\dbch\af13\loch\f1 X=A.getSemanticModel()
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Check if X.getTypeInfo()==\'94\loch\f1 \hich\f1 NameCompartment\'94
+\par \hich\af1\dbch\af13\loch\f1 If N\hich\af1\dbch\af13\loch\f1 ot, throw CompartmentInvalidException
+\par \hich\af1\dbch\af13\loch\f1 E=A.getElements().get(1)
+\par \hich\af1\dbch\af13\loch\f1 E2 = A.getSemanticModel()
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Check if E2.getTypeInfo()==\'94\loch\f1 \hich\f1 Name\'94
+\par \hich\af1\dbch\af13\loch\f1 If Not, throw CompartmentInvalidException
+\par \hich\af1\dbch\af13\loch\f1 Return E
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 
+\par 
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 To update the name compartment can be done in the following:
+\par }\pard \ql \fi720\li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 A=N.getElements().get(0)
+\par \hich\af1\dbch\af13\loch\f1 X=A.getSemanticModel()
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Check if X.getTypeInfo()==\'94\loch\f1 \hich\f1 NameCompartment\'94
+\par \hich\af1\dbch\af13\loch\f1 If Not, throw CompartmentInvalidException
+\par \hich\af1\dbch\af13\loch\f1 E=A.getElements().get(1)
+\par \hich\af1\dbch\af13\loch\f1 E2 = A.getSemanticModel()
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Check if E2.getTypeInfo()==\'94\loch\f1 \hich\f1 Name \'93
+\par \hich\af1\dbch\af13\loch\f1 A.setElement(1,newName)
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 1.3.2 Mappi\hich\af1\dbch\af13\loch\f1 ng of object types to compartment
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Table below lists the mapping between object type and the appropriate compartment extractor implementation. 
+\par }\trowd \irow0\irowband0\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 
+\clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil 
+\cellx7020\pard \qc \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Object Type\cell \hich\af1\dbch\af13\loch\f1 Compartment Extractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow0\irowband0\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Package\cell 
+\hich\af1\dbch\af13\loch\f1 DefaultNodeCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow1\irowband1\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Interface\cell \hich\af1\dbch\af13\loch\f1 ClassifierCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow2\irowband2\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Class\cell 
+\hich\af1\dbch\af13\loch\f1 ClassifierCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow3\irowband3\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Exception\cell \hich\af1\dbch\af13\loch\f1 ClassifierCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow4\irowband4\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Enumeration\cell 
+\hich\af1\dbch\af13\loch\f1 ClassifierCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow5\irowband5\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Association\cell \hich\af1\dbch\af13\loch\f1 AssociationCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow6\irowband6\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Generalization\cell 
+\hich\af1\dbch\af13\loch\f1 GeneralizationCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow7\irowband7\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Abstraction\cell \hich\af1\dbch\af13\loch\f1 GeneralizationCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow8\irowband8\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Dependency\cell 
+\hich\af1\dbch\af13\loch\f1 GeneralizationCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow9\irowband9\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Subsystem\cell \hich\af1\dbch\af13\loch\f1 DefaultNodeCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow10\irowband10\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Actor\cell 
+\hich\af1\dbch\af13\loch\f1 DefaultNodeCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow11\irowband11\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 UseCase\cell \hich\af1\dbch\af13\loch\f1 DefaultNodeCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow12\irowband12\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Include\cell 
+\hich\af1\dbch\af13\loch\f1 DefaultEdgeCompartmentExtracto\hich\af1\dbch\af13\loch\f1 r\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow13\irowband13\ts11\trgaph108\trleft-108\trbrdrt
+\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Extend\cell \hich\af1\dbch\af13\loch\f1 DefaultEdgeCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow14\irowband14\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Object\cell 
+\hich\af1\dbch\af13\loch\f1 ObjectCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow15\irowband15\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 SynchronousMessage\cell \hich\af1\dbch\af13\loch\f1 MessageCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow16\irowband16\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 AsynchronousMessage
+\cell \hich\af1\dbch\af13\loch\f1 MessageCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow17\irowband17\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 CreateMessage\cell \hich\af1\dbch\af13\loch\f1 MessageCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow18\irowband18\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 SendSignalMessage
+\cell \hich\af1\dbch\af13\loch\f1 MessageCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow19\irowband19\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 DestroyMessage\cell \hich\af1\dbch\af13\loch\f1 MessageCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow20\irowband20\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 ReturnMessage\cell 
+\hich\af1\dbch\af13\loch\f1 MessageCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow21\irowband21\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 InitialNode\cell \hich\af1\dbch\af13\loch\f1 ActivityNodeCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow22\irowband22\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 ForkNode\cell 
+\hich\af1\dbch\af13\loch\f1 ActivityNodeCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow23\irowband23\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 JoinNode\cell \hich\af1\dbch\af13\loch\f1 ActivityNodeCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow24\irowband24\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 DecisionNode\cell 
+\hich\af1\dbch\af13\loch\f1 ActivityNodeCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow25\irowband25\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 MergeNode\cell \hich\af1\dbch\af13\loch\f1 ActivityNodeCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow26\irowband26\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 FlowFinalNode\cell 
+\hich\af1\dbch\af13\loch\f1 ActivityNodeCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow27\irowband27\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 FinalNode\cell \hich\af1\dbch\af13\loch\f1 ActivityNodeCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow28\irowband28\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 ObjectFlowNode\cell 
+\hich\af1\dbch\af13\loch\f1 ActivityStateCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow29\irowband29\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 ActionState\cell \hich\af1\dbch\af13\loch\f1 ActivityStateCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow30\irowband30\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 SendSignalAction
+\cell \hich\af1\dbch\af13\loch\f1 ActivityStateCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow31\irowband31\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 
+\trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 AcceptEventAction\cell \hich\af1\dbch\af13\loch\f1 ActivityStateCompartmentExtractor\cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow32\irowband32\ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard \ql \li0\ri0\sa120\nowidctlpar\intbl\faauto\rin0\lin0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Transition\cell 
+\hich\af1\dbch\af13\loch\f1 DefaultEdgeCompartmentExtractor\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\fs20\insrsid4750019 \trowd \irow33\irowband33\lastrow \ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 
+\trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2295\clshdrawnil \cellx2187\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth4833\clshdrawnil \cellx7020\row }\pard 
+\ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 This mapping is used in CompartmentExtractorFactory to create the appropriate compartment extractor implementation given the object type and element.
+\par 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 1.4
+\tab Component Class Overview
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Compartment classes
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 The design of this component is such that some object ty\hich\af1\dbch\af13\loch\f1 
+pes that are similar will be handled by one single class. Here, similar is viewed from the point of view of the possible actions and how to handle them.
+\par \tab 
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 CompartmentExtractor}{\fs20\insrsid4750019 
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 An interface to represent methods need to be supported by a CompartmentExtractor\hich\af1\dbch\af13\loch\f1 
+ CompartmentExtractor is responsible to extract and update several types of compartments from the given DiagramElement object.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 AbstractCompartmentExtractor 
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 An abstract implementation for CompartmentExtractor interface. All methods in this class simply th\hich\af1\dbch\af13\loch\f1 
+row CompartmentNotSupportedException.This class is provided for convenience when creating implementation of CompartmentExtractor as usually only some operations are supported.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 AssociationCompartmentExtractor
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Implementation of CompartmentExtractor dealing \hich\af1\dbch\af13\loch\f1 with association.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 ActivityNodeCompartmentExtractor
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Implementation of CompartmentExtractor dealing with activity node
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 DefaultEdgeCompartmentExtractor
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Implementation of CompartmentExtractor dealing with graph edge
+\par 
+\par }{\b\fs20\insrsid4750019 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 GeneralizationCompartmentExtractor
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Imple\hich\af1\dbch\af13\loch\f1 mentation of CompartmentExtractor dealing with generalization, abstraction and dependency.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 MessageCompartmentExtractor
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Implementation of CompartmentExtractor dealing with message
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 ObjectCompartmentExtractor
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Implementation of CompartmentExtractor dealing w\hich\af1\dbch\af13\loch\f1 ith Object
+\par \hich\af1\dbch\af13\loch\f1  
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 ActivityStateCompartmentExtractor
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Implementation of CompartmentExtractor dealing with activity states
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 DefaultNodeCompartmentExtractor
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Implementation of CompartmentExtractor dealing with graph node
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 ClassifierCompartmentExtractor
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Implementatio\hich\af1\dbch\af13\loch\f1 n of CompartmentExtractor dealing with class, interface, and exception  
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 ObjectType
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Enumeration containing all object types available
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 CompartmentExtractorFactory
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 A\~class providing a factory method to create differen\hich\af1\dbch\af13\loch\f1 
+t type of concrete implementation of CompartmentExtractor. This is provided for convenience for clients as the client only needs to specify the object type and the associated compartment extractor will be created and returned.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Action classes
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Each a distin\hich\af1\dbch\af13\loch\f1 ct action is implemented in one class and independent of each other. Each action can work on any object. This is done by employing CompartmentExtractorInterface.
+
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 AddRemoveAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent all update actions which add a new object to the parent GraphElemen\hich\af1\dbch\af13\loch\f1 t or remove an existing object.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 UpdateAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent the superclass of all update action in this component which change the existing value to another value (not addition or removal).
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 AddRemoveOperationAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent Add/Remove Operation Action.This a\hich\af1\dbch\af13\loch\f1 ction will add/remove an operation graphElement to/from a parent node wrapped inside the given compartment extractor object.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 AddRemoveAttributeAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent Add/Remove Attribute Action.This action will add/remove an attribute graphElement to/from a par\hich\af1\dbch\af13\loch\f1 ent node wrapped in a CompartmentExtractor object.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 UpdateFirstAssociationEndAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent Update Second Association End Action. This action updates the second association end of the given Graph Element wrapped inside a compartment extractor object.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Up\hich\af1\dbch\af13\loch\f1 dateSecondAssociationEndAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent Update Second Association End Action. This action updates the second association end of the given Graph Element wrapped inside a compartment extractor object.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 UpdateStereotypeAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent Update s\hich\af1\dbch\af13\loch\f1 tereotype Action. This action updates the stereo type of the parent GraphElement wrapped inside a compartment extractor object.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 UpdateNamespaceAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent Update namespace Action. This action updates the namespace of the parent GraphElement wrapped i\hich\af1\dbch\af13\loch\f1 n a compartment extractor object to the given name.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 UpdateNameAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent Update name Action. This action updates the name of the parent GraphElement wrapped in a compartment extractor object to the given name.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 UpdateVisibilityAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent Updat\hich\af1\dbch\af13\loch\f1 e Visibility Action. This action updates the visibility of the parent GraphElement to the given visibility.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 UpdateSizeAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent UpdateSize Action. This action updates the size of the parent GraphElement to the given Dimension.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Main classes
+\par \hich\af1\dbch\af13\loch\f1 Diagram\hich\af1\dbch\af13\loch\f1 ElementUndoableAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 
+The superclass of all actions in this component. This class extends UndoableAction and provide default impementation of the interface. However, not all methods are relevant, those methods who are not supported by this class will throw
+\hich\af1\dbch\af13\loch\f1  UnsupportedOperationException if called. This class stores the parent GraphElement to be the parent container or to be updated. In addition, it provides basic undo/redo mechanism.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 DiagramElementAddAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 This class handles all add actions of this compone\hich\af1\dbch\af13\loch\f1 
+nt. Client of this class will instantiate this class by giving both the parent and the child GraphElement as well as ProjectConfigurationManager. After that, execute method can be called to execute the Add action.
+\par 
+\par }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 DiagramElementUpdateAction
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent the \hich\af1\dbch\af13\loch\f1 
+superclass of all update actions in this component. This class employs a CompartmentExtractor class to extract particular GraphElement from the element to be updated.
+\par 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 1.5
+\tab Component Exception Definitions
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\fs20\insrsid4750019 \tab }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 CompartmentMalformedException}
+{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 :
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent an Excepti\hich\af1\dbch\af13\loch\f1 
+on to represent a situation where the element being processed is malformed, it does not follow the proper compartment hierarchy.
+\par \hich\af1\dbch\af13\loch\f1 This exception migh\hich\af1\dbch\af13\loch\f1 t be thrown in implementation of CompartmentExtractor interface when add/update compartment with incorrect semantic Model.
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 CompartmentNotFoundException
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent an Exception corresponds to a situation where the compartment that is supposed to be there, i\hich\af1\dbch\af13\loch\f1 s not there.}{\b\fs20\insrsid4750019 
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 This exception might be thrown in implementation of CompartmentExtractor interface when the intended compartment is not available in the element.
+\par 
+\par 
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 CompartmentNotSupportedException
+\par }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Represent an Exception to represent a situation where the inte\hich\af1\dbch\af13\loch\f1 nded compartment is not supported or not supposed to be available. 
+\par }\pard \ql \li720\ri0\sb100\sa100\nowidctlpar\faauto\rin0\lin720\itap0 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 
+This exception might be thrown in implementation of CompartmentExtractor interface where the intended compartment is not supported by the element.
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 1.6
+\tab Thread Safety
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Actions: Not thread sa\hich\af1\dbch\af13\loch\f1 
+fe, reason: execute/redo/undo might interfere each another. Thus, actions are not thread safe. This should not be a problem as normally, each action object is only used by one thread. Each thread will have its own instance of action object.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Compartment: s\hich\af1\dbch\af13\loch\f1 ome operations modifies the corresponding element object. Thus the thread safety will depend on whether Diagram Interchange implementation is thread safe or not. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 In conclusion, this component is not thread safe.}{\fs20\insrsid6169942 \hich\af1\dbch\af13\loch\f1  In multi thread environment, each thread m\hich\af1\dbch\af13\loch\f1 
+ust create a new Action and Compartment objects. In addition, if Diagram Interchange implementation is not thread safe, then a thread safe wrapper is needed.}{\fs20\insrsid4750019 
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\b\fs20\lang1036\langfe1033\langnp1036\insrsid4750019\charrsid16011255 \hich\af1\dbch\af13\loch\f1 2.\tab Environment Requirements\tab \tab 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\b\fs20\lang1036\langfe1033\langnp1036\insrsid4750019\charrsid16011255 \hich\af1\dbch\af13\loch\f1 2.1\tab Environment
+\par }\pard\plain \ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\tx1080\faauto\rin0\lin1080\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\f3\fs20\insrsid4750019 \loch\af3\dbch\af13\hich\f3 \'b7}{
+\f3\fs20\lang1036\langfe1033\langnp1036\insrsid4750019\charrsid16011255 \tab }{\fs20\lang1036\langfe1033\langnp1036\insrsid4750019\charrsid16011255 \hich\af1\dbch\af13\loch\f1 Development language: Java 1.5
+\par }\pard \ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\faauto\rin0\lin1080\itap0 {\f3\fs20\insrsid4750019 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Compile target: Java 1.5
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\fs20\insrsid4750019 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 2.2
+\tab TopCoder Software Components
+\par }\pard\plain \ql \fi-360\li1080\ri0\sa120\nowidctlpar\tx1080\faauto\rin0\lin1080\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\f3\fs20\insrsid4750019 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{
+\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Action Manager 1.0}{\fs20\insrsid16011255 \hich\af1\dbch\af13\loch\f1 : defines the classes and interfaces for management of actions}{\fs20\insrsid4750019 
+\par }\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar\faauto\rin0\lin1080\itap0 {\f3\fs20\insrsid4750019 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 UML Model Manager 1.0}{\fs20\insrsid16011255 
+\hich\af1\dbch\af13\loch\f1 : defines the implementation of UML Model classes.}{\fs20\insrsid4750019 
+\par }{\f3\fs20\insrsid4750019 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 UML Project Configuration 1.0}{\fs20\insrsid16011255 \hich\af1\dbch\af13\loch\f1 : provide\hich\af1\dbch\af13\loch\f1 
+ implementation of ProjectConfigurationManager used in this component}{\fs20\insrsid4750019 
+\par }{\f3\fs20\insrsid4750019 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Diagram Interchange 1.0}{\fs20\insrsid16011255 \hich\af1\dbch\af13\loch\f1 
+: defines the implementation of GraphElement, DiagramElement and all Diagram Interchange classes}{\fs20\insrsid4750019 
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\i\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 NOTE: The default location for TopCoder Software component jars \hich\af1\dbch\af13\loch\f1 
+is../lib/tcs/COMPONENT_NAME/COMPONENT_VERSION relative to the component installation.}{\i\fs20\cf1\insrsid4750019 \hich\af1\dbch\af13\loch\f1   Setting the tcs_libdir property in topcoder_global.properties will overwrite this default location.}{
+\fs20\insrsid4750019 
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 {\fs20\insrsid4750019 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 2.3
+\tab Third Party Components
+\par }\pard\plain \s3\ql \li720\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx720\faauto\outlinelevel2\rin0\lin720\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\i\fs20\insrsid4750019 \tab }{\i\fs20\insrsid4750019 
+\hich\af1\dbch\af13\loch\f1 None
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 3.
+\tab Installation and Configuration
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 3
+\hich\af1\dbch\af13\loch\f1 .1\tab Package Name
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\i\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 
+com.topcoder.uml.actions.diagram.elements
+\par \hich\af1\dbch\af13\loch\f1 com.topcoder.uml.actions.diagram.elements.actions
+\par \hich\af1\dbch\af13\loch\f1 com.topcoder.uml.actions.diagram.elements.compartments
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 3.2
+\tab Configuration Parameters
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 None
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 3.3
+\tab Dependencies Configuration
+\par }\pard\plain \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\fs20\insrsid4750019 \tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 None
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 4.
+\tab Usage Notes
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 4.1
+\tab \hich\af1\dbch\af13\loch\f1 Required steps to test the component
+\par }\pard\plain \ql \fi-360\li1080\ri0\sa120\nowidctlpar\tx1080\faauto\rin0\lin1080\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\f3\fs20\insrsid4750019 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{
+\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Extract the component distribution.
+\par }\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar\faauto\rin0\lin1080\itap0 {\f3\fs20\insrsid4750019 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Follow }{\field{\*\fldinst {\fs20\insrsid4750019 
+\hich\af1\dbch\af13\loch\f1 HYPERLINK "C:\\\\filez\\\\work\\\\tc\\\\tcs_corp\\\\templates\\\\component\\\\" \\\\l "_Dependencies_Configuration" }{\fs20\insrsid11611542\charrsid16011255 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000001000000e0c9ea79f9bace118c8200aa004ba90b6a0000002e002e002f002e002e002f002e002e002f00660069006c0065007a002f0077006f0072006b002f00740063002f007400630073005f0063006f00720070002f00740065006d0070006c006100740065007300
+2f0063006f006d0070006f006e0065006e0074002f000000000000}}}{\fldrslt {\fs20\ul\cf2\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Dependencies Configuration}}}{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 .
+\par }{\f3\fs20\insrsid4750019 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Execute \hich\f1 \lquote \loch\f1 ant test\hich\f1 \rquote \hich\af1\dbch\af13\loch\f1 
+ within the directory that the distribution was extracted to.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 4.2
+\tab Required steps to use the component
+\par }\pard\plain \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\fs20\insrsid4750019 \tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 None
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 4.3
+\tab Demo
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 
+The usage of this component is somewhat obvious. The client of this component will instantiate concrete implementation of the action he wan\hich\af1\dbch\af13\loch\f1 
+ts to perform. Before that, depending on the context, it might be necessary to create a concrete implementation of CompartmentExtractor interface. The action will be configured by the element or compartment extractor and the new element to be updated/remo
+\hich\af1\dbch\af13\loch\f1 v\hich\af1\dbch\af13\loch\f1 ed/added. Such configuration is done in the constructor. Finally, the action will be executed.
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 \tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 There are 4 scenarios presented here.
+\par }{\b\fs20\insrsid4750019 \tab }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Scenario 1.1: Update the size of elemen}{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 t
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs20\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571 \hich\af2\dbch\af13\loch\f2      }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2    }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 // Update the size of element to the new size}{
+\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2      \hich\af2\dbch\af13\loch\f2    Dimension newSize = }{\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2 new}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  Dimension();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         newSize.setWidth(50D);}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         newSize.setHeight(123D);}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         GraphNode element = }{\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}{
+\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  GraphNode();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         UndoableAction action = }{\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}{
+\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  UpdateSizeAction(element, newSize);}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         action.execute();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 // Undo the last action}{
+\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         action.undo();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 // Redo the last action}{
+\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         action.redo();}{\fs18\insrsid4750019\charrsid5988606 
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\b\fs20\insrsid4750019 \tab }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Scenario 2: Add a new element
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs20\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571 \hich\af2\dbch\af13\loch\f2        }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2  }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 // The parent element to add a child element}{
+\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         GraphNode parent = }{\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}{
+\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  GraphNode();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 // a Gra
+\hich\af2\dbch\af13\loch\f2 phElement corresponds to child to be added.}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         GraphNode child = }{\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}{
+\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  GraphNode();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+// create a project configuration manager}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \fi-900\li900\ri0\nowidctlpar\faauto\rin0\lin900\itap0\cufi-500\pararsid2833265 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         ProjectConfigurationManager manager = }{
+\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  ProjectConfigurationManager(}{
+\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  UMLModelManager());}{
+\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+// create an AddDiagramElementAction instance}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \fi-900\li900\ri0\nowidctlpar\faauto\rin0\lin900\itap0\cufi-500\pararsid2833265 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         UndoableAction action = }{
+\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+ AddDiagramElementAction(parent, child, manager);}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         action.execute();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         action.undo();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         action.redo();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         action.undo();}{\fs18\insrsid4750019\charrsid5988606 
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\b\fs20\insrsid4750019 \tab }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Scenario 3}{\b\fs20\insrsid13067082 \hich\af1\dbch\af13\loch\f1 .1}{\b\fs20\insrsid4750019 
+\hich\af1\dbch\af13\loch\f1 : Update the name of an Final Node GraphNode element
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs20\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571 \hich\af2\dbch\af13\loch\f2        }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2  }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 // creates a final node}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         GraphNode finalNodeElement = TestHelper.}{\i\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2 createGraphNodeForClassifier}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 ();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+// creates a new name compartment}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         GraphElement name = }{\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}{
+\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  GraphNode();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         name.setSemanticModel(TestHelper.}{\i\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2 createSimpleSemanticModel}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 (}{\f2\fs18\cf19\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2 "Name"}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 ));}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+// update the name of the final node}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         CompartmentExtractorFactory factory = }{\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2 new}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  CompartmentExtractorFactory();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \fi-810\li810\ri0\nowidctlpar\faauto\rin0\lin810\itap0\cufi-450\pararsid2833265 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         CompartmentExtractor extractor = factory.cre
+\hich\af2\dbch\af13\loch\f2 ateCompartmentExtractor(ObjectType.}{\i\f2\fs18\cf20\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 Interface}{
+\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 , finalNodeElement);}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         UndoableAction action = }{
+\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  UpdateNameAction(extractor, name);}{
+\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         action.execute();}{\fs18\insrsid13067082\charrsid5988606 
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\b\fs20\insrsid13067082\charrsid13067082 \tab }{\b\fs20\insrsid13067082\charrsid13067082 \hich\af1\dbch\af13\loch\f1 Scenario 3.2: Update the }{
+\b\fs20\lang1033\langfe2052\langfenp2052\insrsid4220864 \hich\af1\dbch\af13\loch\f1 s\hich\af1\dbch\af13\loch\f1 t\hich\af1\dbch\af13\loch\f1 e\hich\af1\dbch\af13\loch\f1 re\hich\af1\dbch\af13\loch\f1 o\hich\af1\dbch\af13\loch\f1 type}{
+\b\fs20\insrsid13067082\charrsid13067082 \hich\af1\dbch\af13\loch\f1  of an Synchronize Message Grap}{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 hEdge}{\b\fs20\insrsid13067082\charrsid13067082 \hich\af1\dbch\af13\loch\f1  element
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs20\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571 \hich\af2\dbch\af13\loch\f2        }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2 // creates a Synchronize Message node}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         GraphNode syncmsg = TestHelper.}{\i\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+createGraphNodeForMessage}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 ();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+// creates a new stereotype compartment}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         GraphElement stereotype = }{\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}
+{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  GraphNode();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \fi-810\li810\ri0\nowidctlpar\faauto\rin0\lin810\itap0\cufi-450\pararsid2833265 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         stereotype.setSemanticModel(TestHelper.}{
+\i\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 createSimpleSemanticModel}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 (}{
+\f2\fs18\cf19\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 "StereotypeCompartment"}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 ));}{
+\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+// update the stereotype of the Synchronize Message element}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         CompartmentExtractorFactory factory = }{\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2 new}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  CompartmentExtractorFactory();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \fi-900\li900\ri0\nowidctlpar\faauto\rin0\lin900\itap0\cufi-500\pararsid2833265 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         CompartmentExtractor extractor = 
+\hich\af2\dbch\af13\loch\f2 factory.createCompartmentExtractor(ObjectType.}{\i\f2\fs18\cf20\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 SynchronousMessage}{
+\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 , syncmsg);}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         UndoableAction action = }{
+\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+ UpdateStereotypeAction(extractor, stereotype);}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }\pard \ql \fi720\li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2833265 \hich\af2\dbch\af13\loch\f2  }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2 action.execute();}{\fs18\insrsid13067082\charrsid5988606 \line }{\fs20\insrsid13067082 
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0\pararsid13067082 {\b\fs20\insrsid13067082\charrsid13067082 \tab }{\b\fs20\insrsid13067082\charrsid13067082 \hich\af1\dbch\af13\loch\f1 Scenario 3.}{\b\fs20\insrsid13067082 
+\hich\af1\dbch\af13\loch\f1 3}{\b\fs20\insrsid13067082\charrsid13067082 \hich\af1\dbch\af13\loch\f1 : Update the }{\b\fs20\insrsid13067082 \hich\af1\dbch\af13\loch\f1 namespace }{\b\fs20\insrsid13067082\charrsid13067082 \hich\af1\dbch\af13\loch\f1 of a}{
+\b\fs20\insrsid13067082 \hich\af1\dbch\af13\loch\f1  Use Case }{\b\fs20\insrsid13067082\charrsid13067082 \hich\af1\dbch\af13\loch\f1 GraphNode element
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs20\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571 \hich\af2\dbch\af13\loch\f2       }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2   }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 // creates a Use Case element}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         GraphNode usecase = TestHelper.}{\i\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+createGraphNodeForDefaultNode}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 ();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 // creates a new namespace node}
+{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         GraphElement namespace = }{\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}{
+\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  GraphNode();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \fi-810\li810\ri0\nowidctlpar\faauto\rin0\lin810\itap0\cufi-450\pararsid2833265 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         namespace.setSemanticModel(TestHelper.}{
+\i\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 createSimpleSemanticModel}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 (}{
+\f2\fs18\cf19\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 "NamespaceCompartment"}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 ));}{
+\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+// update the namespace of a Use Case GraphNode element.}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         CompartmentExtractorFactory factory = }{\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2 new}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  CompartmentExtractorFactory();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \fi-810\li810\ri0\nowidctlpar\faauto\rin0\lin810\itap0\cufi-450\pararsid2833265 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         CompartmentExtractor extractor = factory.createCo
+\hich\af2\dbch\af13\loch\f2 mpartmentExtractor(ObjectType.}{\i\f2\fs18\cf20\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 UseCase}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2 , usecase);}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         UndoableAction action = }{
+\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+ UpdateNamespaceAction(extractor, namespace);}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         action.execute();}{\fs18\insrsid13067082\charrsid5988606 
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 \tab 
+\par }{\b\fs20\insrsid4750019 \tab }{\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 Scenario 4: Add a new attribute to an Exception element
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs20\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571 \hich\af2\dbch\af13\loch\f2     }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2     }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 // creates an exception element}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         GraphNode element = TestHelper.}{\i\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+createGraphNodeForClassifier}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 ();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+// creates a new attribute element}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         GraphNode attribute = }{\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 new}{
+\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  GraphNode();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         }{\f2\fs18\cf17\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+// add the new attribute to the exception}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         CompartmentExtractorFactory factory = }{\b\f2\fs18\cf18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2 new}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2  CompartmentExtractorFactory();}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \fi-810\li810\ri0\nowidctlpar\faauto\rin0\lin810\itap0\cufi-450\pararsid2833265 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 
+        CompartmentExtractor extractor = factory.createCompartmentExtractor(ObjectType.}{\i\f2\fs18\cf20\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 Exception}{
+\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 , element);}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         UndoableAction action = AddRemoveAttributeAction.}{\i\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\hich\af2\dbch\af13\loch\f2 createAddA\hich\af2\dbch\af13\loch\f2 ttributeAction}{\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2 (extractor, attribute);}{
+\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2255571 {\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 {\f2\fs18\cf1\lang1033\langfe2052\langfenp2052\insrsid2255571\charrsid5988606 \hich\af2\dbch\af13\loch\f2         action.execute();}{
+\fs18\lang1033\langfe2052\langfenp2052\insrsid4750019\charrsid5988606 
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 5.
+\tab Future Enhancements
+\par }\pard\plain \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\fs20\insrsid4750019 \tab }{\fs20\insrsid4750019 \hich\af1\dbch\af13\loch\f1 
+More actions can be supported, for example update the enumeration literal compartment of an Enumeration, etc.
+\par \tab \hich\af1\dbch\af13\loch\f1 A default compartment builder could be incorporated for \hich\af1\dbch\af13\loch\f1 add operations. For example, given UML:Operation, a compartment corresponds to Operation can be built with all attributes set to default.
+
+\par 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\insrsid4750019 
+\par 
+\par }}

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- This file contains the valid configurations for the whole component -->
+<CMConfig>
+  <!-- Configuration for ReflectedXMIDescription -->
+	<Config name="com.topcoder.xmi.writer.transformers.model.xmidescription.ReflectedXMIDescription">
+	  <!-- Below two elements' configuration is expected to be correct -->
+		<Property name="Interface1">
+			  <Property name="excludedMethods">
+			    <Value>getExcluded</Value>
+			  </Property>
+			  <Property name="containedNodes">
+			    <Value>innerBean</Value>
+			  </Property>
+		</Property>
+	</Config>
+
+	<!-- Configuration for transformer -->
+	<Config name="com.topcoder.xmi.writer.transformers.model.Model2XMITransformer">
+	  <!-- 
+		<Property name="ignoreUnknownElementType">
+			<Value>true</Value>
+		</Property>
+		-->
+		<!-- namespace to create object factory instance, REQUIRED -->
+		<Property name="objectFactory">
+			<Value>com.topcoder.xmi.writer.transformers.model.ObjectFactory</Value>
+		</Property>
+		<!-- XMIDescription object name in objectFactory, REQUIRED -->
+		<Property name="xmiDescription">
+		  <Value>xmiDescriptionObject</Value>
+		</Property>
+	</Config>
+
+	<!-- Configuration for object factory -->
+	<Config name="com.topcoder.xmi.writer.transformers.model.ObjectFactory">
+      <Property name="xmiDescriptionObject">
+          <Property name="type">
+            <Value>com.topcoder.xmi.writer.transformers.model.xmidescription.ReflectedXMIDescription</Value>
+          </Property>
+          <Property name="params">
+              <Property name="param1">
+			          <Property name="type">
+			            <Value>String</Value>
+			          </Property>
+			          <Property name="value">
+			            <Value>com.topcoder.xmi.writer.transformers.model.xmidescription.ReflectedXMIDescription</Value>
+			          </Property>
+			        </Property>
+          </Property>
+      </Property>
+  </Config>
+</CMConfig>

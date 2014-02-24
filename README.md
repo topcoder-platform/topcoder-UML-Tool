@@ -26,3 +26,22 @@ Uninstall the UML tool
 An icon should be created for the uninstaller (if you selected to install icons, and if the izPack installer supports icons for your OS).
 
 If there is no icon, or for some reason you wish to uninstall manually, go to wherever you installed the app and run the Uninstaller\uninstaller.jar file. This can be done in the GUI if your OS supports it, or else run java -jar uninstaller.jar from the Uninstaller directory.
+
+Build
+========================
+The build.xml is a development contest like build file. To use it you need at least
+Ant 1.6.5 installed and ready to run.
+
+The available targets used in this assembly are:
+
+  + ant compile
+    Compiles all classes from this assembly
+    
+  + ant run
+    Run the UML Tool to use.
+
+
+Configuration File
+========================
+Valid configuration files are kept under the config directory and the configmanager.properties file is given such that
+the config files are loaded while instantiating.

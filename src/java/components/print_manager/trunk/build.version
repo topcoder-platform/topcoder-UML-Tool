@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=Print Manager
+component.distfilename=print_manager
+component.package=com.topcoder.swing.print
+component.packagedir=com/topcoder/swing/print
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

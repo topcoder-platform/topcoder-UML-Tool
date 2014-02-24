@@ -1,0 +1,161 @@
+<CMConfig>
+    <!-- In this configuration there will be no 'xml_to_element_mapping' property-->
+    <Config name="com.topcoder.xmi.reader.handlers.diagraminterchange.failuretests1">
+        <Property name="xml_to_element_mapping_invalid">
+                <Value>UML:StateMachine,com.topcoder.uml.model.statemachines.StateMachineImpl</Value>
+                <Value>UML:Transition,com.topcoder.uml.model.statemachines.TransitionImpl</Value>
+                <Value>UML:Guard,com.topcoder.uml.model.statemachines.GuardImpl</Value>
+                <Value>UML:Pseudostate,com.topcoder.uml.model.statemachines.PseudostateImpl</Value>
+                <Value>UML:CompositeState,com.topcoder.uml.model.statemachines.CompositeStateImpl</Value>
+                <Value>UML:SimpleState,com.topcoder.uml.model.statemachines.SimpleStateImpl</Value>
+                <Value>UML:FinalState,com.topcoder.uml.model.statemachines.FinalStateImpl</Value>
+                <Value>UML:ActivityGraph,com.topcoder.uml.model.activitygraphs.ActivityGraphImpl</Value>
+                <Value>UML:ActionState,com.topcoder.uml.model.activitygraphs.ActionStateImpl</Value>
+                <Value>UML:CallState,com.topcoder.uml.model.activitygraphs.CallStateImpl</Value>
+                <Value>UML:ObjectFlowState,com.topcoder.uml.model.activitygraphs.ObjectFlowStateImpl</Value>
+        </Property>
+    </Config>
+
+    <!-- In this configuration one of the values is empty string-->
+    <Config name="com.topcoder.xmi.reader.handlers.diagraminterchange.failuretests2">
+        <Property name="xml_to_element_mapping">
+            <Value>UML:StateMachine,com.topcoder.uml.model.statemachines.StateMachineImpl</Value>
+            <Value>UML:Transition,com.topcoder.uml.model.statemachines.TransitionImpl</Value>
+            <Value>UML:Guard,com.topcoder.uml.model.statemachines.GuardImpl</Value>
+            <Value>UML:Pseudostate,com.topcoder.uml.model.statemachines.PseudostateImpl</Value>
+            <Value>UML:CompositeState,com.topcoder.uml.model.statemachines.CompositeStateImpl</Value>
+            <Value>UML:SimpleState,com.topcoder.uml.model.statemachines.SimpleStateImpl</Value>
+            <Value></Value>
+            <Value>UML:ActivityGraph,com.topcoder.uml.model.activitygraphs.ActivityGraphImpl</Value>
+            <Value>UML:ActionState,com.topcoder.uml.model.activitygraphs.ActionStateImpl</Value>
+            <Value>UML:CallState,com.topcoder.uml.model.activitygraphs.CallStateImpl</Value>
+            <Value>UML:ObjectFlowState,com.topcoder.uml.model.activitygraphs.ObjectFlowStateImpl</Value>
+        </Property>
+    </Config>
+
+
+    <!-- In this configuration one of the values has invalid format.-->
+    <Config name="com.topcoder.xmi.reader.handlers.diagraminterchange.failuretests3">
+        <Property name="xml_to_element_mapping">
+            <Value>UML:StateMachine,com.topcoder.uml.model.statemachines.StateMachineImpl,java.lang.String</Value>
+            <Value>UML:Transition,com.topcoder.uml.model.statemachines.TransitionImpl</Value>
+            <Value>UML:Guard,com.topcoder.uml.model.statemachines.GuardImpl</Value>
+            <Value>UML:Pseudostate,com.topcoder.uml.model.statemachines.PseudostateImpl</Value>
+            <Value>UML:CompositeState,com.topcoder.uml.model.statemachines.CompositeStateImpl</Value>
+            <Value>UML:ActivityGraph,  </Value>
+            <Value>UML:ActionState,com.topcoder.uml.model.activitygraphs.ActionStateImpl</Value>
+            <Value>UML:CallState,com.topcoder.uml.model.activitygraphs.CallStateImpl</Value>
+            <Value>UML:ObjectFlowState,com.topcoder.uml.model.activitygraphs.ObjectFlowStateImpl</Value>
+        </Property>
+    </Config>
+
+    <!-- In this configuration one of the xmlElements is empty string-->
+    <Config name="com.topcoder.xmi.reader.handlers.diagraminterchange.failuretests4">
+        <Property name="xml_to_element_mapping">
+            <Value>UML:StateMachine,com.topcoder.uml.model.statemachines.StateMachineImpl</Value>
+            <Value>UML:Transition,com.topcoder.uml.model.statemachines.TransitionImpl</Value>
+            <Value>UML:Guard,com.topcoder.uml.model.statemachines.GuardImpl</Value>
+            <Value>UML:Pseudostate,com.topcoder.uml.model.statemachines.PseudostateImpl</Value>
+            <Value>UML:CompositeState,com.topcoder.uml.model.statemachines.CompositeStateImpl</Value>
+            <Value>   ,com.topcoder.uml.model.statemachines.SimpleStateImpl</Value>
+            <Value>UML:ActivityGraph,com.topcoder.uml.model.activitygraphs.ActivityGraphImpl</Value>
+            <Value>UML:ActionState,com.topcoder.uml.model.activitygraphs.ActionStateImpl</Value>
+            <Value>UML:CallState,com.topcoder.uml.model.activitygraphs.CallStateImpl</Value>
+            <Value>UML:ObjectFlowState,com.topcoder.uml.model.activitygraphs.ObjectFlowStateImpl</Value>
+        </Property>
+    </Config>
+
+    <!-- In this configuration one of the classNames is empty string-->
+    <Config name="com.topcoder.xmi.reader.handlers.diagraminterchange.failuretests5">
+        <Property name="xml_to_element_mapping">
+            <Value>UML:StateMachine,com.topcoder.uml.model.statemachines.StateMachineImpl</Value>
+            <Value>UML:Transition,com.topcoder.uml.model.statemachines.TransitionImpl</Value>
+            <Value>UML:Guard,com.topcoder.uml.model.statemachines.GuardImpl</Value>
+            <Value>UML:Pseudostate,com.topcoder.uml.model.statemachines.PseudostateImpl</Value>
+            <Value>UML:CompositeState,com.topcoder.uml.model.statemachines.CompositeStateImpl</Value>
+            <Value>UML:ActivityGraph,  </Value>
+            <Value>UML:ActionState,com.topcoder.uml.model.activitygraphs.ActionStateImpl</Value>
+            <Value>UML:CallState,com.topcoder.uml.model.activitygraphs.CallStateImpl</Value>
+            <Value>UML:ObjectFlowState,com.topcoder.uml.model.activitygraphs.ObjectFlowStateImpl</Value>
+        </Property>
+    </Config>
+
+    <!-- Valid configuration-->
+    <Config name="com.topcoder.xmi.reader.handlers.diagraminterchange">
+        <Property name="xml_to_element_mapping">
+            <Value>UML:Property,com.topcoder.diagraminterchange.Property</Value>
+            <Value>UML:Reference,com.topcoder.diagraminterchange.Reference</Value>
+            <Value>UML:DiagramLink,com.topcoder.diagraminterchange.DiagramLink</Value>
+            <Value>UML:GraphConnector,com.topcoder.diagraminterchange.GraphConnector</Value>
+            <Value>UML:GraphEdge,com.topcoder.diagraminterchange.GraphEdge</Value>
+            <Value>UML:Point,com.topcoder.diagraminterchange.Point</Value>
+            <Value>UML:BezierPoint,com.topcoder.diagraminterchange.BezierPoint</Value>
+            <Value>UML:Dimension,com.topcoder.diagraminterchange.Dimension</Value>
+            <Value>UML:Polyline,com.topcoder.diagraminterchange.Polyline</Value>
+            <Value>UML:TextElement,com.topcoder.diagraminterchange.TextElement</Value>
+            <Value>UML:Image,com.topcoder.diagraminterchange.Image</Value>
+            <Value>UML:CoreSemanticModelBridge,com.topcoder.diagraminterchange.CoreSemanticModelBridge</Value>
+            <Value>UML:Uml1SemanticModelBridge,com.topcoder.diagraminterchange.Uml1SemanticModelBridge</Value>
+            <Value>UML:SimpleSemanticModelElement,com.topcoder.diagraminterchange.SimpleSemanticModelElement</Value>
+            <Value>UML:GraphNode,com.topcoder.diagraminterchange.GraphNode</Value>
+            <Value>UML:Diagram,com.topcoder.diagraminterchange.Diagram</Value>
+        </Property>
+    </Config>
+
+    <Config name="com.topcoder.xmi.reader">
+        <Property name="reuse">
+           <Value>true</Value>
+         </Property>
+
+         <Property name="handlers">
+              <Property name="UML:Diagram">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:GraphNode">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:GraphEdge">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:Property">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:GraphConnector">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:Point">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:Dimension">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:TextElement">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:Reference">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:BezierPoint">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:Polyline">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:Image">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:CoreSemanticModelBridge">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:SimpleSemanticModelElement">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:Uml1SemanticModelBridge">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+              <Property name="UML:DiagramLink">
+                  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+              </Property>
+        </Property>
+    </Config>
+</CMConfig>

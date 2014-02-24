@@ -1,0 +1,100 @@
+<CMConfig>
+    
+    <Config name="defaultTagEditor_Invalid_1">
+        <!-- The configuration of option manager is invalid,
+             see tagOptionsInvalid.xml -->
+        <Property name="tagoptionNamespace">
+            <Value>tagOptions_invalid_1</Value>
+        </Property>
+    </Config>
+    
+    <Config name="defaultTagEditor_Invalid_2">
+        <!-- The configuration of option manager is invalid,
+             see tagOptionsInvalid.xml -->
+        <Property name="tagoptionNamespace">
+            <Value>tagOptions_invalid_loop_1</Value>
+        </Property>
+    </Config>
+    
+    <Config name="defaultTagEditor_Invalid_3">
+        <Property name="tagprompt">
+            <Value>new tag prompt</Value>
+        </Property>
+            
+        <Property name="valueprompt">
+            <Value>new Value prompt</Value>
+        </Property>
+        
+        <!-- Size of column names must be 2:-->
+        <Property name="columnnames">
+            <Value>Tag doc</Value>
+        </Property>
+            
+        <Property name="tagoptionNamespace">
+            <Value>tagOptions_1</Value>
+        </Property>
+    </Config>
+
+    <Config name="defaultTagEditor_Invalid_4">
+        <Property name="tagprompt">
+            <Value>new tag prompt</Value>
+        </Property>
+            
+        <Property name="valueprompt">
+            <Value>new Value prompt</Value>
+        </Property>
+        
+        <!-- Size of column names must be 2:-->
+        <Property name="columnnames">
+            <Value>Tag name</Value>
+            <Value>Tag doc</Value>
+            <Value>Tag des</Value>
+        </Property>
+            
+        <Property name="tagoptionNamespace">
+            <Value>tagOptions_1</Value>
+        </Property>
+    </Config>
+    
+    <!-- New value prompt should not be empty -->
+    <Config name="defaultTagEditor_Invalid_5">
+        <Property name="tagprompt">
+            <Value>new tag prompt</Value>
+        </Property>
+            
+        <Property name="valueprompt">
+            <Value></Value>
+        </Property>
+        
+        <!-- Size of column names must be 2:-->
+        <Property name="columnnames">
+            <Value>Tag name</Value>
+            <Value>Tag doc</Value>
+        </Property>
+            
+        <Property name="tagoptionNamespace">
+            <Value>tagOptions_1</Value>
+        </Property>
+    </Config>
+    
+    <!-- New tag prompt should not be empty -->
+    <Config name="defaultTagEditor_Invalid_6">
+        <Property name="tagprompt">
+            <Value> </Value>
+        </Property>
+            
+        <Property name="valueprompt">
+            <Value>new value</Value>
+        </Property>
+        
+        <!-- Size of column names must be 2:-->
+        <Property name="columnnames">
+            <Value>Tag name</Value>
+            <Value>Tag doc</Value>
+        </Property>
+            
+        <Property name="tagoptionNamespace">
+            <Value>tagOptions_1</Value>
+        </Property>
+    </Config>
+</CMConfig>

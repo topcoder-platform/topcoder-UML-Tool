@@ -1,0 +1,80 @@
+<CMConfig>
+	<Config name="com.topcoder.umltool.xmiconverters.poseidon5">
+		<!-- RenameConverter -->
+		<Property name="ToRenameNames">
+			<Property name="UML2:TypedElement$type">
+				<Value>UML:StructuralFeature.type</Value>
+			</Property>
+			<Property name="UML:Class">
+				<Value>UML:Classifier</Value>
+			</Property>
+			<Property name="UML:DateType">
+				<Value>UML:Classifier</Value>
+			</Property>
+		</Property>
+
+		<!-- GraphPropertiesConverter -->
+		<Property name="ObjectFactoryNamespace">
+			<Value>object_factory_namespace</Value>
+		</Property>
+		<Property name="PropertyValueTransformers">
+			<Value>transformer:all</Value>
+			<Value>transformer:color</Value>
+		</Property>
+		<Property name="ToReplacePropertyKeys">
+			<Property name="fill">
+				<Value>FILL_COLOR</Value>
+			</Property>
+			<Property name="font-color">
+				<Value>FONT_COLOR</Value>
+			</Property>
+		</Property>
+
+		<!-- DiagramTitleConverter -->
+		<Property name="ConvertDiagramTitleToTextElement">
+			<Value>true</Value>
+		</Property>
+		<Property name="DefaultTextElementProperties">
+			<Property name="FILL_COLOR">
+				<Value>CCFFCC</Value>
+			</Property>
+			<Property name="FONT_FAMILY">
+				<Value>Arial</Value>
+			</Property>
+		</Property>
+	</Config>
+
+	<!-- GraphPropertiesConverter -->
+	<Config name="object_factory_namespace">
+		<Property name="transformer:all">
+			<Property name="type">
+				<Value>com.topcoder.umltool.xmiconverters.poseidon5.propertytransformers.RegexToLowerPropertyValueTransformer</Value>
+			</Property>
+			<Property name="params">
+				<Property name="param1">
+					<Property name="type">
+						<Value>String</Value>
+					</Property>
+					<Property name="value">
+						<Value>(\\s)+a</Value>
+					</Property>
+				</Property>
+			</Property>
+		</Property>
+		<Property name="transformer:color">
+			<Property name="type">
+				<Value>com.topcoder.umltool.xmiconverters.poseidon5.propertytransformers.RegexToLowerPropertyValueTransformer</Value>
+			</Property>
+			<Property name="params">
+				<Property name="param1">
+					<Property name="type">
+						<Value>String</Value>
+					</Property>
+					<Property name="value">
+						<Value>a(\\s)+</Value>
+					</Property>
+				</Property>
+			</Property>
+		</Property>
+	</Config>
+</CMConfig>

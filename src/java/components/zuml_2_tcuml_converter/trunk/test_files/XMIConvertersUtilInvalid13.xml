@@ -1,0 +1,43 @@
+<CMConfig>
+    <Config name="com.topcoder.umltool.xmiconverters.poseidon5">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:xmiheader</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>:id</Value>
+            </Property>
+        </Property>
+    </Config>
+    
+    <Config name="object_factory_namespace">
+        <Property name="handlers:xmiheader">
+            <Property name="type">
+                <Value>com.topcoder.umltool.xmiconverters.poseidon5.handlers.ZUMLHeaderHandler</Value>
+            </Property>
+            <Property name="params">
+                 <Property name="param1">
+                     <Property name="name">
+                          <Value>acceptableVersions</Value>
+                     </Property>
+                 </Property>
+            </Property>
+        </Property>
+        <Property name="acceptableVersions">
+            <Property name="arrayType">
+                <Value>String</Value>
+            </Property>
+            <Property name="dimension">
+                <Value>1</Value>
+            </Property>
+            <Property name="values">
+                <Value>{"1.4.5", "1.4.6"}</Value>
+            </Property>
+        </Property>
+    </Config>
+</CMConfig>

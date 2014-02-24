@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<CMConfig>
+    <Property name="LookAndFeelClass">
+        <Value>com.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel</Value>
+    </Property>
+    <Property name="LinkButtonImagePath">
+        <Value>test_files/icons/link.ico</Value>
+    </Property>
+    <Property name="AddButtonImagePath">
+        <Value>test_files/icons/add.ico</Value>
+    </Property>
+    <Property name="DeleteButtonImagePath">
+        <Value>test_files/icons/delete.ico</Value>
+    </Property>
+    <Property name="Multiplicities">
+        <Property name="MultiplicityName">
+            <Property name="RangeName">
+                <Property name="LowerBound">
+                    <Value>2</Value>
+                </Property>
+                <Property name="UpperBound">
+                    <Value>8</Value>
+                </Property>
+            </Property>
+        </Property>
+    </Property>
+    <Property name="StereotypeMapping">
+        <Property name="Package">
+            <Value>Package</Value>
+        </Property>
+        <Property name="Interface">
+            <Value>Interface</Value>
+        </Property>
+        <Property name="Class">
+            <Value>Class</Value>
+        </Property>
+        <Property name="Enumeration">
+            <Value>Enumeration</Value>
+        </Property>
+        <Property name="Attribute">
+            <Value>Attribute</Value>
+        </Property>
+        <Property name="Operation">
+            <Value>Operation</Value>
+        </Property>
+        <Property name="Parameter">
+            <Value>Parameter</Value>
+        </Property>
+        <Property name="Dependency">
+            <Value>Dependency</Value>
+        </Property>
+        <Property name="Generalization">
+            <Value>Generalization</Value>
+        </Property>
+        <Property name="Abstraction">
+            <Value>Abstraction</Value>
+        </Property>
+        <Property name="Association">
+            <Value>Association</Value>
+        </Property>
+        <Property name="AssociationEnd">
+            <Value>AssociationEnd</Value>
+        </Property>
+        <Property name="Actor">
+            <Value>Actor</Value>
+        </Property>
+        <Property name="UseCase">
+            <Value>UseCase</Value>
+        </Property>
+        <Property name="Subsystem">
+            <Value>Subsystem</Value>
+        </Property>
+        <Property name="Include">
+            <Value>Include</Value>
+        </Property>
+        <Property name="Extend">
+            <Value>Extend</Value>
+        </Property>
+        <Property name="SimpleState">
+            <Value>SimpleState</Value>
+        </Property>
+        <Property name="ObjectFlowState">
+            <Value>ObjectFlowState</Value>
+        </Property>
+        <Property name="FinalState">
+            <Value>FinalState</Value>
+        </Property>
+        <Property name="ActionState">
+            <Value>ActionState</Value>
+        </Property>
+        <Property name="Pseudostate">
+            <Value>Pseudostate</Value>
+        </Property>
+        <Property name="Transition">
+            <Value>Transition</Value>
+        </Property>
+        <Property name="Object">
+            <Value>Object</Value>
+        </Property>
+        <Property name="CreateObjectAction">
+            <Value>CreateObjectAction</Value>
+        </Property>
+        <Property name="SendSignalAction">
+            <Value>SendSignalAction</Value>
+        </Property>
+        <Property name="Stimulus">
+            <Value>Stimulus</Value>
+        </Property>
+    </Property>
+</CMConfig>

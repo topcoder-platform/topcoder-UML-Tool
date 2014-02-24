@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+	<!-- script for open the zuml files and generate the code for test -->
+	<scenario name="New scenario(1)">
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="File" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Open" />
+		<SetClipboard text="$(UML_BASE)/MockJava.tcuml" />
+		<Paste />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JButton" />
+		<repeat propertyKey="times" from="1" shortOf="30">
+			<if verifier="Verify" componentFinder="CLASS_IS_ACCESSIBLE"
+				componentClass="JProgressBar" property="PercentComplete"
+				expected="10" comparativeOperator="&lt;"
+				windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog">
+				<Delay ms="1000" />
+			</if>
+		</repeat>
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="Generate" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Generate Code" />
+		<Tree windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_ACCESSIBLE" />
+		<Click mouseButton="BUTTON1"
+			windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_EQUAL_STRICTLY"
+			componentClass="JTextField" />
+		<SetClipboard text="$(CODEGEN_BASE)/java/mock" />
+		<Paste />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JRadioButton" label="Java" />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Accept" />
+
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="File" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Open" />
+		<SetClipboard
+			text="$(UML_BASE)/GenericRegistrationFrameworkArchitecture.tcuml" />
+		<Paste />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JButton" />
+		<repeat propertyKey="times" from="1" shortOf="30">
+			<if verifier="Verify" componentFinder="CLASS_IS_ACCESSIBLE"
+				componentClass="JProgressBar" property="PercentComplete"
+				expected="10" comparativeOperator="&lt;"
+				windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog">
+				<Delay ms="1000" />
+			</if>
+		</repeat>
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="Generate" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Generate Code" />
+		<Tree windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_ACCESSIBLE" />
+		<Click mouseButton="BUTTON1"
+			windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_EQUAL_STRICTLY"
+			componentClass="JTextField" />
+		<SetClipboard text="$(CODEGEN_BASE)/java/130" />
+		<Paste />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JRadioButton" label="Java" />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Accept" />
+
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="File" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Open" />
+		<SetClipboard text="$(UML_BASE)/PrerequisiteService.tcuml" />
+		<Paste />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JButton" />
+		<repeat propertyKey="times" from="1" shortOf="30">
+			<if verifier="Verify" componentFinder="CLASS_IS_ACCESSIBLE"
+				componentClass="JProgressBar" property="PercentComplete"
+				expected="10" comparativeOperator="&lt;"
+				windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog">
+				<Delay ms="1000" />
+			</if>
+		</repeat>
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="Generate" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Generate Code" />
+		<Tree windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_ACCESSIBLE" />
+		<Click mouseButton="BUTTON1"
+			windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_EQUAL_STRICTLY"
+			componentClass="JTextField" />
+		<SetClipboard text="$(CODEGEN_BASE)/java/132" />
+		<Paste />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JRadioButton" label="Java" />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Accept" />
+
+
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="File" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Open" />
+		<SetClipboard text="$(UML_BASE)/Studio_Contest_Manager.tcuml" />
+		<Paste />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JButton" />
+		<repeat propertyKey="times" from="1" shortOf="30">
+			<if verifier="Verify" componentFinder="CLASS_IS_ACCESSIBLE"
+				componentClass="JProgressBar" property="PercentComplete"
+				expected="10" comparativeOperator="&lt;"
+				windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog">
+				<Delay ms="1000" />
+			</if>
+		</repeat>
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="Generate" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Generate Code" />
+		<Tree windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_ACCESSIBLE" />
+		<Click mouseButton="BUTTON1"
+			windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_EQUAL_STRICTLY"
+			componentClass="JTextField" />
+		<SetClipboard text="$(CODEGEN_BASE)/java/133" />
+		<Paste />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JRadioButton" label="Java" />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Accept" />
+
+
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="File" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Open" />
+		<SetClipboard text="$(UML_BASE)/Studio_Service.tcuml" />
+		<Paste />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JButton" />
+		<repeat propertyKey="times" from="1" shortOf="30">
+			<if verifier="Verify" componentFinder="CLASS_IS_ACCESSIBLE"
+				componentClass="JProgressBar" property="PercentComplete"
+				expected="10" comparativeOperator="&lt;"
+				windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog">
+				<Delay ms="1000" />
+			</if>
+		</repeat>
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="Generate" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Generate Code" />
+		<Tree windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_ACCESSIBLE" />
+		<Click mouseButton="BUTTON1"
+			windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_EQUAL_STRICTLY"
+			componentClass="JTextField" />
+		<SetClipboard text="$(CODEGEN_BASE)/java/134" />
+		<Paste />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JRadioButton" label="Java" />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Accept" />
+
+
+
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="File" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Open" />
+		<SetClipboard text="$(UML_BASE)/MockC#.tcuml" />
+		<Paste />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JButton" />
+		<repeat propertyKey="times" from="1" shortOf="30">
+			<if verifier="Verify" componentFinder="CLASS_IS_ACCESSIBLE"
+				componentClass="JProgressBar" property="PercentComplete"
+				expected="10" comparativeOperator="&lt;"
+				windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog">
+				<Delay ms="1000" />
+			</if>
+		</repeat>
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="Generate" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Generate Code" />
+		<Tree windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_ACCESSIBLE" />
+		<Click mouseButton="BUTTON1"
+			windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_EQUAL_STRICTLY"
+			componentClass="JTextField" />
+		<SetClipboard text="$(CODEGEN_BASE)/c/mock" />
+		<Paste />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JRadioButton" label="C#" />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Accept" />
+
+
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="File" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Open" />
+		<SetClipboard text="$(UML_BASE)/Mdx_Slicer_NET_1.0.tcuml" />
+		<Paste />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JButton" />
+		<repeat propertyKey="times" from="1" shortOf="30">
+			<if verifier="Verify" componentFinder="CLASS_IS_ACCESSIBLE"
+				componentClass="JProgressBar" property="PercentComplete"
+				expected="10" comparativeOperator="&lt;"
+				windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog">
+				<Delay ms="1000" />
+			</if>
+		</repeat>
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="Generate" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Generate Code" />
+		<Tree windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_ACCESSIBLE" />
+		<Click mouseButton="BUTTON1"
+			windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_EQUAL_STRICTLY"
+			componentClass="JTextField" />
+		<SetClipboard text="$(CODEGEN_BASE)/c/131" />
+		<Paste />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JRadioButton" label="C#" />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Accept" />
+
+
+
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="File" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Open" />
+		<SetClipboard text="$(UML_BASE)/WindowSizeManager.tcuml" />
+		<Paste />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JButton" />
+		<repeat propertyKey="times" from="1" shortOf="30">
+			<if verifier="Verify" componentFinder="CLASS_IS_ACCESSIBLE"
+				componentClass="JProgressBar" property="PercentComplete"
+				expected="10" comparativeOperator="&lt;"
+				windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog">
+				<Delay ms="1000" />
+			</if>
+		</repeat>
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu" label="Generate" />
+		<Click windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JFrame" windowTitle="TopCoder UML Tool"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JMenu$1" label="Generate Code" />
+		<Tree windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_ACCESSIBLE" />
+		<Click mouseButton="BUTTON1"
+			windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="CLASS_IS_EQUAL_STRICTLY"
+			componentClass="JTextField" />
+		<SetClipboard text="$(CODEGEN_BASE)/c/134" />
+		<Paste />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JRadioButton" label="C#" />
+		<Click windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowClass="JDialog" windowTitle="Generate code"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Accept" />
+		<Delay ms="1000" />
+	</scenario>
+
+	<!-- script for close the TopCoder UML Tool -->
+	<scenario name="Close">
+		<WindowClosing windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<if verifier="Verify" property="Text" expected="Do you want"
+			comparativeOperator="startsWith" windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="JDialog" componentFinder="COMPONENT_NUMBER" from="LEFT"
+			componentNumber="1" componentClass="JLabel">
+			<Click componentFinder="COMPONENT_NUMBER"
+				componentNumber="1" from="LEFT" componentClass="JButton"
+				windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog" />
+		</if>
+	</scenario>
+</document>

@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=UML Model - Common Behavior
+component.distfilename=uml_model_-_common_behavior
+component.package=com.topcoder.uml.model.commonbehavior
+component.packagedir=com/topcoder/uml/model/commonbehavior
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

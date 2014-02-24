@@ -1,0 +1,139 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033\deflangfe1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\froman\fprq2\fcharset2 Symbol;}{\f3\fmodern\fprq1\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue255;\red51\green153\blue102;\red0\green128\blue0;}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}{\s3 heading 3;}}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx720\ul\b\f0\fs28 UML Model \endash  Core Auxiliary Elements 1.0 Component Specification\par
+\pard\li720\sa120\ulnone\b0\fs20\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 1.\tab Design\par
+\pard\li720\b0\f1 The UML Model - Core Auxiliary Elements component declares the interfaces from the UML 1.5 framework, from the Core - Auxiliary Elements package. It provides concrete implementations for each interface and provides powerful API to access the collection attributes.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.1\tab Design Patterns\par
+\pard\li720\b0\f1\fs24 None\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.2\tab Industry Standards \par
+\pard\li720\b0\f1\fs24 UML 1.5\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.3\tab Required Algorithms\par
+\pard\li720\b0\f1\fs24 There are no complex algorithms in this design. \par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.4\tab Component Class Overview\par
+\pard\li720\f1\fs24 Comment\b0\par
+This interface extends ModelElement interface. The ModelElement interface comes form the Core Requirements component. A comment is an annotation attached to a model element or a set of model elements. It has no semantic force but may contain information useful to the modeler.\par
+\par
+\b CommentImpl\b0\par
+This is a simple concrete implementation of Comment interface and extends ModelElementAbstractImpl from the Core Requirements component. As such, all methods in Comment are supported.\par
+\par
+\b TemplateParameter\b0\par
+Simple, base interface. Defines the relationship between a template (a ModelElement) and its parameter (a ModelElement). A ModelElement with at least one templateParameter association is a template (by definition). In the metamodel, TemplateParameter reifies the relationship between a ModelElement that is a template and a ModelElement that is a dummy placeholder for a template argument.\par
+\par
+\b TemplateParameterImpl\b0\par
+This is a simple, concrete implementation of TemplateParameter interface.\par
+\par
+\b TemplateArgument\b0\par
+Simple, base interface. Reifies the relationship between a Binding and one of its arguments (a ModelElement).\par
+\par
+\b TemplateArgumentImpl\b0\par
+This is a simple, concrete implementation of TemplateArgument interface.\par
+\b\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\f0\fs20 1.5\tab Component Exception Definitions\par
+\pard\li720\b0\f1\fs24 This component defines no custom exceptions.\par
+\par
+The general approach to parameter handling is not to do it. The architectural decision was to allow the beans to hold any state, and delegate to the users of these beans to decide what is legal and when it is legal. The exception here is the collection attributes. They will not allow null elements to be passed.\par
+\pard\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.6\tab Thread Safety\par
+\pard\li720\b0\f1\fs24 This component is not thread-safe, and there is no requirement for it to be thread-safe. In fact, the PM discourages method synchronization. Thread safety will be provided by the application using these implementations.\par
+\par
+The classes are made non-thread-safe by the presence of mutable members and collections. In order to provide thread-safety, if that is ever desired, all simple member accessors and collections would need to be synchronized.\par
+\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0 2.\tab Environment Requirements\tab\tab\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 2.1\tab Environment\par
+\pard\li720\b0\f1\fs24 JDK 1.5\f0\fs20\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 2.2\tab TopCoder Software Components\par
+\pard\fi-360\li1080\sa120\tx1080\b0\f2\'b7\tab\f0 TC UML Core Requirements 1.0\par
+\pard\fi-360\li1800\tx1800\f3\fs24 o\tab\f1 TC UML component defining the Core Requirements.\par
+\pard\fi-360\li1080\sa120\tx1080\f2\fs20\'b7\tab\f0 TC UML Core Dependencies 1.0\par
+\pard\fi-360\li1800\tx1800\f3\fs24 o\tab\f1 TC UML component defining the Core Dependencies.\par
+\pard\li720\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 2.3\tab Third Party Components\tab\par
+\pard\li720\b0\f1\fs24 None\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0 3.\tab Installation and Configuration\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 3.1\tab Package Names\par
+\pard\li720\b0\f1\fs24 com.topcoder.uml.model.core.auxiliaryelements\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 3.2\tab Configuration Parameters\par
+\pard\fi720\sa120\b0 None\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 3.3\tab Dependencies Configuration\par
+\pard\li720\b0\f1\fs24 None\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0 4.\tab Usage Notes\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 4.1\tab Required steps to test the component\par
+\pard\fi-360\li1080\sa120\tx1080\b0\f2\'b7\tab\f0 Extract the component distribution.\par
+\pard\fi-360\li1080\sa120\f2\'b7\tab\f0 Follow {\field{\*\fldinst{HYPERLINK "C:\\\\filez\\\\work\\\\tc\\\\tcs_corp\\\\templates\\\\component\\\\" \\\\\\\\l "_Dependencies_Configuration" }}{\fldrslt{\cf1\ul Dependencies Configuration}}}\cf0\ulnone\f0\fs20 .\par
+\f2\'b7\tab\f0 Execute \lquote ant test\rquote  within the directory that the distribution was extracted to.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 4.2\tab Required steps to use the component\par
+\pard\li720\b0\f1\fs24 None\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 4.3\tab Demo\par
+\pard\li720\b0\f1\fs24 The demo will demonstrate the usage of these beans. It will show them being instantiated, then used via their interface. This will be the typical usage of such simple entities under any scenario. This demo will focus on showing how a simple and collection attribute is managed, with the understanding that all other attributes are managed in exactly the same manner, and therefore not shown here.\par
+\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0\i\f0\fs20 4.3.1\tab Instantiation\par
+\pard\li720\i0\f1\fs24 Create an instance of sample entity: \f3 TemplateParameter\f1 . All other concrete entities are instantiated in this manner and are not shown here.\par
+\cf2\f3\fs18\par
+// Create an instance of sample entity\par
+\cf0 TemplateParameter templateParameter = new TemplateParameterImpl();\par
+\f1\fs24\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0\i\f0\fs20 4.3.2\tab Simple attribute management\par
+\pard\li720\i0\f1\fs24 Manage a simple attribute: \f3 TemplateParameter.parameter\f1 . All other simple attributes are managed in this manner and are not shown here.\par
+\cf2\f3\fs18\par
+\cf3 // Create sample entity with a simple attribute to manage\par
+\cf0 TemplateParameter templateParameter = \cf1 an instance of TemplateParameterImpl\cf0\par
+\par
+\cf3 // Use setter\par
+\cf0 ModelElement parameter = \cf1 some valid value\cf0\par
+templateParameter.setParameter(parameter);\par
+\par
+\cf3 // Use getter\par
+\cf0 ModelElement retrievedParameter = templateParameter.getParameter();\cf1\par
+\par
+\cf0\f1\fs24\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0\i\f0\fs20 4.3.3\tab Collection attribute management\par
+\pard\li720\i0\f1\fs24 Manage a collection attribute: \f3 Comment.annotatedElements\f1 . \par
+\cf2\f3\fs18\par
+\cf3 // Create sample entity with a collection attribute to manage\par
+\cf0 Comment comment = \cf1 an instance of CommentImpl\cf0\par
+\par
+\cf3 // Use single-entity add method\par
+\cf0 ModelElement ann1 = \cf1 some valid annotatedElement\cf0\par
+comment.addAnnotatedElement(ann1);\par
+\cf3 // There is now one annotatedElement in the collection\par
+\cf0\par
+\cf3 // Use multiple-entity add method\par
+\cf0 Collection<ModelElement> col1 = \cf1 collection with 5 valid annotatedElements\cf0\par
+comment.addAnnotatedElements(col1);\par
+\cf3 // There will now be 6 annotatedElements in the collection\par
+\cf0\par
+\cf3 // Use contains method to check for annotatedElement presence\par
+\cf0 boolean present = comment.containsAnnotatedElement(ann1);\par
+\cf3 // This will be true\par
+\cf0\par
+\cf3 // Use count method to get the number of annotatedElements\par
+\cf0 int count = comment.countAnnotatedElements();\par
+\cf3 // The count will be 6\par
+\cf0\par
+\cf3 // Use single-entity remove method\par
+\cf0 boolean removed = comment.removeAnnotatedElement(ann1);\par
+\cf3 // This will be true, and the collection size is 5, regardless \par
+// if ann1 has duplicates in this collection.\cf0\par
+\par
+\cf3 // Use multiple-entity remove method\par
+\cf0 Collection<ModelElement> col2 = \cf1 collection with 3 valid annotatedElements, which is a subset of col1.\cf0\par
+boolean altered = comment.removeAnnotatedElements(col2);\par
+\cf3 // This will be true, and the collection size is 2\par
+\cf0\par
+\cf3 // Use clear method\par
+\cf0 comment.clearAnnotatedElements();\par
+\cf3 // The collection size is 0 and contains no annotatedElement\par
+\cf1\par
+\cf0\par
+\pard\fi720\cf2\par
+\cf0\f1\fs24\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0 5.\tab Future Enhancements\par
+\pard\fi720\b0\f1 Providing a complete model, or moving to UML 2.  \par
+\pard\par
+\par
+\pard\sa120\f0\fs20\par
+\pard\f1\fs24\par
+}
+ 

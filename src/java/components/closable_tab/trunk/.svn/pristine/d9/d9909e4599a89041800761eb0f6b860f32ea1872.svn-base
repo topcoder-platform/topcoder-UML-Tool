@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<CMConfig>
+    <!-- Namespace for ObjectFactory component -->
+
+    <Config name="acc-tests">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>acc-of</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>acc-key</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>acc-id</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/accuracytests/acc1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/accuracytests/acc2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/accuracytests/acc3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/accuracytests/acc4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>3</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>5</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#13579A</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+
+
+    <Config name="acc-of">
+        <Property name="acc-key:acc-id">
+            <Property name="type">
+                <Value>com.topcoder.gui.closabletabbedpane.activetabselector.DirectionalActiveTabSelector</Value>
+            </Property>
+
+            <Property name="params">
+				<Property name="param1">
+					<Property name="type">
+						<Value>boolean</Value>
+					</Property>
+
+					<Property name="value">
+						<Value>true</Value>
+					</Property>
+				</Property>
+            </Property>
+        </Property>
+    </Config>
+
+
+
+</CMConfig>

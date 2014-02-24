@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<CMConfig>
+  <Config name = "com.topcoder.gui.panels.properties">
+    <Property name = "LookAndFeelClass">
+       <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name = "LinkButtonImagePath">
+       <Value>path1</Value>
+    </Property>
+    <Property name = "AddButtonImagePath">
+       <Value>path2</Value>
+    </Property>
+    <Property name = "DeleteButtonImagePath">
+       <Value>path3</Value>
+    </Property>
+
+    <Property name = "Multiplicities">
+	    <Property name = "name1">
+   		    <Property name = "range1">
+   	   		    <Property name = "LowerBound">
+    				<Value>1</Value>
+    			</Property>
+   	   		    <Property name = "UpperBound">
+    				<Value>2</Value>
+    			</Property>
+	    	</Property>
+    	</Property>   	
+    	<Property name = "name2">
+   		    <Property name = "range1">
+   	   		    <Property name = "LowerBound">
+    				<Value>3</Value>
+    			</Property>
+   	   		    <Property name = "UpperBound">
+    				<Value>5</Value>
+    			</Property>
+	    	</Property>
+   		    <Property name = "range2">
+   	   		    <Property name = "LowerBound">
+    				<Value>6</Value>
+    			</Property>
+   	   		    <Property name = "UpperBound">
+    				<Value>7</Value>
+    			</Property>
+	    	</Property>
+    	</Property>
+    </Property>
+
+    <Property name = "StereotypeMapping">
+        <Property name = "Package">
+			<Value>Package</Value>
+        </Property>
+        <Property name = "Interface">
+			<Value>Interface</Value>
+        </Property>
+        <Property name = "Class">
+			<Value>Class</Value>
+        </Property>
+        <Property name = "Enumeration">
+			<Value>Enumeration</Value>
+        </Property>
+        <Property name = "Attribute">
+			<Value>Attribute</Value>
+        </Property>
+        <Property name = "Operation">
+			<Value>Operation</Value>
+        </Property>
+        <Property name = "Parameter">
+			<Value>Parameter</Value>
+        </Property>
+        <Property name = "Dependency">
+			<Value>Dependency</Value>
+        </Property>
+        <Property name = "Generalization">
+			<Value>Generalization</Value>
+        </Property>
+        <Property name = "Abstraction">
+			<Value>Abstraction</Value>
+        </Property>
+        <Property name = "Association">
+			<Value>Association</Value>
+        </Property>
+        <Property name = "AssociationEnd">
+			<Value>AssociationEnd</Value>
+        </Property>
+        <Property name = "Actor">
+			<Value>Actor</Value>
+        </Property>
+        <Property name = "UseCase">
+			<Value>UseCase</Value>
+        </Property>
+        <Property name = "Subsystem">
+			<Value>Subsystem</Value>
+        </Property>
+        <Property name = "Include">
+			<Value>Include</Value>
+        </Property>
+        <Property name = "Extend">
+			<Value>Extend</Value>
+        </Property>
+        <Property name = "SimpleState">
+			<Value>SimpleState</Value>
+        </Property>
+        <Property name = "ObjectFlowState">
+			<Value>ObjectFlowState</Value>
+        </Property>
+        <Property name = "FinalState">
+			<Value>FinalState</Value>
+        </Property>
+        <Property name = "ActionState">
+			<Value>ActionState</Value>
+        </Property>
+        <Property name = "Pseudostate">
+			<Value>Pseudostate</Value>
+        </Property>
+        <Property name = "Transition">
+			<Value>Transition</Value>
+        </Property>
+        <Property name = "Object">
+			<Value>Object</Value>
+        </Property>
+        <Property name = "CreateObjectAction">
+			<Value>CreateObjectAction</Value>
+        </Property>
+        <Property name = "CallOperationAction">
+			<Value>CallOperationAction</Value>
+        </Property>
+        <Property name = "SendSignalAction">
+			<Value>SendSignalAction</Value>
+        </Property>
+        <Property name = "Stimulus">
+			<Value>Stimulus</Value>
+        </Property>
+    </Property>
+  </Config>
+</CMConfig>

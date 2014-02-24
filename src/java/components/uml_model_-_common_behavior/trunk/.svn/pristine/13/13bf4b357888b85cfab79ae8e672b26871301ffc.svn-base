@@ -1,0 +1,7 @@
+Modify the "build.xml" to update the value of "junit", maybe you also need to configure the path for dependencies.
+And the test need 
+uml_model_-_core_extension_mechanisms,
+uml_model_-_core_dependencies,
+uml_model_-_core_relationships
+
+All of them can be found in tcs_catalog.

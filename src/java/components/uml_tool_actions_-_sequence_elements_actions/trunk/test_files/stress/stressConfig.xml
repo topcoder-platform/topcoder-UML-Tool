@@ -1,0 +1,15 @@
+<!--Configuration for logging wrapper-->
+<CMConfig>
+<Config name="com.topcoder.util.log">
+	<Property name="TestProperty">
+		<Value>TestProperty</Value>
+	</Property>
+	<Property name="basic.log.target">
+		<Value>System.out</Value>
+	</Property>
+	<Property name="logClass">
+		<Value>com.topcoder.util.log.basic.BasicLog</Value>
+	</Property>
+</Config>
+
+</CMConfig>

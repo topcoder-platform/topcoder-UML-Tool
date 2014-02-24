@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<CMConfig>
+	<!-- The Log implementation class -->
+	<Property name="logClass">
+		<Value>com.topcoder.util.log.basic.BasicLog</Value>
+	</Property>
+
+	<!-- Specifies where the output should be written to, System.out or System.err -->
+	<Property name="basic.log.target">
+		<Value>System.out</Value>
+	</Property>
+</CMConfig>

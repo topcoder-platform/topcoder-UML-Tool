@@ -1,0 +1,23 @@
+<CMConfig>
+	<Config name="configNamespace">
+		<Property name="objectFactoryNamespace">
+			<Value>com.topcoder.ObjectFactory</Value>
+		</Property>
+		<Property name="componentVisibleMaker">
+			<Value>com.topcoder.swing.print.impl.DefaultComponentVisibleMaker</Value>
+		</Property>
+		<Property name="printFormatRetriever">
+			<Value>com.topcoder.swing.print.impl.DefaultPrintFormatRetriever</Value>
+		</Property>
+		<Property name="hasPrintDialog">
+			<Value>false</Value>
+		</Property>
+	</Config>
+	<Config name="com.topcoder.ObjectFactory">
+        <Property name="ObjectFactory">
+            <Property name="type">
+                <Value>com.topcoder.util.objectfactory.ObjectFactory</Value>
+            </Property>
+        </Property>
+  </Config>
+</CMConfig>

@@ -1,0 +1,186 @@
+> Subject: FW: FW: Contact Manager Message
+> Date: Tue, 23 Oct 2007 22:16:16 -0400
+> From: ivern@topcoder.com
+> To: telly1243105@hotmail.com
+> 
+> I will address the score changes in the morning. This should be enough for you to finish your final fixes.
+> 
+> 1.1.2 - no need for duplication
+> 4.1.2 - no need to be independent, you can point
+> 5.1.1 - I don't think it follows that a higher score is warranted. 
+> 
+> -----Original Message-----
+> From: Codrut-Lucian Lazar [mailto:lcodrutlucian@yahoo.com] 
+> Sent: Tuesday, October 23, 2007 5:07 PM
+> To: Javier Fernandez-Ivern
+> Subject: Re: FW: Contact Manager Message
+> 
+> 1.1.2. This is for you - it is related to topcoder's system - duplicating a SD in the Algorithms section.
+> 
+> 1.1.3. The designer is right. The UML 2.0 beans are just implementation details.
+> 
+> 2.1.4.
+> 1. The designer is right for not using enums.
+> 2. Returning or not the Model doesn't make any difference to me. And those are utility methods.
+> 
+> 4.1.2. This is actually for you. Should the Comp Spec be independent from the requirements document? Meaning that Comp Spec should not point to Requirements document.
+> 
+> 4.1.5. This is like 1.1.3. The designer is right.
+> 
+> 5.1.1. This is for you.
+> 
+> Lucian
+> 
+> Javier Fernandez-Ivern <ivern@topcoder.com> wrote:
+> 
+> Can you look into this and let me know which is correct? 
+> 
+> -----Original Message-----
+> From: telly1243105@hotmail.com [mailto:telly1243105@hotmail.com] 
+> Sent: Monday, October 22, 2007 11:21 PM
+> To: Yanbo Wu; lcodrutlucian@yahoo.com; telly1243105@hotmail.com
+> Cc: Javier Fernandez-Ivern
+> Subject: Contact Manager Message
+> 
+> I am kai zhou,
+> TopCoder Handle: telly12
+> This is the question for project: Design - ZUML 2 TCUML Converter
+> Sequence Diagrams
+> Version: 1.0
+> Question Type: Complaint
+> TEXT: Hi PM,
+> 
+> Some issues should be cleared first before I can do my final fixes. I
+> think many of the required issues are unreasonable so that I can't fix
+> them.
+> 
+> From reviewer Indemar
+> [For algorithm Q.1.1.2]
+> 1. None algortihm are required
+> 2. I show the complex interaction in Sequence Diagrams. (The reviewer
+> said I should write them in algorithm again) 3. The requirements
+> discusses the differences of model classes between ZUML and TCUML, 
+> So I didn't discuss it in CS and just said, see the requirements(I
+> discussed the differences 
+> of diagram which is not discussed by requirements in CS). The
+> reviewer said it's unacceptable.
+> Note: I can just discuss nothing about it because none algorithm are
+> required.
+> 
+> [For Use case Q.1.1.3]
+> 
+> I have define some model beans for the ZUML(UML2.0) and these classes
+> are not expected to be used by application directly.
+> But the reviewer said I should show use cases like "manager model
+> beans", and give me 2, is it reasonable?
+> 
+> 1. managing beans are not present in requirements.
+> 2. Should we always show "Manage xxx beans" in all the component which
+> have beans? It's really absurd.
+> 
+> [For Q.2.1.4 (Easy to use)]
+> 
+> 1. The reviewer said the messageSort property in Message should be enum.
+> 
+> a. It is not a "Easy to use" issue
+> b. I can't convert it to messageSort to enum because the "XMI Reader
+> model plugin 1.0" will use the setter of the 
+> messageSort (setMessageSort) to set the messageSort property to
+> Message instance, and the type of the messageSort 
+> in "XMI Reader model plugin 1.0" is string and can't be converted
+> into enum. 
+> (Note: the model beans are used by another already developed
+> component, we can't modify the code in that component 
+> to archieve the reviewer's purpose).
+> The reviewer just can't understand what I have appealled.
+> 
+> 2. The methods in utility class like 
+> public static void convertXXX(Model model);
+> the model passed may be modified.
+> 
+> And the reviewer said it should be
+> public static Model convertXXX(Model model);
+> // the returned model should be the passed model itself, 
+> // we won't build another model to be returned.
+> 
+> 
+> I think they are both ok, but he give me 3 here.
+> 
+> [Question 4.1.2]
+> The same problem as in Q.1.1.2 algorithm, the reviewer said I can't say
+> "the differences are explained in the requirements", because the
+> developer will not see the requriements specification.....
+> 
+> Response 2: Required Again we have core methods (the static
+> convertXXX() ones) that say stuff like "the differences are explained in
+> the requirements. The user of your API and to some extent the developer
+> won't have access/shouldn't need to go to the RS. Your API shoud be a
+> self contained self explained entity ready to be developed. 
+> Appeal Text: 
+> 2. In guideline, "This documentation is for the component developer, not
+> the component users." So the component developer should difinetely see
+> the requirements, I don't think It have any problems. 
+> Response Text: 
+> 2. I think you are wrong here. The developer should see the component
+> specification not the initial requirements, that's why there is a design
+> contest in the first place. Method references, if needed, should be to a
+> specific section of the algorithms but not to requirements. Again, what
+> is written in the requirements is a "simplified version" of what should
+> be done. The method should be the actual *thing* that has to be done.
+> 
+> 
+> [Question 4.1.5]
+> 1. The reviewer require me to show the usage of the model beans in the
+> demo.
+> As I said in Q.1.1.3, the model beans are just used be XMI Reader Model
+> Plugin 1.o component to represents the ZUML model for Sequence Diagram
+> in UML. And then they are used to be transformed to TCUML Model beans. 
+> The application/user is not expected to use them directly.
+> 
+> [Q 5.1.1]
+> If all above is clear, my submission only have minor problems, I think I
+> can get 4 here.
+> 
+> 
+> 
+> From reviewer Vovka
+> [Q 4.1.2]
+> >Response 1: Required I see a big problem with the approach for
+> documenting the methods. 
+> >The methods of the XMISequenceDiagramConverterUtil class as well as 
+> >implementations of toTCUMLElement() interface method refer to the
+> corresponsing Sequence Diagrams. This is not correct.
+> 
+> >How can it be a problem of my Pos if you wrote in the method doc: See
+> "Convert Collaboration from ZUML to TCUML" for details.
+> 
+> The reviewer see the correct doc, in utility class
+> convertCollaborationInModel method, the corresponding SD is "Convert
+> Collaboration from ZUML to TCUML", there is no problem.
+> 
+> 
+> >According to the scorecard "Algorithms and complex validation should be
+> explained only in the free form text".
+> >All the other algorithms should be provided in the method documentation
+> in the Pos accordingly. SDs are also needed but they do not substitute
+> the method docs. 
+> >the implementation is shown in SDs clearly, why should I duplicate the
+> implemenation note in the doc, I think it's an overkill.
+> >Please understand that purpose of SD is to clarify objects interacting.
+> In no way it can substitue the implementation or algorithm description.
+> 
+> So the reviewer said even I have show the SD clear for the methods,
+> I should also provide the implementation note for each method and can't
+> said, "see XXX SD for details"
+> In that case, I doubt what's the sequence diagram used for? 
+> Note: I have descibed the purpose of the method in doc, and 
+> the implemenation detail in that methods can be cleared explained by the
+> sequence diagram.
+> The implemenation in those methods are just interaction of the objects.
+> 
+> Why should I duplicate them in doc again? 
+> 
+> [Q.5.1.1]
+> The reviewer doesn't give me 4 here just because the "problem" in
+> Q.4.1.2
+> 

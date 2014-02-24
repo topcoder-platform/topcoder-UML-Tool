@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=Diagram Elements
+component.distfilename=diagram_elements
+component.package=com.topcoder.gui.diagramviewer.elements
+component.packagedir=com/topcoder/gui/diagramviewer/elements
+component.version.major=1
+component.version.minor=0
+component.version.micro=3
+component.version.build=1

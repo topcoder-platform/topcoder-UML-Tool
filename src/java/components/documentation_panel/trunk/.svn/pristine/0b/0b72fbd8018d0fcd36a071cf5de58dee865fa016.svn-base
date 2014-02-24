@@ -1,0 +1,214 @@
+<CMConfig>
+    <!-- options of "com.topcoder.uml.model.core.ParameterImpl"
+         should be empty -->
+    <Config name="tagOptions_1">
+        <Property name="TYPES">
+		    <Value>GLOBAL</Value>
+		    <Value>com.topcoder.uml.model.core.OperationImpl</Value>
+		    <Value>com.topcoder.uml.model.core.classifiers.ClassImpl</Value>
+		    <Value>com.topcoder.uml.model.core.ParameterImpl</Value>
+		</Property>
+        
+        <Property name="GLOBAL">
+            <Property name="options">
+                <Value>see</Value>
+                <Value>since</Value>
+                <Value>deprecated</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.uml.model.core.OperationImpl">
+            <Property name="options">
+                <Value>throws</Value>
+                <Value>exception</Value>
+            </Property>
+            
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.uml.model.core.classifiers.ClassImpl">
+            <Property name="options">
+                <Value>author</Value>
+                <Value>version</Value>
+            </Property>
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.uml.model.core.ParameterImpl">
+        	<Value>empty</Value>
+        </Property>
+    </Config>
+    
+    <!-- "com.topcoder.uml.model.core.ParameterImpl" will not be read to
+         TagOptionManager since it does not exist in property "TYPES" -->
+    <Config name="tagOptions_2">
+        <Property name="TYPES">
+		    <Value>GLOBAL</Value>
+		    <Value>com.topcoder.uml.model.core.OperationImpl</Value>
+		    <Value>com.topcoder.uml.model.core.classifiers.ClassImpl</Value>
+		</Property>
+        
+        <Property name="GLOBAL">
+            <Property name="options">
+                <Value>see</Value>
+                <Value>since</Value>
+                <Value>deprecated</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.uml.model.core.OperationImpl">
+            <Property name="options">
+                <Value>throws</Value>
+                <Value>exception</Value>
+            </Property>
+            
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.uml.model.core.classifiers.ClassImpl">
+            <Property name="options">
+                <Value>author</Value>
+                <Value>version</Value>
+            </Property>
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.uml.model.core.ParameterImpl">
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+    </Config>
+    
+    <!-- "com.topcoder.uml.model.core.OperationImpl" has duplicate option
+         "throws", this is allowed, but the returned options should not
+         contain duplicate -->
+    <!-- "com.topcoder.uml.model.core.classifiers.ClassImpl" has duplicate
+         option "since", this is allowed, but the returned options should not
+         contain duplicate -->
+    <Config name="tagOptions_3">
+        <Property name="TYPES">
+		    <Value>GLOBAL</Value>
+		    <Value>com.topcoder.uml.model.core.OperationImpl</Value>
+		    <Value>com.topcoder.uml.model.core.classifiers.ClassImpl</Value>
+		    <Value>com.topcoder.uml.model.core.ParameterImpl</Value>
+		</Property>
+        
+        <Property name="GLOBAL">
+            <Property name="options">
+                <Value>see</Value>
+                <Value>since</Value>
+                <Value>deprecated</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.uml.model.core.OperationImpl">
+            <Property name="options">
+                <Value>throws</Value>
+                <Value>throws</Value>
+                <Value>exception</Value>
+            </Property>
+            
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.uml.model.core.classifiers.ClassImpl">
+            <Property name="options">
+                <Value>author</Value>
+                <Value>version</Value>
+                <Value>since</Value>
+            </Property>
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.uml.model.core.ParameterImpl">
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+    </Config>
+    
+    <!-- GLOBAL links to GLOBAL1
+         "com.topcoder.uml.model.core.OperationImpl" links to GLOBAL and GLOBAL2
+         "com.topcoder.uml.model.core.classifiers.ClassImpl" links to GLOBAL and GLOBAL3
+         "com.topcoder.uml.model.core.ParameterImpl" links to GLOBAL
+          -->
+    <Config name="tagOptions_4">
+        <Property name="TYPES">
+		    <Value>GLOBAL</Value>
+		    <Value>GLOBAL1</Value>
+		    <Value>GLOBAL2</Value>
+		    <Value>GLOBAL3</Value>
+		    <Value>com.topcoder.uml.model.core.OperationImpl</Value>
+		    <Value>com.topcoder.uml.model.core.classifiers.ClassImpl</Value>
+		    <Value>com.topcoder.uml.model.core.ParameterImpl</Value>
+		</Property>
+        
+        <Property name="GLOBAL1">
+            <Property name="options">
+                <Value>see</Value>
+            </Property>
+        </Property>
+        
+        <Property name="GLOBAL2">
+            <Property name="options">
+                <Value>exception</Value>
+            </Property>
+        </Property>
+        
+        <Property name="GLOBAL3">
+            <Property name="options">
+                <Value>version</Value>
+            </Property>
+        </Property>
+        
+        <Property name="GLOBAL">
+            <Property name="options">
+                <Value>since</Value>
+                <Value>deprecated</Value>
+            </Property>
+            <Property name="links">
+                <Value>GLOBAL1</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.uml.model.core.OperationImpl">
+            <Property name="options">
+                <Value>throws</Value>
+            </Property>
+            
+            <Property name="links">
+                <Value>GLOBAL</Value>
+                <Value>GLOBAL2</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.uml.model.core.classifiers.ClassImpl">
+            <Property name="options">
+                <Value>author</Value>
+            </Property>
+            <Property name="links">
+                <Value>GLOBAL</Value>
+                <Value>GLOBAL3</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.uml.model.core.ParameterImpl">
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+    </Config>
+</CMConfig>

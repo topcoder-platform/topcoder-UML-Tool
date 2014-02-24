@@ -1,0 +1,15 @@
+<CMConfig>
+
+    <!-- Configure the Zoom Action -->
+	<Config name="com.topcoder.gui.diagramviewer.ZoomAction">
+		<Property name="name">
+			<Value>zoom2</Value>
+		</Property>
+		<Property name="zoom_tab_action_icon">
+			<Value>accuracyTests/zoomin.icon</Value>
+		</Property>
+		<Property name="increment">
+			<Value>36</Value>
+		</Property>
+	</Config>
+</CMConfig>

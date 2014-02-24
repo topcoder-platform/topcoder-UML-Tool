@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="dist" name="Dependency Import">
+    <!--property file defining the component's dependencies-->
+    <!--Properties used in compile_targets ANT target for JDK version x-->
+    <property name="component.target" value="1.5"/>
+    <property name="component.bootclasspath" value="${java_1_5_bootclasspath}"/>
+    <!--TCS dependencies-->
+    <property name="base_exception.jar" value="${tcs_libdir}/base_exception/2.0.0/base_exception.jar"/>
+    <property name="configuration_manager.jar" value="${tcs_libdir}/configuration_manager/2.1.5/configuration_manager.jar"/>
+    <property name="image_manipulation.jar" value="${tcs_libdir}/image_manipulation/1.0.0/image_manipulation.jar"/>
+    <property name="object_factory.jar" value="${tcs_libdir}/object_factory/2.1.0/object_factory.jar"/>
+    <property name="object_factory_config_manager_plugin.jar" value="${tcs_libdir}/object_factory_config_manager_plugin/1.0.0/object_factory_config_manager_plugin.jar"/>   
+    <!--3rd party dependencies-->
+    <property name="junit.jar" value="${ext_libdir}/junit/3.8.2/junit.jar"/>
+    <property name="jai_codec.jar" value="${ext_libdir}/jai/1.1.3/jai_codec.jar"/>
+    <property name="jai_core.jar" value="${ext_libdir}/jai/1.1.3/jai_core.jar"/>
+    <!--Path declarations which are to be used in the master build file.-->
+    <path id="component.tcs-dependencies">
+        <pathelement location="${base_exception.jar}"/>
+        <pathelement location="${configuration_manager.jar}"/>
+        <pathelement location="${image_manipulation.jar}"/>
+        <pathelement location="${object_factory.jar}"/>
+        <pathelement location="${object_factory_config_manager_plugin.jar}"/>
+    </path>
+    <path id="component.3rdParty-dependencies">
+        <pathelement location="${jai_codec.jar}"/>
+        <pathelement location="${jai_core.jar}"/>
+    </path>
+    <path id="component.test.3rdParty-dependencies">
+        <pathelement location="${junit.jar}"/>
+    </path>
+</project>

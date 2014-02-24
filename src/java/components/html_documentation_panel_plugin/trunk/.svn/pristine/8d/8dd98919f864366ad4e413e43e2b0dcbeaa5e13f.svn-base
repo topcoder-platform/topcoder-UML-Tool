@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<CMConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<property name="XSDPath">
+		<value>test_files/accuracy/xhtml1-strict.xsd</value>
+	</property>
+	<Config name="toolBarConfig">
+		<property name="cutImage">
+			<value>test_files/accuracy/cutimage.jpg</value>
+		</property>
+		<property name="copyImage">
+			<value>test_files/accuracy/copyimage.jpg</value>
+		</property>
+		<property name="pasteImage">
+			<value>test_files/accuracy/pasteimage.jpg</value>
+		</property>
+		<property name="undoImage">
+			<value>test_files/accuracy/undoimage.jpg</value>
+		</property>
+		<property name="redoImage">
+			<value>test_files/accuracy/redoimage.jpg</value>
+		</property>
+		<property name="boldImage">
+			<value>test_files/accuracy/boldimage.jpg</value>
+		</property>
+		<property name="italicImage">
+			<value>test_files/accuracy/italicimage.jpg</value>
+		</property>
+		<property name="underlineImage">
+			<value>test_files/accuracy/underlineimage.jpg</value>
+		</property>
+		<property name="fontSizeConfig">
+			<value>15</value>
+			<value>7</value>
+			<value>-1</value>
+		</property>
+	</Config>
+</CMConfig>

@@ -1,0 +1,97 @@
+<CMConfig>
+  <Config name="com.topcoder.gui.diagramviewer.DiagramViewer">
+    <Property name="max_open_tabs">
+      <Value>10000</Value>
+    </Property>
+    <Property name="tab_title_displayed_in_full_version">
+      <Value>true</Value>
+    </Property>
+    <Property name="tab_shortened_title_max_length">
+      <Value>10</Value>
+    </Property>
+    <Property name="background_grid_visiblity">
+      <Value>true</Value>
+    </Property>
+    <Property name="diagram_view_background_color">
+      <Value>ABCDEF</Value>
+    </Property>
+    <Property name="zoom_rotate_increment">
+      <Value>5</Value>
+    </Property>
+    <Property name="diagram_view_gap">
+      <Value>50</Value>
+    </Property>
+    <Property name="object_factory_namespace">
+      <Value>object_factory</Value>
+    </Property>
+    <Property name="diagram_view_cache">
+      <Value>viewCache</Value>
+    </Property>
+    <Property name="grid_renderer">
+      <Value>gridRenderer</Value>
+    </Property>
+    <Property name="close_tab_action_namespace">
+      <Value>com.topcoder.gui.diagramviewer.CloseTabAction</Value>
+    </Property>
+    <Property name="zoom_in_action_namespace">
+      <Value>zoom_in</Value>
+    </Property>
+    <Property name="zoom_out_action_namespace">
+      <Value>zoom_out</Value>
+    </Property>
+  </Config>
+  <Config name="object_factory">
+    <Property name="viewCache">
+      <Property name="type">
+        <Value>com.topcoder.gui.diagramviewer.MockCache</Value>
+      </Property>
+    </Property>
+    <Property name="gridRenderer">
+      <Property name="type">
+        <Value>com.topcoder.gui.diagramviewer.gridrenderers.SimpleGridRenderer</Value>
+      </Property>
+      <Property name="params">
+        <Property name="param1">
+          <Property name="type">
+            <Value>int</Value>
+          </Property>
+          <Property name="value">
+            <Value>10</Value>
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.diagramviewer.CloseTabAction">
+    <Property name="name">
+      <Value>CloseTab</Value>
+    </Property>
+    <Property name="icon">
+      <Value>com/topcoder/gui/diagramviewer/CloseTab.gif</Value>
+    </Property>
+  </Config>
+  <Config name="zoom_in">
+    <Property name="name">
+      <Value>ZoomIn</Value>
+    </Property>
+    <Property name="icon">
+      <Value>com/topcoder/gui/diagramviewer/ZoomIn.gif</Value>
+    </Property>
+  </Config>
+  <Config name="zoom_out">
+    <Property name="name">
+      <Value>ZoomOut</Value>
+    </Property>
+    <Property name="icon">
+      <Value>com/topcoder/gui/diagramviewer/ZoomOut.gif</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.diagramviewer.ZoomAction">
+    <Property name="name">
+      <Value>ZoomOut</Value>
+    </Property>
+    <Property name="icon">
+      <Value>com/topcoder/gui/diagramviewer/ZoomOut.gif</Value>
+    </Property>
+  </Config>
+</CMConfig>

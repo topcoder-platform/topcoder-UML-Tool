@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<CMConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<property name="vsbPolicy">
+		<value>21</value>
+	</property>
+	<property name="hsbPolicy">
+		<value>31</value>
+	</property>
+	<property name="toolBarClass">
+		<value>com.topcoder.gui.panels.documentation.plugins.html.toolbars.DefaultHTMLDocumentationEditorToolBar</value>
+	</property>
+	<property name="XSDPath">
+		<value>test_files/stresstests_files/xhtml1-strict.xsd</value>
+	</property>
+	<Config name="toolBarConfig">
+		<property name="fontSizeConfig">
+			<value>1</value>
+			<value>50</value>
+			<value>5</value>
+		</property>
+		<property name="cutImage">
+			<value>test_files/stresstests_files/cut.jpg</value>
+		</property>
+        <property name="copyImage">
+			<value>test_files/stresstests_files/copy.jpg</value>
+		</property>
+        <property name="pasteImage">
+			<value>test_files/stresstests_files/paste.jpg</value>
+		</property> 
+		<property name="redoImage">
+			<value>test_files/stresstests_files/redo.jpg</value>
+		</property> 
+		<property name="undoImage">
+			<value>test_files/stresstests_files/undo.jpg</value>
+		</property>
+		<property name="boldImage">
+			<value>test_files/stresstests_files/bold.jpg</value>
+		</property>
+		<property name="italicImage">
+			<value>test_files/stresstests_files/italic.jpg</value>
+		</property>
+		<property name="underlineImage">
+			<value>test_files/stresstests_files/underline.jpg</value>
+		</property>
+		
+		<property name="cutShortKey">
+			<value>X</value>
+		</property>
+		<property name="cutTooltip">
+			<value>cut the text</value>
+		</property>
+		<property name="copyShortKey">
+			<value>C</value>
+		</property>
+		<property name="copyTooltip">
+			<value>copy the text</value>
+		</property>
+		<property name="pasteShortKey">
+			<value>V</value>
+		</property>
+		<property name="pasteTooltip">
+			<value>paste the text</value>
+		</property>
+		<property name="undoShortKey">
+			<value>Z</value>
+		</property>
+		<property name="undoTooltip">
+			<value>undo the edit</value>
+		</property>
+		<property name="redoShortKey">
+			<value>Y</value>
+		</property>
+		<property name="redoTooltip">
+			<value>redo the edit</value>
+		</property>
+		<property name="boldShortKey">
+			<value>B</value>
+		</property>
+		<property name="boldTooltip">
+			<value>bold the text</value>
+		</property>
+		<property name="italicShortKey">
+			<value>I</value>
+		</property>
+		<property name="italicTooltip">
+			<value>italic the text</value>
+		</property>
+		<property name="underlineShortKey">
+			<value>U</value>
+		</property>
+		<property name="underlineTooltip">
+			<value>underline the text</value>
+		</property>
+    </Config>
+</CMConfig>
+

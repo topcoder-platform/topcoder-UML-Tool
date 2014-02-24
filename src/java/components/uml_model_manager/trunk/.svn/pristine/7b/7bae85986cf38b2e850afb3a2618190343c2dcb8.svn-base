@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=UML Model Manager
+component.distfilename=uml_model_manager
+component.package=com.topcoder.uml.modelmanager
+component.packagedir=com/topcoder/uml
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

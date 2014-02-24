@@ -1,0 +1,10 @@
+<CMConfig>
+  <!-- This is well formed configuration: the handlers property is absent-->
+  <Config name="com.topcoder.xmi.reader.XMIReader">
+      
+      <Property name="reuse">
+            <Value>true</Value>
+      </Property>
+      
+   </Config> 
+</CMConfig>

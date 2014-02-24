@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is a normal config for DiagramViewer -->
+
+<CMConfig>
+	<Config name="com.topcoder.gui.diagramviewer.DiagramViewer">
+
+		<Property name="object_factory_namespace">
+			<Value>object_factory</Value>
+		</Property>
+
+		<Property name="grid_size">
+			<Value>10</Value>
+		</Property>
+
+		<Property name="max_open_tabs">
+			<Value>50</Value>
+		</Property>
+
+
+		<Property name="background_grid_visiblity">
+			<Value>true</Value>
+		</Property>
+
+		<Property name="tab_title_displayed_in_full_version">
+			<Value>false</Value>
+		</Property>
+
+		<Property name="tab_shortened_title_max_length">
+			<Value>100</Value>
+		</Property>
+
+		<Property name="diagram_view_background_color">
+			<Value>FFFFFF</Value>
+		</Property>
+
+		<Property name="grid_renderer">
+			<Value>gridRenderer</Value>
+		</Property>
+
+		<Property name="diagram_view_gap">
+			<Value>50</Value>
+		</Property>
+
+		<Property name="diagram_view_cache">
+			<Value>viewCache</Value>
+		</Property>
+
+		<Property name="zoom_rotate_increment">
+			<Value>5</Value>
+		</Property>
+
+		<Property name="zoom_in_action_namespace">
+			<Value>zoom_in</Value>
+		</Property>
+
+		<Property name="zoom_out_action_namespace">
+			<Value>zoom_out</Value>
+		</Property>
+
+		<Property name="close_tab_action_namespace">
+			<Value>close_tab</Value>
+		</Property>
+	</Config>
+
+
+<!-- Configure the Zoom In Button -->
+	<Config name="zoom_in">
+		<Property name="name">
+			<Value>zoom in</Value>
+		</Property>
+
+		<Property name="icon">
+			<Value>accuracyTests/zoomin.png</Value>
+		</Property>
+
+		<Property name="increment">
+			<Value>10</Value>
+		</Property>
+	</Config>
+
+<!-- Configure the Zoom Out Button -->
+	<Config name="zoom_out">
+		<Property name="name">
+			<Value>zoom out</Value>
+		</Property>
+
+		<Property name="icon">
+			<Value>accuracyTests/zoomout.png</Value>
+		</Property>
+		<Property name="increment">
+			<Value>-10</Value>
+		</Property>
+	</Config>
+
+<!-- Configure the Close Tab Button -->
+	<Config name="close_tab">
+    		<Property name="close_tab_action_name">
+        		<Value>close</Value>
+    		</Property>
+    		<Property name="close_tab_action_icon">
+        		<Value>accuracyTests/close.png</Value>
+    		</Property>
+	</Config>
+
+<!-- Configure the ObjectFactory -->
+	<Config name="object_factory">
+		<Property name="viewCache">
+			<Property name="type">
+				<Value>com.topcoder.gui.diagramviewer.accuracytests.MySimpleCache</Value>
+			</Property>
+		</Property>
+
+		<Property name="gridRenderer">
+			<Property name="type">
+				<Value>com.topcoder.gui.diagramviewer.gridrenderers.SimpleGridRenderer</Value>
+			</Property>
+
+		    <Property name="params">
+          <Property name="param1">
+            <Property name="type">
+              <Value>int</Value>
+            </Property>
+            <Property name="value">
+              <Value>10</Value>
+            </Property>
+          </Property>
+        </Property>
+
+		</Property>
+	</Config>
+</CMConfig>

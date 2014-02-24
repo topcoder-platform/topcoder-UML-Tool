@@ -1,0 +1,7 @@
+/* * Copyright (C) 2006 TopCoder Inc., All Rights Reserved. */package com.topcoder.uml.model.core.dependencies.accuracytests;
+import junit.framework.TestCase;import com.topcoder.uml.model.core.dependencies.DependencyImpl;import com.topcoder.uml.model.core.dependencies.Usage;import com.topcoder.uml.model.core.dependencies.UsageImpl;
+
+/**
+ * <p>Unit test for UsageImpl.</p> * * @author singlewood * @version 1.0 */
+public class UsageImplTests extends TestCase {    /**     * Instance of UsageImpl for test.     */    private UsageImpl useage;    /**     * Set up for tests.     *     * @throws Exception throw to JUnit.     */    protected void setUp() throws Exception {        useage = new UsageImpl();    }    /**     * Test constructor.     *     * @throws Exception throw to JUnit.     */    public void testConstructor() throws Exception {        useage = new UsageImpl();        assertNotNull(useage);    }    /**     * Test if the UsageImpl extends DependencyImpl.     *     * @throws Exception throw to JUnit.     */    public void testExtendsDependencyImpl() throws Exception {        assertTrue("UsageImpl didn't extends DependencyImpl", useage instanceof DependencyImpl);    }    /**     * Test if the UsageImpl implement Usage.     *     * @throws Exception throw to JUnit.     */    public void testImplUsage() throws Exception {        assertTrue("UsageImpl didn't implement Usage", useage instanceof Usage);    }
+}

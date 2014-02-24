@@ -1,0 +1,423 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff1\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Palatino};}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f4\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Helvetica;}
+{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f36\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}{\f40\froman\fcharset0\fprq2{\*\panose 02040602050305030304}Book Antiqua;}
+{\f42\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Albany AMT{\*\falt Arial};}{\f44\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Palatino};}{\f45\froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Palatino};}
+{\f47\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Palatino};}{\f48\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Palatino};}{\f49\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Palatino};}
+{\f50\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Palatino};}{\f51\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Palatino};}{\f52\froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Palatino};}
+{\f54\fswiss\fcharset238\fprq2 Arial CE;}{\f55\fswiss\fcharset204\fprq2 Arial Cyr;}{\f57\fswiss\fcharset161\fprq2 Arial Greek;}{\f58\fswiss\fcharset162\fprq2 Arial Tur;}{\f59\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew);}
+{\f60\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic);}{\f61\fswiss\fcharset186\fprq2 Arial Baltic;}{\f62\fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f64\fmodern\fcharset238\fprq1 Courier New CE;}{\f65\fmodern\fcharset204\fprq1 Courier New Cyr;}
+{\f67\fmodern\fcharset161\fprq1 Courier New Greek;}{\f68\fmodern\fcharset162\fprq1 Courier New Tur;}{\f69\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f70\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic);}
+{\f71\fmodern\fcharset186\fprq1 Courier New Baltic;}{\f72\fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\f84\fswiss\fcharset238\fprq2 Helvetica CE;}{\f85\fswiss\fcharset204\fprq2 Helvetica Cyr;}{\f87\fswiss\fcharset161\fprq2 Helvetica Greek;}
+{\f88\fswiss\fcharset162\fprq2 Helvetica Tur;}{\f89\fbidi \fswiss\fcharset177\fprq2 Helvetica (Hebrew);}{\f90\fbidi \fswiss\fcharset178\fprq2 Helvetica (Arabic);}{\f91\fswiss\fcharset186\fprq2 Helvetica Baltic;}
+{\f92\fswiss\fcharset163\fprq2 Helvetica (Vietnamese);}{\f404\fswiss\fcharset238\fprq2 Tahoma CE;}{\f405\fswiss\fcharset204\fprq2 Tahoma Cyr;}{\f407\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f408\fswiss\fcharset162\fprq2 Tahoma Tur;}
+{\f409\fbidi \fswiss\fcharset177\fprq2 Tahoma (Hebrew);}{\f410\fbidi \fswiss\fcharset178\fprq2 Tahoma (Arabic);}{\f411\fswiss\fcharset186\fprq2 Tahoma Baltic;}{\f412\fswiss\fcharset163\fprq2 Tahoma (Vietnamese);}
+{\f413\fswiss\fcharset222\fprq2 Tahoma (Thai);}{\f444\froman\fcharset238\fprq2 Book Antiqua CE;}{\f445\froman\fcharset204\fprq2 Book Antiqua Cyr;}{\f447\froman\fcharset161\fprq2 Book Antiqua Greek;}{\f448\froman\fcharset162\fprq2 Book Antiqua Tur;}
+{\f451\froman\fcharset186\fprq2 Book Antiqua Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red255\green255\blue255;}{\stylesheet{\ql \li0\ri0\sl240\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\s1\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\outlinelevel0\rin0\lin720\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{
+\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 
+heading 2;}{\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon1 \snext0 heading 3;}{\s4\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\outlinelevel3\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 4;}{\s5\ql \li2880\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\outlinelevel4\rin0\lin2880\itap0 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 
+\f1\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 5;}{\s6\ql \li2880\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\outlinelevel5\rin0\lin2880\itap0 \rtlch\fcs1 \ai\af1\afs22\alang1025 \ltrch\fcs0 
+\i\f1\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 6;}{\s7\ql \li2880\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\outlinelevel6\rin0\lin2880\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 7;}{\s8\ql \li2880\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\outlinelevel7\rin0\lin2880\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 8;}{\s9\ql \li2880\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\outlinelevel8\rin0\lin2880\itap0 \rtlch\fcs1 \ab\ai\af1\afs18\alang1025 
+\ltrch\fcs0 \b\i\f1\fs18\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 9;}{\*\cs10 \additive Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{
+\s15\ql \li0\ri0\sb240\sa120\sl240\slmult0\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af42\afs28\alang1025 \ltrch\fcs0 \f42\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext16 Heading;}{
+\s16\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext16 Body Text;}{
+\s17\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon16 \snext17 List;}{
+\s18\ql \li0\ri0\sb120\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs24\alang1025 \ltrch\fcs0 \i\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext18 caption;}{
+\s19\ql \li0\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext19 Index;}{
+\s20\ql \li0\ri0\sb120\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs24\alang1025 \ltrch\fcs0 \i\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext20 WW-caption;}{
+\s21\ql \li0\ri0\sb120\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs24\alang1025 \ltrch\fcs0 \i\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext21 WW-caption1;}{
+\s22\ql \li0\ri0\sb120\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs24\alang1025 \ltrch\fcs0 \i\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext22 WW-caption11;}{
+\s23\ql \li0\ri0\sb120\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs24\alang1025 \ltrch\fcs0 \i\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext23 WW-caption111;}{
+\s24\qj \li720\ri0\sb80\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\cf1\lang3081\langfe1033\cgrid\langnp3081\langfenp1033 \sbasedon0 \snext24 Paragraph2;}{
+\s25\qc \li0\ri0\sl200\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs36\alang1025 \ltrch\fcs0 \b\f1\fs36\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 Title;}{
+\s26\qc \li0\ri0\sa60\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs36\alang1025 \ltrch\fcs0 \i\f1\fs36\lang3081\langfe1033\cgrid\langnp3081\langfenp1033 \sbasedon0 \snext16 Subtitle;}{
+\s27\ql \fi-900\li900\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin900\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext27 Normal Indent;}{
+\s28\ql \li0\ri720\sb240\sa60\sl240\slmult0\nowidctlpar\tqr\tx9360\wrapdefault\aspalpha\faauto\rin720\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 toc 1;}{
+\s29\ql \li432\ri720\sl240\slmult0\nowidctlpar\tqr\tx9360\wrapdefault\aspalpha\faauto\rin720\lin432\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 toc 2;}{
+\s30\ql \li864\ri0\sl240\slmult0\nowidctlpar\tx1440\tqr\tx9360\wrapdefault\aspalpha\faauto\rin0\lin864\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 toc 3;}{
+\s31\ql \li0\ri0\sl240\slmult0\nowidctlpar\tqc\tx4320\tqr\tx8640\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext31 header;}{
+\s32\ql \li0\ri0\sl240\slmult0\nowidctlpar\tqc\tx4320\tqr\tx8640\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext32 footer;}{
+\s33\ql \fi-432\li720\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext33 Bullet1;}{
+\s34\ql \fi-360\li1440\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin1440\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\cf9\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext34 Bullet2;}{
+\s35\ql \li0\ri0\sa120\sl240\slmult0\keep\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext35 Tabletext;}{
+\s36\ql \li0\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af36\afs20\alang1025 \ltrch\fcs0 \f36\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext36 Document Map;}{
+\s37\ql \fi-360\li360\ri0\sb40\sa40\sl240\slmult0\keep\keepn\nowidctlpar\brdrb\brdrs\brdrw5\brdrcf1 \wrapdefault\aspalpha\faauto\rin0\lin360\itap0 \rtlch\fcs1 \af4\afs16\alang1025 \ltrch\fcs0 \f4\fs16\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext37 footnote text;}{\s38\qc \li0\ri0\sb480\sa60\sl200\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs32\alang1025 \ltrch\fcs0 \b\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext38 Main Title;}{\s39\qj \li0\ri0\sb80\sl200\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext39 
+Paragraph1;}{\s40\qj \li1530\ri0\sb80\sl200\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin1530\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext40 Paragraph3;}{
+\s41\qj \li2250\ri0\sb80\sl200\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin2250\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext41 Paragraph4;}{
+\s42\ql \li600\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin600\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 toc 4;}{\s43\ql \li800\ri0\sl240\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin800\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 toc 5;}{\s44\ql \li1000\ri0\sl240\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin1000\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 toc 6;}{\s45\ql \li1200\ri0\sl240\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin1200\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 toc 7;}{\s46\ql \li1400\ri0\sl240\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin1400\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 toc 8;}{\s47\ql \li1600\ri0\sl240\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin1600\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 toc 9;}{\s48\ql \li720\ri0\sl240\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\ul\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext48 Body Text 2;}{\s49\qj \li0\ri0\sb120\sl200\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af40\afs20\alang1025 \ltrch\fcs0 \f40\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext49 Body;}{\s50\qj \li720\ri360\sb120\sl200\slmult0\nowidctlpar
+\tx360\tx720\wrapdefault\aspalpha\faauto\rin360\lin720\itap0 \rtlch\fcs1 \af40\afs20\alang1025 \ltrch\fcs0 \f40\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext50 Bullet;}{\s51\ql \li720\ri0\sa120\sl240\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext16 InfoBlue;}{\s52\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4680\tqr\tx9360\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext52 WW-header;}{\s53\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4680\tqr\tx9360\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext53 WW-footer;}{\s54\ql \li0\ri0\sl240\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext54 Table Contents;}{\s55\qc \li0\ri0\sl240\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon54 \snext55 Table Heading;}{\s56\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4320\tqr\tx8640\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext56 WW-header1;}{\s57\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4320\tqr\tx8640\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext57 WW-footer1;}{\s58\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4320\tqr\tx8640\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext58 WW-header12;}{\s59\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4320\tqr\tx8640\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext59 WW-footer12;}{\s60\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4320\tqr\tx8640\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext60 WW-header123;}{\s61\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4320\tqr\tx8640\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext61 WW-footer123;}{\s62\ql \li0\ri0\sl240\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext62 annotation text;}{\s63\ql \li0\ri0\sl240\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon62 \snext62 annotation subject;}{\s64\ql \li0\ri0\sl240\slmult0
+\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af36\afs16\alang1025 \ltrch\fcs0 \f36\fs16\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext64 Balloon Text;}{\s65\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4680\tqr\tx9360\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext65 WW-header1234;}{\s66\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4680\tqr\tx9360\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext66 WW-footer1234;}{\*\cs67 \additive RTF_Num 2 1;}{\*\cs68 
+\additive RTF_Num 2 2;}{\*\cs69 \additive RTF_Num 2 3;}{\*\cs70 \additive RTF_Num 2 4;}{\*\cs71 \additive RTF_Num 2 5;}{\*\cs72 \additive RTF_Num 2 6;}{\*\cs73 \additive RTF_Num 2 7;}{\*\cs74 \additive RTF_Num 2 8;}{\*\cs75 \additive RTF_Num 2 9;}{\*
+\cs76 \additive \f1 RTF_Num 3 1;}{\*\cs77 \additive \f2 RTF_Num 3 2;}{\*\cs78 \additive \f10 RTF_Num 3 3;}{\*\cs79 \additive \f3 RTF_Num 3 4;}{\*\cs80 \additive \f2 RTF_Num 3 5;}{\*\cs81 \additive \f10 RTF_Num 3 6;}{\*\cs82 \additive \f3 RTF_Num 3 7;}{\*
+\cs83 \additive \f2 RTF_Num 3 8;}{\*\cs84 \additive \f10 RTF_Num 3 9;}{\*\cs85 \additive \f3\lang0\langfe255\langfenp255 RTF_Num 3 16;}{\*\cs86 \additive \f2\lang0\langfe255\langfenp255 RTF_Num 3 26;}{\*\cs87 \additive \f10\lang0\langfe255\langfenp255 
+RTF_Num 3 36;}{\*\cs88 \additive \f3\lang0\langfe255\langfenp255 RTF_Num 3 46;}{\*\cs89 \additive \f2\lang0\langfe255\langfenp255 RTF_Num 3 56;}{\*\cs90 \additive \f10\lang0\langfe255\langfenp255 RTF_Num 3 66;}{\*\cs91 \additive 
+\f3\lang0\langfe255\langfenp255 RTF_Num 3 76;}{\*\cs92 \additive \f2\lang0\langfe255\langfenp255 RTF_Num 3 86;}{\*\cs93 \additive \f10\lang0\langfe255\langfenp255 RTF_Num 3 96;}{\*\cs94 \additive \f3\lang0\langfe255\langfenp255 RTF_Num 3 15;}{\*\cs95 
+\additive \f2\lang0\langfe255\langfenp255 RTF_Num 3 25;}{\*\cs96 \additive \f10\lang0\langfe255\langfenp255 RTF_Num 3 35;}{\*\cs97 \additive \f3\lang0\langfe255\langfenp255 RTF_Num 3 45;}{\*\cs98 \additive \f2\lang0\langfe255\langfenp255 RTF_Num 3 55;}{\*
+\cs99 \additive \f10\lang0\langfe255\langfenp255 RTF_Num 3 65;}{\*\cs100 \additive \f3\lang0\langfe255\langfenp255 RTF_Num 3 75;}{\*\cs101 \additive \f2\lang0\langfe255\langfenp255 RTF_Num 3 85;}{\*\cs102 \additive \f10\lang0\langfe255\langfenp255 
+RTF_Num 3 95;}{\*\cs103 \additive \f3\lang0\langfe255\langfenp255 RTF_Num 3 14;}{\*\cs104 \additive \f2\lang0\langfe255\langfenp255 RTF_Num 3 24;}{\*\cs105 \additive \f10\lang0\langfe255\langfenp255 RTF_Num 3 34;}{\*\cs106 \additive 
+\f3\lang0\langfe255\langfenp255 RTF_Num 3 44;}{\*\cs107 \additive \f2\lang0\langfe255\langfenp255 RTF_Num 3 54;}{\*\cs108 \additive \f10\lang0\langfe255\langfenp255 RTF_Num 3 64;}{\*\cs109 \additive \f3\lang0\langfe255\langfenp255 RTF_Num 3 74;}{\*\cs110 
+\additive \f2\lang0\langfe255\langfenp255 RTF_Num 3 84;}{\*\cs111 \additive \f10\lang0\langfe255\langfenp255 RTF_Num 3 94;}{\*\cs112 \additive \f3 WW-RTF_Num 2 1;}{\*\cs113 \additive \f2 WW-RTF_Num 2 2;}{\*\cs114 \additive \f10 WW-RTF_Num 2 3;}{\*\cs115 
+\additive \f3 WW-RTF_Num 2 4;}{\*\cs116 \additive \f2 WW-RTF_Num 2 5;}{\*\cs117 \additive \f10 WW-RTF_Num 2 6;}{\*\cs118 \additive \f3 WW-RTF_Num 2 7;}{\*\cs119 \additive \f2 WW-RTF_Num 2 8;}{\*\cs120 \additive \f10 WW-RTF_Num 2 9;}{\*\cs121 \additive 
+\f3 WW-RTF_Num 2 11;}{\*\cs122 \additive \f2 WW-RTF_Num 2 21;}{\*\cs123 \additive \f10 WW-RTF_Num 2 31;}{\*\cs124 \additive \f3 WW-RTF_Num 2 41;}{\*\cs125 \additive \f2 WW-RTF_Num 2 51;}{\*\cs126 \additive \f10 WW-RTF_Num 2 61;}{\*\cs127 \additive \f3 
+WW-RTF_Num 2 71;}{\*\cs128 \additive \f2 WW-RTF_Num 2 81;}{\*\cs129 \additive \f10 WW-RTF_Num 2 91;}{\*\cs130 \additive \f3 WW-RTF_Num 2 112;}{\*\cs131 \additive \f2 WW-RTF_Num 2 212;}{\*\cs132 \additive \f10 WW-RTF_Num 2 312;}{\*\cs133 \additive \f3 
+WW-RTF_Num 2 412;}{\*\cs134 \additive \f2 WW-RTF_Num 2 512;}{\*\cs135 \additive \f10 WW-RTF_Num 2 612;}{\*\cs136 \additive \f3 WW-RTF_Num 2 712;}{\*\cs137 \additive \f2 WW-RTF_Num 2 812;}{\*\cs138 \additive \f10 WW-RTF_Num 2 912;}{\*\cs139 \additive 
+WW-RTF_Num 2 1123;}{\*\cs140 \additive WW-RTF_Num 2 2123;}{\*\cs141 \additive WW-RTF_Num 2 3123;}{\*\cs142 \additive WW-RTF_Num 2 4123;}{\*\cs143 \additive WW-RTF_Num 2 5123;}{\*\cs144 \additive WW-RTF_Num 2 6123;}{\*\cs145 \additive WW-RTF_Num 2 7123;}
+{\*\cs146 \additive WW-RTF_Num 2 8123;}{\*\cs147 \additive WW-RTF_Num 2 9123;}{\*\cs148 \additive \f3\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 13;}{\*\cs149 \additive \f2\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 23;}{\*\cs150 \additive 
+\f10\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 33;}{\*\cs151 \additive \f3\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 43;}{\*\cs152 \additive \f2\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 53;}{\*\cs153 \additive 
+\f10\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 63;}{\*\cs154 \additive \f3\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 73;}{\*\cs155 \additive \f2\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 83;}{\*\cs156 \additive 
+\f10\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 93;}{\*\cs157 \additive \f3\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 12;}{\*\cs158 \additive \f2\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 22;}{\*\cs159 \additive 
+\f10\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 32;}{\*\cs160 \additive \f3\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 42;}{\*\cs161 \additive \f2\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 52;}{\*\cs162 \additive 
+\f10\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 62;}{\*\cs163 \additive \f3\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 72;}{\*\cs164 \additive \f2\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 82;}{\*\cs165 \additive 
+\f10\lang0\langfe255\langnp0\langfenp255 RTF_Num 3 92;}{\*\cs166 \additive \f3 RTF_Num 3 11;}{\*\cs167 \additive \f2 RTF_Num 3 21;}{\*\cs168 \additive \f10 RTF_Num 3 31;}{\*\cs169 \additive \f3 RTF_Num 3 41;}{\*\cs170 \additive \f2 RTF_Num 3 51;}{\*
+\cs171 \additive \f10 RTF_Num 3 61;}{\*\cs172 \additive \f3 RTF_Num 3 71;}{\*\cs173 \additive \f2 RTF_Num 3 81;}{\*\cs174 \additive \f10 RTF_Num 3 91;}{\*\cs175 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 11234;}{\*\cs176 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 21234;}{\*\cs177 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 31234;}{\*\cs178 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 41234;}{\*\cs179 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 51234;}{\*\cs180 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 61234;}{\*\cs181 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 71234;}{\*\cs182 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 81234;}{\*\cs183 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 91234;}{\*\cs184 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 111;}{\*\cs185 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 211;}{\*\cs186 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 311;}{\*\cs187 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 411;}{\*\cs188 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 511;}{\*\cs189 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 611;}{\*\cs190 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 711;}{\*\cs191 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 811;}{\*\cs192 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 911;}{\*\cs193 \additive \f3 WW-RTF_Num 2 1121;}{\*\cs194 \additive \f2 WW-RTF_Num 2 2121;}{\*\cs195 \additive \f10 
+WW-RTF_Num 2 3121;}{\*\cs196 \additive \f3 WW-RTF_Num 2 4121;}{\*\cs197 \additive \f2 WW-RTF_Num 2 5121;}{\*\cs198 \additive \f10 WW-RTF_Num 2 6121;}{\*\cs199 \additive \f3 WW-RTF_Num 2 7121;}{\*\cs200 \additive \f2 WW-RTF_Num 2 8121;}{\*\cs201 \additive 
+\f10 WW-RTF_Num 2 9121;}{\*\cs202 \additive WW-RTF_Num 2 11231;}{\*\cs203 \additive WW-RTF_Num 2 21231;}{\*\cs204 \additive WW-RTF_Num 2 31231;}{\*\cs205 \additive WW-RTF_Num 2 41231;}{\*\cs206 \additive WW-RTF_Num 2 51231;}{\*\cs207 \additive 
+WW-RTF_Num 2 61231;}{\*\cs208 \additive WW-RTF_Num 2 71231;}{\*\cs209 \additive WW-RTF_Num 2 81231;}{\*\cs210 \additive WW-RTF_Num 2 91231;}{\*\cs211 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 1;}{\*\cs212 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 2;}{\*\cs213 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 3;}{\*\cs214 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 4;}{\*\cs215 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 5;}{\*\cs216 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 6;}{\*\cs217 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 7;}{\*\cs218 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 8;}{\*\cs219 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 9;}{\*\cs220 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 11;}{\*\cs221 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 21;}{\*\cs222 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 31;}{\*\cs223 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 41;}{\*\cs224 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 51;}{\*\cs225 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 61;}{\*\cs226 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 71;}{\*\cs227 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 81;}{\*\cs228 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 91;}{\*\cs229 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 112;}{\*\cs230 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 212;}{\*\cs231 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 312;}{\*\cs232 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 412;}{\*\cs233 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 512;}{\*\cs234 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 612;}{\*\cs235 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 712;}{\*\cs236 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 812;}{\*\cs237 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 3 912;}{\*\cs238 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 112341;}{\*\cs239 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 212341;}{\*\cs240 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 312341;}{\*\cs241 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 412341;}{\*\cs242 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 512341;}{\*\cs243 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 612341;}{\*\cs244 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 712341;}{\*\cs245 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 812341;}{\*\cs246 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 912341;}{\*\cs247 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 1111;}{\*\cs248 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 2111;}{\*\cs249 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 3111;}{\*\cs250 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 4111;}{\*\cs251 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 5111;}{\*\cs252 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 6111;}{\*\cs253 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 7111;}{\*\cs254 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 8111;}{\*\cs255 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 9111;}{\*\cs256 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 11211;}{\*\cs257 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 21211;}{\*\cs258 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 31211;}{\*\cs259 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 41211;}{\*\cs260 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 51211;}{\*\cs261 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 61211;}{\*\cs262 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 71211;}{\*\cs263 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 81211;}{\*\cs264 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 91211;}{\*\cs265 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 112311;}{\*\cs266 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 212311;}{\*\cs267 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 312311;}{\*\cs268 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 412311;}{\*\cs269 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 512311;}{\*\cs270 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 612311;}{\*\cs271 \additive \f3\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 712311;}{\*\cs272 \additive 
+\f2\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 812311;}{\*\cs273 \additive \f10\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 912311;}{\*\cs274 \additive \lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 1123411;}{\*\cs275 \additive 
+\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 2123411;}{\*\cs276 \additive \lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 3123411;}{\*\cs277 \additive \lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 4123411;}{\*\cs278 \additive 
+\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 5123411;}{\*\cs279 \additive \lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 6123411;}{\*\cs280 \additive \lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 7123411;}{\*\cs281 \additive 
+\lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 8123411;}{\*\cs282 \additive \lang0\langfe255\langnp0\langfenp255 WW-RTF_Num 2 9123411;}{\*\cs283 \additive \f3 RTF_Num 4 1;}{\*\cs284 \additive \f2 RTF_Num 4 2;}{\*\cs285 \additive \f10 RTF_Num 4 3;}{\*
+\cs286 \additive \f3 RTF_Num 4 4;}{\*\cs287 \additive \f2 RTF_Num 4 5;}{\*\cs288 \additive \f10 RTF_Num 4 6;}{\*\cs289 \additive \f3 RTF_Num 4 7;}{\*\cs290 \additive \f2 RTF_Num 4 8;}{\*\cs291 \additive \f10 RTF_Num 4 9;}{\*\cs292 \additive \f3 
+RTF_Num 5 1;}{\*\cs293 \additive \f2 RTF_Num 5 2;}{\*\cs294 \additive \f10 RTF_Num 5 3;}{\*\cs295 \additive \f3 RTF_Num 5 4;}{\*\cs296 \additive \f2 RTF_Num 5 5;}{\*\cs297 \additive \f10 RTF_Num 5 6;}{\*\cs298 \additive \f3 RTF_Num 5 7;}{\*\cs299 
+\additive \f2 RTF_Num 5 8;}{\*\cs300 \additive \f10 RTF_Num 5 9;}{\*\cs301 \additive \f3 RTF_Num 6 1;}{\*\cs302 \additive \f2 RTF_Num 6 2;}{\*\cs303 \additive \f10 RTF_Num 6 3;}{\*\cs304 \additive \f3 RTF_Num 6 4;}{\*\cs305 \additive \f2 RTF_Num 6 5;}{\*
+\cs306 \additive \f10 RTF_Num 6 6;}{\*\cs307 \additive \f3 RTF_Num 6 7;}{\*\cs308 \additive \f2 RTF_Num 6 8;}{\*\cs309 \additive \f10 RTF_Num 6 9;}{\*\cs310 \additive \f3 RTF_Num 7 1;}{\*\cs311 \additive \f2 RTF_Num 7 2;}{\*\cs312 \additive \f10 
+RTF_Num 7 3;}{\*\cs313 \additive \f3 RTF_Num 7 4;}{\*\cs314 \additive \f2 RTF_Num 7 5;}{\*\cs315 \additive \f10 RTF_Num 7 6;}{\*\cs316 \additive \f3 RTF_Num 7 7;}{\*\cs317 \additive \f2 RTF_Num 7 8;}{\*\cs318 \additive \f10 RTF_Num 7 9;}{\*\cs319 
+\additive \f3 RTF_Num 8 1;}{\*\cs320 \additive \f2 RTF_Num 8 2;}{\*\cs321 \additive \f10 RTF_Num 8 3;}{\*\cs322 \additive \f3 RTF_Num 8 4;}{\*\cs323 \additive \f2 RTF_Num 8 5;}{\*\cs324 \additive \f10 RTF_Num 8 6;}{\*\cs325 \additive \f3 RTF_Num 8 7;}{\*
+\cs326 \additive \f2 RTF_Num 8 8;}{\*\cs327 \additive \f10 RTF_Num 8 9;}{\*\cs328 \additive \f1 RTF_Num 9 1;}{\*\cs329 \additive \f2 RTF_Num 9 2;}{\*\cs330 \additive \f10 RTF_Num 9 3;}{\*\cs331 \additive \f3 RTF_Num 9 4;}{\*\cs332 \additive \f2 
+RTF_Num 9 5;}{\*\cs333 \additive \f10 RTF_Num 9 6;}{\*\cs334 \additive \f3 RTF_Num 9 7;}{\*\cs335 \additive \f2 RTF_Num 9 8;}{\*\cs336 \additive \f10 RTF_Num 9 9;}{\*\cs337 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \sbasedon10 page number;}{\*\cs338 
+\additive \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\up6 \sbasedon10 footnote reference;}{\*\cs339 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf2 \sbasedon10 Internet link;}{\*\cs340 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf12 \sbasedon10 
+FollowedHyperlink;}{\*\cs341 \additive \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b \sbasedon10 Strong Emphasis;}{\*\cs342 \additive \ul\cf9\lang0\langfe255\langnp0\langfenp255 WW-Internet link;}{\*\cs343 \additive \ul\cf9\lang0\langfe255\langnp0\langfenp255 
+WW-Internet link1;}{\*\cs344 \additive \ul\cf9\lang0\langfe255\langnp0\langfenp255 WW-Internet link12;}{\*\cs345 \additive \ul\cf9\lang0\langfe255\langnp0\langfenp255 Internet link1;}{\*\cs346 \additive \rtlch\fcs1 \af0\afs16 \ltrch\fcs0 \fs16 
+\sbasedon10 annotation reference;}{\*\cs347 \additive \ul\cf9 WW-Internet link123;}{\*\cs348 \additive \ul\cf9\lang0\langfe255\langfenp255 Internet link2;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\listtable{\list\listtemplateid1{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3 \fi-360\li1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2 \fi-360\li1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10 
+\fi-360\li2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3 \fi-360\li3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2 \fi-360\li3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10 \fi-360\li4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3 \fi-360\li5400\lin5400 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2 \fi-360\li6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10 \fi-360\li6840\lin6840 }{\listname RTF_Num 7;}\listid1}{\list\listtemplateid2{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\u-3913 ?;}{\levelnumbers;}\f3 \fi-360\li1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2 \fi-360\li1800\lin1800 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10 \fi-360\li2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3 \fi-360\li3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2 \fi-360\li3960\lin3960 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10 \fi-360\li4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3 \fi-360\li5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2 
+\fi-360\li6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10 \fi-360\li6840\lin6840 }{\listname RTF_Num 6;}\listid2}{\list\listtemplateid3
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3 \fi-360\li1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2 \fi-360\li1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10 
+\fi-360\li2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3 \fi-360\li3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2 \fi-360\li3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10 \fi-360\li4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3 \fi-360\li5400\lin5400 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2 \fi-360\li6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10 \fi-360\li6840\lin6840 }{\listname RTF_Num 5;}\listid3}{\list\listtemplateid4{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\u-3913 ?;}{\levelnumbers;}\f3 \fi-360\li1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2 \fi-360\li1800\lin1800 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10 \fi-360\li2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3 \fi-360\li3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2 \fi-360\li3960\lin3960 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10 \fi-360\li4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3 \fi-360\li5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2 
+\fi-360\li6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10 \fi-360\li6840\lin6840 }{\listname RTF_Num 4;}\listid4}{\list\listtemplateid5
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'05\'00.\'01.\'02;}{\levelnumbers
+\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 }
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 }{\listname RTF_Num 2;}\listid5}}{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}
+{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}}{\*\rsidtbl \rsid3293638\rsid15280243}{\*\generator Microsoft Word 11.
+0.8134;}{\info{\creatim\yr2007\mo12\dy19\hr19\min1}{\revtim\yr2113\mo1\dy1}{\printim\yr2007\mo12\dy19\hr16\min39}{\version1}{\edmins0}{\nofpages1}{\nofwords1317}{\nofchars7509}{\nofcharsws8809}{\vern24611}{\*\password 00000000}}{\*\xmlnstbl {\xmlns1 http:
+//schemas.microsoft.com/office/word/2003/wordml}}\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
+\facingp\widowctrl\ftnbj\aenddoc\donotembedsysfont0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3
+\jcompress\rsidroot3293638 \fet0{\*\wgrffmtfilter 013f}\ilfomacatclnup0{\*\ftnsep \ltrpar \pard\plain \ltrpar\ql \li0\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 \chftnsep 
+\par }}{\*\ftnsepc \ltrpar \pard\plain \ltrpar\ql \li0\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid15280243 \chftnsepc 
+\par }}{\*\aftnsep \ltrpar \pard\plain \ltrpar\ql \li0\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid15280243 \chftnsep 
+\par }}{\*\aftnsepc \ltrpar \pard\plain \ltrpar\ql \li0\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid15280243 \chftnsepc 
+\par }}\ltrpar \sectd \ltrsect\sbknone\linex0\sectdefaultcl\sftnbj {\headerr \ltrpar \pard\plain \ltrpar\s31\qc \li0\ri0\sl240\slmult0\nowidctlpar\tqc\tx4320\tqr\tx8640\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+\par }}{\footerr \ltrpar \ltrrow\trowd \irow0\irowband0\lastrow \ltrrow\ts11\tsrowd\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind108\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr
+\brdrnone \cltxlrtb\clftsWidth3\clwWidth3048\clshdrawnil \cellx3048\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3156\clshdrawnil \cellx6204\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone 
+\clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3156\clshdrawnil \cellx9360\pard\plain \ltrpar\ql \li0\ri0\sl240\slmult0\nowidctlpar\intbl\wrapdefault\aspalpha\faauto\rin0\lin0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 Confidential\cell }\pard \ltrpar\qc \li0\ri0\sl240\slmult0\nowidctlpar\intbl\wrapdefault\aspalpha\faauto\rin0\lin0 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid15280243  \'d3TopCoder, Inc. 2007\cell }\pard \ltrpar\qr \li0\ri0\nowidctlpar\intbl\wrapdefault\aspalpha\faauto\rin0\lin0 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 Page }{\field{\*\fldinst {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 \\page
+\\* ARABIC}}{\fldrslt {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 5}}}\sectd \linex0\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 \cell }\pard \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 \trowd \irow0\irowband0\lastrow \ltrrow
+\ts11\tsrowd\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind108\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3048\clshdrawnil \cellx3048
+\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3156\clshdrawnil \cellx6204\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth3156\clshdrawnil \cellx9360\row }\pard\plain \ltrpar\s32\ql \li0\ri0\sl240\slmult0\nowidctlpar\tqc\tx4320\tqr\tx8640\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\s1\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\outlinelevel0\rin0\lin720\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+ZUML 2 TCUML Converter - Activity Diagrams 1.1 Requirements Specification
+\par {\*\bkmkstart _Toc456598592}{\*\bkmkend _Toc456598592}{\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard \ltrpar\s1\ql \li720\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\outlinelevel0\rin0\lin720\itap0 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 Scope
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20 \hich\af1\dbch\af0\loch\f1 1.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl1\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 Overview
+
+\par }\pard\plain \ltrpar\ql \li720\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid15280243 The ZUML 2 TCUML Converter - Activity Diagrams component provides means to help convert the zuml format from Poseidon to the tcuml format from TC UML Tool. This component provides the Activity Diagram conversion tasks on a zuml file.
+
+\par 
+\par This component will be used in the TC UML Tool to load a zuml file and transform it into its internal model. The action where this component will be used will be a modified Open file action, which will apply different transformations to the model while re
+ading it, or after the reading process.
+\par 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \cf6\insrsid15280243 
+Version 1.1 provides utility methods to fully convert the model and also the graph node structures. Version 1.0 only provides the UML model elements from UML 2.0 (as Poseidon uses UML 2.0). TC UML Tool uses UML 1.4, 
+and this component must replace the UML 2.0 elements from the model with those from UML 1.4.
+\par 
+\par The Diagram Interchange representation of the activity diagrams is also different between Poseidon 1.5 and TC UML Tool, so this component must also convert the diagram }{\rtlch\fcs1 \af1 \ltrch\fcs0 \cf6\insrsid3293638 interchange}{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \cf6\insrsid15280243  graph node structure. See the red requirements below for more details.
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20 \hich\af1\dbch\af0\loch\f1 1.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl1\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Logic Requirements
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid15280243 \'93zuml\'94 represents the file format used by Poseidon.
+\par \'93tcuml\'94 represents the file format used by TC UML Tool.
+\par This component will provide classes that will help convert a zuml file into the TC UML Tool\rquote s internal model. The user will eventually use the TC UML Tool to save the model into tcuml format.
+\par Since the .tcuml XMI files are the "views" of the internal model, they are described as a way to present the Tool's internal representation.
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20 \hich\af1\dbch\af0\loch\f1 1.2.1\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Description of the UML elements / XMI format of the Activity Diagrams
+\par {\listtext\pard\plain\ltrpar \s4 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20 \hich\af1\dbch\af0\loch\f1 1.2.1.1\tab}}\pard\plain \ltrpar\s4\ql \li720\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl3\outlinelevel3\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+zuml and tcuml representations of Activity Diagrams
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid15280243 Attached to the distribution are two files containing the hierarchy of activity diagram elements in both formats in a simplified version (see 2.1.2 for more details).
+\par {\listtext\pard\plain\ltrpar \s4 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20 \hich\af1\dbch\af0\loch\f1 1.2.1.2\tab}}\pard\plain \ltrpar\s4\ql \li720\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl3\outlinelevel3\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Description of the AD elements in UML 1.4 and tcuml\rquote s XMI format
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid15280243 In tcuml, the ActivityGraph represents the root element for the activity diagram model. It contains a CompositeState (under \'93top\'94
+ property) which is the container for all the nodes (states) that belong to the activity graph. The ActivityGraph also contains a list with the edges (transitions), and the \'93context\'94 element to which the activity graph belongs.
+\par }\pard \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 The list of nodes:
+\par }\pard \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 a) initial node \endash  represented by UML:Pseudostate kind=\'94initial\'94
+\par b) final node \endash  represented by UML:FinalState
+\par c) flow final node \endash  represented by UML:FinalState + TaggedValue
+\par d) fork node \endash  represented by UML:Pseudostate kind=\'94fork\'94
+\par e) join node \endash  represented by UML:Pseudostate kind=\'94join\'94
+\par f) decision node \endash  represented by UML:Pseudostate kind=\'94choice\'94
+\par g) merge node \endash  represented by UML:Pseudostate kind=\'94junction\'94
+\par \page h) object node \endash  represented by UML:ObjectFlowState
+\par i) call action \endash  represented by UML:ActionState
+\par j) send signal action \endash  represented by {\*\bkmkstart DDE_LINK}SimpleState + TaggedValue{\*\bkmkend DDE_LINK}
+\par k) accept event action \endash  represented by SimpleState + TaggedValue
+\par The list of edges is made of UML:Transition elements, which should be contai
+ning a source and a target node. There is a problem here, though: the source and target nodes of a transition are not kept in the model at this moment, but in diagram interchange graph nodes. This should be fixed by TopCoder in the near future, so the des
+igner should consider these as being present.
+\par }\pard \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+A Transition contains a guard of type UML:Guard, which has an expression of BooleanExpression type, and its body is the actual guard text displayed.
+\par {\listtext\pard\plain\ltrpar \s4 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20 \hich\af1\dbch\af0\loch\f1 1.2.1.3\tab}}\pard\plain \ltrpar\s4\ql \li720\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl3\outlinelevel3\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Description of the AD elements in UML 2.0 and zuml\rquote s XMI format
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid15280243 
+In zuml, the Collaboration (or any concrete BehavioredClassifier) has an Activity element (which represents the root element for the activity diagram model), which contains a list with the nodes (states) and a list with the edges (transitions).
+\par }\pard \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 The list of nodes:
+\par }\pard \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 a) initial node \endash  represented by an UML2:InitialNode element
+\par b) final node \endash  represented by an UML2:ActivityFinalNode element
+\par c) flow final node \endash  represented by an UML2:FlowFinalNode element
+\par d) fork node \endash  represented by an UML2:ForkNode element
+\par e) join node \endash  represented by an UML2:JoinNode element
+\par f) decision node \endash  represented by an UML2:DecisionNode element
+\par g) merge node \endash  represented by an UML2:MergeNode element
+\par }\pard \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 h) object node \endash  represented by an UML2:Pin element
+\par }\pard \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 i) call action \endash  represented by an UML2:CallAction element
+\par j) send signal action \endash  represented by an UML2:SendSignalAction element
+\par k) accept event action \endash  represented by an UML2:AcceptEventAction element
+\par The list of edges is made of UML2:ActivityEdge elements, each containing a source and a target node. Also, an ActivityEdge contains a guard of type UML2:OpaqueExpression, and its body is the actual guard text displayed.
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20 \hich\af1\dbch\af0\loch\f1 1.2.2\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Convert the AD elements from zuml\rquote s XMI to UML 1.4 model
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid15280243 This component should be able to convert the
+ activity diagrams represented in zuml format (UML 2.0) to tcuml format (UML 1.4). This may be done either by using plugins for XMI Reader component, or by creating the UML 2.0 classes needed to represent the ADs as read from zuml, and convert them into t
+cuml format after the reading is over.
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20\cf13 \hich\af1\dbch\af0\loch\f1 1.2.3\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf13\insrsid15280243  }{
+\rtlch\fcs1 \af1 \ltrch\fcs0 \cf6\insrsid15280243 Convert the Activity structures into ActivityGraph structures}{\rtlch\fcs1 \af1 \ltrch\fcs0 \cf13\insrsid15280243 
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\cf6\insrsid15280243 Version 1.0 provides the model entities from UML 2.0 (as Poseidon 1.5 uses UML 2.0). Version 1.1 of this component will provide a utility method that
+ will convert the Activity structures from the Model (UML 2.0 format) into the ActivityGraph structures (UML 1.4 format). The utility method will have a Model as an input and will return the ActivityGraphs.
+\par The Activity nodes can be found in any place inside the Model, in the \'93ownedBehaviour\'94
+ property of any concrete BehaviouredClassifier. This component will need to identify them, transform them into ActivityGraphs, remove them from the Model and return the 
+list of ActivityGraphs. These will be stored by the application directly in the UMLModelManager from UML Model Manager component.
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20\cf6 \hich\af1\dbch\af0\loch\f1 1.2.4\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf6\insrsid15280243 
+ Convert the ActivityDiagram graph node structures from Poseidon to TC UML Tool
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\cf6\insrsid15280243 Version 1.1 will provide a utility metho
+d that will convert the GraphNode structure of the ActivityDiagrams from Poseidon's format to TC UML Tool's format. Only the graph nodes equivalent to those supported by TC UML Tool will be considered. The rest should simply be removed.
+\par The GraphNode struc
+ture of the diagrams can be found by saving a project with an activity diagram and by inspecting the XMI content (both in Poseidon and TC UML Tool). There will be Diagram elements for every activity diagram contained in the model. The GraphNodes and Graph
+Edges contained in the Diagram node represent the visual representation of every activity diagram model element, containing at their turn graph nodes for the name, stereotypes, ...
+\par Note that there is a general converter component \'93ZUML to TCUML Converter\'94 that takes care of removing the title graph node of the diagram, which has no correspondent in TC UML Tool. This component should not duplicate that functionality.
+\par {\*\bkmkstart _Toc10301853}{\*\bkmkend _Toc10301853}{\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20 \hich\af1\dbch\af0\loch\f1 1.3\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl1\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Required Algorithms
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\cf1\insrsid15280243 None.
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20 \hich\af1\dbch\af0\loch\f1 1.4\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl1\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Example of the Software Usage
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\cf1\insrsid15280243 The component will be used in the TopCoder UML Tool import .zuml files saved by Poseidon.
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20 \hich\af1\dbch\af0\loch\f1 1.5\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl1\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Future Component Direction
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\cf1\insrsid15280243 None at this moment.
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1 \hich\af1\dbch\af0\loch\f1 2.\tab}}\pard\plain \ltrpar\s1\ql \li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\outlinelevel0\rin0\lin720\itap0 
+\rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 Interface Requirements
+\par {\*\bkmkstart _Toc10301855}{\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20 \hich\af1\dbch\af0\loch\f1 2.1.1\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Graphical User Interface Requirements{\*\bkmkend _Toc10301855}
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\cf1\insrsid15280243 None.
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20 \hich\af1\dbch\af0\loch\f1 2.1.2\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+External Interfaces
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\i\ul\cf1\insrsid15280243 PosActivity.rtf:}{\rtlch\fcs1 \af1 \ltrch\fcs0 \cf1\insrsid15280243  is the file containing }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 the hierarchy of activity diagram elements in zuml format in a simplified version
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\cf1\insrsid15280243 TcActivity.rtf:}{\rtlch\fcs1 \af1 \ltrch\fcs0 \cf1\insrsid15280243  is the file containing }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+the hierarchy of activity diagram elements in tcuml format in a simplified version
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20 \hich\af1\dbch\af0\loch\f1 2.1.3\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Environment Requirements
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ltrpar\ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\ls1\rin0\lin1080\itap0 \rtlch\fcs1 
+\af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 Development language: Java1.5
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Compile target: Java1.5
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20 \hich\af1\dbch\af0\loch\f1 2.1.4\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Package Structure
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\cf1\insrsid15280243 {\*\bkmkstart _Toc10369244}com.topcoder.umltool.xmiconverters.poseidon5
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1 \hich\af1\dbch\af0\loch\f1 3.\tab}}\pard\plain \ltrpar\s1\ql \li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\outlinelevel0\rin0\lin720\itap0 
+\rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 Software Requirements{\*\bkmkend _Toc10369244}
+\par {\*\bkmkstart _Toc10369245}{\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20 \hich\af1\dbch\af0\loch\f1 3.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl1\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Administration Requirements{\*\bkmkend _Toc10369245}
+\par {\*\bkmkstart _Toc10369246}{\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20 \hich\af1\dbch\af0\loch\f1 3.1.1\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+What elements of the application need to be configurable?{\*\bkmkend _Toc10369246}
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\cf1\insrsid15280243 {\*\bkmkstart _Toc10369247}None
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20 \hich\af1\dbch\af0\loch\f1 3.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl1\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Technical Constraints{\*\bkmkend _Toc10369247}
+\par {\*\bkmkstart _Toc10369248}{\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20 \hich\af1\dbch\af0\loch\f1 3.2.1\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Are there particular frameworks or standards that are required?{\*\bkmkend _Toc10369248}
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\cf1\insrsid15280243 {\*\bkmkstart _Toc10369249}XML
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20 \hich\af1\dbch\af0\loch\f1 3.2.2\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+TopCoder Software Component Dependencies:{\*\bkmkend _Toc10369249}
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\cf1 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ltrpar\ql \fi-360\li1080\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\ls4\rin0\lin1080\itap0 \rtlch\fcs1 
+\af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf1\insrsid15280243 XMI Reader 1.0
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\cf1 \loch\af3\dbch\af0\hich\f3 \'b7\tab}XMI Reader UML Model Plugin 1.0
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\cf1 \loch\af3\dbch\af0\hich\f3 \'b7\tab}UML Model components
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\cf1 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Configuration Manager 2.1.5
+\par }\pard \ltrpar\ql \li720\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 **Please review the }{\field{\*\fldinst {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+HYPERLINK "http://www.topcodersoftware.com/pages/c_showroom.jsp" }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b8200000068007400740070003a002f002f007700770077002e0074006f00700063006f0064006500720073006f006600740077006100720065002e0063006f006d002f00700061006700650073002f0063005f007300
+68006f00770072006f006f006d002e006a00730070000000795881f43b1d7f48af2c825dc485276300000000a5ab0000}}}{\fldrslt {\rtlch\fcs1 \af1 \ltrch\fcs0 \cs348\f0\fs24\ul\cf2\insrsid15280243 TopCoder Software component catalog}}}\sectd 
+\sbknone\linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243  for existing components that can be used in the design.
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20 \hich\af1\dbch\af0\loch\f1 3.2.3\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Third Party Component, Library, or Product Dependencies:
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\cf1\insrsid15280243 {\*\bkmkstart _Toc10369250}None.
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20 \hich\af1\dbch\af0\loch\f1 3.2.4\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+QA Environment:{\*\bkmkend _Toc10369250}
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ltrpar\ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\ls3\rin0\lin1080\itap0 \rtlch\fcs1 
+\af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 Solaris 7
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20 \loch\af3\dbch\af0\hich\f3 \'b7\tab}RedHat Linux 7.1
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Windows 2000
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Windows 2003
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20 \hich\af1\dbch\af0\loch\f1 3.3\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl1\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Design Constraints
+\par }\pard\plain \ltrpar\ql \li720\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid15280243 The component design and development solutions must adhere to the guidelines as outlined in the TopCoder Software Component Guidelines.  Modifications to these guidelines for this component should be detailed below.
+\par {\*\bkmkstart _Toc10369268}{\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\f1\fs20 \hich\af1\dbch\af0\loch\f1 3.4\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl1\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Required Documentation{\*\bkmkend _Toc10369268}
+\par {\*\bkmkstart _Toc10369269}{\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20 \hich\af1\dbch\af0\loch\f1 3.4.1\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Design Documentation{\*\bkmkend _Toc10369269}
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ltrpar\ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\ls3\rin0\lin1080\itap0 \rtlch\fcs1 
+\af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 Use-Case Diagram
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Class Diagram
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Sequence Diagram
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Component Specification
+\par {\*\bkmkstart _Toc10369270}{\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\f1\fs20 \hich\af1\dbch\af0\loch\f1 3.4.2\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\wrapdefault\aspalpha\faauto\ls5\ilvl2\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+Help / User Documentation{\*\bkmkend _Toc10369270}
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ltrpar\ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\ls2\rin0\lin1080\itap0 \rtlch\fcs1 
+\af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 Design documents must clearly define intended component usage in the \lquote Documentation\rquote  tab of Poseidon.
+
+\par }\pard \ltrpar\ql \li0\ri0\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15280243 
+\par }}

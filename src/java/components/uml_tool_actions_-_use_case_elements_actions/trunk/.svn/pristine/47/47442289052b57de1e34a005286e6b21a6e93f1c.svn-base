@@ -1,0 +1,377 @@
+{\rtf1\ansi\ansicpg1251\deff0\deflang1049\deflangfe1049{\fonttbl{\f0\fswiss\fprq2\fcharset204{\*\fname Arial;}Arial CYR;}{\f1\froman\fprq2\fcharset204{\*\fname Times New Roman;}Times New Roman CYR;}{\f2\froman\fprq2\fcharset0 Times New Roman;}{\f3\froman\fprq2\fcharset2 Symbol;}{\f4\fmodern\fprq1\fcharset204{\*\fname Courier New;}Courier New CYR;}}
+{\colortbl ;\red0\green0\blue0;\red0\green51\blue102;\red128\green0\blue0;\red0\green0\blue128;\red153\green51\blue0;}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx720\lang1033\ul\b\f0\fs28 UML Tool Actions - Use Case Elements Actions Version 1.0 Component Specification\par
+\pard\li720\sa120\ulnone\b0\fs20\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 1.\tab Design\par
+\pard\b0\f1\par
+\pard\li720\sa120\cf1\f2 The Use Case Elements Actions component provides the Actions related to the model elements specific to a use case diagram. The actions are strategy implementations of the action interfaces in the Action Manager component. The provided actions are for adding / removing / copying / cutting / pasting the elements and relationships. The elements are actor, subsystem and use case. The relationships are extended and include. The other elements and relations that might be added to a use case diagram are declared in the Class Elements Actions component \par
+\par
+\f1 There are two types of actions in the component \endash  \i UndoableAction\i0 (provide ability to run undo and redo)\i  \i0 and \i TransientAction\i0 (provide simple execute method). Only CopyXXXActions are transient. \par
+\pard\sa120\f2\tab\par
+\pard\li720\sa120 Component use logger to notify about problem until running redo() and undo() methods. They should not throw some exception according requirements of this component.\par
+\pard\f0\fs20\par
+\pard\li720\sa120\cf0\f1\fs24\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.1\tab Design Patterns \par
+\pard\li720\b0\f1\fs24 None\par
+\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.2\tab Industry Standards \par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\b0\f1\fs24 UML 1.5\par
+\pard\sa120\f0\fs20\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.3\tab Required Algorithms\par
+\pard\li720\b0\f1\fs24 Component does not provide some special algorithm. Classes\rquote  methods contain a lot of code example. This part of specification contains algorithm for calculating namespace for relationships and explanation about deep copying.\par
+\pard\li720\sb100\sa100\f2 1. All of model elements should have some namespace. Only model as a root element and all elements which are directly in the model has no namespace (Actually their namespace is null). \par
+Relationships do not get namespace as a parameter. They should calculate it. Each of relationship contains references for model elements which contain it. At least it should be two model elements but may be more.\par
+Calculated relationship namespace should contain all model elements which are owners of this relationship. Namespace for classes are actually subsystems.\par
+\pard\fi-360\li1440\sb100\sa100\tx1440\f3\'b7\tab\f2 If at least of model elements belongs directly to the model \endash  relationship namespace belongs to the model(namespace = null)\par
+\pard\fi-360\li1440\sb100\sa100\f3\'b7\tab\f2 If all components belongs to different namespaces which has no own base namespace \endash  relationship belongs to the model (example: subsstem1.subsystem2 and subsystem3.subsystem4)\par
+\f3\'b7\tab\f2 If they all have base namespace \endash  relationship belong to this namespace (example: subsstem1.subsystem2 and subsstem1.subsystem3; result namespace \endash  subsstem1).  \par
+\pard\li720\sb100\sa100 Note: in examples above you should understand that for example subsystem \endash  it just description of namespace. It can not be compared like string. For getting such structure you need use getNamespace() method and compare Namespace instances using equal() method. For each model element it will be list of namespace reference. If list is empty that is mean element is directly in model.\tab\par
+Each model element should have some namespace. Only model, which is base namespace for all other namespaces and elements has namespace == null.\par
+For example let's take Include.\par
+You need get all namespaces of two model elements - base and addition.\par
+Simple example:\par
+List baseList = new ArrayList();\par
+Namespace namespace = include.getBase().getNamespace();\par
+while(namespace != null)\{\par
+   baseList.add(namespace);\par
+   namespace = namespace.getNamespace();\par
+\}\par
+After this procedure parentList will contain a list of namespaces for this model element.\par
+Note that is should contain at least one element - Model , which is base namespace for elements. Only Model.getNamespace() should be null.\par
+The same do for child and get additionList.\par
+Reverse lists.\par
+Namespace resultNamespace = baseList.get(0);\par
+for(int i = 1; i < baseList.size(); i++)\{\par
+     if(additionList.size() <i) break;\par
+     if(baseList.get(i).equals(additionList.get(i))) resultNamespace = baseList.get(i)\par
+     else break;\par
+\}\par
+This code find namespace for Include. Finding namespace for Extend is the same.\par
+2. Component should provide correct copying of elements. There are two different way to copy elements \endash  by creating new object and by copying reference. The simplest way to choose correct way of copying is used relationships between different elements.  Note that if it will be list or collection you should just copy each element of this.\par
+1. Simple attributes and Strings should be copied by values. Example (from ModelElement) \endash  name; \par
+\cf2\i\f4 copyModelElement.setName(originalModelElement.getName());\par
+\cf0\i0\f2 2. Aggregation. It should be used copying only by reference. Example (from ModelElement) \endash  templateArguments; \par
+\cf2\i\f4 for (TemplateArgument temp: originalModelElement.getTemplateArguments())\{\par
+\tab copyModelElement.addTemplateArgument(temp);\par
+ \}\par
+\cf0\i0\f2\par
+3. Bidirectional aggregation.  The same algorithm as for aggregation, but you need also update element which is used in aggregation by adding to it attribute (which is used for aggregation) this instance of ModelElement. Example (from ModelElement) \endash  stereotypes; \par
+\cf2\i\f4 for (Stereotype temp: originalModelElement.getTemplateStereotypes())\{\par
+\tab copyModelElement.addTemplateArgument(temp);\par
+\tab temp.addExtendedElements(copyModelElement);\par
+ \}\par
+\cf0\i0\f2\par
+4. Composition. It should be used creating new object and copying its attributes. (from ModelElement) \endash  taggedValues; Note that it also present aggregation here\par
+\pard\fi720\sb100\sa100\cf2\i\f4 for (TaggedValue temp: originalModelElement.getTaggedValues())\{\par
+\tab TaggedValue newTag = new TaggedValue();\par
+\tab\cf3 // copying attrinbutes from temp to newTag as was described in this rules\par
+\pard\li720\sb100\sa100\cf2\tab copyModelElement.addTemplateArgument(newTag);\par
+\tab newTag.setModelElement(copyModelElement);\par
+ \}\par
+\cf0\i0\f2\par
+Note that when you use deep copying for composition, you should use these four rules. \par
+Using this rules help developer easy and correct copy each concrete element. The list of element which should be copied is described for each element separately. \par
+\par
+\pard\f1\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.4\tab Component Class Overview\par
+\pard\li720\f1\fs24 Class ModelTransfer\par
+\b0 This class is used for transporting model elements through a system clipboard. It contain 5 custom DataFlavor instances \endash  each element has own DataFlavor. Class also implement interface ClipboardOwner for providing ability to be owner for elements in clipboard. It has five public constructors for setting different types of data flavors without using instanceof operator.\par
+\par
+\cf1 Class is thread safety because it is immutable.\par
+\par
+\b Class UsecaseUndoableAction\par
+\b0 This \cf0 abstract \cf1 class extends from \i AbstractUndoableEdit\i0  and implements \i UndoableAction\i0  interface. This class is base for all rest action classes in component. It contains who attributes and their protected getter. Attributes represent all possible instances of ModelElement for this component and their utility classes.  \par
+\par
+Class contains reference to some model element which is mutable and also it extends from mutable super class. That is why it is not thread safety.\par
+\par
+\b Class AddAction\cf0\par
+\b0 This abstract class extends from UsecaseUndoableAction. It implement all logic of add action for all elements in component. It contains three methods \endash  execute(), redo(), undo(). Also this class is responsible for applying initial formatting of elements.\par
+\par
+\pard\fi720\cf1 Class is not thread safety because it extends from mutable class.\par
+\cf0\par
+\pard\li720\cf1\b Class PasteAction\par
+\cf0\b0 This abstract class extends from UsecaseUndoableAction. It implements all logic of paste action for all elements in component. It contains three methods \endash  execute(), redo(), undo().\par
+\par
+\pard\fi720\cf1 Class is not thread safety because it extends from mutable class.\par
+\pard\li720\cf0\par
+\par
+\cf1\b Class CopyAction\cf0\par
+\pard\li720\sa120\b0 This abstract class provides all logic for Copy actions for all elements and contains all attributes which are common for them. It realize TransientAction interface. Provide copying modelElement to clipboard\par
+\pard\li720\par
+\cf1 Class contains reference to some model element which is mutable and that is why it is mutable and is not thread safety too.\par
+\cf0\par
+\cf1\b Class RemoveAction\par
+\cf0\b0 This abstract class extends from UsecaseUndoableAction. It implements all logic of remove action for all elements in component. It contains three methods \endash  execute(), redo(), undo().\par
+\par
+\pard\fi720\cf1 Class is not thread safety because it extends from mutable class.\par
+\pard\li720\par
+\b Class CutAction\par
+\cf0\b0 This abstract class extends from UsecaseUndoableAction. It implements all logic of cut action for all elements in component. It contains three methods \endash  execute(), redo(), undo().\par
+\par
+\pard\fi720\cf1 Class is not thread safety because it extends from mutable class.\par
+\pard\li720\cf0\par
+\cf1\b Class UsecaseToolUtil\par
+\cf0\b0 This abstract class provides similar simple operations which are the same for all actions classes. Its children provides unique logic for each element\par
+\par
+\cf1 Class is thread safety because it is immutable.\par
+\pard\cf0\par
+\pard\li720\b\i Actor Actions\par
+\i0 Class AddActorAction\par
+\cf1\b0 This class extends from AddAction and used for adding Actor instance to model or namespace. Its methods provide only proper configuration and presentation of action. All logic represent into its super class.\cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\par
+\b Class PasteActorAction\par
+\cf1\b0 This class extends from PasteAction and used for adding Actor instance to model or namespace from clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\par
+\b Class CopyActorAction\par
+\cf1\b0 This class extends from CopyAction and used for copying Actor instance to clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\par
+\b Class RemoveActorAction\par
+\cf1\b0 This class extends from RemoveAction and used for removing Actor instance from model or namespace. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\par
+\b Class CutActorAction\par
+\cf1\b0 This class extends from CutAction and used for cutting (copy + remove) Actor instance from model or namespace to clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\par
+\cf0\b Class ActorUtil\par
+\b0 This class extends from UsecaseToolUtil. It overrides some method which is unique for current instance of ModelElement \endash  Actor.  \par
+\par
+\cf1 Class is thread safety because it is immutable.\cf0\par
+\b\par
+\i UseCase Actions\par
+\i0 Class AddUseCaseAction\par
+\cf1\b0 This class extends from AddAction and used for adding UseCase instance to model or namespace. Its methods provide only proper configuration and presentation of action. All logic represent into its super class.\cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class PasteUseCaseAction\par
+\cf1\b0 This class extends from PasteAction and used for adding UseCase instance to model or namespace from clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class CopyUseCaseAction\par
+\cf1\b0 This class extends from CopyAction and used for copying UseCase instance to clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class RemoveUseCaseAction\par
+\cf1\b0 This class extends from RemoveAction and used for removing UseCase instance from model or namespace. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class CutUseCaseAction\par
+\cf1\b0 This class extends from CutAction and used for cutting (copy + remove) UseCase instance from model or namespace to clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\pard\cf0\par
+\pard\li720\b Class UseCaseUtil\par
+\b0 This class extends from UsecaseToolUtil. It overrides some method which is unique for current instance of ModelElement \endash  UseCase.  \par
+\par
+\cf1 Class is thread safety because it is immutable.\cf0\par
+\par
+\par
+\b\i Subsystem Actions\par
+\i0 Class AddSubsystemAction\par
+\cf1\b0 This class extends from AddAction and used for adding Subsystem instance to model or namespace. Its methods provide only proper configuration and presentation of action. All logic represent into its super class.\cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class PasteSubsystemAction\par
+\cf1\b0 This class extends from PasteAction and used for adding Subsystem instance to model or namespace from clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class CopySubsystemAction\par
+\cf1\b0 This class extends from CopyAction and used for copying Subsystem instance to clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class RemoveSubsystemAction\par
+\cf1\b0 This class extends from RemoveAction and used for removing Subsystem instance from model or namespace. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class CutSubsystemAction\par
+\cf1\b0 This class extends from CutAction and used for cutting (copy + remove) Subsystem instance from model or namespace to clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class SubsystemUtil\par
+\b0 This class extends from UsecaseToolUtil. It overrides some method which is unique for current instance of ModelElement \endash  Subsystem.  \par
+\par
+\cf1 Class is thread safety because it is immutable.\cf0\par
+\b\par
+\pard\par
+\pard\li720\i Include Actions\par
+\i0 Class AddIncludeAction\par
+\cf1\b0 This class extends from AddAction and used for adding Include instance to model or namespace. Its methods provide only proper configuration and presentation of action. All logic represent into its super class.\cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class PasteIncludeAction\par
+\cf1\b0 This class extends from PasteAction and used for adding Include instance to model or namespace from clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class CopyIncludeAction\par
+\cf1\b0 This class extends from CopyAction and used for copying Include instance to clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class RemoveIncludeAction\par
+\cf1\b0 This class extends from RemoveAction and used for removing Include instance from model or namespace. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class CutIncludeAction\par
+\cf1\b0 This class extends from CutAction and used for cutting (copy + remove) Include instance from model or namespace to clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\pard\cf0\b\par
+\pard\li720 Class IncludeUtil\par
+\b0 This class extends from UsecaseToolUtil. It overrides some method which is unique for current instance of ModelElement \endash  Include.  \par
+\par
+\cf1 Class is thread safety because it is immutable.\cf0\par
+\b\par
+\i Extend Actions\par
+\i0 Class AddExtendAction\par
+\cf1\b0 This class extends from AddAction and used for adding Extend instance to model or namespace. Its methods provide only proper configuration and presentation of action. All logic represent into its super class.\cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class PasteExtendAction\par
+\cf1\b0 This class extends from PasteAction and used for adding Extend instance to model or namespace from clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class CopyExtendAction\par
+\cf1\b0 This class extends from CopyAction and used for copying Extend instance to clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class RemoveExtendAction\par
+\cf1\b0 This class extends from RemoveAction and used for removing Extend instance from model or namespace. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\cf0\b\par
+Class CutExtendAction\par
+\cf1\b0 This class extends from CutAction and used for cutting (copy + remove) Extend instance from model or namespace to clipboard. Its methods provide only proper configuration and presentation of action. All logic represent into its super class. \cf0\par
+\cf1\par
+Class is not thread safety because it extends from mutable class.\par
+\pard\cf0\b\par
+\pard\li720 Class ExtendUtil\par
+\b0 This class extends from UsecaseToolUtil. It overrides some method which is unique for current instance of ModelElement \endash  Extend.  \par
+\par
+\cf1 Class is thread safety because it is immutable.\cf0\par
+\b\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\f0\fs20 1.5\tab Component Exception Definitions\par
+\pard\li720\b0\f1\fs24\par
+Component may throw IllegalArgumentEception when some method was given null parameter (check documentation of each concrete methods) and ActionExecutionException when appears problem during running execute() method of actions. \par
+Also ModelTransfer may throw own exception see documentation of this class.\par
+\par
+\b Class\b0  \b InvalidDataContentException\par
+\b0 This exception may be thrown in two situations \endash  when data in transferable object is incorrect or when we use incorrect utility class for current element\par
+\par
+\cf1 Class is thread safety because it is immutable.\cf0\par
+\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.6\tab Thread Safety\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\b0 .\f1\fs24 Component is not thread safety because many of its classes are not thread safety. Actually this is not needed because UML Tool provides external thread safety model.  \f0\fs20\par
+\par
+  \par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 2.\tab Environment Requirements\tab\tab\par
+\pard\li720\b0\f1\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 2.1\tab TopCoder Software Components\par
+\pard\li720\sa120\f1\fs24 Action Manager 1.0\par
+\b0 It is the base component for creating actions. It contains interfaces which should be implemented. \par
+\b UML Model Manager 1.0\par
+\b0 This component gives ability to get Model and project language.\par
+\cf1\b\f2 UML Project Configuration 1.0 \par
+\b0 This component provide applying of initial formatting for model elements\par
+\b UML Model - Use Cases 1.0\par
+\b0 This component represents Actor, UseCase, Include and Extend interfaces and also their default implementation\par
+\b UML Model - Model Management 1.0\par
+\b0 This component represents Model and Subsystem interfaces and also their default implementation\par
+\b Base Exception 1.0\par
+\b0 This component is basic of all exceptions in this component.\par
+\b Logging Wrapper 1.2\par
+\b0 This component uses by redo() and undo() methods of actions for logging errors which may occur in execution process. Also it is used by ModelTransfer class.\par
+\b UML Model - Core Relationships 1.0 \par
+\b0 Interface of this component (Relationship) is parent for Include and Extend. It is needed to find all attributes of model elements\par
+\b\f1 UML Model - Core Requirements 1.0\par
+\b0\f2 This component represents Namespace interface and its default implementation. Also this component is needed to find all attributes of model elements\par
+\b C\f1 onfiguration\f2  M\f1 anager\f2  2.1.5\b0\par
+This component uses for configuration of component.\par
+\b Typesafe Enum 1.0\b0\par
+This component uses by Logging Wrapper component.\f1\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\cf0\b\f0\fs20 2.2\tab Third Party Components\par
+\pard\li720\b0\f1\fs24 None\par
+\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0 3.\tab Installation and Configuration\par
+\pard\li720\b0\fs20\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 3.1\tab Package Name\par
+\pard\li720\sa120\cf1\b0\f2\fs24 com.topcoder.uml.actions.model.usecase \par
+\pard\li720\cf0\f0\fs20\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 3.2\tab Configuration Parameters\par
+\pard\li720\sa120\b0\f1\fs24 None\f0\fs20\line\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 3.3\tab Dependencies Configuration\par
+\pard\li720\b0\f1\fs24 Logging Wrapper 1.3 is needed to be configured. For more detail see its component specification\par
+\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0 4.\tab Usage Notes\par
+\pard\b0\f1\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 4.1\tab Required steps to test the component\par
+\pard\nowidctlpar\fi-360\li720\sa120\tx720\b0\f3\'b7\tab\f0 Extract the component distribution.\par
+\pard\nowidctlpar\fi-360\li720\sa120\f3\'b7\tab\f0 Follow Dependencies Configuration.\par
+\f3\'b7\tab\f0 Execute \lquote ant test\rquote  within the directory that the distribution was extracted to.\par
+\pard\li720\f1\fs24\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 4.2\tab Required steps to use the component\par
+\pard\li720\sa120\b0\f1\fs24 None\par
+\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 4.3\tab Demo\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\b0\f1\fs24 This demo will be provided just for Actor actions. Working with all other model elements are practically the same. This component can not have own scenario of running it used by the other component which define its behavior. It just simple example when user at first add component actor, then press undo, then press redo, then copy it and paste into new namespace. Now it has two actors \endash  he delete actor from namespace and then cut and paste into namespace actor from model (actually default namespace). The next code shows how to realize such user actions: \par
+\pard\li720\sa120\cf3\f4 /*Actor and Namespace instances will be received from graphical part of UML Tool. For this demo image that we already have Actors instance \endash  actor, and one Namespace \endash  namespace; also we have default UMLModelManager - manager */\par
+\pard\fi720\sa120 // let\rquote s create first add action without namespace\par
+\cf4 AddActorAction addActor = new AddActorAction(actor, manager);\par
+\cf3 //Note that it was just creation and actor don\rquote t added to model\par
+\cf4 addActor.execute();\par
+\cf3 //After execution actor was add to model\par
+//Now we can use undo and redo actions\par
+\cf4 addActor.undo();\par
+\cf3 //As a result actor was deleted from model\par
+\cf4 addActor.redo();\par
+\cf3 //As a result actor was added to model again\par
+\pard\li720\sa120 /*Now let copy actor to namespace, for this target we should create copy action and execute it. */\par
+\cf4 CopyActorAction copyActor = new CopyActorAction(actor);\par
+copyActor.execute();\par
+\cf3 /*Now actor is in clipboard and we need to paste it in needed namespace. Paste action has such requirement that it can\rquote t get actor from clipboard directly. It just get Transferable instance and only than put actor to model (it wait for some action from graphical part). For now image that user click paste and we get transferable from clipboard Component may define which paste action should be created by using methods of transferable*/\par
+\cf4 Transferable trans = clipboard.getContents(null);\par
+if(trans.isDataFlavorSupported(ModelTransfer.ACTOR_FLAVOR)) \{\par
+\pard\fi720\sa120 PasteActorAction pasteActor = new PasteActorAction(transferable, namespace);\par
+pasteActor.execute();\}\par
+\pard\li720\sa120 else\{\par
+\pard\fi720\li720\sa120\cf5 //Provide some exception logic\cf4\line\}\par
+\pard\li720\sa120\cf3\par
+/*for now we actually create second actor let it be \endash  actor1. Component may just receive it for making some action. It doesn\rquote t have reference to it\par
+Then let provide deleting cutting and pasting actor as was mentioned in scenario. Note now we have two actors*/\par
+\pard\fi720\sa120\cf4 RemoveActorAction removeActor = new RemoveActorAction(actor1);\par
+removeActor.execute();\par
+\cf3 //we just deletes actor1.\par
+\cf4 CutActorAction cutActor = new CutActorAction(actor);\par
+cutActor.execute();\par
+pasteActor = new PasteActorAction(transferable,namespace);\par
+pasteActor.execute();\par
+\cf5 // After this operation we has only actor and it is in given namespace\par
+\cf3\f1\par
+\pard\sa120\cf0\f0\fs20\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 5.\tab Future Enhancements\par
+\pard\keepn\nowidctlpar\s1\li720\sb120\sa60\sl240\slmult0\b0\f1 None \par
+}
+ 

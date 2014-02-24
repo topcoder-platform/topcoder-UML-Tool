@@ -1,0 +1,16 @@
+<CMConfig>
+  <!-- This is invalid configuration:The type is not XMIHandler-->
+  <Config name="com.topcoder.xmi.reader.XMIReader">
+      
+      <Property name="reuse">
+            <Value>true</Value>
+      </Property>
+
+      <Property name="handlers">
+              <Property name="UML:Class">
+                     <Value>java.lang.String</Value>
+              </Property>
+      </Property>
+      
+   </Config> 
+</CMConfig>

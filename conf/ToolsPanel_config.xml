@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<CMConfig>
+  <Config name="com.topcoder.gui.toolbars.elements.text">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Text</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create a new text element</Value>
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/Text.png</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.toolbars.elements.shapes">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Shapes</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create a new shape</Value>
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/Rectangle.png</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.toolbars.elements.comments">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Comments</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create a new Comment</Value>
+      <Value>Connect comment to model element</Value>
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/Comment.png</Value>
+      <Value>resources/images/toolsPanelIcons/CommentConnectedToModule.png</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.toolbars.elements.class.elements">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Elements</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+  <!--   <Value>Create a new Actor</Value>  --> 
+      <Value>Create a new Interface</Value>
+      <Value>Create a new Class</Value>
+      <Value>Create a new Exception</Value>
+      <Value>Create a new Enum</Value>
+      <Value>Create a new Package</Value>
+    </Property>
+    <Property name="imageLocations">
+  <!--      <Value>resources/images/toolsPanelIcons/class/Actor.png</Value>-->
+      <Value>resources/images/toolsPanelIcons/class/Interface.png</Value>
+      <Value>resources/images/toolsPanelIcons/class/Class.png</Value>
+      <Value>resources/images/toolsPanelIcons/class/Exception.png</Value>
+      <Value>resources/images/toolsPanelIcons/class/Enum.png</Value>
+      <Value>resources/images/toolsPanelIcons/class/Package.png</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.toolbars.elements.class.connectors1">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Connectors</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create a Generalizaton</Value>
+      <Value>Create a Dependency</Value>
+      <Value>Create a Realization</Value>
+      <Value>Create an Association</Value>
+      <Value>Create a Directed Association</Value>
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/class/Generalization.png</Value>
+      <Value>resources/images/toolsPanelIcons/class/Dependency.png</Value>
+      <Value>resources/images/toolsPanelIcons/class/Realization.png</Value>
+      <Value>resources/images/toolsPanelIcons/class/Association.png</Value>
+      <Value>resources/images/toolsPanelIcons/class/DirectedAssociation.png</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.toolbars.elements.class.connectors2">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Connectors</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">      
+      <Value>Create an Aggregation</Value>
+      <Value>Create a Directed Aggregation</Value>
+      <Value>Create a Composition</Value>
+      <Value>Create a Directed Composition</Value>
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/class/Aggregation.png</Value>
+      <Value>resources/images/toolsPanelIcons/class/DirectedAggregation.png</Value>
+      <Value>resources/images/toolsPanelIcons/class/Composition.png</Value>
+      <Value>resources/images/toolsPanelIcons/class/DirectedComposition.png</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.toolbars.elements.usecase.elements">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Elements</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create a new Package</Value>
+      <Value>Create a new Subsystem</Value>
+      <Value>Create a new Actor</Value>
+      <Value>Create a new Usecase</Value>
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/usecase/Package.png</Value>
+      <Value>resources/images/toolsPanelIcons/usecase/System.png</Value>
+      <Value>resources/images/toolsPanelIcons/usecase/Actor.png</Value>
+      <Value>resources/images/toolsPanelIcons/usecase/Usecase.png</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.toolbars.elements.usecase.connectors1">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Connectors</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create a Generalizaton</Value>
+      <Value>Create a Dependency</Value>
+      <Value>Create a Directed Association</Value>
+      <Value>Create an Association</Value>
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/usecase/Generalization.png</Value>
+      <Value>resources/images/toolsPanelIcons/usecase/Dependency.png</Value>
+      <Value>resources/images/toolsPanelIcons/usecase/DirectedAssociation.png</Value>
+      <Value>resources/images/toolsPanelIcons/usecase/Association.png</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.toolbars.elements.usecase.connectors2">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Connectors</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create an Include</Value>
+      <Value>Create an Extend</Value>
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/usecase/Include.png</Value>
+      <Value>resources/images/toolsPanelIcons/usecase/Extend.png</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.toolbars.elements.sequence.elements">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Elements</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create a new Lifeline</Value>
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/sequence/Lifeline.png</Value>
+    </Property>
+  </Config>
+  <!--
+  <Config name="com.topcoder.gui.toolbars.elements.sequence.fragments">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>fragments</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create a new Fragment loop</Value>
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/sequence/Loop.png</Value>
+    </Property>
+  </Config>
+  -->
+  <Config name="com.topcoder.gui.toolbars.elements.sequence.connectors">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Connectors</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create a Synchronous Message</Value>
+      <Value>Create an Asynchronous Message</Value>
+      <Value>Create a Create Message</Value>
+      <Value>Create a Send Signal Message</Value>
+      <Value>Create a Return Message</Value>
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/sequence/SynchronousMessage.png</Value>
+      <Value>resources/images/toolsPanelIcons/sequence/AsynchronousMessage.png</Value>
+      <Value>resources/images/toolsPanelIcons/sequence/CreateMessage.png</Value>
+      <Value>resources/images/toolsPanelIcons/sequence/SendSignalMessage.png</Value>
+      <Value>resources/images/toolsPanelIcons/sequence/ReturnMessage.png</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.toolbars.elements.activity.elements">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Elements</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create a new Call Action</Value>
+      <Value>Create a new Send Signal Action</Value>
+      <Value>Create a new Accept Event Action</Value>
+      <Value>Create a new Object Flow Node</Value>
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/activity/CallAction.png</Value>
+      <Value>resources/images/toolsPanelIcons/activity/SendSignalAction.png</Value>
+      <Value>resources/images/toolsPanelIcons/activity/AcceptEventAction.png</Value>
+      <Value>resources/images/toolsPanelIcons/activity/ObjectNode.png</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.toolbars.elements.activity.connectors">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Connectors</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create a Transition</Value>
+      <!--
+      <Value>Create an Exception Handler</Value>
+      -->
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/activity/ActivityEdge.png</Value>
+      <!--
+      <Value>resources/images/toolsPanelIcons/activity/ExceptionHandler.png</Value>
+      -->
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.toolbars.elements.activity.nodes1">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Nodes</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create a new Fork Node</Value>
+      <Value>Create a new Join Node</Value>
+      <Value>Create a new Decision Node</Value>
+      <Value>Create a new Merge Node</Value>      
+      <Value>Create a new Initial Node</Value>
+      <!--
+      <Value>Create a new Activity Parameter Node</Value>
+      -->
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/activity/ForkNode.png</Value>
+      <Value>resources/images/toolsPanelIcons/activity/JoinNode.png</Value>
+      <Value>resources/images/toolsPanelIcons/activity/DecisionNode.png</Value>
+      <Value>resources/images/toolsPanelIcons/activity/MergeNode.png</Value>      
+      <Value>resources/images/toolsPanelIcons/activity/InitialNode.png</Value>
+      <!--
+      <Value>resources/images/toolsPanelIcons/activity/ActivityParameterNode.png</Value>
+      -->
+    </Property>
+  </Config>
+  <Config name="com.topcoder.gui.toolbars.elements.activity.nodes2">
+    <Property name="look">
+      <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+    <Property name="sectionText">
+      <Value>Nodes</Value>
+    </Property>
+    <Property name="backgroundColor">
+      <Value>LIGHT_GRAY</Value>
+    </Property>
+    <Property name="buttonsName">
+      <Value>Create a new Activity Final Node</Value>
+      <Value>Create a new Flow Final Node</Value>
+      <!--
+      <Value>Create a new Activity Parameter Node</Value>
+      -->
+    </Property>
+    <Property name="imageLocations">
+      <Value>resources/images/toolsPanelIcons/activity/ActivityFinalNode.png</Value>
+      <Value>resources/images/toolsPanelIcons/activity/FlowFinalNode.png</Value>
+      <!--
+      <Value>resources/images/toolsPanelIcons/activity/ActivityParameterNode.png</Value>
+      -->
+    </Property>
+  </Config>
+</CMConfig>

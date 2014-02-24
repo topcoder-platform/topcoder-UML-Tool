@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<CMConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<property name="exist_field">
+		<value>717</value>
+	</property>
+	<property name="not_a_number_field">
+		<value>not_an_integer</value>
+	</property>
+	<property name="test_child">
+		<property name="test_field">
+		    <value>test_value</value>
+		</property>
+	</property>
+</CMConfig>

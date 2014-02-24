@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<CMConfig>
+    <!-- Namespace for ObjectFactory component -->
+    <Config name="ofNamespace">
+        <Property name="selector:default">
+            <Property name="type">
+                <Value>com.topcoder.gui.closabletabbedpane.activetabselector.WrongDirectionalActiveTabSelector</Value>
+            </Property>
+            <Property name="params">
+		<Property name="param1">
+			<Property name="type">
+				<Value>boolean</Value>
+			</Property>
+			<Property name="value">
+				<Value>true</Value>
+			</Property>
+		</Property>        
+            </Property>
+        </Property>
+    </Config>
+
+    <!-- Namespace for main class -->
+    <Config name="myNamespace">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+
+</CMConfig>

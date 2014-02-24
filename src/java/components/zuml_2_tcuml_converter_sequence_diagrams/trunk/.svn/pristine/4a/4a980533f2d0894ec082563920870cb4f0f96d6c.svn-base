@@ -1,0 +1,68 @@
+UML:Collaboration
+	UML2:BehavioredClassifier.ownedBehavior
+		UML2:Interaction
+		    UML:Namespace.ownedElement
+                UML:Comment name = '' body = 'Comment For Application Lifeline'
+                    UML:Comment.annotatedElement
+                        UML2:Lifeline
+                UML:Comment name = '' body = 'Comment without connector'
+              
+			UML2:Interaction.fragment
+				UML2:EventOccurrence
+					UML2:InteractionFragment.covered
+						UML2:Lifeline xmi.idref
+					UML2:MessageEnd.sendMessage
+						UML2:Message xmi.idref
+				UML2:EventOccurrence
+					UML2:InteractionFragment.covered
+						UML2:Lifeline
+					UML2:MessageEnd.receiveMessage
+						UML2:Message xmi.idref
+					UML2:EventOccurrence.startExec
+						UML2:ExecutionOccurrence xmi.idref
+				UML2:ExecutionOccurrence
+					UML2:InteractionFragment.covered
+						UML2:Lifeline xmi.idref
+					UML2:ExecutionOccurrence.start
+						UML2:EventOccurrence xmi.idref
+					UML2:ExecutionOccurrence.finish
+						UML2:EventOccurrence xmi.idref
+			UML2:Interaction.message
+				UML2:Message
+					UML2:Message.receiveEvent
+						UML2:EventOccurrence xmi.idref
+					UML2:Message.sendEvent
+						UML2:EventOccurrence xmi.idref
+				...
+			UML2:Interaction.lifeline
+				UML2:Lifeline
+					UML2:Lifeline.coveredBy
+						UML2:EventOccurrence xmi.idref
+						OR
+						UML2:ExecutionOccurrence xmi.idref
+						...
+
+
+Graph nodes:
+
+Sequence Diagram:
+
+UML:Diagram
+	UML:GraphElement.contained
+		...
+	UML:Diagram.owner
+		UML:Uml1SemanticModelBridge
+			UML:Uml1SemanticModelBridge.element
+				UML2:Interaction xmi.idref
+
+Lifeline:
+UML2:Lifeline
+	UML:SimpleSemanticModelElement="HeaderCompartment"
+		UML:SimpleSemanticModelElement="NameCompartment"
+			UML:SimpleSemanticModelElement="NameAndType"
+				UML:SimpleSemanticModelElement="Name"
+				UML:SimpleSemanticModelElement="TypeSeparator"
+				a) UML:SimpleSemanticModelElement="NullType"
+				or
+				b) UML:Class (or UML:Interface, or some other concrete Classifier)
+					UML:SimpleSemanticModelElement="Name"

@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=ZUML 2 TCUML Converter
+component.distfilename=zuml_2_tcuml_converter
+component.package=com.topcoder.umltool.xmiconverters.poseidon5
+component.packagedir=com/topcoder/umltool/xmiconverters/poseidon5
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

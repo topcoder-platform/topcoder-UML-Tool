@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<CMConfig>
+    <!-- Namespace for ObjectFactory component -->
+    <Config name="ofNamespace">
+        <Property name="selector:default">
+            <Property name="type">
+                <Value>com.topcoder.gui.closabletabbedpane.activetabselector.DirectionalActiveTabSelector</Value>
+            </Property>
+            <Property name="params">
+		<Property name="param1">
+			<Property name="type">
+				<Value>boolean</Value>
+			</Property>
+			<Property name="value">
+				<Value>true</Value>
+			</Property>
+		</Property>        
+            </Property>
+        </Property>
+    </Config>
+
+    <!-- Namespace for main class -->
+    <Config name="myNamespace">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+    </Config>
+
+</CMConfig>

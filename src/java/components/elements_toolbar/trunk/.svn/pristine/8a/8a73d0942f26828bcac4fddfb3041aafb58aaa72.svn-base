@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMConfig>
+	<Config name="com.topcoder.gui.toolbars.elements">
+		<Property name="look">
+			<Value>java.lang.String</Value>
+		</Property>
+		<Property name="sectionText">
+			<Value>connectors</Value>
+		</Property>
+		<Property name="backgroundColor">
+			<Value>YELLOW</Value>
+		</Property>
+		<Property name="buttonsName">
+			<Value>up</Value>
+			<Value>down</Value>
+		</Property>
+		<Property name="imageLocations">
+			<Value>test_files/icon/Telescope.gif</Value>
+			<Value>test_files/icon/lunettesBlack.gif</Value>
+		</Property>
+	</Config>
+</CMConfig>

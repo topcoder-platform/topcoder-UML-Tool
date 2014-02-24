@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<CMConfig>
+    <Config name="SomeClass">
+        <Property name="name">
+            <Value>New name</Value>
+        </Property>
+        <Property name="size">
+            <Value>value1</Value>
+        </Property>
+        <Property name="testCheckBox">
+            <Value>true</Value>
+        </Property>
+        <Property name="testRadioBattons">
+            <Value>value0</Value>
+        </Property>
+    </Config>
+</CMConfig>

@@ -1,0 +1,51 @@
+<Config name="accuracyConfigurationManagerEditorPanel">
+
+	<!-- Define the namespace used to load the old values of properties and to save the properties -->
+	<Property name="propertiesNamespace">
+		<Value>SomeClass</Value>
+	</Property>
+
+	<!-- Define the properties definitions -->
+	<Property name="propertyDefinitions">
+
+		<!-- Defines a text field -->
+		<Property name="name">
+			<Value>Name :</Value>
+			<Value>FREE_TEXT</Value>
+
+		</Property>
+
+		<!-- Defines a combobox with multiple values -->
+		<Property name="size">
+			<Value>Size :</Value>
+			<Value>DROP_DOWN</Value>
+			<Value>value0</Value>
+			<Value>value1</Value>
+			<Value>value2</Value>
+		</Property>
+	</Property>
+
+	<Property name="rowsSpacing">
+		<Value>10</Value>
+	</Property>
+
+	<Property name="columnsSpacing">
+		<Value>20</Value>
+	</Property>
+
+	<Property name="fontName">
+		<Value>Times New Roman</Value>
+	</Property>
+
+	<Property name="fontStyle">
+		<Value>0</Value><!-- Plain style -->
+	</Property>
+
+	<Property name="fontSize">
+		<Value>10</Value>
+	</Property>
+
+	<Property name="fontColor">
+		<Value>black</Value>
+	</Property>
+</Config>

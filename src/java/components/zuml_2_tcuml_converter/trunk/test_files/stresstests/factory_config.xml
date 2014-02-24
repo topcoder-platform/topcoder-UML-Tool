@@ -1,0 +1,22 @@
+<CMConfig>
+	<Config name="com.topcoder.xmi.reader.handlers.modelfactory.ModelElementFactory">
+		<Property name="xml_to_element_mapping">
+			<Value>UML:Property,com.topcoder.diagraminterchange.Property</Value>
+			<Value>UML:Reference,com.topcoder.diagraminterchange.Reference</Value>
+			<Value>UML:DiagramLink,com.topcoder.diagraminterchange.DiagramLink</Value>
+			<Value>UML:GraphConnector,com.topcoder.diagraminterchange.GraphConnector</Value>
+			<Value>UML:GraphEdge,com.topcoder.diagraminterchange.GraphEdge</Value>
+			<Value>UML:Point,com.topcoder.diagraminterchange.Point</Value>
+			<Value>UML:BezierPoint,com.topcoder.diagraminterchange.BezierPoint</Value>
+			<Value>UML:Dimension,com.topcoder.diagraminterchange.Dimension</Value>
+			<Value>UML:Polyline,com.topcoder.diagraminterchange.Polyline</Value>
+			<Value>UML:TextElement,com.topcoder.diagraminterchange.TextElement</Value>
+			<Value>UML:Image,com.topcoder.diagraminterchange.Image</Value>
+			<Value>UML:CoreSemanticModelBridge,com.topcoder.diagraminterchange.CoreSemanticModelBridge</Value>
+			<Value>UML:Uml1SemanticModelBridge,com.topcoder.diagraminterchange.Uml1SemanticModelBridge</Value>
+			<Value>UML:SimpleSemanticModelElement,com.topcoder.diagraminterchange.SimpleSemanticModelElement</Value>
+			<Value>UML:GraphNode,com.topcoder.diagraminterchange.GraphNode</Value>
+			<Value>UML:Diagram,com.topcoder.diagraminterchange.Diagram</Value>
+		</Property>
+	</Config>
+</CMConfig>

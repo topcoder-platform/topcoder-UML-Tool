@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=Stub Class Generator
+component.distfilename=stub_class_generator
+component.package=com.topcoder.uml.stubclassgenerator
+component.packagedir=com/topcoder/uml/stubclassgenerator
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

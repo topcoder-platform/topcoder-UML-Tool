@@ -1,0 +1,9 @@
+#property file defining the components information
+component.name=Style Panel
+component.distfilename=style_panel
+component.package=com.topcoder.gui.panels.style
+component.packagedir=com/topcoder/gui/panels/style
+component.version.major=1
+component.version.minor=1
+component.version.micro=0
+component.version.build=1

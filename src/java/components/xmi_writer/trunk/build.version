@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=XMI Writer
+component.distfilename=xmi_writer
+component.package=com.topcoder.xmi.writer
+component.packagedir=com/topcoder/xmi/writer
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

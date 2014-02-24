@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+
+<!-- 
+
+This is the configuration file for this component and defines the set of configuration properties for the component.
+These configuration properties define the information like maximum number of UndoableAction(s) that should be 
+maintained in the UndoManager [AdvancedUndoManager] instance for performing the Undo-Redo operations, and once the
+limit is crossed, the UndoManager will flush out the old entries to maintain the size of the entries in the UndoManager.
+It also contains the configuration properties that define the instance name of the Log to be used for performing the logging 
+using the Logging Wrapper 1.2 component.
+
+Note: This is a sample configuration file. It does not contain valid configuration data and cannot be 
+used for testing. It's purpose is to be used as a reference for writing other config files.
+
+-->
+
+<CMConfig>
+  <Config name="invalidMaxnum1">
+    <Property name="MaximumUndoableActions">
+      <Value>1</Value>
+    </Property>
+  </Config>
+
+  <Config name="invalidMaxnum2">
+    <Property name="MaximumUndoableActions">
+      <Value>0</Value>
+    </Property>
+  </Config>
+
+  <Config name="invalidMaxnum3">
+    <Property name="MaximumUndoableActions">
+      <Value>0</Value>
+    </Property>
+  </Config>
+
+  <Config name="invalidMaxnum4">
+    <Property name="MaximumUndoableActions">
+      <Value>asdf</Value>
+    </Property>
+  </Config>
+
+  <Config name="invalidMaxnum5"/>
+  
+  <Config name="invalidLogLevel">
+     <Property name="LoggerName">
+       <Value>All</Value>
+     </Property>
+  </Config>
+</CMConfig>

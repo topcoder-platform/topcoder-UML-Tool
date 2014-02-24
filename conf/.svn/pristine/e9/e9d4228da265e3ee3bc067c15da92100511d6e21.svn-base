@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<CMConfig>
+	<!-- default exporter, with no custom plugin-->
+	<Config name="com.topcoder.swing.imageexporter">
+		
+	</Config>
+	
+	<!-- custom exporter, with custom JComponentImageExporter and JComponentVisibleMaker-->
+	<Config name="custom_exporter">
+		<Property name="exportersMap">
+			<Value>custom_exporter</Value>
+		</Property>
+
+		<Property name="jComponentVisibleMaker">
+			<Value>custom_visible_maker</Value>
+		</Property>
+
+		<Property name="objectFactoryNamespace">
+			<Value>ObjectFactory_Exporter</Value>
+		</Property>
+	</Config>
+	
+	<!-- Config for ObjectFactory, used by ImageExporter-->
+	<Config name="ObjectFactory_Exporter">
+		<Property name="custom_exporter">
+			<Property name="type">
+				<Value>com.topcoder.swing.imageexporter.MockJComponentImageExporter</Value>
+			</Property>
+		</Property>
+		
+		<Property name="custom_visible_maker">
+			<Property name="type">
+				<Value>com.topcoder.swing.imageexporter.MockVisibleMaker</Value>
+			</Property>
+		</Property>
+	</Config>
+	
+	<!-- custom config for ImageManipulationImageExporter, some of the settings are tuned, and new encoder is added-->
+	<Config name="ImageManipulationImageExporterProperties">
+		<Property name="imageType">
+			<Value>TYPE_INT_RGB</Value>
+		</Property>
+		
+		<!-- tune for rendering hints-->
+		<Property name="renderingHints">
+			<Value>KEY_FRACTIONALMETRICS,VALUE_FRACTIONALMETRICS_ON</Value>
+			<Value>KEY_STROKE_CONTROL,VALUE_STROKE_NORMALIZE</Value>
+		</Property>
+		
+		<!--here a new format 'custom_format' is added, the key for this encoder is 'custom_encoder' -->
+		<Property name="encodersMap">
+		</Property>
+
+		<Property name="objectFactoryNamespace">
+		</Property>
+	</Config>
+</CMConfig>

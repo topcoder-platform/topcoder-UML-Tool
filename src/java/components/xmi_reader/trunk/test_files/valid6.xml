@@ -1,0 +1,25 @@
+<CMConfig>
+  <!-- This is well formed configuration: (reuse) misses value-->
+  <Config name="com.topcoder.xmi.reader.XMIReader">
+      
+      <Property name="reuse">
+      </Property>
+
+      <Property name="handlers">
+              <Property name="UML:Class">
+                    <Value>com.topcoder.xmi.reader.handlers.MockClassCountingXMIHandler</Value>
+              </Property>
+
+                
+              <Property name="UML:Interface">
+                    <Value>com.topcoder.xmi.reader.handlers.MockClassSimpleXMIHandler</Value>
+              </Property>
+                
+              <!-- since (reuse) is true, it will not instantiate another MockClassCountingXMIHandler. -->
+             <Property name="UML:Stereotype">
+                    <Value>com.topcoder.xmi.reader.handlers.MockClassCountingXMIHandler</Value>
+             </Property>
+      </Property>
+      
+   </Config> 
+</CMConfig>

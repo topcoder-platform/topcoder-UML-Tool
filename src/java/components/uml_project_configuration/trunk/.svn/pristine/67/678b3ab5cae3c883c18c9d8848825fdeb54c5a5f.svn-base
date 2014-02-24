@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<CMConfig>
+    <Property name="com.topcoder.diagraminterchange.Reference">
+    </Property>
+    <Property name="com.topcoder.diagraminterchange.GraphNode">
+	    <Property name="property1">
+	        <Value>value1</Value>
+	    </Property>
+    </Property>
+</CMConfig>

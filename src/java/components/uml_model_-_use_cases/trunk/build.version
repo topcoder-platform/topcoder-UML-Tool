@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=UML Model - Use Cases
+component.distfilename=uml_model_-_use_cases
+component.package=com.topcoder.uml.model.usecases
+component.packagedir=com/topcoder/uml/model/usecases
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

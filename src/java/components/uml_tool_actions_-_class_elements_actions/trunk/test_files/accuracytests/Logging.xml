@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<CMConfig>
+    <Property name="TestProperty">
+        <Value>TestPropertyValue</Value>
+    </Property>
+    <Property name="basic">
+        <Property name="log">
+            <Property name="target">
+                <Value>System.err</Value>
+            </Property>
+        </Property>
+    </Property>
+    <Property name="logClass">
+        <Value>com.topcoder.util.log.basic.BasicLog</Value>
+    </Property>
+</CMConfig>

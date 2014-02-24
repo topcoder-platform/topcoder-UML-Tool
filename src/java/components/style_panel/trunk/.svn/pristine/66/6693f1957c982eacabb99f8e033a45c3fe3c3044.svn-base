@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMConfig>
+    <Config name="com.topcoder.gui.panels.style.failuretests.StylePanelFailureTests.case28">
+		<Property name="looknfeel">
+			<Property name="fontName">
+				<Value>Arial</Value>
+			</Property>
+			<Property name="minimumWidth">
+				<Value>100</Value>
+			</Property>
+			<Property name="minimumHeight">
+				<Value>100</Value>
+			</Property>
+			<Property name="preferredWidth">
+				<Value>140</Value>
+			</Property>
+			<Property name="preferredHeight">
+				<Value>140</Value>
+			</Property>
+		</Property>
+		<Property name="propertyKey">
+			<Property name="widthKey">
+				<Value>width</Value>
+			</Property>
+			<Property name="heightKey">
+				<Value>height</Value>
+			</Property>
+			<Property name="xKey">
+				<Value>   </Value>
+			</Property>
+			<Property name="yKey">
+				<Value>y</Value>
+			</Property>
+			<Property name="fontNameKey">
+				<Value>fontName</Value>
+			</Property>
+			<Property name="fontSizeKey">
+				<Value>fontSize</Value>
+			</Property>
+			<Property name="fillColorKey">
+				<Value>fillColor</Value>
+			</Property>
+			<Property name="outlineColorKey">
+				<Value>outlineColor</Value>
+			</Property>
+			<Property name="textColorKey">
+				<Value>textColor</Value>
+			</Property>
+		</Property>
+		<Property name="palette">
+			<Property name="width">
+				<Value>10</Value>
+			</Property>
+			<Property name="height">
+				<Value>10</Value>
+			</Property>
+			<Property name="columns">
+				<Value>2</Value>
+			</Property>
+			<Property name="rows">
+				<Value>2</Value>
+			</Property>
+			<Property name="color">
+				<Property name="col0row0">
+					<Value>#000000</Value>
+				</Property>
+				<Property name="col0row1">
+					<Value>#0000FF</Value>
+				</Property>
+				<Property name="col1row0">
+					<Value>#00FF00</Value>
+				</Property>
+				<Property name="col1row1">
+					<Value>#FF0000</Value>
+				</Property>
+			</Property>
+		</Property>
+		<Property name="fontFamily">
+			<Property name="arial">
+				<Value>Arial</Value>
+			</Property>
+			<Property name="timesnewroman">
+				<Value>Times New Roman</Value>
+			</Property>
+			<Property name="verdana">
+				<Value>Verdana</Value>
+			</Property>
+			<Property name="default">
+				<Value>Verdana</Value>
+			</Property>
+		</Property>
+		<Property name="fontSize">
+			<Property name="small">
+				<Value>8</Value>
+			</Property>
+			<Property name="smaller">
+				<Value>6</Value>
+			</Property>
+			<Property name="normal">
+				<Value>10</Value>
+			</Property>
+			<Property name="default">
+				<Value>10</Value>
+			</Property>
+		</Property>
+	</Config>
+</CMConfig>

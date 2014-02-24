@@ -1,0 +1,444 @@
+<?xml version="1.0"?>
+<CMConfig>
+    <Config name="com.topcoder.umltool.deploy.zumlimport.test">
+        <Property name="filename">
+            <Value>test_files/LDAP_Active_Directory_Interface.zuml</Value>
+        </Property>
+        
+        <Property name="filename1">
+            <Value>test_files/Exception_Manager_6.zuml</Value>
+        </Property>
+        
+        <Property name="filename2">
+            <Value>test_files/Activity_Monitor_6.zuml</Value>
+        </Property>
+         <Property name="createmessage_filename">
+            <Value>test_files/CreateMessageWithStereotypeAndDoc.zuml</Value>
+        </Property>
+        <Property name="test1_name">
+            <Value>Configure_Plugin_Sequence_Diagram</Value>
+        </Property>
+        
+        
+        <Property name="test2_name">
+            <Value>Add_Entry_Sequence_Diagram</Value>
+        </Property>
+        
+        <Property name="test3_color">
+            <Value>FFFFEB</Value>
+        </Property>
+        
+         <Property name="test4_color">
+            <Value>000000</Value>
+        </Property>
+        
+        <Property name="test6_color">
+            <Value>000000</Value>
+        </Property>
+        
+        <Property name="test7_size">
+            <Value>10</Value>
+        </Property>
+        
+        <Property name="test8_width">
+            <Value>1333</Value>
+        </Property>
+        <Property name="test8_height">
+            <Value>488</Value>
+        </Property>
+        
+        <Property name="test9_x">
+            <Value>20</Value>
+        </Property>
+        <Property name="test9_y">
+            <Value>20</Value>
+        </Property>
+        <Property name="test10_file">
+            <Value>test_files/SequenceInNamespace.zuml</Value>
+        </Property>
+        <Property name="test11_name">
+            <Value>factory</Value>
+        </Property>
+        
+        <Property name="test12_name">
+            <Value>ActiveDirectoryFactory</Value>
+        </Property>
+        <Property name="test13_color">
+            <Value>CCCCFF</Value>
+        </Property>
+        <Property name="test14_color">
+            <Value>000000</Value>
+        </Property>
+        <Property name="test15_font">
+            <Value>Default</Value>
+        </Property>
+        <Property name="test16_color">
+            <Value>000000</Value>
+        </Property>
+        <Property name="test17_size">
+            <Value>10</Value>
+        </Property>
+        <Property name="test18_width">
+            <Value>162.0</Value>
+        </Property>
+        <Property name="test18_height">
+            <Value>60.0</Value>
+        </Property>
+        
+        <Property name="test19_x">
+            <Value>776.0</Value>
+        </Property>
+        <Property name="test19_y">
+            <Value>45.0</Value>
+        </Property>
+        
+        <Property name="test20_visiblity">
+            <Value>PUBLIC</Value>
+        </Property>
+        
+        <Property name="test21_file">
+            <Value>test_files/LifelineWithStereoTypeAndDocument.zuml</Value>
+        </Property>
+        <Property name="test21_num">
+            <Value>1</Value>
+        </Property>
+        <Property name="test21_name">
+            <Value>Lifeline_1</Value>
+        </Property>
+        <Property name="test22_file">
+            <Value>test_files/LifelineWithStereoTypeAndDocument.zuml</Value>
+        </Property>
+        <Property name="test22_name">
+            <Value>Lifeline_1</Value>
+        </Property>
+        <Property name="test22_doc">
+            <Value>lifeline with steretypes and document</Value>
+        </Property>
+         <Property name="test23_file">
+            <Value>test_files/OverlappingLifeline.zuml</Value>
+        </Property>
+        <Property name="test23_low_zorder">
+            <Value>Lifeline_1</Value>
+        </Property>
+        <Property name="test23_high_zorder">
+            <Value>Lifeline_2</Value>
+        </Property>
+        <Property name="test24_name">
+            <Value>Application</Value>
+        </Property>
+         <Property name="test25_name">
+            <Value>Format</Value>
+        </Property>
+        <Property name="test26_x">
+            <Value>128.0</Value>
+        </Property>
+        <Property name="test26_y">
+            <Value>160.0</Value>
+        </Property>
+        <Property name="test27_x">
+            <Value>419.0</Value>
+        </Property>
+        <Property name="test27_y">
+            <Value>160.0</Value>
+        </Property>
+        <Property name="test28_file">
+            <Value>test_files/SynchMessageWithStereotypeAndDoc.zuml</Value>
+        </Property>
+        <Property name="test28_num">
+            <Value>1</Value>
+        </Property>
+        <Property name="test28_name">
+            <Value>stereotype</Value>
+        </Property>
+        <Property name="test29_file">
+            <Value>test_files/SynchMessageWithStereotypeAndDoc.zuml</Value>
+        </Property>
+        <Property name="test29_doc">
+            <Value>Synchronous Message with steretypes and document</Value>
+        </Property>
+        <Property name="test30_color">
+            <Value>000000</Value>
+        </Property>
+        <Property name="test31_color">
+            <Value>000000</Value>
+        </Property>
+        <Property name="test32_font">
+            <Value>Arial</Value>
+        </Property>
+        <Property name="test33_fontsize">
+            <Value>11</Value>
+        </Property>
+        <Property name="test35_filename">
+            <Value>test_files/OverlappingSynchronousMessage.zuml</Value>
+        </Property>
+        <Property name="test36_file">
+            <Value>test_files/SynchronousWithAttributeAndOperation.zuml</Value>
+        </Property>
+        
+        <Property name="test37_file">
+            <Value>test_files/SynchronousWithAttributeAndOperation.zuml</Value>
+        </Property>
+        <Property name="test38_name">
+            <Value>timer invokes task : run{}</Value>
+        </Property>
+        <Property name="test39_x">
+            <Value>2156</Value>
+        </Property>
+        <Property name="test39_y">
+            <Value>2250</Value>
+        </Property>
+        <Property name="test40_x">
+            <Value>2345</Value>
+        </Property>
+        <Property name="test40_y">
+            <Value>2250</Value>
+        </Property>
+        <Property name="test41_file">
+            <Value>test_files/AsynchMessageWithStereotypeAndDoc.zuml</Value>
+        </Property>
+        <Property name="test41_num">
+            <Value>1</Value>
+        </Property>
+        <Property name="test41_name">
+            <Value>stereotype</Value>
+        </Property>
+         <Property name="test42_file">
+            <Value>test_files/AsynchMessageWithStereotypeAndDoc.zuml</Value>
+        </Property>
+        <Property name="test42_doc">
+            <Value>Asynchronous Message with steretypes and document</Value>
+        </Property>
+        <Property name="test43_color">
+            <Value>000000</Value>
+        </Property>
+        <Property name="test44_color">
+            <Value>000000</Value>
+        </Property>
+        <Property name="test45_font">
+            <Value>sansserif</Value>
+        </Property>
+        <Property name="test46_fontsize">
+            <Value>11</Value>
+        </Property>
+        <Property name="test47_zorder">
+            <Value>0</Value>
+        </Property>
+         <Property name="test49_file">
+            <Value>test_files/AsynchronousMessageWithAccessedProperty.zuml</Value>
+        </Property>
+         <Property name="test50_file">
+            <Value>test_files/AsynchronousMessageWithAccessedProperty.zuml</Value>
+        </Property>
+         <Property name="test51_name">
+            <Value></Value>
+        </Property>
+        <Property name="test52_x">
+            <Value>100</Value>
+        </Property>
+        <Property name="test52_y">
+            <Value>20</Value>
+        </Property>
+        <Property name="test53_x">
+            <Value>290</Value>
+        </Property>
+        <Property name="test53_y">
+            <Value>20</Value>
+        </Property>
+        <Property name="test54_num">
+            <Value>2</Value>
+        </Property>
+        <Property name="test54_name">
+            <Value>create</Value>
+        </Property>
+        <Property name="test55_doc">
+            <Value>create Message with steretypes and document</Value>
+        </Property>
+        <Property name="test56_color">
+            <Value>000000</Value>
+        </Property>
+        <Property name="test57_color">
+            <Value>000000</Value>
+        </Property>
+        <Property name="test58_font">
+            <Value>sansserif</Value>
+        </Property>
+        <Property name="test59_fontsize">
+            <Value>11</Value>
+        </Property>
+        <Property name="test60_file">
+            <Value>test_files/OverlappingCreateMessages.zuml</Value>
+        </Property>
+        <Property name="test60_zorder">
+            <Value>0</Value>
+        </Property>
+         <Property name="test62_file">
+            <Value>test_files/CreateWithAttributeAndOperation.zuml</Value>
+        </Property>
+         <Property name="test63_file">
+            <Value>test_files/CreateWithAttributeAndOperation.zuml</Value>
+        </Property>
+        <Property name="test64_text">
+            <Value>Configure Plugin Sequence Diagram</Value>
+        </Property>
+        <Property name="test65_x">
+            <Value>140</Value>
+        </Property>
+        <Property name="test65_y">
+            <Value>-40</Value>
+        </Property>
+        
+        <Property name="test66_width">
+            <Value>325</Value>
+        </Property>
+        <Property name="test66_height">
+            <Value>26</Value>
+        </Property>
+         <Property name="test67_color">
+            <Value>FFFFFF</Value>
+        </Property>
+        <Property name="test68_color">
+            <Value>000000</Value>
+        </Property>
+         <Property name="test69_color">
+            <Value>000000</Value>
+        </Property>
+        <Property name="test70_font">
+            <Value>Arial</Value>
+        </Property>
+        <Property name="test71_fontsize">
+            <Value>20</Value>
+        </Property>
+        <Property name="test72_file">
+            <Value>test_files/OverlappingTextFields.zuml</Value>
+        </Property>
+        
+        <Property name="test73_width">
+            <Value>556</Value>
+        </Property>
+        <Property name="test73_height">
+            <Value>83</Value>
+        </Property>
+        
+        <Property name="test74_x">
+            <Value>396</Value>
+        </Property>
+        <Property name="test74_y">
+            <Value>370</Value>
+        </Property>
+        
+        <Property name="test75_color">
+            <Value>FFE6CC</Value>
+        </Property>
+         <Property name="test76_color">
+            <Value>000000</Value>
+        </Property>
+          <Property name="test80_file">
+            <Value>test_files/OverlappingRectangles.zuml</Value>
+        </Property>
+          <Property name="test80_zorder">
+            <Value>0</Value>
+        </Property>
+        <Property name="test82_text">
+            <Value> use createSSLConnection\n instead of createConnection\nfor SSL.</Value>
+        </Property>
+        <Property name="test83_doc">
+            <Value></Value>
+        </Property>
+        <Property name="test84_num">
+            <Value>0</Value>
+        </Property>
+         <Property name="test85_x">
+            <Value>280</Value>
+        </Property>
+        <Property name="test85_y">
+            <Value>170</Value>
+        </Property>
+        <Property name="test86_width">
+            <Value>160</Value>
+        </Property>
+        <Property name="test86_height">
+            <Value>80</Value>
+        </Property>
+         <Property name="test87_color">
+            <Value>FFFF00</Value>
+        </Property>
+         <Property name="test88_color">
+            <Value>000000</Value>
+        </Property>
+        <Property name="test89_color">
+            <Value>000000</Value>
+        </Property>
+        <Property name="test90_font">
+            <Value>Arial</Value>
+        </Property>
+        <Property name="test91_fontsize">
+            <Value>11</Value>
+        </Property>
+         <Property name="test92_file">
+            <Value>test_files/OverlappingCommentBlocks.zuml</Value>
+        </Property>
+        <Property name="test93_name">
+            <Value></Value>
+        </Property>
+        <Property name="test95_text">
+            <Value>The EventManager instance also \nimplements the ActivityHandler interface, \nso this call does actually make sense.</Value>
+        </Property>
+        <Property name="test96_name">
+            <Value>notify handlers : onInactive{monitoredObject}</Value>
+        </Property>
+         <Property name="test97_doc">
+            <Value></Value>
+        </Property>
+         <Property name="test98_num">
+            <Value>0</Value>
+        </Property>
+          <Property name="test99_x">
+            <Value>1665</Value>
+        </Property>
+        <Property name="test99_y">
+            <Value>1185</Value>
+        </Property>
+        <Property name="test100_width">
+            <Value>232</Value>
+        </Property>
+        <Property name="test100_height">
+            <Value>80</Value>
+        </Property>
+         <Property name="test101_color">
+            <Value>FFFF80</Value>
+        </Property>
+         <Property name="test102_color">
+            <Value>000000</Value>
+        </Property>
+        <Property name="test103_color">
+            <Value>000000</Value>
+        </Property>
+         <Property name="test104_font">
+            <Value>SansSerif</Value>
+        </Property>
+         <Property name="test105_fontsize">
+            <Value>11</Value>
+        </Property>
+        <Property name="test106_file">
+            <Value>test_files/OverlappingComments.zuml</Value>
+        </Property>
+        <Property name="test107_name">
+            <Value></Value>
+        </Property>
+        <Property name="test108_file">
+            <Value>test_files/DestroyMessage.zuml</Value>
+        </Property>
+        <Property name="test109_file">
+            <Value>test_files/LostMessage.zuml</Value>
+        </Property>
+        <Property name="test110_file">
+            <Value>test_files/FoundMessage.zuml</Value>
+        </Property>
+        <Property name="test111_file">
+            <Value>test_files/AsynchFromLifelineToGate.zuml</Value>
+        </Property>
+        <Property name="test112_file">
+            <Value>test_files/AsynchFromGateToLifeline.zuml</Value>
+        </Property>
+    </Config>
+</CMConfig>

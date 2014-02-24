@@ -1,0 +1,42 @@
+<CMConfig>
+
+<!-- Configure the Zoom Action -->
+	<Config name="com.topcoder.gui.diagramviewer.ZoomAction">
+</Config>
+	<Config name="ZoomAction1">
+		<Property name="name">
+			<Value>zoom1</Value>
+		</Property>
+		<Property name="icon">
+			<Value>test_files/zoomout.icon</Value>
+		</Property>
+		<Property name="increment">
+			<Value>-10</Value>
+		</Property>
+	</Config>
+
+	<Config name="ZoomAction2">
+		<Property name="name">
+			<Value>zoom2</Value>
+		</Property>
+		<Property name="icon">
+			<Value>test_files/zoomin.icon</Value>
+		</Property>
+		<Property name="increment">
+			<Value>36</Value>
+		</Property>
+	</Config>
+
+	<Config name="ZoomAction3">
+		<Property name="name">
+			<Value>zoom3</Value>
+		</Property>
+		<Property name="icon">
+			<Value>test_files/zoomout.icon</Value>
+		</Property>
+		<Property name="increment">
+			<Value>2</Value>
+		</Property>
+	</Config>
+
+</CMConfig>

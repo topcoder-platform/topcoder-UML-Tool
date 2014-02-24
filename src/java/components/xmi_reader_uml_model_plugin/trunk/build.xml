@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<project name="TopCoder Java Generic Build" default="dist" basedir=".">
+    <property file="${basedir}/build.version"/>
+    <property file="../topcoder_global.properties"/>
+
+    <!-- Override these in ../topcoder_global.properties -->
+    <property name="javadoc.locale" value="en_US"/>
+    <property name="javac.encoding" value="UTF-8"/>
+    <property name="libdir" value="../tcs/lib"/>
+    <property name="tcs_libdir" value="${libdir}/tcs"/>
+    <property name="ext_libdir" value="${libdir}/third_party"/>
+    <property name="debug" value="off"/>
+    <property name="verbose" value="no"/>
+    <property name="cobertura.dir" value="${ext_libdir}/cobertura/1.8"/>
+    <property name="cobertura.format" value="html"/>
+
+    <!-- DIRECTORY SETUP -->
+    <property name="srcdir" value="src"/>
+    <property name="docsdir" value="docs"/>
+    <property name="configdir" value="conf"/>
+    <property name="testlogdir" value="log"/>
+    <property name="test_reflib" value="test_reflib"/>
+    <property name="testfiles" value="test_files"/>
+    <property name="javadocsdir" value="${docsdir}/javadocs"/>
+    <property name="reports" value="${testlogdir}/reports"/>
+
+    <!-- Import the dependencies of this build file -->
+    <import file="${basedir}/build-dependencies.xml"/>
+
+    <!-- COMPONENT PARAMETERS -->
+    <property name="component" value="${component.name}"/>
+    <property name="package" value="${component.package}"/>
+    <property name="packagedir" value="${component.packagedir}"/>
+    <property name="distfilename" value="${component.distfilename}"/>
+    <property name="component_version"
+              value="${component.version.major}.${component.version.minor}.${component.version.micro}"/>
+    <property name="component_path" value="${distfilename}/${component_version}"/>
+
+    <!-- Change this for custom component build -->
+    <!--
+    <property name="greekgod_libdir" value="../lib/greekgod"/>
+    <property name="target_libdir" value="${greekgod_libdir}"/>
+    -->
+    <property name="target_libdir" value="${tcs_libdir}"/>
+
+    <!-- DIRECTORY STRUCTURE -->
+    <property name="javasrc" value="${srcdir}/java"/>
+    <property name="javamain" value="${javasrc}/main"/>
+    <property name="javatests" value="${javasrc}/tests"/>
+
+    <property name="builddir" value="build"/>
+    <property name="build_classdir" value="${builddir}/classes"/>
+    <property name="build_testclassdir" value="${builddir}/testClasses"/>
+    <property name="build_targetclassdir" value="${builddir}/targetclasses"/>
+    <property name="build_distdir" value="${builddir}/dist"/>
+    <property name="build_docsdir" value="${builddir}/${docsdir}"/>
+    <property name="build_javadocsdir" value="${builddir}/${javadocsdir}"/>
+    <property name="build_tcsdistdir" value="${build_distdir}/${distfilename}-${component_version}"/>
+    <property name="manifest_file_path" value="${build_tcsdistdir}/META-INF/"/>
+    <property name="manifest_file" value="${manifest_file_path}/MANIFEST.MF"/>
+
+    <!-- COMPONENT DISTRIBUTION STRUCTURE -->
+    <property name="dist_lib" value="${build_distdir}/lib/tcs"/>
+    <property name="dist_docs" value="${build_tcsdistdir}/${docsdir}"/>
+    <property name="dist_javadocs" value="${build_tcsdistdir}/${javadocsdir}"/>
+    <property name="dist_coverage" value="${dist_docs}/coverage"/>
+
+    <!-- NAME FOR .JAR FILES -->
+    <property name="component.jar" value="${dist_lib}/${component_path}/${distfilename}.jar"/>
+    <property name="javadoc.jar" value="javadocs.jar"/>
+    <property name="component.tests.jar" value="${dist_lib}/${distfilename}_tests.jar"/>
+    <property name="component.dist.jar" value="${build_distdir}/${distfilename}-${component_version}.jar"/>
+    <property name="dev_submission.jar" value="${distfilename}_${component_version}_dev_submission.jar"/>
+    <property name="design_submission.jar" value="${distfilename}_${component_version}_design_submission.jar"/>
+    <property name="dev_dist.jar" value="${distfilename}_${component_version}_dev_dist.jar"/>
+    <property name="design_dist.jar" value="${distfilename}_${component_version}_design_dist.jar"/>
+
+    <!-- DOCUMENT PACKAGE -->
+    <property name="dist_docpackage" value="${builddir}/doc_package"/>
+    <property name="docpackage.jar" value="${distfilename}_docs.jar"/>
+
+    <!-- include ant contrib tasks -->
+    <taskdef resource="net/sf/antcontrib/antlib.xml"/>
+
+    <!-- classes needed to compile the production code -->
+    <path id="buildlibs">
+        <path refid="component.tcs-dependencies"/>
+        <path refid="component.3rdParty-dependencies"/>
+    </path>
+
+    <!-- classes needed to compile the test code -->
+    <path id="test.build.classpath">
+        <path refid="component.test.3rdParty-dependencies"/>
+        <fileset dir="${basedir}">
+            <include name="${test_reflib}/**/*.jar"/>
+            <include name="${test_reflib}/**/*.zip"/>
+        </fileset>
+        <path refid="buildlibs"/>
+        <pathelement location="${build_classdir}"/>
+        <pathelement location="${testfiles}"/>
+        <pathelement location="${configdir}"/>
+    </path>
+
+    <!-- cobertura task definition -->
+    <path id="cobertura.classpath">
+        <fileset dir="${cobertura.dir}">
+            <include name="cobertura.jar"/>
+            <include name="lib/**/*.jar"/>
+        </fileset>
+    </path>
+    <taskdef classpathref="cobertura.classpath" resource="tasks.properties"/>
+    <property name="cobertura.datafile" value="${testlogdir}/cobertura.ser"/>
+    <property name="instrumented.dir" value="${builddir}/instrumented"/>
+
+    <target name="compile">
+        <mkdir dir="${build_classdir}"/>
+        <javac srcdir="${javamain}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true"
+               verbose="${verbose}" includeAntRuntime="no" encoding="${javac.encoding}">
+            <classpath refid="buildlibs"/>
+        </javac>
+    </target>
+
+    <target name="compile_tests" depends="compile">
+        <mkdir dir="${build_testclassdir}"/>
+        <javac srcdir="${javatests}" destdir="${build_testclassdir}" includes="${packagedir}/**"
+               debug="true" verbose="${verbose}" includeAntRuntime="no" encoding="${javac.encoding}">
+            <classpath refid="test.build.classpath"/>
+        </javac>
+    </target>
+
+    <macrodef name="compile_targets" description="Compiles the sources and test cases against target JDK">
+        <attribute name="target"/>
+        <attribute name="bootclasspath"/>
+        <sequential>
+            <mkdir dir="${build_targetclassdir}"/>
+            <mkdir dir="${javatests}"/>
+            <javac srcdir="${javamain}" destdir="${build_targetclassdir}" includes="${packagedir}/**"
+                   debug="true" verbose="${verbose}" target="@{target}"
+                   bootclasspath="@{bootclasspath}" extdirs="">
+                <classpath refid="buildlibs"/>
+            </javac>
+
+            <!-- compile test cases -->
+            <javac srcdir="${javatests}" destdir="${build_targetclassdir}" includes="${packagedir}/**"
+                   debug="true" verbose="${verbose}" target="@{target}"
+                   bootclasspath="@{bootclasspath}" extdirs="">
+                <classpath refid="test.build.classpath"/>
+            </javac>
+            <delete dir="${build_targetclassdir}"/>
+        </sequential>
+    </macrodef>
+
+    <target name="compile_targets">
+        <compile_targets target="${component.target}" bootclasspath="${component.bootclasspath}"/>
+    </target>
+
+    <macrodef name="test.setup">
+        <sequential/>
+    </macrodef>
+
+    <macrodef name="test.execute">
+        <!-- standard test task -->
+        <sequential>
+            <mkdir dir="${testlogdir}"/>
+            <junit fork="true" haltonerror="false">
+                <classpath location="${build_testclassdir}"/>
+                <classpath refid="test.build.classpath"/>
+                <test name="${package}.AllTests" todir="${testlogdir}">
+                    <formatter type="plain" usefile="true"/>
+                    <formatter type="xml" usefile="true"/>
+                </test>
+            </junit>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="coveragetest.execute">
+        <!-- standard test task -->
+        <sequential>
+            <mkdir dir="${testlogdir}"/>
+            <mkdir dir="${instrumented.dir}"/>
+            <delete file="${cobertura.datafile}"/>
+            <cobertura-instrument todir="${instrumented.dir}" datafile="${cobertura.datafile}">
+                <!-- all included -->
+                <fileset dir="${build_classdir}">
+                    <include name="**/*.class"/>
+                </fileset>
+            </cobertura-instrument>
+            <junit fork="true" haltonerror="false">
+                <sysproperty key="net.sourceforge.cobertura.datafile" file="${cobertura.datafile}"/>
+                <classpath location="${instrumented.dir}"/>
+                <classpath location="${build_testclassdir}"/>
+                <classpath refid="test.build.classpath"/>
+                <classpath refid="cobertura.classpath"/>
+                <test name="${package}.AllTests" todir="${testlogdir}">
+                    <formatter type="plain" usefile="true"/>
+                    <formatter type="xml" usefile="true"/>
+                </test>
+            </junit>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="test.teardown">
+        <sequential/>
+    </macrodef>
+
+    <target name="test" depends="compile_tests">
+        <test.setup/>
+        <test.execute/>
+        <test.teardown/>
+    </target>
+
+    <target name="coveragetest" depends="compile_tests">
+        <test.setup/>
+        <coveragetest.execute/>
+        <test.teardown/>
+    </target>
+
+    <target name="coveragereport" depends="coveragetest">
+        <cobertura-report format="${cobertura.format}" destdir="${testlogdir}/coverage/" srcdir="${srcdir}"
+                          datafile="${cobertura.datafile}">
+            <fileset dir="${javamain}">
+                <include name="**/*.java"/>
+            </fileset>
+            <fileset dir="${javatests}">
+                <include name="**/*.java"/>
+            </fileset>
+        </cobertura-report>
+    </target>
+
+    <target name="reports" depends="test">
+        <mkdir dir="${reports}"/>
+        <junitreport todir="${reports}">
+            <fileset dir="${testlogdir}">
+                <include name="*.xml"/>
+            </fileset>
+            <report format="frames" todir="${reports}"/>
+        </junitreport>
+    </target>
+
+    <target name="reports-all" depends="coveragereport,reports">
+        <echo>The execution of reports is complete. Reports are available in /${reports}</echo>
+    </target>
+
+    <target name="manifest">
+        <mkdir dir="${manifest_file_path}"/>
+
+        <if>
+          <and>
+            <isset property="component.mainclass"/>
+            <length string="${component.mainclass}" when="greater" length="0" />
+          </and>
+          <then>
+            <manifest file="${manifest_file}">
+              <attribute name="Component-Vendor" value="TopCoder Inc."/>
+              <attribute name="Component-Name" value="${component}"/>
+              <attribute name="Component-Version" value="${component_version}.${component.version.build}"/>
+              <attribute name="Main-Class" value="${component.mainclass}"/>
+            </manifest>
+          </then>
+          <else>
+            <manifest file="${manifest_file}">
+              <attribute name="Component-Vendor" value="TopCoder Inc."/>
+              <attribute name="Component-Name" value="${component}"/>
+              <attribute name="Component-Version" value="${component_version}.${component.version.build}"/>
+            </manifest>
+          </else>
+        </if>
+    </target>
+
+    <target name="dist" depends="compile, manifest">
+        <mkdir dir="${dist_lib}/${component_path}"/>
+        <jar jarfile="${component.jar}" manifest="${manifest_file}" basedir="${build_classdir}"/>
+    </target>
+
+    <target name="dist_tests" depends="compile_tests">
+        <mkdir dir="${dist_lib}"/>
+        <jar jarfile="${component.tests.jar}" basedir="${build_testclassdir}"/>
+    </target>
+
+    <target name="javadoc" depends="compile">
+        <mkdir dir="${dist_javadocs}"/>
+        <javadoc packagenames="${package}.*"
+                 sourcepath="${javamain}"
+                 classpath="${build_classdir}"
+                 classpathref="buildlibs"
+                 destdir="${dist_javadocs}"
+                 windowtitle="Topcoder Software"
+                 header="&lt;table border=0 cellpadding=0 cellspacing=2&gt;&lt;tr&gt;&lt;td&gt;&lt;font class=tcoder2&gt;&#091; &lt;/font&gt;&lt;font class=tcoder1&gt;TOP&lt;/font&gt;&lt;font class=tcoder2&gt;CODER &lt;/font&gt;&lt;font class=tcoder2&gt;&#093;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font class=tcoder4&gt;&#153;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=tcoder3 align=center&gt;&lt;font class=tcoder3&gt;SOFTWARE&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
+                 footer="&lt;table border=0 cellpadding=0 cellspacing=2&gt;&lt;tr&gt;&lt;td&gt;&lt;font class=tcoder2&gt;&#091; &lt;/font&gt;&lt;font class=tcoder1&gt;TOP&lt;/font&gt;&lt;font class=tcoder2&gt;CODER &lt;/font&gt;&lt;font class=tcoder2&gt;&#093;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font class=tcoder4&gt;&#153;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=tcoder3 align=center&gt;&lt;font class=tcoder3&gt;SOFTWARE&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
+                 bottom="&lt;font class=tcoder5&gt;Contact TopCoder Software at &lt;a href='http://software.topcoder.com'&gt;software.topcoder.com&lt;/a&gt;&lt;/font&gt;"
+                 stylesheetfile="${javadocsdir}/stylesheet.css"
+                 locale="${javadoc.locale}"
+                 verbose="${verbose}">
+            <tag name="copyright" description="Copyright:" scope="types"/>
+        </javadoc>
+    </target>
+
+    <target name="clean">
+        <delete dir="${builddir}"/>
+    </target>
+
+    <!-- ************************************************************************** -->
+    <!-- ************ DEPLOYMENT RELATED TARGETS  ******************************* -->
+    <!-- ************************************************************************** -->
+    <macrodef name="deployCommand">
+        <!-- standard deploy command -->
+        <sequential>
+            <antcall target="dist"/>
+        </sequential>
+    </macrodef>
+
+    <target name="deploy">
+        <deployCommand/>
+    </target>
+
+    <target name="deploy-lib" depends="deploy,test">
+        <mkdir dir="${target_libdir}/${component_path}"/>
+        <copy file="${component.jar}" todir="${target_libdir}/${component_path}"/>
+    </target>
+
+    <target name="dist_tcs" depends="clean,dist,javadoc">
+        <!-- define tcs distribution format -->
+        <mkdir dir="${build_tcsdistdir}"/>
+        <copy todir="${build_tcsdistdir}">
+            <fileset dir="${basedir}">
+                <include name="${configdir}/**/*"/>
+                <include name="${docsdir}/**/*"/>
+                <include name="${srcdir}/**/*"/>
+                <include name="${testfiles}/**/*"/>
+                <include name="${test_reflib}/**/*"/>
+                <include name="build.version"/>
+                <include name="build-dependencies.xml"/>
+                <include name="README"/>
+                <include name="build.version"/>
+            </fileset>
+        </copy>
+        <copy file="build_dist.xml" tofile="${build_tcsdistdir}/build.xml"/>
+
+        <mkdir dir="${dist_coverage}"/>
+        <copy file="${testlogdir}/cobertura.ser" todir="${dist_docs}"/>
+        <copy todir="${dist_coverage}">
+            <fileset dir="${testlogdir}/coverage"/>
+        </copy>
+
+        <mkdir dir="${dist_javadocs}"/>
+        <copy todir="${dist_javadocs}">
+            <fileset dir="${javadocsdir}"/>
+        </copy>
+
+        <antcall target="package_docs"/>
+
+        <jar jarfile="${component.dist.jar}" basedir="${build_distdir}" manifest="${manifest_file}" excludes="*.jar"/>
+
+        <antcall target="move_to_tcs"/>
+    </target>
+
+    <target name="package_docs" depends="javadoc">
+        <mkdir dir="${dist_docpackage}"/>
+        <jar jarfile="${dist_docpackage}/${javadoc.jar}" basedir="${build_tcsdistdir}/${javadocsdir}"/>
+        <copy todir="${dist_docpackage}">
+            <fileset dir="${docsdir}" casesensitive="no">
+                <include name="${distfilename}_Class_Diagram*"/>
+                <include name="${distfilename}_Use_Case_Diagram*"/>
+                <include name="${distfilename}_Sequence_Diagram*"/>
+                <include name="${distfilename}_Requirements_Specification.pdf"/>
+                <include name="${distfilename}_Component_Specification.pdf"/>
+            </fileset>
+        </copy>
+        <jar jarfile="${builddir}/${docpackage.jar}" basedir="${dist_docpackage}"/>
+    </target>
+
+    <target name="move_to_tcs">
+        <mkdir dir="${target_libdir}/${component_path}"/>
+        <mkdir dir="${target_libdir}/${component_path}/dist"/>
+
+        <copy file="${component.jar}" todir="${target_libdir}/${component_path}"/>
+        <copy file="${component.dist.jar}" todir="${target_libdir}/${component_path}/dist"/>
+    </target>
+
+    <target name="dev_submission" depends="test">
+        <jar jarfile="${dev_submission.jar}"
+             basedir="."
+             includes="build-dependencies.xml,
+                       build.version,
+                       README,
+                       ${configdir}/**,
+                       ${javamain}/**/*.java,
+                       ${javatests}/${packagedir}/**,
+                       ${testlogdir}/**,
+                       ${testfiles}/**,
+                       ${docsdir}/**,
+                       ${test_reflib}/**"
+             excludes="${javatests}/${packagedir}/AllTests.java,
+                       ${javatests}/${packagedir}/stresstests/*,
+                       ${javatests}/${packagedir}/failuretests/*,
+                       ${javatests}/${packagedir}/accuracytests/*"
+            />
+    </target>
+
+    <target name="design_submission">
+        <jar jarfile="${design_submission.jar}"
+             basedir="."
+             includes="build-dependencies.xml,
+                       ${configdir}/**,
+                       ${javamain}/**,
+                       ${docsdir}/**,
+                       ${testfiles}/**"
+            />
+    </target>
+
+    <target name="dev_dist">
+        <!-- copy TCS Dependencies -->
+        <jar jarfile="${dev_dist.jar}"
+             basedir="."
+             includes="build.xml,
+                       README,
+                       build.version,
+                       build-dependencies.xml,
+                       ${configdir}/**,
+                       ${srcdir}/**,
+                       ${docsdir}/**,
+                       ${testfiles}/**"
+            />
+    </target>
+
+    <target name="design_dist">
+        <jar jarfile="${design_dist.jar}"
+             basedir="."
+             includes="build.xml,
+                       build.version,
+                       build-dependencies.xml,
+                       ${configdir}/**,
+                       ${srcdir}/**,
+                       ${docsdir}/**,
+                       ${testfiles}/**"
+            />
+    </target>
+
+    <!-- ************************************************************************** -->
+    <!-- ************ END DEPLOYMENT RELATED TARGETS  *************************** -->
+    <!-- ************************************************************************** -->
+
+    <!-- Import the macro definitions used to override standard behaviour of
+    some of the targets of this build file. -->
+    <import file="${basedir}/build-override.xml" optional="true"/>
+</project>

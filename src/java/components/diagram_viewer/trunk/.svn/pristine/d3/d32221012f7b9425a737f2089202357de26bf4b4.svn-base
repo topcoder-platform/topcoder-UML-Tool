@@ -1,0 +1,210 @@
+<CMConfig>
+    <Config name="failuretests.DiagramViewer.InvalidObjectFactoryNamespace">
+        <Property name="object_factory_namespace">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.InvalidGridSize">
+        <Property name="grid_size">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.InvalidMaxOpenTabs">
+        <Property name="max_open_tabs">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.NegativeMaxOpenTabs">
+        <Property name="max_open_tabs">
+            <Value>-1</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.ZeroMaxOpenTabs">
+        <Property name="max_open_tabs">
+            <Value>0</Value>
+        </Property>
+    </Config>
+
+    <Config name="failuretests.DiagramViewer.InvalidBackgroundGridVisibility">
+        <Property name="background_grid_visibility">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.InvalidTabTitleDisplayedInFullVersion">
+        <Property name="tab_title_displayed_in_full_version">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.InvalidDiagramViewBackgroundColor">
+        <Property name="diagram_view_background_color">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.InvalidGridRenderer">
+        <Property name="grid_renderer">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.InvalidDiagramViewGap">
+        <Property name="diagram_view_gap">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.NegativeDiagramViewGap">
+        <Property name="diagram_view_gap">
+            <Value>-1</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.InvalidDiagramViewCache">
+        <Property name="diagram_view_cache">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.InvalidZoomRotateIncrement">
+        <Property name="zoom_rotate_increment">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.InvalidZoomInActionNamespace">
+        <Property name="zoom_in_action_namespace">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.InvalidZoomOutActionNamespace">
+        <Property name="zoom_out_action_namespace">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.DiagramViewer.InvalidCloseTabActionNamespace">
+        <Property name="close_tab_action_namespace">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+
+    <Config name="failuretests.InvalidTabShortenedTitleMaxLength">
+        <Property name="tab_shortened_title_max_length">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.ZeroTabShortenedTitleMaxLength">
+        <Property name="tab_shortened_title_max_length">
+            <Value>0</Value>
+        </Property>
+    </Config>
+    <Config name="failuretests.NegativeTabShortenedTitleMaxLength">
+        <Property name="tab_shortened_title_max_length">
+            <Value>-1</Value>
+        </Property>
+    </Config>
+    <Config name="com.topcoder.gui.diagramviewer.DiagramViewer">
+        <Property name="object_factory_namespace">
+            <Value>com.topcoder.gui.diagramviewer.ObjectFactory</Value>
+        </Property>
+        <Property name="grid_size">
+            <Value>10</Value>
+        </Property>
+        <Property name="max_open_tabs">
+            <Value>5</Value>
+        </Property>
+        <Property name="background_grid_visibility">
+            <Value>true</Value>
+        </Property>
+        <Property name="tab_title_displayed_in_full_version">
+            <Value>false</Value>
+        </Property>
+        <Property name="tab_shortened_title_max_length">
+            <Value>10</Value>
+        </Property>
+        <Property name="diagram_view_background_color">
+            <Value>FE01A9</Value>
+        </Property>
+        <Property name="grid_renderer">
+            <Value>gridRenderer</Value>
+        </Property>
+        <Property name="diagram_view_gap">
+            <Value>50</Value>
+        </Property>
+        <Property name="diagram_view_cache">
+            <Value>viewCache</Value>
+        </Property>
+        <Property name="zoom_rotate_increment">
+            <Value>5</Value>
+        </Property>
+        <Property name="zoom_in_action_namespace">
+            <Value>com.topcoder.gui.diagramviewer.ZoomInAction</Value>
+        </Property>
+        <Property name="zoom_out_action_namespace">
+            <Value>com.topcoder.gui.diagramviewer.ZoomOutAction</Value>
+        </Property>
+        <Property name="close_tab_action_namespace">
+            <Value>com.topcoder.gui.diagramviewer.CloseTabAction</Value>
+        </Property>
+    </Config>
+
+<!-- Configure the Zoom In Button -->
+    <Config name="com.topcoder.gui.diagramviewer.ZoomInAction">
+        <Property name="name">
+            <Value>Zoom in</Value>
+        </Property>
+        <Property name="icon">
+            <Value>test_files/failure/zoomin.icon</Value>
+        </Property>
+        <Property name="increment">
+            <Value>10</Value>
+        </Property>
+    </Config>
+
+<!-- Configure the Zoom Out Button -->
+    <Config name="com.topcoder.gui.diagramviewer.ZoomOutAction">
+        <Property name="name">
+            <Value>Zoom out</Value>
+        </Property>
+        <Property name="icon">
+            <Value>test_files/failure/zoomout.icon</Value>
+        </Property>
+        <Property name="increment">
+            <Value>-10</Value>
+        </Property>
+    </Config>
+
+<!-- Configure the Close Tab Button -->
+    <Config name="com.topcoder.gui.diagramviewer.CloseTabAction">
+        <Property name="name">
+            <Value>Close tab</Value>
+        </Property>
+        <Property name="icon">
+            <Value>test_files/failure/close.icon</Value>
+        </Property>
+    </Config>
+
+
+    <Config name="failuretests.ZoomAction.InvalidIncrement">
+        <Property name="increment">
+            <Value>One</Value>
+        </Property>
+    </Config>
+
+<!-- Configure the ObjectFactory -->
+    <Config name="com.topcoder.gui.diagramviewer.ObjectFactory">
+        <Property name="viewCache">
+            <Property name="type">
+            <Value>com.topcoder.gui.diagramviewer.failuretests.MockCache</Value>
+            </Property>
+        </Property>
+        <Property name="gridRenderer">
+            <Property name="type">
+            <Value>com.topcoder.gui.diagramviewer.gridrenderers.SimpleGridRenderer</Value>
+            </Property>
+            <Property name="params">
+              <Property name="param1">
+                <Property name="type">
+                  <Value>int</Value>
+                </Property>
+                <Property name="value">
+                  <Value>2</Value>
+                </Property>
+              </Property>
+            </Property>
+        </Property>
+    </Config>
+</CMConfig>

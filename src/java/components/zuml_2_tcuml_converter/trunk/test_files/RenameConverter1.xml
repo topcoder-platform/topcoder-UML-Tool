@@ -1,0 +1,6 @@
+<CMConfig>
+    <Config name="com.topcoder.umltool.xmiconverters.poseidon5">
+        <Property name="ToRenameNames">
+        </Property>
+    </Config>
+</CMConfig>

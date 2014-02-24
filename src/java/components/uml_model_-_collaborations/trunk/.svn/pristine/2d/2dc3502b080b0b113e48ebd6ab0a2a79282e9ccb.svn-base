@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=UML Model - Collaborations
+component.distfilename=uml_model_-_collaborations
+component.package=com.topcoder.uml.model.collaborations
+component.packagedir=com/topcoder/uml/model/collaborations
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

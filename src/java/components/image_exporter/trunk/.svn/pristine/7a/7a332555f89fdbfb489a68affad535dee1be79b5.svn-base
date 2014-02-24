@@ -1,0 +1,72 @@
+<CMConfig>
+    <Config name="com.topcoder.swing.imageexporter">
+        <Property name="exportersMap">
+            <Value>myExporter</Value>
+        </Property>
+
+        <Property name="jComponentVisibleMaker">
+            <Value>myVisibleMaker</Value>
+        </Property>
+
+        <Property name="objectFactoryNamespace">
+            <Value>ObjectFactoryForExporter</Value>
+        </Property>
+    </Config>
+
+    <Config name="ObjectFactoryForExporter">
+        <Property name="myExporter">
+            <Property name="type">
+                <Value>com.topcoder.swing.imageexporter.ImageManipulationImageExporter</Value>
+            </Property>
+        </Property>
+
+        <Property name="myVisibleMaker">
+            <Property name="type">
+                <Value>com.topcoder.swing.imageexporter.DefaultVisibleMaker</Value>
+            </Property>
+        </Property>
+    </Config>
+
+    <Config name="CustomImageExporter">
+        <Property name="exportersMap">
+            <Value>myExporter</Value>
+        </Property>
+
+        <Property name="jComponentVisibleMaker">
+            <Value>myVisibleMaker</Value>
+        </Property>
+
+        <Property name="objectFactoryNamespace">
+            <Value>ObjectFactoryForExporter</Value>
+        </Property>
+    </Config>
+
+    <Config name="EmptyImageExporter"/>
+
+    <Config name="ImageManipulationImageExporterProperties">
+        <Property name="imageType">
+            <Value>TYPE_INT_RGB</Value>
+        </Property>
+
+        <Property name="renderingHints">
+            <Value>KEY_FRACTIONALMETRICS,VALUE_FRACTIONALMETRICS_ON</Value>
+            <Value>KEY_ANTIALIASING,VALUE_ANTIALIAS_ON</Value>
+        </Property>
+
+        <Property name="encodersMap">
+            <Value>my_format,myFormat</Value>
+        </Property>
+
+        <Property name="objectFactoryNamespace">
+            <Value>ObjectFactoryForManipulationEncoder</Value>
+        </Property>
+    </Config>
+
+    <Config name="ObjectFactoryForManipulationEncoder">
+        <Property name="myFormat">
+            <Property name="type">
+                <Value>com.topcoder.util.image.manipulation.encoder.GIFImageEncoder</Value>
+            </Property>
+        </Property>
+    </Config>
+</CMConfig>

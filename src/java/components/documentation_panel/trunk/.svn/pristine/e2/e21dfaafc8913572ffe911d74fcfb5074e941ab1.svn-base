@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<!-- File containing sample configuration details for use with
+ the Documentation Panel component -->
+    
+<CMConfig>
+
+<!-- default documentation editor namespace -->
+    <Config name="defaultDocEditor">
+        <!-- Set it to word wrap. Any other Value, 
+                    or no Value, results in no wordwrap -->
+        <Property name="wordwrap">
+            <Value>yes</Value>
+        </Property>
+    </Config> 
+           
+</CMConfig>

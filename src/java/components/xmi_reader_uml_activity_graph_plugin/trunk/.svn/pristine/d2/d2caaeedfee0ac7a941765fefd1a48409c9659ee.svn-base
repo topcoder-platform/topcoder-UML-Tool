@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<CMConfig>
+    <Property name="xml_to_element_mapping">
+    		<Value>UML:StateMachine,com.topcoder.uml.model.statemachines.StateMachineImpl</Value>
+    		<Value>UML:Transition,com.topcoder.uml.model.statemachines.TransitionImpl</Value>
+    		<Value>UML:Guard,com.topcoder.uml.model.statemachines.GuardImpl</Value>
+    		<Value>UML:Pseudostate,com.topcoder.uml.model.statemachines.PseudostateImpl</Value>
+    		<Value>UML:CompositeState,com.topcoder.uml.model.statemachines.CompositeStateImpl</Value>
+    		<Value>UML:SimpleState,com.topcoder.uml.model.statemachines.SimpleStateImpl</Value>
+    		<Value>UML:FinalState,com.topcoder.uml.model.statemachines.FinalStateImpl</Value>
+    		<Value>UML:ActivityGraph,com.topcoder.uml.model.activitygraphs.ActivityGraphImpl</Value>
+    		<Value>UML:ActionState,com.topcoder.uml.model.activitygraphs.ActionStateImpl</Value>
+    		<Value>UML:CallState,com.topcoder.uml.model.activitygraphs.CallStateImpl</Value>
+    		<Value>UML:ObjectFlowState,com.topcoder.uml.model.activitygraphs.ObjectFlowStateImpl</Value>
+    </Property>
+</CMConfig>

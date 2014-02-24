@@ -1,0 +1,528 @@
+{\rtf1\ansi\ansicpg936\uc2 \deff28\deflang1033\deflangfe2052{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f17\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}\'cb\'ce\'cc\'e5{\*\falt SimSun};}{\f27\fswiss\fcharset134\fprq2{\*\panose 020b0604020202020204}Arial Unicode MS;}
+{\f28\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Nimbus Roman No9 L{\*\falt Times New Roman};}{\f29\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Nimbus Sans L{\*\falt Arial};}
+{\f30\fnil\fcharset2\fprq0{\*\panose 00000000000000000000}StarSymbol{\*\falt Arial Unicode MS};}{\f31\fnil\fcharset0\fprq2{\*\panose 00000000000000000000}Lucidasans;}{\f32\fswiss\fcharset134\fprq2{\*\panose 020b0604020202020204}@Arial Unicode MS;}
+{\f33\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}@\'cb\'ce\'cc\'e5;}{\f143\froman\fcharset238\fprq2 Times New Roman CE;}{\f144\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f146\froman\fcharset161\fprq2 Times New Roman Greek;}
+{\f147\froman\fcharset162\fprq2 Times New Roman Tur;}{\f148\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f149\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f150\froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\f151\fswiss\fcharset238\fprq2 Arial CE;}{\f152\fswiss\fcharset204\fprq2 Arial Cyr;}{\f154\fswiss\fcharset161\fprq2 Arial Greek;}{\f155\fswiss\fcharset162\fprq2 Arial Tur;}{\f156\fswiss\fcharset177\fprq2 Arial (Hebrew);}
+{\f157\fswiss\fcharset178\fprq2 Arial (Arabic);}{\f158\fswiss\fcharset186\fprq2 Arial Baltic;}{\f159\fmodern\fcharset238\fprq1 Courier New CE;}{\f160\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f162\fmodern\fcharset161\fprq1 Courier New Greek;}
+{\f163\fmodern\fcharset162\fprq1 Courier New Tur;}{\f164\fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f165\fmodern\fcharset178\fprq1 Courier New (Arabic);}{\f166\fmodern\fcharset186\fprq1 Courier New Baltic;}
+{\f281\fnil\fcharset0\fprq2 SimSun Western{\*\falt SimSun};}{\f361\fswiss\fcharset0\fprq2 Arial Unicode MS Western;}{\f359\fswiss\fcharset238\fprq2 Arial Unicode MS CE;}{\f360\fswiss\fcharset204\fprq2 Arial Unicode MS Cyr;}
+{\f362\fswiss\fcharset161\fprq2 Arial Unicode MS Greek;}{\f363\fswiss\fcharset162\fprq2 Arial Unicode MS Tur;}{\f364\fswiss\fcharset177\fprq2 Arial Unicode MS (Hebrew);}{\f365\fswiss\fcharset178\fprq2 Arial Unicode MS (Arabic);}
+{\f366\fswiss\fcharset186\fprq2 Arial Unicode MS Baltic;}{\f401\fswiss\fcharset0\fprq2 @Arial Unicode MS Western;}{\f399\fswiss\fcharset238\fprq2 @Arial Unicode MS CE;}{\f400\fswiss\fcharset204\fprq2 @Arial Unicode MS Cyr;}
+{\f402\fswiss\fcharset161\fprq2 @Arial Unicode MS Greek;}{\f403\fswiss\fcharset162\fprq2 @Arial Unicode MS Tur;}{\f404\fswiss\fcharset177\fprq2 @Arial Unicode MS (Hebrew);}{\f405\fswiss\fcharset178\fprq2 @Arial Unicode MS (Arabic);}
+{\f406\fswiss\fcharset186\fprq2 @Arial Unicode MS Baltic;}{\f409\fnil\fcharset0\fprq2 @\'cb\'ce\'cc\'e5 Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;
+\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\ql \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 \fs24\lang1040\langfe1040\loch\f28\hich\af28\dbch\af17\cgrid\langnp1040\langfenp1040 \snext0 Normal;}{\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\tx360\aspalpha\faauto\outlinelevel0\rin0\lin0\itap0 \b\fs24\lang1040\langfe1040\loch\f1\hich\af1\dbch\af27\cgrid\langnp1040\langfenp1040 \sbasedon0 \snext0 heading 1;}{\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\tx360\aspalpha\faauto\outlinelevel2\rin0\lin0\itap0 \i\fs20\lang1040\langfe1040\loch\f1\hich\af1\dbch\af27\cgrid\langnp1040\langfenp1040 \sbasedon1 \snext0 heading 3;}{\*\cs10 \additive Default Paragraph Font;}{
+\s15\ql \li0\ri0\sb240\sa120\keepn\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 \fs28\lang1040\langfe1040\loch\f29\hich\af29\dbch\af17\cgrid\langnp1040\langfenp1040 \sbasedon0 \snext16 Heading;}{
+\s16\ql \li0\ri0\sa120\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 \fs24\lang1040\langfe1040\loch\f28\hich\af28\dbch\af17\cgrid\langnp1040\langfenp1040 \sbasedon0 \snext16 Body Text;}{\s17\ql \li0\ri0\sa120\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 
+\fs24\lang1040\langfe1040\loch\f31\hich\af28\dbch\af0\cgrid\langnp1040\langfenp1040 \sbasedon16 \snext17 List;}{\s18\ql \li0\ri0\sb120\sa120\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 
+\i\fs24\lang1040\langfe1040\loch\f28\hich\af28\dbch\af17\cgrid\langnp1040\langfenp1040 \sbasedon0 \snext18 caption;}{\s19\ql \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 
+\fs24\lang1040\langfe1040\loch\f31\hich\af28\dbch\af0\cgrid\langnp1040\langfenp1040 \sbasedon0 \snext19 Index;}{\s20\ql \li0\ri0\sb240\sa120\keepn\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 
+\fs28\lang1040\langfe1040\loch\f29\hich\af29\dbch\af17\cgrid\langnp1040\langfenp1040 \sbasedon0 \snext16 Heading1;}{\s21\ql \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 
+\fs24\lang1040\langfe1040\loch\f31\hich\af28\dbch\af0\cgrid\langnp1040\langfenp1040 \sbasedon0 \snext21 Index1;}{\*\cs22 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 2 1;}{\*\cs23 \additive 
+\f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 2 2;}{\*\cs24 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 2 3;}{\*\cs25 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 2 4;}{\*\cs26 \additive 
+\f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 2 5;}{\*\cs27 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 2 6;}{\*\cs28 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 2 7;}{\*\cs29 \additive 
+\f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 2 8;}{\*\cs30 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 2 9;}{\*\cs31 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 2 10;}{\*\cs32 \additive 
+\f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 3 1;}{\*\cs33 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 3 2;}{\*\cs34 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 3 3;}{\*\cs35 \additive 
+\f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 3 4;}{\*\cs36 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 3 5;}{\*\cs37 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 3 6;}{\*\cs38 \additive 
+\f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 3 7;}{\*\cs39 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 3 8;}{\*\cs40 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 3 9;}{\*\cs41 \additive 
+\f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 3 10;}{\*\cs42 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 4 1;}{\*\cs43 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 4 2;}{\*\cs44 \additive 
+\f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 4 3;}{\*\cs45 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 4 4;}{\*\cs46 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 4 5;}{\*\cs47 \additive 
+\f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 4 6;}{\*\cs48 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 4 7;}{\*\cs49 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 4 8;}{\*\cs50 \additive 
+\f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 4 9;}{\*\cs51 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 4 10;}{\*\cs52 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 5 1;}{\*\cs53 \additive 
+\f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 5 2;}{\*\cs54 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 5 3;}{\*\cs55 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 5 4;}{\*\cs56 \additive 
+\f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 5 5;}{\*\cs57 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 5 6;}{\*\cs58 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 5 7;}{\*\cs59 \additive 
+\f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 5 8;}{\*\cs60 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 5 9;}{\*\cs61 \additive \f30\fs18\lang1040\langfe255\langnp1040\langfenp255 RTF_Num 5 10;}{\*\cs62 \additive 
+\lang1040\langfe1040\langnp1040\langfenp1040 Numbering Symbols;}{\*\cs63 \additive \f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 Bullet Symbols;}{\*\cs64 \additive \ul\cf9\lang1040\langfe1040\langnp1040\langfenp1040 Internet link;}}{\*\listtable
+{\list\listtemplateid1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f1;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li720 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f0;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1080 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f6;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f1;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'01\'a1\'f0;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01\'a1\'f6;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\'a1\'f1;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f0;}{\levelnumbers;}
+\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f6;}{\levelnumbers;}\f30\fs18\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3600 }{\listname RTF_Num 5;}\listid1}{\list\listtemplateid2{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\'a1\'f1;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f0;}{\levelnumbers;}
+\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f6;}{\levelnumbers;}\f30\fs18\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f1;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1 \fi-360\li1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f0;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 
+\fi-360\li2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f6;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2520 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f1;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2880 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f0;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f6;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3600 }{\listname RTF_Num 4;}\listid2}{\list\listtemplateid3{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f1;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f0;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'01\'a1\'f6;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01\'a1\'f1;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\'a1\'f0;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f6;}{\levelnumbers;}
+\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f1;}{\levelnumbers;}\f30\fs18\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f0;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1 \fi-360\li3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f6;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 
+\fi-360\li3600 }{\listname RTF_Num 3;}\listid3}{\list\listtemplateid4{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f1;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1 \fi-360\li720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f0;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 
+\fi-360\li1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f6;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1440 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f1;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1800 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f0;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'a1\'f6;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'01\'a1\'f1;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01\'a1\'f0;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\'a1\'f6;}{\levelnumbers;}\f30\fs18\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3600 }{\listname RTF_Num 2;}\listid4}}{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}
+{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}{\info{\author IBM}{\operator VIVID}{\creatim\yr2006\mo10\dy30\hr14\min18}{\revtim\yr2006\mo11\dy28\hr17\min48}{\printim\yr2113\mo1\dy1}{\version5}{\edmins23}
+{\nofpages8}{\nofwords2758}{\nofchars15725}{\*\company IBM}{\nofcharsws0}{\vern8249}}\paperw11905\paperh16837\margl1134\margr1134\margt1134\margb1134\gutter0 
+\deftab709\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale100\nolnhtadjtbl \fet0\sectd 
+\sbknone\linex0\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta \dbch .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta \dbch .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta \dbch .}}{\*\pnseclvl4
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta \dbch )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl7
+\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb \dbch (}{\pntxta \dbch )}}\pard\plain 
+\qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 \fs24\lang1040\langfe1040\loch\af28\hich\af28\dbch\af17\cgrid\langnp1040\langfenp1040 {\b\f1\fs28\ul \hich\af1\dbch\af17\loch\f1 UML Model Core 1.0 Component Specification
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\b\f1 \hich\af1\dbch\af17\loch\f1 1.\tab Design
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 
+The Unified Modeling Language (UML hereafter) is a language for specifying, visualizing, constructing and documenting the artifacts of software systems, as well as for business modeling. The UML is a standard maintained by the OMG (Object Management Group
+\hich\af1\dbch\af17\loch\f1 )\hich\af1\dbch\af17\loch\f1 , and the version 1.4.2 has been adopted by ISO (reference ISO/IEC 19501:2005).
+\par }{\f1 
+\par }{\f1\fs20 \hich\af1\dbch\af17\loch\f1 A model is a simplified, abstract (or actual) representation of a system from a particular point of view. Models are used in countless contexts; software engineering is one of\hich\af1\dbch\af17\loch\f1 
+ them. Speaking in a strictly formal manner, UML defines a }{\i\f1\fs20 \hich\af1\dbch\af17\loch\f1 metamodel}{\f1\fs20 \hich\af1\dbch\af17\loch\f1 
+, a model that can be used to define other models; as stated above, the main target of UML are software-intensive systems and business processes, even if it can be used in a wide variety o\hich\af1\dbch\af17\loch\f1 f other systems.
+\par }{\f1 
+\par }{\f1\fs20 \hich\af1\dbch\af17\loch\f1 The UML metamodel contains a set of }{\i\f1\fs20 \hich\af1\dbch\af17\loch\f1 metaclasses}{\f1\fs20 \hich\af1\dbch\af17\loch\f1  (classes whose instances are classes theirselves) that are grouped in }{\i\f1\fs20 
+\hich\af1\dbch\af17\loch\f1 packages}{\f1\fs20 \hich\af1\dbch\af17\loch\f1 \hich\f1 , whose members are logically homogeneous to manage language complexity. The \'93\loch\f1 \hich\f1 Foundation\'94\loch\f1  package specifies the 
+\hich\af1\dbch\af17\loch\f1 \hich\f1 static structure of models, that is, it contains the metaclasses whose instances are the fundamental entities building up UML models (attributes, methods, and so on). The \'93\loch\f1 \hich\f1 Core\'94\loch\f1 
+ subpackage defines the very basic abstract and concrete metamodel constructs \hich\af1\dbch\af17\loch\f1 n\hich\af1\dbch\af17\loch\f1 eeded for the development of object models.
+\par }{\f1 
+\par }{\f1\fs20 \hich\af1\dbch\af17\loch\f1 \hich\f1 This component is a consistent set of Java classes that represent the great part of the metaclasses contained in the \'93\loch\f1 \hich\f1 Core\'94\loch\f1 \hich\f1 
+ package of the UML 1.5 Specification. Not all metaclasses and attributes of the \'93\loch\f1 \hich\f1 Core\'94\loch\f1  \hich\af1\dbch\af17\loch\f1 
+package are covered in this design; the less used features are left to be implemented by a future version of the component. This component is part of a greater group of components, the UML Model, that provides representations of the great part of the UML 
+\hich\af1\dbch\af17\loch\f1 m\hich\af1\dbch\af17\loch\f1 etamodel.
+\par }{\f1 
+\par }{\f1\fs20 \hich\af1\dbch\af17\loch\f1 \hich\f1 This component, along with the rest of the UML Model \'93\loch\f1 \hich\f1 macrocomponent\'94\loch\f1 
+, can be easily used in a UML Tool that uses the MVC (Model-View-Controller) architecture pattern. In particular, this component is intended to be used mainly in the TopCoder U\hich\af1\dbch\af17\loch\f1 
+ML Tool, so it follows its Architecture requirements and documentation.
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 1.1\tab Industry Standards
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 UML 1.5
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 1.2\tab Design Patterns
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 No design pattern is used in this design.
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 1.3\tab Required Algorithms
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 Obviously, this component doesn't contain any algorithm. As s\hich\af1\dbch\af17\loch\f1 
+tated in the Design section, this component is intented to be only a }{\i\f1\fs20 \hich\af1\dbch\af17\loch\f1 representation}{\f1\fs20 \hich\af1\dbch\af17\loch\f1 
+ of the Core part of the UML metamodel. The main target of this component is to be included in a MVC application, so all the actions that are needed to manage the UML model \hich\af1\dbch\af17\loch\f1 should be implemented in the Controller.
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 1.4\tab Component Class Overview
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }{\i\f1\fs20 \hich\af1\dbch\af17\loch\f1 Interfaces
+\par }{\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 The following interfaces represent the metaclasses specified in the UML metamodel, package Foundation/Core.
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 Element
+\par }\pard \qj \li1419\ri0\nowidctlpar\aspalpha\faauto\rin0\lin1419\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 An element is an atomic constituent of a model.
+\par \hich\af1\dbch\af17\loch\f1 In the metamodel, an Element is the top metaclass in the metaclass hierarchy. It has two subclasses: ModelElement and PresentationElement.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 ModelElement
+\par }\pard \qj \li1419\ri0\nowidctlpar\aspalpha\faauto\rin0\lin1419\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 A model element is an element that is an abstraction drawn from the system being modeled. Contrast with\hich\af1\dbch\af17\loch\f1 
+ view element, which is an element whose purpose is to provide a presentation of information for human comprehension.
+\par \hich\af1\dbch\af17\loch\f1 In the metamodel, a ModelElement is a named entity in a Model. It is the base for all modeling metaclasses in the UML. All other modeling \hich\af1\dbch\af17\loch\f1 
+metaclasses are either direct or indirect subclasses of ModelElement.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 Feature
+\par }\pard \qj \li1419\ri0\nowidctlpar\aspalpha\faauto\rin0\lin1419\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 A feature is a property, like operation or attribute, which is encapsulated within a Classifier.
+\par \hich\af1\dbch\af17\loch\f1 In the metamodel, a Feature declares a behavioral or structural characteristic o\hich\af1\dbch\af17\loch\f1 f an Instance of a Classifier or of the Classifier itself.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 Namespace
+\par }\pard \qj \li1419\ri0\nowidctlpar\aspalpha\faauto\rin0\lin1419\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 A namespace is a part of a model that contains a set of ModelElements each of whose names designates a unique element within the namespace.
+\par \hich\af1\dbch\af17\loch\f1 In the metamodel, a Namespace is a ModelElemen\hich\af1\dbch\af17\loch\f1 
+t that can own other ModelElements, like Associations and Classifiers. The name of each owned ModelElement must be unique within the Namespace. Moreover, each contained ModelElement is owned by at most one Namespace. The concrete subclasses of Namespace h
+\hich\af1\dbch\af17\loch\f1 a\hich\af1\dbch\af17\loch\f1 ve additional constraints on which kind of elements may be contained.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 GeneralizableElement
+\par }\pard \qj \li1419\ri0\nowidctlpar\aspalpha\faauto\rin0\lin1419\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 A generalizable element is a model element that may participate in a generalization relationship.
+\par \hich\af1\dbch\af17\loch\f1 In the metamodel, a GeneralizableElement can be a generalization o\hich\af1\dbch\af17\loch\f1 f other GeneralizableElements
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 Parameter
+\par }\pard \qj \li1419\ri0\nowidctlpar\aspalpha\faauto\rin0\lin1419\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 
+A parameter is an unbound variable that can be changed, passed, or returned. A parameter may include a name, type, and direction of communication. Parameters are used in the specification of operations, messages and\hich\af1\dbch\af17\loch\f1 
+ events, templates, etc.
+\par \hich\af1\dbch\af17\loch\f1 In the metamodel, a Parameter is a declaration of an argument to be passed to, or returned from, an Operation, a Signal, etc.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 StructuralFeature
+\par }\pard \qj \li1413\ri0\nowidctlpar\aspalpha\faauto\rin0\lin1413\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 A structural feature \hich\af1\dbch\af17\loch\f1 
+refers to a static feature of a model element, such as an attribute. In the metamodel, a StructuralFeature declares a structural aspect of an Instance of a Classifier, such as an Attribute. For example, it specifies the multiplicity and changeability of t
+\hich\af1\dbch\af17\loch\f1 h\hich\af1\dbch\af17\loch\f1 e StructuralFeature. StructuralFeature is an abstract metaclass.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 BehavioralFeature
+\par }\pard \qj \li1419\ri0\nowidctlpar\aspalpha\faauto\rin0\lin1419\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 A behavioral feature refers to a dynamic feature of a model element, such as an operation or method.
+\par \hich\af1\dbch\af17\loch\f1 In the metamodel, a BehavioralFeature specifies a behavioral aspect of \hich\af1\dbch\af17\loch\f1 
+a Classifier. All different kinds of behavioral aspects of a Classifier, such as Operation and Method, are subclasses of BehavioralFeature.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 Classifier
+\par }\pard \qj \li1419\ri0\nowidctlpar\aspalpha\faauto\rin0\lin1419\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 A classifier is an element that describes behavioral and structural features; it comes in several specif\hich\af1\dbch\af17\loch\f1 
+ic forms, including class, data type, interface, component, artifact, and others that are defined in other metamodel packages.
+\par \hich\af1\dbch\af17\loch\f1 In the metamodel, a Classifier declares a collection of Features, such as Attributes, Methods, and Operations. It has a name, whi\hich\af1\dbch\af17\loch\f1 ch is unique in the Namespace enclosing the Classifier.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 Attribute
+\par }\pard \qj \li1431\ri0\nowidctlpar\aspalpha\faauto\rin0\lin1431\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 An attribute is a named slot within a classifier that describes a range of values that instances of the classifier may hold.
+\par \hich\af1\dbch\af17\loch\f1 In the metamodel, an Attribute is a named piece of the declared \hich\af1\dbch\af17\loch\f1 state of a Classifier, particularly the range of values that Instances of the Classifier may hold.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 Operation
+\par }\pard \qj \li1419\ri0\nowidctlpar\aspalpha\faauto\rin0\lin1419\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 An operation is a service that can be requested from an object to effect behavior. An operation has a signature, which describes the actual parame
+\hich\af1\dbch\af17\loch\f1 ters that are possible (including possible return values).
+\par \hich\af1\dbch\af17\loch\f1 In the metamodel, an Operation is a BehavioralFeature that can be applied to the Instances of the Classifier that contains the Operation.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 Method
+\par }\pard \qj \li1419\ri0\nowidctlpar\aspalpha\faauto\rin0\lin1419\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 A method is the implementation of an operation. It \hich\af1\dbch\af17\loch\f1 
+specifies the algorithm or procedure that effects the results of an operation.
+\par \hich\af1\dbch\af17\loch\f1 In the metamodel, a Method is a declaration of a named piece of behavior in a Classifier and realizes one (directly) or a set (indirectly) of Operations of the Classifier.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }{\i\f1\fs20 \hich\af1\dbch\af17\loch\f1 Classes
+\par }{\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 
+The following are the classes included in the component. Each one of them (except ClassifierAbstractImpl) follows the same pattern: the class named <Name>Impl or <Name>AbstractImpl is a simple, java.util \hich\f1 \endash \loch\f1 
+ based implementation of the <Name> interf\hich\af1\dbch\af17\loch\f1 ace (java.util \hich\f1 \endash \loch\f1 
+ based means it uses concrete collection classes defined in that package: ArrayList for unordered collections and LinkedList for ordered collections). Any method in any class don't require more documentation or details than the one include
+\hich\af1\dbch\af17\loch\f1 d\hich\af1\dbch\af17\loch\f1  in the corresponding interface.
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 ElementAbstractImpl
+\par \hich\af1\dbch\af17\loch\f1 ModelElementAbstractImpl
+\par \hich\af1\dbch\af17\loch\f1 FeatureAbstractImpl
+\par \hich\af1\dbch\af17\loch\f1 NamespaceAbstractImpl
+\par \hich\af1\dbch\af17\loch\f1 GeneralizableElementAbstractImpl
+\par \hich\af1\dbch\af17\loch\f1 ParameterImpl
+\par \hich\af1\dbch\af17\loch\f1 StructuralFeatureAbstractImpl
+\par \hich\af1\dbch\af17\loch\f1 BehavioralFeatureAbstractImpl
+\par \hich\af1\dbch\af17\loch\f1 AttributeImpl
+\par \hich\af1\dbch\af17\loch\f1 OperationImpl
+\par \hich\af1\dbch\af17\loch\f1 MethodImpl
+\par }{\f1 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 ClassifierAbstractImpl
+\par }\pard \qj \li1419\ri0\nowidctlpar\aspalpha\faauto\rin0\lin1419\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 
+It is, like the other classes, a simple implementation of the Classifier interface based on the java.util concrete collection classes. However, some entities defined in the UML metamodel make use of multiple inheritance, \hich\af1\dbch\af17\loch\f1 
+and Classifier is one of them: it is a subclass of both Namespace and GeneralizableElement. Obviously ClassifierAbstractImpl cannot be subclass of both NamespaceAbstractImpl and GeneralizableAbstractImpl, so it just inherits the second one and reimplement
+\hich\af1\dbch\af17\loch\f1 s\hich\af1\dbch\af17\loch\f1  all the methods of the first one.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 1.5\tab Component Exception Definitions
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 
+This component doesn't declare any custom exception, since it doesn't contain any non-trivial code. That is, every concrete (i.e. implemented) method in th\hich\af1\dbch\af17\loch\f1 
+is component simply sets or gets an attribute, or calls a corresponding method in an attribute collection.
+\par }{\f1 
+\par }{\f1\fs20 \hich\af1\dbch\af17\loch\f1 Anyway, some error checking is done in certain methods. Non-collection attributes can be set to any value (either null) so setters and getters don't\hich\af1\dbch\af17\loch\f1 
+ perform any error checking; however, null references can't be inserted in a collection attribute (either ordered or unordered), so an IllegalArgumentException is thrown in the case. Additionally, when accessing to a member of an ordered collection by mea
+\hich\af1\dbch\af17\loch\f1 n\hich\af1\dbch\af17\loch\f1  of the index, the validity of such an index is checked, and an IndexOutOfBoundsException is thrown if it is below zero or greater or equal than the number of elements in the collection.
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }{\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 1.6\tab Thread Safety
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 The component is not thread safe.
+\par }{\f1 
+\par }{\f1\fs20 \hich\af1\dbch\af17\loch\f1 This component\hich\af1\dbch\af17\loch\f1 
+'s purpose is to represent (part of) an UML Model, and its main use is to be included in a UML Tool using MVC, as the Model part. It's very unlikely for such an application to require complex synchronization techniques: in the common use situations, it do
+\hich\af1\dbch\af17\loch\f1 e\hich\af1\dbch\af17\loch\f1 
+sn't even need synchronization (i.e. it is a single-threaded application) or it has got one writing thread and multiple reading threads (for example in a  GUI application). In the latter case, synchronization could (and should) be accomplished externally 
+\hich\af1\dbch\af17\loch\f1 t\hich\af1\dbch\af17\loch\f1 o this component, considering the model as a whole entity to preserve consistency. So, this component doesn't provide synchronization at all to avoid performance hits.
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }\pard \qj \li12\ri0\nowidctlpar\aspalpha\faauto\rin0\lin12\itap0 {\b\f1 \hich\af1\dbch\af17\loch\f1 2.\tab Environment Requirements
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li12\ri0\nowidctlpar\aspalpha\faauto\rin0\lin12\itap0 {\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 2.1\tab Environment
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}}\pard \qj \fi-360\li1147\ri0\nowidctlpar\aspalpha\faauto\ls1\rin0\lin1147\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 
+Development language: Java 1.5
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}\hich\af1\dbch\af17\loch\f1 Compile\hich\af1\dbch\af17\loch\f1  target: Java 1.5
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li12\ri0\nowidctlpar\aspalpha\faauto\rin0\lin12\itap0 {\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 2.2\tab TopCoder Software Components
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 This component depends from a set of other components of the UML Model macrocomponent.
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}}\pard \qj \fi-360\li1147\ri0\nowidctlpar\aspalpha\faauto\ls2\rin0\lin1147\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 
+UML Model - Datatypes 1.0
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}\hich\af1\dbch\af17\loch\f1 UML Model - Core Extension Mechanisms 1.0
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}\hich\af1\dbch\af17\loch\f1 UML Model - Core Dependencies 1.0
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}\hich\af1\dbch\af17\loch\f1 UML M\hich\af1\dbch\af17\loch\f1 odel - Core Auxiliary Elements 1.0
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}\hich\af1\dbch\af17\loch\f1 UML Model - Model Management 1.0
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}\hich\af1\dbch\af17\loch\f1 UML Model - State Machines 1.0
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}\hich\af1\dbch\af17\loch\f1 UML Model - Core Relationships 1.0
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}\hich\af1\dbch\af17\loch\f1 UML Model - \hich\af1\dbch\af17\loch\f1 Acitivity Graph\hich\af1\dbch\af17\loch\f1  1.0
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}\hich\af1\dbch\af17\loch\f1 UML Model - \hich\af1\dbch\af17\loch\f1 Common Behavior\hich\af1\dbch\af17\loch\f1  1.0
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li720\ri0\nowidctlpar\aspalpha\faauto\rin0\lin720\itap0 {\i\f1\fs20 \hich\af1\dbch\af17\loch\f1 NOTE: The default location for TopCoder Software component jars is ../lib/tcs/COMPONENT_NAME/COMPONENT_VERSI\hich\af1\dbch\af17\loch\f1 
+ON relative to the component installation.}{\i\f1\fs20\cf1 \hich\af1\dbch\af17\loch\f1   Setting the tcs_libdir property in topcoder_global.properties will overwrite this default location.}{\i\f1\fs20 
+\par }{\i\f1\fs20\cf1 
+\par }\pard \qj \li12\ri0\nowidctlpar\aspalpha\faauto\rin0\lin12\itap0 {\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 2.3\tab Third Party Components
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 None.
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }\pard\plain \s3\qj \li720\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx720\aspalpha\faauto\outlinelevel2\rin0\lin720\itap0 \i\fs20\lang1040\langfe1040\loch\af1\hich\af1\dbch\af27\cgrid\langnp1040\langfenp1040 {\cf1 \hich\af1\dbch\af27\loch\f1 
+NOTE: The default location for 3}{\cf1\up4 \hich\af1\dbch\af27\loch\f1 rd}{\cf1 \hich\af1\dbch\af27\loch\f1  party packages is ../lib relative to this\hich\af1\dbch\af27\loch\f1 
+ component installation.  Setting the ext_libdir property in topcoder_global.properties will overwrite this default location.
+\par }\pard\plain \qj \li720\ri0\nowidctlpar\tx720\aspalpha\faauto\rin0\lin720\itap0 \fs24\lang1040\langfe1040\loch\af28\hich\af28\dbch\af17\cgrid\langnp1040\langfenp1040 {\f1\fs20\cf1 
+\par }\pard \qj \li12\ri0\nowidctlpar\aspalpha\faauto\rin0\lin12\itap0 {\b\f1 \hich\af1\dbch\af17\loch\f1 3.\tab Installation and Configuration
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li12\ri0\nowidctlpar\aspalpha\faauto\rin0\lin12\itap0 {\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 3.1\tab Package Name
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 com.topcoder.uml.model.core
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }\pard \qj \li12\ri0\nowidctlpar\aspalpha\faauto\rin0\lin12\itap0 {\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 3.2\tab Configuration Parameters
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 None.
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }\pard \qj \li12\ri0\nowidctlpar\aspalpha\faauto\rin0\lin12\itap0 {\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 3.3\tab Depend\hich\af1\dbch\af17\loch\f1 encies Configuration
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}}\pard \qj \fi-360\li1147\ri0\nowidctlpar\aspalpha\faauto\ls3\rin0\lin1147\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 
+Install all the TCS components listed in section 2.2, TopCoder Software Components.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li12\ri0\nowidctlpar\aspalpha\faauto\rin0\lin12\itap0 {\b\f1 \hich\af1\dbch\af17\loch\f1 4.\tab Usage Notes
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li12\ri0\nowidctlpar\aspalpha\faauto\rin0\lin12\itap0 {\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 4.1\tab Required steps to test the component
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}}\pard \qj \fi-360\li1147\ri0\nowidctlpar\aspalpha\faauto\ls4\rin0\lin1147\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 
+Extract the component distribution.
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}\hich\af1\dbch\af17\loch\f1 Follow Dependencies Configuration.
+\par {\listtext\pard\plain\f30\fs18\lang1040\langfe1040\langnp1040\langfenp1040 \loch\af30\hich\af30\dbch\f17 \'a1\'f1\tab}\hich\af1\dbch\af17\loch\f1 Execute 'ant test' within the directory that the distribution was extracted to.
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li12\ri0\nowidctlpar\aspalpha\faauto\rin0\lin12\itap0 {\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 4.2\tab Required steps to use the component
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 None.
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }\pard \qj \li12\ri0\nowidctlpar\aspalpha\faauto\rin0\lin12\itap0 {\b\f1\fs20 \hich\af1\dbch\af17\loch\f1 4.3\tab Demo
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f2\fs16 \hich\af2\dbch\af17\loch\f2 /**
+\par \hich\af2\dbch\af17\loch\f2      * This class implements a Core interface, make it can save all AssociationEnds and Expressions.
+\par \hich\af2\dbch\af17\loch\f2      */
+\par \hich\af2\dbch\af17\loch\f2    \hich\af2\dbch\af17\loch\f2  private class RegisteringAttribute extends StructuralFeatureAbstractImpl implements Attribute \{
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * The value set.
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         private final Collection<Expression> values = new HashSet<Expression>();
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * The end set.
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         private final Collection<AssociationEnd> ends = new HashSet<AssociationEnd>();
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * Holds the initial value.
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         private Expression initialValue;
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * Holds t\hich\af2\dbch\af17\loch\f2 he association end.
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         private AssociationEnd associationEnd;
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * The default constructor.
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         public RegisteringAttribute() \{
+\par \hich\af2\dbch\af17\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * Sets the initial value.
+\par \hich\af2\dbch\af17\loch\f2          *
+\par \hich\af2\dbch\af17\loch\f2        \hich\af2\dbch\af17\loch\f2   * @param initialValue
+\par \hich\af2\dbch\af17\loch\f2          *            the initial value to set
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         public void setInitialValue(Expression initialValue) \{
+\par \hich\af2\dbch\af17\loch\f2             if (initialValue != null) \{
+\par \hich\af2\dbch\af17\loch\f2                 values.add(initialValue);
+\par \hich\af2\dbch\af17\loch\f2             \}
+\par \hich\af2\dbch\af17\loch\f2             this.initialValue = initialValue;
+\par \hich\af2\dbch\af17\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * Gets the initial value.
+\par \hich\af2\dbch\af17\loch\f2          *
+\par \hich\af2\dbch\af17\loch\f2          * @return the initial value
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         public Expression getInitialValue() \{
+\par \hich\af2\dbch\af17\loch\f2             return initialValue;
+\par \hich\af2\dbch\af17\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af17\loch\f2   \hich\af2\dbch\af17\loch\f2       /**
+\par \hich\af2\dbch\af17\loch\f2          * Sets the association end.
+\par \hich\af2\dbch\af17\loch\f2          *
+\par \hich\af2\dbch\af17\loch\f2          * @param associationEnd
+\par \hich\af2\dbch\af17\loch\f2          *            the association end to set
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         public void setAssociationEnd(AssociationEnd associationEnd) \{
+\par \hich\af2\dbch\af17\loch\f2             if (associationEnd !=\hich\af2\dbch\af17\loch\f2  null) \{
+\par \hich\af2\dbch\af17\loch\f2                 ends.add(associationEnd);
+\par \hich\af2\dbch\af17\loch\f2             \}
+\par \hich\af2\dbch\af17\loch\f2             this.associationEnd = associationEnd;
+\par \hich\af2\dbch\af17\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * Gets the association end.
+\par \hich\af2\dbch\af17\loch\f2          *
+\par \hich\af2\dbch\af17\loch\f2          * @return the association end
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         public AssociationEnd getAssociationEnd() \{
+\par \hich\af2\dbch\af17\loch\f2             return associationEnd;
+\par \hich\af2\dbch\af17\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * Gets all the initial values.
+\par \hich\af2\dbch\af17\loch\f2          *
+\par \hich\af2\dbch\af17\loch\f2          * @return all the initial values
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         public Collection<Expression> get\hich\af2\dbch\af17\loch\f2 AllInitialValues() \{
+\par \hich\af2\dbch\af17\loch\f2             return new HashSet<Expression>(values);
+\par \hich\af2\dbch\af17\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * Gets all the association ends.
+\par \hich\af2\dbch\af17\loch\f2          *
+\par \hich\af2\dbch\af17\loch\f2          * @return all the association ends
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         public Collection<AssociationEnd> getAllAss\hich\af2\dbch\af17\loch\f2 ociationEnds() \{
+\par \hich\af2\dbch\af17\loch\f2             return new HashSet<AssociationEnd>(ends);
+\par \hich\af2\dbch\af17\loch\f2         \}
+\par \hich\af2\dbch\af17\loch\f2     \}
+\par 
+\par \hich\af2\dbch\af17\loch\f2     /**
+\par \hich\af2\dbch\af17\loch\f2      * This class extends a Core class, it can't be created.
+\par \hich\af2\dbch\af17\loch\f2      */
+\par \hich\af2\dbch\af17\loch\f2     private class ImmutableNamespace extends NamespaceAbstractImpl \{
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * Creates an <code>ImmutableNamespace</code> instance.
+\par \hich\af2\dbch\af17\loch\f2          *
+\par \hich\af2\dbch\af17\loch\f2          * @param elements
+\par \hich\af2\dbch\af17\loch\f2          *            the elements the <code>ImmutableNamespace</code> instance will hold
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         public ImmutableNamespace(Collection<ModelEl\hich\af2\dbch\af17\loch\f2 ement> elements) \{
+\par \hich\af2\dbch\af17\loch\f2             Iterator<ModelElement> iter = elements.iterator();
+\par \hich\af2\dbch\af17\loch\f2             while (iter.hasNext()) \{
+\par \hich\af2\dbch\af17\loch\f2                 addOwnedElement(iter.next());
+\par \hich\af2\dbch\af17\loch\f2             \}
+\par \hich\af2\dbch\af17\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * Adds owned element.
+\par \hich\af2\dbch\af17\loch\f2          *
+\par \hich\af2\dbch\af17\loch\f2          * @\hich\af2\dbch\af17\loch\f2 param ownedElement
+\par \hich\af2\dbch\af17\loch\f2          *            the owned element to add
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         public void addOwnedElement(ModelElement ownedElement) \{
+\par \hich\af2\dbch\af17\loch\f2             throw new UnsupportedOperationException("Addition of elements not supported");
+\par \hich\af2\dbch\af17\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * Removes owned element.
+\par \hich\af2\dbch\af17\loch\f2          *
+\par \hich\af2\dbch\af17\loch\f2          * @param ownedElement
+\par \hich\af2\dbch\af17\loch\f2          *            the owned element to removed
+\par \hich\af2\dbch\af17\loch\f2          * @return true if removed, otherwise false
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         public boolean removeOwnedElement(ModelElement ownedElem\hich\af2\dbch\af17\loch\f2 ent) \{
+\par \hich\af2\dbch\af17\loch\f2             throw new UnsupportedOperationException("Removal of elements not supported");
+\par \hich\af2\dbch\af17\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af17\loch\f2         /**
+\par \hich\af2\dbch\af17\loch\f2          * Clears owned elements.
+\par \hich\af2\dbch\af17\loch\f2          */
+\par \hich\af2\dbch\af17\loch\f2         public void clearOwnedElements() \{
+\par \hich\af2\dbch\af17\loch\f2             throw new UnsupportedOperationExcep\hich\af2\dbch\af17\loch\f2 tion("Removal of elements not supported");
+\par \hich\af2\dbch\af17\loch\f2         \}
+\par \hich\af2\dbch\af17\loch\f2     \}
+\par 
+\par \hich\af2\dbch\af17\loch\f2     /**
+\par \hich\af2\dbch\af17\loch\f2      * This test case show the demo usage of this component.
+\par \hich\af2\dbch\af17\loch\f2      */
+\par \hich\af2\dbch\af17\loch\f2     public void testDemo() \{
+\par \hich\af2\dbch\af17\loch\f2         // Create ImmutableNamespace object, should throw UnsupportedOperationException
+\par \hich\af2\dbch\af17\loch\f2   \hich\af2\dbch\af17\loch\f2       try \{
+\par \hich\af2\dbch\af17\loch\f2             Collection<ModelElement> elements = new HashSet<ModelElement>();
+\par \hich\af2\dbch\af17\loch\f2             elements.add(new ModelElementImpl());
+\par \hich\af2\dbch\af17\loch\f2             new ImmutableNamespace(elements);
+\par \hich\af2\dbch\af17\loch\f2             fail("UnsupportedOperationException should be thrown.");
+\par \hich\af2\dbch\af17\loch\f2         \} catch (UnsupportedOperationException e) \{
+\par \hich\af2\dbch\af17\loch\f2             // success
+\par \hich\af2\dbch\af17\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af17\loch\f2         RegisteringAttribute rAttribute = new RegisteringAttribute();
+\par \hich\af2\dbch\af17\loch\f2         rAttribute.setAssociationEnd(new AssociationEndImpl());
+\par \hich\af2\dbch\af17\loch\f2         rAttribute.setAssociationEnd\hich\af2\dbch\af17\loch\f2 (new AssociationEndImpl());
+\par \hich\af2\dbch\af17\loch\f2         System.out.println(rAttribute.getAllAssociationEnds().size());
+\par \hich\af2\dbch\af17\loch\f2         // Should be "2";
+\par 
+\par \hich\af2\dbch\af17\loch\f2         // Instantiate Core objects
+\par \hich\af2\dbch\af17\loch\f2         Namespace com = new NamespaceImpl();
+\par \hich\af2\dbch\af17\loch\f2         Namespace topcoder = new NamespaceImpl();
+\par \hich\af2\dbch\af17\loch\f2         Namespace puzzle = new NamespaceImpl();
+\par \hich\af2\dbch\af17\loch\f2         ModelElement classesMdl = new ModelElementImpl();
+\par \hich\af2\dbch\af17\loch\f2         ModelElement usecasesMdl = new ModelElementImpl();
+\par \hich\af2\dbch\af17\loch\f2         Parameter retValue = new ParameterImpl();
+\par \hich\af2\dbch\af17\loch\f2         Operation addItems = new Operati\hich\af2\dbch\af17\loch\f2 onImpl();
+\par 
+\par \hich\af2\dbch\af17\loch\f2         // Set core objects non-collection attributes
+\par \hich\af2\dbch\af17\loch\f2         classesMdl.setName("Puzzle Classes");
+\par \hich\af2\dbch\af17\loch\f2         usecasesMdl.setName("Puzzle Use Cases");
+\par \hich\af2\dbch\af17\loch\f2         retValue.setKind(ParameterDirectionKind.RETURN);
+\par \hich\af2\dbch\af17\loch\f2         addItems.setConcurrency(CallCon\hich\af2\dbch\af17\loch\f2 currencyKind.SEQUENTIAL);
+\par \hich\af2\dbch\af17\loch\f2         addItems.setLeaf(true);
+\par \hich\af2\dbch\af17\loch\f2         addItems.setAbstract(false);
+\par 
+\par \hich\af2\dbch\af17\loch\f2         // Manipulate core objects' collections
+\par \hich\af2\dbch\af17\loch\f2         System.out.println(addItems.countMethods()); // Should output "0";
+\par 
+\par \hich\af2\dbch\af17\loch\f2         com.addOwnedElement(topcoder);
+\par \hich\af2\dbch\af17\loch\f2         topcoder.addOwnedElement(puzzle);
+\par \hich\af2\dbch\af17\loch\f2         puzzle.addOwnedElement(classesMdl);
+\par \hich\af2\dbch\af17\loch\f2         puzzle.addOwnedElement(usecasesMdl);
+\par \hich\af2\dbch\af17\loch\f2         System.out.println(puzzle.countOwnedElements()); // Should print "2"
+\par 
+\par \hich\af2\dbch\af17\loch\f2         \hich\af2\dbch\af17\loch\f2 Iterator<ModelElement> iter = puzzle.getOwnedElements().iterator();
+\par \hich\af2\dbch\af17\loch\f2         while (iter.hasNext()) \{
+\par \hich\af2\dbch\af17\loch\f2             ModelElement e = iter.next();
+\par \hich\af2\dbch\af17\loch\f2             System.out.println(e.getName());
+\par \hich\af2\dbch\af17\loch\f2         \}
+\par \hich\af2\dbch\af17\loch\f2         // This cycle should print "Puzzle Classes" and "P\hich\af2\dbch\af17\loch\f2 uzzle Use Cases".
+\par \hich\af2\dbch\af17\loch\f2         // The order is unspecified, since the collection of owned elements in Namespace is unordered.
+\par 
+\par \hich\af2\dbch\af17\loch\f2         System.out.println(puzzle.containsOwnedElement(classesMdl));
+\par \hich\af2\dbch\af17\loch\f2         // Should output "true"
+\par 
+\par \hich\af2\dbch\af17\loch\f2         System.out.println(puzzl\hich\af2\dbch\af17\loch\f2 e.containsOwnedElement(com));
+\par \hich\af2\dbch\af17\loch\f2         // Should output "false", since "com" namespace is not contained in package "puzzle".
+\par 
+\par \hich\af2\dbch\af17\loch\f2         puzzle.clearOwnedElements();
+\par \hich\af2\dbch\af17\loch\f2         System.out.println(puzzle.countOwnedElements());
+\par \hich\af2\dbch\af17\loch\f2         // Should output "0"
+\par 
+\par \hich\af2\dbch\af17\loch\f2         topcoder.removeOwnedElement(puzzle);
+\par \hich\af2\dbch\af17\loch\f2         System.out.println(topcoder.countOwnedElements());
+\par \hich\af2\dbch\af17\loch\f2         // Should output "0", since "puzzle" was the only element in "topcoder" package
+\par 
+\par \hich\af2\dbch\af17\loch\f2         // Manipulate core objects' ordered collections
+\par \hich\af2\dbch\af17\loch\f2        \hich\af2\dbch\af17\loch\f2  Classifier classifier = new ClassifierImpl();
+\par \hich\af2\dbch\af17\loch\f2         Feature featureA = new FeatureImpl();
+\par \hich\af2\dbch\af17\loch\f2         Feature featureB = new FeatureImpl();
+\par 
+\par \hich\af2\dbch\af17\loch\f2         System.out.println(classifier.indexOfFeature(featureA));
+\par \hich\af2\dbch\af17\loch\f2         // Should print "-1"
+\par 
+\par \hich\af2\dbch\af17\loch\f2         classifier.ad\hich\af2\dbch\af17\loch\f2 dFeature(featureA);
+\par \hich\af2\dbch\af17\loch\f2         System.out.println(classifier.indexOfFeature(featureA));
+\par \hich\af2\dbch\af17\loch\f2         // Should print "0"
+\par 
+\par \hich\af2\dbch\af17\loch\f2         classifier.setFeature(0, featureB);
+\par \hich\af2\dbch\af17\loch\f2         System.out.println(classifier.countFeatures());
+\par \hich\af2\dbch\af17\loch\f2         // Should print "1", since feature\hich\af2\dbch\af17\loch\f2  B replaced A
+\par \hich\af2\dbch\af17\loch\f2     \}
+\par \}
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }\pard \qj \li12\ri0\nowidctlpar\aspalpha\faauto\rin0\lin12\itap0 {\b\f1 \hich\af1\dbch\af17\loch\f1 5.\tab Future Enhancements
+\par }\pard \qj \li713\ri0\nowidctlpar\aspalpha\faauto\rin0\lin713\itap0 {\f1\fs20 
+\par }\pard \qj \li704\ri0\nowidctlpar\aspalpha\faauto\rin0\lin704\itap0 {\f1\fs20 \hich\af1\dbch\af17\loch\f1 
+Actually, this component doesn't cover all the classes and relationships defined in the Core package of the UML 1.5 Specification. A future enhancement could be to complete the implementation of the metamodel.
+\par }{\f1 
+\par }{\f1\fs20 \hich\af1\dbch\af17\loch\f1 The component could be updated to follow UML 2.0 Specification.
+\par }\pard \qj \li0\ri0\nowidctlpar\aspalpha\faauto\rin0\lin0\itap0 {\f1 
+\par }}

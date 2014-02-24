@@ -1,0 +1,368 @@
+<CMConfig>
+
+    <Config name="com.topcoder.uml.standardclassloader">
+
+        <Property name="objectFactoryNamespace">
+            <Value>classData_objectFactory</Value>
+        </Property>
+        
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value>CSharp</Value>
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>JavaLoader</Value>
+            </Property>
+        </Property>   
+         
+        <!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>CSharpLoader</Value>
+            </Property>
+        </Property>
+    </Config>
+
+    <Config name="classData_objectFactory">
+    
+        <!-- Object factory configuration for the default java loader -->
+        <Property name="JavaLoader">
+            <Property name="type">
+                <Value>com.topcoder.uml.standardclassloader.implementations.XMLLanguageClassDataLoader</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string filename constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>test_files/JavaFile.xml</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        
+        <!-- Object factory configuration for the default csharp loader -->
+        <Property name="CSharpLoader">
+            <Property name="type">
+                <Value>com.topcoder.uml.standardclassloader.implementations.XMLLanguageClassDataLoader</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string filename constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>test_files/CSharpFile.xml</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+    </Config>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Config name="MissingObjectFactoryNamespace">
+        <!--Property name="objectFactoryNamespace">
+            <Value>classData_objectFactory</Value>
+        </Property-->
+        
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value>CSharp</Value>
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>JavaLoader</Value>
+            </Property>
+        </Property>   
+         
+        <!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>CSharpLoader</Value>
+            </Property>
+        </Property>
+    </Config>
+
+	<Config name="EmptyObjectFactoryNamespace">
+        <Property name="objectFactoryNamespace">
+            <Value> </Value>
+        </Property>
+        
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value>CSharp</Value>
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>JavaLoader</Value>
+            </Property>
+        </Property>   
+         
+        <!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>CSharpLoader</Value>
+            </Property>
+        </Property>
+    </Config>
+	<Config name="InvalidObjectFactoryNamespace">
+        <Property name="objectFactoryNamespace">
+            <Value>invalid</Value>
+        </Property>
+        
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value>CSharp</Value>
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>JavaLoader</Value>
+            </Property>
+        </Property>   
+         
+        <!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>CSharpLoader</Value>
+            </Property>
+        </Property>
+    </Config>
+	<Config name="MissingLanguages">
+        <Property name="objectFactoryNamespace">
+            <Value>classData_objectFactory</Value>
+        </Property>
+        
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value>CSharpMissing</Value>
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>JavaLoader</Value>
+            </Property>
+        </Property>   
+         
+        <!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>CSharpLoader</Value>
+            </Property>
+        </Property>
+    </Config>
+
+		<Config name="InvalidLanguages">
+        <Property name="objectFactoryNamespace">
+            <Value>classData_objectFactory</Value>
+        </Property>
+        
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value>CSharp</Value>
+			<Value>C++</Value>
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>JavaLoader</Value>
+            </Property>
+        </Property>   
+         
+        <!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>CSharpLoader</Value>
+            </Property>
+        </Property>
+    </Config>
+	<Config name="EmptyLanguages">
+        <Property name="objectFactoryNamespace">
+            <Value>classData_objectFactory</Value>
+        </Property>
+        
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value> </Value>
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>JavaLoader</Value>
+            </Property>
+        </Property>   
+         
+        <!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>CSharpLoader</Value>
+            </Property>
+        </Property>
+    </Config>
+
+	<Config name="MissingKey">
+        <Property name="objectFactoryNamespace">
+            <Value>classData_objectFactory</Value>
+        </Property>
+        
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value>CSharp</Value>
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <!--Property name="key">
+                <Value>JavaLoader</Value>
+            </Property-->
+        </Property>   
+         
+        <!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>CSharpLoader</Value>
+            </Property>
+        </Property>
+    </Config>
+	<Config name="EmptyKey">
+        <Property name="objectFactoryNamespace">
+            <Value>classData_objectFactory</Value>
+        </Property>
+        
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value>CSharp</Value>
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>JavaLoader</Value>
+            </Property>
+        </Property>   
+         
+        <!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value> </Value>
+            </Property>
+        </Property>
+    </Config>
+	<Config name="InvalidKey">
+        <Property name="objectFactoryNamespace">
+            <Value>classData_objectFactory</Value>
+        </Property>
+        
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value>CSharp</Value>
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>invalid</Value>
+            </Property>
+        </Property>   
+         
+        <!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>CSharpLoader</Value>
+            </Property>
+        </Property>
+    </Config>
+
+
+    <Config name="InvalidLoader">
+
+        <Property name="objectFactoryNamespace">
+            <Value>classData_objectFactory1</Value>
+        </Property>
+        
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value>CSharp</Value>
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>InvalidLoader</Value>
+            </Property>
+        </Property>   
+         
+        <!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>CSharpLoader</Value>
+            </Property>
+        </Property>
+    </Config>
+
+    <Config name="classData_objectFactory1">
+    
+        <!-- Object factory configuration for the default java loader -->
+        <Property name="InvalidLoader">
+            <Property name="type">
+                <Value>com.topcoder.uml.standardclassloader.implementations.LanguageClassDataLoader</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string filename constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>test_files/JavaFile.xml</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        
+        <!-- Object factory configuration for the default csharp loader -->
+        <Property name="CSharpLoader">
+            <Property name="type">
+                <Value>com.topcoder.uml.standardclassloader.implementations.XMLLanguageClassDataLoader</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string filename constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>test_files/CSharpFile.xml</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+    </Config>
+
+</CMConfig>

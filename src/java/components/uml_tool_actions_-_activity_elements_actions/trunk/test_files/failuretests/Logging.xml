@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<CMConfig>
+    <Config name="com.topcoder.util.log">
+	<!-- The Log implementation class -->
+	<Property name="logClass">
+		<Value>com.topcoder.util.log.basic.BasicLog</Value>
+	</Property>
+    </Config>
+</CMConfig>
+

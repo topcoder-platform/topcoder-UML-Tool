@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<CMConfig>
+
+  <Config name = "com.topcoder.gui.panels.properties">
+
+    <Property name = "LookAndFeelClass">
+       <Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+    </Property>
+
+    <Property name = "LinkButtonImagePath">
+       <Value>path1</Value>
+    </Property>
+
+    <Property name = "AddButtonImagePath">
+       <Value>path2</Value>
+    </Property>
+
+    <Property name = "DeleteButtonImagePath">
+       <Value>path3</Value>
+    </Property>
+
+    <Property name = "Multiplicities">
+    
+	    <Property name = "name1">
+   		    <Property name = "range1">
+   	   		    <Property name = "LowerBound">
+    				<Value>1</Value>
+    			</Property>
+   	   		    <Property name = "UpperBound">
+    				<Value>2</Value>
+    			</Property>
+	    	</Property>
+    	</Property>
+    	
+    	<Property name = "name2">
+    	
+   		    <Property name = "range1">
+   	   		    <Property name = "LowerBound">
+    				<Value>3</Value>
+    			</Property>
+   	   		    <Property name = "UpperBound">
+    				<Value>5</Value>
+    			</Property>
+	    	</Property>
+	    	
+   		    <Property name = "range2">
+   	   		    <Property name = "LowerBound">
+    				<Value>6</Value>
+    			</Property>
+   	   		    <Property name = "UpperBound">
+    				<Value>7</Value>
+    			</Property>
+	    	</Property>
+	    	
+    	</Property>
+    	
+    </Property>
+
+    <Property name = "StereotypeMapping">
+    
+    	<!-- 1.Package -->
+        <Property name = "Package">
+			<Value>Package</Value>
+        </Property>
+        
+    	<!-- 2.Interface -->
+        <Property name = "Interface">
+			<Value>Interface</Value>
+        </Property>
+        
+    	<!-- 3.Class -->
+        <Property name = "Class">
+			<Value>Class</Value>
+        </Property>
+        
+    	<!-- 4.Enumeration -->
+        <Property name = "Enumeration">
+			<Value>Enumeration</Value>
+        </Property>
+        
+        <!-- 5.Attribute -->
+        <Property name = "Attribute">
+			<Value>Attribute</Value>
+        </Property>
+        
+        <!-- 6.Operation -->
+        <Property name = "Operation">
+			<Value>Operation</Value>
+        </Property>
+        
+    	<!-- 7.Parameter -->
+        <Property name = "Parameter">
+			<Value>Parameter</Value>
+        </Property>
+        
+    	<!-- 8.Dependency -->
+        <Property name = "Dependency">
+			<Value>Dependency</Value>
+        </Property>
+        
+    	<!-- 9.Generalization -->
+        <Property name = "Generalization">
+			<Value>Generalization</Value>
+        </Property>
+        
+        <!-- 10.Abstraction -->
+        <Property name = "Abstraction">
+			<Value>Abstraction</Value>
+        </Property>
+        
+    	<!-- 11.Association -->
+        <Property name = "Association">
+			<Value>Association</Value>
+        </Property>
+        
+    	<!-- 12.AssociationEnd -->
+        <Property name = "AssociationEnd">
+			<Value>AssociationEnd</Value>
+        </Property>
+        
+    	<!-- 13.Actor -->
+        <Property name = "Actor">
+			<Value>Actor</Value>
+        </Property>
+        
+    	<!-- 14.UseCase -->
+        <Property name = "UseCase">
+			<Value>UseCase</Value>
+        </Property>
+        
+        <!-- 15.Subsystem -->
+        <Property name = "Subsystem">
+			<Value>Subsystem</Value>
+        </Property>
+        
+        <!-- 16.Include -->
+        <Property name = "Include">
+			<Value>Include</Value>
+        </Property>
+        
+    	<!-- 17.Extend -->
+        <Property name = "Extend">
+			<Value>Extend</Value>
+        </Property>
+        
+    	<!-- 18.SimpleState -->
+        <Property name = "SimpleState">
+			<Value>SimpleState</Value>
+        </Property>
+        
+    	<!-- 19.ObjectFlowState -->
+        <Property name = "ObjectFlowState">
+			<Value>ObjectFlowState</Value>
+        </Property>
+        
+        <!-- 20.FinalState -->
+        <Property name = "FinalState">
+			<Value>FinalState</Value>
+        </Property>
+        
+    	<!-- 21.ActionState -->
+        <Property name = "ActionState">
+			<Value>ActionState</Value>
+        </Property>
+        
+    	<!-- 22.Pseudostate -->
+        <Property name = "Pseudostate">
+			<Value>Pseudostate</Value>
+        </Property>
+        
+    	<!-- 23.Transition -->
+        <Property name = "Transition">
+			<Value>Transition</Value>
+        </Property>
+        
+    	<!-- 24.Object -->
+        <Property name = "Object">
+			<Value>Object</Value>
+        </Property>
+        
+        <!-- 25.CreateObjectAction -->
+        <Property name = "CreateObjectAction">
+			<Value>CreateObjectAction</Value>
+        </Property>
+        
+        <!-- 26.CallOperationAction -->
+        <Property name = "CallOperationAction">
+			<Value>CallOperationAction</Value>
+        </Property>
+        
+    	<!-- 27.SendSignalAction -->
+        <Property name = "SendSignalAction">
+			<Value>SendSignalAction</Value>
+        </Property>
+        
+    	<!-- 28.Stimulus -->
+        <Property name = "Stimulus">
+			<Value>Stimulus</Value>
+        </Property>
+        
+    </Property>
+
+  </Config>
+
+    <!-- Project configuration manager initialization details-->
+    <Config name="com.topcoder.uml.projectconfiguration.ProjectConfigurationManager">
+        <!-- This property will used by the StandardStereotypeLoader implementations to get the stereotypes-->
+        <Property name="stereotypes">
+            <!-- Language name-->
+            <Property name="Java">
+                <!-- Element type -->
+                <Property name="Class">
+                    <Value>exception</Value>
+                    <Value>abstract</Value>
+                </Property>
+                <Property name="Operation">
+                    <Value>final</Value>
+                    <Value>abstract</Value>
+                    <Value>create</Value>
+                </Property>
+                <Property name="Link">
+                    <Value>create</Value>
+                </Property>
+            </Property>
+            <!-- Language name-->
+            <Property name="CSharp">
+                <!-- Element type -->
+                <Property name="Class">
+                    <Value>exception</Value>
+                    <Value>abstract</Value>
+                    <Value>enum</Value>
+                    <Value>Serializable</Value>
+                    <Value>ServiceContract</Value>
+                    <Value>DataContract</Value>
+                </Property>
+                <Property name="Operation">
+                    <Value>final</Value>
+                    <Value>abstract</Value>
+                    <Value>create</Value>
+                    <Value>OperationContract</Value>
+                </Property>
+                <Property name="Link">
+                    <Value>create</Value>
+                </Property>
+                <Property name="Attribute">
+                    <Value>readonly</Value>
+                    <Value>const</Value>
+                    <Value>property</Value>
+                    <Value>property-get</Value>
+                    <Value>property-set</Value>
+                </Property>
+            </Property>
+        </Property>
+        <!-- Default project language -->
+        <Property name="defaultProjectLanguage">
+            <Value>Java</Value>
+        </Property>
+    </Config>
+
+    <!-- for the formatting of the diagram elements-->
+    <Config name="com.topcoder.uml.projectconfiguration.diagramelementformatters.PropertyTemplateDiagramElementFormatter">
+        <!-- The class name of the elements and its properties-->
+        <Property name="com.topcoder.diagraminterchange.DiagramElement">
+            <Property name="property1">
+                <Value>value1</Value>
+            </Property>
+            <Property name="property2">
+                <Value>value2</Value>
+            </Property>
+        </Property>
+        <!-- The class name of the elements and its properties-->
+        <Property name="com.topcoder.diagraminterchange.GraphNode">
+            <Property name="property1">
+                <Value>value1</Value>
+            </Property>
+        </Property>
+    </Config>
+
+    <!--Object factory configuration-->
+    <Config name="com.topcoder.uml.projectconfiguration.ProjectConfigurationManager.objectfactory">
+        <!-- instantiate a XMLStereotypeLoader using its one arg constructor -->
+        <Property name="stereotypeLoader">
+            <Property name="type">
+                <Value>com.topcoder.uml.projectconfiguration.stereotypeloader.XMLStereotypeLoader</Value>
+            </Property>
+
+            <Property name="params">
+                <!-- this is the parameter to the constructor, the namespace -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>com.topcoder.uml.projectconfiguration.ProjectConfigurationManager</Value>
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+
+        <!-- instantiate a standardClassDataLoader using its no-arg constructor -->
+        <Property name="standardClassDataLoader">
+            <Property name="type">
+                <!-- This is mock value given for example-->
+                <!-- Corresponding CSharp and Java Class loader should be given here-->
+                <!-- FIXED using the real class data loader -->
+                <Value>com.topcoder.uml.standardclassloader.ClassDataLoaderStrategy</Value>
+            </Property>
+
+            <Property name="params">
+                <!-- this is the parameter to the constructor, the namespace -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>com.topcoder.uml.standardclassloader.ClassDataLoaderStrategy</Value>
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+    </Config>
+
+    <!--Config details for ElementFormatter's-->
+    <Config name="com.topcoder.uml.projectconfiguration.modelelementformatters.AbstractElementFormatter">
+        <!-- all the required details are given as name and value -->
+        <Property name="exceptionStereotypeName">
+            <Value>exception</Value>
+        </Property>
+        <Property name="enumStereotypeName">
+            <Value>enum</Value>
+        </Property>
+        <Property name="createStereotypeName">
+            <Value>create</Value>
+        </Property>
+        <Property name="createStereotypeBaseClass">
+            <Value>BehavioralFeature</Value>
+        </Property>
+        <Property name="stringClassName">
+            <Value>String</Value>
+        </Property>
+        <Property name="throwableClassName">
+            <Value>Throwable</Value>
+        </Property>
+        <Property name="exceptionClassName">
+            <Value>Exception</Value>
+        </Property>
+        <Property name="serializationInfoClassName">
+            <Value>SerializationInfo</Value>
+        </Property>
+        <Property name="streamingContextClassName">
+            <Value>StreamingContext</Value>
+        </Property>
+        <Property name="operationStereotypeBaseClass">
+            <Value>Operation</Value>
+        </Property>
+        <Property name="enumClassName">
+            <Value>Enum</Value>
+        </Property>
+    </Config>
+ <!-- configuration for the overall panel -->
+    <Config name="com.topcoder.uml.standardclassloader.ClassDataLoaderStrategy">
+        <!-- required construction parameter
+            for use with the object factory -->
+        <Property name="objectFactoryNamespace">
+            <Value>com.topcoder.uml.standardclassloader.ClassDataLoaderStrategy.objectFactory</Value>
+        </Property>
+
+        <!-- supported languages -->
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value>CSharp</Value>
+        </Property>
+
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>javaLoader</Value>
+            </Property>
+        </Property>
+
+        <!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>csharpLoader</Value>
+            </Property>
+        </Property>
+    </Config>
+
+    <Config name="com.topcoder.uml.standardclassloader">
+        <!-- required construction parameter
+            for use with the object factory -->
+        <Property name="objectFactoryNamespace">
+            <Value>classData_objectFactory</Value>
+        </Property>
+
+        <!-- supported languages -->
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value>CSharp</Value>
+        </Property>
+
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>javaLoader</Value>
+            </Property>
+        </Property>
+
+        <!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>csharpLoader</Value>
+            </Property>
+        </Property>
+    </Config>
+
+    <!-- Namespace for possible use with the object factory component -->
+    <Config name="com.topcoder.uml.standardclassloader.ClassDataLoaderStrategy.objectFactory">
+        <!-- Object factory configuration for the default java loader -->
+        <Property name="javaLoader">
+            <Property name="type">
+                <Value>com.topcoder.uml.standardclassloader.implementations.XMLLanguageClassDataLoader</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string filename constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <!-- using the sample file provided -->
+                        <Value>conf/JavaClassData.xml</Value>
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+
+        <!-- Object factory configuration for the default csharp loader -->
+        <Property name="csharpLoader">
+            <Property name="type">
+                <Value>com.topcoder.uml.standardclassloader.implementations.XMLLanguageClassDataLoader</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string filename constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <!-- using the sample file provided -->
+                        <Value>conf/CSharpClassData.xml</Value>
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+    </Config>    
+</CMConfig>

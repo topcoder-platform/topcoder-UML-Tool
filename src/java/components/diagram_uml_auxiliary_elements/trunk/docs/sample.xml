@@ -1,0 +1,11 @@
+<CMConfig>
+  <!-- Configuration for PropertyMapping -->
+	<Config name="com.topcoder.gui.diagramviewer.uml.auxiliaryelements">
+		<Property name="StrokeColor">stroke_color</Property>
+		<Property name="FillColor">fillColor</Property>
+		<Property name="FontFamily">FontFamily</Property>
+		<!--
+		and many other properties...
+		-->
+  </Config>
+</CMConfig>

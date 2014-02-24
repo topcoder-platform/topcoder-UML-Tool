@@ -1,0 +1,35 @@
+TO RUN:
+
+1. Install the component structure in ${basedir}
+
+2. Create "topcoder_global.properties" in ${basedir}/.. and add the properties from steps 2,3,4,5
+
+3. The following standard build script properties must be set
+	ext_libdir - root of third party libraries
+	tcs_libdir - root of topcoder components
+	java_1_3_bootclasspath - installation path for java 1.3 (only needed for compile_targets task)
+	junit.jar - location of junit.jar (component was written for v3.8.2)
+
+4. The following standard build script properties can be changed (defaults are noted)
+	debug=off - as expected
+	verbose=no - as expected
+	cobertura.dir=${ext_libdir}/cobertura/1.8
+		installation directory of cobertura script expects {$cobertura.dir}/cobertura.jar
+		and {$cobertura.dir}/lib/containg Jars for asm, jakarta, and log4j to run cobertura task
+
+5. Ant Commands:
+	ant clean - removes temporary build files
+	ant compile - builds the production code
+	ant compile_tests - builds the test code
+	ant test - runs the test code
+	ant reports-all - generates javadoc and code coverage reports
+	ant deploy-lib - moves the component runtime jar to the location where other components will look for it.
+
+NB:
+	The folder ${basedir}/test_reflib contains TopCoder components 
+	that are required by this component's test code. This component is
+	used to by compile_test and test targets. Components are listed under
+	the following directory structure "component name"/"component version".
+	Components are provided AS IS for development purposes only.
+
+	Included:	None.

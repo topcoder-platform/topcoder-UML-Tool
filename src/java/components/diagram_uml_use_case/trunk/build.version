@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=Diagram UML Use Case
+component.distfilename=diagram_uml_use_case
+component.package=com.topcoder.gui.diagramviewer.uml.usecaseelements
+component.packagedir=com/topcoder/gui/diagramviewer/uml/usecaseelements
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

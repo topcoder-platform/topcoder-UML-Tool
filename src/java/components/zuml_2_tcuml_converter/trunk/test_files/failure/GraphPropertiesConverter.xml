@@ -1,0 +1,185 @@
+<CMConfig>
+	<Config name="object_factory_namespace">
+		<Property name="transformer">
+			<Property name="type">
+				<Value>com.topcoder.umltool.xmiconverters.poseidon5.propertytransformers.RegexToLowerPropertyValueTransformer</Value>
+			</Property>
+			<Property name="params">
+				<Property name="param1">
+					<Property name="type">
+						<Value>String</Value>
+					</Property>
+					<Property name="value">
+						<Value>.*</Value>
+					</Property>
+				</Property>
+			</Property>
+		</Property>
+
+		<Property name="invalid_transformer">
+			<Property name="type">
+				<Value>java.lang.String</Value>
+			</Property>
+			<Property name="params">
+				<Property name="param1">
+					<Property name="type">
+						<Value>String</Value>
+					</Property>
+					<Property name="value">
+						<Value>.*</Value>
+					</Property>
+				</Property>
+			</Property>
+		</Property>
+	</Config>
+
+	<Config name="ObjectFactoryNamespaceMissing">
+		<Property name="PropertyValueTransformers">
+			<Value>transformer</Value>
+		</Property>
+		<Property name="ToReplacePropertyKeys">
+			<Property name="fill">
+				<Value>FILL_COLOR</Value>
+			</Property>
+			<Property name="font-clor">
+				<Value>FONT_COLOR</Value>
+			</Property>
+		</Property>
+	</Config>
+
+	<Config name="ObjectFactoryNamespaceUnknown">
+		<Property name="ObjectFactoryNamespace">
+			<Value>unknown</Value>
+		</Property>
+		<Property name="PropertyValueTransformers">
+			<Value>transformer</Value>
+		</Property>
+		<Property name="ToReplacePropertyKeys">
+			<Property name="fill">
+				<Value>FILL_COLOR</Value>
+			</Property>
+			<Property name="font-clor">
+				<Value>FONT_COLOR</Value>
+			</Property>
+		</Property>
+	</Config>
+
+	<Config name="EmptyTransformerKey">
+		<Property name="ObjectFactoryNamespace">
+			<Value>object_factory_namespace</Value>
+		</Property>
+		<Property name="PropertyValueTransformers">
+			<Value></Value>
+		</Property>
+		<Property name="ToReplacePropertyKeys">
+			<Property name="fill">
+				<Value>FILL_COLOR</Value>
+			</Property>
+			<Property name="font-clor">
+				<Value>FONT_COLOR</Value>
+			</Property>
+		</Property>
+	</Config>
+	<Config name="InvalidTransformerKey1">
+		<Property name="ObjectFactoryNamespace">
+			<Value>object_factory_namespace</Value>
+		</Property>
+		<Property name="PropertyValueTransformers">
+			<Value>unknown</Value>
+		</Property>
+		<Property name="ToReplacePropertyKeys">
+			<Property name="fill">
+				<Value>FILL_COLOR</Value>
+			</Property>
+			<Property name="font-clor">
+				<Value>FONT_COLOR</Value>
+			</Property>
+		</Property>
+	</Config>
+
+	<Config name="InvalidTransformerKey2">
+		<Property name="ObjectFactoryNamespace">
+			<Value>object_factory_namespace</Value>
+		</Property>
+		<Property name="PropertyValueTransformers">
+			<Value>transformer:</Value>
+		</Property>
+		<Property name="ToReplacePropertyKeys">
+			<Property name="fill">
+				<Value>FILL_COLOR</Value>
+			</Property>
+			<Property name="font-clor">
+				<Value>FONT_COLOR</Value>
+			</Property>
+		</Property>
+	</Config>
+
+	<Config name="InvalidTransformerKey3">
+		<Property name="ObjectFactoryNamespace">
+			<Value>object_factory_namespace</Value>
+		</Property>
+		<Property name="PropertyValueTransformers">
+			<Value>:invalid</Value>
+		</Property>
+		<Property name="ToReplacePropertyKeys">
+			<Property name="fill">
+				<Value>FILL_COLOR</Value>
+			</Property>
+			<Property name="font-clor">
+				<Value>FONT_COLOR</Value>
+			</Property>
+		</Property>
+	</Config>
+
+	<Config name="InvalidTransformerKey4">
+		<Property name="ObjectFactoryNamespace">
+			<Value>object_factory_namespace</Value>
+		</Property>
+		<Property name="PropertyValueTransformers">
+			<Value>transformer:invalid</Value>
+		</Property>
+		<Property name="ToReplacePropertyKeys">
+			<Property name="fill">
+				<Value>FILL_COLOR</Value>
+			</Property>
+			<Property name="font-clor">
+				<Value>FONT_COLOR</Value>
+			</Property>
+		</Property>
+	</Config>
+
+	<Config name="InvalidTransformerDefinition">
+		<Property name="ObjectFactoryNamespace">
+			<Value>object_factory_namespace</Value>
+		</Property>
+		<Property name="PropertyValueTransformers">
+			<Value>invalid_transformer</Value>
+		</Property>
+		<Property name="ToReplacePropertyKeys">
+			<Property name="fill">
+				<Value>FILL_COLOR</Value>
+			</Property>
+			<Property name="font-clor">
+				<Value>FONT_COLOR</Value>
+			</Property>
+		</Property>
+	</Config>
+
+	<Config name="ToReplacePropertyKeysMultiValues">
+		<Property name="ObjectFactoryNamespace">
+			<Value>object_factory_namespace</Value>
+		</Property>
+		<Property name="PropertyValueTransformers">
+			<Value>transformer</Value>
+		</Property>
+		<Property name="ToReplacePropertyKeys">
+			<Property name="fill">
+				<Value>FILL_COLOR</Value>
+				<Value>invalid</Value>
+			</Property>
+			<Property name="font-clor">
+				<Value>FONT_COLOR</Value>
+			</Property>
+		</Property>
+	</Config>
+</CMConfig>

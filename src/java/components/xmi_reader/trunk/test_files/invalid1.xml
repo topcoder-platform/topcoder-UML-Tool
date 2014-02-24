@@ -1,0 +1,17 @@
+<CMConfig>
+  <!-- This is invalid configuration: one of the class name is invalid-->
+  <Config name="com.topcoder.xmi.reader.XMIReader">
+      
+      <Property name="reuse">
+            <Value>true</Value>
+      </Property>
+
+      <Property name="handlers">
+             <!--No such class-->
+             <Property name="UML:Class">
+                    <Value>com.topcoder.xmi.reader.handlers.NoSuchclass</Value>
+              </Property>
+      </Property>
+      
+   </Config> 
+</CMConfig>

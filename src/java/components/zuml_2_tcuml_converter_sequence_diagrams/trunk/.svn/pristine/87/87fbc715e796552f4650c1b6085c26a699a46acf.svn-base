@@ -1,0 +1,464 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Palatino};}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol{\*\falt Symbol};}
+{\f4\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Helvetica;}{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f35\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}
+{\f36\froman\fcharset0\fprq2{\*\panose 02040602050305030304}Book Antiqua;}{\f37\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Palatino};}{\f38\froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Palatino};}
+{\f40\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Palatino};}{\f41\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Palatino};}{\f42\froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Palatino};}
+{\f43\froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Palatino};}{\f44\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Palatino};}{\f45\froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Palatino};}
+{\f47\fswiss\fcharset238\fprq2 Arial CE;}{\f48\fswiss\fcharset204\fprq2 Arial Cyr;}{\f50\fswiss\fcharset161\fprq2 Arial Greek;}{\f51\fswiss\fcharset162\fprq2 Arial Tur;}{\f52\fswiss\fcharset177\fprq2 Arial (Hebrew);}
+{\f53\fswiss\fcharset178\fprq2 Arial (Arabic);}{\f54\fswiss\fcharset186\fprq2 Arial Baltic;}{\f55\fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f57\fmodern\fcharset238\fprq1 Courier New CE;}{\f58\fmodern\fcharset204\fprq1 Courier New Cyr;}
+{\f60\fmodern\fcharset161\fprq1 Courier New Greek;}{\f61\fmodern\fcharset162\fprq1 Courier New Tur;}{\f62\fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f63\fmodern\fcharset178\fprq1 Courier New (Arabic);}
+{\f64\fmodern\fcharset186\fprq1 Courier New Baltic;}{\f65\fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\f77\fswiss\fcharset238\fprq2 Helvetica CE;}{\f78\fswiss\fcharset204\fprq2 Helvetica Cyr;}{\f80\fswiss\fcharset161\fprq2 Helvetica Greek;}
+{\f81\fswiss\fcharset162\fprq2 Helvetica Tur;}{\f82\fswiss\fcharset177\fprq2 Helvetica (Hebrew);}{\f83\fswiss\fcharset178\fprq2 Helvetica (Arabic);}{\f84\fswiss\fcharset186\fprq2 Helvetica Baltic;}{\f85\fswiss\fcharset163\fprq2 Helvetica (Vietnamese);}
+{\f387\fswiss\fcharset238\fprq2 Tahoma CE;}{\f388\fswiss\fcharset204\fprq2 Tahoma Cyr;}{\f390\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f391\fswiss\fcharset162\fprq2 Tahoma Tur;}{\f392\fswiss\fcharset177\fprq2 Tahoma (Hebrew);}
+{\f393\fswiss\fcharset178\fprq2 Tahoma (Arabic);}{\f394\fswiss\fcharset186\fprq2 Tahoma Baltic;}{\f395\fswiss\fcharset163\fprq2 Tahoma (Vietnamese);}{\f396\fswiss\fcharset222\fprq2 Tahoma (Thai);}{\f397\froman\fcharset238\fprq2 Book Antiqua CE;}
+{\f398\froman\fcharset204\fprq2 Book Antiqua Cyr;}{\f400\froman\fcharset161\fprq2 Book Antiqua Greek;}{\f401\froman\fcharset162\fprq2 Book Antiqua Tur;}{\f404\froman\fcharset186\fprq2 Book Antiqua Baltic;}}{\colortbl;\red0\green0\blue0;
+\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;
+\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red255\green255\blue255;}{\stylesheet{\ql \li0\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\s1\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin720\itap0 
+\b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 2;}{\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 3;}{\s4\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin720\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 4;}{\s5\ql \li2880\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl4\outlinelevel4\adjustright\rin0\lin2880\itap0 
+\f1\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 5;}{\s6\ql \li2880\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl5\outlinelevel5\adjustright\rin0\lin2880\itap0 
+\i\f1\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 6;}{\s7\ql \li2880\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl6\outlinelevel6\adjustright\rin0\lin2880\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 7;}{\s8\ql \li2880\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl7\outlinelevel7\adjustright\rin0\lin2880\itap0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 8;}{\s9\ql \li2880\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl8\outlinelevel8\adjustright\rin0\lin2880\itap0 
+\b\i\f1\fs18\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 9;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\s15\qj \li720\ri0\sb80\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \f1\fs20\cf1\lang3081\langfe1033\cgrid\langnp3081\langfenp1033 \sbasedon0 \snext15 Paragraph2;}{\s16\qc \li0\ri0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\b\f1\fs36\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 Title;}{\s17\qc \li0\ri0\sa60\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \i\f1\fs36\lang3081\langfe1033\cgrid\langnp3081\langfenp1033 
+\sbasedon0 \snext17 Subtitle;}{\s18\ql \fi-900\li900\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin900\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext18 Normal Indent;}{
+\s19\ql \li0\ri720\sb240\sa60\sl240\slmult0\nowidctlpar\tqr\tx9360\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 1;}{
+\s20\ql \li432\ri720\sl240\slmult0\nowidctlpar\tqr\tx9360\aspalpha\aspnum\faauto\adjustright\rin720\lin432\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 2;}{\s21\ql \li864\ri0\sl240\slmult0
+\nowidctlpar\tx1440\tqr\tx9360\aspalpha\aspnum\faauto\adjustright\rin0\lin864\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 3;}{\s22\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext22 header;}{\s23\ql \li0\ri0\sl240\slmult0\nowidctlpar
+\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext23 footer;}{\*\cs24 \additive \sbasedon10 page number;}{\s25\ql \fi-432\li720\ri0\sl240\slmult0
+\nowidctlpar{\*\pn \pnlvlbody\ilvl11\ls2047\pnrnot0\pnf2\pnfs16\pnstart1\pnindent432\pnhang {\pntxtb ?}}\aspalpha\aspnum\faauto\ls2047\ilvl11\adjustright\rin0\lin720\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext25 
+Bullet1;}{\s26\ql \fi-360\li1440\ri0\sl240\slmult0\nowidctlpar{\*\pn \pnlvlbody\ilvl11\ls2047\pnrnot0\pnf3\pnfs16\pnstart1\pnindent360\pnhang {\pntxtb ?}}\aspalpha\aspnum\faauto\ls2047\ilvl11\adjustright\rin0\lin1440\itap0 
+\f1\fs20\cf9\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext26 Bullet2;}{\s27\ql \li0\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext27 Tabletext;}{\s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext28 Body Text;}{\s29\ql \li0\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \cbpat9 \f35\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext29 \ssemihidden Document Map;}{\*\cs30 \additive \fs20\super \sbasedon10 \ssemihidden footnote reference;}{\s31\ql \fi-360\li360\ri0\sb40\sa40\sl240\slmult0\keep\keepn\nowidctlpar\brdrb\brdrs\brdrw15\brdrcf1 
+\aspalpha\aspnum\faauto\adjustright\rin0\lin360\itap0 \f4\fs16\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext31 \ssemihidden footnote text;}{\s32\qc \li0\ri0\sb480\sa60\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\b\f1\fs32\lang1033\langfe1033\kerning28\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext32 Main Title;}{\s33\qj \li0\ri0\sb80\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext33 Paragraph1;}{\s34\qj \li1530\ri0\sb80\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1530\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext34 Paragraph3;}{
+\s35\qj \li2250\ri0\sb80\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin2250\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext35 Paragraph4;}{\s36\ql \li600\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin600\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 4;}{\s37\ql \li800\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin800\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 5;}{\s38\ql \li1000\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1000\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 6;}{\s39\ql \li1200\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1200\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 7;}{\s40\ql \li1400\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1400\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 8;}{\s41\ql \li1600\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1600\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 9;}{\s42\ql \li720\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \i\f1\fs20\ul\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext42 Body Text 2;}{\s43\qj \li0\ri0\sb120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\f36\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext43 Body;}{\s44\qj \li720\ri360\sb120\widctlpar\jclisttab\tx360\tx720\aspalpha\aspnum\faauto\ls81\adjustright\rin360\lin720\itap0 
+\f36\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext44 Bullet;}{\s45\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 
+\i\f1\fs20\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext28 \sautoupd InfoBlue;}{\*\cs46 \additive \ul\cf2 \sbasedon10 Hyperlink;}{\*\cs47 \additive \ul\cf12 \sbasedon10 FollowedHyperlink;}{\*\cs48 \additive \b \sbasedon10 
+Strong;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\listtable{\list\listtemplateid-1{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\s1}
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}\s2}{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold
+\levelspace144\levelindent0{\leveltext\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\s3}{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144\levelindent0{\leveltext\'07\'00.\'01.\'02.\'03;}{\levelnumbers
+\'01\'03\'05\'07;}\s4}{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144\levelindent0{\leveltext\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\s5}{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144\levelindent0{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\s6}{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelold\levelspace144\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\s7}{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144\levelindent0
+{\leveltext\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\s8}{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelold\levelspace144\levelindent0{\leveltext
+\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\s9}{\listname ;}\listid-5}{\list\listtemplateid1445211730\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0
+\levelspace0\levelindent0{\leveltext\leveltemplateid2089189512\'01-;}{\levelnumbers;}\loch\af1\hich\af1\dbch\af0\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680
+\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid91047495}{\list\listtemplateid-116114388
+\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840
+\jclisttab\tx6840\lin6840 }{\listname ;}\listid132987033}{\list\listtemplateid683723970\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520
+\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid168252355}{\list\listtemplateid-1059837802\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680
+\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid926965074}{\list\listtemplateid507960286
+\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840
+\jclisttab\tx6840\lin6840 }{\listname ;}\listid1178543496}{\list\listtemplateid1842754310\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520
+\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid1202789498}{\list\listtemplateid389170702\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat0\levelspace0\levelindent0{\leveltext\leveltemplateid1078347418\'01-;}{\levelnumbers;}\loch\af1\hich\af1\dbch\af0\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680
+\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid1388064749}}{\*\listoverridetable
+{\listoverride\listid-5\listoverridecount0\ls1}{\listoverride\listid168252355\listoverridecount0\ls2}{\listoverride\listid168252355\listoverridecount9{\lfolevel}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}
+{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat
+\levelstartat1}\ls3}{\listoverride\listid926965074\listoverridecount0\ls4}{\listoverride\listid1178543496\listoverridecount0\ls5}{\listoverride\listid91047495\listoverridecount0\ls6}{\listoverride\listid1202789498\listoverridecount0\ls7}
+{\listoverride\listid132987033\listoverridecount0\ls8}{\listoverride\listid1388064749\listoverridecount0\ls9}}{\*\rsidtbl \rsid359910\rsid478570\rsid673572\rsid867837\rsid930622\rsid1184868\rsid1716632\rsid1904689\rsid1910634\rsid2059562\rsid2112134
+\rsid2180712\rsid2181450\rsid2381675\rsid2503727\rsid2630117\rsid2689608\rsid2715650\rsid2759879\rsid2763668\rsid2764528\rsid2774739\rsid3150430\rsid3297374\rsid3418188\rsid3609089\rsid3671135\rsid3944128\rsid4274696\rsid4526675\rsid4546834\rsid4815450
+\rsid5571007\rsid5580974\rsid5767674\rsid5799774\rsid5966655\rsid5972927\rsid6238599\rsid6249161\rsid6507520\rsid6698019\rsid6758370\rsid6781289\rsid6828061\rsid7028473\rsid7034739\rsid7149304\rsid7285356\rsid7305191\rsid7430598\rsid7765093\rsid7876537
+\rsid7950396\rsid8086090\rsid8479131\rsid8521548\rsid8528846\rsid8663036\rsid8664332\rsid8933491\rsid9046944\rsid9315240\rsid9373852\rsid9656966\rsid9731034\rsid9774920\rsid9778868\rsid9897809\rsid9979797\rsid10251948\rsid10822610\rsid10840914
+\rsid10880827\rsid11022884\rsid11538513\rsid11540874\rsid11694221\rsid11864593\rsid11877939\rsid12457991\rsid12458585\rsid12459316\rsid12868127\rsid13372458\rsid13594521\rsid13595450\rsid13847188\rsid13962255\rsid14041209\rsid14051607\rsid14095552
+\rsid14368069\rsid14431806\rsid14550879\rsid14702374\rsid14754912\rsid14826802\rsid15228461\rsid15276926\rsid15279304\rsid15430846\rsid15472841\rsid15488637\rsid15548376\rsid15730830\rsid15799101\rsid15817659\rsid15822281\rsid16520128\rsid16657398}
+{\*\generator Microsoft Word 11.0.5604;}{\info{\title Requirements Specification}{\subject <Project Name>}{\author None}{\keywords Software Requirements}{\operator None}{\creatim\yr2007\mo8\dy6\hr21\min43}{\revtim\yr2007\mo10\dy10\hr17\min40}
+{\printim\yr2002\mo5\dy28\hr17\min14}{\version57}{\edmins158}{\nofpages4}{\nofwords996}{\nofchars5681}{\*\company TopCoder Software}{\*\category Specification}{\nofcharsws6664}{\vern24689}}\margl1440\margr1440 
+\widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dghspace180\dgvspace180\dghorigin1701\dgvorigin1984\dghshow0\dgvshow0
+\jexpand\viewkind1\viewscale110\pgbrdrhead\pgbrdrfoot\bdrrlswsix\nolnhtadjtbl\rsidroot4274696 \fet0{\*\template D:\\TopCoder\\Requirements_Specification.dot}{\*\ftnsep \pard\plain \ql \li0\ri0\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid2689608 \chftnsep 
+\par }}{\*\ftnsepc \pard\plain \ql \li0\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid2689608 \chftnsepc 
+\par }}{\*\aftnsep \pard\plain \ql \li0\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid2689608 \chftnsep 
+\par }}{\*\aftnsepc \pard\plain \ql \li0\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid2689608 \chftnsepc 
+\par }}\sectd \psz1\linex0\endnhere\sectdefaultcl\sftnbj {\header \pard\plain \s22\qc \li0\ri0\sl240\slmult0\nowidctlpar\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\insrsid2181450 {\*\shppict{\pict{\*\picprop\shplid1026{\sp{\sn shapeType}{\sv 75}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn pibFlags}{\sv 2}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 1}}{\sp{\sn fLayoutInCell}{\sv 1}}}
+\picscalex100\picscaley100\piccropl0\piccropr0\piccropt0\piccropb0\picw5292\pich767\picwgoal3000\pichgoal435\pngblip\bliptag-1485194519{\*\blipuid a779bae93c6ee2839bef4dce9f58b558}
+89504e470d0a1a0a0000000d49484452000000c80000001d0803000000d875d3300000000467414d410000afc837058ae90000001974455874536f6674776172
+650041646f626520496d616765526561647971c9653c00000063504c5445f68f91818283c0c1c1fac7c8ee2d32232526ef3b3ffcd5d6f8abadf0494df36569d0
+d0d0fef1f1f58184626464f9b9ba141617f79d9fe0e0e0fde3e4535455727374a1a1a2333536f47376b0b1b1919292efefef434445f2575b040607ed1f24ffff
+ff07e302c60000002174524e53ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff009fc1d021000002064944415478daec986b97
+822010865550c14b9ada6d1737feffaf5c41502e6ae6b13a7a7a3fc508380f3033a4f3c745e8f6e475aeff10123b3b00f1fc460d88efbaee79832045e3f78181
+b8955f11679bbba1ec0aa1717e22973d80d05b75287601c2a4829c5d5b4f4e0c1c4de16740c89fade7e6c57743d13641c0dd52f8c9a3c5000eddd12a4e44d3a9
+68a975e32f9facf13ce80f56d03411b32769ad292df9148a257280f442ef5ab395409a25428f40a41888d7b52ee626f95d27454482d4fd3c75d374e40f4d903f
+d76d414607ac7720e65585168130d7fba5f79b666c9a7371066d1088846f41bfa281708f99a1b071ff526a77e63bc2e6c5a28de5ea2c015172972b9fa9667718
+2494c7457b37ef2541bade082a56c770a81b2112cabb413acd00e189229a0352af0f72f05add2e2b80d040844e7fb44275c411b4cae0fa205606304032f00c08
+8b133dd8813a42d50b41fc7838d803341b04f63b52b7e9bb1c01c1e5ab62447de150fa9d03923d8891e668a57c374048e93b4030e884e783244728ebc344b0f3
+d496d2e5202375c40241f61505ccaa23ed1ded3a5547f8889091e07019886f56f69c8e8194d02ae18948484366c3e64c56f636f213860c8f8b40e22ad730483c
+0a4241a4f91c44ede285914608ebcc7019d7294ae80c104aafdaa57a1a64f37facbe205f907541b6fa5d8bcaef5a1264ab5f1aa9e6fa6e40fe051800f4aba1251e4a62630000000049454e44ae426082}}{\nonshppict{\pict\picscalex100\picscaley100\piccropl0\piccropr0\piccropt0\piccropb0
+\picw5292\pich767\picwgoal3000\pichgoal435\wmetafile8\bliptag-1485194519{\*\blipuid a779bae93c6ee2839bef4dce9f58b558}010009000003650f00000000750d000000000400000003010800050000000b0200000000050000000c021e00c900030000001e00040000000701040008000000
+26060f000600544e50500601bb010000410b8600ee001d00c800000000001d00c8000000000028000000c80000001d0000000100010000000000000000000000
+000000000000000000000000000000000000ffffff00fe000000000000000000000000000000000000000000001fc0000000fe00000000000000000000000000
+0000000000000000001fc0000000fe000000000000000000000000000000000000000000001fc0000000e0000000000000000000000000000000000000000000
+0003c0000000e00000000000000000000000000000000000000000000003c0000000e00000000000000000000000000000000000000000000003c0000000e000
+00000000000000000000000000000000000000000003c0000000e0001f007fffe0f00007fffe0ffffc1fffc07fff8f80fc03c0000000e0001f007fffe0f0000f
+ffff0ffffe1fffe07fff8f83f803c0000000e0001f007ffff0f0000fffff0ffffe1ffff07fff8f87f003c0000000e0001f007801f0f0000fffff0f003e1e03f8
+78000f8fc003c0000000e0001f007801f0f0000f801f0f003e1e00f878000fffe003c0000000e0001f007801f0ffff0f801f0f003e1e00787ff00ffff803c000
+0000e0001f007801f0ffff0f80180f003e1e00787ff00ffff803c0000000e0001f007801f0ffff0f80000f003e1e00787ff00ffff803c0000000e0001f007801
+f0f00f0f80000f003e1e00f878000f807803c0000000e0001f007801f0f00f0f80180f003e1e01f878000f807803c0000000e0001f007ffff0ffff0f801f0fff
+fe1ffff07fff8ffff803c0000000e0001f007fffe0ffff0f801f0ffffc1fffe07fff8ffff803c0000000e01ffffe7fffe0ffff0fffff0ffffc1fff807fff8fff
+f003c0000000e01ffffe00000000000fffff000000000000000000000003c0000000e01ffffe000000000007fffe000000000000000000000003c0000000e01f
+fffe000000000003fffc000000000000000000000003c0000000e00000000000000000000000000000000000000000000003c0000000e0000000000000000000
+0000000000000000000000000003cf000000e00000000000000000000000000000000000000000000003df000000fe0000000000000000000000000000000000
+00000000003fdf000000fe000000000000000000000000000000000000000000003fdf000000fe000000000000000000000000000000000000000000003fcf00
+0000750d0000410bc60088001d00c800000000001d00c8000000000028000000c80000001d000000010008000000000000000000000000000000000000000000
+0000000000000000ffffff000605030044434200c0c0bf0091919000cfcfcf002524220082818000a1a0a000dfdfdf0063636100545352001615130073727100
+35343200b0b0af00c7c6f900908ef500d5d4fb004c48ef00231eec006864f200eeeeee003e3aee00acaaf700f0f0fd008380f4005a56f100e3e2fc00312ced00
+b9b8f8009e9cf6007572f30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000020202020202030101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010102
+02020202020301010101010102020202020203010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101020202020202030101010101010202070808080901010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+0101010101010101010101010101010808080b020203010101010101020203010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010402020301010101010102020301010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101040202030101010101010202030101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010104020203010101010101020203010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010402020301010101010102020301
+0101010101010101010101010101010202020204010101010101010101060c0d0202020202020202020202020d03060101010101020202080101010101010101
+010101010101010101111618151515151515151515151515181613010101010113161e1515151515151515151515151e1c1f0101010101151515151515151515
+15141c1b191a01010101010101151515151515151515151515151515110101011215151511010101010101012115151515160101010101010101040202030101
+0101010102020301010101010101010101010101010101020202020401010101010101010107020202020202020202020202020202020d010101010102020208
+010101010101010101010101010101011d1e151515151515151515151515151515151e1a0101010118151515151515151515151515151515151e1a0101010115
+151515151515151515151515151e1201010101010115151515151515151515151515151511010101121515151101010101011a141515151e2001010101010101
+01010402020301010101010102020301010101010101010101010101010101020202020401010101010101010102020207030303030303030303030702020206
+010101010202020801010101010101010101010101010101191515151515151515151515151515151515151101010101151515181c1c1c1c1c1c1c1c1c1c1815
+151511010101011515151e1c1c1c1c1c1c141515151515210101010101151515181c1c1c1c1c1c1c1c1c1c1c13010101121515151101010101131e1515151413
+01010101010101010101040202030101010101010202030101010101010101010101010101010102020202040101010101010101010202020801010101010101
+01010108020202040101010102020208010101010101010101010101010101011215151514111111111111111111111415151512010101011515151201010101
+0101010101011215151511010101011515151c010101010101011a201e1515151901010101151515120101010101010101010101010101011215151511010101
+191e1515151b01010101010101010101010104020203010101010101020203010101010101010101010101010101010202020204010101010101010101020202
+08010101010101010101010802020204010101010202020801010101010101010101010101010101121515151c010101010101010101011c1515151201010101
+15151512010101010101010101011215151511010101011515151c0101010101010101011f151515160101010115151512010101010101010101010101010101
+121515152011111b1515151512111301010101010101010101010402020301010101010102020301010101010101010101010101010101020202020401010101
+010101010102020208010101010101010101010802020204010101010202020202020202020202020202070601010101121515151c010101010101010101011c
+151518190101010115151512010101010101010101011215151511010101011515151c010101010101010101011e15151e010101011515151c1212121212121d
+0101010101010101121515151515151515151515151515141d010101010101010101040202030101010101010202030101010101010101010101010101010102
+0202020401010101010101010102020208010101010101010101010802020204010101010202020202020202020202020202020701010101121515151c010101
+010101010101011f110101010101010115151512010101010101010101011215151511010101011515151c010101010101010101011c15151501010101151515
+15151515151515110101010101010101121515151515151515151515151515151201010101010101010104020203010101010101020203010101010101010101
+01010101010101020202020401010101010101010102020208010101010101010101010802020204010101010202020b04040404040404100f02020201010101
+121515151c0101010101010101010101010101010101010115151512010101010101010101011215151511010101011515151c01010101010101010101181515
+1e01010101151515181c1c1c1c1c1c1301010101010101011215151520111111111111111f1e1515120101010101010101010402020301010101010102020301
+01010101010101010101010101010102020202040101010101010101010202020801010101010101010101080202020401010101020202080101010101010101
+0802020201010101121515151c0101010101010101010101010101010101010115151512010101010101010101011215151511010101011515151c0101010101
+0101010111151515160101010115151512010101010101010101010101010101121515151101010101010101011c151512010101010101010101040202030101
+01010101020203010101010101010101010101010101010202020204010101010101010101020202080101010101010101010108020202040101010102020208
+01010101010101010802020201010101121515151c01010101010101010101131101010101010101151515120101010101010101010112151515110101010115
+15151c0101010101010101191e151515110101010115151512010101010101010101010101010101121515151101010101010101011415151201010101010101
+01010402020301010101010102020301010101010101010101010101010101020202020401010101010101010102020207030303030303030303030702020206
+010101010202020703030303030303030d02020201010101121515151c010101010101010101011c15151e1901010101151515181c1c1c1c1c1c1c1c1c1c1815
+151511010101011515151e1c1c1c1c1c1c1c15151515151b0101010101151515181c1c1c1c1c1c1c1c1c1c1c1301010112151515141c1c1c1c1c1c1c14151515
+12010101010101010101040202030101010101010202030101010101010101010101010101010102020202040101010101010101010f02020202020202020202
+0202020202020701010101010202020202020202020202020202020301010101121515151c010101010101010101011c15151512010101011c15151515151515
+1515151515151515151e01010101011515151515151515151515151515181f010101010101151515151515151515151515151515110101011215151515151515
+1515151515151515190101010101010101010402020301010101010102020301010101010101010908080808080808020202020b0808080808080801010a0e03
+030303030303030303030303030e0a010101010103030303030303030303030303030e1701010101121515151812121212121212121212181515151901010101
+1a1b1c1c1c1c1c1c1c1c1c1c1c1c1c1c1b1d01010101011c1c1c1c1c1c1c1c1c1c1c16121101010101010101011c1c1c1c1c1c1c1c1c1c1c1c1c1c1c13010101
+191c1c1c1c1c1c1c1c1c1c1c1c1c1619010101010101010101010402020301010101010102020301010101010101010302020202020202020202020202020202
+02020201010101010101010101010101010101010101010101010101010101010101010101010101010101010101010111151515151515151515151515151515
+15151513010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101040202030101010101010202030101010101010101030202020202020202
+02020202020202020202020101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010114151515151515
+15151515151515151515160101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010104020203010101010101020203010101010101010109
+08080808080808080808080808080808080808010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01011112121212121212121212121212121301010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010402020301010101010102020301
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101040202030101
+01010101020203010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+0101040202030101100c0b0a02020301010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+010101010101010101010402020301060d0e030f0202070808080901010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010a0808080b02020301080c070c03020202020202030101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101040202020202020301040707070702020202020203010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+01010101010101010101010101010101010101010101010101010101010104020202020202030101050303060800000026060f000600544e50500701040000002701ffff030000000000}}}{\insrsid12459316 
+\par }}{\footer \trowd \irow0\irowband0\lastrow \ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw15 \trbrdrl\brdrs\brdrw15 \trbrdrb\brdrs\brdrw15 \trbrdrr\brdrs\brdrw15 \trbrdrh\brdrs\brdrw15 \trbrdrv\brdrs\brdrw15 
+\trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3162\clshdrawnil \cellx3054\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb
+\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3162\clshdrawnil \cellx6216\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3162\clshdrawnil \cellx9378\pard\plain 
+\ql \li0\ri360\sl240\slmult0\nowidctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin360\lin0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Confidential\cell }\pard \qc \li0\ri0\sl240\slmult0
+\nowidctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\insrsid12459316 {\field{\*\fldinst SYMBOL 211 \\f "Symbol" \\s 10}{\fldrslt\f3\fs20}}}{\insrsid14754912 TopCoder, Inc. 2007}{\insrsid12459316 \cell }\pard \qr \li0\ri0\sl240\slmult0
+\nowidctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\insrsid12459316 Page }{\field{\*\fldinst {\cs24\insrsid12459316  PAGE }}{\fldrslt {\cs24\lang1024\langfe1024\noproof\insrsid15488637 1}}}{\insrsid12459316 \cell }\pard 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\insrsid12459316 \trowd \irow0\irowband0\lastrow \ts11\trgaph108\trleft-108\trbrdrt\brdrs\brdrw15 \trbrdrl\brdrs\brdrw15 \trbrdrb\brdrs\brdrw15 \trbrdrr\brdrs\brdrw15 \trbrdrh
+\brdrs\brdrw15 \trbrdrv\brdrs\brdrw15 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3162\clshdrawnil \cellx3054\clvertalt\clbrdrt
+\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3162\clshdrawnil \cellx6216\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrnone \clbrdrb\brdrnone \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3162\clshdrawnil 
+\cellx9378\row }\pard\plain \s23\ql \li0\ri0\sl240\slmult0\nowidctlpar\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12868127\charrsid12868127 {\*\bkmkstart _Toc456598592}{\*\bkmkstart _Toc10301853}
+ZUML 2 TCUML Converter }{\insrsid6828061\charrsid6828061 - Sequence Diagrams}{\insrsid6828061  }{\insrsid12868127\charrsid12868127 1.0 Requirements Specification}{\insrsid12459316 
+\par {\*\bkmkstart _Toc456598593}{\*\bkmkend _Toc456598592}{\listtext\pard\plain\s1 \b\f1\insrsid12459316 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard \s1\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\outlinelevel0
+\pnrdate1717955493\pnrstart0\pnrxst2\pnrxst0\pnrxst0\pnrxst0\pnrxst46\pnrxst0\pnrstop6\pnrstart1\pnrrgb1\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9\pnrstart2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0
+\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc1\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr1\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrstop36\adjustright\rin0\lin720\itap0 {\insrsid12459316 Scope
+
+\par {\*\bkmkend _Toc456598593}{\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 1.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Overview
+\par }\pard\plain \ql \li720\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid4274696 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid4274696\charrsid4274696 The }{\insrsid6758370\charrsid12868127 
+ZUML 2 TCUML Converter}{\insrsid12458585  }{\insrsid12458585\charrsid12458585 - Sequence Diagrams}{\insrsid6758370\charrsid12868127  }{\insrsid4274696\charrsid4274696 component provides means to}{\insrsid12458585  help}{\insrsid4274696\charrsid4274696 
+ convert the zuml format from Poseidon to the tcuml format from TC UML Tool.}{\insrsid16657398  This component provides the }{\insrsid13847188 Sequence Diagram}{\insrsid16657398  conversion tasks}{\insrsid14826802  on a zuml file}{\insrsid16657398 .}{
+\insrsid12459316 
+\par }{\insrsid1910634 
+\par This component will be used in the TC UML Tool to load a zuml file and transform it into its internal model. The action }{\insrsid3297374 where this component will be used }{\insrsid1910634 will
+ be a modified Open file action, which will apply different transformations to the model while reading it, or after the reading process.
+\par {\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 1.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Logic Requirements
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid4274696 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid4274696 \'93zuml\'94
+ represents the file format used by Poseidon.
+\par \'93tcuml\'94 represents the file format used by TC UML Tool.
+\par This component will provide classes that will help convert a zuml file into the TC UML Tool\rquote s internal model.}{\insrsid9897809  The user will eventually use the TC UML Tool to save the model into tcuml format.}{\insrsid12459316 
+\par }{\insrsid15488637\charrsid15488637 Since the .tcuml XMI files are the "views" of the internal model, they are described as a way to present the Tool's internal representation.}{\insrsid15488637 
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid5580974 \hich\af1\dbch\af0\loch\f1 1.2.1\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid5580974 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid5580974 Description of the UML}{\insrsid15430846  }{\insrsid3671135 elements }{\insrsid5580974 /}{\insrsid15430846  }{\insrsid5580974 XMI format of the Sequence Diagrams
+\par {\listtext\pard\plain\s4 \f1\fs20\insrsid5580974 \hich\af1\dbch\af0\loch\f1 1.2.1.1\tab}}\pard\plain \s4\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin720\itap0\pararsid5580974 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid5580974 zuml and tcuml representations of Sequence Diagrams
+\par }\pard\plain \s28\ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2503727 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid2503727 
+Attached to the distribution are two files containing the hierarchy of sequence diagram}{\insrsid7285356  elements}{\insrsid2503727  in both formats in a simplified version}{\insrsid2059562  (see 2.1.2 for more details).}{\insrsid2503727 
+\par {\listtext\pard\plain\s4 \f1\fs20\insrsid2503727 \hich\af1\dbch\af0\loch\f1 1.2.1.2\tab}}\pard\plain \s4\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin720\itap0\pararsid5580974 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid2503727 Description of the SD elements in UML 1.4 and tcuml\rquote 
+s XMI format
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid4274696 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid8663036 In tcuml, the Collaboration has a }{
+\insrsid8663036\charrsid8663036 CollaborationInstanceSet}{\insrsid8663036 , which contains the list of Objects and Links}{\insrsid5571007  (these are only referenced using the ids)}{\insrsid8663036 . The order of the Links shows the order i
+n which they are executed, as shown in the Sequence Diagram (there will be only one Link on one level).
+\par }{\insrsid5571007 The Collaboration\rquote s ownedElements will contain the description of the actual Objects and }{\insrsid1184868 Links (wrapped in Stimulus objects).}{\insrsid5571007 
+\par }{\insrsid7305191 The Objects will have the \'93name\'94 property and the \'93classifier\'94 property, as a reference to a Classifier.
+\par The Stimulus will contain the \'93communicationLink\'94:Link property, which will have the description of the actual Link. The link will have two \'93connections\'94:LinkEnd property, each 
+containing the reference to the Object linked (specified as Instance type).
+\par The Stimulus will also contain the \'93dispatchAction\'94:Procedure property containing the actual Action that will determine the type of the link:
+\par {\listtext\pard\plain\f1\fs20\insrsid7305191 \hich\af1\dbch\af0\loch\f1 -\tab}}\pard \ql \fi-360\li1080\ri0\sa120\sl240\slmult0\keep\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls9\adjustright\rin0\lin1080\itap0\pararsid7305191 {\insrsid7305191 
+synchronous call - CallOperationAction }{\insrsid7305191\charrsid7305191 (isAsynchronous="false")}{\insrsid7305191 
+\par {\listtext\pard\plain\f1\fs20\insrsid7305191 \hich\af1\dbch\af0\loch\f1 -\tab}asynchronous call - CallOperationAction (isAsynchronous="true}{\insrsid7305191\charrsid7305191 ")}{\insrsid7305191 
+\par {\listtext\pard\plain\f1\fs20\insrsid7305191 \hich\af1\dbch\af0\loch\f1 -\tab}create call - CreateObjectAction
+\par {\listtext\pard\plain\f1\fs20\insrsid7305191 \hich\af1\dbch\af0\loch\f1 -\tab}send signal call - SendSignalAction
+\par {\listtext\pard\plain\f1\fs20\insrsid7305191 \hich\af1\dbch\af0\loch\f1 -\tab}return call - no procedure (or no action)}{\insrsid7305191\charrsid7305191 
+\par {\listtext\pard\plain\s4 \f1\fs20\insrsid15276926 \hich\af1\dbch\af0\loch\f1 1.2.1.3\tab}}\pard\plain \s4\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin720\itap0\pararsid5580974 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15276926 Description of the SD elements in UML 2.0 and zuml\rquote 
+s XMI format
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid4274696 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid8528846 
+The Collaboration (which is used for Activity Diagrams also) contains an Interaction, which has 3 main parts: fragment, message and lifeline.}{\insrsid8663036 
+\par }{\insrsid8528846 The }{\insrsid478570 \'93}{\insrsid8528846 lifeline}{\insrsid478570 \'94}{\insrsid8528846  section contains the actual Lifelines, with their description.}{\insrsid478570 
+ A Lifeline contains an ordered list of EventOccurence and ExecutionOccurence objects (only referenced), describing the actual interaction with this Lifeline, following the top-down flow of time. A received arrow or an arrow that 
+starts from this Lifeline translates to an EventOccurence, and an execution segment translates to }{\insrsid867837 ExecutionOccurence.}{\insrsid8528846 
+\par }{\insrsid10880827 The \'93fragment\'94 section contains the list of EventOccurence and ExecutionOccurence objects, with the information regarding the Lifelines they are related to and the actual Message associated with them.}{\insrsid359910  }{
+\insrsid2180712 T}{\insrsid359910 his list is ordered, so the flow }{\insrsid2180712 in time }{\insrsid359910 can be followed by iterating the event and execution occurrences}{\insrsid2180712 , as shown in the Sequence Diagram.}{\insrsid3418188 
+\par }{\insrsid10880827 The }{\insrsid9731034 \'93message\'94 section contains the list of Message objects}{\insrsid3944128 .}{\insrsid10880827 
+\par }{\insrsid673572 The type of the arrows is determined by the Message}{\insrsid14095552  object\rquote s attributes}{\insrsid673572 :}{\insrsid867837 
+\par {\listtext\pard\plain\f1\fs20\insrsid14095552 \hich\af1\dbch\af0\loch\f1 -\tab}}\pard \ql \fi-360\li1080\ri0\sa120\sl240\slmult0\keep\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls9\adjustright\rin0\lin1080\itap0\pararsid14095552 {
+\insrsid14095552 synchronous call \endash  Message has }{\insrsid14095552\charrsid14095552 messageSort="synchCall"}{\insrsid10822610  and there is an EventOccurence that has a \'93}{\insrsid10822610\charrsid10822610 startExec}{\insrsid10822610 \'94
+ ExecutionOccurence}{\insrsid2630117  for this message}{\insrsid10822610 .}{\insrsid14095552 
+\par {\listtext\pard\plain\f1\fs20\insrsid14095552 \hich\af1\dbch\af0\loch\f1 -\tab}asynchronous call - }{\insrsid15279304 Message has }{\insrsid15279304\charrsid14095552 messageSort="}{\insrsid15279304 a}{\insrsid15279304\charrsid14095552 synchCall"}{
+\insrsid14095552 
+\par {\listtext\pard\plain\f1\fs20\insrsid14095552 \hich\af1\dbch\af0\loch\f1 -\tab}create call }{\insrsid4546834 \endash }{\insrsid14095552  }{\insrsid4546834 similar as synchronous call, but has a }{\insrsid4546834\charrsid4546834 stereotype}{
+\insrsid4546834 .}{\insrsid14095552 
+\par {\listtext\pard\plain\f1\fs20\insrsid14095552 \hich\af1\dbch\af0\loch\f1 -\tab}send signal call }{\insrsid12457991 \endash }{\insrsid14095552  }{\insrsid12457991 N/A}{\insrsid14095552 
+\par {\listtext\pard\plain\f1\fs20\insrsid14095552 \hich\af1\dbch\af0\loch\f1 -\tab}return call - }{\insrsid10822610 Message has }{\insrsid10822610\charrsid14095552 messageSort="synchCall"}{\insrsid10822610  and there is an EventOccurence that has a \'93finish
+}{\insrsid10822610\charrsid10822610 Exec}{\insrsid10822610 \'94 ExecutionOccurence}{\insrsid2630117  for this message}{\insrsid10822610 .}{\insrsid14095552\charrsid7305191 
+\par {\listtext\pard\plain\s4 \f1\fs20\insrsid15228461 \hich\af1\dbch\af0\loch\f1 1.2.1.4\tab}}\pard\plain \s4\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin720\itap0\pararsid5580974 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15228461 UML 2.0 \endash  UML 1.4 differences
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15276926 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15276926 
+The Lifeline objects in UML 2.0 correspond to the Object elements in UML 1.4.
+\par }{\insrsid15228461 The EventOccurence and ExecutionOccurence objects in UML 2.0 contain the information present in Links}{\insrsid15228461\charrsid15228461  }{\insrsid15228461 in UML 1.4 (order of calls and lifeline linkage).
+\par The Messages in UML 2.0 contain the information present in Procedure (wrapping Actions) in UML 1.4.}{\insrsid15276926 
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid15228461 \hich\af1\dbch\af0\loch\f1 1.2.2\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid15228461 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15228461 Convert the SD elements from zuml\rquote }{\insrsid8521548 s XMI}{\insrsid15228461  to }{\insrsid13372458 UML 1.4 model}{\insrsid15228461 
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\keep\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid4274696 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid13372458 This component should be able to }{
+\insrsid2774739 convert the sequence diagrams represented in zuml format (UML 2.0) in tcuml format (UML 1.4). }{\insrsid11540874 
+This may be done either by using plugins for XMI Reader component, or by creating the UML 2.0 classes needed to represent the SDs as read from zuml, and convert them into tcuml format after }{\insrsid9774920 the }{\insrsid11540874 reading is over.}{
+\insrsid15228461 
+\par {\*\bkmkstart _Toc10301867}{\*\bkmkstart _Toc10301854}{\*\bkmkend _Toc10301853}{\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 1.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Required Algorithms
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2763668 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\insrsid2763668\charrsid2763668 None.
+\par {\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 1.4\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Example of the Software Usage
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15822281 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\insrsid15822281\charrsid15822281 {\*\bkmkend _Toc10301867}
+The component will be used }{\cf1\insrsid5580974\charrsid15822281 in the}{\cf1\insrsid15822281\charrsid15822281  TopCoder UML Tool import .zuml files saved by Poseidon.
+\par {\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 1.5\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Future Component Direction
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13595450 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\insrsid13595450\charrsid13595450 None at this moment.
+\par {\listtext\pard\plain\s1 \b\f1\insrsid12459316 \hich\af1\dbch\af0\loch\f1 2.\tab}}\pard\plain \s1\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin720\itap0 
+\b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Interface Requirements{\*\bkmkend _Toc10301854}
+\par {\*\bkmkstart _Toc10301855}{\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 2.1.1\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2
+\pnrdate1181082618\pnrstart0\pnrxst5\pnrxst0\pnrxst0\pnrxst0\pnrxst46\pnrxst0\pnrxst1\pnrxst0\pnrxst46\pnrxst0\pnrxst2\pnrxst0\pnrstop12\pnrstart1\pnrrgb1\pnrrgb3\pnrrgb5\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9
+\pnrstart2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc1\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr2\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr1\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr1\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrstop36\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Graphical User Interface Requirements{\*\bkmkend _Toc10301855}
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid10251948 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\insrsid10251948\charrsid10251948 None.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 2.1.2\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2
+\pnrdate1181082618\pnrstart0\pnrxst5\pnrxst0\pnrxst0\pnrxst0\pnrxst46\pnrxst0\pnrxst1\pnrxst0\pnrxst46\pnrxst0\pnrxst2\pnrxst0\pnrstop12\pnrstart1\pnrrgb1\pnrrgb3\pnrrgb5\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrrgb0\pnrstop9
+\pnrstart2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc2\pnrnfc0\pnrnfc0\pnrnfc0\pnrnfc1\pnrnfc0\pnrnfc0\pnrstop18\pnrstart3\pnrpnbr2\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr1\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr2\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0\pnrpnbr0
+\pnrpnbr0\pnrstop36\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 External Interfaces
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2059562 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\i\ul\cf1\insrsid2059562\charrsid2059562 SDs-Pos.txt}{
+\i\ul\cf1\insrsid2059562 :}{\cf1\insrsid2059562  is the file containing }{\insrsid2059562 the hierarchy of sequence diagram elements in zuml format in a simplified version
+\par }{\i\ul\cf1\insrsid2059562\charrsid2059562 SDs-}{\i\ul\cf1\insrsid2059562 Tc}{\i\ul\cf1\insrsid2059562\charrsid2059562 .txt}{\i\ul\cf1\insrsid2059562 :}{\cf1\insrsid2059562  is the file containing }{\insrsid2059562 
+the hierarchy of sequence diagram elements in tcuml format in a simplified version
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 2.1.3\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Environment Requirements
+\par {\listtext\pard\plain\f3\fs20\insrsid7034739 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls5\adjustright\rin0\lin1080\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7034739 Development language: Java1.5}{\insrsid12459316 
+\par {\listtext\pard\plain\f3\fs20\insrsid7034739 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}{\insrsid7034739 Compile target: Java1.5}{\insrsid12459316 
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 2.1.4\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Package Structure
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15730830 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\insrsid15730830\charrsid15730830 {\*\bkmkstart _Toc10369244}
+com.topcoder.umltool.xmiconverters.poseidon5
+\par {\listtext\pard\plain\s1 \b\f1\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.\tab}}\pard\plain \s1\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin720\itap0 
+\b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Software Requirements{\*\bkmkend _Toc10369244}
+\par {\*\bkmkstart _Toc10369245}{\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Administration Requirements{\*\bkmkend _Toc10369245}
+\par {\*\bkmkstart _Toc10369246}{\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.1.1\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 What elements of the application need to be configurable?{\*\bkmkend _Toc10369246}
+
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid8663036 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\insrsid8663036 {\*\bkmkstart _Toc10369247}None}{
+\cf1\insrsid7430598\charrsid2381675 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Technical Constraints{\*\bkmkend _Toc10369247}
+\par {\*\bkmkstart _Toc10369248}{\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.2.1\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Are there particular frameworks or standards that are required?
+{\*\bkmkend _Toc10369248}
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2381675 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\insrsid2381675 {\*\bkmkstart _Toc10369249}XML}{
+\cf1\insrsid2381675\charrsid15730830 
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.2.2\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 TopCoder Software Component Dependencies:{\*\bkmkend _Toc10369249}
+\par {\listtext\pard\plain\f3\fs20\cf1\insrsid9778868 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\sa120\sl240\slmult0\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls8\adjustright\rin0\lin1080\itap0\pararsid13962255 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\insrsid9778868 XMI Reader 1.0
+\par {\listtext\pard\plain\f3\fs20\cf1\insrsid9778868 \loch\af3\dbch\af0\hich\f3 \'b7\tab}XMI Reader UML Model Plugin 1.0
+\par {\listtext\pard\plain\f3\fs20\cf1\insrsid9778868 \loch\af3\dbch\af0\hich\f3 \'b7\tab}UML Model components}{\cf1\insrsid9778868\charrsid13962255 
+\par {\listtext\pard\plain\f3\fs20\cf1\insrsid7149304\charrsid13962255 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1080\ri0\sa120\sl240\slmult0\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls8\adjustright\rin0\lin1080\itap0\pararsid7149304 
+{\cf1\insrsid7149304\charrsid13962255 Configuration Manager 2.1.5}{\cf1\insrsid7149304 
+\par }\pard \ql \li720\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 {\insrsid12459316 **Please review the }{\field\fldedit{\*\fldinst {\insrsid12459316 HYPERLINK "http://www.topcodersoftware.com/pages/c_showroom.jsp"}{
+\insrsid2181450 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b6a00000068007400740070003a002f002f007700770077002e0074006f00700063006f0064006500720073006f006600740077006100720065002e0063006f006d002f00700061006700650073002f0063005f007300
+68006f00770072006f006f006d002e006a007300700000000000000000000000200000000000000000}}}{\fldrslt {\cs46\ul\cf2\insrsid12459316 TopCoder Software component catalog}}}{\insrsid12459316  for existing components that can be used in the design.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.2.3\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Third Party Component, Library, or Product Dependencies:
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9373852 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\insrsid9373852\charrsid9373852 {\*\bkmkstart _Toc10369250}
+None}{\cf1\insrsid9373852 .}{\cf1\insrsid9373852\charrsid9373852 
+\par {\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.2.4\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 QA Environment:{\*\bkmkend _Toc10369250}
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin1080\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Solaris 7
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}RedHat Linux 7.1
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Windows 2000
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Windows 2003
+\par {\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Design Constraints
+\par }\pard\plain \ql \li720\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 
+The component design and development solutions must adhere to the guidelines as outlined in the TopCoder Software Component Guidelines.  Modifications to these guidelines for this component should be detailed below.
+\par {\*\bkmkstart _Toc10369268}{\listtext\pard\plain\s2 \b\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.4\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Required Documentation{\*\bkmkend _Toc10369268}
+\par {\*\bkmkstart _Toc10369269}{\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.4.1\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Design Documentation{\*\bkmkend _Toc10369269}
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls2\adjustright\rin0\lin1080\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Use-Case Diagram
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Class Diagram
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Sequence Diagram
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Component Specification
+\par {\*\bkmkstart _Toc10369270}{\listtext\pard\plain\s3 \i\f1\fs20\insrsid12459316 \hich\af1\dbch\af0\loch\f1 3.4.2\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Help / User Documentation{\*\bkmkend _Toc10369270}
+\par {\listtext\pard\plain\f3\fs20\insrsid12459316 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\sl240\slmult0\nowidctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls4\adjustright\rin0\lin1080\itap0\pararsid12459316 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12459316 Design documents must clearly define intended component usage in the \lquote Documentation\rquote  tab of Poseidon.
+\par }\pard \ql \li0\ri0\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\insrsid12459316 
+\par }}

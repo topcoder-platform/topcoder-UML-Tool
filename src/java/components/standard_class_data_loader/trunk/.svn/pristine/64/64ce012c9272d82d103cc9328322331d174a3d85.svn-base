@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<CMConfig>
+    <!--Default namespace for  ClassDataLoaderStrategy-->
+    <Config name="com.topcoder.uml.standardclassloader">
+        <!-- required construction parameter
+             for use with the object factory -->
+        <Property name="objectFactoryNamespace">
+            <Value>com.topcoder.util.objectfactory</Value>
+        </Property>
+        
+        <!-- supported languages -->
+        <Property name="languages">
+            <Value>Java</Value>
+            <!-- <Value>CSharp</Value> -->
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>javaLoader</Value>
+            </Property>
+        </Property>            
+    </Config>
+
+    <Config name="com.topcoder.uml.standardclassloader.accuracy1">
+        <!-- required construction parameter
+             for use with the object factory -->
+        <Property name="objectFactoryNamespace">
+            <Value>com.topcoder.util.objectfactory</Value>
+        </Property>
+        
+        <!-- supported languages -->
+        <Property name="languages">
+        </Property>          
+    </Config>
+
+	<Config name="com.topcoder.uml.standardclassloader.accuracy2">
+        <!-- required construction parameter
+             for use with the object factory -->
+        <Property name="objectFactoryNamespace">
+            <Value>com.topcoder.util.objectfactory</Value>
+        </Property>
+        
+        <!-- supported languages -->
+        <Property name="languages">
+            <Value>Java</Value>
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>javaLoader</Value>
+            </Property>
+        </Property>            
+    </Config>
+
+	    <Config name="com.topcoder.uml.standardclassloader.accuracy3">
+        <!-- required construction parameter
+             for use with the object factory -->
+        <Property name="objectFactoryNamespace">
+            <Value>com.topcoder.util.objectfactory</Value>
+        </Property>
+        
+        <!-- supported languages -->
+        <Property name="languages">
+            <Value>Java</Value>
+            <Value>CSharp</Value>
+        </Property>
+        
+        <!-- Java loader information -->
+        <Property name="Java">
+            <Property name="key">
+                <Value>javaLoader</Value>
+            </Property>
+        </Property>  
+		<!-- CSharp loader information -->
+        <Property name="CSharp">
+            <Property name="key">
+                <Value>csharpLoader</Value>
+            </Property>
+        </Property>
+    </Config>  
+    
+    <!-- Namespace for possible use with the object factory component -->
+    <Config name="com.topcoder.util.objectfactory">  
+        <!-- Object factory configuration for the default java loader -->
+        <Property name="javaLoader">
+            <Property name="type">
+                <Value>com.topcoder.uml.standardclassloader.accuracytests.JavaLanguageClassDataLoader</Value>
+            </Property>
+            <Property name="params">
+            </Property>
+        </Property>
+		<!-- Object factory configuration for the default c# loader -->
+        <Property name="csharpLoader">
+            <Property name="type">
+                <Value>com.topcoder.uml.standardclassloader.accuracytests.CSharpLanguageClassDataLoader</Value>
+            </Property>
+            <Property name="params">
+            </Property>
+        </Property>
+    </Config>
+</CMConfig>

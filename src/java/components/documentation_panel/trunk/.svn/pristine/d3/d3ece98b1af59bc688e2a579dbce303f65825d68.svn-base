@@ -1,0 +1,201 @@
+<CMConfig>
+    <!-- configuration for the overall panel -->
+    <Config name="docPanelNamespace1">
+        <!-- required construction parameters
+             for use with the object factory (see below) -->
+        <Property name="objectFactoryNamespace">
+            <Value>documentationPanel.objectFactory</Value>
+        </Property>
+        <Property name="documentEditorKey">
+            <Value>documentEditor1</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor1</Value>
+        </Property>   
+    </Config>
+    
+    <Config name="docPanelNamespace2">
+        <!-- required construction parameters
+             for use with the object factory (see below) -->
+        <Property name="objectFactoryNamespace">
+            <Value>documentationPanel.objectFactory</Value>
+        </Property>
+        <Property name="documentEditorKey">
+            <Value>documentEditor2</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor2</Value>
+        </Property>   
+    </Config>
+    
+    <Config name="docPanelNamespace3">
+        <!-- required construction parameters
+             for use with the object factory (see below) -->
+        <Property name="objectFactoryNamespace">
+            <Value>documentationPanel.objectFactory</Value>
+        </Property>
+        <Property name="documentEditorKey">
+            <Value>documentEditor3</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor3</Value>
+        </Property>   
+    </Config>
+    
+    <Config name="docPanelNamespace4">
+        <!-- required construction parameters
+             for use with the object factory (see below) -->
+        <Property name="objectFactoryNamespace">
+            <Value>documentationPanel.objectFactory</Value>
+        </Property>
+        <Property name="documentEditorKey">
+            <Value>documentEditor4</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor4</Value>
+        </Property>   
+    </Config>
+    
+    <!-- Namespace for possible use with the object factory component -->
+    <Config name="documentationPanel.objectFactory">  
+  
+        <!-- Object factory configuration for the default documentation editor panel -->
+        <Property name="documentEditor1">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultDocumentationEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultDocEditor_1</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        
+        <Property name="documentEditor2">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultDocumentationEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultDocEditor_2</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        
+        <Property name="documentEditor3">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultDocumentationEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultDocEditor_3</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        
+        <Property name="documentEditor4">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultDocumentationEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultDocEditor_4</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        
+        <!-- Object factory configuration for the default documentation editor panel -->
+        <Property name="tagEditor1">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultTagEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultTagEditor_1</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        
+        <Property name="tagEditor2">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultTagEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultTagEditor_2</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        
+        <Property name="tagEditor3">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultTagEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultTagEditor_3</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        
+        <Property name="tagEditor4">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultTagEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultTagEditor_4</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        
+    </Config>
+</CMConfig>

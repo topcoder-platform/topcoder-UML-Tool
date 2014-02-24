@@ -1,0 +1,51 @@
+<UML:Diagram name="Main Class Diagram" visible="true" xmi.id="TC_UML_6a88a97f-c937-443f-95c1-8174aa19cde4" zoom="0.9">
+<UML:Diagram.viewport>
+<UML:Point x="0.0" y="0.0"/>
+</UML:Diagram.viewport>
+<UML:Diagram.diagramLink>
+<UML:DiagramLink xmi.idref="TC_UML_bc685293-9c67-4ca6-97fb-ad77102a535b"/>
+</UML:Diagram.diagramLink>
+<UML:GraphNode.size>
+<UML:Dimension height="250.0" width="250.0"/>
+</UML:GraphNode.size>
+<UML:GraphElement.position>
+<UML:Point x="0.0" y="0.0"/>
+</UML:GraphElement.position>
+<UML:GraphElement.contained>
+<UML:GraphNode visible="true" xmi.id="TC_UML_b9707461-86fb-43a8-ad6b-33352eaedefe">
+<UML:GraphNode.size>
+<UML:Dimension height="25.0" width="40.0"/>
+</UML:GraphNode.size>
+<UML:GraphElement.position>
+<UML:Point x="120.0" y="30.0"/>
+</UML:GraphElement.position>
+<UML:GraphElement.contained>
+<UML:TextElement text="Title" visible="true" xmi.id="TC_UML_732d6428-b85a-432d-9f77-a6d3119d4ae8"/>
+</UML:GraphElement.contained>
+<UML:DiagramElement.property>
+<UML:Property key="font-size" value="20.0"/>
+</UML:DiagramElement.property>
+</UML:GraphNode>
+<UML:Ellipse endAngle="6.283185307179586" radiusX="22.0" radiusY="22.0" rotation="0.0" startAngle="0.0" visible="false" xmi.id="TC_UML_fde78785-7f93-4153-a9cf-99f86e4e7c48">
+<UML:Ellipse.center>
+<UML:Point x="200.0" y="30.0"/>
+</UML:Ellipse.center>
+<UML:DiagramElement.property>
+<UML:Property key="fill" value="#0000ff"/>
+</UML:DiagramElement.property>
+</UML:Ellipse>
+<UML:Image visible="true" xmi.id="TC_UML_cce83408-2921-47f5-9249-163895d86a2d">
+<UML:DiagramElement.property>
+<UML:Property key="width" value="100"/>
+<UML:Property key="height" value="100"/>
+</UML:DiagramElement.property>
+</UML:Image>
+</UML:GraphElement.contained>
+<UML:DiagramElement.reference>
+<UML:Reference isIndividualRepresentation="false" xmi.id="TC_UML_ed5ace0c-0ece-4f45-89ad-21ec4fc2bb49">
+<UML:DiagramLink.referenced>
+<UML:DiagramElement xmi.idref="TC_UML_cce83408-2921-47f5-9249-163895d86a2d"/>
+</UML:DiagramLink.referenced>
+</UML:Reference>
+</UML:DiagramElement.reference>
+</UML:Diagram>

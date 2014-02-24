@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<CMConfig>
+         <Config name="com.topcoder.util.log">
+                  <Property name="logClass">
+                           <Value>com.topcoder.uml.stubclassgenerator.MyLogger</Value>
+                  </Property>
+         </Config>
+         <Config name="empty_config">
+         </Config>
+         <Config name="stub_class_generator">
+                  <Property name="javaLanguage">
+                           <Value>Java</Value>
+                  </Property>
+                  <Property name="C#Language">
+                           <Value>C#</Value>
+                  </Property>
+                  <Property name="documentation">
+                           <Value>doc</Value>
+                  </Property>
+                  <Property name="tagsDocumentation">
+                           <Value>doc#</Value>
+                  </Property>
+                  <Property name="new">
+                           <Value>new_</Value>
+                  </Property>
+                  <Property name="readonly">
+                           <Value>readonly_</Value>
+                  </Property>
+                  <Property name="virtual">
+                           <Value>virtual_</Value>
+                  </Property>
+                  <Property name="override">
+                           <Value>override_</Value>
+                  </Property>
+                  <Property name="sealed">
+                           <Value>sealed_</Value>
+                  </Property>
+                  <Property name="extern">
+                           <Value>extern_</Value>
+                  </Property>
+                  <Property name="delegate">
+                           <Value>delegate_</Value>
+                  </Property>
+                  <Property name="explicit">
+                           <Value>explicit_</Value>
+                  </Property>
+                  <Property name="implicit">
+                           <Value>implicit_</Value>
+                  </Property>
+                  <Property name="struct">
+                           <Value>struct_</Value>
+                  </Property>
+                  <Property name="property_get">
+                           <Value>property_get_</Value>
+                  </Property>
+                  <Property name="property_set">
+                           <Value>property_set_</Value>
+                  </Property>
+                  <Property name="property">
+                           <Value>property_</Value>
+                  </Property>
+                  <Property name="destructor">
+                           <Value>destructor_</Value>
+                  </Property>
+                  <Property name="protected internal">
+                           <Value>protected internal_</Value>
+                  </Property>
+         </Config>
+</CMConfig>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<CMConfig>
+  <!-- Sample configuration for ReflectedXMIDescription -->
+	<Config name="com.topcoder.xmi.writer.transformers.model.ReflectedXMIDescription">
+	  <!-- Below two elements' configuration is expected to be correct -->
+		<Property name="ModelElement">
+		  <Property name="excludedMethods">
+		    <Value>getElementImports</Value>
+		    <Value>getReferenceTags</Value>
+		    <Value>getBehaviors</Value>
+		    <Value>getSupplierDependencies</Value>
+		    <Value>getDefaultParameters</Value>
+		  </Property>
+		  <Property name="containedNodes">
+		    <Value>taggedValue</Value>
+		    <Value>templateParameter</Value>
+		  </Property>
+		</Property>
+		
+		<Property name="Package">
+		  <Property name="excludedMethods">
+		  </Property>
+		  <Property name="containedNodes">
+		    <Value>elementImport</Value>
+		  </Property>
+		</Property>
+		
+		<!-- Configuration for other model elements -->
+	</Config>
+	
+</CMConfig>

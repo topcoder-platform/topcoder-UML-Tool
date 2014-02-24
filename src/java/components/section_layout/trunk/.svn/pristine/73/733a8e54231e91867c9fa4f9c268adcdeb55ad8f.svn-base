@@ -1,0 +1,17 @@
+<project name="Dependency Import" default="dist" basedir=".">
+    <!-- Properties used in compile_targets ANT target for JDK version 5 -->
+    <property name="component.target" value="1.5"/>
+    <property name="component.bootclasspath" value="${java_1_5_bootclasspath}"/>
+
+    <!-- 3rd party dependencies -->
+    <property name="junit.jar" value="${ext_libdir}/junit/3.8.2/junit.jar"/>
+
+    <path id="component.tcs-dependencies"/>
+
+    <path id="component.3rdParty-dependencies"/>
+
+    <path id="component.test.3rdParty-dependencies">
+        <pathelement location="${junit.jar}"/>
+    </path>
+
+</project>

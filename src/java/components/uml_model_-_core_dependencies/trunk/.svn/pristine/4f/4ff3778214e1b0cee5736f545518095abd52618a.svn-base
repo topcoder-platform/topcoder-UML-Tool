@@ -1,0 +1,811 @@
+{\rtf1\adeflang1025\ansi\ansicpg936\uc2\adeff0\deff0\stshfdbch13\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe2052{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Palatino};}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial{\*\falt Arial};}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New{\*\falt Courier New};}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol{\*\falt Symbol};}
+{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings{\*\falt Wingdings};}{\f13\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}\'cb\'ce\'cc\'e5{\*\falt SimSun};}
+{\f36\fnil\fcharset134\fprq2{\*\panose 00000000000000000000}@\'cb\'ce\'cc\'e5;}{\f38\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Palatino};}{\f39\froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Palatino};}
+{\f41\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Palatino};}{\f42\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Palatino};}{\f43\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Palatino};}
+{\f44\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Palatino};}{\f45\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Palatino};}{\f46\froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Palatino};}
+{\f48\fswiss\fcharset238\fprq2 Arial CE{\*\falt Arial};}{\f49\fswiss\fcharset204\fprq2 Arial Cyr{\*\falt Arial};}{\f51\fswiss\fcharset161\fprq2 Arial Greek{\*\falt Arial};}{\f52\fswiss\fcharset162\fprq2 Arial Tur{\*\falt Arial};}
+{\f53\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew){\*\falt Arial};}{\f54\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic){\*\falt Arial};}{\f55\fswiss\fcharset186\fprq2 Arial Baltic{\*\falt Arial};}
+{\f56\fswiss\fcharset163\fprq2 Arial (Vietnamese){\*\falt Arial};}{\f58\fmodern\fcharset238\fprq1 Courier New CE{\*\falt Courier New};}{\f59\fmodern\fcharset204\fprq1 Courier New Cyr{\*\falt Courier New};}
+{\f61\fmodern\fcharset161\fprq1 Courier New Greek{\*\falt Courier New};}{\f62\fmodern\fcharset162\fprq1 Courier New Tur{\*\falt Courier New};}{\f63\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew){\*\falt Courier New};}
+{\f64\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic){\*\falt Courier New};}{\f65\fmodern\fcharset186\fprq1 Courier New Baltic{\*\falt Courier New};}{\f66\fmodern\fcharset163\fprq1 Courier New (Vietnamese){\*\falt Courier New};}
+{\f170\fnil\fcharset0\fprq2 SimSun Western{\*\falt SimSun};}{\f400\fnil\fcharset0\fprq2 @\'cb\'ce\'cc\'e5 Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;
+\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red51\green153\blue102;}
+{\stylesheet{\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{
+\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 
+\b\fs24\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 
+heading 2;}{\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 
+\i\fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 3;}{\s4\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 
+heading 4;}{\s5\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl4\outlinelevel4\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 
+\fs22\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 5;}{\s6\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl5\outlinelevel5\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs22\alang1025 \ltrch\fcs0 \i\fs22\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 
+heading 6;}{\s7\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl6\outlinelevel6\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 
+\fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 7;}{\s8\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl7\outlinelevel7\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 
+heading 8;}{\s9\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl8\outlinelevel8\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\ai\af1\afs18\alang1025 \ltrch\fcs0 
+\b\i\fs18\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 9;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\lang1024\langfe1024\loch\f0\hich\af0\dbch\af13\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\*\cs15 
+\additive \rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf2 \sbasedon10 Hyperlink;}{\s16\ql \li0\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 
+\fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext16 Body Text;}{\s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 
+\ai\af1\afs20\alang1025 \ltrch\fcs0 \i\fs20\cf2\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext16 \sautoupd InfoBlue;}{\*\cs18 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf12 \sbasedon10 FollowedHyperlink;}{
+\s19\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext19 Body Text 2;}
+{\s20\ql \fi-360\li1440\ri0\widctlpar\jclisttab\tx1440\wrapdefault\aspalpha\aspnum\faauto\ls39\adjustright\rin0\lin1440\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext20 Style Heading 3 + 10 pt Not Bold;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\listtable{\list\listtemplateid-985754512{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s1\jclisttab\tx360 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}
+\rtlch\fcs1 \af0 \ltrch\fcs0 \s2\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s3
+\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s4\jclisttab\tx0 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s5\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s6\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s7\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s8\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s9\jclisttab\tx0 }{\listname ;}\listid-5}
+{\list\listtemplateid1522684682\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid-333670042\'02\'00);}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 
+\fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1800
+\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2520
+\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3240
+\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3960
+\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4680
+\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5400
+\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6120
+\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6840
+\jclisttab\tx6840\lin6840 }{\listname ;}\listid58748593}{\list\listtemplateid341983970\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}
+\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440
+\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li2880
+\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid177350675}{\list\listtemplateid-16460052\listhybrid{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698703\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc4\levelnfcn4\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li7560\jclisttab\tx7560\lin7560 }{\listname ;}\listid214897444}{\list\listtemplateid-187286572\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat0\levelspace360\levelindent0{\leveltext\leveltemplateid-902515286\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693
+\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 
+\fi-360\li6120\jclisttab\tx6120\lin6120 }{\listname ;}\listid268705770}{\list\listtemplateid-808784224\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703
+\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713
+\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715
+\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703
+\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713
+\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715
+\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703
+\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713
+\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715
+\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid387077551}{\list\listtemplateid8715906\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace720\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693
+\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689
+\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 
+\fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5040
+\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid388459336}
+{\list\listtemplateid2125884322\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid592376902\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \s20\fi-360\li1440
+\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2880
+\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3600
+\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li4320
+\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li5040
+\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5760
+\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6480
+\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li7200
+\jclisttab\tx7200\lin7200 }{\listname ;}\listid409742452}{\list\listtemplateid-455315512\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}
+\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440
+\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li2880
+\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid572202652}{\list\listtemplateid857878894\listhybrid{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\leveltext\leveltemplateid-902515286\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat0\levelspace360\levelindent0{\leveltext\leveltemplateid-902515286\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}
+\f10\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listname ;}\listid597981496}{\list\listtemplateid1001162818\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext
+\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 
+\fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li2880
+\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid625350033}{\list\listtemplateid1001162818\listhybrid{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace720\levelindent0{\leveltext\leveltemplateid-902515286\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720
+\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext
+\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext
+\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li7560\jclisttab\tx7560\lin7560 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}
+\f10\fbias0 \fi-360\li8280\jclisttab\tx8280\lin8280 }{\listname ;}\listid682589354}{\list\listtemplateid1973962966\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid-1728424102\'02\'00);}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid788623599}{\list\listtemplateid-160384884\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid806357716}{\list\listtemplateid-584519620\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698705\'02\'00);}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid819153403}{\list\listtemplateid-1234828014\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720
+\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext
+\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext
+\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}
+\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 
+\fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760
+\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6480
+\jclisttab\tx6480\lin6480 }{\listname ;}\listid837306064}{\list\listtemplateid932329388\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}
+\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800
+\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2520
+\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 
+}{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid876431865}{\list\listtemplateid1322161850\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat0\levelspace360\levelindent0{\leveltext\leveltemplateid-902515286\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693
+\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 
+\fi-360\li6120\jclisttab\tx6120\lin6120 }{\listname ;}\listid1208180039}{\list\listtemplateid1620348534\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\leveltext
+\leveltemplateid-902515286\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\leveltext\leveltemplateid-902515286
+\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 
+\fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li4680
+\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listname ;}\listid1209144742}
+{\list\listtemplateid155512328\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid898402726\'02\'00);}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 
+\fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1800
+\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2520
+\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3240
+\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3960
+\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4680
+\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5400
+\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6120
+\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6840
+\jclisttab\tx6840\lin6840 }{\listname ;}\listid1210219940}{\list\listtemplateid1001162818\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace720\levelindent0{\leveltext\leveltemplateid-902515286
+\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}
+\f10\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 
+\fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5400
+\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6120
+\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li6840
+\jclisttab\tx6840\lin6840 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li7560\jclisttab\tx7560\lin7560 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li8280\jclisttab\tx8280\lin8280 }{\listname ;}\listid1230992689}
+{\list\listtemplateid1001162818\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720
+\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0
+{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li7200\jclisttab\tx7200\lin7200 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693
+\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li7920\jclisttab\tx7920\lin7920 }{\listname ;}\listid1274482354}{\list\listtemplateid1001162818\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace720\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693
+\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689
+\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 
+\fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5760
+\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li7200\jclisttab\tx7200\lin7200 }{\listname ;}\listid1367682823}
+{\list\listtemplateid466108028{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-454\li2552\jclisttab\tx2552\lin2552 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 
+\fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li7200\jclisttab\tx7200\lin7200 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li7920\jclisttab\tx7920\lin7920 }{\listname ;}\listid1390615766}{\list\listtemplateid1966635118\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693
+\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689
+\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 
+\fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5400
+\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid1435636257}
+{\list\listtemplateid-991146454\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\leveltext\leveltemplateid-902515286\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 
+\fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693
+\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listname ;}\listid1520466067}{\list\listtemplateid1001162818\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0
+\levelspace720\levelindent0{\leveltext\leveltemplateid-902515286\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext
+\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext
+\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}
+\f10\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 
+\fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6840
+\jclisttab\tx6840\lin6840 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li7560
+\jclisttab\tx7560\lin7560 }{\listname ;}\listid1527257101}{\list\listtemplateid1001162818\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}
+\f3\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2880
+\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li3600
+\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li4320
+\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li7200\jclisttab\tx7200\lin7200 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li7920\jclisttab\tx7920\lin7920 }{\listname ;}\listid1543327577}{\list\listtemplateid904958262\listhybrid{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\leveltemplateid1997934738\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693
+\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689
+\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6840
+\jclisttab\tx6840\lin6840 }{\listname ;}\listid1631787996}{\list\listtemplateid-1788035186\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698703
+\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698713
+\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698715
+\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698703
+\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698713
+\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698715
+\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698703
+\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698713
+\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698715
+\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6120\jclisttab\tx6120\lin6120 }{\listname ;}\listid1650984501}{\list\listtemplateid1001162818\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0
+\levelspace720\levelindent0{\leveltext\leveltemplateid-902515286\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext
+\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext
+\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}
+\f10\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 
+\fi-360\li6840\jclisttab\tx6840\lin6840 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li7560
+\jclisttab\tx7560\lin7560 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li8280
+\jclisttab\tx8280\lin8280 }{\listname ;}\listid1750232806}{\list\listtemplateid1966635118\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 
+\fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2520
+\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li3240
+\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid1777746532}{\list\listtemplateid-902901326\listhybrid{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\leveltemplateid-32098778\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693
+\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689
+\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6840
+\jclisttab\tx6840\lin6840 }{\listname ;}\listid1852989559}{\list\listtemplateid782250576\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\leveltext\leveltemplateid-902515286
+\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}
+\f10\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 
+\fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3240
+\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li3960
+\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li4680
+\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listname ;}\listid1871726503}
+{\list\listtemplateid2008424362\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720
+\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0
+{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\leveltemplateid67698693
+\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid1911844699}{\list\listtemplateid1964700042\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid67698703\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6120\jclisttab\tx6120\lin6120 }{\listname ;}\listid1970627535}{\list\listtemplateid-689820806\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid324323412\'02\'00);}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid2039698128}{\list\listtemplateid-584519620\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace720\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li7560\jclisttab\tx7560\lin7560 }{\listname ;}\listid2082094552}}{\*\listoverridetable{\listoverride\listid-5\listoverridecount0\ls1}{\listoverride\listid806357716
+\listoverridecount9{\lfolevel}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}
+{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}\ls2}{\listoverride\listid876431865\listoverridecount0\ls3}{\listoverride\listid1210219940\listoverridecount0\ls4}
+{\listoverride\listid788623599\listoverridecount0\ls5}{\listoverride\listid876431865\listoverridecount0\ls6}{\listoverride\listid58748593\listoverridecount0\ls7}{\listoverride\listid597981496\listoverridecount0\ls8}{\listoverride\listid1209144742
+\listoverridecount0\ls9}{\listoverride\listid1208180039\listoverridecount0\ls10}{\listoverride\listid1871726503\listoverridecount0\ls11}{\listoverride\listid1520466067\listoverridecount0\ls12}{\listoverride\listid268705770\listoverridecount0\ls13}
+{\listoverride\listid1911844699\listoverridecount0\ls14}{\listoverride\listid177350675\listoverridecount0\ls15}{\listoverride\listid388459336\listoverridecount0\ls16}{\listoverride\listid572202652\listoverridecount0\ls17}{\listoverride\listid625350033
+\listoverridecount0\ls18}{\listoverride\listid1527257101\listoverridecount0\ls19}{\listoverride\listid1367682823\listoverridecount0\ls20}{\listoverride\listid1543327577\listoverridecount0\ls21}{\listoverride\listid1274482354\listoverridecount0\ls22}
+{\listoverride\listid1750232806\listoverridecount0\ls23}{\listoverride\listid1230992689\listoverridecount0\ls24}{\listoverride\listid682589354\listoverridecount0\ls25}{\listoverride\listid1650984501\listoverridecount0\ls26}{\listoverride\listid1390615766
+\listoverridecount0\ls27}{\listoverride\listid1777746532\listoverridecount0\ls28}{\listoverride\listid1435636257\listoverridecount0\ls29}{\listoverride\listid819153403\listoverridecount0\ls30}{\listoverride\listid2082094552\listoverridecount0\ls31}
+{\listoverride\listid1631787996\listoverridecount0\ls32}{\listoverride\listid1970627535\listoverridecount0\ls33}{\listoverride\listid837306064\listoverridecount0\ls34}{\listoverride\listid2039698128\listoverridecount0\ls35}{\listoverride\listid1852989559
+\listoverridecount0\ls36}{\listoverride\listid387077551\listoverridecount0\ls37}{\listoverride\listid-5\listoverridecount9{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat
+\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel
+\listoverridestartat\levelstartat1}\ls38}{\listoverride\listid409742452\listoverridecount0\ls39}{\listoverride\listid876431865\listoverridecount9{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}\ls40}
+{\listoverride\listid214897444\listoverridecount0\ls41}}{\*\rsidtbl \rsid2776120\rsid8597624\rsid11168557\rsid11565287\rsid12214999\rsid12728128}{\*\generator Microsoft Word 11.0.8026;}{\info{\title <<Component>> <<Version>> Component Specification}
+{\author gpaul}{\operator xiady}{\creatim\yr2006\mo8\dy10\hr3\min24}{\revtim\yr2006\mo11\dy17\hr16\min44}{\version32}{\edmins121}{\nofpages7}{\nofwords1889}{\nofchars10770}{\*\company TopCoder}{\nofcharsws12634}{\vern24609}{\*\password 00000000}}
+{\*\xmlnstbl {\xmlns1 urn:schemas-microsoft-com:office:smarttags}}\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect \ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dgmargin
+\dghspace180\dgvspace180\dghorigin1800\dgvorigin1440\dghshow1\dgvshow1\jexpand\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\splytwnine\ftnlytwnine\htmautsp\nolnhtadjtbl\useltbaln\alntblind\lytcalctblwd\lyttblrtgr\lnbrkrule\rsidroot2776120 \fet0
+{\*\wgrffmtfilter 013f}\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\endnhere\pgbrdropt32\sectlinegrid360\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang 
+{\pntxta \dbch .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta \dbch )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl9
+\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx720\wrapdefault\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 
+\ab\af1\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs28 \ltrch\fcs0 \fs28\ul\insrsid12214999 \hich\af1\dbch\af13\loch\f1 UML Model \hich\f1 \endash \loch\f1 
+ Core Dependencies 1.0 Component Specification
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12214999 
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 1.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Design
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 The UML Model - Core Dependencies component declares the interfaces from the UML 1.5 framework, from the Core \hich\f0 \endash \hich\af0\dbch\af13\loch\f0 
+ Dependencies package. It provides concrete implementations for each interface and provides powerful API to access the collection attributes.
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 1.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Design Patterns 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 None
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 1.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Industry Standards 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 UML 1.5
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 1.3\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Required Algorithms
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 There are no complex algorithms \hich\af0\dbch\af13\loch\f0 in this design. 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 1.4\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Component Class Overview
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0 \ltrch\fcs0 \b\insrsid12214999 \hich\af0\dbch\af13\loch\f0 Dependency}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par }\pard\plain \ltrpar\s19\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 This interface extends Relationship interface. The }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid11565287 \hich\af0\dbch\af13\loch\f0 Relationship interface comes f}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \lang1033\langfe2052\langfenp2052\insrsid11565287 \hich\af0\dbch\af13\loch\f0 ro}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 
+m the Core Relationships component. A term of convenience for a Relationship other than Association, Generalization,\hich\af0\dbch\af13\loch\f0 
+ Flow, or metarelationship (such as the relationship between a Classifier and one of its Instances). A dependency states that the implementation or functioning of one or more elements requires the presence of one or more other elements. In the metamodel, 
+\hich\af0\dbch\af13\loch\f0 a\hich\af0\dbch\af13\loch\f0 
+ Dependency is a directed relationship from a client (or clients) to a supplier (or suppliers) stating that the client is dependent on the supplier (i.e., the client element requires the presence and knowledge of the supplier element).
+\par 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0 \ltrch\fcs0 \b\insrsid12214999 \hich\af0\dbch\af13\loch\f0 DependencyImpl}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par }\pard\plain \ltrpar\s19\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 This\hich\af0\dbch\af13\loch\f0 
+ is a simple concrete implementation of Dependency interface and extends RelationshipAbstractImpl from the Core Relationships component. As such, all methods in Dependency are supported.
+\par 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0 \ltrch\fcs0 \b\insrsid12214999 \hich\af0\dbch\af13\loch\f0 Binding}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par }\pard\plain \ltrpar\s19\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 This interface extends Dependency interface. A binding is a \hich\af0\dbch\af13\loch\f0 
+relationship between a template (as supplier) and a model element generated from the template (as client). It includes a list of arguments that match the template parameters. The template is a form that is cloned and modified by substitution to yield an i
+\hich\af0\dbch\af13\loch\f0 m\hich\af0\dbch\af13\loch\f0 
+plicit model fragment that behaves as if it were a direct part of the model. A Binding must have one supplier and one client; unlike a general Dependency, the supplier and client may not be sets. In the metamodel, a Binding is a Dependency where the suppl
+\hich\af0\dbch\af13\loch\f0 i\hich\af0\dbch\af13\loch\f0 
+er is the template and the client is the instantiation of the template that performs the substitution of parameters of a template. A Binding has a list of arguments that replace the parameters of the supplier to yield the client. The client is fully speci
+\hich\af0\dbch\af13\loch\f0 f\hich\af0\dbch\af13\loch\f0 ied by the binding of the supplier\hich\f0 \rquote \loch\f0 
+s parameters and does not add any information of its own. An element may participate as a supplier in multiple Binding relationships to different clients. An element may participate in only one Binding relationship as a \hich\af0\dbch\af13\loch\f0 c
+\hich\af0\dbch\af13\loch\f0 lient.
+\par 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0 \ltrch\fcs0 \b\insrsid12214999 \hich\af0\dbch\af13\loch\f0 BindingImpl}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par }\pard\plain \ltrpar\s19\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 This is a simple concrete implementation of Binding interface and extends DependencyImpl. As such, all methods in Binding are supported.
+\par 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0 \ltrch\fcs0 \b\insrsid12214999 \hich\af0\dbch\af13\loch\f0 Abstraction}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par }\pard\plain \ltrpar\s19\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 This interface extends Dependency interface. An abstraction is a Dependency relationsh\hich\af0\dbch\af13\loch\f0 
+ip that relates two elements or sets of elements that represent the same concept at different levels of abstraction or from different viewpoints. In the metamodel, an Abstraction is a Dependency in which there is a mapping between the supplier and the cli
+\hich\af0\dbch\af13\loch\f0 e\hich\af0\dbch\af13\loch\f0 nt. Depending on the specific stereotype of Abstraction, the mapping may be formal or informal, and it may be unidirectional or bidirectional.
+\par 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0 \ltrch\fcs0 \b\insrsid12214999 \hich\af0\dbch\af13\loch\f0 AbstractionImpl}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par }\pard\plain \ltrpar\s19\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 This is a simple concrete imple\hich\af0\dbch\af13\loch\f0 mentation of Abstraction interface and extends DependencyImpl. As such, all methods in Abstraction are supported
+\par 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0 \ltrch\fcs0 \b\insrsid12214999 \hich\af0\dbch\af13\loch\f0 Usage}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par }\pard\plain \ltrpar\s19\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 This interface extends Dependency interface. A usage is a relationship in which one element requires another element (or set of elements\hich\af0\dbch\af13\loch\f0 
+) for its full implementation or operation. The relationship is not a mere historical artifact, but an ongoing need; therefore, two elements related by usage must be in the same model. In the metamodel, a Usage is a Dependency in which the client requires
+\hich\af0\dbch\af13\loch\f0  \hich\af0\dbch\af13\loch\f0 
+the presence of the supplier. How the client uses the supplier, such as a class calling an operation of another class, a method having an argument of another class, and a method from a class instantiating another class, is defined in the description of th
+\hich\af0\dbch\af13\loch\f0 e\hich\af0\dbch\af13\loch\f0  particular Usage stereotype.
+\par 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0 \ltrch\fcs0 \b\insrsid12214999 \hich\af0\dbch\af13\loch\f0 UsageImpl}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par }\pard\plain \ltrpar\s19\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 This is a simple concrete implementation of Usage interface and extends DependencyImpl. As such, all methods in Usage are supported
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0 \ltrch\fcs0 \b\insrsid12214999 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 1.5\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Component Exception Definitions
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 This component defines no custom exceptions.
+\par 
+\par \hich\af0\dbch\af13\loch\f0 
+The general approach to parameter handling is not to do it. The architectural decision was to allow the beans to hold any state, and delegate to the users of these beans to decide what is legal and when it is legal. The exception here is the collection an
+\hich\af0\dbch\af13\loch\f0 d\hich\af0\dbch\af13\loch\f0  list attributes. They will not allow null elements to be passed, and for lists, it will restrict the index to be valid for the state of that list.
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 1.6\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Thread Safety
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 This component is not thread-safe, and there is no requirement for it to be thread-safe. \hich\af0\dbch\af13\loch\f0 
+In fact, the PM discourages method synchronization. Thread safety will be provided by the application using these implementations.
+\par 
+\par \hich\af0\dbch\af13\loch\f0 The classes are made non-thread-safe by the presence of mutable members and collections. In order to provide thread-safety, \hich\af0\dbch\af13\loch\f0 
+if that is ever desired, all simple member accessors and collections would need to be synchronized.
+\par 
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 2.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Environment Requirements\tab \tab 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 2.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Environment
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 JDK 1.5}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid12214999 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 2.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 TopCoder Software Components
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin1080\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid12214999 \hich\af1\dbch\af13\loch\f1 TC UML Core Requirements 1.0
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af0 \ltrch\fcs0 \f2\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af2\dbch\af13\loch\f2 o\tab}}\pard\plain \ltrpar\ql \fi-360\li1800\ri0\widctlpar
+\jclisttab\tx1800\wrapdefault\aspalpha\aspnum\faauto\ls3\ilvl1\adjustright\rin0\lin1800\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid12214999 \hich\af0\dbch\af13\loch\f0 TC UML component defining the Core \hich\af0\dbch\af13\loch\f0 Requirements.
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin1080\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid12214999 \hich\af1\dbch\af13\loch\f1 TC UML Core Relationships 1.0
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af0 \ltrch\fcs0 \f2\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af2\dbch\af13\loch\f2 o\tab}}\pard\plain \ltrpar\ql \fi-360\li1800\ri0\widctlpar
+\jclisttab\tx1800\wrapdefault\aspalpha\aspnum\faauto\ls3\ilvl1\adjustright\rin0\lin1800\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid12214999 \hich\af0\dbch\af13\loch\f0 TC UML component defining the Core Relationships.
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin1080\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid12214999 \hich\af1\dbch\af13\loch\f1 TC UML Core Auxiliary Elements 1.0
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af0 \ltrch\fcs0 \f2\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af2\dbch\af13\loch\f2 o\tab}}\pard\plain \ltrpar\ql \fi-360\li1800\ri0\widctlpar
+\jclisttab\tx1800\wrapdefault\aspalpha\aspnum\faauto\ls3\ilvl1\adjustright\rin0\lin1800\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid12214999 \hich\af0\dbch\af13\loch\f0 TC UML component defining the Core Auxiliary Elements.
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin1080\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid12214999 \hich\af1\dbch\af13\loch\f1 TC UML Data Types 1.0
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af0 \ltrch\fcs0 \f2\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af2\dbch\af13\loch\f2 o\tab}}\pard\plain \ltrpar\ql \fi-360\li1800\ri0\widctlpar
+\jclisttab\tx1800\wrapdefault\aspalpha\aspnum\faauto\ls3\ilvl1\adjustright\rin0\lin1800\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid12214999 \hich\af0\dbch\af13\loch\f0 TC UML component defining the Data \hich\af0\dbch\af13\loch\f0 Types.
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 2.3\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Third Party Components\tab 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 None
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 3.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Installation and Configuration
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 3.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Package Names
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 com.topcoder.uml.model.core.dependencies
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 3.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Configuration Parameters
+\par }\pard\plain \ltrpar\s16\ql \fi720\li0\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 None
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 3.3\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Dependencies Configuration
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 None
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 4.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Usage Notes
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 4.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Required steps to test the compon\hich\af1\dbch\af13\loch\f1 ent
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin1080\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid12214999 \hich\af1\dbch\af13\loch\f1 Extract the component distribution.
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \loch\af3\dbch\af13\hich\f3 \'b7\tab}\hich\af1\dbch\af13\loch\f1 Follow }{\field\fldedit{\*\fldinst {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1  HYPERLINK "C:\\filez\\work\\tc\\tcs_corp\\templates\\component\\" \\l "_Dependencies_Configuration" }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8597624 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90bb200000068007400740070003a002f002f007700770077002e0074006f00700063006f006400650072002e0063006f006d002f0069002f0064006500760065006c006f0070006d0065006e0074002f0064006f007700
+6e006c006f006100640073002f00660069006c0065007a0077006f0072006b00740063007400630073005f0063006f0072007000740065006d0070006c00610074006500730063006f006d0070006f006e0065006e007400220020006c00000000000000000000000000000000000000000000000000000000000000000000}
+}}{\fldrslt {\rtlch\fcs1 \af1 \ltrch\fcs0 \cs15\ul\cf2\insrsid12214999 \hich\af1\dbch\af13\loch\f1 Dependencies Configuration}}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 .
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \loch\af3\dbch\af13\hich\f3 \'b7\tab}\hich\af1\dbch\af13\loch\f1 Execute \hich\f1 \lquote \loch\f1 ant test\hich\f1 \rquote 
+\loch\f1  within the directory that the distribution was extracted to.
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 4.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Required steps to use the component
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 None
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 4.3\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Demo
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 
+The demo will demonstrate the usage of these beans. It will show them being instantiated, then used via their interface. This will be the typical usage of such simple entities under any scenario. This \hich\af0\dbch\af13\loch\f0 
+demo will focus on showing how a simple, collection, and list attribute is managed, with the understanding that all other attributes are managed in exactly the same manner, and therefore not shown here.
+\par 
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af0\afs20 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 4.3.1\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Instantiation
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 Create an instance of sample ent\hich\af0\dbch\af13\loch\f0 ity: }{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid12214999 \hich\af2\dbch\af13\loch\f2 Abstraction}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid12214999 \hich\af0\dbch\af13\loch\f0 . All other concrete entities are instantiated in this manner and are not shown here.
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\cf17\insrsid12214999 
+\par \hich\af2\dbch\af13\loch\f2 // Create an instance of sample entity
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid12214999 \hich\af2\dbch\af13\loch\f2 Abstraction abstraction = new AbstractionImpl();
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af0\afs20 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 4.3.2\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Simple attribute management
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 Manage a simple attribute: }{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid12214999 \hich\af2\dbch\af13\loch\f2 Abstraction.mapping}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\hich\af0\dbch\af13\loch\f0 .
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\cf17\insrsid12214999 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid11168557 {\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid11168557\charrsid11168557 \hich\af2\dbch\af13\loch\f2 
+// Create an instance of Usage
+\par \hich\af2\dbch\af13\loch\f2 Usage usage = new UsageImpl();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Create an instance of Abstraction
+\par \hich\af2\dbch\af13\loch\f2 Abstraction abstraction = new AbstractionImpl();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Create an instance of MappingExpression
+\par \hich\af2\dbch\af13\loch\f2 MappingExpression mapping = new MockMappi\hich\af2\dbch\af13\loch\f2 ngExpression();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use setter
+\par \hich\af2\dbch\af13\loch\f2 abstraction.setMapping(mapping);
+\par \hich\af2\dbch\af13\loch\f2 // Use getter
+\par \hich\af2\dbch\af13\loch\f2 MappingExpression retrievedMapping = abstraction.getMapping();}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid12214999\charrsid11168557 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 {\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\cf2\insrsid12214999 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af0\afs20 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 4.3.3\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Collection attribute management
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 Manage a collection attribute: }{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid12214999 \hich\af2\dbch\af13\loch\f2 Dependency.suppliers}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\hich\af0\dbch\af13\loch\f0 . All other collection a\hich\af0\dbch\af13\loch\f0 ttributes are managed in this manner and are not shown here.
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\cf17\insrsid12214999 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid12728128 {\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid12728128\charrsid12214999 \hich\af2\dbch\af13\loch\f2 
+// Create sample entity with a collection attribute to manage
+\par \hich\af2\dbch\af13\loch\f2 Dependency dependency = new DependencyImpl();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use single-entity add method
+\par \hich\af2\dbch\af13\loch\f2 ModelElement supp1 = new MockModelElement();
+\par \hich\af2\dbch\af13\loch\f2 dependency.addSupplier(supp1);
+\par \hich\af2\dbch\af13\loch\f2 // There is now one supplier in the collection
+\par \hich\af2\dbch\af13\loch\f2 // Use multiple-entity add method
+\par \hich\af2\dbch\af13\loch\f2 Collection<ModelElement> col1 = new ArrayList<ModelElement>();
+\par \hich\af2\dbch\af13\loch\f2 ModelElement supp2 = new MockModelElement();
+\par \hich\af2\dbch\af13\loch\f2 ModelElement supp3 = new MockModelEl\hich\af2\dbch\af13\loch\f2 ement();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // collection with 3 valid suppliers
+\par \hich\af2\dbch\af13\loch\f2 col1.add(supp1);
+\par \hich\af2\dbch\af13\loch\f2 col1.add(supp2);
+\par \hich\af2\dbch\af13\loch\f2 col1.add(supp3);
+\par \hich\af2\dbch\af13\loch\f2 dependency.addSuppliers(col1);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // There will now be 4 suppliers in the collection
+\par \hich\af2\dbch\af13\loch\f2 // Use contains method to check for supplier presence
+\par \hich\af2\dbch\af13\loch\f2 // This will be true
+\par \hich\af2\dbch\af13\loch\f2 boolean present1 = dependency.containsSupplier(supp1);
+\par \hich\af2\dbch\af13\loch\f2 boolean present2 = dependency.containsSupplier(supp2);
+\par \hich\af2\dbch\af13\loch\f2 boolean present3 = dependency.containsSupplier(supp3);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use count method to get the number of suppliers
+\par \hich\af2\dbch\af13\loch\f2 // The count will be 4
+\par \hich\af2\dbch\af13\loch\f2 int count = depe\hich\af2\dbch\af13\loch\f2 ndency.countSuppliers();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Get the Collection
+\par \hich\af2\dbch\af13\loch\f2 Collection<ModelElement> collection = dependency.getSuppliers();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use single-entity remove method
+\par \hich\af2\dbch\af13\loch\f2 // This will be true, and the collection size is 3
+\par \hich\af2\dbch\af13\loch\f2 boolean removed = dependency.removeSupplier(supp1);
+\par 
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // if supp1 has duplicates in this collection.
+\par \hich\af2\dbch\af13\loch\f2 // Use multiple-entity remove method
+\par \hich\af2\dbch\af13\loch\f2 Collection<ModelElement> col2 = new ArrayList<ModelElement>();
+\par \hich\af2\dbch\af13\loch\f2 col2.add(supp2);
+\par \hich\af2\dbch\af13\loch\f2 col2.add(supp3);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // This will be true, and the collection size is 1
+\par \hich\af2\dbch\af13\loch\f2 boolean altered = depen\hich\af2\dbch\af13\loch\f2 dency.removeSuppliers(col2);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use clear method
+\par \hich\af2\dbch\af13\loch\f2 // The collection size is 0 and contains no suppliers
+\par \hich\af2\dbch\af13\loch\f2 dependency.clearSuppliers();
+\par 
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use single-entity add method
+\par \hich\af2\dbch\af13\loch\f2 ModelElement client1 = new MockModelElement();
+\par \hich\af2\dbch\af13\loch\f2 dependency.addClient(client1);
+\par \hich\af2\dbch\af13\loch\f2 // There is\hich\af2\dbch\af13\loch\f2  now one supplier in the collection
+\par \hich\af2\dbch\af13\loch\f2 // Use multiple-entity add method
+\par \hich\af2\dbch\af13\loch\f2 Collection<ModelElement> col3 = new ArrayList<ModelElement>();
+\par \hich\af2\dbch\af13\loch\f2 ModelElement client2 = new MockModelElement();
+\par \hich\af2\dbch\af13\loch\f2 ModelElement client3 = new MockModelElement();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // collection with 3 valid suppliers
+\par \hich\af2\dbch\af13\loch\f2 col3.add(client1);
+\par \hich\af2\dbch\af13\loch\f2 col3.add(client2);
+\par \hich\af2\dbch\af13\loch\f2 col3.add(client3);
+\par \hich\af2\dbch\af13\loch\f2 dependency.addClients(col3);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // There will now be 4 suppliers in the collection
+\par \hich\af2\dbch\af13\loch\f2 // Use contains method to check for supplier presence
+\par \hich\af2\dbch\af13\loch\f2 // This will be true
+\par \hich\af2\dbch\af13\loch\f2 presen\hich\af2\dbch\af13\loch\f2 t1 = dependency.containsClient(client1);
+\par \hich\af2\dbch\af13\loch\f2 present2 = dependency.containsClient(client2);
+\par \hich\af2\dbch\af13\loch\f2 present3 = dependency.containsClient(client3);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use count method to get the number of suppliers
+\par \hich\af2\dbch\af13\loch\f2 // The count will be 4
+\par \hich\af2\dbch\af13\loch\f2 count = dependency.countClients();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Get the\hich\af2\dbch\af13\loch\f2  Collection
+\par \hich\af2\dbch\af13\loch\f2 collection = dependency.getClients();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use single-entity remove method
+\par \hich\af2\dbch\af13\loch\f2 // This will be true, and the collection size is 3
+\par \hich\af2\dbch\af13\loch\f2 removed = dependency.removeClient(client1);
+\par 
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // if client1 has duplicates in this collection.
+\par \hich\af2\dbch\af13\loch\f2 // Use multiple-entity remove method
+\par \hich\af2\dbch\af13\loch\f2 Collection<ModelElement> col4 = new ArrayList<ModelElement>();
+\par \hich\af2\dbch\af13\loch\f2 col4.add(client2);
+\par \hich\af2\dbch\af13\loch\f2 col4.add(client3);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // This will be true, and the collection size is 1
+\par \hich\af2\dbch\af13\loch\f2 altered = dependency.removeClients(col4);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use clear method
+\par \hich\af2\dbch\af13\loch\f2 // \hich\af2\dbch\af13\loch\f2 The collection size is 0 and contains no suppliers
+\par \hich\af2\dbch\af13\loch\f2 dependency.clearClients();}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid12214999\charrsid12214999 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af0\afs20 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 4.3.4\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 List attribute management
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 Manage a collection attribute: }{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\insrsid12214999 \hich\af2\dbch\af13\loch\f2 Binding.arguments}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\hich\af0\dbch\af13\loch\f0 . 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\cf17\insrsid12214999 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid12728128 {\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid12728128\charrsid12214999 \hich\af2\dbch\af13\loch\f2 
+// Create sample entity with a list attribute to manage
+\par \hich\af2\dbch\af13\loch\f2 Binding binding = new BindingImpl();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use single-entity add method
+\par \hich\af2\dbch\af13\loch\f2 TemplateArgument arg1 = new MockTemplateArgument();
+\par \hich\af2\dbch\af13\loch\f2 // There is now one argument in the list
+\par \hich\af2\dbch\af13\loch\f2 binding.addArgument(arg1);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use multiple-entity add method
+\par \hich\af2\dbch\af13\loch\f2 Collection<TemplateArgument> col1 = new ArrayList<TemplateArgument>(\hich\af2\dbch\af13\loch\f2 );
+\par \hich\af2\dbch\af13\loch\f2 TemplateArgument arg2 = new MockTemplateArgument();
+\par \hich\af2\dbch\af13\loch\f2 TemplateArgument arg3 = new MockTemplateArgument();
+\par \hich\af2\dbch\af13\loch\f2 //collection with 3 valid arguments
+\par \hich\af2\dbch\af13\loch\f2 col1.add(arg1);
+\par \hich\af2\dbch\af13\loch\f2 col1.add(arg2);
+\par \hich\af2\dbch\af13\loch\f2 col1.add(arg3);
+\par \hich\af2\dbch\af13\loch\f2 // There will now be 4 arguments in the list
+\par \hich\af2\dbch\af13\loch\f2 binding.addArguments(col1);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use single-entity, indexed add method, using arg1 again
+\par \hich\af2\dbch\af13\loch\f2 binding.addArgument(2, arg1);
+\par \hich\af2\dbch\af13\loch\f2 // There are now 5 arguments in the list, with another arg{\*\xmlopen\xmlns1{\factoidname chmetcnv}{\xmlattr\xmlattrns0{\xmlattrname TCSC}{\xmlattrvalue 0}}{\xmlattr\xmlattrns0{\xmlattrname NumberType}{\xmlattrvalue 1}}
+{\xmlattr\xmlattrns0{\xmlattrname Negative}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname HasSpace}{\xmlattrvalue True}}{\xmlattr\xmlattrns0{\xmlattrname SourceValue}{\xmlattrvalue 1}}{\xmlattr\xmlattrns0{\xmlattrname UnitName}{\xmlattrvalue in}}
+}\hich\af2\dbch\af13\loch\f2 1 in{\*\xmlclose} thir\hich\af2\dbch\af13\loch\f2 d spot
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use multiple-entity, indexed add method
+\par \hich\af2\dbch\af13\loch\f2 Collection<TemplateArgument> col2 = new ArrayList<TemplateArgument>();
+\par \hich\af2\dbch\af13\loch\f2 //collection with 2 valid arguments
+\par \hich\af2\dbch\af13\loch\f2 col2.add(arg2);
+\par \hich\af2\dbch\af13\loch\f2 col2.add(arg3);
+\par \hich\af2\dbch\af13\loch\f2 // There will now be 7 arguments in the list, with these two
+\par \hich\af2\dbch\af13\loch\f2 // ar\hich\af2\dbch\af13\loch\f2 guments in fourth and fifth spots
+\par \hich\af2\dbch\af13\loch\f2 binding.addArguments(3, col2);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Set the Argument
+\par \hich\af2\dbch\af13\loch\f2 binding.setArgument(5, arg1);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Get the Collection
+\par \hich\af2\dbch\af13\loch\f2 Collection<TemplateArgument> collection = binding.getArguments();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Gets the index of the appearance of the Templat\hich\af2\dbch\af13\loch\f2 eArgument
+\par \hich\af2\dbch\af13\loch\f2 int n = binding.indexOfArgument(arg2);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use contains method to check for argument presence
+\par \hich\af2\dbch\af13\loch\f2 // This will be true. It will locate the arg1 reference in the first spot.
+\par \hich\af2\dbch\af13\loch\f2 boolean present = binding.containsArgument(arg1);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use count method to get the number of arguments
+\par \hich\af2\dbch\af13\loch\f2 // The count will be 7. Duplicates are counted as separate entities.
+\par \hich\af2\dbch\af13\loch\f2 int count = binding.countArguments();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Removes the TemplateArgument instance at the index position
+\par \hich\af2\dbch\af13\loch\f2 TemplateArgument arg4 = binding.re\hich\af2\dbch\af13\loch\f2 moveArgument(5);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use single-entity remove method
+\par \hich\af2\dbch\af13\loch\f2 // This will be true, and the list size is 6, regardless if arg1 has duplicates
+\par \hich\af2\dbch\af13\loch\f2 // in this list, which it does, and these are not removed
+\par \hich\af2\dbch\af13\loch\f2 boolean removed = binding.removeArgument(arg1);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use multiple-\hich\af2\dbch\af13\loch\f2 entity remove method, using above col2
+\par \hich\af2\dbch\af13\loch\f2 // This will be true, and the list size is 4
+\par \hich\af2\dbch\af13\loch\f2 boolean altered = binding.removeArguments(col2);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Use clear method
+\par \hich\af2\dbch\af13\loch\f2 // The list size is 0 and contains no arguments
+\par \hich\af2\dbch\af13\loch\f2 binding.clearArguments();}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid12214999\charrsid12214999 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid12214999 {\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid12214999\charrsid12214999 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\lang1033\langfe1033\langfenp1033\insrsid12214999 \hich\af1\dbch\af13\loch\f1 5.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid12214999 \hich\af1\dbch\af13\loch\f1 Future Enhancements
+\par }\pard\plain \ltrpar\ql \fi720\li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid12214999 \hich\af0\dbch\af13\loch\f0 Providing a complete model, or moving to UML 2.
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid12214999 
+\par 
+\par }\pard\plain \ltrpar\s16\ql \li0\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12214999 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid12214999 
+\par }}

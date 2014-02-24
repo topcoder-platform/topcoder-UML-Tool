@@ -1,0 +1,70 @@
+<CMConfig>
+	<Config name="com.topcoder.xmi.reader.XMIReader">
+		<Property name="reuse">
+			<Value>true</Value>
+		</Property>
+
+		<Property name="handlers">
+			<Property name="UML:Diagram">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:GraphNode">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:GraphEdge">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:Property">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:GraphConnector">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:Point">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:Dimension">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:TextElement">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:Reference">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:BezierPoint">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:Polyline">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:Image">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:CoreSemanticModelBridge">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:SimpleSemanticModelElement">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:Uml1SemanticModelBridge">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+			<Property name="UML:DiagramLink">
+				<Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			</Property>
+
+			<!--These are needed for converters -->
+			<Property name="UML:Attribute">
+				<Value>com.topcoder.umltool.xmiconverters.poseidon5.handlers.ZUMLMethodHandler</Value>
+			</Property>
+			<Property name="UML:Parameter">
+				<Value>com.topcoder.umltool.xmiconverters.poseidon5.handlers.ZUMLMethodHandler</Value>
+			</Property>
+			<Property name="UML:Operation">
+				<Value>com.topcoder.umltool.xmiconverters.poseidon5.handlers.ZUMLMethodHandler</Value>
+			</Property>
+
+		</Property>
+	</Config>
+</CMConfig>

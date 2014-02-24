@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<CMConfig>
+    <!-- A full configuration for UML Model elemnet description -->
+	<Config name="com.topcoder.xmi.writer.transformers.model.ReflectedXMIDescription">
+		
+		<!-- ========= UML:Core ========= -->
+			
+		<!-- ========= UML:ModelElement ========= -->
+		<Property name="ModelElement">
+		  <Property name="excludedMethods">
+		    <Value>getElementImports</Value>
+		    <Value>getReferenceTags</Value>
+		    <Value>getBehaviors</Value>
+		    <Value>getSupplierDependencies</Value>
+		    <Value>getDefaultParameters</Value>
+		    <Value>getParameterTemplate</Value>
+		    <Value>getTemplateArguments</Value>
+		  </Property>
+		  <Property name="containedNodes">
+		    <Value>taggedValue</Value>
+		    <Value>templateParameter</Value>
+		  </Property>
+		</Property>
+		
+		<!-- ========= UML:GeneralizableElement ========= -->
+	    <Property name="GeneralizableElement">
+	      <Property name="excludedMethods">
+		    <Value>getSpecializations</Value>
+		  </Property>
+		</Property>
+
+        <!-- ========= UML:Namespace ========= -->
+        <Property name="Namespace">
+          <Property name="containedNodes">
+		    <Value>ownedElement</Value>
+		  </Property>
+		</Property>
+        
+        <!-- ========= UML:Classifier ========= -->
+        <Property name="Classifier">
+	      <Property name="excludedMethods">
+		    <Value>getTypedFeatures</Value>
+		    <Value>getTypedParameters</Value>
+		    <Value>getAssociations</Value>
+		    <Value>getSpecifiedEnds</Value>
+		    <Value>getObjectFlowStates</Value>
+		    <Value>getInstances</Value>
+		  </Property>
+		  <Property name="containedNodes">
+		    <Value>feature</Value>
+		  </Property>
+		</Property>
+        	
+        <!-- ========= UML:StructuralFeature ========= -->
+        <Property name="StructuralFeature">
+          <Property name="containedNodes">
+		    <Value>multiplicity</Value>
+		  </Property>
+		</Property>
+        	
+        <!-- ========= UML:AssociationEnd ========= -->
+        <Property name="AssociationEnd">
+          <Property name="excludedMethods">
+		    <Value>getTargetKind</Value>
+		  </Property>
+          <Property name="containedNodes">
+		    <Value>qualifier</Value>
+		  </Property>
+		</Property>
+        	
+        <!-- ========= UML:Constraint ========= -->
+        <Property name="Constraint">
+          <Property name="containedNodes">
+		    <Value>body</Value>
+		  </Property>
+		</Property>
+        	
+        <!-- ========= UML:Association ========= -->
+        <Property name="Association">
+          <Property name="containedNodes">
+		    <Value>connection</Value>
+		  </Property>
+		</Property>
+        
+        <!-- ========= UML:Attribute ========= -->
+        <Property name="Attribute">
+          <Property name="containedNodes">
+		    <Value>initialValue</Value>
+		  </Property>
+		</Property>
+        	
+        <!-- ========= UML:BehavioralFeature ========= -->
+        <Property name="BehavioralFeature">
+          <Property name="excludedMethods">
+		    <Value>getMethods</Value>
+		  </Property>
+          <Property name="containedNodes">
+		    <Value>parameter</Value>
+		  </Property>
+		</Property>
+        	
+        <!-- ========= UML:Parameter ========= -->
+        <Property name="Parameter">
+          <Property name="containedNodes">
+		    <Value>defaultValue</Value>
+		  </Property>
+		</Property>
+        	
+        <!-- ========= UML:Method ========= -->
+        <Property name="Method">
+          <Property name="excludedMethods">
+		    <Value>getProcedure</Value>
+		  </Property>
+          <Property name="containedNodes">
+		    <Value>body</Value>
+		  </Property>
+		</Property>
+        	
+        <!-- ========= UML:Abstraction ========= -->
+        <Property name="Abstraction">
+          <Property name="containedNodes">
+          	<Value>mapping</Value>
+		  </Property>
+		</Property>
+        
+        <!-- ========= UML:Binding ========= -->
+        <Property name="Binding">
+          <Property name="containedNodes">
+          	<Value>argument</Value>
+		  </Property>
+		</Property>
+        
+        <!-- ========= UML:TemplateParameter ========= -->
+        <Property name="TemplateParameter">
+          <Property name="containedNodes">
+          	<Value>parameter</Value>
+		  </Property>
+		</Property>
+        
+        <!-- ========= UML:Enumeration ========= -->
+        <Property name="Enumeration">
+          <Property name="containedNodes">
+          	<Value>literal</Value>
+		  </Property>
+		</Property>
+        	
+        <!-- ========= UML:Stereotype ========= -->
+        <Property name="Stereotype">
+          <Property name="excludedMethods">
+		    <Value>getExtendedElements</Value>
+		  </Property>
+          <Property name="containedNodes">
+          	<Value>baseClass</Value>
+          	<Value>definedTag</Value>
+          	<Value>stereotypeConstraint</Value>
+		  </Property>
+		</Property>
+        	
+        <!-- ========= UML:TagDefinition ========= -->
+        <Property name="TagDefinition">
+          <Property name="excludedMethods">
+		    <Value>getTypedValues</Value>
+		  </Property>
+          <Property name="containedNodes">
+          	<Value>multiplicity</Value>
+		  </Property>
+		</Property>
+		
+		<!-- ========= UML:TaggedValue ========= -->
+		<Property name="TaggedValue">
+          <Property name="containedNodes">
+          	<Value>dataValue</Value>
+		  </Property>
+		</Property>
+		
+		<!-- ========= UML:ProgrammingLanguageDataType ========= -->
+		<Property name="ProgrammingLanguageDataType">
+          <Property name="containedNodes">
+          	<Value>expression</Value>
+		  </Property>
+		</Property>
+
+		<!-- ========= UML:Common_Behavior ========= -->
+			
+		<!-- ========= UML:Instance ========= -->
+		<Property name="Instance">
+		  <Property name="excludedMethods">
+		    <Value>getSendStimuli</Value>
+		    <Value>getReceiveStimuli</Value>
+		  </Property>
+          <Property name="containedNodes">
+          	<Value>slot</Value>
+          	<Value>ownedInstance</Value>
+          	<Value>ownedLink</Value>
+		  </Property>
+		</Property>
+		
+		<!-- ========= UML:Link ========= -->
+		<Property name="Link">
+		  <Property name="excludedMethods">
+		    <Value>getOwner</Value>
+		    <Value>getStimuli</Value>
+		  </Property>
+          <Property name="containedNodes">
+          	<Value>connection</Value>
+		  </Property>
+		</Property>
+		
+		<!-- ========= UML:Procedure ========= -->
+		<Property name="Procedure">
+		  <Property name="excludedMethods">
+		    <Value>getAction</Value>
+		    <Value>getStimuli</Value>
+		  </Property>
+		</Property>
+
+		<!-- ========= UML:State_Machines ========= -->
+
+		<!-- ========= UML:StateMachine ========= -->
+		<Property name="StateMachine">
+          <Property name="containedNodes">
+          	<Value>top</Value>
+          	<Value>transitions</Value>
+		  </Property>
+		</Property>
+		
+		<!-- ========= UML:CompositeState ========= -->
+		<Property name="CompositeState">
+          <Property name="containedNodes">
+          	<Value>subvertex</Value>
+		  </Property>
+		</Property>
+		
+		<!-- ========= UML:Guard ========= -->
+		<Property name="Guard">
+          <Property name="containedNodes">
+          	<Value>expression</Value>
+		  </Property>
+		</Property>
+		
+		<!-- ========= UML:Collaborations ========= -->
+
+		<!-- ========= UML:Collaboration ========= -->
+		<Property name="Collaboration">
+		  <Property name="excludedMethods">
+		    <Value>getCollaborationInstanceSets</Value>
+		  </Property>
+		</Property>
+		
+		<!-- ========= UML:Model_Management ========= -->
+
+		<!-- ========= UML:Package ========= -->
+		<Property name="Package">
+          <Property name="containedNodes">
+          	<Value>elementImport</Value>
+		  </Property>
+		</Property>
+		
+		<!-- ========= UML:Use_Cases ========= -->
+
+		<!-- ========= UML:UseCase ========= -->
+		<Property name="UseCase">
+		  <Property name="excludedMethods">
+		    <Value>getIncludedUseCases</Value>
+		    <Value>getIncluders</Value>
+		    <Value>getIncludingUseCases</Value>
+		    <Value>getBaseUseCases</Value>
+		    <Value>getSubUseCases</Value>
+		    <Value>getExtenders</Value>
+		    <Value>getActors</Value>
+		  </Property>
+		</Property>
+
+		<!-- ========= UML:Extend ========= -->
+		<Property name="Extend">
+          <Property name="containedNodes">
+          	<Value>condition</Value>
+		  </Property>
+		</Property>
+
+	</Config>
+</CMConfig>

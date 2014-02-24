@@ -1,0 +1,10 @@
+<Config name="com.topcoder.util.log">
+	<Property name="logClass">
+    	<Value>com.topcoder.util.log.log4j.Log4jLog</Value>
+    </Property>
+    <Property name="config">
+    	<Property name="file">
+        	<Value>log4j.properties</Value>
+        </Property>
+    </Property>
+</Config>

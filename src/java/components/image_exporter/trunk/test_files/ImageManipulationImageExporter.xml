@@ -1,0 +1,30 @@
+<CMConfig>
+	<Config name="ImageManipulationImageExporterProperties">
+		<Property name="imageType">
+			<Value>TYPE_INT_RGB</Value>
+		</Property>
+		
+		<!-- tune for rendering hints-->
+		<Property name="renderingHints">
+			<Value>KEY_FRACTIONALMETRICS,VALUE_FRACTIONALMETRICS_ON</Value>
+			<Value>KEY_STROKE_CONTROL,VALUE_STROKE_NORMALIZE</Value>
+		</Property>
+		
+		<Property name="encodersMap">
+			<Value>custom_format_2,custom_encoder</Value>
+		</Property>
+
+		<Property name="objectFactoryNamespace">
+			<Value>ObjectFactory_Encoders</Value>
+		</Property>
+	</Config>
+	
+	<!-- Config for ObjectFactory, used by ImageManipulationImageExporter-->
+	<Config name="ObjectFactory_Encoders">
+		<Property name="custom_encoder">
+			<Property name="type">
+				<Value>com.topcoder.swing.imageexporter.MockImageEncoder</Value>
+			</Property>
+		</Property>
+	</Config>
+</CMConfig>

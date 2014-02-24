@@ -1,0 +1,659 @@
+{\rtf1\ansi\ansicpg936\uc2\deff1\stshfdbch13\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe2052{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Palatino};}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial{\*\falt Arial};}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New{\*\falt Courier New};}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol{\*\falt Symbol};}{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings{\*\falt Wingdings};}
+{\f13\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}\'cb\'ce\'cc\'e5{\*\falt SimSun};}{\f35\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}@\'cb\'ce\'cc\'e5;}{\f37\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Palatino};}
+{\f38\froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Palatino};}{\f40\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Palatino};}{\f41\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Palatino};}
+{\f42\froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Palatino};}{\f43\froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Palatino};}{\f44\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Palatino};}
+{\f45\froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Palatino};}{\f47\fswiss\fcharset238\fprq2 Arial CE{\*\falt Arial};}{\f48\fswiss\fcharset204\fprq2 Arial Cyr{\*\falt Arial};}{\f50\fswiss\fcharset161\fprq2 Arial Greek{\*\falt Arial};}
+{\f51\fswiss\fcharset162\fprq2 Arial Tur{\*\falt Arial};}{\f52\fswiss\fcharset177\fprq2 Arial (Hebrew){\*\falt Arial};}{\f53\fswiss\fcharset178\fprq2 Arial (Arabic){\*\falt Arial};}{\f54\fswiss\fcharset186\fprq2 Arial Baltic{\*\falt Arial};}
+{\f55\fswiss\fcharset163\fprq2 Arial (Vietnamese){\*\falt Arial};}{\f57\fmodern\fcharset238\fprq1 Courier New CE{\*\falt Courier New};}{\f58\fmodern\fcharset204\fprq1 Courier New Cyr{\*\falt Courier New};}
+{\f60\fmodern\fcharset161\fprq1 Courier New Greek{\*\falt Courier New};}{\f61\fmodern\fcharset162\fprq1 Courier New Tur{\*\falt Courier New};}{\f62\fmodern\fcharset177\fprq1 Courier New (Hebrew){\*\falt Courier New};}
+{\f63\fmodern\fcharset178\fprq1 Courier New (Arabic){\*\falt Courier New};}{\f64\fmodern\fcharset186\fprq1 Courier New Baltic{\*\falt Courier New};}{\f65\fmodern\fcharset163\fprq1 Courier New (Vietnamese){\*\falt Courier New};}
+{\f169\fnil\fcharset0\fprq2 SimSun Western{\*\falt SimSun};}{\f389\fnil\fcharset0\fprq2 @\'cb\'ce\'cc\'e5 Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;
+\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 2;}{\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 3;}{\s4\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 4;}{\s5\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl4\outlinelevel4\adjustright\rin0\lin0\itap0 \fs22\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 5;}{\s6\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl5\outlinelevel5\adjustright\rin0\lin0\itap0 \i\fs22\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 6;}{\s7\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl6\outlinelevel6\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 7;}{\s8\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl7\outlinelevel7\adjustright\rin0\lin0\itap0 \i\fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 8;}{\s9\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl8\outlinelevel8\adjustright\rin0\lin0\itap0 \b\i\fs18\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 9;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\loch\f0\hich\af0\dbch\af13\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\*\cs15 \additive \ul\cf2 \sbasedon10 Hyperlink;}{
+\s16\ql \li0\ri0\sa120\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext16 Body Text;}{\s17\ql \li720\ri0\sa120\sl240\slmult0
+\nowidctlpar\faauto\adjustright\rin0\lin720\itap0 \i\fs20\cf2\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext16 \sautoupd InfoBlue;}{\*\cs18 \additive \fs20 \sbasedon10 HTML Code;}{
+\s19\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs18\lang1033\langfe1033\loch\f2\hich\af2\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext19 Body Text 2;}{\s20\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 
+\fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext20 \ssemihidden footnote text;}{\*\cs21 \additive \super \sbasedon10 \ssemihidden footnote reference;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}
+{\*\listtable{\list\listtemplateid-985754512{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\s1\jclisttab\tx360 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}\s2\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\s3\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\s4
+\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\s5\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\s6\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\s7\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\s8\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\s9\jclisttab\tx0 }{\listname ;}\listid-5}{\list\listtemplateid-1587759700{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-945\li1665\jclisttab\tx1665\lin1665 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'01.;}{\levelnumbers
+\'01;}\fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'02.;}{\levelnumbers\'01;}\fi-180\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0
+\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'03.;}{\levelnumbers\'01;}\fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'02\'04.;}{\levelnumbers\'01;}\fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'05.;}{\levelnumbers\'01;}\fi-180\li4680
+\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'06.;}{\levelnumbers\'01;}\fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc4\levelnfcn4\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'07.;}{\levelnumbers\'01;}\fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'02\'08.;}{\levelnumbers\'01;}\fi-180\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid95105459}{\list\listtemplateid-1118272838{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}
+\jclisttab\tx720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\jclisttab\tx720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\jclisttab\tx720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\jclisttab\tx720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers
+\'01\'03\'05\'07\'09\'0b;}\jclisttab\tx720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}
+\jclisttab\tx720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\jclisttab\tx720 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\jclisttab\tx720 }{\listname ;}\listid364333242}
+{\list\listtemplateid-1697375118{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc4\levelnfcn4
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'02\'02.;}{\levelnumbers\'01;}\fi-180\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'03.;}{\levelnumbers\'01;}\fi-360\li2880
+\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'04.;}{\levelnumbers\'01;}\fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2
+\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'05.;}{\levelnumbers\'01;}\fi-180\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'02\'06.;}{\levelnumbers\'01;}\fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'07.;}{\levelnumbers\'01;}\fi-360\li5760
+\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'08.;}{\levelnumbers\'01;}\fi-180\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid732774268}
+{\list\listtemplateid-203400736{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc4\levelnfcn4
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'02\'02.;}{\levelnumbers\'01;}\fi-180\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'03.;}{\levelnumbers\'01;}\fi-360\li2880
+\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'04.;}{\levelnumbers\'01;}\fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2
+\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'05.;}{\levelnumbers\'01;}\fi-180\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'02\'06.;}{\levelnumbers\'01;}\fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'07.;}{\levelnumbers\'01;}\fi-360\li5760
+\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'08.;}{\levelnumbers\'01;}\fi-180\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid759326948}
+{\list\listtemplateid67698689\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname 
+;}\listid771898072}{\list\listtemplateid-160384884{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }
+{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'02.;}{\levelnumbers\'01;}\fi-180\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'02\'03.;}{\levelnumbers\'01;}\fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'04.;}{\levelnumbers\'01;}\fi-360\li3960
+\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'05.;}{\levelnumbers\'01;}\fi-180\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'06.;}{\levelnumbers\'01;}\fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'02\'07.;}{\levelnumbers\'01;}\fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'08.;}{\levelnumbers\'01;}\fi-180\li6840
+\jclisttab\tx6840\lin6840 }{\listname ;}\listid806357716}{\list\listtemplateid-1256816470{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li720
+\jclisttab\tx720\lin720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2
+\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'02.;}{\levelnumbers\'01;}\fi-180\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'02\'03.;}{\levelnumbers\'01;}\fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'04.;}{\levelnumbers\'01;}\fi-360\li3600
+\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'05.;}{\levelnumbers\'01;}\fi-180\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'06.;}{\levelnumbers\'01;}\fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'02\'07.;}{\levelnumbers\'01;}\fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'08.;}{\levelnumbers\'01;}\fi-180\li6480
+\jclisttab\tx6480\lin6480 }{\listname ;}\listid811097213}{\list\listtemplateid932329388{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 
+\fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li4680
+\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid876431865}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid979647610}{\list\listtemplateid948985370{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 
+\fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6480
+\jclisttab\tx6480\lin6480 }{\listname ;}\listid991715650}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li360
+\jclisttab\tx360\lin360 }{\listname ;}\listid1300451852}{\list\listtemplateid1175866966{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li720
+\jclisttab\tx720\lin720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2
+\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'02.;}{\levelnumbers\'01;}\fi-180\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'02\'03.;}{\levelnumbers\'01;}\fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'04.;}{\levelnumbers\'01;}\fi-360\li3600
+\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'05.;}{\levelnumbers\'01;}\fi-180\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'06.;}{\levelnumbers\'01;}\fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'02\'07.;}{\levelnumbers\'01;}\fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'08.;}{\levelnumbers\'01;}\fi-180\li6480
+\jclisttab\tx6480\lin6480 }{\listname ;}\listid1331715574}{\list\listtemplateid-291107234{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 
+\fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01{\uc1\u-3929 ?};}{\levelnumbers;}
+\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5400
+\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid1414857056}}{\*\listoverridetable{\listoverride\listid-5
+\listoverridecount9{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel
+\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}\ls1}{\listoverride\listid806357716\listoverridecount9{\lfolevel}{\lfolevel
+\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat
+\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}\ls2}{\listoverride\listid876431865\listoverridecount9{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}
+{\lfolevel}\ls3}{\listoverride\listid991715650\listoverridecount0\ls4}{\listoverride\listid95105459\listoverridecount0\ls5}{\listoverride\listid759326948\listoverridecount0\ls6}{\listoverride\listid811097213\listoverridecount0\ls7}
+{\listoverride\listid1331715574\listoverridecount0\ls8}{\listoverride\listid771898072\listoverridecount0\ls9}{\listoverride\listid979647610\listoverridecount0\ls10}{\listoverride\listid1300451852\listoverridecount0\ls11}{\listoverride\listid364333242
+\listoverridecount0\ls12}{\listoverride\listid1414857056\listoverridecount0\ls13}{\listoverride\listid732774268\listoverridecount0\ls14}}{\*\rsidtbl \rsid614694\rsid931258\rsid1603903\rsid2825929\rsid3178059\rsid3544440\rsid3604584\rsid3869491\rsid3953940
+\rsid4531731\rsid4609286\rsid4877245\rsid4946077\rsid5198588\rsid5379414\rsid6895047\rsid7869206\rsid7943365\rsid8873847\rsid9591826\rsid9664530\rsid9963892\rsid10184640\rsid10355057\rsid10379689\rsid10647787\rsid13439652\rsid13893948\rsid14297712
+\rsid15087926\rsid15498921\rsid15548892\rsid15666526\rsid16284655}{\*\generator Microsoft Word 11.0.5604;}{\info{\title <<Component>> <<Version>> Component Specification}{\author gpaul}{\operator tc}{\creatim\yr2006\mo10\dy9\hr16\min20}
+{\revtim\yr2006\mo10\dy26\hr19\min51}{\version100}{\edmins639}{\nofpages9}{\nofwords3005}{\nofchars17133}{\*\company TopCoder}{\nofcharsws20098}{\vern24689}}\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\gutter0 
+\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale150\pgbrdrhead\pgbrdrfoot\nolnhtadjtbl\rsidroot16284655 
+\fet0\sectd \linex0\endnhere\sectlinegrid360\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang 
+{\pntxta \dbch .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta \dbch )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}
+\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx720\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\fs28\ul\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1 XMI Reader Component 1.0 Component Specification
+\par }\pard\plain \s16\ql \li720\ri0\sa120\widctlpar\faauto\adjustright\rin0\lin720\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 
+\par {\listtext\pard\plain\s1 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 1.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Design
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 1.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Overview
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 The XMI Reader component provides t
+\hich\af1\dbch\af13\loch\f1 
+he ability to parse XMI files, using SAX, since using a DOM representation of a large XMI file would require too much memory. This component provides a pluggable framework for node handlers based on their element type and a repository for the elements con
+\hich\af1\dbch\af13\loch\f1 s\hich\af1\dbch\af13\loch\f1 tructed by the node handlers based on their xmi ids.  For elements that are not loaded yet, a map of properties found so far is kept, until the element is actually found in the stream.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 This design provides a self-configuring component (via the Config Mana\hich\af1\dbch\af13\loch\f1 
+ger component) which provides methods for parsing not only files and streams, but XMI data referenced by a URI or stored in a Zip file as well.  A specialized extension of the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 
+org.xml.sax.ContentHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  interface is provided, geared specifically for this f\hich\af1\dbch\af13\loch\f1 ramework, as well as a base implementation of this interface.
+\par 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 1.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Design Patterns 
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\ul\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Delegate }{\insrsid3178059 
+\loch\af1\dbch\af13\hich\f1 \endash \loch\f1  The }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 DelegatingHandler }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 class does not process the parsed XMI data; it delegates to the appropriate }{
+\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 instead.
+\par 
+\par }{\ul\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Strategy}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  \hich\f1 \endash \loch\f1  The various plug-in handlers im\hich\af1\dbch\af13\loch\f1 
+plement the strategy pattern. The right strategy for each element is executed based on the element type.
+\par 
+\par }{\ul\insrsid3178059 \hich\af1\dbch\af13\loch\f1 \hich\f1 Fa\'e7\loch\f1 ade}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  \hich\f1 \endash \loch\f1  The }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader }{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1 \hich\f1 class provides an easier-to-use fa\'e7\loch\f1 ade than the SAX parser provides, especially for parsing from a Zip file or URI source.
+\par 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 1.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Industry Standards 
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 XML, XMI, SAX
+\par 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 1.4\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Required Algorithms
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+There are no required algorithms, but this section clarifies how to implement some of the more complicated methods of the design.
+\par {\listtext\pard\plain\s3 \i\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 1.4.1\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Configuration
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 The one-argument constructor of }{
+\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 shou\hich\af1\dbch\af13\loch\f1 ld use an algorithm such as this (note, exceptions are not handled in this pseudocode)
+\par 
+\par }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 ConfigManager cm = ConfigManager.getInstance();
+\par \hich\af2\dbch\af13\loch\f2 String reuseFlag = cm.}{\insrsid614694\charrsid614694 \hich\af1\dbch\af13\loch\f1  }{\f2\fs18\cf6\insrsid614694\charrsid614694 \hich\af2\dbch\af13\loch\f2 getString}{\f2\fs18\insrsid614694\charrsid614694 
+\hich\af2\dbch\af13\loch\f2  }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 \hich\f2 (namespace, \'94\loch\f2 \hich\f2 reuse\'94\loch\f2 );
+\par 
+\par \hich\af2\dbch\af13\loch\f2 boolean reuse = true;
+\par \hich\af2\dbch\af13\loch\f2 if (reuseFlag != null)
+\par }\pard \ql \fi720\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 reuse = reuseFla\hich\af2\dbch\af13\loch\f2 \hich\f2 g.equalsIgnoreCase(\'93\loch\f2 \hich\f2 true\'94\loch\f2 );
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs18\insrsid3178059 
+\par }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 // maps from class name to XMIHandler object. They are re-used
+\par \hich\af2\dbch\af13\loch\f2 // if the \hich\f2 \lquote \loch\f2 reuse\hich\f2 \rquote \loch\f2  flag is set.
+\par \hich\af2\dbch\af13\loch\f2 Map<String, Object> instantiatedClasses = new HashMap<String, Object>();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // loop}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid614694 \hich\af2\dbch\af13\loch\f2 s}{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 \hich\f2  through all the subproperties of the \'93\loch\f2 \hich\f2 handlers
+\'94\loch\f2  pr\hich\af2\dbch\af13\loch\f2 operty.
+\par \hich\af2\dbch\af13\loch\f2 Property p = cm.getPropertyObject(namespace, "handlers");}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid3178059 
+\par }{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid10379689\charrsid10379689 \hich\af2\dbch\af13\loch\f2 // if the property is not found, simply return}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid3544440 \hich\af2\dbch\af13\loch\f2 s}{
+\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid10379689\charrsid10379689 \hich\af2\dbch\af13\loch\f2 .
+\par }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 Enumeration names = p.propertyNames();
+\par \hich\af2\dbch\af13\loch\f2 while (names.hasMoreElements()) \{
+\par \tab \hich\af2\dbch\af13\loch\f2 // name/value pairs
+\par }\pard \ql \fi720\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 String elementType = (String) names.nextElement();
+\par \hich\af2\dbch\af13\loch\f2 String className = p.getValue(name);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // create or retrieve this handler
+\par \hich\af2\dbch\af13\loch\f2 XMIHandler handler = null;
+\par \hich\af2\dbch\af13\loch\f2 boolean created = false;
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs18\insrsid3178059 \tab }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 if (reuse && instantiatedClasses.containsKey(className)) \{
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 handler = instanti\hich\af2\dbch\af13\loch\f2 atedClasses.get(className);
+\par \tab \}\hich\af2\dbch\af13\loch\f2  else \{
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 Constructor = the default constructor of \hich\f2 \lquote \loch\f2 className\hich\f2 \rquote 
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 if the default ctor doesn\hich\f2 \rquote \loch\f2 t exist \{
+\par }\pard \ql \fi720\li1440\ri0\widctlpar\faauto\adjustright\rin0\lin1440\itap0 {\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 Constructor = the one-arg constructor that takes XMIReader
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs18\insrsid3178059 \tab \tab \tab }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 If that ctor doesn\hich\f2 \rquote \loch\f2 t exist, throw XMIReaderConfigException
+\par \tab \tab \}
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 handler = call the Constructor using the appropriate arguments}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid3178059 
+\par }{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid10379689 \tab }{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid10379689\charrsid10379689 \tab \hich\af2\dbch\af13\loch\f2 if using default constructor \{
+\par }{\f2\fs18\cf6\insrsid3178059\charrsid10379689 \tab \tab }{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid10379689\charrsid10379689 \tab }{\f2\fs18\cf6\insrsid3178059\charrsid10379689 \hich\af2\dbch\af13\loch\f2 handler.setXMIReader(this);}{
+\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid3178059\charrsid10379689 
+\par }\pard \ql \fi720\li720\ri0\widctlpar\faauto\adjustright\rin0\lin720\itap0\pararsid10379689 {\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid10379689\charrsid10379689 \}
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f2\fs18\insrsid3178059 \tab \tab \hich\af2\dbch\af13\loch\f2 created = true;
+\par \tab \}
+\par \tab \hich\af2\dbch\af13\loch\f2 // we just created it, but might want to use it in a later iteration
+\par \tab \hich\af2\dbch\af13\loch\f2 if (created && reuse) instantiatedClasses.put(className, handler);
+\par 
+\par \tab \hich\af2\dbch\af13\loch\f2 // put into handlers map
+\par \tab \hich\af2\dbch\af13\loch\f2 handlers.put(elementType, handler);
+\par \}
+\par }{\insrsid3178059 
+\par {\listtext\pard\plain\s3 \i\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 1.4.2\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Parse
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 While the XML is being parsed, the }{
+\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 DelegatingHandler }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 will determine which, if any, }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler }{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1 should process t\hich\af1\dbch\af13\loch\f1 he particular node. At two points, specifically, in }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 startElement }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 and }{
+\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 endElement}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 , the handler may change.
+\par {\listtext\pard\plain\s4 \f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 1.4.2.1\tab}}\pard\plain \s4\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 startElement
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 The }{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 startElement}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  method of }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 DelegatingHandler }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+should figure out if there is a handler for the current }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 qName}{\f2\fs18\lang1033\langfe2052\langfenp2052\insrsid10355057 \hich\af2\dbch\af13\loch\f2  }{
+\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid10355057\charrsid15666526 \hich\af2\dbch\af13\loch\f2 or localName (if }{\f2\fs18\cf6\insrsid10355057\charrsid15666526 \hich\af2\dbch\af13\loch\f2 qName}{
+\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid10355057\charrsid15666526 \hich\af2\dbch\af13\loch\f2  is null or empty)}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 . If so, push it onto the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 
+activeHandlers}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  stack and use it as the current handler.  As described in the ZUML, the algorithm is:
+\par 
+\par }{\fs18\insrsid3178059 \tab }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler tempHandler = handlers.get(qName}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid15666526\charrsid15666526 \hich\af2\dbch\af13\loch\f2  or localName (if }{
+\f2\fs18\cf6\insrsid15666526\charrsid15666526 \hich\af2\dbch\af13\loch\f2 qName}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid15666526\charrsid15666526 \hich\af2\dbch\af13\loch\f2  is null or empty)}{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 );
+\par \tab \hich\af2\dbch\af13\loch\f2 if tempHandler !\hich\af2\dbch\af13\loch\f2 = null \{
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 // push the handler onto the stack
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 activeHandlers.push(tempHandler)
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 currentHandler = tempHandler;
+\par \tab \}
+\par \tab \hich\af2\dbch\af13\loch\f2 if currentHandler != null
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 currentHandler.startElement(. . .)}{\insrsid3178059 
+\par 
+\par {\listtext\pard\plain\s4 \f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 1.4.2.2\tab}}\pard\plain \s4\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 endElement
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 The }{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 endElement }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 method must determine if it should pop the stack or not. Since the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 startElement }{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1 method will always push if the handler is found for the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 qName}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid4877245\charrsid4877245 \hich\af2\dbch\af13\loch\f2  }{
+\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid4877245\charrsid15666526 \hich\af2\dbch\af13\loch\f2 or localName (if }{\f2\fs18\cf6\insrsid4877245\charrsid15666526 \hich\af2\dbch\af13\loch\f2 qName}{
+\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid4877245\charrsid15666526 \hich\af2\dbch\af13\loch\f2  is null or empty)}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 , the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 endElement }{
+\insrsid3178059 \hich\af1\dbch\af13\loch\f1 method uses the same technique: pop if the handler was found for the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 qName}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid14297712\charrsid14297712 
+\hich\af2\dbch\af13\loch\f2  }{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid14297712\charrsid15666526 \hich\af2\dbch\af13\loch\f2 or localName (if }{\f2\fs18\cf6\insrsid14297712\charrsid15666526 \hich\af2\dbch\af13\loch\f2 qName}{
+\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid14297712\charrsid15666526 \hich\af2\dbch\af13\loch\f2  is null or empty)}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 .  But first, the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 
+currentHandler }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 is used to process the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 endElement}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 , since the }{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 currentHandler }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 is still "active".  As described in the ZUML, th\hich\af1\dbch\af13\loch\f1 e algorithm is:
+\par 
+\par }{\fs18\insrsid3178059 \tab }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 if (currentHandler != null) 
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 currentHandler.endElement( . . .)
+\par \tab \hich\af2\dbch\af13\loch\f2 // determine if we should pop the stack
+\par \tab \hich\af2\dbch\af13\loch\f2 XMIHandler tempHandler = handlers.get(qName}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid14297712\charrsid14297712 \hich\af2\dbch\af13\loch\f2  }{
+\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid14297712\charrsid15666526 \hich\af2\dbch\af13\loch\f2 or localName (if }{\f2\fs18\cf6\insrsid14297712\charrsid15666526 \hich\af2\dbch\af13\loch\f2 qName}{
+\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid14297712\charrsid15666526 \hich\af2\dbch\af13\loch\f2  is null or empty)}{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 );
+\par \tab \hich\af2\dbch\af13\loch\f2 If (tempHandler != null) \{
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 activeHandlers\hich\af2\dbch\af13\loch\f2 .pop();
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 // get current handler as the top of the stack, if it exists
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 if (activeHandlers.size() > 0)
+\par }\pard \ql \fi720\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs18\insrsid3178059 \tab \tab }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 currentHandler = activeHandlers.peek();
+\par \tab \hich\af2\dbch\af13\loch\f2 else
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 currentHandler = null;
+\par \}
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\insrsid3178059 \tab 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 1.5\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Component Class Overview
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 
+\par }\pard \ql \li720\ri0\widctlpar\faauto\adjustright\rin0\lin720\itap0 {\b\insrsid3178059 \hich\af1\dbch\af13\loch\f1 class XMIReader
+\par }\pard \ql \fi-720\li1440\ri0\widctlpar\faauto\adjustright\rin0\lin1440\itap0 {\insrsid3178059 \tab }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 This is the main class of th\hich\af1\dbch\af13\loch\f1 e XMI Reader component.  It manages a map of }{
+\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 s, which process the XMI elements as they are parsed using a SAX parser.  An XMI element name can be mapped to a single }{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 XMIHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 ; a handler can also handle more than one element name.  The }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler\hich\af2\dbch\af13\loch\f2 s}{
+\insrsid3178059 \hich\af1\dbch\af13\loch\f1  can either be set up in the configuration file (see algorithms section for details) or manually via the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 add/remove/getHandler}{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1  methods. This class calls the SAX parser (in the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 parse(InputSource)}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  method, giving it a }{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 DelegatingHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 , which is the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 ContentHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+ actually passed into the parser.  Each }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  has access to this }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader}{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1  instance. This is so that the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+ can be a central clearinghouse of the various identified elements within the XMI file, in the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 'foundElements'}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  map.  Forwar\hich\af1\dbch\af13\loch\f1 
+d references are available as well; as attributes of those forward references are established, they are updated in the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 'forwardReferences'}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+ map. When the actual object is finally found, and put into the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 foundElements }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 map, this class will automatically remov\hich\af1\dbch\af13\loch\f1 
+e it from the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 forwardReferences}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  map.  This class is thread safe; each method is synchronized.
+\par 
+\par }{\b\insrsid3178059 \hich\af1\dbch\af13\loch\f1 interface XMIHandler extends org.xml.sax.ContentHandler 
+\par }\pard \ql \li1440\ri0\widctlpar\faauto\adjustright\rin0\lin1440\itap0 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 This interface represents the functionality that is required for all descendants of }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 
+ContentHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  to im\hich\af1\dbch\af13\loch\f1 plement in order to be used with the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+.  There are three methods: }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 setXMIReader}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 \hich\f1  (so it can be used to retrieve the \'93\loch\f1 \hich\f1 found elements\'94\loch\f1 ), }{
+\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 getLastRefObject}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  and }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 getLastProperty}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+, both of which can be used by child node handlers to retrieve the last referen\hich\af1\dbch\af13\loch\f1 ce object that a parent node handler created.  Implementations of this interface are required to be thread-safe.
+\par }\pard \ql \fi-720\li1440\ri0\widctlpar\faauto\adjustright\rin0\lin1440\itap0 {\insrsid3178059 
+\par }{\b\insrsid3178059 \hich\af1\dbch\af13\loch\f1 abstract class DefaultXMIHandler implements XMIHandler extends org.xml.sax.helpers.DefaultHandler
+\par }\pard \ql \li1440\ri0\widctlpar\faauto\adjustright\rin0\lin1440\itap0 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 This is a default implementation of the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIH\hich\af2\dbch\af13\loch\f2 andler}{
+\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+ interface.  All the methods in the interface are implemented, as well as set methods for the properties.  This class does not provide any support to creating elements or resolving forward references; that is the responsibility of the specific concre
+\hich\af1\dbch\af13\loch\f1 te subclass.  This class is thread-safe; the setter methods are all synchronized. 
+\par }\pard \ql \fi-720\li1440\ri0\widctlpar\faauto\adjustright\rin0\lin1440\itap0 {\insrsid3178059 
+\par }{\b\insrsid3178059 \hich\af1\dbch\af13\loch\f1 class DelegatingHandler extends org.xml.sax.helpers.DefaultHandler
+\par }\pard \ql \li1440\ri0\widctlpar\faauto\adjustright\rin0\lin1440\itap0 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 This inner class is the actual }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 ContentHandler}{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1  that will be passed into the SAX parser by the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 parse(InputSource)}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  method of }{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 XMIReader}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+, the enclosing class. This class is NOT a static inner class, but a true inner class. The various methods of this class will be called by the SAX parser.  Each of the methods will reference the enclosing class's "}{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 hand\hich\af2\dbch\af13\loch\f2 lers}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 " map to determine which }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+ implementation to call for that particular element. If there is no handler for that element, the "}{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 currentHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+" will be used.  A stack of active handlers is also maintained, in case a child node needs information t\hich\af1\dbch\af13\loch\f1 hat only an enclosing node has. This class is not thread-safe; it is only called from the (synchronized) methods of the }{
+\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  class.
+\par 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 1.6\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Component Exception Definitions
+\par }\pard\plain \ql \fi720\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\insrsid3178059 
+\par }{\b\insrsid3178059 \hich\af1\dbch\af13\loch\f1 XMIReaderException extends BaseException
+\par }\pard \ql \fi-720\li1440\ri0\widctlpar\faauto\adjustright\rin0\lin1440\itap0 {\b\insrsid3178059 \tab }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 This is the generic exception that repr\hich\af1\dbch\af13\loch\f1 
+esents an error that occurred in any part of the XMI Reader component.  It is not usually thrown; instead one of the subclass exceptions is usually thrown.
+\par 
+\par }{\b\insrsid3178059 \hich\af1\dbch\af13\loch\f1 XMIReaderConfigException extends XMIReaderException
+\par }{\insrsid3178059 \tab }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 This represents an exception that occurred whi\hich\af1\dbch\af13\loch\f1 le configuring the XMI Reader component.  This can occur during constructor (e.g., in }{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 XMIReader\hich\f2 \rquote }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 s constructor) or during parsing (which configuring the SAX parser.)}{\b\insrsid3178059 \hich\af1\dbch\af13\loch\f1   }{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1 It can be used to wrap an underlying ConfigManager exception or without an underlying exce\hich\af1\dbch\af13\loch\f1 ption.
+\par 
+\par }{\b\insrsid3178059 \hich\af1\dbch\af13\loch\f1 XMIReaderParseException extends XMIReaderException
+\par }{\insrsid3178059 \tab }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 This represents an exception that occurred while parsing.  It is thrown by one of the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader.parse}{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1  methods. It can be used to wrap an underlying }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 SAXException}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  or any other exception.
+\par 
+\par }{\b\insrsid3178059 \hich\af1\dbch\af13\loch\f1 XMIReaderI\hich\af1\dbch\af13\loch\f1 OException extends XMIReaderException
+\par }{\insrsid3178059 \tab }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 This represents an exception that occurred while opening, reading or closing a file or stream before, during, or after parsing.  It is thrown by one of the }{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 XMIReader.parse}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  methods.  It can be used to wrap an underlyin\hich\af1\dbch\af13\loch\f1 g }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 IOException}{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1  or any other exception.
+\par 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 1.7\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Thread Safety
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 This component is thread-safe. Each method in the }{
+\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  class is marked as synchronized to ensure that only one thread at a time accesses any given object. This is necessary for two reasons:
+\par {\listtext\pard\plain\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 1.\tab}}\pard \ql \fi-360\li720\ri0\widctlpar\jclisttab\tx720\faauto\ls14\adjustright\rin0\lin720\itap0 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+S\hich\af1\dbch\af13\loch\f1 AX Parsers are never required to be thread-safe so we have to do this ourselves
+\par {\listtext\pard\plain\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 2.\tab}\hich\af1\dbch\af13\loch\f1 \hich\f1 We do not want another thread to be changing the \'93}{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 handlers}{\insrsid3178059 \loch\af1\dbch\af13\hich\f1 \'94\loch\f1 \hich\f1  map while the \'93}{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 parse}{\insrsid3178059 \loch\af1\dbch\af13\hich\f1 \'94
+\hich\af1\dbch\af13\loch\f1  method is running. If we allowed that, there would be inconsistent results.  There are additional controls in place to ensure that the handlers map is not changed while the }{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 XMIReader}{\f2\insrsid3178059 \hich\af2\dbch\af13\loch\f2  }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 is parsing an XMI file (specifically, by throwing }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 
+IllegalStateException }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 in certain methods when the parse method is active). This is required since the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler}{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1 s will have access to the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  in the same thread as the parsing is occurring.
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\insrsid3178059 
+\par }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 In addition, since the instance of the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 DelegatingHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  class is only accessible\hich\af1\dbch\af13\loch\f1 
+ from the (synchronized) methods in }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 , it was not necessary to also synchronize that class.  
+\par 
+\par \hich\af1\dbch\af13\loch\f1 The }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  instances are required to be implemented in a thread-safe manner. The }{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 DefaultXMIHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  is thread-safe since the \hich\f1 \lquote \loch\f1 set\hich\f1 \rquote \loch\f1  methods are synchro\hich\af1\dbch\af13\loch\f1 
+nized and the 'get' methods merely return the corresponding property.
+\par 
+\par {\listtext\pard\plain\s1 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 2.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Environment Requirements\tab \tab 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 2.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Environment
+\par {\listtext\pard\plain\f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\widctlpar\jclisttab\tx1080\faauto\ls2\adjustright\rin0\lin1080\itap0 
+\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Java 1.5 is required for compilation and executing test cases.
+\par }\pard \ql \li720\ri0\widctlpar\faauto\adjustright\rin0\lin720\itap0 {\insrsid3178059 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 2.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 TopCoder Software Components
+\par {\listtext\pard\plain\s16 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \s16\ql \fi-360\li1080\ri0\sa120\widctlpar\jclisttab\tx1080\faauto\ls3\adjustright\rin0\lin1080\itap0 
+\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\ul\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Base Exception 1.0}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+: The base class for all custom exceptions in this component.
+\par {\listtext\pard\plain\s16 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}{\ul\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Configuration Manager 2.1.5}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+: This component is used to pre-populate the handlers map in the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  class\hich\f1 \rquote \loch\f1 s constructor.
+\par }\pard\plain \ql \li720\ri0\widctlpar\faauto\adjustright\rin0\lin720\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\i\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+NOTE: The default location for TopCoder Software component jars is../\hich\af1\dbch\af13\loch\f1 lib/tcs/COMPONENT_NAME/COMPONENT_VERSION relative to the component installation.}{\i\cf1\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+  Setting the tcs_libdir property in topcoder_global.properties will overwrite this default location.}{\insrsid3178059 
+\par }\pard\plain \s16\ql \li720\ri0\sa120\widctlpar\faauto\adjustright\rin0\lin720\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 2.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Third Party Components
+\par {\listtext\pard\plain\s16 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \s16\ql \fi-360\li1080\ri0\sa120\widctlpar\jclisttab\tx1080\faauto\ls3\adjustright\rin0\lin1080\itap0\pararsid3178059 
+\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 A SAX-compatible parser (such as Xerces, whi\hich\af1\dbch\af13\loch\f1 ch comes with the Sun JDK) is required.\line 
+\par {\listtext\pard\plain\s1 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 3.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Installation and Configuration
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 3.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Package Name
+\par }\pard\plain \s16\ql \fi720\li0\ri0\sa120\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\f2\insrsid3178059 \hich\af2\dbch\af13\loch\f2 com.topcoder.xmi.reader
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 3.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Configuration Parameters
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 
+\par }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 This is a sample configuration fragment (}{\ul\insrsid3178059 \hich\af1\dbch\af13\loch\f1 note, all the class names are fictitious and not part of this compone\hich\af1\dbch\af13\loch\f1 nt design}{
+\insrsid3178059 \hich\af1\dbch\af13\loch\f1 ).
+\par }{\cf6\insrsid3178059\charrsid3953940 
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0\pararsid5379414 {\f2\fs18\cf6\insrsid5379414\charrsid3953940 \hich\af2\dbch\af13\loch\f2 <Config name="com.topcoder.xmi.reader.XMIReader">
+\par \hich\af2\dbch\af13\loch\f2    <Property name="reuse">
+\par \hich\af2\dbch\af13\loch\f2        <Value>true</Value>
+\par \hich\af2\dbch\af13\loch\f2    </Property>
+\par \hich\af2\dbch\af13\loch\f2    }{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid5379414\charrsid3953940 
+\par }\pard \ql \fi270\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0\cufi150\pararsid5379414 {\f2\fs18\cf6\insrsid5379414\charrsid3953940 \hich\af2\dbch\af13\loch\f2 <Property name="handlers">
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0\pararsid5379414 {\f2\fs18\cf6\insrsid5379414\charrsid3953940 \hich\af2\dbch\af13\loch\f2      <Property name="UML:Class">
+\par \hich\af2\dbch\af13\loch\f2          \hich\af2\dbch\af13\loch\f2 <Value>com.topcoder.xmi.reader.handlers.ClassHandler</Value>
+\par \hich\af2\dbch\af13\loch\f2      </Property>
+\par \hich\af2\dbch\af13\loch\f2     }{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid5379414\charrsid3953940 \hich\af2\dbch\af13\loch\f2  }{\f2\fs18\cf6\insrsid5379414\charrsid3953940 \hich\af2\dbch\af13\loch\f2 
+<!-- since reuse is true, it should not instantiate another ClassHandler. -->
+\par \hich\af2\dbch\af13\loch\f2      <Property name="UML:Interface">
+\par \hich\af2\dbch\af13\loch\f2        <Value>com.topcoder.xmi.reader.handlers.ClassHandle\hich\af2\dbch\af13\loch\f2 r</Value>
+\par \hich\af2\dbch\af13\loch\f2     }{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid5379414\charrsid3953940 \hich\af2\dbch\af13\loch\f2  }{\f2\fs18\cf6\insrsid5379414\charrsid3953940 \hich\af2\dbch\af13\loch\f2 </Property>
+\par \hich\af2\dbch\af13\loch\f2     }{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid5379414\charrsid3953940 \hich\af2\dbch\af13\loch\f2  }{\f2\fs18\cf6\insrsid5379414\charrsid3953940 \hich\af2\dbch\af13\loch\f2 <Property name="UML:Stereotype">
+\par \hich\af2\dbch\af13\loch\f2        <Value>com.topcoder.xmi.reader.handlers.StereotypeHandler</Value>
+\par \hich\af2\dbch\af13\loch\f2     }{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid5379414\charrsid3953940 \hich\af2\dbch\af13\loch\f2  }{\f2\fs18\cf6\insrsid5379414\charrsid3953940 \hich\af2\dbch\af13\loch\f2 </Property>
+\par }\pard \ql \fi270\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0\cufi150\pararsid5379414 {\f2\fs18\cf6\insrsid5379414\charrsid3953940 \hich\af2\dbch\af13\loch\f2 </Property>}{
+\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid3178059\charrsid3953940 
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0\pararsid5379414 {\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid5379414\charrsid3953940 \hich\af2\dbch\af13\loch\f2 </Config>
+\par }\trowd \irow0\irowband0\ts11\trgaph108\trleft0\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt
+\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1306\clshdrawnil \cellx1306\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth3624\clshdrawnil \cellx4930\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3818\clshdrawnil \cellx8748\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\faauto\adjustright\rin0\lin0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Parameter\cell \hich\af1\dbch\af13\loch\f1 Description
+\cell \hich\af1\dbch\af13\loch\f1 Sample values\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 
+\trowd \irow0\irowband0\ts11\trgaph108\trleft0\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt
+\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1306\clshdrawnil \cellx1306\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth3624\clshdrawnil \cellx4930\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3818\clshdrawnil \cellx8748\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\faauto\adjustright\rin0\lin0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\lang1033\langfe2052\langfenp2052\insrsid931258 \hich\af1\dbch\af13\loch\f1 r}{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1 euse}{\lang1033\langfe2052\langfenp2052\insrsid931258 \line }{\lang1033\langfe2052\langfenp2052\insrsid931258 \hich\af1\dbch\af13\loch\f1 (}{\cf6\lang1033\langfe2052\langfenp2052\insrsid931258\charrsid4609286 
+\hich\af1\dbch\af13\loch\f1 optional}{\lang1033\langfe2052\langfenp2052\insrsid931258 \hich\af1\dbch\af13\loch\f1 )}{\lang1033\langfe2052\langfenp2052\insrsid3178059 \cell }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Whether or not }{\f2\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 XMIHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  instances should be re-used or new instances created during configuration.\cell \hich\af1\dbch\af13\loch\f1 True/false. Defaults to true.}{
+\lang1033\langfe2052\langfenp2052\insrsid3178059 
+\par }{\lang1033\langfe2052\langfenp2052\insrsid4609286 \cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 
+\trowd \irow1\irowband1\ts11\trgaph108\trleft0\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt
+\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1306\clshdrawnil \cellx1306\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth3624\clshdrawnil \cellx4930\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3818\clshdrawnil \cellx8748\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\faauto\adjustright\rin0\lin0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\lang1033\langfe2052\langfenp2052\insrsid931258 \hich\af1\dbch\af13\loch\f1 h}{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1 andlers}{\lang1033\langfe2052\langfenp2052\insrsid931258 \line }{\lang1033\langfe2052\langfenp2052\insrsid931258 \hich\af1\dbch\af13\loch\f1 (}{\cf6\lang1033\langfe2052\langfenp2052\insrsid931258\charrsid4609286 
+\hich\af1\dbch\af13\loch\f1 optional}{\lang1033\langfe2052\langfenp2052\insrsid931258 \hich\af1\dbch\af13\loch\f1 )}{\lang1033\langfe2052\langfenp2052\insrsid3178059 \cell }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+Nested property that contains name/value pairs mapping element name to }{\f2\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 class name. The names are the fully-qualified \hich\af1\dbch\af13\loch\f1 
+element names and the values are the fully-qualified class name for the }{\f2\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 instance that will handle that element. \cell \hich\af1\dbch\af13\loch\f1 
+\hich\f1 Property name: \'93\loch\f1 \hich\f1 UML:Class\'94
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Value: \'93}{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 com.topcoder.xmi.reader.\line handlers.ClassHandler}{\insrsid3178059 \loch\af1\dbch\af13\hich\f1 \'94}{\lang1033\langfe2052\langfenp2052\insrsid3178059 
+
+\par }{\lang1033\langfe2052\langfenp2052\insrsid4609286 \cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 
+\trowd \irow2\irowband2\lastrow \ts11\trgaph108\trleft0\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1306\clshdrawnil \cellx1306\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3624\clshdrawnil \cellx4930\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3818\clshdrawnil \cellx8748\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 3.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Dependencies Configuration
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Define the SAX \hich\af1\dbch\af13\loch\f1 parser
+\hich\f1 \rquote \loch\f1 s }{\f2\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMLReader }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 \hich\f1 instance if needed by setting the system variable \'93}{\cs18\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 
+org.xml.sax.driver}{\insrsid3178059 \loch\af1\dbch\af13\hich\f1 \'94\loch\f1 .  When using the Sun 1.5 JDK, this will be set by default to the Xerces implementation that comes with the JDK. However with other JDKs it may be necessary to set thi
+\hich\af1\dbch\af13\loch\f1 s value to a particular implementation of the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMLReader}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  interface.
+\par 
+\par {\listtext\pard\plain\s1 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 4.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Usage Notes
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 4.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Required steps to test the component
+\par {\listtext\pard\plain\s16 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \s16\ql \fi-360\li1080\ri0\sa120\widctlpar\jclisttab\tx1080\faauto\ls3\adjustright\rin0\lin1080\itap0 
+\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Extract the component distribution.
+\par {\listtext\pard\plain\s16 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}\hich\af1\dbch\af13\loch\f1 Follow }{\field\fldedit{\*\fldinst {\insrsid3178059 \hich\af1\dbch\af13\loch\f1  HYPERLINK "C:\\filez\\work
+\\tc\\tcs_corp\\templates\\component\\" \\\hich\af1\dbch\af13\loch\f1 l "_Dependencies_Configuration" }{\insrsid8873847 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000001000000e0c9ea79f9bace118c8200aa004ba90b800000002e002e002f002e002e002f007300740061007400750073005f0074007200610063006b00650072002f00660069006c0065007a0077006f0072006b00740063007400630073005f0063006f00720070007400
+65006d0070006c00610074006500730063006f006d0070006f006e0065006e00740025003200320020006c0000000000000000000000000000000000000000}}}{\fldrslt {\cs15\ul\cf2\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Dependencies Configuration}}}{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1 .
+\par {\listtext\pard\plain\s16 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}\hich\af1\dbch\af13\loch\f1 Execute \hich\f1 \lquote \loch\f1 ant test\hich\f1 \rquote \loch\f1 
+ within the directory that the distribution was extracted to.\line 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 4.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Required steps to use the component
+\par {\listtext\pard\plain\s1 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \s1\ql \fi-360\li1080\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx1080\faauto\ls12\outlinelevel0\adjustright\rin0\lin1080\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\b0\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Extract the component distribution
+\par {\listtext\pard\plain\s16 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \s16\ql \fi-360\li1080\ri0\sa120\widctlpar\jclisttab\tx1080\faauto\ls12\adjustright\rin0\lin1080\itap0 
+\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Follow }{\field\fldedit{\*\fldinst {\insrsid3178059 \hich\af1\dbch\af13\loch\f1  HYPERLINK "C:\\filez\\wor
+\hich\af1\dbch\af13\loch\f1 k\\tc\\tcs_corp\\templates\\component\\" \\l "_Dependencies_Configuration" }{\insrsid8873847 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000001000000e0c9ea79f9bace118c8200aa004ba90b800000002e002e002f002e002e002f007300740061007400750073005f0074007200610063006b00650072002f00660069006c0065007a0077006f0072006b00740063007400630073005f0063006f00720070007400
+65006d0070006c00610074006500730063006f006d0070006f006e0065006e00740025003200320020006c0000000000000000000000000000000000000000}}}{\fldrslt {\cs15\ul\cf2\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Dependencies Configuration}}}{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1 .
+\par {\listtext\pard\plain\f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\widctlpar\jclisttab\tx1080\faauto\ls13\adjustright\rin0\lin1080\itap0 
+\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Follow the demo
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\insrsid3178059 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 4.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Demo
+\par {\listtext\pard\plain\s3 \i\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 4.3.1\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Creating XMIReaders
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 There are three ways to create an }{
+\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 : empty, using the default namespace, and using a named nam\hich\af1\dbch\af13\loch\f1 espace.
+\par 
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0\pararsid4531731 {\f2\fs18\cf6\insrsid4531731\charrsid3604584 \hich\af2\dbch\af13\loch\f2 //1) creates an empty reader; empty the namespace first
+\par \hich\af2\dbch\af13\loch\f2 ConfigManager cm = ConfigManager.getInstance();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 if (cm.existsNamespace(XMIReader.DEFAULT_NAMESPACE)) \{
+\par \hich\af2\dbch\af13\loch\f2     cm.removeNamespace(XMIReader.DEFAULT_NAMESPACE);
+\par \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2 XMIReader reader = new XMIReade\hich\af2\dbch\af13\loch\f2 r();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // load}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid15087926 \hich\af2\dbch\af13\loch\f2 s}{\f2\fs18\cf6\insrsid4531731\charrsid3604584 \hich\af2\dbch\af13\loch\f2  the file config.xml.
+\par \hich\af2\dbch\af13\loch\f2 // it contains two namespace: XMIReader.DEFAULT_NAMESPACE and "mynamespace"
+\par \hich\af2\dbch\af13\loch\f2 cm.add("config.xml");
+\par 
+\par \hich\af2\dbch\af13\loch\f2 //2) creates XMIReader from default namespace
+\par \hich\af2\dbch\af13\loch\f2 XMIReader preconfigDefault = new XMIReader();
+\par 
+\par \hich\af2\dbch\af13\loch\f2 //3) creates XMIReader from the given namespace
+\par \hich\af2\dbch\af13\loch\f2 XMIReader preconfig = new XMIReader("mynamespace");}{\f2\fs18\cf6\insrsid3178059\charrsid3604584 
+\par {\listtext\pard\plain\s3 \i\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 4.3.2\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Managing handlers
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 \hich\f1 
+All the XMIHandler implementations in this section are \'93\loch\f1 \hich\f1 fictional\'94\loch\f1  and not part of this design. They are shown for example purposes \hich\af1\dbch\af13\loch\f1 \hich\f1 
+only. The developer, when writing the demo test, should implement them as \'93\loch\f1 \hich\f1 mock\'94\loch\f1  implementations in order to support the demo.
+\par 
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0\pararsid2825929 {\f2\fs18\cf6\insrsid2825929\charrsid2825929 \hich\af2\dbch\af13\loch\f2 // this fictional class extends DefaultXMIHandler
+\par \hich\af2\dbch\af13\loch\f2 XMIHandler classHandler = new ClassHandler();
+\par \hich\af2\dbch\af13\loch\f2 reader.addHandler("UML:Class", c\hich\af2\dbch\af13\loch\f2 lassHandler);
+\par \hich\af2\dbch\af13\loch\f2 // can be used to handle more than one type
+\par \hich\af2\dbch\af13\loch\f2 reader.addHandler("UML:Interface", classHandler);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 XMIHandler packageHandler = new PackageHandler();
+\par \hich\af2\dbch\af13\loch\f2 reader.addHandler("UML:Package", packageHandler);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 XMIHandler stereotypeHandler = new StereotypeH\hich\af2\dbch\af13\loch\f2 andler();
+\par \hich\af2\dbch\af13\loch\f2 reader.addHandler("UML:Stereotype", stereotypeHandler);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 XMIHandler operationHandler = new OperationHandler();
+\par \hich\af2\dbch\af13\loch\f2 reader.addHandler("UML:Operation", operationHandler);
+\par 
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // retrieve}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid15087926 \hich\af2\dbch\af13\loch\f2 s}{\f2\fs18\cf6\insrsid2825929\charrsid2825929 \hich\af2\dbch\af13\loch\f2  a handler; should be ClassHandler.
+\par \hich\af2\dbch\af13\loch\f2 System.out.println(reader.getHa\hich\af2\dbch\af13\loch\f2 ndler("UML:Class").getClass());
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // should be InterfaceHandler
+\par \hich\af2\dbch\af13\loch\f2 System.out.println(reader.getHandler("UML:Interface").getClass());
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // remove}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid15087926 \hich\af2\dbch\af13\loch\f2 s}{\f2\fs18\cf6\insrsid2825929\charrsid2825929 \hich\af2\dbch\af13\loch\f2  a handler
+\par \hich\af2\dbch\af13\loch\f2 reader.removeHandler("UML:Interface");
+\par \hich\af2\dbch\af13\loch\f2 // should be null
+\par \hich\af2\dbch\af13\loch\f2 System.out.println(reader.getHandler("UML:Interface"));
+\par 
+\par \hich\af2\dbch\af13\loch\f2 /*
+\par \hich\af2\dbch\af13\loch\f2  * The output in console:
+\par \hich\af2\dbch\af13\loch\f2  * class com.topcoder.xmi.reader.handlers.ClassHandler
+\par }{\f2\fs18\cf6\insrsid5198588 \hich\af2\dbch\af13\loch\f2  }{\f2\fs18\cf6\insrsid2825929\charrsid2825929 \hich\af2\dbch\af13\loch\f2 * class com.topcoder.xmi.reader.handlers.ClassHandler
+\par \hich\af2\dbch\af13\loch\f2  * null
+\par }\pard \ql \fi90\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0\cufi50\pararsid5198588 {\f2\fs18\cf6\insrsid2825929\charrsid2825929 \hich\af2\dbch\af13\loch\f2 */}{\f2\fs18\cf6\insrsid3178059\charrsid2825929 
+\par {\listtext\pard\plain\s3 \i\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 4.3.3\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Parsing XMI files and data
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 There are four m\hich\af1\dbch\af13\loch\f1 
+ethods by which to parse XMI files: by }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 File }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 object, by }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 InputStream}{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1 , by URI and by Zip file.
+\par 
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0\pararsid7943365 {\f2\fs18\cf6\insrsid7943365\charrsid7943365 \hich\af2\dbch\af13\loch\f2 File xmiFile = new File("test_files" + File.separator + "sample.xmi");
+\par \hich\af2\dbch\af13\loch\f2 // Should parse the file, and only process class, package and
+\par \hich\af2\dbch\af13\loch\f2 // stereotype nodes (since we \hich\af2\dbch\af13\loch\f2 configured handlers for those in}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid7943365\charrsid7943365 \hich\af2\dbch\af13\loch\f2  4.3.2}{
+\f2\fs18\cf6\insrsid7943365\charrsid7943365 \hich\af2\dbch\af13\loch\f2 ),
+\par \hich\af2\dbch\af13\loch\f2 // and any child nodes to those nodes. But, any other nodes
+\par \hich\af2\dbch\af13\loch\f2 // (e.g., UML:Interface) will be ignored.
+\par \hich\af2\dbch\af13\loch\f2 reader.parse(xmiFile);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Suppose the PackageHandler processed this and inserted an element with this ID
+\par \hich\af2\dbch\af13\loch\f2 // we c\hich\af2\dbch\af13\loch\f2 an get the element and print it out}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid7943365\charrsid7943365 \line }{\f2\fs18\cf6\insrsid7943365\charrsid7943365 
+\hich\af2\dbch\af13\loch\f2 Object element = reader.getElement("I3fc39a51m10e2acac631mm7f49");
+\par \hich\af2\dbch\af13\loch\f2 System.out.println(element);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Should parse the XMI at the given URI.
+\par \hich\af2\dbch\af13\loch\f2 reader.parse("file:///" + xmiFile.getAbsolutePath());
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // Suppose the PackageHandler processed this and inserted an element with this ID
+\par \hich\af2\dbch\af13\loch\f2 // we can get the element and print it out
+\par \hich\af2\dbch\af13\loch\f2 element = reader.getElement("I3fc39a51m10e2acac631mm7f49");
+\par \hich\af2\dbch\af13\loch\f2 System.out.println(element);
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // do}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid15087926 \hich\af2\dbch\af13\loch\f2 es}{\f2\fs18\cf6\insrsid7943365\charrsid7943365 \hich\af2\dbch\af13\loch\f2  the same thing, but as an input s
+\hich\af2\dbch\af13\loch\f2 tream.
+\par }\pard \ql \fi90\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0\cufi50\pararsid7943365 {\f2\fs18\cf6\insrsid7943365\charrsid7943365 \hich\af2\dbch\af13\loch\f2 InputStream is = new FileInputStream(xmiFile);
+\par \hich\af2\dbch\af13\loch\f2 reader.parse(is);
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0\pararsid7943365 {\f2\fs18\cf6\insrsid7943365\charrsid7943365 \hich\af2\dbch\af13\loch\f2  is.close();
+\par 
+\par \hich\af2\dbch\af13\loch\f2  // Suppose the ClassHandler processed this and inserted an element with this ID
+\par \hich\af2\dbch\af13\loch\f2  // we can get the element and print it out
+\par \hich\af2\dbch\af13\loch\f2  element = reader.getElement("I3fc39a51m10e2a\hich\af2\dbch\af13\loch\f2 cac631mm7d42");
+\par \hich\af2\dbch\af13\loch\f2  System.out.println(element);
+\par 
+\par \hich\af2\dbch\af13\loch\f2  // Unzip}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid15087926 \hich\af2\dbch\af13\loch\f2 s}{\f2\fs18\cf6\insrsid7943365\charrsid7943365 \hich\af2\dbch\af13\loch\f2  the .}{\insrsid6895047\charrsid6895047 
+\hich\af1\dbch\af13\loch\f1  }{\f2\fs18\cf6\insrsid6895047\charrsid6895047 \hich\af2\dbch\af13\loch\f2 zuml}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid6895047 \hich\af2\dbch\af13\loch\f2  }{\f2\fs18\cf6\insrsid7943365\charrsid7943365 
+\hich\af2\dbch\af13\loch\f2 then parse}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid15087926 \hich\af2\dbch\af13\loch\f2 s}{\f2\fs18\cf6\insrsid7943365\charrsid7943365 \hich\af2\dbch\af13\loch\f2  it.
+\par \hich\af2\dbch\af13\loch\f2  reader.parseZipFile("test_files" + File.separator + "sample.zuml");
+\par \hich\af2\dbch\af13\loch\f2  // Suppose the ClassHandler processed this and inserted an element with this ID
+\par \hich\af2\dbch\af13\loch\f2  // we can get the element and print it out
+\par \hich\af2\dbch\af13\loch\f2  element = reader.getElement("I3fc39a51m10e2acac631mm7d42");
+\par \hich\af2\dbch\af13\loch\f2  System.out.println(element);}{\f2\fs18\cf6\insrsid3178059\charrsid7943365 
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f2\fs18\insrsid3178059 
+\par {\listtext\pard\plain\s3 \i\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 4.3.4\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Managing elements
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Normally, the }{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 XMIHandler }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 implementations will create, then set and get the various UML model elements stored in the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader}{
+\insrsid3178059 \hich\af1\dbch\af13\loch\f1 , but they are accessible to the calling application as well.
+\par 
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0\pararsid3869491 {\f2\fs18\cf6\insrsid3869491\charrsid9664530 \hich\af2\dbch\af13\loch\f2 reader.parseZipFile("test_files" + File.separator + "sample.zuml");
+\par \hich\af2\dbch\af13\loch\f2 Object element  = reader.\hich\af2\dbch\af13\loch\f2 getElement("I3fc39a51m10e2acac631mm7d41");
+\par }{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid3869491\charrsid9664530 
+\par }{\f2\fs18\cf6\insrsid3869491\charrsid9664530 \hich\af2\dbch\af13\loch\f2 // change}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid13893948 \hich\af2\dbch\af13\loch\f2 s}{\f2\fs18\cf6\insrsid3869491\charrsid9664530 \hich\af2\dbch\af13\loch\f2 
+ the element at this id
+\par \hich\af2\dbch\af13\loch\f2 reader.putElement("I3fc39a51m10e2acac631mm7d41", new Object());
+\par 
+\par \hich\af2\dbch\af13\loch\f2 // remove}{\f2\fs18\cf6\lang1033\langfe2052\langfenp2052\insrsid13893948 \hich\af2\dbch\af13\loch\f2 s}{\f2\fs18\cf6\insrsid3869491\charrsid9664530 \hich\af2\dbch\af13\loch\f2  the object at this id
+\par \hich\af2\dbch\af13\loch\f2 reader.removeElement("I3fc39a51m10e2acac631mm7d41");}{\f2\fs18\cf6\insrsid3178059\charrsid9664530 
+\par {\listtext\pard\plain\s3 \i\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 4.3.5\tab}}\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Managing element properties
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+During parsing, "forward references" will likely be encountered. }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+ implementations can still capture properties about elements that have not been fully defined.  Specifically, the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  can keep track of which defin
+\hich\af1\dbch\af13\loch\f1 ed elements are "waiting on" forward references.  In this XMI fragment, the referenced Stereotype might not have been defined yet, but the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler}{\insrsid3178059 
+\hich\af1\dbch\af13\loch\f1  for Stereotypes can capture the forward reference:
+\par }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 <UML:Operation xmi.id = 'I3d057933m10e2fd324d0mm7242' 
+\par }\pard \ql \fi720\li720\ri0\widctlpar\faauto\adjustright\rin0\lin720\itap0 {\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 name = 'XMIReaderConfigException'
+\par }\pard \ql \fi720\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2        visibility = 'public' 
+\par }\pard \ql \fi720\li720\ri0\widctlpar\faauto\adjustright\rin0\lin720\itap0 {\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 isSpecification = 'false' 
+\par \hich\af2\dbch\af13\loch\f2 ownerScope = 'instance'
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2              \tab isQuery = 'false' 
+\par }\pard \ql \fi720\li720\ri0\widctlpar\faauto\adjustright\rin0\lin720\itap0 {\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 concurrency = 'sequential' 
+\par \hich\af2\dbch\af13\loch\f2 isRoot = 'false' 
+\par }\pard \ql \li1440\ri0\widctlpar\faauto\adjustright\rin0\lin1440\itap0 {\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 isLeaf = 'false'
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2              isAbstract = 'false'>
+\par 
+\par \hich\af2\dbch\af13\loch\f2         <\hich\af2\dbch\af13\loch\f2 UML:ModelElement.stereotype>
+\par \hich\af2\dbch\af13\loch\f2         \tab <UML:Stereotype xmi.idref = 'I3fc39a51m10e2acac631mm7e57'/>
+\par \hich\af2\dbch\af13\loch\f2         </UML:ModelElement.stereotype>}{\insrsid3178059 
+\par }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 . . .
+\par \hich\af1\dbch\af13\loch\f1  
+\par \hich\af1\dbch\af13\loch\f1 To capture this, the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 for Stereotypes would execute:
+\par }\pard\plain \s19\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs18\lang1033\langfe1033\loch\af2\hich\af2\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af2\dbch\af13\loch\f2 reader.putElementProperty("I3fc39a51m1
+\hich\af2\dbch\af13\loch\f2 0e2acac631mm7e57", 
+\par }\pard \s19\ql \fi720\li2160\ri0\widctlpar\faauto\adjustright\rin0\lin2160\itap0 {\insrsid3178059 \hich\af2\dbch\af13\loch\f2 "UML:Stereotype", operationObject);
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 
+\par }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 This connects the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 operationObject }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 with the as-yet-undefined }{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 UML:Stereotype}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  object whose id is }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 "I3fc39a51m10e2acac631mm7e57}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 
+", indicating that the }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 UML:Stereotype}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  property is the property that should be\hich\af1\dbch\af13\loch\f1  used to connect the two.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Later, when the Stereotype is actually found, its XMI fragment might look like this:
+\par }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 <UML:Stereotype xmi.id = 'I3fc39a51m10e2acac631mm7e57' name = 'create'
+\par }\pard \ql \fi720\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 isSpecification = 'false' isRoot = 'false' isLeaf = 'false' 
+\par \hich\af2\dbch\af13\loch\f2 isAbstract =\hich\af2\dbch\af13\loch\f2  'false'>
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2      <UML:Stereotype.baseClass>BehavioralFeature</UML:Stereotype.baseClass>
+\par \hich\af2\dbch\af13\loch\f2 </UML:Stereotype>
+\par }{\insrsid3178059 
+\par }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 The Stereotype handler could then}{\cs21\super\insrsid3178059 \chftn {\footnote \pard\plain \s20\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 
+\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\cs21\fs18\super\insrsid3178059 \chftn }{\fs18\insrsid3178059 \hich\af1\dbch\af13\loch\f1  Note: this section describes the typical behavior of an }{
+\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIHandler}{\fs18\insrsid3178059 \hich\af1\dbch\af13\loch\f1  implementation. The actual behavior is outside t\hich\af1\dbch\af13\loch\f1 he scope of this component. Only the supporting methods of }{
+\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 XMIReader}{\fs18\insrsid3178059 \hich\af1\dbch\af13\loch\f1  are salient to this discussion.}}}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  instantiate a }{\f2\fs18\insrsid3178059 
+\hich\af2\dbch\af13\loch\f2 StereotypeObject}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  with all its properties, and then tell all the "waiting" objects about the newly created }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 StereotypeObject}{
+\insrsid3178059 \hich\af1\dbch\af13\loch\f1 .
+\par }\pard\plain \s19\ql \fi720\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs18\lang1033\langfe1033\loch\af2\hich\af2\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af2\dbch\af13\loch\f2 Map<String, List\hich\af2\dbch\af13\loch\f2 
+> waiting;
+\par }\pard \s19\ql \li720\ri0\widctlpar\faauto\adjustright\rin0\lin720\itap0 {\insrsid3178059 \hich\af2\dbch\af13\loch\f2 waiting = reader.getElementProperties("I3fc39a51m10e2acac631mm7e57");
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 
+\par }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Then for each property, and each object on the list of that property, they can be told what the Stereotype object is.  Finally, the fictional }{\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 
+StereotypeHandler}{\insrsid3178059 \hich\af1\dbch\af13\loch\f1  would actually\hich\af1\dbch\af13\loch\f1  define the Stereotype object in the reader:
+\par }{\f2\fs18\insrsid3178059 
+\par \hich\af2\dbch\af13\loch\f2 reader.putElement("I3fc39a51m10e2acac631mm7e57", stereotypeObject);
+\par }\pard\plain \s20\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 which will remove the corresponding entry in the }{
+\f2\fs18\insrsid3178059 \hich\af2\dbch\af13\loch\f2 forwardReferences }{\insrsid3178059 \hich\af1\dbch\af13\loch\f1 map. 
+\par 
+\par {\listtext\pard\plain\s1 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \hich\af1\dbch\af13\loch\f1 5.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Future Enhancements
+\par {\listtext\pard\plain\f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\widctlpar\jclisttab\tx1080\faauto\ls13\adjustright\rin0\lin1080\itap0 
+\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid3178059 \hich\af1\dbch\af13\loch\f1 Use ObjectFactory to instantiate handlers from the configuration
+\par {\listtext\pard\plain\f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}\hich\af1\dbch\af13\loch\f1 Use a listener model to notify handlers when elements they were waiting for have been found.
+\par {\listtext\pard\plain\f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}\hich\af1\dbch\af13\loch\f1 Define an ErrorHandler for more graceful recovery from parse errors, or allow a client to conf
+\hich\af1\dbch\af13\loch\f1 igure one to handle errors
+\par {\listtext\pard\plain\f3\fs20\lang1033\langfe1033\langfenp1033\insrsid3178059 \loch\af3\dbch\af13\hich\f3 \'b7\tab}\hich\af1\dbch\af13\loch\f1 Use the Logging Wrapper component to log parse errors.
+\par }\pard \ql \li720\ri0\widctlpar\faauto\adjustright\rin0\lin720\itap0 {\insrsid3178059 
+\par }}

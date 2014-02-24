@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<CMConfig>
+    <!--The namespace of all parameters is free to be set any string-->
+	<Config name="com.topcoder.gui.toolbars.elements.accuracy">
+		
+		<!--The name of the class that implements the look and feel, required-->
+		<Property name="look">
+			<Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+		</Property>
+		
+		<!--The section text, which is label at the head of section panel, required-->
+		<Property name="sectionText">
+			<Value>Accuracy Testing</Value>
+		</Property>
+		
+		<!--The background color of section text panel. If it doesn’t exist or not valid,
+					the component will use default Color.LIGHT_GRAY-->
+		<!--The application has to set the system property with the back ground value and the
+			color code for this section panel to pick up-->
+		<Property name="backgroundColor">
+			<Value>Blue</Value>
+		</Property>
+		
+		<!--The buttons' name array. If it doesn’t exist, the component will create an empty section panel-->
+		<Property name="buttonsName">
+			<Value>Headset</Value>
+			<Value>Goaaaaal</Value>
+		</Property>
+		
+		<!--The locations of button’s icon images. If it doesn’t exist, no image icon will be created for buttons-->
+		<!-- The no of icons should be equal to the button names-->
+		<Property name="imageLocations">
+			<Value>test_files/accuracytests/Headset.png</Value>
+			<Value>test_files/accuracytests/Goaaaaal.png</Value>
+		</Property>
+	</Config>
+</CMConfig>

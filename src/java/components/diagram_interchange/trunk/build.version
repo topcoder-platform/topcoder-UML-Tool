@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=Diagram Interchange
+component.distfilename=diagram_interchange
+component.package=com.topcoder.diagraminterchange
+component.packagedir=com/topcoder/diagraminterchange
+component.version.major=1
+component.version.minor=0
+component.version.micro=1
+component.version.build=1

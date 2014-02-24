@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+           "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Coverage Report Classes</title>
+<link title="Style" type="text/css" rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+<h5>
+All Packages
+</h5>
+<div class="separator">&nbsp;</div>
+<h5>Classes</h5>
+<table width="100%">
+<tbody>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.AuxiliaryElementsHelper.html">AuxiliaryElementsHelper</a> <i>(89%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.BaseNode.html">BaseNode</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.BoundaryChangeEvent.html">BoundaryChangeEvent</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.BoundaryChangeListener.html">BoundaryChangeListener</a> <i>(N/A)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.CommentConnector.html">CommentConnector</a> <i>(94%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.CommentLinkEdge.html">CommentLinkEdge</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.CommentNode.html">CommentNode</a> <i>(99%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.ConfigurationException.html">ConfigurationException</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.EditBoxListener.html">EditBoxListener</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.FreeTextNode.html">FreeTextNode</a> <i>(96%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.IllegalGraphNodeException.html">IllegalGraphNodeException</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.PolylineNode.html">PolylineNode</a> <i>(71%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.PopupMenuTrigger.html">PopupMenuTrigger</a> <i>(36%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.PropertyMapping.html">PropertyMapping</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.TextChangeEvent.html">TextChangeEvent</a> <i>(100%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.TextChangeListener.html">TextChangeListener</a> <i>(N/A)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.TextNode.html">TextNode</a> <i>(97%)</i></td>
+</tr>
+<tr>
+<td nowrap="nowrap"><a target="summary" href="com.topcoder.gui.diagramviewer.uml.auxiliaryelements.TextNodeMouseListener.html">TextNodeMouseListener</a> <i>(19%)</i></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

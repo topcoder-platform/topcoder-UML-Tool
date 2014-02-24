@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<CMConfig>
+		<Config name="Invalid2">
+	    <Property name="xml_to_element_mapping">
+	    		<Property name="aa">
+	    				<Value>aa</Value>
+	    		</Property>
+	    </Property>
+    </Config>
+</CMConfig>

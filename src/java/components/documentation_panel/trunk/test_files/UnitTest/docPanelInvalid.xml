@@ -1,0 +1,241 @@
+<CMConfig>
+    <!-- "objectFactoryNamespace" property is missed-->
+    <Config name="docPanel_Invalid_1">
+        <Property name="documentEditorKey">
+            <Value>documentEditor1</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor1</Value>
+        </Property>   
+    </Config>
+    
+    <!-- value of "objectFactoryNamespace" property is empty-->
+    <Config name="docPanel_Invalid_2">
+        <Property name="objectFactoryNamespace">
+            <Value></Value>
+        </Property>
+        <Property name="documentEditorKey">
+            <Value>documentEditor1</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor1</Value>
+        </Property>   
+    </Config>
+    
+    <!-- value of "objectFactoryNamespace" property points an unknown namespace-->
+    <Config name="docPanel_Invalid_3">
+        <Property name="objectFactoryNamespace">
+            <Value>unknownObjectFactory</Value>
+        </Property>
+        <Property name="documentEditorKey">
+            <Value>documentEditor1</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor1</Value>
+        </Property>   
+    </Config>
+    
+    <!-- value of "objectFactoryNamespace" property points an invalid namespace-->
+    <Config name="docPanel_Invalid_4">
+        <Property name="objectFactoryNamespace">
+            <Value>invalidObjectFactory1</Value>
+        </Property>
+        <Property name="documentEditorKey">
+            <Value>documentEditor1</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor1</Value>
+        </Property>   
+    </Config>
+    
+    <!-- value of "objectFactoryNamespace" property points an invalid namespace-->
+    <Config name="docPanel_Invalid_5">
+        <Property name="objectFactoryNamespace">
+            <Value>invalidObjectFactory2</Value>
+        </Property>
+        <Property name="documentEditorKey">
+            <Value>documentEditor1</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor1</Value>
+        </Property>   
+    </Config>
+    
+    <!-- value of "objectFactoryNamespace" property points an invalid namespace-->
+    <Config name="docPanel_Invalid_6">
+        <Property name="objectFactoryNamespace">
+            <Value>invalidObjectFactory3</Value>
+        </Property>
+        <Property name="documentEditorKey">
+            <Value>documentEditor1</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor1</Value>
+        </Property>   
+    </Config>
+    
+    <!-- value of "objectFactoryNamespace" property points an invalid namespace-->
+    <Config name="docPanel_Invalid_7">
+        <Property name="objectFactoryNamespace">
+            <Value>invalidObjectFactory4</Value>
+        </Property>
+        <Property name="documentEditorKey">
+            <Value>documentEditor</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor</Value>
+        </Property>   
+    </Config>
+    
+    <!-- value of "objectFactoryNamespace" property points an invalid namespace-->
+    <Config name="docPanel_Invalid_8">
+        <Property name="objectFactoryNamespace">
+            <Value>invalidObjectFactory5</Value>
+        </Property>
+        <Property name="documentEditorKey">
+            <Value>documentEditor</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor</Value>
+        </Property>   
+    </Config>
+    
+    <Config name="invalidObjectFactory1">  
+  
+        <!-- "types" property is invalid -->
+        <Property name="documentEditor1">
+            <Property name="types">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultDocumentationEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultDocEditor_1</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+     </Config>   
+     
+     <Config name="invalidObjectFactory2">  
+  
+        <Property name="documentEditor1">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultDocumentationEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <!-- value should not be empty -->
+                    <Property name="value">
+                        <Value></Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+     </Config>
+     
+     <Config name="invalidObjectFactory3">  
+  
+        <!-- "documentEditor1" property should be used for document editor -->
+        <Property name="documentEditor1">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultTagEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultTagEditor_1</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+     </Config>   
+     
+     <Config name="invalidObjectFactory4">  
+  
+        <Property name="documentEditor">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultDocumentationEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultDocEditor_1</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        <!-- the namespace "defaultTagEditor_Invalid_1" for tag editor
+             contains invalid value -->       
+        <Property name="tagEditor">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultTagEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultTagEditor_Invalid_1</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+    </Config>
+    
+    <Config name="invalidObjectFactory5">  
+  
+        <Property name="documentEditor">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultDocumentationEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultDocEditor_1</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        <!-- the namespace "defaultTagEditor_Invalid_2" for tag editor
+             contains invalid value -->       
+        <Property name="tagEditor">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultTagEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>defaultTagEditor_Invalid_2</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+    </Config>
+</CMConfig>

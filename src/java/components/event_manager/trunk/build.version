@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=Event Manager
+component.distfilename=event_manager
+component.package=com.topcoder.util.eventmanager
+component.packagedir=com/topcoder/util/eventmanager
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

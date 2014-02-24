@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<CMConfig>
+	<Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.objectnode">
+		<Property name="NodeStrokeColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="NodeFillColor">
+			<Value>Color.WHITE</Value>
+		</Property>
+		<Property name="NodeFillColor2">
+			<Value>Color.WHITE</Value>
+		</Property>
+		<Property name="NodeShadowColor">
+			<Value>Color.GRAY</Value>
+		</Property>
+		<Property name="NodeFontColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="NodeFontFamily">
+			<Value>Default</Value>
+		</Property>
+		<Property name="NodeFontStyle">
+			<Value>Font.PLAIN</Value>
+		</Property>
+		<Property name="NodeFontSize">
+			<Value>10</Value>
+		</Property>
+		<Property name="NodeRenderScheme">
+			<Value>0</Value>
+		</Property>
+		<Property name="NodeWidth">
+			<Value>80</Value>
+		</Property>		
+		<Property name="NodeHeight">
+			<Value>40</Value>
+		</Property>
+		<Property name="NodeWidthMinimum">
+			<Value>80</Value>
+		</Property>
+		<Property name="NodeHeightMinimum">
+			<Value>40</Value>
+		</Property>
+		<Property name="NodeShadowLength">
+			<Value>5</Value>
+		</Property>		
+		<Property name="NodeRoundingRadius">
+			<Value>15</Value>
+		</Property>				
+	</Config>
+
+	<Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.sequenceedge">
+		<Property name="EdgeStrokeColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeFillColor">
+			<Value>Color.YELLOW</Value>
+		</Property>
+		<Property name="EdgeFillColor2">
+			<Value>Color.YELLOW</Value>
+		</Property>
+		<Property name="EdgeShadowColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeFontColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeTextBoxStrokeColor">
+			<Value>Color.BLACK</Value>
+		</Property>		
+		<Property name="EdgeTextBoxFillColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeTextBoxFillColor2">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeFontFamily">
+			<Value>Times</Value>
+		</Property>	
+		<Property name="EdgeFontStyle">
+			<Value>Font.BOLD</Value>
+		</Property>		
+		<Property name="EdgeFontSize">
+			<Value>6</Value>
+		</Property>		
+		<Property name="EdgeRenderScheme">
+			<Value>0</Value>
+		</Property>
+		<Property name="EdgeDashLength">
+			<Value>15</Value>
+		</Property>
+		<Property name="EdgeBlankLength">
+			<Value>0</Value>
+		</Property>					
+	</Config>
+
+	<Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.edgeendings.configurededgeending">
+		<Property name="EdgeEndingStrokeColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="EdgeEndingFillColor">
+			<Value>Color.WHITE</Value>
+		</Property>	
+		<Property name="EdgeEndingRenderScheme">
+			<Value>0</Value>
+		</Property>		
+		<Property name="EdgeEndingArrowXLength">
+			<Value>15</Value>
+		</Property>		
+		<Property name="EdgeEndingArrowYLength">
+			<Value>10</Value>
+		</Property>
+	</Config>
+
+	<Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.lifeline.lifeline">
+		<Property name="LifelineLength">
+			<Value>120</Value>
+		</Property>
+		<Property name="LifelineStrokeColor">
+			<Value>Color.GRAY</Value>
+		</Property>
+		<Property name="LifelineShadowColor">
+			<Value>Color.GRAY</Value>
+		</Property>	
+		<Property name="LifelineRenderScheme">
+			<Value>0</Value>
+		</Property>		
+		<Property name="LifelineDashLength">
+			<Value>5</Value>
+		</Property>		
+		<Property name="LifelineBlankLength">
+			<Value>5</Value>
+		</Property>
+		<Property name="LifelineShadowLength">
+			<Value>4</Value>
+		</Property>
+	</Config>
+
+  <Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.lifeline.lifelinesegment">
+		<Property name="LifelineSegmentStrokeColor">
+			<Value>Color.BLACK</Value>
+		</Property>
+		<Property name="LifelineSegmentFillColor">
+			<Value>Color.WHITE</Value>
+		</Property>
+		<Property name="LifelineSegmentShadowColor">
+			<Value>Color.GRAY</Value>
+		</Property>	
+		<Property name="LifelineSegmentRenderScheme">
+			<Value>0</Value>
+		</Property>		
+		<Property name="LifelineSegmentWidth">
+			<Value>6</Value>
+		</Property>		
+		<Property name="LifelineSegmentHeight">
+			<Value>16</Value>
+		</Property>
+		<Property name="LifelineSegmentWidthMinimum">
+			<Value>4</Value>
+		</Property>
+		<Property name="LifelineSegmentHeightMinimum">
+			<Value>6</Value>
+		</Property>
+		<Property name="LifelineSegmentShadowLength">
+			<Value>6</Value>
+		</Property>
+	</Config>
+
+        <Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.edgelayout.defaultedgelayoutstrategy">
+		<Property name="LayoutEdgeSpace">
+			<Value>50</Value>
+		</Property>			
+	</Config>
+</CMConfig>

@@ -1,0 +1,892 @@
+{\rtf1\adeflang1025\ansi\ansicpg936\uc2\adeff0\deff0\stshfdbch13\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe2052{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f13\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}\'cb\'ce\'cc\'e5{\*\falt SimSun};}{\f36\fnil\fcharset0\fprq1{\*\panose 00000000000000000000}Monospace{\*\falt MS Mincho};}
+{\f37\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}@\'cb\'ce\'cc\'e5;}{\f187\froman\fcharset238\fprq2 Times New Roman CE;}{\f188\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f190\froman\fcharset161\fprq2 Times New Roman Greek;}
+{\f191\froman\fcharset162\fprq2 Times New Roman Tur;}{\f192\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f193\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f194\froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\f195\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f207\fmodern\fcharset238\fprq1 Courier New CE;}{\f208\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f210\fmodern\fcharset161\fprq1 Courier New Greek;}
+{\f211\fmodern\fcharset162\fprq1 Courier New Tur;}{\f212\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f213\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic);}{\f214\fmodern\fcharset186\fprq1 Courier New Baltic;}
+{\f215\fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\f319\fnil\fcharset0\fprq2 SimSun Western{\*\falt SimSun};}{\f559\fnil\fcharset0\fprq2 @\'cb\'ce\'cc\'e5 Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;
+\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;
+\red128\green128\blue128;\red192\green192\blue192;\red63\green127\blue95;\red127\green0\blue85;\red0\green0\blue192;\red63\green95\blue191;\red127\green159\blue191;\red42\green0\blue255;\red255\green255\blue255;}{\stylesheet{
+\qj \li0\ri0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs21\lang1033\langfe2052\kerning2\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 \snext0 Normal;}{\*\cs10 
+\additive \ssemihidden Default Paragraph Font;}{\*\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\lang1024\langfe1024\loch\f0\hich\af0\dbch\af13\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{
+\s15\qj \li0\ri0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \cbpat9 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs21\lang1033\langfe2052\kerning2\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 
+\sbasedon0 \snext15 \ssemihidden \styrsid12153452 Document Map;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\rsidtbl \rsid619833\rsid1381058\rsid2429337\rsid3018098\rsid3344738\rsid3696821\rsid4721105\rsid5184497\rsid5244628\rsid6170924\rsid6623586
+\rsid6648756\rsid6903983\rsid7162063\rsid7216742\rsid8019679\rsid9649500\rsid10626795\rsid11434756\rsid11801767\rsid12153452\rsid12211261\rsid12539117\rsid12592509\rsid12799377\rsid13466909\rsid13966386\rsid14506834\rsid14706876\rsid15165510}
+{\*\generator Microsoft Word 11.0.0000;}{\info{\operator lenovo}{\creatim\yr2008\mo6\dy28\hr5\min28}{\revtim\yr2008\mo7\dy1\hr20\min50}{\version31}{\edmins23}{\nofpages12}{\nofwords2494}{\nofchars17115}{\nofcharsws19153}{\vern24613}{\*\password 00000000}}
+{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}{\xmlns2 urn:schemas-microsoft-com:office:smarttags}}\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect 
+\ftnbj\aenddoc\donotembedsysfont0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3
+\jcompress\viewkind4\viewscale100\rsidroot12153452 \fet0{\*\wgrffmtfilter 013f}\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta \dbch )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}
+{\pntxta \dbch )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}
+{\pntxta \dbch )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}\pard\plain \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx720\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 
+\ltrch\fcs0 \fs21\lang1033\langfe2052\kerning2\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af0\afs40 \ltrch\fcs0 \b\fs40\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+ SWING Configuration Manager Editor   1.0 Component Specification
+\par }\pard \ltrpar\ql \li720\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 1.\tab Design
+
+\par }\pard \ltrpar\ql \li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+The SWING Configuration Manager Editor provides a simple SWING-based editor for modifying configuration manager properties. This first version of the component will support drop-downs, radio buttons, free text entry, and checkboxes for boolean values. The
+\hich\af0\dbch\af13\loch\f0  \hich\af0\dbch\af13\loch\f0 
+component loads the configuration values for a specific namespace, displays the form, and allows the user to edit the values and commit them back to the configuration file. This component will be used in the UML Tool to allow the user to modify configurat
+\hich\af0\dbch\af13\loch\f0 i\hich\af0\dbch\af13\loch\f0 on values in the tool, as opposed to forcing them to edit a file. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 The design provides the main panel class. This panel retrieve}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fs24\kerning0\insrsid1381058 \hich\af0\dbch\af13\loch\f0 s}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+ the properties from configuration using the PropertyDefinition instances. The specific JComponents, tied to the properties, are\hich\af0\dbch\af13\loch\f0  generated using the }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid6903983 
+\hich\af0\dbch\af13\loch\f0 related}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+ generators, based on the type. This is a flexible mode to create other component generators in the future (RS requires a flexible mode for the properties types in {\*\xmlopen\xmlns2{\factoidname chsdate}{\xmlattr\xmlattrns0{\xmlattrname IsROCDate}
+{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname IsLunarDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname Day}{\xmlattrvalue 30}}{\xmlattr\xmlattrns0{\xmlattrname Month}{\xmlattrvalue 12}}{\xmlattr\xmlattrns0{\xmlattrname Year}
+{\xmlattrvalue 1899}}}\hich\af0\dbch\af13\loch\f0 1.2.3{\*\xmlclose}).\hich\af0\dbch\af13\loch\f0 
+ I didn't use the ObjectFactory because this component will be used inside TC Tool and if a property type will be created then the construction of the new concrete implementation will be added directly in the constructor , for also an easy development of 
+\hich\af0\dbch\af13\loch\f0 t\hich\af0\dbch\af13\loch\f0 his component.
+\par \hich\af0\dbch\af13\loch\f0 
+The component defines the validators that are used also to save the properties. The properties , only the modified properties, are saved when the save method is called, saved with Configuration Manager using the specific namespace.
+\par \hich\af0\dbch\af13\loch\f0 If I want\hich\af0\dbch\af13\loch\f0  to hide (if I want to not use) a property of the namespace then it's sufficient to not include it in the properties definitions.
+\par \hich\af0\dbch\af13\loch\f0 The font and resize configuration parameters are extended from the JPanel class.
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 1.1\tab 
+Design Patterns 
+\par }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\fs24\kerning0\insrsid12153452 {\*\xmlopen\xmlns2{\factoidname chsdate}{\xmlattr\xmlattrns0{\xmlattrname IsROCDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname IsLunarDate}{\xmlattrvalue False}}
+{\xmlattr\xmlattrns0{\xmlattrname Day}{\xmlattrvalue 30}}{\xmlattr\xmlattrns0{\xmlattrname Month}{\xmlattrvalue 12}}{\xmlattr\xmlattrns0{\xmlattrname Year}{\xmlattrvalue 1899}}}\hich\af0\dbch\af13\loch\f0 1.1.1\tab {\*\xmlclose} Strategy
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 The editor panel uses strategically the validators and the component generators.
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 1.2\tab 
+Industry Standards 
+\par }\pard \ltrpar\ql \fi-10\li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 None
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 1.3\tab 
+Required Algorithms
+\par }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\fs24\kerning0\insrsid12153452 {\*\xmlopen\xmlns2{\factoidname chsdate}{\xmlattr\xmlattrns0{\xmlattrname IsROCDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname IsLunarDate}{\xmlattrvalue False}}
+{\xmlattr\xmlattrns0{\xmlattrname Day}{\xmlattrvalue 30}}{\xmlattr\xmlattrns0{\xmlattrname Month}{\xmlattrvalue 12}}{\xmlattr\xmlattrns0{\xmlattrname Year}{\xmlattrvalue 1899}}}\hich\af0\dbch\af13\loch\f0 1.3.1\tab {\*\xmlclose} }{\rtlch\fcs1 \ai\af0 
+\ltrch\fcs0 \i\fs24\cf1\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Initialize the Editor Panel: initialize() method}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\cf1\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+This is the algorithm which the initialize() method will implement to initialize the editor panel:}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid6648756 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 // create the grid bag layout}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 GridBagLayout gridBagLayout = }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 new}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  GridBagLayout();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 this}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 .setLayout(gridBagLayou
+\hich\af2\dbch\af13\loch\f2 t);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 // create the index for the cycle}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 int}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  index = 0;}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 for}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  (}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 
+\b\f2\fs20\cf18\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 final}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  PropertyDefinition propertyDefinition : }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 propertyDefinitions}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 .keySet()) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 // create the label related to the prompt text
+}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     JLabel label = }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  JLabel(propertyDefinition.getPromptText());}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 // create the constraints for the label}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     GridBagConstraints c = }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  GridBagConstraints();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     c.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 gridx}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  = 0;}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     c.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 gridy}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  = index;}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     c.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 fill}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  = GridBagConstraints.}{\rtlch\fcs1 \ai\af2\afs20 \ltrch\fcs0 \i\f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 BOTH}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 ;}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     c.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 anchor}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  = GridBagConstraints.}{\rtlch\fcs1 \ai\af2\afs20 \ltrch\fcs0 \i\f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 LINE_START}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 ;}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 // also set the c.insets,c.}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\ul\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 ipadx}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  and c.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\ul\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 ipady}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  constraints: use the}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 // values of rowsSpacing and columnsSpacing}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     c.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 ipadx}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  = }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 columnsSpacing}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 ;}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     c.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 ipady}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  = }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 rowsSpacing}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 ;}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     c.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 insets}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 .}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 bottom}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 
+\hich\af2\dbch\af13\loch\f2  = c.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 insets}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 .}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 top}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  = }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 rowsSpacing}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 ;}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     c.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 insets}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 .}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 left}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 
+\hich\af2\dbch\af13\loch\f2  = c.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 insets}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 .}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 right}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  = }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 columnsSpacing}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 ;}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 // add the component to the grid}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     gridBagLayout.addLayoutComponent(label, c);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     add(label);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 // now the column is the second}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     c.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 gridx}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  = 1;}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 
+// create the component from the component generator, and add it to}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 // the property definitions}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     JComponent component = }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 this}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 .}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 componentGenerators}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 .get(propertyDefinition.getPropertyType())}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2             .generateComponent(propertyDefinition);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 this}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 .}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf19\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 propertyDefinitions}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 .put(propertyDefinition, }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2  JComponent[] \{ label, component \});}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     add(component);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2 // add the component to the layout manager}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     gridBagLayout.addLayoutComponent(component, c);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \hich\af2\dbch\af13\loch\f2     index++;}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6648756 \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6648756 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx0\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\fs24\kerning0\insrsid12153452 {\*\xmlopen\xmlns2{\factoidname chsdate}
+{\xmlattr\xmlattrns0{\xmlattrname IsROCDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname IsLunarDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname Day}{\xmlattrvalue 30}}{\xmlattr\xmlattrns0{\xmlattrname Month}{\xmlattrvalue 12}}
+{\xmlattr\xmlattrns0{\xmlattrname Year}{\xmlattrvalue 1899}}}\hich\af0\dbch\af13\loch\f0 1.3.2\tab {\*\xmlclose} }{\rtlch\fcs1 \ai\af36\afs18 \ltrch\fcs0 \i\f36\fs18\cf1\kerning0\insrsid12153452 \hich\af36\dbch\af13\loch\f36 
+CheckBoxPropertyComponentGenerator#generateComponent}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx0\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ai\af36\afs18 \ltrch\fcs0 \i\f36\fs18\cf1\kerning0\insrsid12153452 \hich\af36\dbch\af13\loch\f36 This\hich\af36\dbch\af13\loch\f36 
+ method generates the checkbox from the property definition:}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid7216742 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 // create the check box}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 final}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  JCheckBox checkBox = }{\rtlch\fcs1 
+\ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  J\hich\af2\dbch\af13\loch\f2 CheckBox();}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 // set the property value of property to CheckBox}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 checkBox.setSelected(Boolean.}{\rtlch\fcs1 \ai\af2\afs20 \ltrch\fcs0 \i\f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 parseBoolean}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 (propertyDefinition.getPropertyValue()));}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 // add the listener to CheckBox}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 checkBox.addItemListener(}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  ItemListener() \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 /**}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2      }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 *}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 if}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 
+\hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 the}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 CheckBox}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 is}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 
+\hich\af2\dbch\af13\loch\f2 selected}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 then}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 the}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 property}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 
+\hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 definition}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 will}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 be}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2      }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 *}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 "true"}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 
+\hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 else}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 will}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 be}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 
+\hich\af2\dbch\af13\loch\f2 "false".}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2      }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 *}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2      }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 *}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf21\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 @param}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 
+\hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 e}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 event.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2      }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 */}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 public}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 void}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  itemStateChanged(ItemEvent e) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2         }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 if}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  (e.getStateChange() == ItemEvent.}{\rtlch\fcs1 \ai\af2\afs20 \ltrch\fcs0 \i\f2\fs20\cf19\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 SELECTED}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 ) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2             propertyDefinition.setPropertyValue(Boolean.}{\rtlch\fcs1 \ai\af2\afs20 \ltrch\fcs0 \i\f2\fs20\cf1\kerning0\insrsid7216742 
+\hich\af2\dbch\af13\loch\f2 toString}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 (}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 true}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 ));}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2         \} }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 else}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 if}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  (e.getStateChange() == ItemEvent.}{\rtlch\fcs1 \ai\af2\afs20 \ltrch\fcs0 \i\f2\fs20\cf19\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 DESELECTED}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 ) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2             propertyDefinition.setPropertyValue(Boolean.}{\rtlch\fcs1 \ai\af2\afs20 \ltrch\fcs0 \i\f2\fs20\cf1\kerning0\insrsid7216742 
+\hich\af2\dbch\af13\loch\f2 toString}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 (}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 false}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 ));}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2         \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2     \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \}\hich\af2\dbch\af13\loch\f2 );}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid7216742 
+\par 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2 return}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid7216742 \hich\af2\dbch\af13\loch\f2  checkBox;}{\rtlch\fcs1 \af36 
+\ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\fs24\kerning0\insrsid12153452 {\*\xmlopen\xmlns2{\factoidname chsdate}
+{\xmlattr\xmlattrns0{\xmlattrname IsROCDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname IsLunarDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname Day}{\xmlattrvalue 30}}{\xmlattr\xmlattrns0{\xmlattrname Month}{\xmlattrvalue 12}}
+{\xmlattr\xmlattrns0{\xmlattrname Year}{\xmlattrvalue 1899}}}\hich\af0\dbch\af13\loch\f0 1.3.3\tab {\*\xmlclose} }{\rtlch\fcs1 \ai\af36\afs18 \ltrch\fcs0 \i\f36\fs18\cf1\kerning0\insrsid12153452 \hich\af36\dbch\af13\loch\f36 
+DropDownPropertyComponentGenerator#generateComponent}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx0\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ai\af36\afs18 \ltrch\fcs0 \i\f36\fs18\cf1\kerning0\insrsid12153452 \hich\af36\dbch\af13\loch\f36 
+This method generates the combobox  (multiple choices) from the property definition:}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid14506834 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 // get the value choices}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 Set<String> valueChoices = propertyDefinition.getValueChoices() == }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 
+\hich\af2\dbch\af13\loch\f2 null}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  ? }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 new}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  HashSet<Str\hich\af2\dbch\af13\loch\f2 ing>()}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2         : propertyDefinition.getValueChoices();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 String propertyValue = propertyDefinition.getPropertyValue();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 if}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  (propertyValue != }{\rtlch\fcs1 
+\ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 null}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  && !valueChoices.contains(propertyValue)) \{}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 throw}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  IllegalArgumentException(}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf22\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 "value choices does not contain property value:"}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  + propertyValue);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 String[] items = valueChoices.toArray(}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 new}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  String[valueChoices.size()]);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 // construct the ComboBox with the choices}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 final}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  JComboBox comboBox = }{\rtlch\fcs1 
+\ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  JComboBox(items);}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 // must be not edit-able}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 comboBox.setEditable(}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 false}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 );}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 // set the property value as selected}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 comboBox.setSelectedItem(propertyValue);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 // add the listener}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 comboBox.addActionListener(}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 new}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  ActionListener() \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 /**}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2      }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 *}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 change}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 
+\hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 the}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 property}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf20\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 definition}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf20\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 with}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid14506834 
+\hich\af2\dbch\af13\loch\f2 t\hich\af2\dbch\af13\loch\f2 he}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid14506834 
+\hich\af2\dbch\af13\loch\f2 selected}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 item.}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2      }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 *}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2      }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 *}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf21\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 @param}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 e}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 
+\hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 event.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2      }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 */}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 public}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 void}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  actionPerformed(ActionEvent e) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2         String selectedItem = (String) comboBox.getSelectedItem();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2         propertyDefinition.setPropertyValue(selectedItem);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2     \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \}\hich\af2\dbch\af13\loch\f2 );}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid14506834 
+\par 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2 return}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid14506834 \hich\af2\dbch\af13\loch\f2  comboBox;}{\rtlch\fcs1 \af36 
+\ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\fs24\kerning0\insrsid12153452 {\*\xmlopen\xmlns2{\factoidname chsdate}
+{\xmlattr\xmlattrns0{\xmlattrname IsROCDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname IsLunarDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname Day}{\xmlattrvalue 30}}{\xmlattr\xmlattrns0{\xmlattrname Month}{\xmlattrvalue 12}}
+{\xmlattr\xmlattrns0{\xmlattrname Year}{\xmlattrvalue 1899}}}\hich\af0\dbch\af13\loch\f0 1.3.4\tab {\*\xmlclose} }{\rtlch\fcs1 \ai\af36\afs18 \ltrch\fcs0 \i\f36\fs18\cf1\kerning0\insrsid12153452 \hich\af36\dbch\af13\loch\f36 
+FreeTextPropertyComponentGenerator#generateComponent}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx0\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ai\af36\afs18 \ltrch\fcs0 \i\f36\fs18\cf1\kerning0\insrsid12153452 \hich\af36\dbch\af13\loch\f36 
+This method generates the text field from the property definition:}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4721105 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 // create the text field}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid4721105 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 final}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2  JTextField textField = }{\rtlch\fcs1 
+\ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2  JTextField(propertyDefinition.getP
+\hich\af2\dbch\af13\loch\f2 ropertyValue());}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 // add the listener}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 textField.getDocument().addDocumentListener(}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 
+new}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2  DocumentListener() \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 
+// change the property definition with the text}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 public}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 void}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2  changedUpdate(DocumentEvent e) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2         propertyDefinition.setPropertyValue(textField.getText());}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2     \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 
+// change the property definition with the text}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 public}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 void}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2  insertUpdate(DocumentEvent e) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2         propertyDefinition.setPropertyValue(textField.getText());}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2     \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 //\hich\af2\dbch\af13\loch\f2 
+ change the property definition with the text}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 public}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 void}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2  removeUpdate(DocumentEvent e) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2         propertyDefinition.setPropertyValue(textField.getText());}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2     \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \}\hich\af2\dbch\af13\loch\f2 );}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid4721105 
+\par 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2 return}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid4721105 \hich\af2\dbch\af13\loch\f2  textField;}{\rtlch\fcs1 \af36 
+\ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\fs24\kerning0\insrsid12153452 {\*\xmlopen\xmlns2{\factoidname chsdate}
+{\xmlattr\xmlattrns0{\xmlattrname IsROCDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname IsLunarDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname Day}{\xmlattrvalue 30}}{\xmlattr\xmlattrns0{\xmlattrname Month}{\xmlattrvalue 12}}
+{\xmlattr\xmlattrns0{\xmlattrname Year}{\xmlattrvalue 1899}}}\hich\af0\dbch\af13\loch\f0 1.3.5\tab {\*\xmlclose} }{\rtlch\fcs1 \ai\af36\afs18 \ltrch\fcs0 \i\f36\fs18\cf1\kerning0\insrsid12153452 \hich\af36\dbch\af13\loch\f36 R
+\hich\af36\dbch\af13\loch\f36 adioButtonsPropertyComponentGenerator#generateComponent}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx0\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ai\af36\afs18 \ltrch\fcs0 \i\f36\fs18\cf1\kerning0\insrsid12153452 \hich\af36\dbch\af13\loch\f36 
+This method generates the radio buttons (multiple choices) from the property definition:}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid12799377 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 // Check propertyDefinition is not null.}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 if}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  (propertyDefinition == }{\rtlch\fcs1 
+\ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 null}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 ) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 throw}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  IllegalArgumentException(}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf22\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 "Parameter propertyDefinition cannot be null."}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 );}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 // Check propertyDefinition.type equals to PropertyType.RADIO_BUTTONS}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 if}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 
+ (!propertyDefinition.getPropertyType().equals(PropertyType.}{\rtlch\fcs1 \ai\af2\afs20 \ltrch\fcs0 \i\f2\fs20\cf19\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 RADIO_BUTTONS}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 )) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 throw}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  IllegalArgument\hich\af2\dbch\af13\loch\f2 Exception(}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2             }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf22\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 
+"propertyDefinition.propertyType should be PropertyType.FREE_TEXT. But it is "}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2                     + propertyDefinition.getPropertyType());}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 // get the value choices}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 Set<String> valueChoices = propertyDefinition.getValueChoices() =\hich\af2\dbch\af13\loch\f2 = }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 
+\b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 null}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  ? }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 
+\b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  HashSet<String>()}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2         : propertyDefinition.getValueChoices();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 String propertyValue = propertyDefinition.getPropertyValue();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 if}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  (propertyValue != }{\rtlch\fcs1 
+\ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 null}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  && !valueChoices.contains(propertyValue)) \{}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 throw}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  IllegalArgumentException(}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf22\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 "Value choices does not contain property value: "}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  + propertyValue);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 // create the panel which contains the radio buttons}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 JPanel radioButtonsPanel = }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 new}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  JPanel();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 // set the layout}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 radioButtonsPanel.setLayout(}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 new}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  BoxLayout(radioButtonsPanel, BoxLayout.}{\rtlch\fcs1 \ai\af2\afs20 \ltrch\fcs0 \i\f2\fs20\cf19\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 PA
+\hich\af2\dbch\af13\loch\f2 GE_AXIS}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 ));}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 // create the group of buttons}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 ButtonGroup buttonGroup = }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  ButtonGroup();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 // create a button for each value choice}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 for}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  (}{\rtlch\fcs1 \ab\af2\afs20 
+\ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 final}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  String choice : valueChoices) \{}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2     JRadioButton radioButton = }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 new}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  JRadioButton(choice);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 
+// if the property value is equal to the choice value then the}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 // button will be selected}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 if}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  (choice.equals(propertyValue)) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2         radioButton.setSelected(}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 true}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 );}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2     \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 // add the action listener}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2     radioButton.addActionListener(}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 new}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  ActionListener() \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2         }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 /**}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2          }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 *}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 if}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 
+\hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 the}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 radio}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 button}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 
+\hich\af2\dbch\af13\loch\f2 is}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 selected}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 then}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 the}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 
+\hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 property}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 definition}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2          }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 *}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 will}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 
+\hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 have}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 the}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 value}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 
+\hich\af2\dbch\af13\loch\f2 of}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 the}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 radio}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 button.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2          }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 *}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2          }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 *}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf21\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 @param}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 e}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 
+\hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 event.}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2          }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf20\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 */}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2         }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 public}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 void}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  actionPerformed(ActionEvent e) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2             propertyDefinition.setPropertyValue(choice);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2         \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2     \});}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2     buttonGroup.add(radioButton);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2     radioButtonsPanel.add(radioButton);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid12799377 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx0\wrapdefault\faauto\rin0\lin0\itap0\pararsid12799377 {\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2 return}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid12799377 \hich\af2\dbch\af13\loch\f2  radioButtonsPanel;}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 1.4\tab 
+Component Class Overview}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 PropertyValidator}{\rtlch\fcs1 \af36 \ltrch\fcs0 
+\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 It's the }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid3696821 
+\hich\af0\dbch\af13\loch\f0 valid\hich\af0\dbch\af13\loch\f0 ator}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0  used to }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid3696821 \hich\af0\dbch\af13\loch\f0 
+validate}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0  the }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid3696821 \hich\af0\dbch\af13\loch\f0 properties}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0  when the properties are saved or simply when the properties are validated. Used in the editor panel, there are no implementations.}{\rtlch\fcs1 \af36 \ltrch\fcs0 
+\f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Thread safety:  the thread safety is required}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 ValidationResult}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 
+\b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+Represent the validation result of a property validation: it contains the information of the fail or success.}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Thread safety: it's thread safe, its' immutable}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 ConfigurationManagerEditorPanel}{\rtlch\fcs1 \ab\af36 
+\ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 This is the main class of this component. It use\hich\af0\dbch\af13\loch\f0 
+s the PropertyDefinition instances to define the properties and the related jcomponents. These jcomponents are constructed with the related generators using the type. Many other graphic values are configurable. The component is initialized in the initiali
+\hich\af0\dbch\af13\loch\f0 z\hich\af0\dbch\af13\loch\f0 e method called in the constructor. The component uses the }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid13966386 \hich\af0\dbch\af13\loch\f0 valid\hich\af0\dbch\af13\loch\f0 ator
+\hich\af0\dbch\af13\loch\f0 s }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+to validate the properties against the old properties. The new properties values are saved using the Configuration Manager, (the old properties values are retrieved using ConFigurationMa\hich\af0\dbch\af13\loch\f0 nager)}{\rtlch\fcs1 \af36 \ltrch\fcs0 
+\f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Thread safety: this class is not thread safe but it's not required because only a single thread will use this class, this TC Tool application and then the}{
+\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 user who uses the application.}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 PropertyComponentGenerator}{\rtlch\fcs1 \ab\af36 
+\ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 this interface defined the contract\hich\af0\dbch\af13\loch\f0 
+ to generate the jcomponent based on the type. The JComponent will be tied to the propertyDefinition: when the component}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid3344738 \hich\af0\dbch\af13\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 will change its state, the property value will change (for example in a text field, when the user changes the text, the property definit\hich\af0\dbch\af13\loch\f0 ion must reflect this}{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid2429337 \hich\af0\dbch\af13\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 change). It is used inside the \{ConfigurationManagerEditorPanel.}{
+\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Thread safety: the implementations are required to be thread safe}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 PropertyType}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 
+\b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Represent the type of a property definition. Each \hich\af0\dbch\af13\loch\f0 
+type is tied to a specific jcomponent. It is used to define the related jcomponents in the editor panel. Ignore the type of the fields: this is a Java 5 enum, I only shot it for the TC Tool.}{\rtlch\fcs1 \af36 \ltrch\fcs0 
+\f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Thread safety: it's an enum it's thread safe.}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 PropertyDefinition}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 
+\b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+Represents the property definition. This class defines a property with the name in the configuration manager (this is like an attribute in ConfigurationManager). The value will be loaded from Configuration Manager in the editor panel.}{\rtlch\fcs1 \af36 
+\ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Thread safety: it's \hich\af0\dbch\af13\loch\f0 not thread safe, it's mutable}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 RadioButtonsPropertyComponentGenerator}{\rtlch\fcs1 
+\ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+This generator will generate a JPanel. this JPanel contains the radio buttons grouped using a ButtonGroup. When the user will click on the radio, the property value will be modified with\hich\af0\dbch\af13\loch\f0  the value of the radio.}{\rtlch\fcs1 
+\af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Thread safety: it's stateless, then it's thread safe}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 CheckBoxPropertyComponentGenerator}{\rtlch\fcs1 
+\ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+This generator will generate a JCheckBox related to the property definition. When the user will check or uncheck the checkbox, the property's \hich\af0\dbch\af13\loch\f0 value will be "true" or "false".}{\rtlch\fcs1 \af36 \ltrch\fcs0 
+\f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Thread safety: it's stateless, then it's thread safe}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 FreeTextPropertyComponentGenerator}{\rtlch\fcs1 
+\ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+This generator will generate a JTextField related to the property definition. When the user will edit the text in the textFile, the pr\hich\af0\dbch\af13\loch\f0 opertyDefinition's}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 property value will be modified with this text}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Thread safety: it's stateless, then it's thread safe}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 DropDownPropertyComponentGenerator}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 This generator will generate a JComboBox related to the property definition. When the user will select\hich\af0\dbch\af13\loch\f0 
+ the item of combobox, the property's value}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 will be modified with the value of the item.}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Thread safety: it's stateless, then it's thread safe}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 1.5\tab 
+Component Exception Definitions}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 InsufficientDataException}{\rtlch\fcs1 \ab\af36 
+\ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 This exception is thrown if there is no sufficient data to perform the validation}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 ValidationException}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 
+\b\f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 This exception is thrown if some errors occur in the validation of properties definitions}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 SavingException}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 
+\b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 This exception is thrown if some errors occur \hich\af0\dbch\af13\loch\f0 
+during the save method, when the properties are saved.}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 ConfigurationManagerEditorPanelException}{\rtlch\fcs1 
+\ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 This exception is the parent exception of all exceptions in this class}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 ConfigurationException}{\rtlch\fcs1 \ab\af36 
+\ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 This exception is \hich\af0\dbch\af13\loch\f0 
+thrown if the configuration is bad: missing required properties or in the bad format}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 NotValidNamespaceException}{\rtlch\fcs1 \ab\af36 
+\ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 This exception is thrown if the namespace used to load the }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fs24\kerning0\insrsid12592509 \hich\af0\dbch\af13\loch\f0 properties}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0  is not valid: it doesn't contain properties or it is missed in the config
+\hich\af0\dbch\af13\loch\f0 uration.}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 1.6\tab Thread Safety
+}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+The component is not thread safe, but the thread safety is not required, The main class is not thread safe but it's not required because only a single thread will use this class, this TC Tool application and then the user who u\hich\af0\dbch\af13\loch\f0 
+ses the application. The user can't use the same instance in different frames in parallel mode, so the thread safety is not applicable in this case of an user interface.}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+The component generators are required to be thread safe because it's possible that the instance will be used also in other places, even tough the thread safety in this component is not required.}{\rtlch\fcs1 \af36 \ltrch\fcs0 
+\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 2.\tab 
+Environment Requirements\tab \tab }{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 2.1\tab Environment}{
+\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \fi-360\li1080\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1080\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \loch\af0\dbch\af13\hich\f0 \'b7\tab \loch\f0 Development\hich\af0\dbch\af13\loch\f0  language: Java 1.5}{
+\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \loch\af0\dbch\af13\hich\f0 \'b7\tab \loch\f0 Compile target: Java 1.5}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 2.2\tab 
+TopCoder Software Components}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \fi-360\li1080\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1080\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \loch\af0\dbch\af13\hich\f0 \'b7\loch\f0  \tab Configuration Manager {\*\xmlopen\xmlns2{\factoidname 
+chsdate}{\xmlattr\xmlattrns0{\xmlattrname IsROCDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname IsLunarDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname Day}{\xmlattrvalue 30}}{\xmlattr\xmlattrns0{\xmlattrname Month}{\xmlattrvalue 
+12}}{\xmlattr\xmlattrns0{\xmlattrname Year}{\xmlattrvalue 1899}}}\hich\af0\dbch\af13\loch\f0 2.1.5}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 {\*\xmlclose}
+\par }\pard \ltrpar\ql \fi-360\li1440\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 o\tab 
+Used to configure the main class and also to load and save the properties}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \fi-360\li1080\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1080\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \loch\af0\dbch\af13\hich\f0 \'b7\loch\f0  \tab Base Exc\hich\af0\dbch\af13\loch\f0 eption 2.0}{
+\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \fi-360\li1440\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 o\tab TopCoder standard for all custom exceptions.}{\rtlch\fcs1 \af36 
+\ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+NOTE: The default location for TopCoder Software component jars is../lib/tcs/COMPONENT_NAME/COMPONENT_VERSION relative to the component installation.}{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\fs24\cf1\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+  Setting the tcs_libdir property in topcoder_global.properties will overwrite this default location.}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li720\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 2.3\tab 
+Third Party Components\tab }{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid6170924 \hich\af0\dbch\af13\loch\f0 None}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 3.\tab 
+Installation and Configuration}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 3.1\tab Package Names
+}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 com.topcoder.gui.configurationmanager}{\rtlch\fcs1 \af36 \ltrch\fcs0 
+\f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 com.topcoder.gui.configuratio\hich\af0\dbch\af13\loch\f0 nmanager.componentgenerators}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 3.2\tab 
+Configuration Parameters}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\fs24\kerning0\insrsid12153452 {\*\xmlopen\xmlns2{\factoidname chsdate}{\xmlattr\xmlattrns0{\xmlattrname IsROCDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname IsLunarDate}{\xmlattrvalue False}}
+{\xmlattr\xmlattrns0{\xmlattrname Day}{\xmlattrvalue 30}}{\xmlattr\xmlattrns0{\xmlattrname Month}{\xmlattrvalue 12}}{\xmlattr\xmlattrns0{\xmlattrname Year}{\xmlattrvalue 1899}}}\hich\af0\dbch\af13\loch\f0 3.2.1{\*\xmlclose} ConfigurationManagerEditorPanel
+}{\rtlch\fcs1 \ai\af36 \ltrch\fcs0 \i\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx0\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ai\af36 \ltrch\fcs0 \i\f36\fs24\kerning0\insrsid12153452 
+\par \ltrrow}\trowd \irow0\irowband0\ltrrow\ts11\trgaph10\trleft-20\trftsWidth1\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblind-10\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth2282\clshdrawnil \cellx2262\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx5446\clvertalt\clbrdrt
+\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx8630\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 
+\ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Field name}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 
+\hich\af0\dbch\af13\loch\f0 Description}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Details}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 
+\b\f36\fs24\kerning0\insrsid12153452 \cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 \trowd \irow0\irowband0\ltrrow
+\ts11\trgaph10\trleft-20\trftsWidth1\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblind-10\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth2282\clshdrawnil \cellx2262\clvertalt\clbrdrt\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx5446\clvertalt\clbrdrt
+\brdrs\brdrw5\brdrcf1 \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx8630\row \ltrrow}\trowd \irow1\irowband1\ltrrow
+\ts11\trgaph10\trleft-20\trftsWidth1\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblind-10\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2282\clshdrawnil 
+\cellx2262\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx5446\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb
+\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx8630\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\hich\af0\dbch\af13\loch\f0 propertiesNamespace}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 The namespace used to load the properties}{
+\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Required}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\hich\af0\dbch\af13\loch\f0 A valid namespace String not empty and must not be empty (must contain properties)}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }\pard \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \trowd \irow1\irowband1\ltrrow
+\ts11\trgaph10\trleft-20\trftsWidth1\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblind-10\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2282\clshdrawnil 
+\cellx2262\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx5446\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb
+\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx8630\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 propertyDefinitions}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+This is a property that contain other sub properties, these sub-properties are multi-values properties. The sub-properties are defined:}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+The key is name of property, the first value is the property type, the second value is the prompt text. If it's a multiple choices type then the following values are the possible values}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Required, it's used to instantiate the PropertyDefinitions}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 This proper\hich\af0\dbch\af13\loch\f0 \hich\f0 
+ty must contain sub-properties. The keys must be String not empty. The property type must be the name of an enum values in the PropertyType enum  (for example \'93\loch\f0 \hich\f0 FREE_TEXT\'94\loch\f0 
+). The prompt Text must be a String not empty. The following values are the possible \hich\af0\dbch\af13\loch\f0 v\hich\af0\dbch\af13\loch\f0 alues in the case of a multiple choices type.}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \trowd \irow2\irowband2\ltrrow
+\ts11\trgaph10\trleft-20\trftsWidth1\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblind-10\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2282\clshdrawnil 
+\cellx2262\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx5446\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb
+\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx8630\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 rowsSpacing}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 
+The spacing among the rows in the editor panel}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Optional}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\hich\af0\dbch\af13\loch\f0 Int >=0}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af36 \ltrch\fcs0 
+\f36\fs24\kerning0\insrsid12153452 \trowd \irow3\irowband3\ltrrow\ts11\trgaph10\trleft-20\trftsWidth1\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblind-10\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2282\clshdrawnil \cellx2262\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx5446\clvertalt
+\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx8630\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 columnsSpacing}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\hich\af0\dbch\af13\loch\f0 The spacing among the columns in the editor panel}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Optional}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\hich\af0\dbch\af13\loch\f0 Int >=0}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af36 \ltrch\fcs0 
+\f36\fs24\kerning0\insrsid12153452 \trowd \irow4\irowband4\ltrrow\ts11\trgaph10\trleft-20\trftsWidth1\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblind-10\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2282\clshdrawnil \cellx2262\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx5446\clvertalt
+\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx8630\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 fontName}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\hich\af0\dbch\af13\loch\f0 The name of Font, to construct the Font instance}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Optional}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\hich\af0\dbch\af13\loch\f0 A String not empty, valid Font name}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af36 
+\ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \trowd \irow5\irowband5\ltrrow\ts11\trgaph10\trleft-20\trftsWidth1\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblind-10\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb
+\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2282\clshdrawnil \cellx2262\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil 
+\cellx5446\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx8630\row \ltrrow}\pard \ltrpar
+\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 fontStyle}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 The style of font, o construct the Font instance}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Optional}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\hich\af0\dbch\af13\loch\f0 Constant in the Font class, String not empty}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {
+\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \trowd \irow6\irowband6\ltrrow\ts11\trgaph10\trleft-20\trftsWidth1\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblind-10\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 
+\clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2282\clshdrawnil \cellx2262\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx5446\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx8630\row \ltrrow
+}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 fontSize}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 The size of font, o construct the Font\hich\af0\dbch\af13\loch\f0  instance}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Optional}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\hich\af0\dbch\af13\loch\f0 int>=0}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af36 \ltrch\fcs0 
+\f36\fs24\kerning0\insrsid12153452 \trowd \irow7\irowband7\ltrrow\ts11\trgaph10\trleft-20\trftsWidth1\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblind-10\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 
+\clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2282\clshdrawnil \cellx2262\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx5446\clvertalt
+\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx8630\row \ltrrow}\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\rin0\lin0 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 fontColor}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\hich\af0\dbch\af13\loch\f0 The name of constant in the Color class (case insensitive)}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Optional}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\hich\af0\dbch\af13\loch\f0 Constant in the Color class, String not empty}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \cell }\pard \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {
+\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \trowd \irow8\irowband8\lastrow \ltrrow\ts11\trgaph10\trleft-20\trftsWidth1\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3\tblind-10\tblindtype3 \clvertalt\clbrdrt\brdrnone \clbrdrl
+\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone \cltxlrtb\clftsWidth3\clwWidth2282\clshdrawnil \cellx2262\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx5446\clvertalt\clbrdrt\brdrnone \clbrdrl\brdrs\brdrw5\brdrcf1 \clbrdrb\brdrs\brdrw5\brdrcf1 \clbrdrr\brdrs\brdrw5\brdrcf1 \cltxlrtb\clftsWidth3\clwWidth3184\clshdrawnil \cellx8630\row }\pard \ltrpar
+\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx0\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \ai\af36 \ltrch\fcs0 \i\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 3.3\tab 
+Dependencies Configuration}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\fs24\kerning0\insrsid12153452 {\*\xmlopen\xmlns2{\factoidname chsdate}{\xmlattr\xmlattrns0{\xmlattrname IsROCDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname IsLunarDate}{\xmlattrvalue False}}
+{\xmlattr\xmlattrns0{\xmlattrname Day}{\xmlattrvalue 30}}{\xmlattr\xmlattrns0{\xmlattrname Month}{\xmlattrvalue 12}}{\xmlattr\xmlattrns0{\xmlattrname Year}{\xmlattrvalue 1899}}}\hich\af0\dbch\af13\loch\f0 3.3.1\tab {\*\xmlclose}
+\hich\af0\dbch\af13\loch\f0 TopCoder dependencies}{\rtlch\fcs1 \ai\af36 \ltrch\fcs0 \i\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 All the dependencies are to be configured according to their component specifications.}{
+\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 4.\tab Usage Notes}
+{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 4.1\tab 
+Required steps to test the component}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \fi-360\li360\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin360\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 \hich\af36\dbch\af13\loch\f36  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 
+\loch\af0\dbch\af13\hich\f0 \'b7\loch\f0  \tab Extract the component distribution.}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par \hich\af36\dbch\af13\loch\f36  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \loch\af0\dbch\af13\hich\f0 \'b7\loch\f0  \tab Follow the dependencies.}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par \hich\af36\dbch\af13\loch\f36  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \loch\af0\dbch\af13\hich\f0 \'b7\loch\f0  \tab Execute \hich\f0 \lquote \loch\f0 ant test\loch\af0\dbch\af13\hich\f0 \rquote \loch\f0 
+ within the directory that the distribution was extracted to.}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 4.2\tab 
+Required steps to use the component}{\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 None}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid12153452 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 4.3\tab Demo}{
+\rtlch\fcs1 \ab\af36 \ltrch\fcs0 \b\f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\fs24\kerning0\insrsid12153452 {\*\xmlopen\xmlns2{\factoidname chsdate}{\xmlattr\xmlattrns0{\xmlattrname IsROCDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname IsLunarDate}{\xmlattrvalue False}}
+{\xmlattr\xmlattrns0{\xmlattrname Day}{\xmlattrvalue 30}}{\xmlattr\xmlattrns0{\xmlattrname Month}{\xmlattrvalue 12}}{\xmlattr\xmlattrns0{\xmlattrname Year}{\xmlattrvalue 1899}}}\hich\af0\dbch\af13\loch\f0 4.3.1\tab {\*\xmlclose}Setup}{\rtlch\fcs1 
+\ai\af36 \ltrch\fcs0 \i\f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 This is the configuration of the class:}{\rtlch\fcs1 \af36 \ltrch\fcs0 \f36\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid15165510 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid15165510 \hich\af2\dbch\af13\loch\f2 <Config name="ConfigurationManagerEditorPanel">
+\par 
+\par \tab \hich\af2\dbch\af13\loch\f2 <!-- Define the }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\ul\cf1\kerning0\insrsid15165510 \hich\af2\dbch\af13\loch\f2 namespace}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid15165510 
+\hich\af2\dbch\af13\loch\f2  used to load the old values of properties and to save the properties -->
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="propertiesNamespace">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>MyClass</Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par 
+\par \tab \hich\af2\dbch\af13\loch\f2 <!-- Define the properti\hich\af2\dbch\af13\loch\f2 es definitions -->
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="propertyDefinitions">
+\par 
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <!-- Defines a text field -->
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Property name="name">
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>Name :</Value>
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>FREE_TEXT</Value>
+\par 
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par 
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <!-- Defines a }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\ul\cf1\kerning0\insrsid15165510 \hich\af2\dbch\af13\loch\f2 combobox}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid15165510 
+\hich\af2\dbch\af13\loch\f2  with multiple values -->
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Property name="size">
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>Size :</Value>
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>DROP_DOWN</Value>
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>1</Value>
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>10</Value>
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>20</Value>
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par \tab \tab 
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Property name="checked">
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>checked :</Value>
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>CHECK_BOX</Value>
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Property name="radios">
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>radios :</Value>
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>RADIO_BUTTONS</Value>
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>1</Value>
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>10</Value>
+\par \tab \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>20</Value>
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par 
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="rowsSpacing">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>10</Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par 
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name=\hich\af2\dbch\af13\loch\f2 "columnsSpacing">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>20</Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par 
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="fontName">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>Times New Roman</Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par 
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="fontStyle">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>0</Value><!-- Plain style -->
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par 
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="fontSize">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>10</Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par 
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="fontColor">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>black</Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par 
+\par \hich\af2\dbch\af13\loch\f2 </Config>
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452\charrsid7162063 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\cf1\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 This is the namespace which contains the properties to modify:}{\rtlch\fcs1 \af2 \ltrch\fcs0 \f2\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid8019679 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid8019679 \hich\af2\dbch\af13\loch\f2 <?}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\ul\cf1\kerning0\insrsid8019679 \hich\af2\dbch\af13\loch\f2 xml}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid8019679 \hich\af2\dbch\af13\loch\f2  version="1.0"?>
+\par \hich\af2\dbch\af13\loch\f2 <CMConfig>
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="name">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>John</Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="size">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>10</Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="checked">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>true</Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="radios">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>10</Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par \hich\af2\dbch\af13\loch\f2 </CMConfig>
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid8019679 {\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\fs24\kerning0\insrsid8019679 {\*\xmlopen\xmlns2{\factoidname chsdate}
+{\xmlattr\xmlattrns0{\xmlattrname IsROCDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname IsLunarDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname Day}{\xmlattrvalue 30}}{\xmlattr\xmlattrns0{\xmlattrname Month}{\xmlattrvalue 12}}
+{\xmlattr\xmlattrns0{\xmlattrname Year}{\xmlattrvalue 1899}}}\hich\af0\dbch\af13\loch\f0  }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\fs24\kerning0\insrsid12153452 {\*\xmlopen\xmlns2{\factoidname chsdate}{\xmlattr\xmlattrns0{\xmlattrname IsROCDate}
+{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname IsLunarDate}{\xmlattrvalue False}}{\xmlattr\xmlattrns0{\xmlattrname Day}{\xmlattrvalue 30}}{\xmlattr\xmlattrns0{\xmlattrname Month}{\xmlattrvalue 12}}{\xmlattr\xmlattrns0{\xmlattrname Year}
+{\xmlattrvalue 1899}}}\hich\af0\dbch\af13\loch\f0 4.3.2\tab {\*\xmlclose}{\*\xmlclose}  Usage}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \i\f2\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid6623586 {\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 final}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2  ConfigurationManagerEditorPanel panel = }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2  ConfigurationManagerEditorPanel(}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2         }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf22\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 "ConfigurationManagerEditorPanel"}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 );}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid5244628 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 JButton ok = }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2  JButton(}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf22\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 "OK"}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 );}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 panel.add(ok);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 ok.addActionListener(}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 new}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2  ActionListener() \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2     }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 public}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2  }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 void}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2  actionPerformed(ActionEvent e) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2         }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 // the properties are validated}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2         }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 try}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2  \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2             }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 // validate the properties}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2             ValidationResultSet \hich\af2\dbch\af13\loch\f2 resultSet = panel.validateProperties();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2             }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 // check the validation}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2             }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 if}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2  (resultSet.isSuccess()) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2                 }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 // save the properties}{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2                 }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 
+// the validation is already performed since I can call}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2                 }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 // directly 
+\hich\af2\dbch\af13\loch\f2 the}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2                 }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 // save method}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2                 panel.saveProperties();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2                 System.}{\rtlch\fcs1 \ai\af2\afs20 \ltrch\fcs0 \i\f2\fs20\cf19\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 out}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 .println(}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf22\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 "saving"}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 );}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2                 }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 
+// the properties now are saved to the related }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\ul\cf17\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 namespace}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2             \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2         \} }{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 catch}{\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2  (Exception ex) \{}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2             \hich\af2\dbch\af13\loch\f2 ex.printStackTrace();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2         \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2     \}}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \}\hich\af2\dbch\af13\loch\f2 );}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 panel.setSize(400, 400);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 panel.setVisible(}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 true}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 );}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf17\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 // add it to the frame}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 frame.getContentPane().add(panel);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 frame.pack();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 frame.setSize(400, 400);}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid6623586 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 frame.setVisible(}{\rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \b\f2\fs20\cf18\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 true}{\rtlch\fcs1 
+\af2\afs20 \ltrch\fcs0 \f2\fs20\cf1\kerning0\insrsid6623586 \hich\af2\dbch\af13\loch\f2 );}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\cf1\kerning0\insrsid6623586 \hich\af0\dbch\af13\loch\f0  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\cf1\kerning0\insrsid11434756 
+
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\cf1\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 The result:
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\cf1\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid11801767 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid11801767 \hich\af2\dbch\af13\loch\f2 <?}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\ul\cf1\kerning0\insrsid11801767 \hich\af2\dbch\af13\loch\f2 xml}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid11801767 \hich\af2\dbch\af13\loch\f2  version="1.0"?>
+\par \hich\af2\dbch\af13\loch\f2 <CMConfig>
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="name">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid3018098 \hich\af2\dbch\af13\loch\f2 Michael}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid3018098 \hich\af2\dbch\af13\loch\f2  }{
+\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid11801767 \hich\af2\dbch\af13\loch\f2 </Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="size">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid3018098 \hich\af2\dbch\af13\loch\f2 2\hich\af2\dbch\af13\loch\f2 0}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\kerning0\insrsid11801767 
+\hich\af2\dbch\af13\loch\f2 </Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property nam\hich\af2\dbch\af13\loch\f2 e="checked">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>true</Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par \tab \hich\af2\dbch\af13\loch\f2 <Property name="radios">
+\par \tab \tab \hich\af2\dbch\af13\loch\f2 <Value>10</Value>
+\par \tab \hich\af2\dbch\af13\loch\f2 </Property>
+\par \hich\af2\dbch\af13\loch\f2 </CMConfig>
+\par }\pard \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0\pararsid11801767 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid11801767 \hich\af0\dbch\af13\loch\f0  }{\rtlch\fcs1 
+\ab\af0 \ltrch\fcs0 \b\fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 5.\tab Future Enhancements}{\rtlch\fcs1 \ab\af2 \ltrch\fcs0 \b\f2\fs24\kerning0\insrsid12153452 
+\par }\pard \ltrpar\ql \fi720\li-720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin-720\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\kerning0\insrsid12153452 \hich\af0\dbch\af13\loch\f0 Other component generators can be added}{\rtlch\fcs1 \af2 \ltrch\fcs0 
+\f2\fs24\kerning0\insrsid12153452 
+\par }}

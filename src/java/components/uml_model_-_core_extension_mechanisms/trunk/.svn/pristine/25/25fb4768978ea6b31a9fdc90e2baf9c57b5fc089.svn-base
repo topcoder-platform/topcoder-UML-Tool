@@ -1,0 +1,385 @@
+{\rtf1\ansi\ansicpg936\uc2\deff1\stshfdbch13\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe2052{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}
+{\f13\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}\'cb\'ce\'cc\'e5{\*\falt SimSun};}{\f35\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}@\'cb\'ce\'cc\'e5;}{\f36\froman\fcharset238\fprq2 Times New Roman CE;}
+{\f37\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f39\froman\fcharset161\fprq2 Times New Roman Greek;}{\f40\froman\fcharset162\fprq2 Times New Roman Tur;}{\f41\froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\f42\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f43\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f44\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f46\fswiss\fcharset238\fprq2 Arial CE;}
+{\f47\fswiss\fcharset204\fprq2 Arial Cyr;}{\f49\fswiss\fcharset161\fprq2 Arial Greek;}{\f50\fswiss\fcharset162\fprq2 Arial Tur;}{\f51\fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f52\fswiss\fcharset178\fprq2 Arial (Arabic);}
+{\f53\fswiss\fcharset186\fprq2 Arial Baltic;}{\f54\fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f56\fmodern\fcharset238\fprq1 Courier New CE;}{\f57\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f59\fmodern\fcharset161\fprq1 Courier New Greek;}
+{\f60\fmodern\fcharset162\fprq1 Courier New Tur;}{\f61\fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f62\fmodern\fcharset178\fprq1 Courier New (Arabic);}{\f63\fmodern\fcharset186\fprq1 Courier New Baltic;}
+{\f64\fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\f168\fnil\fcharset0\fprq2 SimSun Western{\*\falt SimSun};}{\f388\fnil\fcharset0\fprq2 @\'cb\'ce\'cc\'e5 Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;
+\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;
+\red128\green128\blue128;\red192\green192\blue192;\red63\green127\blue95;\red127\green0\blue85;\red42\green0\blue255;\red51\green51\blue153;}{\stylesheet{\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 
+\fs24\lang1033\langfe2052\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 \snext0 Normal;}{\s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 
+\sbasedon0 \snext0 heading 1;}{\s2\ql \li0\ri0\nowidctlpar\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext0 heading 2;}{
+\s3\ql \li0\ri0\nowidctlpar\faauto\outlinelevel2\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext0 heading 3;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\loch\f0\hich\af0\dbch\af13\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}
+{\*\rsidtbl \rsid4593078}{\*\generator Microsoft Word 11.0.5604;}{\info{\author \'cc\'d8\'b1\'f0\'b9\'a4\'d7\'f7\'ca\'d2}{\operator \'cc\'d8\'b1\'f0\'b9\'a4\'d7\'f7\'ca\'d2}{\creatim\yr2006\mo11\dy9\hr21\min36}{\revtim\yr2006\mo11\dy9\hr21\min36}
+{\version2}{\edmins0}{\nofpages6}{\nofwords1655}{\nofchars9436}{\*\company \'bb\'aa\'cc\'ec\'bf\'c6\'bc\'bc}{\nofcharsws11069}{\vern24689}}\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\gutter0 
+\ftnbj\aenddoc\hyphcaps0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind4\viewscale100\rsidroot4593078 \fet0\sectd \linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang 
+{\pntxta \dbch .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta \dbch )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}\pard\plain \s1\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar
+\tx720\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs28\ul\insrsid4593078 \hich\af1\dbch\af13\loch\f1 UML Model \hich\f1 \endash \loch\f1 
+ Core Extension Mechanisms 1.0 Component Specification
+\par }\pard \s1\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 1.\tab Design
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 
+The UML Model - Core Extension Mechanisms component declares the interfaces from the UML 1.5 framework, from the Core - Extension Mechanis\hich\af1\dbch\af13\loch\f1 
+ms package. It provides concrete implementations for each interface and provides powerful API to access the collection attributes. }{\f0\fs20\insrsid4593078 
+\par }{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 The Extension Mechanisms package in the UML Model is used to customize and extend the UML Model elements with new semantics \hich\af1\dbch\af13\loch\f1 
+by using stereotypes, tag definitions, and tagged values. The three interfaces Stereotype, TagDefinition, and TaggedValue provided by this component are for this purpose, and implementations are provided for them respectively in this design, please consul
+\hich\af1\dbch\af13\loch\f1 t\hich\af1\dbch\af13\loch\f1  the class overview section below for more details. }{\f0\fs20\insrsid4593078 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 1.1
+\tab Design Patterns 
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 None. }{\f0\fs20\insrsid4593078 
+
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 1.2
+\tab Industry Standards 
+\par }\pard\plain \ql \li720\ri0\sa50\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 UML 1.5
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 1.3
+\tab Required Algorithms}{\b\f0\fs20\insrsid4593078 
+\par }\pard\plain \ql \li720\ri0\sa50\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 None.}{\f2\fs18\cf9\insrsid4593078 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 1.4
+\tab Component Class Overview
+\par }\pard\plain \s3\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\i\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 1.4.1
+\tab Package com.topcoder.uml.model.}{\fs20\cf2\insrsid4593078 \hich\af1\dbch\af13\loch\f1 core.}{\i\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 extensionmechanisms}{\i\f0\fs20\insrsid4593078 
+\par }\pard\plain \ql \fi-420\li1140\ri0\sa120\nowidctlpar\tx1140\faauto\rin0\lin1140\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\f10\fs20\insrsid4593078 \loch\af10\dbch\af13\hich\f10 \'d8\tab }{
+\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 Stereotype}{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 : Stereoty\hich\af1\dbch\af13\loch\f1 
+pe interface extends the GeneralizableElement interface, it is mainly used to differentiate the model elements so that they could have different meanings or usages even if they have identical structure, the stereotype could specify additional tag definiti
+\hich\af1\dbch\af13\loch\f1 o\hich\af1\dbch\af13\loch\f1 
+ns to the model elements such as the attributes, associations, operations etc. And a stereotype could also be a subclass of another stereotype, in this case, it will inherit all the constraints and tagged values from its super type, but the parent-child s
+\hich\af1\dbch\af13\loch\f1 t\hich\af1\dbch\af13\loch\f1 ereotype must have the same kind of base class.
+\par }{\f10\fs20\insrsid4593078 \loch\af10\dbch\af13\hich\f10 \'d8\tab }{\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 TagDefinition}{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 :}{\f0\insrsid4593078 \hich\af0\dbch\af13\loch\f0  }{
+\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 TagDefinition interface extends the ModelElement interface, and it contains a set of the tagged value that can be attached to the model element. From the UML spec, it is used to define the me
+\hich\af1\dbch\af13\loch\f1 ta attributes of the stereotype to which it is attached to, and in other words, the stereotype is the owner of the tag definition.  
+\par }{\f10\fs20\insrsid4593078 \loch\af10\dbch\af13\hich\f10 \'d8\tab }{\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 TaggedValue}{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 
+: TaggedValue interface extends ModelElement interface, and it is used to attach information to model element \hich\af1\dbch\af13\loch\f1 
+in conformance with its tag definition. The information could contain code generation options, model management information, or user-specified semantics. The tagged value must be associated with a tag definition, and its reference values should follow the
+\hich\af1\dbch\af13\loch\f1  \hich\af1\dbch\af13\loch\f1 constraint set by the tagType of the tag definition it belongs to.
+\par }{\f10\fs20\insrsid4593078 \loch\af10\dbch\af13\hich\f10 \'d8\tab }{\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 StereotypeImpl}{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 :}{\f0\insrsid4593078 \hich\af0\dbch\af13\loch\f0  }{
+\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 StereotypeImpl class implements Stereotype interface and extends the GeneralizableElementAbstractImpl abstract class.
+\par }{\f10\fs20\insrsid4593078 \loch\af10\dbch\af13\hich\f10 \'d8\tab }{\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 TagDefinitionImpl}{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 : TagDefinitionImpl class implemen\hich\af1\dbch\af13\loch\f1 
+ts TagDefinition interface and extends the ModelElementAbstractImpl abstract class.
+\par }{\f10\fs20\insrsid4593078 \loch\af10\dbch\af13\hich\f10 \'d8\tab }{\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 TaggedValueImpl}{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 :}{\f0\insrsid4593078 \hich\af0\dbch\af13\loch\f0  }{
+\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 TaggedValueImpl class implements the TaggedValue interface and extends the ModelElementAbstractImpl abstract class.
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 {\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1  
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 1.5
+\tab Component Exception Definitions}{\b\f0\fs20\insrsid4593078 
+\par }\pard\plain \s3\ql \li0\ri0\sb120\sa50\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\i\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 1.5.1
+\tab Custom Exceptions}{\i\f0\fs20\insrsid4593078 
+\par }\pard\plain \ql \fi720\li0\ri0\sa50\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 
+No custom exceptions are necessary for this component.
+\par }\pard\plain \s3\ql \li0\ri0\sb120\sa50\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\i\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 1.5.2
+\tab System Exceptions
+\par }\pard\plain \ql \fi-420\li1140\ri0\sa50\nowidctlpar\tx1140\faauto\rin0\lin1140\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\f10\fs20\insrsid4593078 \loch\af10\dbch\af13\hich\f10 \'d8\tab }{
+\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 IllegalArgumentException}{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 
+: Used wherever empty String argument is used while not acceptable. Normally an empty String is checked with trimmed result. It also thrown when null argument is passed in.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 1.6
+\tab Thread Safety}{\b\f0\fs20\insrsid4593078 
+\par }\pard\plain \ql \li720\ri0\sa50\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 
+This component is not thread-safe, and there is no need to make i\hich\af1\dbch\af13\loch\f1 
+t thread-safe, as for a component comprised of all entity classes, it is very unlikely to share entity objects in different threads, and it is normally left to the application to ensure the thread-safety if it is needed, rather than put the burden on the 
+\hich\af1\dbch\af13\loch\f1 e\hich\af1\dbch\af13\loch\f1 ntity classes. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 All classes in this component are mutable, so they are all not thread-safe. 
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 2.
+\tab Environment Requirements}{\b\f0\fs20\insrsid4593078 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 2.1
+\tab Environment
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 Java 1.5}{\f0\fs20\insrsid4593078 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 2.2
+\tab TopCoder Software Components
+\par }\pard\plain \ql \fi-420\li1140\ri0\sa120\nowidctlpar\tx1140\faauto\rin0\lin1140\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\f10\fs20\insrsid4593078 \loch\af10\dbch\af13\hich\f10 \'d8\tab }{
+\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 UML Model - Core Requirements Version 1.0}{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 : This component provides the bas\hich\af1\dbch\af13\loch\f1 e interface and abstract class for this design. }{
+\f0\fs20\insrsid4593078 
+\par }\pard \ql \fi-420\li1140\ri0\sa120\nowidctlpar\faauto\rin0\lin1140\itap0 {\f10\fs20\insrsid4593078 \loch\af10\dbch\af13\hich\f10 \'d8\tab }{\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 UML Model - Data Types Version 1.0}{\fs20\insrsid4593078 
+\hich\af1\dbch\af13\loch\f1 : The Multiplicity interface used by this design is from this component.}{\f0\fs20\insrsid4593078 
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 {\b\f0\fs20\insrsid4593078 
+\par }{\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 NOTE: }{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 The other UML Model components are used indirectly by this design through the two directly dependent components above.}{\f0\fs20\insrsid4593078 
+
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 2.3
+\tab Third Party Components
+\par }\pard\plain \s3\ql \li720\ri0\sb120\sa120\sl240\slmult0\nowidctlpar\tx720\faauto\outlinelevel2\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 None.}{
+\f0\fs20\insrsid4593078 
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 3.
+\tab Installation and Configuration
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 3.1
+\tab Package Name
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 com.topcoder.uml.model.}{
+\fs20\cf2\insrsid4593078 \hich\af1\dbch\af13\loch\f1 core}{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 .extensionmechanisms}{\f0\fs20\insrsid4593078 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 3.2
+\tab C\hich\af1\dbch\af13\loch\f1 onfiguration Parameters}{\b\f0\fs20\insrsid4593078 
+\par }\pard\plain \ql \fi720\li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 None.}{\f0\fs20\insrsid4593078 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 3.3
+\tab Dependencies Configuration
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 None.}{\f0\fs20\insrsid4593078 
+
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 4.
+\tab Usage Notes
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 4.1
+\tab Required steps to test the component
+\par }\pard\plain \ql \fi-360\li1080\ri0\sa120\nowidctlpar\tx1080\faauto\rin0\lin1080\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\f3\fs20\insrsid4593078 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{
+\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 Extract the component distribution.
+\par }\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar\faauto\rin0\lin1080\itap0 {\f3\fs20\insrsid4593078 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 Follow }{\field{\*\fldinst {\fs20\insrsid4593078 
+\hich\af1\dbch\af13\loch\f1 HYPERLINK "C:\\\\filez\\\\work\\\\tc\\\\tcs_corp\\\\templates\\\\component\\\\" \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\hich\af1\dbch\af13\loch\f1 l "_Dependencies_Configuration" }{\fs20\insrsid4593078\charrsid4593078 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b02000000030000000303000000000000c00000000000004600002f000000433a5c66696c657a5c776f726b5c74635c7463735f636f72705c74656d706c617465735c636f6d706f6e656e745c00ffffadde000000000000000000000000000000000000000000000000}}
+}{\fldrslt {\fs20\ul\cf2\insrsid4593078 \hich\af1\dbch\af13\loch\f1 Dependencies Configuration}}}{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 .
+\par }{\f3\fs20\insrsid4593078 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 Execute \hich\f1 \lquote \loch\f1 ant test\hich\f1 \rquote \loch\f1  within the directory that the distribution was extracted to.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 4.2
+\tab Required steps to use the component
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 None.}{\f0\fs20\insrsid4593078 
+
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 4.3
+\tab Demo}{\b\f0\fs20\insrsid4593078 
+\par }\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\i\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 4.3.1
+\tab \hich\af1\dbch\af13\loch\f1 Create Stereotype and manage its attributes}{\i\f0\fs20\insrsid4593078 
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\f2\fs20\cf17\insrsid4593078 \tab \hich\af2\dbch\af13\loch\f2 // create object}{\f2\fs20\insrsid4593078 
+
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       Stereotype stereotype = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  StereotypeImpl();}{\f2\fs20\insrsid4593078 
+
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // set and get baseClass attribute}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       stereotype.setBaseClass(}{\f2\fs20\cf19\insrsid4593078 \hich\af2\dbch\af13\loch\f2 "Method"}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 );}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       String baseClass = stereotype.getBaseClass();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // manage defined tags}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       TagDefinition tag1 = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  TagDefinitionImpl();}{\f2\fs20\insrsid4593078 
+
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       TagDefinition tag2 = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  TagDefinitionImpl();}{\f2\fs20\insrsid4593078 
+
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // add defined tag}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       stereotype.addDefinedTag(tag1);}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       stereotype.addDefinedTag(tag2);}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // get all defined tags}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       Collection<TagDefinition> tagDefs = stereotype.getDefinedTags();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // check the existence of tag1, the result should be true}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 boolean}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  existent = stereotype.containsDefinedTag(tag1);}{
+\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // count the number of defined tags, the result should be 2}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 int}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  ret = stereotype.countDefinedTags();}{\f2\fs20\insrsid4593078 
+
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // remove defined tag}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       stereotype.removeDefinedTag(tag1);}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // clear all defined tags}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       stereotype.clearDefinedTags();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 //\hich\af2\dbch\af13\loch\f2  manage extended elements, MethodImpl class is from the UML 
+\par \tab \hich\af2\dbch\af13\loch\f2 // Model Core Requirement component.}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       ModelElement element1 = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  MethodImpl();}{\f2\fs20\insrsid4593078 
+
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       ModelElement element2 = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  MethodImpl();}{\f2\fs20\insrsid4593078 
+
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // add extended element}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       stereotype.addExtendedEl\hich\af2\dbch\af13\loch\f2 ement(element1);}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       stereotype.addExtendedElement(element2);}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // get all extended elements}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       Collection<ModelElement> elements =\tab stereotype.getExtendedElements();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // check the existence of element1, the result should be true}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       exist\hich\af2\dbch\af13\loch\f2 ent = stereotype.containsExtendedElement(element1);}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // count the number of extended elements, the result should be 2}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       ret = stereotype.countExtendedElements();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // remove extended elements}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       stereotype.removeExtendedElement(element1);}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // clear all extended elements}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       stereotype.clearExtendedElements();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // create the object with another constructor}{\f2\fs20\insrsid4593078 
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 stereotype = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 
+ StereotypeImpl(}{\f2\fs20\cf19\insrsid4593078 \hich\af2\dbch\af13\loch\f2 "Method"}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 , tagDefs, elements);}{\f2\fs18\cf20\insrsid4593078 
+\par }\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\i\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 4.3.2
+\tab Create TagDefinition and manage its att}{\i\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 r}{\i\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 ibutes
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\f2\fs20\cf17\insrsid4593078 \tab \hich\af2\dbch\af13\loch\f2 // crea\hich\af2\dbch\af13\loch\f2 
+te the object}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       TagDefinition tagDef = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  TagDefinitionImpl();}{
+\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // get/set tagType attribute}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       tagDef.setTagType(}{\f2\fs20\cf19\insrsid4593078 \hich\af2\dbch\af13\loch\f2 "UML:Datatypes:String"}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 );}{\f2\fs20\insrsid4593078 
+
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       String tagType = tagDef.getTagType();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // get/set multiplicity attribute,}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // Multipli\hich\af2\dbch\af13\loch\f2 cityImpl class is from the UML Data Types component}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       tagDef.setMultiplicity(}{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  MultiplicityImpl());}{
+\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       Multiplicity multiplicity = tagDef.getMultiplicity();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // get/set its owner attribute}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       tagDef.setOwner(}{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  StereotypeImpl());}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       S\hich\af2\dbch\af13\loch\f2 tereotype stereotype = tagDef.getOwner();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // manage its typedValues attribute}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       TaggedValue value1 = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  TaggedValueImpl();}{\f2\fs20\insrsid4593078 
+
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       TaggedValue value2 = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  TaggedValueImpl();}{\f2\fs20\insrsid4593078 
+
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // add typed value}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       tagDef.addTypedValue(value1);}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       tagDef.addTypedValue(value2);}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // get all typed values}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       Collection<TaggedValue> taggedValues = tagDef.getTypedValues();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // check the existence of value1, the result should be true}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 boolean}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  existence = tagDef.containsTypedValue(
+\hich\af2\dbch\af13\loch\f2 value1);}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // count the number of typed values, the result should be 2}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 int}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  ret = tagDef.countTypedValues();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // remove the typed value}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       tagDef.removeTypedValue(value1);}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // clear all typed values}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       tagDef.clearTypedValues();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // create the object with another constructor}{\f2\fs20\insrsid4593078 
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  tagDef = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 
+ TagDefinitionImpl(tagType, multiplicity, stereotype, taggedValues);}{\f2\fs18\cf20\insrsid4593078 
+\par }\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\i\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 4.3.3
+\tab Create TaggedValue and manage its attributes}{\i\f0\fs20\insrsid4593078 
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\f2\fs20\cf17\insrsid4593078 \tab \hich\af2\dbch\af13\loch\f2 // create the object}{\f2\fs20\insrsid4593078 
+
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       TaggedValue taggedValue = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  TaggedValueImpl();}{
+\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // get/set dataValue attribute}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       taggedValue.setDataValue(}{\f2\fs20\cf19\insrsid4593078 \hich\af2\dbch\af13\loch\f2 "true"}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 );}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       String dataValue = taggedValue.getDataValue();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // get/set type attribute}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       taggedValue.setType(}{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  TagDefinitionImpl());}{\f2\fs20\insrsid4593078 
+
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       TagDefinition type = taggedValue.getType();}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // get/set modelElement attribute. MethodImpl class is from the
+\par \hich\af2\dbch\af13\loch\f2  \tab // UML Model Core Requirement component.}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       taggedValue.setModelElement(}{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  MethodImpl());}{\f2\fs20\insrsid4593078 
+
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       ModelElement element = taggedValue\hich\af2\dbch\af13\loch\f2 .getModelElement();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // manage reference values, MethodImpl class is from the UML
+\par \hich\af2\dbch\af13\loch\f2  \tab // Model Core Requirement component.}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       ModelElement refValue1 = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  MethodImpl();}{\f2\fs20\insrsid4593078 
+
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       ModelElement refValue2 = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  MethodImpl();}{\f2\fs20\insrsid4593078 
+
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // add reference value}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  \hich\af2\dbch\af13\loch\f2      taggedValue.addReferenceValue(refValue1);}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       taggedValue.addReferenceValue(refValue2);}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // get all reference values}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       Collection<ModelElement> refValues = taggedValue.getReferenceValues();}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // check the existence of refValue1, the r\hich\af2\dbch\af13\loch\f2 esult is true}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 boolean}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  existence = taggedValue.containsReferenceValue(refValue1);}{
+\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // count the number of reference values, the result should be 2}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 int}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  ret = taggedValue.countReferenceValues();}{\f2\fs20\insrsid4593078 
+
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // remove reference value}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       taggedValue.removeReferenceValue(refValue1);}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // clear all reference values}{\f2\fs20\insrsid4593078 
+\par }\pard \ql \li720\ri0\sa50\nowidctlpar\faauto\rin0\lin720\itap0 {\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 taggedValue.clearReferenceValues();}{\f2\fs18\cf9\insrsid4593078 
+\par 
+\par }\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\i\fs20\insrsid4593078 \hich\af1\dbch\af13\loch\f1 4.3.4
+\tab A simple customer scenario
+\par }\pard\plain \ql \li720\ri0\sa50\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\f2\fs18\cf9\insrsid4593078 \hich\af2\dbch\af13\loch\f2 Here is an example got from the UML Spec 1.5
+
+\par }\trowd \irow0\irowband0\ts11\trgaph108\trleft720\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 
+\clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1386\clshdrawnil \cellx2106\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1314\clshdrawnil 
+\cellx3420\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2880\clshdrawnil \cellx6300\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2448\clshdrawnil \cellx8748\pard \ql \li0\ri0\sa50\nowidctlpar\intbl\faauto\rin0\lin0 {\f2\fs18\cf9\insrsid4593078 \hich\af2\dbch\af13\loch\f2 Stereotype\cell \hich\af2\dbch\af13\loch\f2 Base Class
+\cell \hich\af2\dbch\af13\loch\f2 Tags\cell \hich\af2\dbch\af13\loch\f2 Description\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f2\fs18\cf9\insrsid4593078 \trowd \irow0\irowband0\ts11\trgaph108\trleft720\trbrdrt
+\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth1386\clshdrawnil \cellx2106\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1314\clshdrawnil \cellx3420\clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2880\clshdrawnil \cellx6300\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2448\clshdrawnil \cellx8748\row }\pard \ql \li0\ri0\sa50\nowidctlpar\intbl\faauto\rin0\lin0 {\f2\fs18\cf9\insrsid4593078 \hich\af2\dbch\af13\loch\f2 persistent\cell \hich\af2\dbch\af13\loch\f2 Class\cell 
+\hich\af2\dbch\af13\loch\f2 isPersistent\cell }\pard \ql \li0\ri0\nowidctlpar\intbl\faauto\rin0\lin0 {\f2\fs18\cf9\insrsid4593078 \hich\af2\dbch\af13\loch\f2 Classes of this stereotype may be
+\par \hich\af2\dbch\af13\loch\f2 persistent, depending on the value of the
+\par \loch\af2\dbch\af13\hich\f2 \'93\loch\f2 \hich\f2 isPersistent\'94\loch\f2  tag.
+\par }\pard \ql \li0\ri0\sa50\nowidctlpar\intbl\faauto\rin0\lin0 {\f2\fs18\cf9\insrsid4593078 \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f2\fs18\cf9\insrsid4593078 \trowd \irow1\irowband1\lastrow 
+\ts11\trgaph108\trleft720\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1386\clshdrawnil \cellx2106\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1314\clshdrawnil \cellx3420\clvertalt
+\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2880\clshdrawnil \cellx6300\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2448\clshdrawnil \cellx8748\row }\pard \ql \li720\ri0\sa50\nowidctlpar\faauto\rin0\lin720\itap0 {\f2\fs18\cf9\insrsid4593078 
+\par }\trowd \irow0\irowband0\ts11\trgaph108\trleft720\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 
+\clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1513\clshdrawnil \cellx2233\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1297\clshdrawnil 
+\cellx3530\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2701\clshdrawnil \cellx6231\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1513\clshdrawnil \cellx7744\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1405\clshdrawnil \cellx9149\pard 
+\ql \li0\ri0\sa50\nowidctlpar\intbl\faauto\rin0\lin0 {\f2\fs18\cf9\insrsid4593078 \hich\af2\dbch\af13\loch\f2 Tag\cell \hich\af2\dbch\af13\loch\f2 Stereotype\cell \hich\af2\dbch\af13\loch\f2 Type\cell \hich\af2\dbch\af13\loch\f2 Multiplicity\cell 
+\hich\af2\dbch\af13\loch\f2 Description\cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f2\fs18\cf9\insrsid4593078 \trowd \irow0\irowband0\ts11\trgaph108\trleft720\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 
+\trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1513\clshdrawnil 
+\cellx2233\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1297\clshdrawnil \cellx3530\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2701\clshdrawnil \cellx6231\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1513\clshdrawnil \cellx7744\clvertalt
+\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1405\clshdrawnil \cellx9149\row }\pard \ql \li0\ri0\sa50\nowidctlpar\intbl\faauto\rin0\lin0 {\f2\fs18\cf9\insrsid4593078 
+\hich\af2\dbch\af13\loch\f2 isPersistent\cell \hich\af2\dbch\af13\loch\f2 persistent\cell \hich\af2\dbch\af13\loch\f2 UML::Datatypes::Boolean\cell \hich\af2\dbch\af13\loch\f2 1\cell }\pard \ql \li0\ri0\nowidctlpar\intbl\faauto\rin0\lin0 {
+\f2\fs18\cf9\insrsid4593078 \hich\af2\dbch\af13\loch\f2 indicates whether the class is persistent or not
+\par }\pard \ql \li0\ri0\sa50\nowidctlpar\intbl\faauto\rin0\lin0 {\f2\fs18\cf9\insrsid4593078 \cell }\pard \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\f2\fs18\cf9\insrsid4593078 \trowd \irow1\irowband1\lastrow 
+\ts11\trgaph108\trleft720\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trftsWidth1\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1513\clshdrawnil \cellx2233\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1297\clshdrawnil \cellx3530\clvertalt
+\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2701\clshdrawnil \cellx6231\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth1513\clshdrawnil \cellx7744\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth1405\clshdrawnil \cellx9149\row }\pard 
+\ql \li720\ri0\sa50\nowidctlpar\faauto\rin0\lin720\itap0 {\f2\fs18\cf9\insrsid4593078 
+\par \hich\af2\dbch\af13\loch\f2 The two tables above contain the data representing a stereotype of Class with an associated tag definition. 
+\par 
+\par \hich\af2\dbch\af13\loch\f2 Here is the code to create them: 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f2\fs20\cf1\highlight16\insrsid4593078 \tab \hich\af2\dbch\af13\loch\f2 Stereotype}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  stereotype = }{\b\f2\fs20\cf18\insrsid4593078 
+\hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  StereotypeImpl();}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // this\hich\af2\dbch\af13\loch\f2  method is from its base-class}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       stereotype.setName(}{\f2\fs20\cf19\insrsid4593078 \hich\af2\dbch\af13\loch\f2 "ersistent"}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 );}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       stereotype.setBaseClass(}{\f2\fs20\cf19\insrsid4593078 \hich\af2\dbch\af13\loch\f2 "Class"}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 );}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       TagDefinition tagDef = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  TagDefinitionImpl();}{
+\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // this method is from its base-class}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       tagDef.setName(}{\f2\fs20\cf19\insrsid4593078 \hich\af2\dbch\af13\loch\f2 "isPersistent"}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 );}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       tagDef.setTagType(}{\f2\fs20\cf19\insrsid4593078 \hich\af2\dbch\af13\loch\f2 "UML::Datatypes::Boolean"}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 );}{\f2\fs20\insrsid4593078 
+
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // Multiplicity, MultiplicityRange and its implementation classes}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // are all from the UML Model Data Types component.}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       Multiplicity multiplicity = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  MultiplicityImpl();}{
+\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       Multiplic\hich\af2\dbch\af13\loch\f2 ityRange range = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 
+ MultiplicityRangeImpl();}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       range.setLower(1);}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       range.setUpper(1);}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       multiplicity.setRange(range);}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       tagDef.setMultiplicity(multiplicity);}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // add tagged value to this tagDef}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       TaggedValue value = }{\b\f2\fs20\cf18\insrsid4593078 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2  TaggedValueImpl();}{\f2\fs20\insrsid4593078 
+
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       value.setDataValue(}{\f2\fs20\cf19\insrsid4593078 \hich\af2\dbch\af13\loch\f2 "true"}{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 );}{\f2\fs20\insrsid4593078 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       tagDef.addTypedValue(value);}{\f2\fs20\insrsid4593078 
+\par 
+\par }{\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2       }{\f2\fs20\cf17\insrsid4593078 \hich\af2\dbch\af13\loch\f2 // add this tagDef to the stereotype finally}{\f2\fs20\insrsid4593078 
+\par }\pard \ql \li720\ri0\sa50\nowidctlpar\faauto\rin0\lin720\itap0 {\f2\fs20\cf1\insrsid4593078 \hich\af2\dbch\af13\loch\f2 stereotype.addDefinedTag(tagDef);}{\f2\fs18\cf9\insrsid4593078 
+\par 
+\par }\pard\plain \s2\ql \fi-360\li360\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel1\rin0\lin360\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid4593078 
+\hich\af1\dbch\af13\loch\f1 5\tab Future Enhancements
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\fs20\cf1\insrsid4593078 \hich\af1\dbch\af13\loch\f1 
+Support for UML 2.0 could be added in the future. }{\f0\fs20\cf1\insrsid4593078 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\fs20\lang2052\langfe2052\loch\af13\hich\af0\langnp2052\insrsid4593078 
+\par 
+\par }}

@@ -1,0 +1,29 @@
+<CMConfig>
+	<Config name="demo">
+		<Property name="objectFactoryNamespace">
+			<Value>ObjectFactory.PrintManager</Value>
+		</Property>
+		<Property name="componentVisibleMaker">
+			<Value>ComponentVisibleMaker</Value>
+		</Property>
+		<Property name="printFormatRetriever">
+			<Value>PrintFormatRetriever</Value>
+		</Property>
+		<Property name="hasPrintDialog">
+			<Value>false</Value>
+		</Property>
+	</Config>
+	
+	<Config name="ObjectFactory.PrintManager">
+		<Property name="ComponentVisibleMaker">
+      		<Property name="type">
+				<Value>com.topcoder.swing.print.MockComponentVisibleMaker</Value>
+			</Property>
+		</Property>
+		<Property name="PrintFormatRetriever">
+      		<Property name="type">
+				<Value>com.topcoder.swing.print.MockPrintFormatRetriever</Value>
+			</Property>
+		</Property>
+	</Config>
+</CMConfig>

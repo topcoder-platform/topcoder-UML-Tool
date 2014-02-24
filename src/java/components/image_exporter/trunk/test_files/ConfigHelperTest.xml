@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<CMConfig>
+	<Config name="config_helper">
+		<Property name="string1">
+			<Value>value</Value>
+		</Property>
+		
+		<Property name="string_array">
+			<Value>value1</Value>
+			<Value>value2</Value>
+			<Value>value3</Value>
+			<Value></Value>
+		</Property>
+		
+		<Property name="empty_string_array">
+		</Property>
+
+		<Property name="object_factory">
+			<Value>object_factory_namespace</Value>
+		</Property>
+	</Config>
+	
+	<Config name="object_factory_namespace">
+	</Config>
+</CMConfig>

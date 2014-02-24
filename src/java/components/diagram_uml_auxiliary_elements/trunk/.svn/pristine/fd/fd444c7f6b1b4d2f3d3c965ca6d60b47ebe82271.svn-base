@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<CMConfig>
+  <Config name="emptyname">
+    <Property name="StrokeColor">
+      <Value>stroke_color</Value>
+    </Property>
+    <Property name="FillColor">
+      <Value>fillColor</Value>
+    </Property>
+    <Property name="FontFamily">
+      <Value>FontFamily</Value>
+    </Property>
+    <Property name="">
+      <Value>Font_Size</Value>
+    </Property>
+    <Property name="FontColor">
+      <Value>FontColorProperty</Value>
+    </Property>
+  </Config>
+</CMConfig>

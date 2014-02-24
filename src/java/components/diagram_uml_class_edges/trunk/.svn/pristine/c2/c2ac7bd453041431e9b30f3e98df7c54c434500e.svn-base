@@ -1,0 +1,10 @@
+
+Updated based on Diagram Viewer Component and Diagram UML Activity Elements Component.
+
+1) rename com.topcoder.gui.diagramviewer.uml.classedges.event.EditBoxListener
+to com.topcoder.gui.diagramviewer.uml.classedges.event.TextInputListener.
+
+2) rename com.topcoder.gui.diagramviewer.uml.classedges.event.EditBoxTrigger
+to com.topcoder.gui.diagramviewer.uml.classedges.event.TextInputTrigger.
+
+3) also, corresponding unit tests have been renamed from EditBoxXXX to TextInputXXX.

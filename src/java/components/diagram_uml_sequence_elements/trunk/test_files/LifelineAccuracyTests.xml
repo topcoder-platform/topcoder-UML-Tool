@@ -1,0 +1,62 @@
+<CMConfig>
+
+        <Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.lifeline.lifeline">
+                <Property name="LifelineLength">
+                        <Value>120</Value>
+                </Property>
+                <Property name="LifelineStrokeColor">
+                        <Value>Color.GRAY</Value>
+                </Property>
+                <Property name="LifelineShadowColor">
+                        <Value>Color.GRAY</Value>
+                </Property>
+                <Property name="LifelineRenderScheme">
+                        <Value>0</Value>
+                </Property>
+                <Property name="LifelineDashLength">
+                        <Value>5</Value>
+                </Property>
+                <Property name="LifelineBlankLength">
+                        <Value>5</Value>
+                </Property>
+                <Property name="LifelineShadowLength">
+                        <Value>4</Value>
+                </Property>
+        </Config>
+
+       <Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.lifeline.lifelinesegment">
+                <Property name="LifelineSegmentStrokeColor">
+                        <Value>Color.BLACK</Value>
+                </Property>
+                <Property name="LifelineSegmentFillColor">
+                        <Value>Color.GREEN</Value>
+                </Property>
+                <Property name="LifelineSegmentShadowColor">
+                        <Value>Color.GRAY</Value>
+                </Property>
+                <Property name="LifelineSegmentRenderScheme">
+                        <Value>0</Value>
+                </Property>
+                <Property name="LifelineSegmentWidth">
+                        <Value>6</Value>
+                </Property>
+                <Property name="LifelineSegmentHeight">
+                        <Value>16</Value>
+                </Property>
+                <Property name="LifelineSegmentWidthMinimum">
+                        <Value>4</Value>
+                </Property>
+                <Property name="LifelineSegmentHeightMinimum">
+                        <Value>6</Value>
+                </Property>
+                <Property name="LifelineSegmentShadowLength">
+                        <Value>6</Value>
+                </Property>
+        </Config>
+
+        <Config name="com.topcoder.gui.diagramviewer.uml.sequenceelements.edgelayout.defaultedgelayoutstrategy">
+                <Property name="LayoutEdgeSpace">
+                        <Value>10</Value>
+                </Property>
+        </Config>
+</CMConfig>

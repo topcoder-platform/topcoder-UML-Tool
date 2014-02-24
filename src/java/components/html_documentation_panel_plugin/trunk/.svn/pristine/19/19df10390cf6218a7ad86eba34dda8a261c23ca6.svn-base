@@ -1,0 +1,8 @@
+component.name=HTML Documentation Panel Plugin
+component.distfilename=html_documentation_panel_plugin
+component.package=com.topcoder.gui.panels.documentation.plugins.html
+component.packagedir=com/topcoder/gui/panels/documentation/plugins/html
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

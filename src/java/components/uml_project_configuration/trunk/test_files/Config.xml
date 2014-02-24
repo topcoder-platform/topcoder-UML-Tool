@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<CMConfig>
+    <Property name="exceptionStereotypeName">
+        <Value>exception</Value>
+    </Property>
+	<Property name="enumStereotypeName">
+		<Value>enum</Value>
+	</Property>
+	<Property name="createStereotypeName">
+		<Value>create</Value>
+	</Property>
+	<Property name="stringClassName">
+		<Value>String</Value>
+	</Property>
+	<Property name="enumClassName">
+		<Value>Enum</Value>
+	</Property>
+	<Property name="throwableClassName">
+		<Value>Throwable</Value>
+	</Property>
+	<Property name="exceptionClassName">
+		<Value>Exception</Value>
+	</Property>
+	<Property name="serializationInfoClassName">
+		<Value>SerializationInfo</Value>
+	</Property>
+	<Property name="streamingContextClassName">
+		<Value>StreamingContext</Value>
+	</Property>
+	<Property name="operationStereotypeBaseClass">
+		<Value>Operation</Value>
+	</Property>
+
+	<Property name="standardClassDataLoader">
+		<Property name="type">
+			<Value>com.topcoder.uml.projectconfiguration.MockStandardClassDataLoader</Value>
+		</Property>
+	</Property>
+	<Property name="stereotypeLoader">
+		<Property name="type">
+			<Value>com.topcoder.uml.projectconfiguration.stereotypeloader.XMLStereotypeLoader</Value>
+		</Property>
+		<Property name="params">
+			<Property name="param1">
+				<Property name="type">
+					<Value>String</Value>
+				</Property>
+				<Property name="value">
+					<Value>namespace</Value>
+				</Property>
+			</Property>
+		</Property>
+	</Property>
+
+	<Property name="stereotypes">
+		<Property name="Java">
+			<Property name="Class">
+				<Value>exception</Value>
+				<Value>abstract</Value>
+			</Property>
+			<Property name="Operation">
+				<Value>final</Value>
+				<Value>abstract</Value>
+			</Property>
+		</Property>
+		<Property name="CSharp">
+		    <Property name="Class">
+		        <Value>exception</Value>
+		        <Value>abstract</Value>
+		    </Property>
+	    </Property>
+    </Property>
+
+    <Property name="defaultProjectLanguage">
+	    <Value>Java</Value>
+    </Property>
+
+	<Property name="com.topcoder.diagraminterchange.Reference">
+		<Property name="property1">
+			<Value>value1</Value>
+		</Property>
+		<Property name="property2">
+	        <Value>value2</Value>
+	    </Property>
+    </Property>
+
+	<Property name="com.topcoder.diagraminterchange.GraphNode">
+	    <Property name="property1">
+	        <Value>value1</Value>
+	    </Property>
+    </Property>
+</CMConfig>

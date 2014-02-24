@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMConfig>
+	<Config name="com.topcoder.gui.toolbars.elements">
+		<Property name="look">
+			<Value>javax.swing.plaf.metal.MetalLookAndFeel</Value>
+		</Property>
+		<Property name="sectionText">
+			<Value>connectors</Value>
+		</Property>
+		<Property name="backgroundColor">
+			<Value>YELLOW</Value>
+		</Property>
+		<Property name="buttonsName">
+			<Value>up</Value>
+			<Value>down</Value>
+		</Property>
+	</Config>
+</CMConfig>

@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+
+<!-- File containing class data to be loaded -->
+
+<StandardClassData>
+    <!-- CSharp package -->
+    <Namespace name="System">
+        <!-- nested lang package -->
+        <Namespace name="Collections">
+            <!-- classes -->
+            <Class name="ArrayList" />
+            <Class name="BitArray" />
+            <Class name="CaseInsensitiveComparer" />
+            <Class name="CaseInsensitiveHashCodeProvider" />
+            <Class name="CollectionBase" />
+            <Class name="Comparer" />
+            <Class name="DictionaryBase" />
+            <Class name="Hashtable" />
+            <Class name="Queue" />
+            <Class name="ReadOnlyCollectionBase" />
+            <Class name="SortedList" />
+            <Class name="Stack" />
+
+            <!-- interfaces -->
+            <Interface name="ICollection" />
+            <Interface name="IComparer" />
+            <Interface name="IDictionary" />
+            <Interface name="IDictionaryEnumerator" />
+            <Interface name="IEnumerable" />
+            <Interface name="IEnumerator" />
+            <Interface name="IEqualityComparer" />
+            <Interface name="IHashCodeProvider" />
+	    <Interface name="IList" />
+
+        </Namespace>
+
+	<!-- datetypes -->
+	<DataType name="DateTime" />
+
+    </Namespace>
+
+    <!-- primitives -->
+    <Primitive name="bool" />
+    <Primitive name="bool[]" />
+    <Primitive name="byte" />
+    <Primitive name="byte[]" />
+    <Primitive name="sbyte" />
+    <Primitive name="sbyte[]" />
+    <Primitive name="char" />
+    <Primitive name="char[]" />
+    <Primitive name="decimal" />
+    <Primitive name="decimal[]" />
+    <Primitive name="double" />
+    <Primitive name="double[]" />
+    <Primitive name="float" />
+    <Primitive name="float[]" />
+    <Primitive name="int" />
+    <Primitive name="int[]" />
+    <Primitive name="uint" />
+    <Primitive name="uint[]" />
+    <Primitive name="long" />
+    <Primitive name="long[]" />
+    <Primitive name="ulong" />
+    <Primitive name="ulong[]" />
+    <Primitive name="short" />
+    <Primitive name="short[]" />
+    <Primitive name="ushort" />
+    <Primitive name="ushort[]" />
+    <Primitive name="string" />
+    <Primitive name="object" />
+    <Primitive name="struct" />
+    <Primitive name="enum" />
+    <Primitive name="void" />
+</StandardClassData>

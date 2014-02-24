@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<CMConfig>
+    <!-- configuration for the overall panel -->
+	<Config name="docPanelNamespace">
+		<!-- required construction parameters
+		for use with the object factory (see below) -->
+		<Property name="objectFactoryNamespace">
+			<Value>documentationPanel.objectFactory</Value>
+		</Property>
+		<Property name="documentEditorKey">
+			<Value>documentEditor</Value>
+		</Property>
+		<Property name="tagEditorKey">
+			<Value>tagEditor</Value>
+		</Property>
+	</Config>
+
+    <!-- Namespace for posisble use with the object factory component -->
+	<Config name="documentationPanel.objectFactory">
+		<!-- Object factory configuration for the default documentation editor panel -->
+		<Property name="documentEditor">
+			<Property name="type">
+				<Value>com.topcoder.gui.panels.documentation.plugins.DefaultDocumentationEditor</Value>
+			</Property>
+			
+			<Property name="params">
+				<!-- this is the parameter to the constructor, the namespace -->
+				<Property name="param1">
+					<Property name="type">
+						<Value>String</Value>
+					</Property>
+					<Property name="value">
+						<Value>defaultDocEditor_1</Value>
+					</Property>
+				</Property>
+			</Property>
+		</Property>
+		
+		<!-- Object factory configuration for the default tag editor panel -->
+		<Property name="tagEditor">
+			<Property name="type">
+				<Value>com.topcoder.gui.panels.documentation.plugins.DefaultTagEditor</Value>
+			</Property>
+			<Property name="params">
+				<!-- single-string namespace constructor -->
+				<Property name="param1">
+					<Property name="type">
+						<Value>String</Value>
+					</Property>
+					<Property name="value">
+						<Value>defaultTagEditor_Invalid_valid</Value>
+					</Property>
+				</Property>
+			</Property>
+		</Property>
+	</Config>
+        
+</CMConfig>

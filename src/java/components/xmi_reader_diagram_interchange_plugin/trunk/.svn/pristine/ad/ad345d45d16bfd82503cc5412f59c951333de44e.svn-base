@@ -1,0 +1,354 @@
+<?xml version="1.0"?>
+<CMConfig>
+	<Config name="com.topcoder.xmi.reader.XMIReader">
+	    <Property name="reuse">
+		   <Value>true</Value>
+		</Property>
+    	<Property name="handlers">
+			  <Property name="UML:Diagram">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:GraphNode">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:GraphEdge">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:Property">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:GraphConnector">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:Point">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:Dimension">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:TextElement">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:Reference">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:BezierPoint">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:Polyline">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:Image">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:CoreSemanticModelBridge">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:SimpleSemanticModelElement">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:Uml1SemanticModelBridge">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+			  <Property name="UML:DiagramLink">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.DiagramInterchangeXMIHandler</Value>
+			  </Property>
+	
+	
+			  <Property name="UML:Multiplicity">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:MultiplicityRange">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Expression">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:BooleanExpression">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:TypeExpression">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:MappingExpression">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:TimeExpression">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:ArgListsExpression">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:ProcedureExpression">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Element">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:ModelElement">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:GeneralizableElement">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Namespace">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Classifier">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Class">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:DataType">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Feature">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:StructuralFeature">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:AssociationEnd">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Interface">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Constraint">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Relationship">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Association">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:BehavioralFeature">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Operation">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Parameter">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Method">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Generalization">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:AssociationClass">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Dependency">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Abstraction">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:PresentationElement">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Usage">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Binding">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Component">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Node">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Permission">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Comment">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Flow">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:ElementResidence">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:TemplateParameter">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Primitive">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Enumeration">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:EnumerationLiteral">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Stereotype">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:TagDefinition">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:TaggedValue">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:ProgrammingLanguageDataType">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Artifact">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:TemplateArgument">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Instance">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Signal">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:UninterpretedAction">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:AttributeLink">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Object">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Link">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:LinkObject">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:DataValue">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Reception">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:LinkEnd">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:TerminateAction">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Stimulus">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Exception">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:ComponentInstance">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:NodeInstance">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			 <Property name="UML:SubsystemInstance">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Procedure">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:A_context_raisedSignal">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:ControlFlow">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Action">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:PrimitiveAction">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Pin">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:DataFlow">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:OutputPin">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Collaboration">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:ClassifierRole">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Message">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Interaction">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Package">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Model">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Subsystem">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:ElementImport">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:UseCase">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Actor">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Extend">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Include">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+	
+	
+			  <Property name="UML:StateMachine">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Transition">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Guard">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:Pseudostate">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:CompositeState">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:SimpleState">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:FinalState">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+	
+			  <Property name="UML:ActivityGraph">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:ActionState">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:CallState">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+			  <Property name="UML:ObjectFlowState">
+				  <Value>com.topcoder.xmi.reader.handlers.diagraminterchange.stresstests.MockXMIhandler</Value>
+			  </Property>
+		</Property>		
+	</Config>
+</CMConfig>

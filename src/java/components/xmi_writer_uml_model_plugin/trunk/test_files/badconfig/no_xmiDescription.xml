@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<CMConfig>
+	<Config name="Invalid3">
+	  <!-- ignoreUnknownElementType flag, true/false, REQUIRED-->
+		<Property name="ignoreUnknownElementType">
+			<Value>true</Value>
+		</Property>
+		<!-- namespace to create object factory instance, REQUIRED -->
+		<Property name="objectFactory">
+			<Value>com.topcoder.xmi.writer.transformers.model.ObjectFactory</Value>
+		</Property>
+	</Config>
+</CMConfig>

@@ -1,0 +1,398 @@
+{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\froman\fprq2\fcharset2 Symbol;}{\f3\fmodern\fprq1\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue255;\red0\green128\blue0;\red0\green0\blue0;\red51\green153\blue102;}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}{\s3 heading 3;}}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx720\ul\b\f0\fs28 UML Model \endash  Data Types 1.0 Component Specification\par
+\pard\nowidctlpar\li720\sa120\ulnone\b0\fs20\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 1.\tab Design\par
+\pard\nowidctlpar\li720\b0\f1 The UML Model - Data Types component declares the interfaces from the UML 1.5 framework, from the Data Types package. It provides concrete implementations for each interface and provides powerful API to access the collection attributes.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.1\tab Design Patterns \par
+\pard\nowidctlpar\li720\b0\f1\fs24 None\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.2\tab Industry Standards \par
+\pard\nowidctlpar\li720\b0\f1\fs24 UML 1.5\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.3\tab Required Algorithms\par
+\pard\nowidctlpar\li720\b0\f1\fs24 There are no complex algorithms in this design. \par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.4\tab Component Class Overview\par
+\pard\nowidctlpar\li720\f1\fs24 AggregationKind\b0\par
+An enumeration that denotes what kind of aggregation an Association is. When placed on a target end, specifies the relationship of the target end to the source end.\par
+\b\par
+ParameterDirectionKind\b0\par
+In the metamodel, ParameterDirectionKind defines an enumeration that denotes if a Parameter is used for supplying an argument and/or for returning a value.\par
+\b\par
+CallConcurrencyKind\b0\par
+An enumeration that denotes the semantics of multiple concurrent calls to the same passive instance (i.e., an Instance originating from a Classifier with isActive=false).\par
+\par
+\b PseudostateKind\b0\par
+In the metamodel, PseudostateKind defines an enumeration that discriminates the kind of Pseudostate..\par
+\par
+\b ChangeableKind\b0\par
+In the metamodel, ChangeableKind defines an enumeration that denotes how an AttributeLink or LinkEnd may be modified.\par
+\par
+\b ScopeKind\b0\par
+In the metamodel, ScopeKind defines an enumeration that denotes whether a feature belongs to individual instances or an entire classifier.\par
+\par
+\b OrderingKind\b0\par
+Defines an enumeration that specifies how the elements of a set are arranged. Used in conjunction with elements that have a multiplicity in cases when the multiplicity value is greater than one. The ordering must be determined and maintained by operations that modify the set. The intent is that the set of enumeration literals be open for new values to be added by tools for purposes of design, code generation, etc. For example, a value of sorted might be used for a design specification.\par
+\par
+\b VisibilityKind\b0\par
+In the metamodel, VisibilityKind defines an enumeration that denotes how the element to which it refers is seen outside the enclosing name space.\par
+\par
+\b Multiplicity\b0\par
+Simple, base interface. In the metamodel, a Multiplicity defines a non-empty set of non-negative integers. A set which only contains zero (\{0\}) is not considered a valid Multiplicity. Every Multiplicity has at least one corresponding String representation.\par
+\par
+\b MultiplicityImpl\b0\par
+This is a simple, concrete implementation of Multiplicity interface.\par
+\par
+\b MultiplicityRange\b0\par
+Simple, base interface. In the metamodel, a MultiplicityRange defines a range of integers. The upper bound of the range cannot be below the lower bound. The lower bound must be a nonnegative integer. The upper bound must be a nonnegative integer or the special value unlimited, which indicates there is no upper bound on the range.\par
+\par
+\b MultiplicityRangeImpl\b0\par
+This is a simple, concrete implementation of MultiplicityRange interface.\par
+\par
+\b Expression\b0\par
+Simple, base interface. In the metamodel, an Expression defines a statement which will evaluate to a (possibly empty) set of instances when executed in a context. An Expression does not modify the environment in which it is evaluated. An expression contains an expression string and the name of an interpretation language with which to evaluate the string.\par
+\par
+\b ExpressionImpl\b0\par
+This is a simple, concrete implementation of Expression interface.\par
+\par
+\b BooleanExpression\b0\par
+This interface extends Expression interface. In the metamodel, BooleanExpression defines a statement that will evaluate to an instance of Boolean when it is evaluated.\par
+\par
+\b BooleanExpressionImpl\b0\par
+This is a simple concrete implementation of BooleanExpression interface and extends ExpressionImpl. As such, all methods in BooleanExpression are supported.\par
+\par
+\b MappingExpression\b0\par
+This interface extends Expression interface. An expression that evaluates to a mapping.\par
+\par
+\b MappingExpressionImpl\b0\par
+This is a simple concrete implementation of MappingExpression interface and extends ExpressionImpl. As such, all methods in MappingExpression are supported.\par
+\par
+\b ProcedureExpression\b0\par
+This interface extends Expression interface. In the metamodel, ProcedureExpression defines a statement that will result in a change to the values of its environment when it is evaluated.\par
+\par
+\b ProcedureExpressionImpl\b0\par
+This is a simple concrete implementation of ProcedureExpression interface and extends ExpressionImpl. As such, all methods in ProcedureExpression are supported.\par
+\par
+\b TypeExpression\b0\par
+This interface extends Expression interface. In the metamodel, TypeExpression is the encoding of a programming language type in the interpretation language. It is used within a ProgrammingLanguageDataType.\par
+\par
+\b TypeExpressionImpl\b0\par
+This is a simple concrete implementation of TypeExpression interface and extends ExpressionImpl. As such, all methods in TypeExpression are supported.\par
+\b\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\f0\fs20 1.5\tab Component Exception Definitions\par
+\pard\nowidctlpar\li720\b0\f1\fs24 This component defines no custom exceptions.\par
+\par
+The general approach to parameter handling is not to do it. The architectural decision was to allow the beans to hold any state, and delegate to the users of these beans to decide what is legal and when it is legal.\par
+\pard\nowidctlpar\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 1.6\tab Thread Safety\par
+\pard\nowidctlpar\li720\b0\f1\fs24 This component is not thread-safe, and there is no requirement for it to be thread-safe. In fact, the PM discourages method synchronization. Thread safety will be provided by the application using these implementations.\par
+\par
+The classes are made non-thread-safe by the presence of mutable members and collections. In order to provide thread-safety, if that is ever desired, all simple member accessors and collections would need to be synchronized.\par
+\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0 2.\tab Environment Requirements\tab\tab\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 2.1\tab Environment\par
+\pard\nowidctlpar\li720\b0\f1\fs24 JDK 1.5\f0\fs20\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 2.2\tab TopCoder Software Components\par
+\pard\nowidctlpar\fi-360\li1080\sa120\tx1080\b0\f2\'b7\tab\f0 TC UML Common Behavior 1.0\par
+\pard\nowidctlpar\fi-360\li1800\tx1800\f3\fs24 o\tab\f1 TC UML component defining the Common Behavior.\par
+\pard\nowidctlpar\li720\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 2.3\tab Third Party Components\tab\par
+\pard\nowidctlpar\li720\b0\f1\fs24 None\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0 3.\tab Installation and Configuration\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 3.1\tab Package Names\par
+\pard\nowidctlpar\li720\b0\f1\fs24 com.topcoder.uml.model.datatypes\par
+com.topcoder.uml.model.datatypes.expressions\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 3.2\tab Configuration Parameters\par
+\pard\nowidctlpar\fi720\sa120\b0 None\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 3.3\tab Dependencies Configuration\par
+\pard\nowidctlpar\li720\b0\f1\fs24 None\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0 4.\tab Usage Notes\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 4.1\tab Required steps to test the component\par
+\pard\nowidctlpar\fi-360\li1080\sa120\tx1080\b0\f2\'b7\tab\f0 Extract the component distribution.\par
+\pard\nowidctlpar\fi-360\li1080\sa120\f2\'b7\tab\f0 Follow {\field{\*\fldinst{HYPERLINK "C:\\\\filez\\\\work\\\\tc\\\\tcs_corp\\\\templates\\\\component\\\\" \\\\\\\\\\\\\\\\l "_Dependencies_Configuration" }}{\fldrslt{\cf1\ul Dependencies Configuration}}}\cf0\ulnone\f0\fs20 .\par
+\f2\'b7\tab\f0 Execute \lquote ant test\rquote  within the directory that the distribution was extracted to.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 4.2\tab Required steps to use the component\par
+\pard\nowidctlpar\li720\b0\f1\fs24 None\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b\f0\fs20 4.3\tab Demo\par
+\pard\nowidctlpar\li720\b0\f1\fs24 The demo will demonstrate the usage of these beans. It will show them being instantiated, then used via their interface. This will be the typical usage of such simple entities under any scenario. This demo will focus on showing how a simple and collection attribute is managed, with the understanding that all other attributes are managed in exactly the same manner, and therefore not shown here.\par
+\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0\i\f0\fs20 4.3.1\tab Instantiation\par
+\pard\nowidctlpar\fi720\cf2\i0\f3\fs18 // 1. Create instance of Multiplicity;\par
+\pard\nowidctlpar\li720\cf0 Multiplicity multiplicity = new MultiplicityImpl();\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 2. Create instance of MultiplicityRange;\par
+\pard\nowidctlpar\li720\cf0 MultiplicityRange multiplicityRange = new MultiplicityRangeImpl();\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 3. Create instance of Expression;\par
+\pard\nowidctlpar\li720\cf0 Expression expression = new ExpressionImpl();\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 4. Create instance of BooleanExpression;\par
+\pard\nowidctlpar\li720\cf0 BooleanExpression booleanExpression = new BooleanExpressionImpl();\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 5. Create instance of MappingExpression;\par
+\pard\nowidctlpar\li720\cf0 MappingExpression mappingExpression = new MappingExpressionImpl();\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 6. Create instance of ProcedureExpression;\par
+\pard\nowidctlpar\li720\cf0 ProcedureExpression procedureExpression = new ProcedureExpressionImpl();\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 7. Create instance of TypeExpression;\cf0\par
+\pard\nowidctlpar\li720 TypeExpression typeExpression = new TypeExpressionImpl();\par
+\fs22\par
+\f1\fs24\par
+\pard\keepn\nowidctlpar\s3\fi-720\li720\sb120\sa60\sl240\slmult0\tx0\tx720\i\f0\fs20 4.3.2\tab Simple attributes management of Mutiplicity\par
+\pard\nowidctlpar\fi720\cf2\i0\f3\fs18\par
+// Create sample entity with a simple attribute to manage\par
+\pard\nowidctlpar\li720\cf0 Multiplicity multiplicity = new MultiplicityImpl();\par
+\pard\nowidctlpar\fi720\cf2\par
+// 1. addRange\par
+\pard\nowidctlpar\li720\cf0 MultiplicityRange range1 = new MultiplicityRangeImpl();\par
+MultiplicityRange range2 = new MultiplicityRangeImpl();\par
+\pard\nowidctlpar\fi720\cf2\par
+// add range1\par
+\pard\nowidctlpar\li720\cf0 multiplicity.addRange(range1);\par
+\pard\nowidctlpar\fi720\cf2 // add range1, then we have two range1's in this multiplicity entity\par
+\pard\nowidctlpar\li720\cf0 multiplicity.addRange(range1);\par
+\pard\nowidctlpar\fi720\cf2\par
+//5. containsRange\par
+\pard\nowidctlpar\li720\cf0 boolean containsRange1 = multiplicity.containsRange(range1);\par
+\pard\nowidctlpar\fi720\cf2 // containsRange1 should be true, since we have added it in\par
+\pard\nowidctlpar\li720\cf0 boolean containsRange2 = multiplicity.containsRange(range2);\par
+\pard\nowidctlpar\fi720\cf2 // containsRange2 should be false, since we have never added it\par
+\par
+// 4. countRanges\par
+// we have 2 ranges, so value of count1 equals 2.\par
+\pard\nowidctlpar\li720\cf0 int count1 = multiplicity.countRanges();\par
+\pard\nowidctlpar\fi720\cf2\par
+// 2. removeRange\par
+\pard\nowidctlpar\li720\cf0 boolean removed1 = multiplicity.removeRange(range2);\par
+\pard\nowidctlpar\fi720\cf2 // since range2 does not exist, do nothing and return false\par
+\par
+\pard\nowidctlpar\li720\cf0 boolean removed2 = multiplicity.removeRange(range1);\par
+\pard\nowidctlpar\fi720\cf2 // since range1 exists in the collection, remove one of the two range1's\par
+// now, we have only one range1 in the collection and the countRanges returns\par
+// one\par
+\par
+// 5. containsRange\par
+\pard\nowidctlpar\li720\cf0 containsRange1 = multiplicity.containsRange(range1);\par
+\pard\nowidctlpar\fi720\cf2 // containsRange1 should be true, since we still have one range1 object in \par
+// it\par
+\par
+// 3. getRanges\par
+\pard\nowidctlpar\li720\cf0 Collection<MultiplicityRange> retrievedRanges = multiplicity.getRanges();\par
+\pard\nowidctlpar\fi720\cf2 // the collection constains only one range1 now\par
+\par
+\pard\nowidctlpar\s3\fi-720\li720\sb120\sa60\sl240\slmult0\tx0\tx720\cf0\i\f0\fs20 4.3.3\tab Simple attributes management of MutiplicityRange.\par
+\pard\nowidctlpar\fi720\cf2\i0\f3\fs18\par
+// Create sample entity with a simple attribute to manage\par
+\pard\nowidctlpar\li720\cf0 MultiplicityRange multiplicityRange = new MultiplicityRangeImpl();\par
+\cf3\par
+\pard\nowidctlpar\fi720\cf2 // 1. Setter/Getter of Lower property\par
+// lower should be non-negative\par
+\pard\nowidctlpar\li720\cf0 int lower = 3;\par
+multiplicityRange.setLower(lower);\par
+int retrievedLower = multiplicityRange.getLower();\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 2. Setter/Getter of Upper property\par
+// upper should be non-negative\par
+\pard\nowidctlpar\li720\cf0 int upper = 30;\par
+multiplicityRange.setUpper(upper);\par
+int retrievedUpper = multiplicityRange.getUpper();\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 3. Setter/Getter of Muliplicity property\par
+// multiplicity could be null\par
+\pard\nowidctlpar\li720\cf0 Multiplicity multiplicity = new MultiplicityImpl();\par
+multiplicityRange.setMultiplicity(multiplicity);\par
+Multiplicity retrievedMultiplicity = multiplicityRange.getMultiplicity();\par
+\pard\nowidctlpar\fi720\cf4\par
+\pard\keepn\nowidctlpar\s3\fi-720\li720\sb120\sa60\sl240\slmult0\tx0\tx720\cf0\i\f0\fs20 4.3.4\tab Simple attributes management of Expression.\par
+\pard\nowidctlpar\fi720\cf2\i0\f3\fs18\par
+// Create sample entity with a simple attribute to manage\par
+\pard\nowidctlpar\li720\cf0 Expression expression = new ExpressionImpl();\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 1. Setter/Getter of Procedure property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf0 Procedure procedure = new ProcedureImpl();\par
+expression.setProcedure(procedure);\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\pard\nowidctlpar\li720\cf0 Procedure retrievedProcedure = expression.getProcedure();\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 2. Setter/Getter of Body property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf0 String body = "23*3-(3-2)/1";\par
+expression.setBody(body);\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\pard\nowidctlpar\li720\cf0 String retrievedBody = expression.getBody();\par
+\pard\nowidctlpar\fi720\cf2\par
+// 3. Setter/Getter of Language property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf0 String language = "java";\par
+expression.setLanguage(language);\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\pard\nowidctlpar\li720\cf0 String retrievedLanguage = expression.getLanguage();\par
+\pard\nowidctlpar\fi720\cf4\par
+\pard\keepn\nowidctlpar\s3\fi-720\li720\sb120\sa60\sl240\slmult0\tx0\tx720\cf0\i\f0\fs20 4.3.5\tab Simple attributes management of BooleanExpression.\par
+\pard\nowidctlpar\fi720\cf4\i0\f3\fs18\par
+\cf2 // Create sample entity with a simple attribute to manage\par
+\pard\nowidctlpar\li720\cf0 BooleanExpression expression = new BooleanExpressionImpl();\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 1. Setter/Getter of Procedure property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf0 Procedure procedure = new ProcedureImpl();\par
+expression.setProcedure(procedure);\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\pard\nowidctlpar\li720\cf0 Procedure retrievedProcedure = expression.getProcedure();\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 2. Setter/Getter of Body property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf0 String body = "2 == 3";\par
+expression.setBody(body);\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\pard\nowidctlpar\li720\cf0 String retrievedBody = expression.getBody();\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 3. Setter/Getter of Language property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf0 String language = "java";\par
+\cf3 expression.setLanguage(language);\cf0\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\pard\nowidctlpar\li720\cf0 String retrievedLanguage = expression.getLanguage();\par
+\cf4\par
+\pard\keepn\nowidctlpar\s3\fi-720\li720\sb120\sa60\sl240\slmult0\tx0\tx720\cf0\i\f0\fs20 4.3.6\tab Simple attributes management of MappingExpression.\par
+\pard\nowidctlpar\fi720\cf2\i0\f3\fs18\par
+// Create sample entity with a simple attribute to manage\par
+\pard\nowidctlpar\li720\cf3 MappingExpression expression = new MappingExpressionImpl();\par
+\cf0\par
+\pard\nowidctlpar\fi720\cf2 // 1. Setter/Getter of Procedure property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf3 Procedure procedure = new ProcedureImpl();\par
+expression.setProcedure(procedure);\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\pard\nowidctlpar\li720\cf3 Procedure retrievedProcedure = expression.getProcedure();\cf0\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 2. Setter/Getter of Body property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf3 String body = "2 == 3";\par
+expression.setBody(body);\cf0\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\pard\nowidctlpar\li720\cf3 String retrievedBody = expression.getBody();\cf0\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 3. Setter/Getter of Language property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf3 String language = "java";\par
+expression.setLanguage(language);\cf0\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\cf3 String retrievedLanguage = expression.getLanguage();\par
+\par
+\pard\keepn\nowidctlpar\s3\fi-720\li720\sb120\sa60\sl240\slmult0\tx0\tx720\cf0\i\f0\fs20 4.3.7\tab Simple attributes management of ProcedureExpression.\par
+\pard\nowidctlpar\fi720\cf3\i0\f3\fs18\par
+\cf2 // Create sample entity with a simple attribute to manage\par
+\pard\nowidctlpar\li720\cf3 ProcedureExpression expression = new ProcedureExpressionImpl();\par
+\cf0\par
+\pard\nowidctlpar\fi720\cf2 // 1. Setter/Getter of Procedure property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf3 Procedure procedure = new ProcedureImpl();\par
+expression.setProcedure(procedure);\cf0\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\pard\nowidctlpar\li720\cf3 Procedure retrievedProcedure = expression.getProcedure();\cf0\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 2. Setter/Getter of Body property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf3 String body = "void hello()\{\}";\par
+expression.setBody(body);\cf0\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\pard\nowidctlpar\li720\cf3 String retrievedBody = expression.getBody();\cf0\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 3. Setter/Getter of Language property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf3 String language = "java";\par
+expression.setLanguage(language);\cf0\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\pard\nowidctlpar\li720\cf3 String retrievedLanguage = expression.getLanguage();\par
+\cf0\f1\fs24\par
+\pard\keepn\nowidctlpar\s3\fi-720\li720\sb120\sa60\sl240\slmult0\tx0\tx720\i\f0\fs20 4.3.8\tab Simple attributes management of TypeExpression.\par
+\pard\nowidctlpar\fi720\cf2\i0\f3\fs18\par
+// Create sample entity with a simple attribute to manage\par
+\pard\nowidctlpar\li720\cf3 TypeExpression expression = new TypeExpressionImpl();\par
+\cf0\par
+\pard\nowidctlpar\fi720\cf2 // 1. Setter/Getter of Procedure property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf3 Procedure procedure = new ProcedureImpl();\par
+expression.setProcedure(procedure);\cf0\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\pard\nowidctlpar\li720\cf3 Procedure retrievedProcedure = expression.getProcedure();\cf0\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 2. Setter/Getter of Body property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf3 String body = "public class A \{\}";\par
+expression.setBody(body);\cf0\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\pard\nowidctlpar\li720\cf3 String retrievedBody = expression.getBody();\cf0\par
+\par
+\pard\nowidctlpar\fi720\cf2 // 3. Setter/Getter of Language property\par
+// Use setter\par
+\pard\nowidctlpar\li720\cf3 String language = "java";\par
+expression.setLanguage(language);\cf0\par
+\pard\nowidctlpar\fi720\cf2 // Use getter\par
+\cf3 String retrievedLanguage = expression.getLanguage();\par
+\cf0\par
+\pard\keepn\nowidctlpar\s3\sb120\sa60\sl240\slmult0\tx0\i\f0\fs20 4.3.9\tab Collection attribute management of Multiplicity.\par
+\pard\nowidctlpar\li720\cf2\i0\f3\fs18\par
+// Create sample entity with a collection attribute to manage\par
+\cf0 Multiplicity multiplicity = new MultiplicityImpl();\par
+\cf2\par
+// Use single-entity add method\par
+\cf0 MultiplicityRange ran1 = new MultiplicityRangeImpl();\par
+multiplicity.addRange(ran1);\par
+\cf2 // There is now one range in the collection: \{0\}\par
+\par
+// Use multiple-entity add method\par
+\cf0 Collection<MultiplicityRange> col1 = new ArrayList<MultiplicityRange>();\par
+\cf2 // add another five different ranges, \{1, 2, 3, 4, 5\}\par
+\cf0 MultiplicityRange[] colArray1 = new MultiplicityRange[5];\par
+for (int i = 0; i < colArray1.length; i++) \{\par
+    colArray1[i] = new MultiplicityRangeImpl();\par
+    col1.add(colArray1[i]);\par
+\}\par
+\cf2 // now col1: \{1, 2 ,3, 4, 5\}\par
+// add duplicate ranges to col1\par
+\cf0 for (int i = 0; i < 3; i++) \{\par
+    col1.add(colArray1[1]);\par
+\}\par
+\cf2 // now col1 : \{1, 2, 3, 4, 5, 1, 2, 3\}\par
+\cf0 multiplicity.addRanges(col1);\par
+\cf2 // There will now be 9 ranges in the collection: \{0, 1, 2, 3, 4, 5, 1, 2, 3\}\par
+\par
+\par
+// Use contains method to check for range presence\par
+\cf0 boolean present = multiplicity.containsRange(ran1);\par
+\cf2 // This will be true\par
+\par
+// Use count method to get the number of ranges\par
+\cf0 int count = multiplicity.countRanges();\par
+\cf2 // The count will be 9\par
+\par
+// Use single-entity remove method\par
+\cf0 boolean removed = multiplicity.removeRange(ran1);\par
+\cf2 // This will be true, and the collection size is 8, regardless\par
+// if ran1 has duplicates in this collection.\par
+// now collection: \{1, 2, 3, 4, 5, 1, 2, 3\}\par
+\par
+// Use multiple-entity remove method\par
+\cf0 Collection<MultiplicityRange> col2 = new ArrayList<MultiplicityRange>();\par
+\cf2 // add three ranges to col2, such that col2 is a subset of col1\par
+\cf0 for (int i = 0; i < 3; i++) \{\par
+    col2.add(colArray1[i]);\par
+\}\par
+\cf2 // now col2: \{1, 2, 3\}\par
+\cf0 boolean altered = multiplicity.removeRanges(col2);\par
+\cf2 // This will be true, and the collection size is 5\par
+// the collection will be  \{4, 5, 1, 2, 3\}, since the removeRanges is first-basis // remove\par
+\par
+// Use clear method\par
+\cf0 multiplicity.clearRanges();\par
+\cf2 // The collection size is 0 and contains no ranges\par
+// now collection: \{\}\par
+\pard\nowidctlpar\cf0\f1\fs24\tab\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0 5.\tab Future Enhancements\par
+\pard\nowidctlpar\fi720\b0\f1 Providing a complete model, or moving to UML 2.\par
+\pard\nowidctlpar\sa120\f0\fs20\par
+}
+ 

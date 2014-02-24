@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<CMConfig>
+    <Config name="com.topcoder.umltool.deploy">
+        <Property name="SettingFile">
+            <Value>conf/Valid.properties</Value>
+        </Property>
+        <Property name="DiagramFontSize">
+            <Value>9</Value>
+        </Property>
+        <Property name="FontSize">
+            <Value>12</Value>
+        </Property>
+        <Property name="Width">
+            <Value>1280</Value>
+        </Property>
+        <Property name="Height">
+            <Value>947</Value>
+        </Property>
+        <Property name="ImportDependencyLocation">
+            <Value>/Users/nanda/Documents/temp/test</Value>
+        </Property>
+        <Property name="LastOpenProject">
+            <Value>/Volumes/2nd/nanda/workspace/w-topcoder/UMLTool/test_files/Sample_Files/GenericRegistrationFrameworkArchitecture.tcuml</Value>
+        </Property>
+        <Property name="LastImageExportPath">
+            <Value></Value>
+        </Property>
+        <Property name="AutoSave">
+            <Value>true</Value>
+        </Property>
+        <Property name="Antialiasing">
+            <Value>true</Value>
+        </Property>
+        <Property name="AutoGenerateMethods">
+            <Value>true</Value>
+        </Property>
+        <Property name="BackupDirectory">
+            <Value>C:/Backup</Value>
+        </Property>
+        <Property name="SwiftCreation">
+            <Value>false</Value>
+        </Property>
+        <Property name="AddOperationAutomatic">
+            <Value>false</Value>
+        </Property>
+        <Property name="LastOpenProjects">
+            <Value>/Volumes/2nd/nanda/workspace/w-topcoder/UMLTool/test_files/Sample_Files/GenericRegistrationFrameworkArchitecture.tcuml</Value>
+            <Value>/Volumes/2nd/nanda/workspace/w-topcoder/UMLTool/test_files/Sample_Files/MockJava.tcuml</Value>
+            <Value>/Users/nanda/TestImages.tcuml</Value>
+            <Value>/Users/justingasper/TestImages.tcuml</Value>
+            <Value>/Users/justingasper/TopCoder/Current Projects/Pending/email_client_1.0.0_design_dist/docs/Email Client.tcuml</Value>
+            <Value>/Users/justingasper/TopCoder/SVN/studio_contest_manager/docs/Studio_Contest_Manager.tcuml</Value>
+        </Property>
+        <Property name="rightDivideLocation">
+            <Value>801</Value>
+        </Property>
+    </Config>
+</CMConfig>

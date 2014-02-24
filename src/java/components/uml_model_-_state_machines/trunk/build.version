@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=UML Model - State Machines
+component.distfilename=uml_model_-_state_machines
+component.package=com.topcoder.uml.model.statemachines
+component.packagedir=com/topcoder/uml/model/statemachines
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

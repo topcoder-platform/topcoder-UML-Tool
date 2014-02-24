@@ -1,0 +1,82 @@
+<CMConfig>
+    <Config name="com.topcoder.gui.panels.style.failuretests.FontFamilySelectorFailureTests.FontNotSupported">
+	    <Property name="fontFamily">
+			<Property name="arial">
+				<Value>Arial</Value>
+			</Property>
+			<Property name="timesnewroman">
+				<Value>Times New Roman</Value>
+			</Property>
+			<Property name="verdana">
+				<Value>Verdana Not Supported</Value>
+			</Property>
+			<Property name="default">
+				<Value>Verdana</Value>
+			</Property>
+		</Property>
+	</Config>
+	<Config name="com.topcoder.gui.panels.style.failuretests.FontFamilySelectorFailureTests.NullFont">
+	    <Property name="fontFamily">
+			<Property name="arial">
+				<Value></Value>
+			</Property>
+			<Property name="timesnewroman">
+				<Value>Times New Roman</Value>
+			</Property>
+			<Property name="verdana">
+				<Value>Verdana</Value>
+			</Property>
+			<Property name="default">
+				<Value>Verdana</Value>
+			</Property>
+		</Property>
+	</Config>
+	<Config name="com.topcoder.gui.panels.style.failuretests.FontFamilySelectorFailureTests.EmptyFont">
+	    <Property name="fontFamily">
+			<Property name="arial">
+				<Value>  </Value>
+			</Property>
+			<Property name="timesnewroman">
+				<Value>Times New Roman</Value>
+			</Property>
+			<Property name="verdana">
+				<Value>Verdana</Value>
+			</Property>
+			<Property name="default">
+				<Value>Verdana</Value>
+			</Property>
+		</Property>
+	</Config>
+	<Config name="com.topcoder.gui.panels.style.failuretests.FontFamilySelectorFailureTests.DuplicatedFontName">
+	    <Property name="fontFamily">
+			<Property name="arial">
+				<Value>Arial</Value>
+			</Property>
+			<Property name="timesnewroman">
+				<Value>Times New Roman</Value>
+			</Property>
+			<Property name="verdana">
+				<Value>Verdana</Value>
+			</Property>
+			<Property name="verdana2">
+				<Value>Verdana</Value>
+			</Property>
+			<Property name="default">
+				<Value>Verdana</Value>
+			</Property>
+		</Property>
+	</Config>
+	<Config name="com.topcoder.gui.panels.style.failuretests.FontFamilySelectorFailureTests.DefaultFontNameNotFound">
+	    <Property name="fontFamily">
+			<Property name="arial">
+				<Value>Arial</Value>
+			</Property>
+			<Property name="timesnewroman">
+				<Value>Times New Roman</Value>
+			</Property>
+			<Property name="default">
+				<Value>Verdana</Value>
+			</Property>
+		</Property>
+	</Config>
+</CMConfig>

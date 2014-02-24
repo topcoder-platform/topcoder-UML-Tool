@@ -1,0 +1,9 @@
+#Setting Config File
+com.topcoder.umltool.deploy=Setting_Config.xml
+#Project Configuration Config File
+com.topcoder.uml.projectconfiguration.ProjectConfigurationManager=ProjectConfiguration_Config.xml
+com.topcoder.uml.projectconfiguration.ProjectConfigurationManager.objectfactory=ProjectConfiguration_Config.xml
+com.topcoder.uml.projectconfiguration.diagramelementformatters.PropertyTemplateDiagramElementFormatter=ProjectConfiguration_Config.xml
+com.topcoder.uml.projectconfiguration.modelelementformatters.AbstractElementFormatter=ProjectConfiguration_Config.xml
+# Standard Class Loader Config file
+com.topcoder.uml.standardclassloader=StandardClassLoader_Config.xml

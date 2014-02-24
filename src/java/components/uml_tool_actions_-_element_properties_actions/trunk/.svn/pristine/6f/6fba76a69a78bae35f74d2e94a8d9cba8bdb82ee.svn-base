@@ -1,0 +1,7 @@
+# Format: 
+# namespace=filename
+# Filename
+com.topcoder.util.config.ConfigManager=com/topcoder/util/config/ConfigManager.properties
+
+# load the logging configuration file at startup
+com.topcoder.util.log=com/topcoder/util/log/Logging.xml

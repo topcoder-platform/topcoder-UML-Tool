@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+   <!-- example of class method usage -->
+   <Class name="Random"> 
+     <Test name="Random" />
+     <Method name="next" />
+     <Method name="nextBoolean" />
+     <Method name="nextBytes" />
+     <Method name="nextDouble" />             
+    </Class>

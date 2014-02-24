@@ -1,0 +1,37 @@
+<CMConfig>
+  <Config name="com.topcoder.xmi.reader.XMIReader">
+    <Property name="reuse">
+       <Value>true</Value>
+     </Property>
+     <Property name="handlers">
+          <Property name="UML:Class">
+              <Value>com.topcoder.xmi.reader.handlers.ClassHandler</Value>
+          </Property>
+          <!-- since reuse is true, it should not instantiate another ClassHandler. -->
+          <Property name="UML:Interface">
+              <Value>com.topcoder.xmi.reader.handlers.ClassHandler</Value>
+          </Property>
+           <Property name="UML:Stereotype">
+              <Value>com.topcoder.xmi.reader.handlers.StereotypeHandler</Value>
+          </Property>
+    </Property>
+  </Config> 
+  
+   <Config name="mynamespace">
+    <Property name="reuse">
+       <Value>true</Value>
+     </Property>
+     <Property name="handlers">
+          <Property name="UML:Class">
+              <Value>com.topcoder.xmi.reader.handlers.ClassHandler</Value>
+          </Property>
+          <!-- since reuse is true, it should not instantiate another ClassHandler. -->
+          <Property name="UML:Interface">
+              <Value>com.topcoder.xmi.reader.handlers.ClassHandler</Value>
+          </Property>
+           <Property name="UML:Stereotype">
+              <Value>com.topcoder.xmi.reader.handlers.StereotypeHandler</Value>
+          </Property>
+    </Property>
+  </Config> 
+</CMConfig>

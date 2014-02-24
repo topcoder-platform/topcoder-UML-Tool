@@ -1,0 +1,15 @@
+<CMConfig>
+    <Config name="com.topcoder.umltool.xmiconverters.poseidon5">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:xmiheader:ss</Value>
+            </Property>
+        </Property>
+    </Config>
+    
+    <Config name="object_factory_namespace">
+    </Config>
+</CMConfig>

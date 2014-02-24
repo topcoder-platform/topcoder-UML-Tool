@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=Vertical Label
+component.distfilename=vertical_label
+component.package=com.topcoder.gui.verticallabel
+component.packagedir=com/topcoder/gui/verticallabel
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

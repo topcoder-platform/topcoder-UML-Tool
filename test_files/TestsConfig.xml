@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<CMConfig>
+	<Config name="com.topcoder.umltool.deploy.codegen.test">
+		<Property name="Template_base">
+			<Value>/Users/nanda/Documents/TopCoder/workspace-tcuml/UMLToolFrontend/test_files/Template</Value>
+		</Property>
+		<Property name="CodeGen_base">
+			<Value>/Users/nanda/Documents/TopCoder/workspace-tcuml/UMLToolFrontend/test_files/CodeGen</Value>
+		</Property>
+		<Property name="UMLFile_base">
+			<Value>/Users/nanda/Documents/TopCoder/workspace-tcuml/UMLToolFrontend/test_files/Sample_Files</Value>
+		</Property>
+		<Property name="Script_base">
+			<Value>/Users/nanda/Documents/TopCoder/workspace-tcuml/UMLToolFrontend/test_files/SwingUnitScript</Value>
+		</Property>
+	</Config>
+</CMConfig>

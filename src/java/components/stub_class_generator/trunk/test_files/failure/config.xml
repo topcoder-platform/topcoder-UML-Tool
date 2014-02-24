@@ -1,0 +1,2297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CMConfig>
+  <Config name="MissC#Language">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyC#Language">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value></Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissJavaLanguage">
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyJavaLanguage">
+		<Property name="javaLanguage">
+			<Value></Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyTagsDocumentation">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value></Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissTagsDocumentation">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+  <Config name="EmptyDocumentation">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value></Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+  <Config name="MissDocumentation">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissNew">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyNew">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value></Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissReadonly">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyReadonly">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value></Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+  <Config name="MissVirtual">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+  <Config name="EmptyVirtual">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value></Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissOverride">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyOverride">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value></Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissSealed">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptySealed">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value></Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissExtern">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyExtern">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value></Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissDelegate">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyDelegate">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value></Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissExplicit">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyExplicit">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value></Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissImplicit">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyImplicit">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value></Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissStruct">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyStruct">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value></Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissPropertyGet">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyPropertyGet">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value></Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissPropertySet">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyPropertySet">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value></Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissProperty">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyProperty">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value></Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissDestructor">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyDestructor">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value></Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+	<Config name="MissProtectedInternal">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+	</Config>
+
+	<Config name="EmptyProtectedInternal">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value></Value>
+		</Property>
+	</Config>
+
+	<Config name="com.topcoder.uml.stubclassgenerator">
+		<Property name="javaLanguage">
+			<Value>java</Value>
+		</Property>
+		<Property name="C#Language">
+			<Value>c#</Value>
+		</Property>
+		<Property name="documentation">
+			<Value>documentation</Value>
+		</Property>
+		<Property name="tagsDocumentation">
+			<Value>documentation#</Value>
+		</Property>
+		<Property name="new">
+			<Value>new</Value>
+		</Property>
+		<Property name="readonly">
+			<Value>readonly</Value>
+		</Property>
+		<Property name="virtual">
+			<Value>virtual</Value>
+		</Property>
+		<Property name="override">
+			<Value>override</Value>
+		</Property>
+		<Property name="sealed">
+			<Value>sealed</Value>
+		</Property>
+		<Property name="extern">
+			<Value>extern</Value>
+		</Property>
+		<Property name="delegate">
+			<Value>delegate</Value>
+		</Property>
+		<Property name="explicit">
+			<Value>explicit</Value>
+		</Property>
+		<Property name="implicit">
+			<Value>implicit</Value>
+		</Property>
+		<Property name="struct">
+			<Value>struct</Value>
+		</Property>
+		<Property name="property_get">
+			<Value>property_get</Value>
+		</Property>
+		<Property name="property_set">
+			<Value>property_set</Value>
+		</Property>
+		<Property name="property">
+			<Value>property</Value>
+		</Property>
+		<Property name="destructor">
+			<Value>destructor</Value>
+		</Property>
+		<Property name="protected internal">
+			<Value>protected internal</Value>
+		</Property>
+	</Config>
+
+  <Config name="com.topcoder.util.log">
+    <Property name="TestProperty">
+      <Value>TestPropertyValue</Value>
+    </Property>
+    <Property name="basic.log.target">
+      <Value>System.err</Value>
+    </Property>
+    <Property name="logClass">
+      <Value>com.topcoder.util.log.basic.BasicLog</Value>
+    </Property>
+  </Config>
+</CMConfig>

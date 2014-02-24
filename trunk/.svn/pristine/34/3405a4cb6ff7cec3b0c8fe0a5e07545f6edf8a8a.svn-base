@@ -1,0 +1,18 @@
+Build
+-----
+The build.xml is a development contest like build file. To use it you need at least
+Ant 1.6.5 installed and ready to run.
+
+The available targets used in this assembly are:
+
+  + ant compile
+    Compiles all classes from this assembly
+    
+  + ant run
+    Run the UML Tool to use.
+
+
+Configuration File
+---------------------
+Valid configuration files are kept under the config directory and the configmanager.properties file is given such that
+the config files are loaded while instantiating.

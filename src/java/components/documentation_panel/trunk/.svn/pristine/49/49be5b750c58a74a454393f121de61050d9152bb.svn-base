@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<CMConfig>
+   <Config name="TagEditor_Default">
+        <Property name="tagoptionNamespace">
+            <Value>defaultTagOptionNamespace</Value>
+        </Property>
+    </Config>
+    
+    <Config name="TagEditor_Test">
+        <Property name="tagprompt">
+            <Value>Insert new test tag...</Value>
+        </Property>
+        <Property name="valueprompt">
+            <Value>new test value</Value>
+        </Property>
+        <Property name="columnnames">
+            <Value>Test_Tag</Value>
+            <Value>Test_Documentation</Value>
+        </Property>
+        <Property name="tagoptionNamespace">
+            <Value>defaultTagOptionNamespace</Value>
+        </Property>
+    </Config>
+     
+    <Config name="defaultTagOptionNamespace">
+    		<Property name="TYPES">
+			    <Value>GLOBAL</Value>
+			    <Value>com.topcoder.uml.model.core.OperationImpl</Value>
+			    <Value>com.topcoder.uml.model.core.MethodImpl</Value>
+			  </Property> 
+			  
+			  <!-- global options -->
+        <Property name="GLOBAL">
+            <!-- some common javadocs options -->
+            <Property name="options">
+                <Value>see</Value>
+                <Value>since</Value>
+                <Value>deprecated</Value>
+            </Property>
+        </Property>
+        
+        <!-- method options -->
+        <Property name="com.topcoder.uml.model.core.OperationImpl">
+            <!-- add two operation options -->
+            <Property name="options">
+                <Value>throws</Value>
+                <Value>exception</Value>
+            </Property>
+            
+            <!-- inherit the global set -->
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <!-- class options, adding two to global -->
+        <Property name="com.topcoder.uml.model.core.MethodImpl">
+            
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+		</Config>
+
+</CMConfig>

@@ -1,0 +1,17 @@
+<CMConfig>
+  <!-- This is well formed configuration: create a handler with no argument constructor diabled-->
+  <Config name="com.topcoder.xmi.reader.XMIReader">
+      
+      <Property name="reuse">
+            <Value>true</Value>
+      </Property>
+
+      <Property name="handlers">
+              <Property name="UML:Class">
+                    <Value>com.topcoder.xmi.reader.handlers.NoArgumentCtorDisabledHandler</Value>
+              </Property>
+
+      </Property>
+      
+   </Config> 
+</CMConfig>

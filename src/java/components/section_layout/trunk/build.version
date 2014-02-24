@@ -1,0 +1,9 @@
+#property file defining the components information
+component.name=Section Layout
+component.distfilename=section_layout
+component.package=com.topcoder.gui.sectionlayout
+component.packagedir=com/topcoder/gui/sectionlayout
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

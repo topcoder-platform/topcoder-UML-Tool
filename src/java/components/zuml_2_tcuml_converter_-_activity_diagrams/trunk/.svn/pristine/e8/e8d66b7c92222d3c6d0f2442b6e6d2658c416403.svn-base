@@ -1,0 +1,96 @@
+{\rtf1\ansi\deff1\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Thorndale AMT{\*\falt Times New Roman};}{\f1\froman\fprq2\fcharset0 Thorndale AMT{\*\falt Times New Roman};}{\f2\fnil\fprq2\fcharset0 Albany AMT{\*\falt Arial};}{\f3\froman\fprq2\fcharset0 Thorndale AMT{\*\falt Times New Roman};}{\f4\fswiss\fprq2\fcharset0 Albany AMT{\*\falt Arial};}{\f5\fmodern\fprq1\fcharset128 Courier{\*\falt Courier New};}}
+{\colortbl;\red0\green0\blue0;\red128\green128\blue128;}
+{\stylesheet{\s1\rtlch\af2\afs24\lang255\ltrch\dbch\af2\langfe255\hich\fs24\lang1033\loch\fs24\lang1033\snext1 Normal;}
+{\s2\sb240\sa120\keepn\rtlch\af1\afs28\lang255\ltrch\dbch\af1\langfe255\hich\f4\fs28\lang1033\loch\f4\fs28\lang1033\sbasedon1\snext3 Heading;}
+{\s3\sa120\rtlch\af2\afs24\lang255\ltrch\dbch\af2\langfe255\hich\fs24\lang1033\loch\fs24\lang1033\sbasedon1\snext3 Body Text;}
+{\s4\sa120\rtlch\af2\afs24\lang255\ltrch\dbch\af2\langfe255\hich\fs24\lang1033\loch\fs24\lang1033\sbasedon3\snext4 List;}
+{\s5\sb120\sa120\rtlch\af2\afs24\lang255\ai\ltrch\dbch\af2\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i\sbasedon1\snext5 caption;}
+{\s6\rtlch\af2\afs24\lang255\ltrch\dbch\af2\langfe255\hich\fs24\lang1033\loch\fs24\lang1033\sbasedon1\snext6 Index;}
+{\s7\sb120\sa120\rtlch\af2\afs24\lang255\ai\ltrch\dbch\af2\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i\sbasedon1\snext7 caption;}
+}
+{\info{\creatim\yr2007\mo10\dy17\hr2\min0}{\revtim\yr1601\mo1\dy1\hr0\min0}{\printim\yr1601\mo1\dy1\hr0\min0}{\comment StarWriter}{\vern6800}}\deftab709
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse195\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\pgdscnxt0 Standard;}}
+{\*\pgdscno0}\paperh15840\paperw12240\margl1134\margr1134\margt1134\margb1134\sectd\sbknone\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+\pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 UML:ActivityGraph}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab UML:StateMachine.top}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab UML:CompositeState}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab UML:CompositeState.subvertex}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab UML:Pseudostate kind="initial"}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab UML:FinalState}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab UML:FinalState}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab UML:ModelElement.taggedValue}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab UML:TaggedValue}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab UML:TaggedValue.dataValue}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab \tab \u8221\'1dFlowFinalNode\u8221\'1d}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab UML:TaggedValue.type}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab \tab UML:TagDefinition}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab \tab \tab UML:TagDefinition.tagType}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab \tab \tab \tab \u8220\'1cFinalNodeType\u8221\'1d}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab UML:Pseudostate kind="fork"}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab UML:Pseudostate kind="join"}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab UML:Pseudostate kind="choice"}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab UML:Pseudostate kind="junction"}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab UML:ObjectFlowState}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab UML:ActionState}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab UML:SimpleState}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab UML:ModelElement.taggedValue}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab UML:TaggedValue}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab UML:TaggedValue.dataValue}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab \tab \u8221\'1dTrue\u8221\'1d}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab UML:TaggedValue.type}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab \tab UML:TagDefinition}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab \tab \tab UML:TagDefinition.tagType}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab \tab \tab \tab \u8220\'1cSendSignalAction\u8221\'1d}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab UML:SimpleState}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab UML:ModelElement.taggedValue}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab UML:TaggedValue}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab UML:TaggedValue.dataValue}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab \tab \u8221\'1dTrue\u8221\'1d}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab UML:TaggedValue.type}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab \tab UML:TagDefinition}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab \tab \tab UML:TagDefinition.tagType}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab \tab \tab \tab \tab \u8220\'1cAcceptEventAction\u8221\'1d}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab UML:StateMachine.transition}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab UML:Transition}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab ... information about states is missing}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab UML:Guard}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab UML:Guard.expression}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab UML:BooleanExpression}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab \tab \tab \tab \tab UML:Expression.body \u8220\'1c...\u8221\'1d}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab UML:StateMachine.context}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 \tab \tab UML:UseCase xmi.idref}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 Comments:}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 UML:StateVertex.container property of the states should not be saved in XMI.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 UML:State.stateMachine property of the states should not be saved in XMI.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 This information is redundant, because the states are already saved as nested nodes inside the UML:CompositeState node and UML:ActivityGraph node.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 Same thing happens in Transition, which includes Guard, which includes Transition (this last info being redundant).}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 For the states that use TaggedValues, the tool generates a TagDefinition for every state, with the same name (meaning that it has the same purpose). There should be only one TagDefinition, saved in the root Model, and all the TaggedValues should point to t
+hat one.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af2\afs20\lang255\ltrch\dbch\af2\langfe255\hich\f5\fs20\lang1033\loch\f5\fs20\lang1033 {\rtlch \ltrch\loch\f5\fs20\lang1033\i0\b0 The TC UML Tool does not save the full information of the Transitions, meaning that the Model is not complete. Instead, the tool relies on the information found in the Diagram Interchange in order to see which states are connected by a Transition.}
+\par }

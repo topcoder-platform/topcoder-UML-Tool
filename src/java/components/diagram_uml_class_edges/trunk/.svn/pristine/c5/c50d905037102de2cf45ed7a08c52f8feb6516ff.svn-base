@@ -1,0 +1,67 @@
+
+Suggested updates to Edge:
+
+1) it seems that this component has some problem to determin the correct
+angle of edge endings, you can refer to AbstractionEdgeUnitTests to see
+the drawing.
+
+2) notifySelected() should be public, not package private.
+EdgeSelectionTrigger#mouseClicked will call this method.
+
+3) add a addTextField(TextField, AnchorType) method.
+BaseEdge#ctor will call this method.
+
+    /**
+     * <p>
+     * Add a TextField for the given GraphNode.
+     * </p>
+     *
+     * <p>
+     * A new TextFieldMouseListener instance will be registered and the TextField will be
+     * added as a child component automatically.
+     * </p>
+     *
+     * <p>
+     * Note, the position of the text field can be got from the graph node, if it is not
+     * found, then it will be determined automatically.
+     * </p>
+     *
+     * @param graphNode a GraphNode defined for TextField
+     * @param text the text string value
+     * @param type the text field anchor type
+     * @return the newly added TextField instance
+     *
+     * @throws IllegalArgumentException if any argument is null.
+     */
+    public TextField addTextField(TextField textField, AnchorType type) {
+        Util.checkNull(textField, "textField");
+        Util.checkNull(type, "type");
+
+        GraphNode graphNode = textField.getGraphNode();
+        this.textFields.put(graphNode, textField);
+
+        // add as a child component
+        add(textField);
+
+        if (graphNode.getPosition() != null) {
+            // the position is from the given graph node
+            Point position = getAbsoluatePosition(graphNode);
+            Rectangle bounds = new Rectangle();
+            FontMetrics fm = textField.getFontMetrics(textField.getFont());
+            bounds.width = SwingUtilities.computeStringWidth(fm, textField.getText());
+            bounds.height = fm.getHeight();
+            bounds.x = position.x;
+            bounds.y = position.y;
+            textField.setBounds(bounds);
+        } else {
+            // the position is determined automatically
+            updateTextFieldPosition(textField);
+        }
+
+        textField.updateAnchorage();
+        repaint();
+
+        return textField;
+    }
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<shortcuts>
+    <skipIfNotSupported />
+    <programGroup defaultName="TopCoder UML Tool" location="applications"/>
+    
+    <shortcut
+        name="TopCoder UML Tool"
+        programGroup="yes"
+        desktop="no"
+        applications="no"
+        startMenu="no"
+        startup="no"
+        target="$INSTALL_PATH\bin\run.cmd"
+        workingDirectory="$INSTALL_PATH\bin"
+        commandLine=""
+        initialState="normal"
+        iconFile="$INSTALL_PATH\bin\resources\images\icons\icon.ico"
+        type="Application"
+        encoding="UTF-8"
+        description="Run the TopCoder UML Tool">
+    
+        <createForPack name="Core"/>
+    </shortcut>
+    
+    <shortcut
+        name="Uninstall TopCoder UML Tool"
+        programGroup="yes"
+        desktop="no"
+        applications="no"
+        startMenu="no"
+        startup="no"
+        target="java"
+        workingDirectory=""
+        commandLine="-jar &quot;$INSTALL_PATH\Uninstaller\uninstaller.jar&quot;"
+        initialState="normal"
+        iconFile="$INSTALL_PATH\bin\resources\images\icons\icon.ico"
+        encoding="UTF-8"
+        description="Uninstall the TopCoder UML Tool">
+        <createForPack name="Core"/>
+    </shortcut>
+
+</shortcuts>
+

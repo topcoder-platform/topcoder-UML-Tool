@@ -1,0 +1,7 @@
+<CMConfig>
+    <Config name="com.topcoder.umltool.xmiconverters.poseidon5">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+    </Config>
+</CMConfig>

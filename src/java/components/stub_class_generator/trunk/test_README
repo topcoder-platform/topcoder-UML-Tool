@@ -1,0 +1,1 @@
+Modify the "build.xml" to update the value of "junit", maybe you also need to configure the path for dependencies.

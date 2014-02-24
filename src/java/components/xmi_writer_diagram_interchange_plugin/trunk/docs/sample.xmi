@@ -1,0 +1,36 @@
+<UML:Diagram xmi.id = 'abcd1234' isVisible = 'true' name = 'Main Class Diagram' zoom = '0.9'>
+<UML:GraphElement.position>
+<UML:Point x = '0.0' y = '0.0'/>
+</UML:GraphElement.position>
+<UML:GraphNode.size>
+<UML:Point x = '250.0' y = '250.0'/>
+</UML:GraphNode.size>
+<UML:Diagram.viewport>
+<UML:Point x = '0.0' y = '0.0'/>
+</UML:Diagram.viewport>
+<UML:GraphElement.contained>
+<UML:GraphNode xmi.id = 'abcd1235' isVisible = 'true'>
+<UML:GraphElement.position>
+<UML:Point x = '120.0' y = '30.0'/>
+</UML:GraphElement.position>
+<UML:GraphNode.size>
+<UML:Point x = '40.0' y = '25.0'/>
+</UML:GraphNode.size>
+<UML:DiagramElement.property>
+<UML:Property key = 'font-size' value = '20.0'/>
+</UML:DiagramElement.property>
+<UML:GraphElement.contained>
+<UML:TextElement xmi.id = 'abcd1236' isVisible = 'true'  text = 'Title'/>
+</UML:GraphElement.contained>
+</UML:GraphNode>
+<UML:Ellipse xmi.id = 'abcd1237' isVisible = 'false' radiusX = '22.0' radiusY = '22.0' rotation = '0.0' startAngle = '0.0' endAngle = '6.283185307179586'>
+<UML:Ellipse.center>
+<UML:Point x = '200.0' y = '30.0'/>
+</UML:Ellipse.center>
+<UML:DiagramElement.property>
+<UML:Property key = 'fill' value = '#0000ff'/>
+</UML:DiagramElement.property>
+</UML:Ellipse>
+</UML:GraphElement.contained>
+</UML:Diagram>
+

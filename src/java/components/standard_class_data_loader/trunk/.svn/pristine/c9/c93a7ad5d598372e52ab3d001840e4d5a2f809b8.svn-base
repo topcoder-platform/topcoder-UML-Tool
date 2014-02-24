@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<!-- File containing class data to be loaded -->
+    
+<StandardClassData>
+    <!-- java package -->
+    <Namespace name="System">
+        <!-- nested lang package -->
+        <Namespace name="Collections">
+            
+            <!-- methods are optional though, they can be omitted: -->
+            <Class name="ArrayList" />
+
+            <DataType name="datatype" />
+        </Namespace>    
+    </Namespace>
+    
+    <!-- primitives -->
+    <Primitive name="string" />
+    <Primitive name="long" />
+</StandardClassData>

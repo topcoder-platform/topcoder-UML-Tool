@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<CMConfig>
+         <Config name="com.topcoder.swing.imageexporter">
+         </Config>
+
+         <Config name="ImageManipulationImageExporterProperties">
+         </Config>
+</CMConfig>

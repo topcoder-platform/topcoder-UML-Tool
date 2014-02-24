@@ -1,0 +1,5 @@
+<Interface name="Comparable"> 
+	<Invalid name="compareTo" />
+</Interface>
+
+

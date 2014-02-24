@@ -1,0 +1,73 @@
+UML:Comment 
+    UML:Comment.body
+    UML:ModelElement.namespace
+    UML:ModelElement.name
+UML:Comment 
+    UML:Comment.body
+    UML:ModelElement.namespace
+    UML:ModelElement.name
+    
+UML:Collaboration
+	UML:ModelElement.name
+	UML:Collaboration.collaborationInstanceSet
+		UML:CollaborationInstanceSet
+			UML:CollaborationInstanceSet.participatingInstance
+				UML:Object xmi.idref
+				UML:Object xmi.idref
+				...
+			UML:CollaborationInstanceSet.participatingLink
+				UML:Link
+				UML:Link
+				...
+	UML:Namespace.ownedElement
+		UML:Object 
+			UML:ModelElement.name
+		...
+		UML:Stimulus
+			UML:Stimulus.dispatchAction
+				UML:Procedure
+					UML:Procedure.action
+						UML:CallOperationAction (isAsynchronous="false")
+						OR
+						UML:CallOperationAction (isAsynchronous="true")
+						OR
+						UML:CreateObjectAction
+						OR
+						UML:SendSignalAction
+					OR
+					No action (for return message arrow)
+			UML:Stimulus.communicationLink
+				UML:Link
+					UML:Link.connection
+						UML:LinkEnd
+					UML:Link.stimulus
+						UML:Stimulus xmi.idref
+
+
+
+Graph nodes:
+
+Sequence Diagram:
+
+UML:Diagram
+	UML:GraphElement.contained
+		...
+	UML:Diagram.owner
+		UML:Uml1SemanticModelBridge
+			UML:Uml1SemanticModelBridge.element
+				UML:Collaboration xmi.idref
+
+Lifeline (UML:GraphNode):
+UML:Object
+
+Edge (UML:GraphEdge):
+	UML:SimpleSemanticModelElement="StereotypeCompartment"
+		UML:SimpleSemanticModelElement="StereotypeStart"
+		UML:SimpleSemanticModelElement="Name"
+		UML:SimpleSemanticModelElement="StereotypeEnd"
+	UML:SimpleSemanticModelElement="Name"
+	UML:SimpleSemanticModelElement="Name"
+	UML:SimpleSemanticModelElement="StereotypeCompartment"
+		UML:SimpleSemanticModelElement="StereotypeStart"
+		UML:SimpleSemanticModelElement="Name"
+		UML:SimpleSemanticModelElement="StereotypeEnd"

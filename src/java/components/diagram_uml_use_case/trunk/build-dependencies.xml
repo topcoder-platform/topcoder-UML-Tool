@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="dist" name="Dependency Import">
+    <!--property file defining the component's dependencies-->
+    <!--Properties used in compile_targets ANT target for JDK version x-->
+    <property name="component.target" value="1.5"/>
+    <property name="component.bootclasspath" value="${java_1_5_bootclasspath}"/>
+    <!--TCS dependencies-->
+    <property name="base_exception.jar" value="${tcs_libdir}/base_exception/2.0.0/base_exception.jar"/>
+    <property name="diagram_edges.jar" value="${tcs_libdir}/diagram_edges/1.0.3/diagram_edges.jar"/>
+    <property name="diagram_elements.jar" value="${tcs_libdir}/diagram_elements/1.0.3/diagram_elements.jar"/>
+    <property name="diagram_interchange.jar" value="${tcs_libdir}/diagram_interchange/1.0.1/diagram_interchange.jar"/>
+    <property name="diagram_viewer.jar" value="${tcs_libdir}/diagram_viewer/1.0.0/diagram_viewer.jar"/>
+    <property name="uml_model_-_core.jar" value="${tcs_libdir}/uml_model_-_core/1.0.0/uml_model_-_core.jar"/>
+    <property name="uml_model_-_core_extension_mechanisms.jar" value="${tcs_libdir}/uml_model_-_core_extension_mechanisms/1.0.0/uml_model_-_core_extension_mechanisms.jar"/>
+    <property name="uml_model_-_model_management.jar" value="${tcs_libdir}/uml_model_-_model_management/1.0.0/uml_model_-_model_management.jar"/>
+    <property name="uml_model_-_use_cases.jar" value="${tcs_libdir}/uml_model_-_use_cases/1.0.0/uml_model_-_use_cases.jar"/>
+    <property name="zoom_panel.jar" value="${tcs_libdir}/zoom_panel/1.0.0/zoom_panel.jar"/>
+    <!--3rd party dependencies-->
+    <property name="junit.jar" value="${ext_libdir}/junit/3.8.2/junit.jar"/>
+    <!--Path declarations which are to be used in the master build file.-->
+    <path id="component.tcs-dependencies">
+        <pathelement location="${base_exception.jar}"/>
+        <pathelement location="${diagram_edges.jar}"/>
+        <pathelement location="${diagram_elements.jar}"/>
+        <pathelement location="${diagram_interchange.jar}"/>
+        <pathelement location="${diagram_viewer.jar}"/>
+        <pathelement location="${uml_model_-_core.jar}"/>
+        <pathelement location="${uml_model_-_core_extension_mechanisms.jar}"/>
+        <pathelement location="${uml_model_-_model_management.jar}"/>
+        <pathelement location="${uml_model_-_use_cases.jar}"/>
+        <pathelement location="${zoom_panel.jar}"/>
+    </path>
+    <path id="component.3rdParty-dependencies"/>
+    <path id="component.test.3rdParty-dependencies">
+        <pathelement location="${junit.jar}"/>
+    </path>
+</project>

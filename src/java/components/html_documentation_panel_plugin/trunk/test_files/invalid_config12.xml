@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<CMConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<property name="vsbPolicy">
+		<value>21</value>
+	</property>
+	<property name="hsbPolicy">
+		<value>31</value>
+	</property>
+	<property name="toolBarClass">
+		<value>com.topcoder.gui.panels.documentation.plugins.html.toolbars.DefaultHTMLDocumentationEditorToolBar</value>
+	</property>
+	<property name="XSDPath">
+		<value>test_files/xhtml1-strict.xsd</value>
+	</property>
+	<Config name="toolBarConfig">
+		
+	</Config>
+</CMConfig>

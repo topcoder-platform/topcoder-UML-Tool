@@ -1,0 +1,16 @@
+<CMConfig>
+    <Config name="ToRenameNamesMultiValues">
+        <Property name="ToRenameNames">
+            <Property name="UML2:TypedElement.type">
+                <Value>UML:StructuralFeature.type</Value>
+                <Value>UML:Classifier</Value>
+            </Property>
+            <Property name="UML:Class">
+                <Value>UML:Classifier</Value>
+            </Property>
+            <Property name="UML:DateType">
+                <Value>UML:Classifier</Value>
+            </Property>
+        </Property>
+    </Config>
+</CMConfig>

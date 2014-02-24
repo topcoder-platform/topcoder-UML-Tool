@@ -1,0 +1,16 @@
+<CMConfig>
+  <!-- This is invalid configuration:The constructor of handler can not be accessed-->
+  <Config name="com.topcoder.xmi.reader.XMIReader">
+      
+      <Property name="reuse">
+            <Value>true</Value>
+      </Property>
+
+      <Property name="handlers">
+              <Property name="UML:Class">
+                     <Value>com.topcoder.xmi.reader.handlers.CanNotAccessedCtorHandler</Value>
+              </Property>
+      </Property>
+      
+   </Config> 
+</CMConfig>

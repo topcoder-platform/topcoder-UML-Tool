@@ -1,0 +1,297 @@
+<CMConfig>
+    <Config name="ObjectFactoryNamespaceMissing">
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:xmiheader</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>converters:diagramtitle</Value>
+            </Property>
+        </Property>
+    </Config>
+
+    <Config name="ObjectFactoryNamespaceEmpty">
+        <Property name="ObjectFactoryNamespace">
+            <Value>  </Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:xmiheader</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>converters:diagramtitle</Value>
+            </Property>
+        </Property>
+    </Config>    
+
+    <Config name="ObjectFactoryNamespaceUnknown">
+        <Property name="ObjectFactoryNamespace">
+            <Value>unknown</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:xmiheader</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>converters:diagramtitle</Value>
+            </Property>
+        </Property>
+    </Config>    
+
+    <Config name="EmptyAdditionalHandlerKey">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value> </Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>converters:diagramtitle</Value>
+            </Property>
+        </Property>
+    </Config>    
+
+    <Config name="InvalidAdditionalHandlerKey1">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>invalid</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>converters:diagramtitle</Value>
+            </Property>
+        </Property>
+    </Config>    
+               
+    <Config name="InvalidAdditionalHandlerKey2">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers: </Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>converters:diagramtitle</Value>
+            </Property>
+        </Property>
+    </Config>  
+
+    <Config name="InvalidAdditionalHandlerKey3">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value> :xmiheader</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>converters:diagramtitle</Value>
+            </Property>
+        </Property>
+    </Config>      
+
+    <Config name="InvalidAdditionalHandlerKey4">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:invalid</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>converters:diagramtitle</Value>
+            </Property>
+        </Property>
+    </Config>   
+
+    <Config name="AdditionalHandlerMultiValues">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:xmiheader</Value>
+                <Value>handlers:xmiheader</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>converters:diagramtitle</Value>
+            </Property>
+        </Property>
+    </Config>   
+            
+    <Config name="EmptyConverterKey">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:xmiheader</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value> </Value>
+            </Property>
+        </Property>
+    </Config>    
+
+    <Config name="InvalidConverterKey1">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:xmiheader</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>invalid</Value>
+            </Property>
+        </Property>
+    </Config>    
+               
+    <Config name="InvalidConverterKey2">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:xmiheader</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>converters: </Value>
+            </Property>
+        </Property>
+    </Config>  
+
+    <Config name="InvalidConverterKey3">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:xmiheader</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value> :diagramtitle</Value>
+            </Property>
+        </Property>
+    </Config>      
+
+    <Config name="InvalidConverterKey4">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:xmiheader</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>converters:invalid</Value>
+            </Property>
+        </Property>
+    </Config>   
+
+    <Config name="ConverterMultiValues">
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        <Property name="AdditionalHandlers">
+            <Property name="XMI$header">
+                <Value>handlers:xmiheader</Value>
+            </Property>
+        </Property>
+        <Property name="Converters">
+            <Property name="UML:Diagram">
+                <Value>converters:diagramtitle</Value>
+                <Value>converters:diagramtitle</Value>
+            </Property>
+        </Property>
+    </Config>   
+    <Config name="object_factory_namespace">
+        <Property name="handlers:xmiheader">
+            <Property name="type">
+                <Value>com.topcoder.umltool.xmiconverters.poseidon5.handlers.ZUMLHeaderHandler</Value>
+            </Property>
+            <Property name="params">
+                 <Property name="param1">
+                     <Property name="name">
+                          <Value>acceptableVersions</Value>
+                     </Property>
+                 </Property>
+            </Property>
+        </Property>
+        <Property name="acceptableVersions">
+            <Property name="arrayType">
+                <Value>String</Value>
+            </Property>
+            <Property name="dimension">
+                <Value>1</Value>
+            </Property>
+            <Property name="values">
+                <Value>{"1.4.5", "1.4.6"}</Value>
+            </Property>
+        </Property>
+
+        <!--Here is wrong, it isn't instance of XMIConverter -->
+        <Property name="converters:diagramtitle">
+            <Property name="type">
+                <Value>com.topcoder.umltool.xmiconverters.poseidon5.converters.DiagramTitleConverter</Value>
+            </Property>
+            <Property name="params">
+                 <Property name="param1">
+                     <Property name="type">
+                          <Value>java.lang.String</Value>
+                     </Property>
+                     <Property name="value">
+                          <Value>com.topcoder.umltool.xmiconverters.poseidon5</Value>
+                     </Property>
+                 </Property>
+            </Property>
+        </Property>
+    </Config>
+    
+    <Config name="com.topcoder.umltool.xmiconverters.poseidon5">
+        <!--DiagramTitleConverter's config-->
+        <Property name="ConvertDiagramTitleToTextElement">
+            <Value>true</Value>
+        </Property>
+        <Property name="DefaultTextElementProperties">
+            <Property name="FILL_COLOR">
+                <Value>CCFFCC</Value>
+            </Property>
+            <Property name="FONT_FAMILY">
+                <Value>Arial</Value>
+            </Property>    
+        </Property>
+    </Config>
+</CMConfig>

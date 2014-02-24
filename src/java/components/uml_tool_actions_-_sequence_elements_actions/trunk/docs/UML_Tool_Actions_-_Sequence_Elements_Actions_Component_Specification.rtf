@@ -1,0 +1,776 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff0\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Palatino};}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial{\*\falt Arial};}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New{\*\falt Courier New};}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol{\*\falt Symbol};}
+{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings{\*\falt Wingdings};}{\f37\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Palatino};}{\f38\froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Palatino};}
+{\f40\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Palatino};}{\f41\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Palatino};}{\f42\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Palatino};}
+{\f43\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Palatino};}{\f44\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Palatino};}{\f45\froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Palatino};}
+{\f47\fswiss\fcharset238\fprq2 Arial CE{\*\falt Arial};}{\f48\fswiss\fcharset204\fprq2 Arial Cyr{\*\falt Arial};}{\f50\fswiss\fcharset161\fprq2 Arial Greek{\*\falt Arial};}{\f51\fswiss\fcharset162\fprq2 Arial Tur{\*\falt Arial};}
+{\f52\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew){\*\falt Arial};}{\f53\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic){\*\falt Arial};}{\f54\fswiss\fcharset186\fprq2 Arial Baltic{\*\falt Arial};}
+{\f55\fswiss\fcharset163\fprq2 Arial (Vietnamese){\*\falt Arial};}{\f57\fmodern\fcharset238\fprq1 Courier New CE{\*\falt Courier New};}{\f58\fmodern\fcharset204\fprq1 Courier New Cyr{\*\falt Courier New};}
+{\f60\fmodern\fcharset161\fprq1 Courier New Greek{\*\falt Courier New};}{\f61\fmodern\fcharset162\fprq1 Courier New Tur{\*\falt Courier New};}{\f62\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew){\*\falt Courier New};}
+{\f63\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic){\*\falt Courier New};}{\f64\fmodern\fcharset186\fprq1 Courier New Baltic{\*\falt Courier New};}{\f65\fmodern\fcharset163\fprq1 Courier New (Vietnamese){\*\falt Courier New};}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;
+\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red153\green51\blue0;}{\stylesheet{\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 
+\af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{
+\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 2;}{\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 
+\rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 3;}{\s4\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 4;}{
+\s5\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl4\outlinelevel4\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 
+\f1\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 5;}{\s6\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl5\outlinelevel5\adjustright\rin0\lin0\itap0 
+\rtlch\fcs1 \ai\af1\afs22\alang1025 \ltrch\fcs0 \i\f1\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 6;}{\s7\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl6\outlinelevel6\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 7;}{
+\s8\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl7\outlinelevel7\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 8;}{\s9\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl8\outlinelevel8\adjustright\rin0\lin0\itap0 
+\rtlch\fcs1 \ab\ai\af1\afs18\alang1025 \ltrch\fcs0 \b\i\f1\fs18\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 9;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\*\cs15 \additive \rtlch\fcs1 \af0 
+\ltrch\fcs0 \ul\cf2 \sbasedon10 Hyperlink;}{\s16\ql \li0\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext16 Body Text;}{\s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 
+\i\f1\fs20\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext16 \sautoupd InfoBlue;}{\s18\ql \li0\ri0\widctlpar
+\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af2\afs20\alang1025 \ltrch\fcs0 
+\f2\fs20\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 \sbasedon0 \snext18 \styrsid14431288 HTML Preformatted;}{\*\cs19 \additive \rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i \sbasedon10 \styrsid14431288 Emphasis;}{
+\s20\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 
+\sbasedon0 \snext20 \styrsid10706397 Normal (Web);}{\s21\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs24\alang1025 \ltrch\fcs0 \f1\fs24\cf1\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 \snext21 \styrsid16647119 
+Default;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\listtable{\list\listtemplateid-985754512{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 
+\af0 \ltrch\fcs0 \s1\jclisttab\tx360 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s2\jclisttab\tx0 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s3\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s4\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s5\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s6\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s7\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s8\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \s9\jclisttab\tx0 }{\listname ;}\listid-5}{\list\listtemplateid242779444\listhybrid{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers
+;}\f3\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li7200
+\jclisttab\tx7200\lin7200 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li7920\jclisttab\tx7920\lin7920 }
+{\listname ;}\listid324821381}{\list\listtemplateid-160384884\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080
+\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li1800
+\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li2520
+\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3240
+\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li3960
+\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li4680
+\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li5400
+\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-360\li6120
+\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-180\li6840
+\jclisttab\tx6840\lin6840 }{\listname ;}\listid806357716}{\list\listtemplateid588442780\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2880
+\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li7200\jclisttab\tx7200\lin7200 }{\listname ;}\listid824247619}{\list\listtemplateid932329388\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}
+\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960
+\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid876431865}{\list\listtemplateid60304114\listhybrid{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1500\jclisttab\tx1500\lin1500 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2220\jclisttab\tx2220\lin2220 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2940\jclisttab\tx2940\lin2940 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3660\jclisttab\tx3660\lin3660 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li4380\jclisttab\tx4380\lin4380 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li5100\jclisttab\tx5100\lin5100 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers
+;}\f3\fbias0 \fi-360\li5820\jclisttab\tx5820\lin5820 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6540
+\jclisttab\tx6540\lin6540 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li7260\jclisttab\tx7260\lin7260 }
+{\listname ;}\listid941299886}{\list\listtemplateid1420692624\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}
+\f3\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li7200\jclisttab\tx7200\lin7200 }{\listname ;}\listid978804065}{\list\listtemplateid-86359202\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers
+;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600
+\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid1000892192}{\list\listtemplateid-789175368\listhybrid
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers
+;}\f3\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6480
+\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li7200\jclisttab\tx7200\lin7200 }
+{\listname ;}\listid1229340611}{\list\listtemplateid-1131384698\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}
+\f3\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440
+\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid2076855860}}{\*\listoverridetable{\listoverride\listid-5\listoverridecount9{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat
+\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel
+\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}\ls1}{\listoverride\listid806357716\listoverridecount9{\lfolevel}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel
+\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat
+\levelstartat1}\ls2}{\listoverride\listid876431865\listoverridecount9{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}\ls3}{\listoverride\listid1000892192\listoverridecount0\ls4}
+{\listoverride\listid2076855860\listoverridecount0\ls5}{\listoverride\listid324821381\listoverridecount0\ls6}{\listoverride\listid941299886\listoverridecount0\ls7}{\listoverride\listid1229340611\listoverridecount0\ls8}{\listoverride\listid978804065
+\listoverridecount0\ls9}{\listoverride\listid824247619\listoverridecount0\ls10}}{\*\pgptbl {\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}}{\*\rsidtbl \rsid142023\rsid151317\rsid228014\rsid291302\rsid339018\rsid413021\rsid743117\rsid795609\rsid859920\rsid949051
+\rsid1191717\rsid1192834\rsid1448619\rsid1508791\rsid1578990\rsid1584049\rsid1650620\rsid1661278\rsid1715288\rsid2105647\rsid2194680\rsid2495884\rsid2508487\rsid2649278\rsid2830847\rsid2902886\rsid2974113\rsid3301126\rsid3368217\rsid3551727\rsid3672232
+\rsid3700600\rsid3803596\rsid4488890\rsid4541748\rsid4786611\rsid4854747\rsid5077831\rsid5132889\rsid5312134\rsid5319453\rsid5732998\rsid6121773\rsid6256483\rsid6256956\rsid6503063\rsid6772945\rsid7155252\rsid7165534\rsid7213839\rsid7237669\rsid7359348
+\rsid7365337\rsid7421030\rsid7566947\rsid7684076\rsid7812601\rsid7891806\rsid7948296\rsid8022690\rsid8144861\rsid8145913\rsid8398362\rsid8678877\rsid9397411\rsid9438566\rsid9509888\rsid9584092\rsid9790937\rsid9861307\rsid9909380\rsid10050914\rsid10122124
+\rsid10159006\rsid10369550\rsid10706397\rsid11213828\rsid11431096\rsid11557582\rsid11683622\rsid11743658\rsid11993900\rsid12077134\rsid12269597\rsid12468430\rsid12861041\rsid12990997\rsid13112680\rsid13132929\rsid13267711\rsid13583412\rsid13583938
+\rsid13773737\rsid13784488\rsid14287382\rsid14307820\rsid14426057\rsid14431288\rsid14447540\rsid14619417\rsid14635754\rsid14691147\rsid14709851\rsid14886819\rsid14971324\rsid15012942\rsid15141667\rsid15410824\rsid15475871\rsid15535980\rsid15678218
+\rsid15875669\rsid16328342\rsid16464908\rsid16537706\rsid16647119\rsid16722089}{\*\generator Microsoft Word 11.0.8106;}{\info{\title <<Component>> <<Version>> Component Specification}{\author gpaul}{\operator Thilak & Arun}
+{\creatim\yr2006\mo4\dy25\hr19\min30}{\revtim\yr2006\mo12\dy6\min4}{\version48}{\edmins1771}{\nofpages12}{\nofwords2778}{\nofchars15840}{\*\company TopCoder}{\nofcharsws18581}{\vern24611}{\*\password 00000000}}{\*\xmlnstbl {\xmlns1 http://schemas.microsof
+t.com/office/word/2003/wordml}}\paperw12240\paperh15840\margl1701\margr850\margt1134\margb1134\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\donotembedsysfont0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dgmargin
+\dghspace180\dgvspace180\dghorigin1701\dgvorigin1134\dghshow1\dgvshow1\jexpand\viewkind1\viewscale90\pgbrdrhead\pgbrdrfoot\splytwnine\ftnlytwnine\htmautsp\nolnhtadjtbl\useltbaln\alntblind\lytcalctblwd\lyttblrtgr\lnbrkrule\rsidroot339018 \fet0
+{\*\wgrffmtfilter 013f}\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\endnhere\sectlinegrid360\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar
+\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx720\wrapdefault\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af1\afs28 \ltrch\fcs0 \fs28\ul\insrsid11213828  }{\rtlch\fcs1 \af1\afs28 \ltrch\fcs0 \fs28\ul\insrsid9909380\charrsid9909380 UML Tool Actions - Sequence Elements Actions 1.0}{\rtlch\fcs1 \ab0\af1\afs28 \ltrch\fcs0 
+\b0\fs28\insrsid9909380\charrsid9909380  }{\rtlch\fcs1 \af1\afs28 \ltrch\fcs0 \fs28\ul\insrsid11213828\charrsid9909380 Component Specification
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid14431288 
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid14431288 Design}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14431288\charrsid15012942 
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\widctlpar\wrapdefault\faauto\rin0\lin720\itap0\pararsid16647119 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf1\lang1033\langfe1049\langfenp1049\insrsid16647119\charrsid16647119 
+The Sequence Elements Actions component provides the Actions related to the model elements specific to a sequence diagram. The actions are strategy implementations of the action interfaces in the Action Manager component. The provided actions are for addi
+ng / removing / copying / cutting / pasting the elements and relationships. The element is object. The relationships are }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid14635754\charrsid16647119 creating}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid743117  message, synchronous message, }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid14635754\charrsid743117 asynchronous}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf2\lang1033\langfe1049\langfenp1049\insrsid16647119\charrsid743117  message, return message and send signal message. 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\faauto\rin0\lin720\itap0\pararsid9438566 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid9438566 Class provide sequence diagram for all Add and C}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf1\lang1033\langfe1049\langfenp1049\insrsid3700600 ut}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid9438566  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid9438566\charrsid11431096 
+actions of one model element \endash  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid2974113\charrsid11431096 Object}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid9438566\charrsid11431096 
+. The other actions }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid743117\charrsid11431096 are }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid9438566\charrsid11431096 very similar or }{\rtlch\fcs1 
+\af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid11431096\charrsid11431096 simpler}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid9438566\charrsid11431096  \endash  Paste }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf2\lang1033\langfe1049\langfenp1049\insrsid743117\charrsid11431096 is }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid11431096\charrsid11431096 simpler}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf2\lang1033\langfe1049\langfenp1049\insrsid2974113\charrsid11431096  than A}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid9438566\charrsid11431096 dd because it d}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf2\lang1033\langfe1049\langfenp1049\insrsid743117\charrsid11431096 oesn\rquote }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid9438566\charrsid11431096 t provide applying initial configuration. 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid16647119 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid16647119\charrsid142023 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid3672232\charrsid13132929 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Design Patterns }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14431288\charrsid4541748 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid3368217 None}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid14431288\charrsid3368217 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Industry Standards 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid8022690 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid8022690 UML 1.5
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid413021\charrsid8022690 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.3\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Required Algorithms}{\rtlch\fcs1 \af1 \ltrch\fcs0 \cf2\lang1049\langfe1033\langnp1049\insrsid14431288\charrsid10369550 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf2\insrsid5132889\charrsid10369550 Component has no }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\insrsid14426057\charrsid10369550 some special algorithm. Class}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\insrsid5132889\charrsid10369550 
+ methods contain a lot of code example. This part of specification }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\insrsid15535980\charrsid10369550 provide an }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\insrsid5132889\charrsid10369550 example of add}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid5132889  action }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15535980 and }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid5132889 explanation about deep copying.
+\par 
+\par 1. Simple example of execute() of AddXXXAction. It just shows how to use configuration manager. Note that it just an example and developer may provide some changes to this code. 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15535980 
+\par }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \i\f2\cf13\insrsid5132889\charrsid7155252 //Gettin}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \i\f2\cf13\insrsid7421030 g instance of configuration mena}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \i\f2\cf13\insrsid5132889\charrsid7155252 ger
+
+\par }\pard\plain \ltrpar\s20\ql \li720\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 {\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 ProjectConfigurationManager config = manager.getProjectConfigurationManager();
+\par }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf13\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 //Check if applying formatting run normal}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 
+\i\f2\cf13\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 
+\par }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 try\{}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 
+\par }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 config.applyInitialFormatting(manager.getProjectLanguage(), }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 
+\cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid15535980\charrsid7155252 object}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 );
+\par }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 \line }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 \}
+\par }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 \line }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 
+catch(ProjectConfigurationException ex)\{\~\~\~}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 
+\par }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 throw ActionExecutionException("error message");}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 
+\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 
+\par }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 \}
+\par }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf13\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 //Check if given class instance already present in}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 
+\cs19\i\f2\cf13\lang1033\langfe1049\langnp1033\insrsid15535980\charrsid7155252  collaboration}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \i\f2\cf13\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 
+\par }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 if (check}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid15535980\charrsid7155252 Object}{\rtlch\fcs1 
+\ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 Namespace(}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid15535980\charrsid7155252 object}{\rtlch\fcs1 \ai\af2 
+\ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 ))\{\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~
+\par \~throw ActionExecutionException("error message");
+\par }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 \line }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 \}else\{}{\rtlch\fcs1 \ai\af2 
+\ltrch\fcs0 \i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 
+\par }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 add}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid15535980\charrsid7155252 Object}{\rtlch\fcs1 \ai\af2 
+\ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 To}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid15535980\charrsid7155252 Collaboration}{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 
+\cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 (classElement);
+\par }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 \line }{\rtlch\fcs1 \ai\af2 \ltrch\fcs0 \cs19\i\f2\cf9\lang1033\langfe1049\langnp1033\insrsid5132889\charrsid7155252 \}
+\par }\pard \ltrpar\s20\ql \li720\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15535980 {\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1033\langfe1049\langnp1033\insrsid15535980 
+2. Deep copy means that it should no left any object which reference will be in copy and copied
+ element. For example if you need copy some elements which contain collection you should copy this collection too, etc. Developer need check all components which will be used to find useful access methods. May be some designers provide additional methods 
+for providing copy quickly. Just remember you should copy object and not use reference for it.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cs19\lang1033\langfe1049\langnp1033\insrsid15535980\charrsid15535980 
+\par }\pard\plain \ltrpar\s16\ql \li0\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid3368217\charrsid15535980 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.4\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Component Class Overview
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\lang1049\langfe1033\langnp1049\insrsid5132889\charrsid1448619  CollaborationTransfer
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2902886 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid2902886 This class is used for transporting model elements }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid2902886\charrsid8145913 through}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid2902886  a system clipboard. It contain }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid16328342 7}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid2902886  custom DataFlavor instances \endash  each element has own DataFlavor. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid16328342 
+This is needed for proper creating paste action for different elements. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid2902886 Class also implement interface }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid2902886\charrsid8145913 ClipboardOwner}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid2902886  for providing ability to be owner for elements in clipboard. It has two public constructors for setting different types of data flavors without using instanceof operator.
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid2902886 Class is thread safety because it is immutable.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid2902886\charrsid2508487 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid2902886 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid2902886  Message}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 
+\b\f0\fs24\insrsid7421030\charrsid7421030 Undoable}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid2902886 Action
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2902886 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid2902886 This abstract class extends from }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid2902886\charrsid6503063 AbstractUndoableEdit}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid2902886  and implements }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid2902886\charrsid6503063 UndoableAction}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid2902886 . It is base for all else message }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid7155252 actions (}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888 except copy)}{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid2902886 . It contain two common attributes \endash  Stimulus instance and instance of MessageUtil
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid2902886\charrsid14287382 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid2902886 Class is }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 not }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid2902886 thread safety because it }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 
+extends from mutable class}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid2902886 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid2902886 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412  AddMessageAction
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 This abstract class provides all logic for Add actions for all messages (execute, redo, undo). It extends from Message}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid7421030\charrsid7421030 Undoable}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 Action.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 
+ Provide adding stimulus to the collaboration and applying its initial formatting by using }{\rtlch\fcs1 \ai\af0\afs24 \ltrch\fcs0 \i\f0\fs24\insrsid9509888\charrsid9509888 ProjectConfigurationManager}{\rtlch\fcs1 \ai\af0\afs24 \ltrch\fcs0 
+\i\f0\fs24\insrsid5132889 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583938\charrsid9509888 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412  CutMessageAction
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 
+This abstract class provides all logic for Cut actions for all messages (execute, redo, undo). It extends from Message}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid7421030\charrsid7421030 Undoable}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid13583412 Action.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888  Provide cutting stimulus from collaboration and copying it to clipboard}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583938 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412  RemoveMessageAction
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 
+This abstract class provides all logic for Remove actions for all messages (execute, redo, undo). It extends from Message}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid7421030\charrsid7421030 Undoable}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid13583412 Action.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888  Provide removing stimulus from the collaboration}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid13583412 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1650620 Class}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412  PasteMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 
+\b\f0\fs24\insrsid5132889\charrsid1650620  }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 
+This abstract class provides all logic for Paste actions for all messages (execute, redo, undo). It extends from Message}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid7421030\charrsid7421030 Undoable}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid13583412 Action.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888  Functionality the same as for AddMessageAction but data gets from Transferable object and }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid10159006 
+do not applying initial formatting}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid14709851 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class CopyMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 
+This abstract class provides all logic for Copy actions for all messages (execute) and contains all attributes which are common for them. It realize }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412\charrsid13583412 TransientAction}{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412  interface.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid10159006  Provide copying stimulus to clipboard}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid14709851\charrsid13583412 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf1\insrsid13583412 Class is thread safety because it is immutable.
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class MessageUtil}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid13583412 This class is base for implementation logic of each MessageAction and CopyMessageAction instance. It contains methods which provide ability to encapsulate all operation with collaboration a
+nd clipboard. Its instance contains each action of component.
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid13583412 Class is thread safety because it is immutable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid13583412\charrsid10050914 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class AddAsynchronousMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 This class provides description of this action and validation of message type. It extends from AddMessageAction. All logic encapsulated in its super class.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid5132889 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid13583412 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid14709851\charrsid13583412 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class PasteAsynchronousMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 
+This class provides description of this action and validation of message type. It extends from PasteMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid13583412 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class RemoveAsynchronousMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 
+This class provides description of this action and validation of message type.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888  It extends from RemoveMessage}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 
+Action. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid13583412 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class CutAsynchronousMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 This cl
+ass provides description of this action and validation of message type. It extends from CutMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class CopyAsynchronousMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 
+This class provides description of this action and validation of message type. It extends from CopyMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par Class is thread safety because it is immutable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888\charrsid13583412 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class AddCreateMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 This class provides d
+escription of this action and validation of message type. It extends from AddMessageAction. All logic encapsulated in its super class. 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid13583412 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class PasteCreateMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 This class provides de
+scription of this action and validation of message type. It extends from PasteMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid13583412 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class RemoveCreateMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 This class provides d
+escription of this action and validation of message type. It extends from RemoveMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class CutCreateMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 
+This class provides description of this action and validation of message type. It extends from CutMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class CopyCreateMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 Thi
+s class provides description of this action and validation of message type. It extends from CopyMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par Class is thread safety because it is immutable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888\charrsid13583412 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class AddReturnMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 This class provides desc
+ription of this action and validation of message type. It extends from AddMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid13583412 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class PasteReturnMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 This class provides descri
+ption of this action and validation of message type. It extends from PasteMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid13583412 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class RemoveReturnMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 
+This class provides description of this action and validation of message type. It extends from RemoveMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class CutReturnMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 
+This class provides description of this action and validation of message type. It extends from CutMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class CopyReturnMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 Thi
+s class provides description of this action and validation of message type. It extends from CopyMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par Class is thread safety because it is immutable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888\charrsid13583412 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class AddSendSignalMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 This class provides 
+description of this action and validation of message type. It extends from AddMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid13583412 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class PasteSendSignalMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 This class provide
+s description of this action and validation of message type. It extends from PasteMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid13583412 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class RemoveSendSignalMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid13583412 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 
+This class provides description of this action and validation of message type. It extends from RemoveMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid13583412 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class CutSendSignalMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid5132889 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 
+This class provides description of this action and validation of message type. It extends from CutMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid5132889 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class CopySendSignalMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid5132889 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 
+This class provides description of this action and validation of message type. It extends from CopyMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par Class is thread safety because it is immutable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888\charrsid13583412 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid5132889 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class AddSynchronousMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid5132889 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 
+This class provides description of this action and validation of message type. It extends from AddMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid13583412 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid5132889 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class PasteSynchronousMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid5132889 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid13583412 
+This class provides description of this action and validation of message type. It extends from PasteMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13583412 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid13583412 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid5132889 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class RemoveSynchronousMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid5132889 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 
+This class provides description of this action and validation of message type. It extends from RemoveMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid5132889 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class CutSynchronousMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid5132889 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 
+This class provides description of this action and validation of message type. It extends from CutMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid5132889 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class CopySynchronousMessageAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid5132889 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid9509888 
+This class provides description of this action and validation of message type. It extends from CopyMessageAction. All logic encapsulated in its super class.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 
+\par Class is thread safety because it is immutable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888\charrsid13583412 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid5132889 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class Object}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid7421030\charrsid7421030 Undoable}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 
+\b\f0\fs24\insrsid5132889\charrsid1448619 Action}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid5132889 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 This abstract class extends from }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888\charrsid6503063 AbstractUndoableEdit}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888  and implements }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid9509888\charrsid6503063 UndoableAction}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888 . It is base for all else undoable Object actions (all except copy) and contains their common methods and attributes 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888\charrsid14287382 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid5132889 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class ObjectUtil}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid5132889 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 This class is base for implementation logic of each Object instance action. It contains methods which provide ability to encapsulate all operation with collaboration and clipboard. Its instance contains each Object action.
+
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid9509888 Class is thread safety because it is immutable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888\charrsid10050914 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid9509888 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid5132889 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class AddObjectAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid5132889 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 This c1ass extends from Object}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid7421030\charrsid7421030 Undoable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888 Action and provide functionality to add Object instance to collaboration}{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid9509888 . Also it has ability to use redo and undo of adding. This is also responsible for applying initial formatting by using ProjectConfigurationManager.}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf1\insrsid9509888\charrsid5077831 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid9509888 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid5132889 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class PasteObjectAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid5132889 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid7421030 It extends from Object}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid7421030\charrsid7421030 Undoable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888 Action action. Actually it provides the same functionality as AddObjectActi}{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid1584049 on but it gets data from Transfe}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888 rable instance and do not provide applying initial formatting. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid9509888 
+\par 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid5132889 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class RemoveObjectAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid5132889 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 This c1ass extends from Object}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid7421030\charrsid7421030 Undoable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888 Action and provide functionality to remove Object instance from collaboration}{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid9509888 . Also it has ability to use redo and undo of removing
+\par 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid5132889 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class CutObjectAction}{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid9509888 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 This c1ass extends from Object}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid7421030\charrsid7421030 Undoable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888 Action and provide functionality to cut(copy+remove) Object instance from model
+}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid9509888 . Also it has ability to use redo and undo of cutting
+\par 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14709851 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid14709851 Class is not thread safety because it extends from mutable class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5132889\charrsid9509888 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid5132889\charrsid1448619 Class CopyObjectAction
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9509888 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid9509888 This c1ass provides realization of necessary methods of }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf1\insrsid9509888\charrsid11993900 TransientAction}{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\cf1\insrsid9509888  }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf1\insrsid9509888 interface. Provide copying }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888 Object}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid9509888 
+ instances to clipboard (may be local or system).  This class copy all attributes except dependencies, owned elements and comments. 
+\par 
+\par Class is thread safety because it is immutable.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9509888\charrsid9790937 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid1448619 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid413021\charrsid9509888 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.5\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Component Exception Definitions
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid291302 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 
+\ltrch\fcs0 \b\insrsid291302\charrsid291302 Class SequenceConfigurationException
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15141667 
+This exception may be thrown by any message action if the passed Stimulus contains incorrect action instance. Also it will be thrown when there is a problem with getting proper element from transferable parameter. It may also be thrown for unsupported dat
+a flavor or transferable not containing the correct model element for concrete action.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid291302 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15141667 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\insrsid291302 Class is thread safety because it is immutable.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid291302\charrsid9790937 
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid14431288\charrsid7812601 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.6\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Thread Safety
+\par }\pard\plain \ltrpar\s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14635754 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 
+\i\f1\fs20\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid14635754 Component is }{\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid6772945 not }{\rtlch\fcs1 \ai0\af0\afs24 
+\ltrch\fcs0 \i0\f0\fs24\cf0\insrsid14635754 thread safety}{\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid6772945  because many of its classes are not thread safety. Actually this is not
+ needed because UML Tool provides external thread safety model. }{\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid14635754  }{\rtlch\fcs1 \ai0\af1 \ltrch\fcs0 \i0\cf0\insrsid14635754 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14635754 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid8022690\charrsid8022690 
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid14431288 \hich\af1\dbch\af0\loch\f1 2.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid14431288 Environment Requirements\tab \tab 
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid8022690 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid8022690\charrsid8022690 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 2.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Environment
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid8022690 Java 1.5}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid14431288 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid8022690\charrsid13267711 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 2.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 TopCoder Software Components}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14431288\charrsid16537706 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid8022690 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid8022690\charrsid4854747 Action Manager 1.0
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid8022690 It is the base component for creating actions. It contains interfaces which should be implemented. 
+\par }{\rtlch\fcs1 \ab\af0\afs24 \ltrch\fcs0 \b\f0\fs24\insrsid8022690\charrsid4854747 UML Model Manager 1.0
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid8022690 This component gives ability to get Model and project language.
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\widctlpar\wrapdefault\faauto\rin0\lin720\itap0\pararsid8022690 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 
+\b\cf1\lang1033\langfe1049\langfenp1049\insrsid8022690\charrsid8022690 UML }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf1\lang1033\langfe1049\langfenp1049\insrsid8022690\charrsid4854747 Project Configuration}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 
+\b\cf1\lang1033\langfe1049\langfenp1049\insrsid8022690\charrsid8022690  1.0 }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf1\lang1033\langfe1049\langfenp1049\insrsid8022690\charrsid4854747 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid8022690 This component provide applying of initial formatting for model elements}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid8022690\charrsid142023 
+
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf1\lang1033\langfe1049\langfenp1049\insrsid5132889\charrsid142023 UML Model - Common Behavior 1.0}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf1\lang1033\langfe1049\langfenp1049\insrsid5132889\charrsid14971324 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid14971324 Represent Link, Stimulus and Procedure interfaces and their default realization}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf1\lang1033\langfe1049\langfenp1049\insrsid14971324\charrsid14971324 
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf1\lang1033\langfe1049\langfenp1049\insrsid5132889\charrsid142023 UML Model - Collaborations 1.0}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf1\lang1033\langfe1049\langfenp1049\insrsid5132889\charrsid14971324 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid14971324 Represent interfaces }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid14971324\charrsid14971324 CollaborationInstanceSet}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid14971324  and Collaboration and also their default realization.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid14971324\charrsid14971324 
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf1\lang1033\langfe1049\langfenp1049\insrsid5132889\charrsid142023 UML Model - Actions 1.0}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf1\lang1033\langfe1049\langfenp1049\insrsid5132889\charrsid14971324 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14971324 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\lang1033\langfe1049\langfenp1049\insrsid14971324\charrsid14971324 Represent all actions instances \endash  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid14971324\charrsid14971324 CreateObjectAction, }{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\cf1\insrsid14971324\charrsid14971324 CallOperationAction, SendSignalAction }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\cf1\insrsid14971324 and their default implementation.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\cf1\insrsid14971324\charrsid14971324 
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\widctlpar\wrapdefault\faauto\rin0\lin720\itap0\pararsid5132889 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 
+\b\cf1\lang1033\langfe1049\langfenp1049\insrsid5132889\charrsid142023 UML Model - Core Classifiers 1.0}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf1\lang1033\langfe1049\langfenp1049\insrsid5132889\charrsid14971324 
+\par }\pard \ltrpar\ql \li720\ri0\sa120\widctlpar\wrapdefault\faauto\rin0\lin720\itap0\pararsid14971324 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid14971324 
+This component represents Namespace interface and its default implementation. Also this component is needed to find all attributes of model elements
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf1\lang1033\langfe1049\langfenp1049\insrsid14971324\charrsid7891806 Base Exception 1.0
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid14971324 This component is basic of all custom exceptions in this component.
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf2\lang1033\langfe1049\langfenp1049\insrsid14971324\charrsid3301126 Logging Wrapper 1.}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\cf2\lang1033\langfe1049\langfenp1049\insrsid3301126\charrsid3301126 2}{\rtlch\fcs1 \ab\af0 
+\ltrch\fcs0 \b\cf2\lang1033\langfe1049\langfenp1049\insrsid14971324\charrsid3301126 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid14971324 This component uses by redo() and undo() methods of actions for logging errors which may occur in execution process. Also it is used by }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf1\lang1033\langfe1049\langfenp1049\insrsid7684076 Collaboration Transfer}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf1\lang1033\langfe1049\langfenp1049\insrsid14971324 .
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \b\cf2\lang1033\langfe1049\langfenp1049\insrsid11431096\charrsid11431096 Type Safe Enum 1.0}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid11431096\charrsid11431096  }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid11431096 
+\par T}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid11431096\charrsid11431096 his is an indirect dependency of Logging wrapper.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\lang1033\langfe1049\langfenp1049\insrsid14971324\charrsid11431096 
+
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid14886819\charrsid16647119 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 2.3\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Third Party Components
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid5732998 None}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid16722089\charrsid2105647 
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid14431288 \hich\af1\dbch\af0\loch\f1 3.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid14431288 Installation and Configuration
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \f1\fs20\insrsid14431288 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 3.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Package Name
+\par }\pard\plain \ltrpar\ql \li720\ri0\sa120\widctlpar\wrapdefault\faauto\rin0\lin720\itap0\pararsid16647119 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf1\lang1033\langfe1049\langfenp1049\insrsid16647119\charrsid16647119 com.topcoder.uml.actions.model.sequence 
+\par }\pard \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid16647119 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid14431288\charrsid16537706 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 3.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Configuration Parameters
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid5732998 None}{\rtlch\fcs1 \af1 \ltrch\fcs0 \lbr3\insrsid14431288 \line }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14431288 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 3.3\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Dependencies Configuration
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5732998 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf2\insrsid1584049\charrsid7684076 Logging Wrapper 1.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\insrsid6256483\charrsid7684076 2}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\insrsid5732998\charrsid7684076 
+ is needed to be configured. For more detail see its component specification
+\par }\pard \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid14431288\charrsid4488890 
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid14431288 \hich\af1\dbch\af0\loch\f1 4.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid14431288 Usage Notes
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9397411 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid9397411\charrsid9397411 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 4.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid9397411 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Required steps to test the component
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0 \ltrch\fcs0 \f3\insrsid14431288\charrsid8022690 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ltrpar\s16\ql \fi-360\li720\ri0\sa120\nowidctlpar
+\jclisttab\tx720\wrapdefault\faauto\ls5\rin0\lin720\itap0\pararsid14431288 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid14431288\charrsid8022690 Extract the component distribution.
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0 \ltrch\fcs0 \f3\insrsid14431288\charrsid8022690 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Follow Dependencies Configuration.
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0 \ltrch\fcs0 \f3\insrsid14431288\charrsid8022690 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Execute \lquote ant test\rquote  within the directory that the distribution was extracted to.
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid14431288\charrsid4488890 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 4.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid16722089 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Required steps to use the component
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid14431288\charrsid8022690 There are no some special requirements for running this component
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16722089\charrsid8398362 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\insrsid14431288 \hich\af1\dbch\af0\loch\f1 4.3\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14431288 Demo
+\par }\pard\plain \ltrpar\s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2902886 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 
+\i\f1\fs20\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid2902886 This demo will be provided just for }{\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid5319453 Object}{
+\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid2902886  actions. Working with all other model elements are }{\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid2902886\charrsid7365337 practically the same}{\rtlch\fcs1 
+\ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid2902886 . This component can not have own scenario of running it used by the other component which define its behavior. It just simple example when user at first add component }{\rtlch\fcs1 \ai0\af0\afs24 
+\ltrch\fcs0 \i0\f0\fs24\cf0\insrsid8678877 object}{\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid2902886 , then press undo, then press redo, then copy it and paste into new }{\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 
+\i0\f0\fs24\cf0\insrsid8678877 collaboration}{\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid2902886 . Now it has two classes \endash  he delete }{\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid8678877 object}{\rtlch\fcs1 
+\ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid2902886  from }{\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid8678877 collaboration }{\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid2902886 and then cut and paste into }{
+\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid8678877 collaboration}{\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid2902886  }{\rtlch\fcs1 \ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid8678877 (namespace). }{\rtlch\fcs1 
+\ai0\af0\afs24 \ltrch\fcs0 \i0\f0\fs24\cf0\insrsid2902886 The next code shows how to realize such user actions: 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2902886 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 /*}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252  and }{
+\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 Collaboration}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 
+ instances will be received from graphical part of UML Tool. For this demo image that we already have }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf13\insrsid2902886\charrsid7155252  instance \endash  }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 , and one }{
+\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 Collaboration \endash  collaboration}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 ; also we have default UMLModelManager - manager */
+
+\par }\pard \ltrpar\s16\ql \fi720\li0\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid2902886 {\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 // let\rquote s create first add action 
+
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 Add}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 
+Action add}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252  = new Add}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 Action(}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 object, collaboration, manager}{
+\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 );
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 //Note that it was just creation and }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 object }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf13\insrsid2902886\charrsid7155252 don\rquote t added to }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 collaboration}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 add}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 
+.execute();
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 //After execution }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf13\insrsid2902886\charrsid7155252  was add}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 ed}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252  to }{\rtlch\fcs1 \af2\afs24 
+\ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 collaboration}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 
+\par //Now we can use undo and redo actions
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 add}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 
+.undo();
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 //As a result }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf13\insrsid2902886\charrsid7155252  }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 was }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 deleted from }{\rtlch\fcs1 \af2\afs24 
+\ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 collaboration}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 addObject}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 .redo();
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 //As a result }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 object was added to collaboration}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf13\insrsid2902886\charrsid7155252  again
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2902886 {\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 /*Now let copy }{\rtlch\fcs1 \af2\afs24 
+\ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 object to clipboard}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 , for this target we should create copy action and execute it. */
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 Copy}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 
+Action copy}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252  = new Copy}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 Action(}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 object}{\rtlch\fcs1 \af2\afs24 
+\ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 );
+\par copy}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 .execute();
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 /*Now }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252 we create new object and put it to clipboard. Now let\rquote s g
+et it. For this target we should use paste action. Note that user may do it whenever he wants. This component can not control this. It just }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid228014\charrsid7155252 takes}{\rtlch\fcs1 \af2\afs24 
+\ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252  transferable from clipboard and put it into collaboration}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid228014 . Component may define which paste action}{\rtlch\fcs1 \af2\afs24 
+\ltrch\fcs0 \f2\fs24\cf13\insrsid8678877\charrsid7155252  }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid228014 should be created by using methods of transferable}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 
+*/}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886 
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid228014\charrsid228014 Transferable trans = clipboard.getContents(null);
+\par if(trans.isDataFlavorSupported(CollaborationTransfer.OBJETC_FLAVOR)) \{
+\par }\pard \ltrpar\s16\ql \fi720\li0\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid2902886 {\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 Paste}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 Action paste}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 
+\ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252  = new Paste}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 ObjectAction(transferable, collaboration}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf9\insrsid2902886\charrsid7155252 );
+\par paste}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 .execute();}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid228014 \}}{
+\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid228014 {\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid228014 else\{
+\par }\pard \ltrpar\s16\ql \fi720\li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid228014 {\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf17\insrsid228014\charrsid228014 //Provide some exception logic}{
+\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid228014 \line \}}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid228014\charrsid7155252 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2902886 {\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 /*}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf13\insrsid8678877\charrsid7155252 Now we have two }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid12861041\charrsid7155252 object in given collaboration.}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf13\insrsid8678877\charrsid7155252  }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid12861041\charrsid7155252 We can get a list of object in collaboration by using accessors by its model component. Let second be object1. Let\rquote 
+s remove it}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 */
+\par }\pard \ltrpar\s16\ql \fi720\li0\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid2902886 {\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 Remove}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 Action remove}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 
+\af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252  = new Remove}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 Action(
+}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid12861041\charrsid7155252 object1}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 );
+\par remove}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid12861041\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 .execute();
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid2902886\charrsid7155252 //we just deletes }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid12861041\charrsid7155252 objetc1}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf13\insrsid2902886\charrsid7155252 .
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf13\insrsid12861041\charrsid7155252 //Let now cut and pastes first Object instance \endash  object to new collaboration \endash  collaboration1
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 Cut}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 
+Action cut}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid12861041\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252  = new Cut}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 Action(}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid12861041\charrsid7155252 object}{\rtlch\fcs1 \af2\afs24 
+\ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 );
+\par cut}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 .execute();
+\par paste}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252  = new Paste}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 
+\f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 Action(transferable,}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid12861041\charrsid7155252  collaboration1}{
+\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 );
+\par paste}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid8678877\charrsid7155252 Object}{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf9\insrsid2902886\charrsid7155252 .execute();
+\par }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf17\insrsid2902886\charrsid7155252 // }{\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf17\insrsid12861041\charrsid7155252 now we have this object in collaboration1. It is not more in collaboration}{
+\rtlch\fcs1 \af2\afs24 \ltrch\fcs0 \f2\fs24\cf17\insrsid2902886\charrsid7155252 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2902886 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid2902886\charrsid2902886 
+\par }\pard\plain \ltrpar\s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 
+\i\f1\fs20\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ai0\af1 \ltrch\fcs0 \i0\cf0\insrsid14431288\charrsid16722089 
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid14431288 \hich\af1\dbch\af0\loch\f1 5.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0\pararsid14431288 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid14431288 Future Enhancements
+\par }\pard \ltrpar\s1\ql \li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin720\itap0\pararsid11743658 {\rtlch\fcs1 \ab0\af0 \ltrch\fcs0 \b0\f0\insrsid3368217 None}{\rtlch\fcs1 \ab0\af0 
+\ltrch\fcs0 \b0\f0\insrsid11743658\charrsid6256956 
+\par }\pard \ltrpar\s1\ql \li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin720\itap0\pararsid16647119 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid11213828\charrsid11743658 
+\par }}

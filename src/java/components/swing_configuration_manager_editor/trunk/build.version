@@ -1,0 +1,9 @@
+#property file defining the components information
+component.name=SWING Configuration Manager Editor
+component.distfilename=swing_configuration_manager_editor
+component.package=com.topcoder.gui.configurationmanager
+component.packagedir=com/topcoder/gui/configurationmanager
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<CMConfig>
+
+  <Config name="com.topcoder.swing.print.PrintManager">
+    <Property name="objectFactoryNamespace">
+       <Value>com.topcoder.swing.print.PrintManager.objectfactory</Value>
+    </Property>
+    <Property name="componentVisibleMaker">
+       <Value>DefaultComponentVisibleMaker</Value>
+    </Property>
+    <Property name="printFormatRetriever">
+       <Value>DefaultPrintFormatRetriever</Value>
+    </Property>
+    <Property name="hasPrintDialog">
+       <Value>true</Value>
+    </Property>
+  </Config>
+
+  <Config name="com.topcoder.swing.print.PrintManager.missing.objectFactoryNamespace">
+    <Property name="componentVisibleMaker">
+       <Value>DefaultComponentVisibleMaker</Value>
+    </Property>
+    <Property name="printFormatRetriever">
+       <Value>DefaultPrintFormatRetriever</Value>
+    </Property>
+    <Property name="hasPrintDialog">
+       <Value>true</Value>
+    </Property>
+  </Config>
+
+  <Config name="com.topcoder.swing.print.PrintManager.wrongObjectfactory1">
+    <Property name="objectFactoryNamespace">
+       <Value>com.topcoder.swing.print.PrintManager.object_factory1</Value>
+    </Property>
+    <Property name="componentVisibleMaker">
+       <Value>DefaultComponentVisibleMaker</Value>
+    </Property>
+    <Property name="printFormatRetriever">
+       <Value>DefaultPrintFormatRetriever</Value>
+    </Property>
+    <Property name="hasPrintDialog">
+       <Value>true</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.swing.print.PrintManager.wrongObjectfactory2">
+    <Property name="objectFactoryNamespace">
+       <Value>com.topcoder.swing.print.PrintManager.object_factory2</Value>
+    </Property>
+    <Property name="componentVisibleMaker">
+       <Value>DefaultComponentVisibleMaker</Value>
+    </Property>
+    <Property name="printFormatRetriever">
+       <Value>DefaultPrintFormatRetriever</Value>
+    </Property>
+    <Property name="hasPrintDialog">
+       <Value>true</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.swing.print.PrintManager.missing.componentVisibleMaker">
+    <Property name="objectFactoryNamespace">
+       <Value>com.topcoder.swing.print.PrintManager.objectfactory</Value>
+    </Property>
+    <Property name="printFormatRetriever">
+       <Value>DefaultPrintFormatRetriever</Value>
+    </Property>
+    <Property name="hasPrintDialog">
+       <Value>true</Value>
+    </Property>
+  </Config>
+
+
+  <Config name="com.topcoder.swing.print.PrintManager.missing.printFormatRetriever">
+    <Property name="objectFactoryNamespace">
+       <Value>com.topcoder.swing.print.PrintManager.objectfactory</Value>
+    </Property>
+    <Property name="componentVisibleMaker">
+       <Value>DefaultComponentVisibleMaker</Value>
+    </Property>
+    <Property name="hasPrintDialog">
+       <Value>true</Value>
+    </Property>
+  </Config>
+
+
+  <Config name="com.topcoder.swing.print.PrintManager.true">
+    <Property name="objectFactoryNamespace">
+       <Value>com.topcoder.swing.print.PrintManager.objectfactory</Value>
+    </Property>
+    <Property name="componentVisibleMaker">
+       <Value>DefaultComponentVisibleMaker</Value>
+    </Property>
+    <Property name="printFormatRetriever">
+       <Value>DefaultPrintFormatRetriever</Value>
+    </Property>
+    <Property name="hasPrintDialog">
+       <Value>trUe</Value>
+    </Property>
+  </Config>
+
+
+  <Config name="com.topcoder.swing.print.PrintManager.false">
+    <Property name="objectFactoryNamespace">
+       <Value>com.topcoder.swing.print.PrintManager.objectfactory</Value>
+    </Property>
+    <Property name="componentVisibleMaker">
+       <Value>DefaultComponentVisibleMaker</Value>
+    </Property>
+    <Property name="printFormatRetriever">
+       <Value>DefaultPrintFormatRetriever</Value>
+    </Property>
+    <Property name="hasPrintDialog">
+       <Value>faLse</Value>
+    </Property>
+  </Config>
+
+  <Config name="com.topcoder.swing.print.PrintManager.missingBoolean">
+    <Property name="objectFactoryNamespace">
+       <Value>com.topcoder.swing.print.PrintManager.objectfactory</Value>
+    </Property>
+    <Property name="componentVisibleMaker">
+       <Value>DefaultComponentVisibleMaker</Value>
+    </Property>
+    <Property name="printFormatRetriever">
+       <Value>DefaultPrintFormatRetriever</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.swing.print.PrintManager.emptyBoolean">
+    <Property name="objectFactoryNamespace">
+       <Value>com.topcoder.swing.print.PrintManager.objectfactory</Value>
+    </Property>
+    <Property name="componentVisibleMaker">
+       <Value>DefaultComponentVisibleMaker</Value>
+    </Property>
+    <Property name="printFormatRetriever">
+       <Value>DefaultPrintFormatRetriever</Value>
+    </Property>
+    <Property name="hasPrintDialog">
+       <Value> </Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.swing.print.PrintManager.wrongBoolean">
+    <Property name="objectFactoryNamespace">
+       <Value>com.topcoder.swing.print.PrintManager.objectfactory</Value>
+    </Property>
+    <Property name="componentVisibleMaker">
+       <Value>DefaultComponentVisibleMaker</Value>
+    </Property>
+    <Property name="printFormatRetriever">
+       <Value>DefaultPrintFormatRetriever</Value>
+    </Property>
+    <Property name="hasPrintDialog">
+       <Value>kkkk</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.swing.print.PrintManager.objectfactory">
+      <Property name="DefaultComponentVisibleMaker">
+      <Property name="type">
+        <Value>com.topcoder.swing.print.impl.DefaultComponentVisibleMaker</Value>
+      </Property>
+    </Property>
+    <Property name="DefaultPrintFormatRetriever">
+      <Property name="type">
+        <Value>com.topcoder.swing.print.impl.DefaultPrintFormatRetriever</Value>
+      </Property>
+    </Property>
+  </Config>
+
+   <Config name="com.topcoder.swing.print.PrintManager.object_factory1">
+      <Property name="DefaultComponentVisibleMaker">
+      <Property name="type">
+        <Value>Object</Value>
+      </Property>
+    </Property>
+    <Property name="DefaultPrintFormatRetriever">
+      <Property name="type">
+        <Value>com.topcoder.swing.print.impl.DefaultPrintFormatRetriever</Value>
+      </Property>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.swing.print.PrintManager.object_factory2">
+      <Property name="DefaultComponentVisibleMaker">
+      <Property name="type">
+        <Value>com.topcoder.swing.print.impl.DefaultComponentVisibleMaker</Value>
+      </Property>
+    </Property>
+    <Property name="DefaultPrintFormatRetriever">
+      <Property name="type">
+        <Value>Object</Value>
+      </Property>
+    </Property>
+  </Config>
+</CMConfig>

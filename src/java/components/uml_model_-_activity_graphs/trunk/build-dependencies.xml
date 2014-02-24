@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="dist" name="Dependency Import">
+    <!--property file defining the component's dependencies-->
+    <!--Properties used in compile_targets ANT target for JDK version x-->
+    <property name="component.target" value="1.5"/>
+    <property name="component.bootclasspath" value="${java_1_5_bootclasspath}"/>
+    <!--TCS dependencies-->
+    <property name="uml_model_-_core.jar" value="${tcs_libdir}/uml_model_-_core/1.0.0/uml_model_-_core.jar"/>
+    <property name="uml_model_-_core_auxiliary_elements.jar" value="${tcs_libdir}/uml_model_-_core_auxiliary_elements/1.0.0/uml_model_-_core_auxiliary_elements.jar"/>
+    <property name="uml_model_-_core_classifiers.jar" value="${tcs_libdir}/uml_model_-_core_classifiers/1.0.0/uml_model_-_core_classifiers.jar"/>
+    <property name="uml_model_-_state_machines.jar" value="${tcs_libdir}/uml_model_-_state_machines/1.0.0/uml_model_-_state_machines.jar"/>
+    <!--3rd party dependencies-->
+    <property name="junit.jar" value="${ext_libdir}/junit/3.8.2/junit.jar"/>
+    <!--Path declarations which are to be used in the master build file.-->
+    <path id="component.tcs-dependencies">
+        <pathelement location="${uml_model_-_core.jar}"/>
+        <pathelement location="${uml_model_-_core_auxiliary_elements.jar}"/>
+        <pathelement location="${uml_model_-_core_classifiers.jar}"/>
+        <pathelement location="${uml_model_-_state_machines.jar}"/>
+    </path>
+    <path id="component.3rdParty-dependencies"/>
+    <path id="component.test.3rdParty-dependencies">
+        <pathelement location="${junit.jar}"/>
+    </path>
+</project>

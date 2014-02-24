@@ -1,0 +1,976 @@
+<?xml version="1.0" ?>
+<CMConfig>
+    <Config name="FailureNamespace">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    <Config name="ofNamespace">
+        <Property name="selector:default">
+            <Property name="type">
+                <Value>com.topcoder.gui.closabletabbedpane.activetabselector.DirectionalActiveTabSelector</Value>
+            </Property>
+            <Property name="params">
+				<Property name="param1">
+					<Property name="type">
+						<Value>boolean</Value>
+					</Property>
+					<Property name="value">
+						<Value>true</Value>
+					</Property>
+				</Property>        
+            </Property>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace1">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace_notexist</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace2">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value> </Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace3">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector_notexist</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace4">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value> </Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace5">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>not_exist</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace6">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value> </Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace8">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value> </Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace10">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value> </Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace12">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value> </Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace14">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value> </Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace15">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>invalid</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace16">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value> </Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace17">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>-1</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace18">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>invalid</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace19">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value> </Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace20">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>-1</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace21">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value> </Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace22">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>invalid</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace23">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value> </Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace24">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>-7</Value>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace25">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace1</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    <Config name="ofNamespace1">
+        <Property name="selector:default">
+            <Property name="type">
+                <Value>com.topcoder.gui.closabletabbedpane.activetabselector.invalid</Value>
+            </Property>
+            <Property name="params">
+				<Property name="param1">
+					<Property name="type">
+						<Value>boolean</Value>
+					</Property>
+					<Property name="value">
+						<Value>true</Value>
+					</Property>
+				</Property>        
+            </Property>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace26">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace2</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    <Config name="ofNamespace2">
+        <Property name="selector:default">
+            <Property name="type">
+                <Value>com.topcoder.gui.closabletabbedpane.activetabselector.DirectionalActiveTabSelector</Value>
+            </Property>
+            
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace27">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace3</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    <Config name="ofNamespace3">
+        <Property name="selector:default">
+            <Property name="type">
+                <Value>com.topcoder.gui.closabletabbedpane.activetabselector.DirectionalActiveTabSelector</Value>
+            </Property>
+            <Property name="params">
+				<Property name="param1">
+					<Property name="type">
+						<Value>invalid</Value>
+					</Property>
+					<Property name="value">
+						<Value>true</Value>
+					</Property>
+				</Property>        
+            </Property>
+        </Property>
+    </Config>
+    
+    <Config name="FailureNamespace28">
+        <Property name="config_manager_specification_factory_namespace">
+            <Value>ofNamespace4</Value>
+        </Property>
+        <Property name="active_tab_selector_key">
+            <Value>selector</Value>
+        </Property>
+        <Property name="active_tab_selector_identifier">
+            <Value>default</Value>
+        </Property>
+        <Property name="active_tab_hovered">
+            <Value>test_files/failuretests1.gif</Value>
+        </Property>
+        <Property name="active_tab_not_hovered">
+            <Value>test_files/failuretests2.gif</Value>
+        </Property>
+        <Property name="inactive_tab_hovered">
+            <Value>test_files/failuretests3.gif</Value>
+        </Property>
+        <Property name="inactive_tab_not_hovered">
+            <Value>test_files/failuretests4.gif</Value>
+        </Property>
+        <Property name="close_button_padding_right">
+            <Value>5</Value>
+        </Property>
+        <Property name="close_button_padding_top">
+            <Value>4</Value>
+        </Property>
+        <Property name="interior_border_color">
+            <Value>#4FAE52</Value>
+        </Property>
+        <Property name="interior_border_width">
+            <Value>7</Value>
+        </Property>
+    </Config>
+    <Config name="ofNamespace4">
+        <Property name="selector:default">
+            <Property name="type">
+                <Value>com.topcoder.gui.closabletabbedpane.activetabselector.DirectionalActiveTabSelector</Value>
+            </Property>
+            <Property name="params">
+				<Property name="param1">
+					<Property name="type">
+						<Value>boolean</Value>
+					</Property>
+					
+				</Property>        
+            </Property>
+        </Property>
+    </Config>
+</CMConfig>

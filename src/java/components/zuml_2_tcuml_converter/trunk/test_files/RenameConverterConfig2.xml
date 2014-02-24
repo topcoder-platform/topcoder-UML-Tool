@@ -1,0 +1,14 @@
+<CMConfig>
+    <Config name="com.topcoder.umltool.xmiconverters.poseidon5">
+        <Property name="ToRenameNames">
+            <Property name="UML2:TypedElement.type    ">
+            </Property>
+            <Property name="UML:Class   ">
+                <Value>UML:Classifier   </Value>
+            </Property>
+            <Property name="UML:DateType   ">
+                <Value>   </Value>
+            </Property>
+        </Property>
+    </Config>
+</CMConfig>

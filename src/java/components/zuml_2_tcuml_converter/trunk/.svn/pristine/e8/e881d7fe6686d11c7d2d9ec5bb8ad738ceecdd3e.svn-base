@@ -1,0 +1,9 @@
+<CMConfig>
+    <Config name="com.topcoder.umltool.xmiconverters.poseidon5">
+        <Property name="ToRenameNames">
+            <Property name="UML:GraphNode$size">
+                <Value>UML:GraphNode</Value>
+            </Property>
+        </Property>
+    </Config>
+</CMConfig>

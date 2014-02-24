@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="dist" name="Dependency Import">
+    <!--property file defining the component's dependencies-->
+    <!--Properties used in compile_targets ANT target for JDK version x-->
+    <property name="component.target" value="1.5"/>
+    <property name="component.bootclasspath" value="${java_1_5_bootclasspath}"/>
+    <!--TCS dependencies-->
+    <property name="action_manager.jar" value="${tcs_libdir}/action_manager/1.0.0/action_manager.jar"/>
+    <property name="base_exception.jar" value="${tcs_libdir}/base_exception/2.0.0/base_exception.jar"/>
+    <property name="diagram_interchange.jar" value="${tcs_libdir}/diagram_interchange/1.0.1/diagram_interchange.jar"/>
+    <property name="uml_model_-_core.jar" value="${tcs_libdir}/uml_model_-_core/1.0.0/uml_model_-_core.jar"/>
+    <property name="uml_project_configuration.jar" value="${tcs_libdir}/uml_project_configuration/1.0.0/uml_project_configuration.jar"/>
+    <property name="uml_tool_actions_-_diagram_elements_add_actions.jar" value="${tcs_libdir}/uml_tool_actions_-_diagram_elements_add_actions/1.0.0/uml_tool_actions_-_diagram_elements_add_actions.jar"/>
+    <!--3rd party dependencies-->
+    <property name="junit.jar" value="${ext_libdir}/junit/3.8.2/junit.jar"/>
+    <!--Path declarations which are to be used in the master build file.-->
+    <path id="component.tcs-dependencies">
+        <pathelement location="${action_manager.jar}"/>
+        <pathelement location="${base_exception.jar}"/>
+        <pathelement location="${diagram_interchange.jar}"/>
+        <pathelement location="${uml_model_-_core.jar}"/>
+        <pathelement location="${uml_project_configuration.jar}"/>
+        <pathelement location="${uml_tool_actions_-_diagram_elements_add_actions.jar}"/>
+    </path>
+    <path id="component.3rdParty-dependencies"/>
+    <path id="component.test.3rdParty-dependencies">
+        <pathelement location="${junit.jar}"/>
+    </path>
+</project>

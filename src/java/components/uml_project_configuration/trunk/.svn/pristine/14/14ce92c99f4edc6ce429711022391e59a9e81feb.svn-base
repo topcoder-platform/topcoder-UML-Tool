@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<CMConfig>
+    <Property name="exceptionStereotypeName">
+        <Value>exception</Value>
+    </Property>
+	  <Property name="enumStereotypeName">
+	      <Value>enum</Value>
+	  </Property>
+	  <Property name="createStereotypeName">
+	      <Value>create</Value>
+	  </Property>
+	  <Property name="stringClassName">
+	      <Value>String</Value>
+	  </Property>
+	  	  <Property name="enumClassName">
+	      <Value>Enum</Value>
+	  </Property>
+	  <Property name="throwableClassName">
+	      <Value>Throwable</Value>
+	  </Property>
+	  <Property name="exceptionClassName">
+	      <Value>Exception</Value>
+	  </Property>
+	  <Property name="serializationInfoClassName">
+	      <Value>SerializationInfo</Value>
+	  </Property>
+	  <Property name="streamingContextClassName">
+	      <Value>StreamingContext</Value>
+	  </Property>
+	  <Property name="operationStereotypeBaseClass">
+	      <Value>operation</Value>
+	  </Property>
+</CMConfig>

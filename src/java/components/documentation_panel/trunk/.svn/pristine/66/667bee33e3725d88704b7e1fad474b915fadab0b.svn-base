@@ -1,0 +1,308 @@
+<CMConfig>
+    <!-- TYPES contains empty value, invalid  -->
+    <Config name="tagOptions_invalid_1">
+        <Property name="TYPES">
+		    <Value>GLOBAL</Value>
+		    <Value>com.topcoder.model.uml.core.OperationImpl</Value>
+		    <Value>com.topcoder.model.uml.core.classifiers.ClassImpl</Value>
+		    <Value></Value>
+		</Property>
+        
+        <Property name="GLOBAL">
+            <Property name="options">
+                <Value>see</Value>
+                <Value>since</Value>
+                <Value>deprecated</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.model.uml.core.OperationImpl">
+            <Property name="options">
+                <Value>throws</Value>
+                <Value>exception</Value>
+            </Property>
+            
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.model.uml.core.classifiers.ClassImpl">
+            <Property name="options">
+                <Value>author</Value>
+                <Value>version</Value>
+            </Property>
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+    </Config>
+
+    <!-- GLOBAL contains empty value, invalid  -->
+    <Config name="tagOptions_invalid_2">
+        <Property name="TYPES">
+		    <Value>GLOBAL</Value>
+		    <Value>com.topcoder.model.uml.core.OperationImpl</Value>
+		    <Value>com.topcoder.model.uml.core.classifiers.ClassImpl</Value>
+		</Property>
+        
+        <Property name="GLOBAL">
+            <Property name="options">
+                <Value>see</Value>
+                <Value>since</Value>
+                <Value>deprecated</Value>
+                <Value> </Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.model.uml.core.OperationImpl">
+            <Property name="options">
+                <Value>throws</Value>
+                <Value>exception</Value>
+            </Property>
+            
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.model.uml.core.classifiers.ClassImpl">
+            <Property name="options">
+                <Value>author</Value>
+                <Value>version</Value>
+            </Property>
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+    </Config>
+    
+    <!-- Operation links to an empty type, invalid  -->
+    <Config name="tagOptions_invalid_3">
+        <Property name="TYPES">
+		    <Value>GLOBAL</Value>
+		    <Value>com.topcoder.model.uml.core.OperationImpl</Value>
+		    <Value>com.topcoder.model.uml.core.classifiers.ClassImpl</Value>
+		</Property>
+        
+        <Property name="GLOBAL">
+            <Property name="options">
+                <Value>see</Value>
+                <Value>since</Value>
+                <Value>deprecated</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.model.uml.core.OperationImpl">
+            <Property name="options">
+                <Value>throws</Value>
+                <Value>exception</Value>
+            </Property>
+            
+            <Property name="links">
+                <Value>GLOBAL</Value>
+                <Value> </Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.model.uml.core.classifiers.ClassImpl">
+            <Property name="options">
+                <Value>author</Value>
+                <Value>version</Value>
+            </Property>
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+    </Config>
+
+    <!-- Operation links to an undefined type, invalid  -->
+    <Config name="tagOptions_invalid_4">
+        <Property name="TYPES">
+		    <Value>GLOBAL</Value>
+		    <Value>com.topcoder.model.uml.core.OperationImpl</Value>
+		    <Value>com.topcoder.model.uml.core.classifiers.ClassImpl</Value>
+		</Property>
+        
+        <Property name="GLOBAL">
+            <Property name="options">
+                <Value>see</Value>
+                <Value>since</Value>
+                <Value>deprecated</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.model.uml.core.OperationImpl">
+            <Property name="options">
+                <Value>throws</Value>
+                <Value>exception</Value>
+            </Property>
+            
+            <Property name="links">
+                <Value>GLOBAL</Value>
+                <Value>UndefinedType</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.model.uml.core.classifiers.ClassImpl">
+            <Property name="options">
+                <Value>author</Value>
+                <Value>version</Value>
+            </Property>
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+    </Config>
+    
+    <!-- TYPES contains non-exist type, invalid  -->
+    <Config name="tagOptions_invalid_5">
+        <Property name="TYPES">
+		    <Value>GLOBAL</Value>
+		    <Value>com.topcoder.model.uml.core.OperationImpl</Value>
+		    <Value>com.topcoder.model.uml.core.classifiers.ClassImpl</Value>
+		    <Value>NotExistType</Value>
+		</Property>
+        
+        <Property name="GLOBAL">
+            <Property name="options">
+                <Value>see</Value>
+                <Value>since</Value>
+                <Value>deprecated</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.model.uml.core.OperationImpl">
+            <Property name="options">
+                <Value>throws</Value>
+                <Value>exception</Value>
+            </Property>
+            
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.model.uml.core.classifiers.ClassImpl">
+            <Property name="options">
+                <Value>author</Value>
+                <Value>version</Value>
+            </Property>
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+    </Config>
+    
+    <!-- GLOBAL links to INTER,
+         INTER links to GLOBAL,
+         loop is invalid -->
+    <Config name="tagOptions_invalid_loop_1">
+        <Property name="TYPES">
+		    <Value>GLOBAL</Value>
+		    <Value>INTER</Value>
+		    <Value>com.topcoder.model.uml.core.OperationImpl</Value>
+		    <Value>com.topcoder.model.uml.core.classifiers.ClassImpl</Value>
+		</Property>
+        
+        <Property name="INTER">
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <Property name="GLOBAL">
+            <Property name="options">
+                <Value>see</Value>
+                <Value>since</Value>
+                <Value>deprecated</Value>
+            </Property>
+            <Property name="links">
+                <Value>INTER</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.model.uml.core.OperationImpl">
+            <Property name="options">
+                <Value>throws</Value>
+                <Value>exception</Value>
+            </Property>
+            
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <Property name="com.topcoder.model.uml.core.classifiers.ClassImpl">
+            <Property name="options">
+                <Value>author</Value>
+                <Value>version</Value>
+            </Property>
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+    </Config>
+
+    <!-- GLOBAL links to INTER1,
+         INTER1 links to INTER2,
+         INTER2 links to INTER3,
+         INTER3 links to INTER2,
+         loop is invalid -->
+    <Config name="tagOptions_invalid_loop_2">
+        <Property name="TYPES">
+		    <Value>GLOBAL</Value>
+		    <Value>INTER1</Value>
+		    <Value>INTER2</Value>
+		    <Value>INTER3</Value>
+		</Property>
+        
+        <Property name="INTER1">
+            <Property name="links">
+                <Value>INTER2</Value>
+            </Property>
+        </Property>
+        
+        <Property name="INTER2">
+            <Property name="links">
+                <Value>INTER3</Value>
+            </Property>
+        </Property>
+        
+        <Property name="INTER3">
+            <Property name="links">
+                <Value>INTER2</Value>
+            </Property>
+        </Property>
+        
+        <Property name="GLOBAL">
+            <Property name="links">
+                <Value>INTER1</Value>
+            </Property>
+        </Property>
+        
+     </Config>
+     
+     <!-- INTER1 links to INTER2,
+         INTER2 links to INTER1,
+         loop is invalid -->
+    <Config name="tagOptions_invalid_loop_3">
+        <Property name="TYPES">
+		    <Value>INTER1</Value>
+		    <Value>INTER2</Value>
+		</Property>
+        
+        <Property name="INTER1">
+            <Property name="links">
+                <Value>INTER2</Value>
+            </Property>
+        </Property>
+        
+        <Property name="INTER2">
+            <Property name="links">
+                <Value>INTER1</Value>
+            </Property>
+        </Property>
+     </Config>
+
+</CMConfig>

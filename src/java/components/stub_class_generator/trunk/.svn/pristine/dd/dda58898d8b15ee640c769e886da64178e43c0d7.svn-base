@@ -1,0 +1,843 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1031\deflangfe1031{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Palatino};}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial{\*\falt Arial};}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New{\*\falt Courier New};}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol{\*\falt Symbol};}{\f5\fmodern\fcharset0\fprq1{\*\panose 02070409020205020404}Courier;}{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings{\*\falt Wingdings};}
+{\f69\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Palatino};}{\f70\froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Palatino};}{\f72\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Palatino};}
+{\f73\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Palatino};}{\f74\froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Palatino};}{\f75\froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Palatino};}
+{\f76\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Palatino};}{\f77\froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Palatino};}{\f79\fswiss\fcharset238\fprq2 Arial CE{\*\falt Arial};}
+{\f80\fswiss\fcharset204\fprq2 Arial Cyr{\*\falt Arial};}{\f82\fswiss\fcharset161\fprq2 Arial Greek{\*\falt Arial};}{\f83\fswiss\fcharset162\fprq2 Arial Tur{\*\falt Arial};}{\f84\fswiss\fcharset177\fprq2 Arial (Hebrew){\*\falt Arial};}
+{\f85\fswiss\fcharset178\fprq2 Arial (Arabic){\*\falt Arial};}{\f86\fswiss\fcharset186\fprq2 Arial Baltic{\*\falt Arial};}{\f87\fswiss\fcharset163\fprq2 Arial (Vietnamese){\*\falt Arial};}
+{\f89\fmodern\fcharset238\fprq1 Courier New CE{\*\falt Courier New};}{\f90\fmodern\fcharset204\fprq1 Courier New Cyr{\*\falt Courier New};}{\f92\fmodern\fcharset161\fprq1 Courier New Greek{\*\falt Courier New};}
+{\f93\fmodern\fcharset162\fprq1 Courier New Tur{\*\falt Courier New};}{\f94\fmodern\fcharset177\fprq1 Courier New (Hebrew){\*\falt Courier New};}{\f95\fmodern\fcharset178\fprq1 Courier New (Arabic){\*\falt Courier New};}
+{\f96\fmodern\fcharset186\fprq1 Courier New Baltic{\*\falt Courier New};}{\f97\fmodern\fcharset163\fprq1 Courier New (Vietnamese){\*\falt Courier New};}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;
+\red192\green192\blue192;\red0\green51\blue102;\red153\green51\blue0;}{\stylesheet{\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 \styrsid14232000 Normal;}{
+\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\jclisttab\tx360\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{
+\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 2;}{
+\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 3;}{
+\s4\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 4;}{
+\s5\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl4\outlinelevel4\adjustright\rin0\lin0\itap0 \f1\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 5;}{
+\s6\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl5\outlinelevel5\adjustright\rin0\lin0\itap0 \i\f1\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 6;}{
+\s7\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl6\outlinelevel6\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 7;}{
+\s8\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl7\outlinelevel7\adjustright\rin0\lin0\itap0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 8;}{
+\s9\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl8\outlinelevel8\adjustright\rin0\lin0\itap0 \b\i\f1\fs18\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 9;}{\*\cs10 \additive 
+\ssemihidden Default Paragraph Font;}{\*\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\*\cs15 \additive \ul\cf2 \sbasedon10 Hyperlink;}{
+\s16\ql \li0\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext16 Body Text;}{\s17\ql \li720\ri0\sa120\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \i\f1\fs20\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext16 \sautoupd InfoBlue;}{\s18\ql \li0\ri0\widctlpar
+\tx916\tx1832\tx2748\tx3664\tx4580\tx5496\tx6412\tx7328\tx8244\tx9160\tx10076\tx10992\tx11908\tx12824\tx13740\tx14656\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 
+\sbasedon0 \snext18 \styrsid14431288 HTML Preformatted;}{\*\cs19 \additive \i \sbasedon10 \styrsid14431288 Emphasis;}{\s20\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs24\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 \sbasedon0 \snext20 \styrsid10706397 Normal (Web);}{\s21\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0 \f1\fs24\cf1\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 \snext21 \styrsid12213615 
+Default;}{\s22\ql \li0\ri0\sb120\sa60\widctlpar\faauto\rin0\lin0\itap0 \f1\fs24\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 \sbasedon21 \snext21 \styrsid872080 Heading 1;}{\*\cs23 \additive \b \sbasedon10 \styrsid13173289 Strong;}{\*\ts24\tsrowd
+\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \sbasedon11 \snext24 \styrsid3675460 Table Grid;}}{\*\listtable{\list\listtemplateid-985754512{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'02\'00.;}{\levelnumbers\'01;}\s1\jclisttab\tx360 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}\s2\jclisttab\tx0 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\s3\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\s4\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\s5\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers
+\'01\'03\'05\'07\'09\'0b;}\s6\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\s7
+\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\s8\jclisttab\tx0 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\s9\jclisttab\tx0 }{\listname ;}\listid-5}
+{\list\listtemplateid197060626\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1440
+\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'01.;}{\levelnumbers\'01;}\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li7200\jclisttab\tx7200\lin7200 }{\listname ;}\listid256446867}{\list\listtemplateid242779444\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers
+;}\f3\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5040
+\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li7200\jclisttab\tx7200\lin7200 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li7920\jclisttab\tx7920\lin7920 }{\listname ;}\listid324821381}{\list\listtemplateid573102896\listhybrid{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'01.;}{\levelnumbers\'01;}\fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid68747291\'02\'02.;}{\levelnumbers\'01;}\fi-180\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747279\'02\'03.;}{\levelnumbers\'01;}\fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289
+\'02\'04.;}{\levelnumbers\'01;}\fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'05.;}{\levelnumbers\'01;}
+\fi-180\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'06.;}{\levelnumbers\'01;}\fi-360\li5760\jclisttab\tx5760\lin5760 }
+{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'07.;}{\levelnumbers\'01;}\fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc2\levelnfcn2\leveljc2
+\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'08.;}{\levelnumbers\'01;}\fi-180\li7200\jclisttab\tx7200\lin7200 }{\listname ;}\listid324944446}{\list\listtemplateid-1565480130\listhybrid{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid1179790164\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc4\levelnfcn4\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68747289\'02\'01.;}{\levelnumbers\'01;}\fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid68747291\'02\'02.;}{\levelnumbers\'01;}\fi-180\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid68747279\'02\'03.;}{\levelnumbers\'01;}\fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68747289
+\'02\'04.;}{\levelnumbers\'01;}\fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68747291\'02\'05.;}{\levelnumbers\'01;}\fi-180\li5400
+\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68747279\'02\'06.;}{\levelnumbers\'01;}\fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel
+\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68747289\'02\'07.;}{\levelnumbers\'01;}\fi-360\li6840\jclisttab\tx6840\lin6840 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68747291\'02\'08.;}{\levelnumbers\'01;}\fi-180\li7560\jclisttab\tx7560\lin7560 }{\listname ;}\listid443577281}{\list\listtemplateid24924784\listhybrid{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers
+;}\f3\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6480
+\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li7200\jclisttab\tx7200\lin7200 }
+{\listname ;}\listid512382534}{\list\listtemplateid-160384884\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080
+\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel
+\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\fi-180\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\fi-180\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703
+\'02\'06.;}{\levelnumbers\'01;}\fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\fi-360\li6120
+\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\fi-180\li6840\jclisttab\tx6840\lin6840 }{\listname 
+;}\listid806357716}{\list\listtemplateid588442780\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 
+\fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li7200\jclisttab\tx7200\lin7200 }{\listname ;}\listid824247619}{\list\listtemplateid1083978380\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid68747279\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747289\'02\'01.;}{\levelnumbers\'01;}\fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291
+\'02\'02.;}{\levelnumbers\'01;}\fi-180\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'03.;}{\levelnumbers\'01;}
+\fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'04.;}{\levelnumbers\'01;}\fi-360\li4320\jclisttab\tx4320\lin4320 }
+{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'05.;}{\levelnumbers\'01;}\fi-180\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'06.;}{\levelnumbers\'01;}\fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'07.;}{\levelnumbers\'01;}\fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747291\'02\'08.;}{\levelnumbers\'01;}\fi-180\li7200\jclisttab\tx7200\lin7200 }{\listname ;}\listid871117083}{\list\listtemplateid932329388\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}
+\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3960
+\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4680\jclisttab\tx4680\lin4680 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid876431865}{\list\listtemplateid60304114\listhybrid{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1500\jclisttab\tx1500\lin1500 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2220\jclisttab\tx2220\lin2220 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2940\jclisttab\tx2940\lin2940 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3660\jclisttab\tx3660\lin3660 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li4380\jclisttab\tx4380\lin4380 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li5100\jclisttab\tx5100\lin5100 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers
+;}\f3\fbias0 \fi-360\li5820\jclisttab\tx5820\lin5820 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6540
+\jclisttab\tx6540\lin6540 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li7260\jclisttab\tx7260\lin7260 }
+{\listname ;}\listid941299886}{\list\listtemplateid1420692624\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}
+\f3\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li7200\jclisttab\tx7200\lin7200 }{\listname ;}\listid978804065}{\list\listtemplateid-86359202\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers
+;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600
+\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid1000892192}{\list\listtemplateid-789175368\listhybrid
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers
+;}\f3\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6480
+\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li7200\jclisttab\tx7200\lin7200 }
+{\listname ;}\listid1229340611}{\list\listtemplateid-1131384698\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}
+\f3\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440
+\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747269
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid2076855860}}{\*\listoverridetable{\listoverride\listid-5\listoverridecount9{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat
+\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel
+\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}\ls1}{\listoverride\listid806357716\listoverridecount9{\lfolevel}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel
+\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat
+\levelstartat1}\ls2}{\listoverride\listid876431865\listoverridecount9{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}\ls3}{\listoverride\listid1000892192\listoverridecount0\ls4}
+{\listoverride\listid2076855860\listoverridecount0\ls5}{\listoverride\listid324821381\listoverridecount0\ls6}{\listoverride\listid941299886\listoverridecount0\ls7}{\listoverride\listid1229340611\listoverridecount0\ls8}{\listoverride\listid978804065
+\listoverridecount0\ls9}{\listoverride\listid824247619\listoverridecount0\ls10}{\listoverride\listid512382534\listoverridecount0\ls11}{\listoverride\listid256446867\listoverridecount0\ls12}{\listoverride\listid324944446\listoverridecount0\ls13}
+{\listoverride\listid871117083\listoverridecount0\ls14}{\listoverride\listid443577281\listoverridecount0\ls15}}{\*\pgptbl {\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}}{\*\rsidtbl \rsid151317\rsid288821\rsid339018\rsid464509\rsid479896\rsid486977\rsid553834
+\rsid602072\rsid683858\rsid795609\rsid858452\rsid872080\rsid940062\rsid948720\rsid1191717\rsid1192834\rsid1255589\rsid1328828\rsid1389985\rsid1394993\rsid1578990\rsid1588163\rsid1911581\rsid2105647\rsid2126772\rsid2194680\rsid2361346\rsid2442854
+\rsid2566168\rsid2649278\rsid2770211\rsid3156920\rsid3291185\rsid3366744\rsid3551727\rsid3552349\rsid3630277\rsid3672232\rsid3675460\rsid3693366\rsid3743700\rsid3803596\rsid4072172\rsid4156831\rsid4488890\rsid4538349\rsid4541748\rsid4786611\rsid4810597
+\rsid4880921\rsid4915290\rsid4918817\rsid5515882\rsid5639752\rsid5983565\rsid6110831\rsid6256956\rsid6445663\rsid7165534\rsid7213839\rsid7235983\rsid7237669\rsid7283046\rsid7359348\rsid7437967\rsid7566947\rsid7695968\rsid7697415\rsid7762484\rsid7810792
+\rsid7812601\rsid7878456\rsid7891806\rsid8144861\rsid8398362\rsid8539657\rsid8666084\rsid8727505\rsid8854725\rsid8868922\rsid8931380\rsid8995007\rsid9251360\rsid9306702\rsid9397411\rsid9452509\rsid9861307\rsid9902622\rsid9991132\rsid10319212\rsid10373916
+\rsid10622052\rsid10706397\rsid10962291\rsid11016392\rsid11213828\rsid11489200\rsid11538564\rsid11557582\rsid11673143\rsid11683622\rsid12015990\rsid12020090\rsid12077134\rsid12155586\rsid12213615\rsid12220339\rsid12269597\rsid12411317\rsid12468430
+\rsid12521248\rsid12860740\rsid12914089\rsid12990997\rsid13112680\rsid13132929\rsid13173289\rsid13178346\rsid13267711\rsid13454299\rsid13773737\rsid13778940\rsid13784488\rsid13839326\rsid13915284\rsid13965598\rsid14171973\rsid14176974\rsid14225363
+\rsid14232000\rsid14366016\rsid14431288\rsid14447540\rsid14646667\rsid14691147\rsid14881200\rsid14886819\rsid15012942\rsid15038939\rsid15141493\rsid15475871\rsid15481049\rsid15560546\rsid15615533\rsid15664694\rsid16086516\rsid16127507\rsid16197219
+\rsid16202984\rsid16335006\rsid16457835\rsid16464908\rsid16537706\rsid16538892\rsid16722089}{\*\generator Microsoft Word 10.0.4219;}{\info{\title <<Component>> <<Version>> Component Specification}{\author gpaul}{\operator franz}
+{\creatim\yr2006\mo4\dy25\hr19\min30}{\revtim\yr2007\mo2\dy10\hr17\min16}{\version57}{\edmins0}{\nofpages13}{\nofwords3414}{\nofchars21512}{\*\company TopCoder}{\nofcharsws24877}{\vern16469}}\margl1701\margr850\margt1134\margb1134 
+\widowctrl\ftnbj\aenddoc\hyphhotz425\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dgmargin\dghspace180\dgvspace180\dghorigin1701\dgvorigin1134\dghshow1\dgvshow1
+\jexpand\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\splytwnine\ftnlytwnine\htmautsp\nolnhtadjtbl\useltbaln\alntblind\lytcalctblwd\lyttblrtgr\lnbrkrule\rsidroot339018 \fet0\sectd \linex0\endnhere\sectlinegrid360\sectdefaultcl\sftnbj {\*\pnseclvl1
+\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \s22\ql \li0\ri0\sb120\sa60\widctlpar\faauto\rin0\lin0\itap0\pararsid872080 \f1\fs24\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 {
+\b\fs28\ul\lang1033\langfe1049\langnp1033\insrsid872080\charrsid872080 Stub Class Generator 1.0 }{\b\fs28\ul\lang1033\langfe1049\langnp1033\insrsid11213828\charrsid872080 Component Specification}{
+\b\fs28\ul\cf1\lang1033\langfe1049\langnp1033\insrsid11213828\charrsid872080 
+\par }\pard\plain \s16\ql \li720\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 
+\par {\listtext\pard\plain\s1 \b\f1\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Design
+\par }\pard\plain \ql \li720\ri0\sa120\widctlpar\faauto\rin0\lin720\itap0\pararsid10373916 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\lang1033\langfe1049\langfenp1049\insrsid12213615\charrsid12213615 
+The Stub Class Generator component is able to generate class stubs for Java and C#, from the classes represented in UML Model. }{\cf1\lang1033\langfe1049\langfenp1049\insrsid3291185 
+\par }{\cf1\lang1033\langfe1049\langfenp1049\insrsid1255589 
+\par This component provides supporting almost all standard of languages. It does not support \'93throws\'94 in methods, because it is not useful feature. Actually it may be easy implemented if it is needed. But as for me I }{
+\cf1\lang1033\langfe1049\langfenp1049\insrsid1588163 there are not reasons to implement this. For example if you have class with several method which throw some exception you should create dependency with stereotype \'93throw\'94
+ to each of this methods. I think nobody want to do it.}{\cf1\lang1033\langfe1049\langfenp1049\insrsid1255589 
+\par }{\cf1\lang1033\langfe1049\langfenp1049\insrsid1588163 
+\par Also component provides ability to log errors in time of creation code. Note that component will log only serious code problems which easy notify. It do}{\cf1\lang1033\langfe1049\langfenp1049\insrsid683858 es}{
+\cf1\lang1033\langfe1049\langfenp1049\insrsid1588163  }{\cf1\lang1033\langfe1049\langfenp1049\insrsid12015990 provide}{\cf1\lang1033\langfe1049\langfenp1049\insrsid1588163  neither full code validation nor style checking.}{
+\cf1\lang1033\langfe1049\langfenp1049\insrsid1588163\charrsid12213615 
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12213615 {\insrsid12213615\charrsid12213615 
+\par }\pard\plain \s16\ql \li720\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid3672232\charrsid13132929 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Design Patterns }{\insrsid14431288\charrsid4541748 
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\insrsid12213615\charrsid3743700 Factory}{\insrsid12213615 
+ pattern is used for setting different instances of }{\insrsid602072 Generator (}{\insrsid12213615 possible two \endash  JavaGenerator and CSharpGenerator).}{\insrsid14431288 
+\par }{\insrsid3743700 
+\par }{\b\insrsid3743700\charrsid3743700 Strategy}{\insrsid3743700  pattern is used for choosing proper implementation of Generator. 
+\par }{\insrsid12213615 
+\par }{\b\insrsid12213615\charrsid3743700 Fa\'e7ade}{\insrsid12213615  pattern is used in CodeGenerator class. This class represent }{\insrsid602072 encapsulate}{\insrsid12213615  all functionality of component in four its methods.
+\par }{\insrsid12213615\charrsid12213615 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Industry Standards 
+\par }\pard\plain \s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid12213615 \i\f1\fs20\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\i0\f0\fs24\cf0\insrsid12213615 UML 1.5
+\par }\pard \s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 {\i0\cf0\insrsid14431288\charrsid12213615 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Required Algorithms
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid602072 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid3291185 Component }{\insrsid6110831 
+makes many code examples how to implement its methods. This part of specification description which Model element represent Java and C# languages key words and code structures.}{\insrsid602072 
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid486977 {\insrsid5639752 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid602072 {\b\insrsid5639752\charrsid5639752 Getting documentation
+\par }{\insrsid5639752 
+\par }\pard \ql \li1080\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1080\itap0\pararsid5639752 {\b\insrsid5639752\charrsid13965598 General documentation}{\insrsid5639752 . It represents main documentation for some elements. For each element }{
+\insrsid3743700 it is possible }{\insrsid5639752 one such documentation node. This }{\insrsid8666084 is }{\insrsid5639752 saved in TaggedValue(attribute dataValue) which contain TagDefinition with }{\insrsid10622052 tagT}{\insrsid9251360 ype}{
+\insrsid5639752  \'93documentation\'94. Note that \'93documentation\'94 is configurable and such attributes exist in AbstractGenerator. Little code example (for ModelElement): 
+\par 
+\par }{\i\f2\fs16\cf17\insrsid5639752\charrsid8666084 String getGeneralDocs(modelElement)\{
+\par }\pard\plain \s20\ql \fi720\li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid5639752 \fs24\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 {
+\i\f2\fs16\cf17\lang1033\langfe1049\langnp1033\insrsid5639752\charrsid8666084 for (TaggedValue temp: modelElement.getTaggedValues())\{
+\par \tab if(temp.getType().getName().equals(\'93documentation\'94))\{
+\par \tab }{\i\f2\fs16\cf18\lang1033\langfe1049\langnp1033\insrsid5639752\charrsid8666084 //We found documentation node. Just return}{\i\f2\fs16\cf17\lang1033\langfe1049\langnp1033\insrsid5639752\charrsid8666084  it
+\par }\pard \s20\ql \fi720\li720\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5639752 {\i\f2\fs16\cf17\lang1033\langfe1049\langnp1033\insrsid5639752\charrsid8666084 return temp.getDataValue();\line 
+\tab \}}{\i\f2\fs16\cf17\lang1033\langfe1049\langnp1033\insrsid5639752 
+\par }{\i\f2\fs16\cf17\lang1033\langfe1049\langnp1033\insrsid3552349 \}}{\i\f2\fs16\cf17\lang1033\langfe1049\langnp1033\insrsid3552349\charrsid8666084 
+\par }{\i\f2\fs16\cf18\lang1033\langfe1049\langnp1033\insrsid5639752\charrsid8666084 //We do not found documentation node. Just return null
+\par }\pard \s20\ql \fi720\li720\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid3552349 {\i\f2\fs16\cf17\lang1033\langfe1049\langnp1033\insrsid5639752\charrsid8666084 return null;
+\par }\pard \s20\ql \fi720\li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid5639752 {\i\f2\fs16\cf17\lang1033\langfe1049\langnp1033\insrsid5639752\charrsid8666084 \}
+\par }\pard\plain \ql \li1080\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1080\itap0\pararsid5639752 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\insrsid5639752\charrsid8931380 Tags documentation}{\insrsid5639752 . }{
+\insrsid12411317 The c}{\insrsid5639752 omponent provide}{\insrsid12411317 s the}{\insrsid5639752  ability for user}{\insrsid12411317 s}{\insrsid5639752  to cr}{\insrsid12411317 e}{\insrsid5639752 ate own tags, like \'93throw\'94, \'93exception\'94
+ or even \'93hello world\'94. Tags documentation }{\insrsid12411317 is }{\insrsid5639752 saved in TaggedValue(attribute dataValue) which contain TagDefinition with }{\insrsid10622052 tagType}{\insrsid5639752  \'93documentation#\'94 + tagname. Note that 
+\'93documentation#\'94 is configurable and such attributes}{\insrsid683858  }{\insrsid5639752 (tagsDocumentation) exist in AbstractGenerator. Little code example (for ModelElement): 
+\par 
+\par }\pard\plain \s21\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid9452509 \f1\fs24\cf1\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 {\f5\fs20\insrsid5639752\charrsid9452509 Map getTagDocs(modelElement)
+\par }\pard \s21\ql \fi720\li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid9452509 {\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 Map<String, List<String>> result = new HashMap<String, List<String>>();}{
+\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 
+\par }{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509 
+\par }{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 for (TaggedValue value : modelElement.getTaggedValues()) \{}{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 
+\par }\pard \s21\ql \fi720\li720\ri0\widctlpar\faauto\rin0\lin720\itap0\pararsid9452509 {\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 TagDefinition tagDefinition = value.getType();
+\par }\pard \s21\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid9452509 {\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 
+\par }\pard \s21\ql \fi720\li720\ri0\widctlpar\faauto\rin0\lin720\itap0\pararsid9452509 {\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 if ((tagDefinition != null) }{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509 
+\par &}{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 & (tagDefinition.getTagType() != null) }{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509 
+\par }\pard \s21\ql \li1440\ri0\widctlpar\faauto\rin0\lin1440\itap0\pararsid9452509 {\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 &&}{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509  tag}{
+\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 Definition.getTagType().startsWith(this.tagsDocumentation)) \{
+\par }\pard \s21\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid9452509 {\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509                 }{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509 
+\par }\pard \s21\ql \fi720\li720\ri0\widctlpar\faauto\rin0\lin720\itap0\pararsid9452509 {\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509 String key
+\par }{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 =tagDefinition.getTagType().substring(this.tagsDocumentation.length());
+\par }\pard \s21\ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid9452509 {\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 
+\par }{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509             }{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 if (key.trim().length() == 0) \{
+\par                 // ignore empty keys
+\par                 continue;
+\par             \}
+\par 
+\par             if (result.containsKey(key)) \{
+\par                 // tag has been found before, add new value to its list
+\par                 result.get(key).add(value.getDataValue());
+\par             \} else \{
+\par                 // tag has not been found before, create a new list
+\par                 List<String> list = new ArrayList<String>();
+\par                 list.add(value.getDataValue());
+\par                 result.put(key, list);
+\par             \}
+\par }{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509         }{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 \}
+\par }{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509     }{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid9452509\charrsid9452509 \}
+\par 
+\par     return result;}{\f5\fs20\lang1033\langfe1049\langnp1033\insrsid5639752\charrsid9452509 
+\par \}
+\par }\pard\plain \s20\ql \li1440\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid5639752 \fs24\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 {
+\b\lang1033\langfe1049\langnp1033\insrsid5639752\charrsid13839326 Parameter documentation}{\lang1033\langfe1049\langnp1033\insrsid3743700 . It represents}{\lang1033\langfe1049\langnp1033\insrsid5639752 
+ documentation of methods parameter and used only for Operation instances.  Actions are very similar as in previous description. You just need list Parameter instances and for each of them run getGeneralDocs(), result write to map as it getT
+agDocs() made and return this map.
+\par Parameters list of method represented by parameters attribute of BehaviourFeature.}{\lang1033\langfe1049\langnp1033\insrsid5639752\charrsid5639752 
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid602072 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid5639752 
+\par }{\insrsid6110831 
+\par }{\b\insrsid8666084 Java code }{\b\insrsid3743700 generating}{\b\insrsid6110831 
+\par {\listtext\pard\plain\f3\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8666084 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1440\ri0\widctlpar\jclisttab\tx1440\aspalpha\aspnum\faauto\ls12\adjustright\rin0\lin1440\itap0\pararsid7695968 {
+\b\insrsid8666084 Documentation generation}{\b\insrsid7695968 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid5639752 {\insrsid5639752 How to get documentation described above. For now it should be formatted in Java style. }{\insrsid8666084 It should like this - }{
+\insrsid5639752 /** + retrieve all documentation + */. Parameters and tags should be written in format \endash  \'93@tagname tag documentation\'94 or \'93@param parameter documentation\'94. Simple example of formatting documentation:}{\insrsid13965598 
+
+\par }{\insrsid5639752 
+\par /**
+\par General documentation
+\par @tagname tag documentation
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid5639752 {\insrsid7810792 \tab \tab }{\insrsid5639752 @param param documentation
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid5639752 {\insrsid5639752 */
+\par }\pard\plain \s20\ql \li1440\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid5639752 \fs24\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 {\lang1033\langfe1049\langnp1033\insrsid5639752 
+Note that for it may be many different tags and parameters}{\lang1033\langfe1049\langnp1033\insrsid7810792 , may be several tags with the same name a}{\lang1033\langfe1049\langnp1033\insrsid5639752 nd parameters should exist only for methods}{
+\lang1033\langfe1049\langnp1033\insrsid13965598\charrsid13965598 
+\par }\pard\plain \ql \li1080\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1080\itap0\pararsid1328828 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid1328828\charrsid7695968 
+\par {\listtext\pard\plain\f3\lang1033\langfe1033\langnp1033\langfenp1033\insrsid5639752 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1440\ri0\widctlpar\jclisttab\tx1440\aspalpha\aspnum\faauto\ls12\adjustright\rin0\lin1440\itap0\pararsid6110831 {
+\b\insrsid5639752 Classifier}{\b\insrsid7695968  header}{\b\insrsid8666084  generating}{\b\insrsid7695968 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid5639752 {\b\insrsid5639752\charrsid11489200 Generation }{\b\insrsid16086516\charrsid11489200 Class}{\insrsid16086516 . Class header }{\insrsid11489200 
+may represent}{\insrsid16086516  in the next format:
+\par \'93}{\insrsid4918817\charrsid16086516 private }{\insrsid16086516\charrsid16086516 final }{\insrsid16086516 abstract }{\insrsid16086516\charrsid16086516 class T}{\insrsid16086516 est ex}{\insrsid16086516\charrsid16086516 tends Class1 implements Interface1
+}{\insrsid16086516 \'94. That is all which is possible for Class. 
+\par Algorithm:
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid11489200 \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid11489200 
+{\insrsid11489200 Create String result where you will write class header}{\insrsid16086516 
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid4918817 \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid4918817 {
+\insrsid4918817 If visibility attribute equals VisibilityKind.PUBLIC, VisibilityKind.PRIVATE or VisibilityKind.PROTECTED just add according modifier, if VisibilityKind.PACKAGE do not add something
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid11489200 \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid11489200 
+{\insrsid11489200 If isLeaf attribute true, just }{\insrsid16202984 add}{\insrsid11489200  to result \'93final\'94, false do not }{\insrsid16202984 add}{\insrsid11489200  something.
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid11489200 \hich\af0\dbch\af0\loch\f0 4.\tab}If isAbstract attribute true, just }{\insrsid16202984 add}{\insrsid11489200  to result \'93abstract\'94, false do not }{\insrsid16202984 
+add}{\insrsid11489200  something.
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16202984 \hich\af0\dbch\af0\loch\f0 5.\tab}}{\insrsid16202984 Add}{\insrsid11489200  }{\insrsid7437967 \'93class\'94 +}{\insrsid11489200  name }{\insrsid7437967 of Class }{
+\insrsid11489200 to result
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid11489200 \hich\af0\dbch\af0\loch\f0 6.\tab}For now you need get list of classes from which extends current class or interfaces which it implements. }{\insrsid1389985 
+Create two lists \endash  classExtends and interfaceImplements . }{\insrsid11489200 Both may be found in attribute }{\insrsid6445663 generalizations}{\insrsid9306702 .}{\insrsid1389985  }{\insrsid9306702 You need just }{\insrsid1389985 
+for each Generalization instance in given list check parent attribute. If it instance of Class simply add it to classExtends, if it instance of Interface add it to interfaceImplements, if neither Class nor Interface just ignore it.  And now just add like 
+}{\insrsid9251360 this:}{\insrsid1389985  \'93extends\'94 + each Class name from classExtends + \'93implements\'94 + each Interface form interfaceImplements. }{\insrsid9306702 
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9306702 {\insrsid9306702 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid9306702 {\b\insrsid9306702\charrsid9306702 Interface}{\b\insrsid8666084  generating}{\insrsid9306702 . Creating header for Interfa
+ce is very similar to Class one. But interface can not be final and can not implement other interface.  }{\insrsid7437967 Also it should be \'93interface\'94 + Interface name}{\insrsid9306702 .}{\insrsid11489200  }{\insrsid7437967 The rest is the same}{
+\insrsid11489200 
+\par }{\insrsid7437967 
+\par }{\b\insrsid7437967\charrsid7437967 Enumeration}{\b\insrsid8666084  generating}{\insrsid7437967 . It is the simplest procedure. It has only visibility, which should be created in the same manner as for Class. Also it should be \'93enum\'94
+ + Enumeration name. 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid5639752 {\insrsid5639752  }{\insrsid5639752\charrsid5639752 
+\par {\listtext\pard\plain\f3\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8666084 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1440\ri0\widctlpar\jclisttab\tx1440\aspalpha\aspnum\faauto\ls12\adjustright\rin0\lin1440\itap0\pararsid6110831 {
+\b\insrsid8666084 A}{\b\insrsid7695968 ttribute code}{\b\insrsid8666084  generating}{\b\insrsid7695968 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid7437967 {\insrsid7437967 The full examples of attribute features are the next:
+\par }{\insrsid15141493\charrsid7437967 public }{\insrsid15141493  }{\insrsid7437967\charrsid7437967 final static String str = "}{\insrsid7437967 hello}{\insrsid7437967\charrsid7437967 "}{\insrsid7437967 
+\par Algorithm:
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16202984 \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid16202984 
+{\insrsid16202984 Create String result where you will write attribute code
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid4918817 \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid3552349 {
+\insrsid4918817 If visibility attribute equals VisibilityKind.PUBLIC, VisibilityKind.PRIVATE or VisibilityKind.PROTECTED just add according modifier, if VisibilityKind.PACKAGE do not add something
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16202984 \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid7437967 {
+\insrsid16202984 If  changeability attribute equals ChangeableKind.FROZEN add \'93final\'94 to result , otherwise do not add something}{\insrsid7437967 
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16202984 \hich\af0\dbch\af0\loch\f0 4.\tab}}{\insrsid16202984 If ownerScope equals ScopeKind.CLASSIFIER add \'93static\'94 to result, otherwise do not add something
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16202984 \hich\af0\dbch\af0\loch\f0 5.\tab}Add to result type.getName(). Note that attribute type is Classifier
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16202984 \hich\af0\dbch\af0\loch\f0 6.\tab}Add name of attribute by using getName() method
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16202984 \hich\af0\dbch\af0\loch\f0 7.\tab}If initialValue not null add \'93=\'94 plus }{\insrsid464509 initialValue.getB}{\insrsid16202984 ody}{\insrsid464509 ()}{\insrsid16202984  
+
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid14225363 {\insrsid14225363\charrsid7437967 
+\par {\listtext\pard\plain\f3\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8666084 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1440\ri0\widctlpar\jclisttab\tx1440\aspalpha\aspnum\faauto\ls12\adjustright\rin0\lin1440\itap0\pararsid6110831 {
+\b\insrsid8666084 M}{\b\insrsid7695968 ethod code}{\b\insrsid8666084  generating}{\b\insrsid7695968 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid464509 {\insrsid464509 Generation methods are most harmful action. Possible method features:
+\par \'93}{\insrsid15141493 public }{\insrsid14232000 abstract }{\insrsid464509\charrsid464509 final static s}{\insrsid464509 ynchronized void test(String s}{\insrsid464509\charrsid464509 )}{\insrsid464509 \'94 
+\par Algorithm:
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid464509 \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid464509 {
+\insrsid464509 Create String result where you will write method code
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid15141493 \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid15141493 
+{\insrsid15141493 If visibility attribute equals VisibilityKind.PUBLIC, VisibilityKind.PRIVATE or VisibilityKind.PROTECTED just add according modifier, if VisibilityKind.PACKAGE do not add something
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14232000 \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid14232000 
+{\insrsid14232000 If isAbstract attribute true, just add to result \'93abstract\'94, false do not add something.
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14225363 \hich\af0\dbch\af0\loch\f0 4.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid14225363 
+{\insrsid14225363 If isLeaf attribute true, just add to result \'93final\'94, false do not add something.
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14225363 \hich\af0\dbch\af0\loch\f0 5.\tab}If  changeability attribute equals ChangeableKind.FROZEN add \'93final\'94 to result , otherwise do not add something
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14232000 \hich\af0\dbch\af0\loch\f0 6.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid464509 {
+\insrsid14232000 If concurrency attribute equals CallConcurencyKind.GUARDED add \'93}{\insrsid14232000\charrsid464509 s}{\insrsid14232000 ynchronized\'94, otherwise do not add something}{\insrsid464509 
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid12020090 \hich\af0\dbch\af0\loch\f0 7.\tab}}{\insrsid12020090 Now it should be f
+ind return type. It should be found instance of Parameter from parameters attribute which kind equals ParameterDirectionKind.RETURN. }{\insrsid16127507 If you find such Parameter instance simply add its classifier.getName() to result. }{\insrsid12020090 
+Not}{\insrsid16127507 e}{\insrsid12020090  that such parameter may not exist and in such case you should not add something (it is common }{\insrsid16127507 practice}{\insrsid12020090  for constructors). }{\insrsid14232000 
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16127507 \hich\af0\dbch\af0\loch\f0 8.\tab}}{\insrsid16127507 Add name of method to result
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16127507 \hich\af0\dbch\af0\loch\f0 9.\tab}For now you need add to result something like this \'93(\'94 + parameters + \'93)\'94
+. You retrieve a list of parameter and add to result in next format: parameter.getName() +\'94:\'94 + parameter.getClassifier().getName().  Note one moment \endash 
+ you should check if kind of parameter is not equal ParameterDirectionKind.RETURN. We can add here return parameters.
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8854725 \hich\af0\dbch\af0\loch\f0 10.\tab}}{\insrsid8854725 Create method body, simply add \'93\{\};\'94
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6110831 {\b\insrsid7695968 
+\par 
+\par }{\b\insrsid6110831 C# }{\b\insrsid6110831\charrsid6110831 code}{\b\insrsid8666084  generating}{\b\insrsid6110831 
+\par {\listtext\pard\plain\f3\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8666084 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1440\ri0\widctlpar\jclisttab\tx1440\aspalpha\aspnum\faauto\ls12\adjustright\rin0\lin1440\itap0\pararsid7695968 {
+\b\insrsid8666084 Documentation generating}{\b\insrsid7695968 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid7810792 {\insrsid7810792 How to get documentation described above. For now it should be formatted C#(each documentation}{\insrsid683858  }{\insrsid7810792 
+line should start from\'94///\'94) Parameters and tags should be written in format \endash  \'93<tagname> tag documentation</tagname>\'94 or \'93<param> parameter documentation</param>\'94. Simple example of formatting documentation:
+\par 
+\par ///General documentation
+\par ///<tagname> 
+\par ///tag documentation
+\par ///</tagname> 
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid7810792 {\insrsid7810792 \tab \tab ///<param>
+\par }\pard \ql \fi720\li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid7810792 {\insrsid7810792 /// param documentation
+\par ///</param>
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid7810792 {\insrsid7810792 
+\par }\pard\plain \s20\ql \li1440\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid7810792 \fs24\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 {
+\lang1033\langfe1049\langnp1033\insrsid7810792\charrsid7810792 Note that for it may be many different tags and parameters, may be several tags with the same name and parameters should exist only for methods
+\par {\listtext\pard\plain\f3\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8666084 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1440\ri0\widctlpar
+\jclisttab\tx1440\aspalpha\aspnum\faauto\ls12\adjustright\rin0\lin1440\itap0\pararsid7695968 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\insrsid8666084 C}{\b\insrsid7695968 lass header}{\b\insrsid8666084  generating}{\b\insrsid7695968 
+
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid4918817 {\insrsid4918817 Class header may represent in the next format:
+\par \'93}{\insrsid4918817\charrsid16086516 private }{\insrsid4918817 abstract }{\insrsid4918817\charrsid16086516 class T}{\insrsid4918817 est : Interface1, Class1\'94. That is all which is possible for Class. 
+\par Algorithm:
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid4918817 \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid4918817 {
+\insrsid4918817 Create String result where you will write class header
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid4918817 \hich\af0\dbch\af0\loch\f0 2.\tab}
+If visibility attribute equals VisibilityKind.PUBLIC, VisibilityKind.PRIVATE or VisibilityKind.PROTECTED just add according modifier, if VisibilityKind.PACKAGE do not add something
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid4918817 \hich\af0\dbch\af0\loch\f0 3.\tab}If isAbstract attribute true, just add to result \'93abstract\'94, false do not add something.
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid4918817 \hich\af0\dbch\af0\loch\f0 4.\tab}Add \'93class\'94 + name of Class to result}{\insrsid9251360 . Or if classifier contain \'93struct\'94 attribute add \'93struct\'94
+ + name of Class to result.}{\insrsid4918817 
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid10319212 \hich\af0\dbch\af0\loch\f0 5.\tab}}{\insrsid10319212 It is similar as in Java version, but of course you should not use \'93extends\'94 and \'93implements\'94. Use \'93:\'94
+ instead. Also you may implement only one list but I strongly suggest make the same as in Java version. It gives you ability to check for }{\insrsid10319212\charrsid10319212 multiple inheritances}{\insrsid10319212 .}{\insrsid4918817 
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid8727505 {\insrsid8727505 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid8727505 {\b\insrsid8727505\charrsid9306702 Interface}{\b\insrsid8666084  generating}{\insrsid8727505 
+. Creating header for Interface is very similar to Class one. But interface can not be const.  Also it should be \'93interface\'94 + Interface name. The rest is the same
+\par 
+\par }{\b\insrsid8727505\charrsid7437967 Enumeration}{\b\insrsid8666084  generating}{\insrsid8727505 . It is the simplest procedure. It has only visibility, which should be created in the same manner as for Class. Also it should be \'93enum\'94
+ + Enumeration name. 
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid8727505 {\insrsid8727505 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid4918817 {\insrsid4918817\charrsid4918817 
+\par {\listtext\pard\plain\f3\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8666084 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1440\ri0\widctlpar\jclisttab\tx1440\aspalpha\aspnum\faauto\ls12\adjustright\rin0\lin1440\itap0\pararsid7695968 {
+\b\insrsid8666084 A}{\b\insrsid7695968 ttribute code}{\b\insrsid8666084  generating}{\b\insrsid7695968 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid10319212 {\insrsid10319212 The full examples of attribute features are the next:
+\par }{\insrsid16197219 \'93[}{\insrsid15038939 non standard descriptor] }{\insrsid553834\charrsid7437967 public }{\insrsid553834 const}{\insrsid10319212\charrsid7437967  static }{\insrsid10319212 s}{\insrsid10319212\charrsid7437967 tring str = "}{
+\insrsid10319212 hello}{\insrsid10319212\charrsid7437967 "}{\insrsid10319212 
+\par Algorithm:
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid10319212 \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid10319212 
+{\insrsid10319212 Create String result where you will write attribute code
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8666084 \hich\af0\dbch\af0\loch\f0 2.\tab}}{\insrsid8666084 It is possible three}{\insrsid15038939  non standard descriptor \endash  \'93new\'94, \'93readonly\'94 and \'93
+protected internal\'94. You need use }{\insrsid15038939\charrsid15038939 stereotypes}{\insrsid15038939  Map from AbstractGenerator to retrieve their stereotype names. And check if such Attribute contains such stereotypes.}{\insrsid11016392 
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid10319212 \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid858452 {
+\insrsid10319212 If visibility attribute equals VisibilityKind.PUBLIC, VisibilityKind.PRIVATE or VisibilityKind.PROTECTED just add according modifier, if VisibilityKind.PACKAGE do not add something}{\insrsid15038939 
+. Note : if attribute has stereotype with name \'93protected internal\'94 you do not write some modifier! }{\insrsid10319212 
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid10319212 \hich\af0\dbch\af0\loch\f0 4.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid10319212 
+{\insrsid10319212 If  changeability attribute equals ChangeableKind.FROZEN add \'93}{\insrsid858452 const}{\insrsid10319212 \'94 to result , otherwise do not add something
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid10319212 \hich\af0\dbch\af0\loch\f0 5.\tab}If ownerScope equals ScopeKind.CLASSIFIER add \'93static\'94 to result, otherwise do not add something
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid10319212 \hich\af0\dbch\af0\loch\f0 6.\tab}Add to result type.getName(). Note that attribute type is Classifier
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid10319212 \hich\af0\dbch\af0\loch\f0 7.\tab}Add name of attribute by using getName() method
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid10319212 \hich\af0\dbch\af0\loch\f0 8.\tab}If initialValue not null add \'93=\'94 plus initialValue.getBody() 
+\par }\pard \ql \li1800\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1800\itap0\pararsid858452 {\insrsid858452 
+\par {\listtext\pard\plain\f3\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8666084 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1440\ri0\widctlpar\jclisttab\tx1440\aspalpha\aspnum\faauto\ls12\adjustright\rin0\lin1440\itap0\pararsid7695968 {
+\b\insrsid8666084 M}{\b\insrsid7695968 ethod code}{\b\insrsid8666084  generating}{\b\insrsid7695968 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid858452 {\insrsid858452 Generation methods are most harmful action. Possible method features:
+\par \'93}{\insrsid15038939 [}{\insrsid683858 Non}{\insrsid15038939  standard descriptor}{\insrsid8666084 ] public}{\insrsid858452  abstract const}{\insrsid858452\charrsid464509  static s}{\insrsid858452 ynch}{\insrsid15038939 ronized void test(String}{
+\insrsid858452 s}{\insrsid858452\charrsid464509 )}{\insrsid858452 \'94 
+\par Algorithm:
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid858452 \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid858452 {
+\insrsid858452 Create String result where you will write method code
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3743700 \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid15038939 {
+\insrsid3743700 It is possible }{\insrsid15038939 next non standard descriptor \endash  \'93new\'94, \'93virtual \'93override\'94, \'93sealed\'94, \'93extern\'94}{\insrsid9251360 , \'93explicit\'94, and \'93implicit\'94}{\insrsid15038939 . You need use }{
+\insrsid15038939\charrsid15038939 stereotypes}{\insrsid15038939  Map from AbstractGenerator to retrieve their stereotype names. And check if such Attribute contains such stereotypes.
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15038939 {\insrsid15038939 
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid858452 \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid858452 {
+\insrsid858452 If visibility attribute equals VisibilityKind.PUBLIC, VisibilityKind.PRIVATE or VisibilityKind.PROTECTED just add according modifier, if VisibilityKind.PACKAGE do not add something
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid858452 \hich\af0\dbch\af0\loch\f0 4.\tab}If isAbstract attribute true, just add to result \'93abstract\'94, false do not add something.
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid858452 \hich\af0\dbch\af0\loch\f0 5.\tab}If isLeaf attribute true, just add to result \'93}{\insrsid15038939 const}{\insrsid858452 \'94, false do not add something.
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid858452 \hich\af0\dbch\af0\loch\f0 6.\tab}Now it should be find return type. It should be found instance of Parameter from 
+parameters attribute which kind equals ParameterDirectionKind.RETURN. If you find such Parameter instance simply add its classifier.getName() to result. Note that such parameter may not exist and in such case you should not add something (it is common pra
+ctice for constructors). 
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid858452 \hich\af0\dbch\af0\loch\f0 7.\tab}Add name of method to result}{\insrsid15038939 . Now it is one more interesting detail. Method may be destructor. }{\insrsid14646667 
+It is parameter of configuration \'93destructor\'94. Using }{\insrsid14646667\charrsid15038939 stereotypes}{\insrsid14646667  Map from AbstractGenerator to find it stereotype name. And check if 
+such Stereotype instance is present in stereotypes of current attribute. If present add before method name \endash  \'93~\'94}{\insrsid858452 
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid858452 \hich\af0\dbch\af0\loch\f0 8.\tab}For now you need add to result something like this \'93(\'94 + parameters + \'93)\'94
+. You retrieve a list of parameter and add to result in next format: parameter.getName() +\'94:\'94 + parameter.getClassifier().getName().  Note one moment \endash 
+ you should check if kind of parameter is not equal ParameterDirectionKind.RETURN. We can add here return parameters.
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8854725 \hich\af0\dbch\af0\loch\f0 9.\tab}}\pard \ql \fi-360\li2160\ri0\widctlpar\jclisttab\tx2160\aspalpha\aspnum\faauto\ls12\ilvl1\adjustright\rin0\lin2160\itap0\pararsid8854725 {
+\insrsid8854725 Create method body, simply add \'93\{\};\'94
+\par }\pard \ql \li1080\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1080\itap0\pararsid858452 {\insrsid858452\charrsid858452 
+\par {\listtext\pard\plain\f3\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8666084 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1440\ri0\widctlpar\jclisttab\tx1440\aspalpha\aspnum\faauto\ls12\adjustright\rin0\lin1440\itap0\pararsid7695968 {
+\b\insrsid8666084 P}{\b\insrsid7695968 roperties}{\b\insrsid8666084  generating}{\b\insrsid7695968 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid7235983 {\insrsid7697415 There are three kind of properties in C# - getter and setter both, setter and getter}{\insrsid12220339 .}{\insrsid7235983 
+\par }{\insrsid14646667 Actually you should get names of stereotypes for configuration parameters \'93property\'94, \'93property.get\'94 and \'93property.set\'94. If operation contain at least one such stereotype it should be generated as a property. 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid14646667 {\insrsid14646667 Actually it very similar to operation but it has no parameters and return type. Also it body depends on concrete stereotype. For \'93
+property\'94 it should be:
+\par }\pard \ql \li1800\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1800\itap0\pararsid14646667 {\insrsid12220339 Generate body like
+\par }\pard \ql \fi720\li1080\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1080\itap0\pararsid12220339 {\insrsid12220339 \{
+\par }\pard \ql \fi360\li1800\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1800\itap0\pararsid12220339 {\insrsid12220339 set\{\}}{\insrsid683858 ;}{\insrsid12220339 
+\par }\pard \ql \li1800\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1800\itap0\pararsid12220339 {\insrsid12220339  \tab get\{\}}{\insrsid683858 ;}{\insrsid12220339 
+\par \}
+\par }{\insrsid14646667 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid7235983 {\insrsid7697415\charrsid7235983 
+\par {\listtext\pard\plain\f3\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8666084 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1440\ri0\widctlpar\jclisttab\tx1440\aspalpha\aspnum\faauto\ls12\adjustright\rin0\lin1440\itap0\pararsid7695968 {
+\b\insrsid8666084 D}{\b\insrsid7695968 elegates}{\b\insrsid8666084  generating}{\b\insrsid7695968 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid7697415 {\insrsid7697415 Possible method features:
+\par \'93public delegate void test(String s}{\insrsid7697415\charrsid464509 )}{\insrsid7697415 \'94
+\par }{\insrsid8727505 Delegate is represented in Model as Classifier which list contains only one feature \endash  Operation. Generating code for it will be combination of generating code for Classifie
+r and for Operation. Visibility modifier gotten from Classifier, \'93delegate\'94 it is stereotype, and rest is actually Operations with parameters
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid1255589 {\insrsid1255589 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid7697415 {\insrsid8727505\charrsid7697415 
+\par }\pard \ql \li1080\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1080\itap0\pararsid7235983 {\b\insrsid7235983 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6110831 {\b\insrsid7695968 
+\par }\pard \ql \li1440\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid1255589 {\b\insrsid8666084 I}{\b\insrsid486977 mports}{\b\insrsid8666084  generating}{\b\insrsid486977 
+\par }{\insrsid486977 Each time when }{\insrsid8666084 it is found }{\insrsid486977 new classifier in }{\insrsid8666084 head }{\insrsid486977 classifier, }{\insrsid8666084 attribute}{\insrsid486977  method etc. It package}{\insrsid683858  }{\insrsid486977 
+(namespaces) name should be added to list of imports. For example you get as parameter some class with name Test. Now you should get it namespace name and add it to list of imports}{\insrsid7697415  like this \endash 
+ getImports().add(getPackage(parameter.getNamespace())}{\insrsid486977 ); In such case it will be generated proper list of imports(using).
+\par }{\insrsid5515882 The same situation is for inheritance. If you class extends from class from other package. You need add this package to imports list.
+\par }{\insrsid1255589 
+\par }{\b\insrsid3743700 Mistake generating}{\b\insrsid1255589\charrsid1255589 
+\par }{\insrsid1255589 Use logger to notify user with serious problem with code. Logging should be used for example for empty parameters, attributes names, using incorrect combination of languages key words (abstract and final in one time), }{
+\insrsid1255589\charrsid10319212 multiple }{\insrsid1255589 inheritances etc. Please do not use logger for notifying about style, formatting problems. When we log something it should be serious code mistake an}{\insrsid12015990 
+d also it should be easy check}{\insrsid1255589 . For example when we retrieve Classifier generalization we use list classExtends. For checking }{\insrsid15615533 for multiple}{\insrsid1255589\charrsid10319212  }{\insrsid15615533 
+inheritances you need just check if list contain more then one parameter. Logging such mistakes should be in process of creating code.}{\insrsid1255589 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6110831 {\insrsid6110831\charrsid1255589 
+\par }{\b\insrsid6110831 General recommendation.
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8995007 \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \ql \fi-360\li1440\ri0\widctlpar\jclisttab\tx1440\aspalpha\aspnum\faauto\ls14\adjustright\rin0\lin1440\itap0\pararsid486977 {
+\insrsid8995007 Note that}{\insrsid12015990  it is possible add some new private methods in Generator instances}{\insrsid8995007 . You may add new methods and provide the other combination of existing. It is up to you. }{\insrsid1911581 
+\par {\listtext\pard\plain\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8995007 \hich\af0\dbch\af0\loch\f0 2.\tab}}{\insrsid8995007 
+Code examples are given only for better understanding of ideas. They are not required to be implemented in such way. It also may be changed.}{\insrsid8995007\charrsid486977 
+\par }\pard\plain \s16\ql \li0\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid6110831 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f0\fs24\cf9\insrsid1191717\charrsid3291185 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.4\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid12213615 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Component Class Overview}{\insrsid3551727 
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid12213615 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\insrsid12213615\charrsid6256956 Class }{\b\insrsid12213615 CodeGenerator
+\par }{\insrsid12213615 This is main class}{\insrsid872080  of component, }{\insrsid602072 which represent}{\insrsid872080  all its functionality}{\insrsid13915284 . This class contains }{\insrsid602072 overloaded}{\insrsid13915284  method generateCode}{
+\insrsid602072 ()}{\insrsid13915284  which provides ability to generate and write code to special location. The other configuration it provides thro}{\insrsid602072 ugh overlo}{\insrsid1255589 aded constructor. Class contains}{\insrsid602072  }{
+\insrsid683858 two configurable parameters}{\insrsid13915284  \endash  }{\insrsid13915284\charrsid13915284 emptyLocationDirectory}{\insrsid13915284  and }{\insrsid683858 cre}{\insrsid1255589\charrsid1255589 ateEmptyPackage}{\insrsid13915284 . }{
+\insrsid12213615 
+\par }{\insrsid13915284\charrsid13915284 emptyLocationDirectory}{\insrsid13915284  \endash  get user ability to choose if location directory should be cleaned before writing there files.
+\par }{\insrsid683858 cre}{\insrsid1255589\charrsid1255589 ateEmptyPackage}{\insrsid13915284  \endash  get user ability to choose if should be written packages which do not contain any Classifiers.
+\par }{\insrsid3156920 
+\par }{\insrsid13173289 Class is thread safety because it is immutable.}{\insrsid3156920 
+\par }{\insrsid13915284\charrsid13915284 
+\par }{\b\insrsid12213615\charrsid6256956 Class }{\b\insrsid12213615 CodeWriter
+\par }{\insrsid13915284 This class is responsible for working }{\insrsid3156920 with directories and files. }{\insrsid602072 Class provides}{\insrsid3156920  creatin
+g necessary directories which structure reflect Java packages and C# namespaces. It provides also ability to w}{\insrsid683858 r}{\insrsid3156920 ite \'93*.java\'94 and \'93*.cs\'94 files. Name of file is the same as name of }{
+\insrsid3156920\charrsid3156920 according}{\insrsid3156920  classifier.}{\insrsid13915284 
+\par }{\insrsid13173289 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13173289 {\insrsid13173289 Class is thread safety because it is immutable.
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid12213615 {\insrsid3156920\charrsid3156920 
+\par }{\b\insrsid12213615\charrsid6256956 Class }{\b\insrsid12213615\charrsid12213615 GeneratorFactory}{\b\insrsid12213615 
+\par }{\insrsid602072 This class represents}{\insrsid3156920  realization of Factory pattern for}{\insrsid13173289  }{\insrsid3156920 this component.}{\insrsid13173289  It returns }{\insrsid602072 different instances of Generator depend}{\insrsid13173289 
+ on language parameter. I}{\insrsid7283046 t may return JavaGenerator or CS}{\insrsid13173289 harpGenerator.}{\insrsid3156920 
+\par }{\insrsid13173289 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13173289 {\insrsid13173289 Class is thread safety because it is immutable.
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid12213615 {\insrsid13173289\charrsid3156920 
+\par }{\b\insrsid3291185 Interface}{\b\insrsid12213615\charrsid6256956  }{\b\insrsid12213615\charrsid12213615 Generator}{\b\insrsid12213615 
+\par }{\insrsid3291185 This interface represent }{\insrsid7762484 all logic which connecting with model components}{\insrsid8539657 
+. It may get name of package, create code of Classifier or check if Classifier is correct for this component (Class, Interface or Enumeration).}{\insrsid7762484  }{\insrsid3291185 
+\par }{\insrsid6110831 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6110831 {\insrsid6110831 Classes which implement this interface may be mutable.}{\insrsid6110831\charrsid6110831 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid12213615 {\insrsid12914089\charrsid13778940 
+\par }{\b\insrsid3291185 Class }{\b\insrsid12914089 Abstract}{\b\insrsid3291185\charrsid12213615 Generator}{\b\insrsid3291185 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid8539657 {\insrsid14881200 This abstract class provides}{\insrsid12015990  realization of}{\insrsid8539657 
+ methods which are common for C# and Java realization of Generator. Class implements interface Generator.
+\par }{\insrsid6110831 
+\par }\pard \ql \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid4156831 {\insrsid16538892 This c}{\insrsid4156831 lass is }{\insrsid16538892 not thread safe because it is mutable.}{\insrsid6110831 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid12213615 {\b\insrsid13173289\charrsid12213615 
+\par }{\b\insrsid12213615\charrsid6256956 Class }{\b\insrsid12213615\charrsid12213615 C}{\b\insrsid7283046 S}{\b\insrsid12213615\charrsid12213615 harpGenerator}{\b\insrsid12213615 
+\par }{\insrsid6110831 This class represents}{\insrsid8539657  G}{\insrsid6110831 enerator instance for C# language. It contains only one public method}{\insrsid8539657  }{\insrsid6110831\charrsid6110831 createClassifier}{\insrsid6110831 
+() and many private methods which encapsulate code generation for some part of classifier.  }{\insrsid8539657\charrsid6110831 
+\par }{\b\insrsid13173289 
+\par }\pard \ql \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid16538892 {\insrsid16538892 This class is not thread safe because it is mutable.
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid12213615 {\b\insrsid6110831\charrsid12213615 
+\par }{\b\insrsid12213615\charrsid6256956 Class }{\b\insrsid12213615\charrsid12213615 JavaGenerator}{\b\insrsid12213615 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6110831 {\insrsid6110831 This class represents Generator instance for Java language. It contains only one public method }{\insrsid6110831\charrsid6110831 
+createClassifier}{\insrsid6110831 () and many private methods which encapsulate code generation for some part of classifier.  
+\par 
+\par }\pard \ql \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid16538892 {\insrsid16538892 This class is not thread safe because it is mutable.
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid12213615 {\b\insrsid6110831\charrsid12213615 
+\par }{\insrsid12213615\charrsid12213615 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.5\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Component Exception Definitions
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid3291185 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\insrsid3291185\charrsid6256956 Class }{\b\insrsid12914089\charrsid12914089 
+CodeGenerationException}{\insrsid3291185 
+\par }{\insrsid12914089 This exception }{\insrsid940062 encapsulate}{\insrsid12914089  or possible exception which may be }{\insrsid940062 thrown}{\insrsid12914089  by component. It may be thrown when }{\insrsid940062 
+problems with configuration and input/output procedures appear}{\insrsid12914089 .}{\insrsid1394993  It has two children to specialize different case of its appearing. }{\insrsid12914089\charrsid12914089 
+\par }{\b\insrsid3291185 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid940062 {\insrsid940062 Class is thread safety because it is immutable.
+\par }{\insrsid1394993 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid1394993 {\b\insrsid1394993\charrsid6256956 Class }{\b\insrsid1394993\charrsid1394993 GeneratorConfigurationException
+\par }{\insrsid1394993 This exception encapsulates all configuration problems of component.  It extends from CodeGenerationException.}{\insrsid1394993\charrsid12914089 
+\par }{\b\insrsid1394993 
+\par }{\insrsid1394993 Class is thread safety because it is immutable.}{\insrsid1394993\charrsid6110831 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid940062 {\insrsid1394993 
+\par 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid1394993 {\b\insrsid1394993\charrsid6256956 Class }{\b\insrsid1394993\charrsid1394993 GeneratorFileSystemException
+\par }{\insrsid1394993 This exception encapsulates all problems which may appear with file system and input/output process.}{\insrsid1394993\charrsid1394993  }{\insrsid1394993 It extends from CodeGenerationException.}{\insrsid1394993\charrsid12914089 
+\par }{\insrsid1394993 
+\par It is possible two error situation:\line 1. Impossible write file (CodeWriter throw IOException)\line 2. Impossible create or delete directory (methods createDirectory() and deleteDirectory() returns false) 
+\par }{\b\insrsid1394993 
+\par }{\insrsid1394993 Class is thread safety because it is immutable.}{\insrsid1394993\charrsid6110831 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid940062 {\insrsid1394993\charrsid6110831 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid3291185 {\b\insrsid940062 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid3675460 {\insrsid602072 It used IllegalArgumentE}{\insrsid3675460 xception}{\insrsid9991132 
+ in many methods, when parameters of method is null, or when String is empty. It used IOException when appear problem until creation folder or writing files.}{\insrsid12914089  }{\insrsid14176974 
+ConfigManagerException may be thrown when problems with configuration appear.}{\insrsid3675460\charrsid3675460 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 {\insrsid14431288\charrsid7812601 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 1.6\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Thread Safety
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid3675460 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid8666084 This component is }{\insrsid3675460 thread safety. }{\insrsid11538564 
+All its classes and attributes are}{\insrsid3675460  im}{\insrsid11538564 m}{\insrsid3675460 utable}{\insrsid11538564 .}{\insrsid3675460  }{\insrsid11538564 B}{\insrsid3675460 ut it use Configuration Manager }{\insrsid11538564 
+and Logging Wrapper which are}{\insrsid3675460  not thread safety. Also it used model component which are not thread safety too. In this case it is impossible to guarantee full thread safety. 
+\par 
+\par Thread safety is not required for this component. UML Tool }{\insrsid9991132 provides}{\insrsid3675460  own external thread safety model.}{\insrsid3675460\charrsid3675460 
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12213615 {\insrsid12213615\charrsid12213615 
+\par {\listtext\pard\plain\s1 \b\f1\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 2.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Environment Requirements\tab \tab 
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid13173289 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid13173289\charrsid13173289 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 2.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Environment
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid13173289 Java 1.5}{\insrsid14431288 
+\par }{\insrsid13173289\charrsid13267711 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 2.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 TopCoder Software Components
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3291185 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid3291185\charrsid3291185 
+\par }\pard \ql \li720\ri0\sa120\widctlpar\faauto\rin0\lin720\itap0\pararsid13173289 {\b\cf1\lang1033\langfe1049\langfenp1049\insrsid13173289\charrsid7891806 UML Model - Model Management 1.0
+\par }{\cf1\lang1033\langfe1049\langfenp1049\insrsid13173289 This component represents Package interface and it default realization.
+\par }{\cf1\lang1033\langfe1049\langfenp1049\insrsid3291185 
+\par }\pard\plain \s16\ql \li720\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13173289 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\b\f0\fs24\cf1\lang1033\langfe1049\langfenp1049\insrsid13173289\charrsid948720 UML Model - Core Requirements 1.0
+\par }\pard\plain \ql \li720\ri0\sa120\widctlpar\faauto\rin0\lin720\itap0\pararsid13173289 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\lang1033\langfe1049\langfenp1049\insrsid13173289 This component represents many interfaces}{
+\cf1\lang1033\langfe1049\langfenp1049\insrsid4538349  (Namespace, ModelElement,Classifier, Operation etc.) and their default realization. }{\cf1\lang1033\langfe1049\langfenp1049\insrsid13173289 
+\par }{\cf1\lang1033\langfe1049\langfenp1049\insrsid3291185 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13173289 {\field\fldedit{\*\fldinst {\insrsid13173289\charrsid13173289  HYPERLINK "http://software.topcoder.com/catalog/c_component.jsp?comp=24210566&ver=1" }{
+\insrsid3693366 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b9200000068007400740070003a002f002f0073006f006600740077006100720065002e0074006f00700063006f006400650072002e0063006f006d002f0063006100740061006c006f0067002f0063005f0063006f00
+6d0070006f006e0065006e0074002e006a00730070003f0063006f006d0070003d003200340032003100300035003600360026007600650072003d0031000000000000000000000000}}}{\fldrslt {\cs23\b\insrsid13173289\charrsid13173289 UML Model - Data Types}}}{
+\insrsid13173289\charrsid13173289  }{\b\insrsid13173289\charrsid13173289 1.0}{\b\insrsid13173289 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid4538349 {\cf1\lang1033\langfe1049\langfenp1049\insrsid4538349 This component represents data }{\cf1\lang1033\langfe1049\langfenp1049\insrsid602072 type\rquote s}{
+\cf1\lang1033\langfe1049\langfenp1049\insrsid4538349  interfaces and enumerations.}{\cf1\lang1033\langfe1049\langfenp1049\insrsid13173289 
+\par }{\insrsid3291185\charrsid4538349 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13173289 {\field\fldedit{\*\fldinst {\insrsid13173289\charrsid13173289  HYPERLINK "http://software.topcoder.com/catalog/c_component.jsp?comp=24211136&ver=1" }{
+\insrsid3693366 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b9200000068007400740070003a002f002f0073006f006600740077006100720065002e0074006f00700063006f006400650072002e0063006f006d002f0063006100740061006c006f0067002f0063005f0063006f00
+6d0070006f006e0065006e0074002e006a00730070003f0063006f006d0070003d003200340032003100310031003300360026007600650072003d0031000000001500000090010000}}}{\fldrslt {\cs23\b\insrsid13173289\charrsid13173289 UML Model - Core Extension Mechanisms}}}{
+\insrsid13173289\charrsid13173289  }{\b\insrsid13173289\charrsid13173289 1.0}{\b\insrsid13173289 
+\par }\pard \ql \li720\ri0\sa120\widctlpar\faauto\rin0\lin720\itap0\pararsid4538349 {\cf1\lang1033\langfe1049\langfenp1049\insrsid4538349 This component represents Stereotype and TaggedValue interfaces and their default realization.
+\par }{\cf1\lang1033\langfe1049\langfenp1049\insrsid3291185\charrsid4538349 
+\par }\pard\plain \s16\ql \li720\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\field\fldedit{\*\fldinst {\f0\fs24\insrsid4538349\charrsid4538349 
+ HYPERLINK "http://software.topcoder.com/catalog/c_component.jsp?comp=24210768&ver=1" }{\f0\fs24\insrsid3693366\charrsid4072172 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b9200000068007400740070003a002f002f0073006f006600740077006100720065002e0074006f00700063006f006400650072002e0063006f006d002f0063006100740061006c006f0067002f0063005f0063006f00
+6d0070006f006e0065006e0074002e006a00730070003f0063006f006d0070003d003200340032003100300037003600380026007600650072003d0031000000047700000000000000}}}{\fldrslt {\cs23\b\f0\fs24\insrsid4538349\charrsid4538349 UML Model - Core Classifiers}}}{
+\f0\fs24\insrsid4538349  }{\b\f0\fs24\insrsid4538349\charrsid4538349 1.0}{\f0\fs24\insrsid14886819\charrsid4538349 
+\par }\pard\plain \ql \li720\ri0\sa120\widctlpar\faauto\rin0\lin720\itap0\pararsid10373916 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\lang1033\langfe1049\langfenp1049\insrsid4538349 This component represents supported }{
+\cf1\lang1033\langfe1049\langfenp1049\insrsid602072 Classifiers (}{\cf1\lang1033\langfe1049\langfenp1049\insrsid4538349 Class, Interface and Enumeration) instances and their default realization.}{\cf1\lang1033\langfe1049\langfenp1049\insrsid3291185 
+
+\par }{\cf1\lang1033\langfe1049\langfenp1049\insrsid10373916 
+\par }\pard\plain \s21\ql \li720\ri0\widctlpar\faauto\rin0\lin720\itap0\pararsid10373916 \f1\fs24\cf1\lang1049\langfe1049\cgrid\langnp1049\langfenp1049 {\cs23\b\f0\lang1033\langfe1049\langnp1033\insrsid10373916\charrsid7235983 Logging Wrapper 1.2}{
+\cs23\b\f0\lang1033\langfe1049\langnp1033\insrsid3291185 
+\par }{\cs23\f0\lang1033\langfe1049\langnp1033\insrsid10373916 Used for logging mistakes which }{\cs23\f0\lang1033\langfe1049\langnp1033\insrsid1394993 is}{\cs23\f0\lang1033\langfe1049\langnp1033\insrsid10373916  in generated code}{
+\cs23\f0\lang1033\langfe1049\langnp1033\insrsid10373916\charrsid10373916 
+\par }{\cs23\b\f0\lang1033\langfe1049\langnp1033\insrsid10373916\charrsid10373916 
+\par }{\cs23\b\f0\lang1033\langfe1049\langnp1033\insrsid10373916\charrsid7235983 Configuration Manager 2.1.5}{\cs23\b\f0\lang1033\langfe1049\langnp1033\insrsid3291185 
+\par }{\f0\lang1033\langfe1049\langnp1033\insrsid10373916 Used for configuration of component
+\par }{\f0\lang1033\langfe1049\langnp1033\insrsid9251360 
+\par }\pard \s21\ql \li720\ri0\widctlpar\faauto\rin0\lin720\itap0\pararsid9251360 {\cs23\b\f0\lang1033\langfe1049\langnp1033\insrsid9251360 Base Exception}{\cs23\b\f0\lang1033\langfe1049\langnp1033\insrsid9251360\charrsid7235983  }{
+\cs23\b\f0\lang1033\langfe1049\langnp1033\insrsid9251360 1.0
+\par }{\f0\lang1033\langfe1049\langnp1033\insrsid9251360 Used as parent for all component exceptions.
+\par }{\f0\lang1033\langfe1049\langnp1033\insrsid4915290 
+\par }\pard \s21\ql \li720\ri0\widctlpar\faauto\rin0\lin720\itap0\pararsid4915290 {\cs23\b\f0\lang1033\langfe1049\langnp1033\insrsid4915290 Typesafe Enum}{\cs23\b\f0\lang1033\langfe1049\langnp1033\insrsid4915290\charrsid7235983  }{
+\cs23\b\f0\lang1033\langfe1049\langnp1033\insrsid4915290 1.0
+\par }{\f0\lang1033\langfe1049\langnp1033\insrsid4915290 Used by Loggin Wrapper..
+\par }\pard \s21\ql \li720\ri0\widctlpar\faauto\rin0\lin720\itap0\pararsid9251360 {\f0\lang1033\langfe1049\langnp1033\insrsid4915290\charrsid10373916 
+\par }\pard \s21\ql \li720\ri0\widctlpar\faauto\rin0\lin720\itap0\pararsid10373916 {\f0\lang1033\langfe1049\langnp1033\insrsid9251360\charrsid10373916 
+\par }\pard\plain \s16\ql \li0\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9251360 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid13173289 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 2.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Third Party Components
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid13173289 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid13173289 None}{\insrsid13173289\charrsid13173289 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 {\insrsid16722089\charrsid2105647 
+\par {\listtext\pard\plain\s1 \b\f1\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 3.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Installation and Configuration
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\fs20\insrsid14431288 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 3.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Package Name
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid13173289\charrsid13173289 com.topcoder.uml.stubclassgenerator}{
+\insrsid14431288\charrsid13173289 
+\par }{\f1\fs20\insrsid13173289\charrsid13173289 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 3.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Configuration Parameters
+\par }\pard\plain \s16\ql \li720\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\lbr3\insrsid14431288 \line }{\insrsid7697415 
+\par }\trowd \irow0\irowband0\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid14431288\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\insrsid7697415 Parameter}{\insrsid7697415 \cell }{\b\insrsid7697415 Description}{
+\insrsid7697415 \cell }{\b\insrsid7697415 Values}{\insrsid7697415 \cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow0\irowband0
+\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 javaLanguage\cell Format of Java language name\cell Java\cell 
+}\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow1\irowband1\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 
+\trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 C#Language\cell Format of C# language name\cell C#\cell }\pard\plain 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow2\irowband2\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb
+\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 documentation\cell Represent name of documentation node.\cell 
+documentation\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow3\irowband3\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 
+\trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 tagsDocumentation\cell Represent part of name of tags documentation nodes.
+\cell documentation#\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow4\irowband4\ts24\trgaph108\trleft-108\trbrdrt
+\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 new\cell C# key word, value is corresponding stereotype name\cell new
+\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow5\irowband5\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 readonly\cell C# key word, value is corresponding stereotype name\cell 
+readonly\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow6\irowband6\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 virtual\cell C# key word, value is corresponding stereotype name\cell 
+virtual\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow7\irowband7\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 override\cell Name of stereotype which value corresponds C# key word\cell 
+override\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow8\irowband8\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 sealed\cell C# key word, value is corresponding stereotype name\cell 
+sealed\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow9\irowband9\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 extern\cell C# key word, value is corresponding stereotype name\cell 
+extern\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow10\irowband10\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 delegate\cell C# key word, value is corresponding stereotype name\cell 
+delegate\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow11\irowband11\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 
+\trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 explicit\cell C# key word, value is corresponding stereotype name\cell 
+explicit\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow12\irowband12\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 
+\trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 implicit\cell C# key word, value is corresponding stereotype name\cell 
+implicit\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow13\irowband13\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 
+\trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid479896\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 struct\cell C# key word, value is corresponding stereotype name\cell 
+struct\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow14\irowband14\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl
+\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt
+\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid14431288\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 property_get\cell }{\insrsid8666084 This}{\insrsid7697415  represent}{
+\insrsid8666084 s}{\insrsid7697415  C# property which contain only getter, value- corresponding stereotype name\cell property_get\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow15\irowband15\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv
+\brdrs\brdrw10 \trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb
+\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid14431288\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 property_set\cell }{\insrsid8666084 This }{\insrsid7697415 represent}{
+\insrsid8666084 s}{\insrsid7697415  C# property which contain only }{\insrsid8868922 s}{\insrsid7697415 etter, value- corresponding stereotype name\cell property_set\cell }\pard\plain 
+\ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow16\irowband16\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb
+\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol 
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr
+\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid14431288\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 property\cell }{\insrsid8666084 This }{\insrsid8868922 represent}{
+\insrsid8666084 s}{\insrsid8868922  C# property which contain getter and setter, value - corresponding stereotype name}{\insrsid7697415 \cell property\cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow17\irowband17\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv
+\brdrs\brdrw10 \trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb
+\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid14431288\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15664694 destructor }{\insrsid7697415 \cell }{\insrsid15664694 This represent}{
+\insrsid8666084 s}{\insrsid15664694  destructor for C#, value corresponding stereotype name}{\insrsid7697415 \cell }{\insrsid15664694 destructor}{\insrsid7697415 \cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow18\irowband18\ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv
+\brdrs\brdrw10 \trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb
+\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li0\ri0\sa120\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid14431288\yts24 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15664694 protected internal}{\insrsid7697415 \cell }{\insrsid15664694 
+Special unsupported access modifier of C#}{\insrsid7697415 \cell }{\insrsid15664694 protected internal}{\insrsid7697415 \cell }\pard\plain \ql \li0\ri0\widctlpar\intbl\aspalpha\aspnum\faauto\adjustright\rin0\lin0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid7697415 \trowd \irow19\irowband19\lastrow \ts24\trgaph108\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 
+\trbrdrv\brdrs\brdrw10 \trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb
+\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3301\clshdrawnil \cellx3193\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx6495
+\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth3302\clshdrawnil \cellx9797\row }\pard\plain 
+\s16\ql \li720\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 3.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Dependencies Configuration
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15664694 Configure please Logging Wrapper 1.2 and Configuration Manager 2.1.5}{
+\insrsid14431288\charrsid15560546 
+\par }{\insrsid14431288\charrsid4488890 
+\par {\listtext\pard\plain\s1 \b\f1\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 4.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Usage Notes
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid9397411 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid9397411\charrsid9397411 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 4.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid9397411 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Required steps to test the component
+\par {\listtext\pard\plain\s16 \f3\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288\charrsid12269597 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \s16\ql \fi-360\li720\ri0\sa120\nowidctlpar
+\jclisttab\tx720\faauto\ls5\rin0\lin720\itap0\pararsid14431288 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288\charrsid12269597 Extract the component distribution.
+\par {\listtext\pard\plain\s16 \f3\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}{\insrsid14431288 F}{\insrsid14431288\charrsid12269597 ollow Dependencies Configuration.
+\par {\listtext\pard\plain\s16 \f3\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288\charrsid12269597 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Execute \lquote ant test\rquote  within the directory that the distribution was extracted to.
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288\charrsid4488890 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 4.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid16722089 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Required steps to use the component
+\par }\pard\plain \s16\ql \li720\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14431288 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Ther
+e are no some special requirements for running this component
+\par }{\insrsid16722089\charrsid8398362 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 4.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Demo
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6110831 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid4880921 
+Actually component does not provide some special scenario. It used only for one target \endash  generate code with already prepared data.}{\insrsid6110831\charrsid6110831 
+\par }\pard \ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid3552349 {\f2\fs20\cf11\lang1033\langfe1031\langfenp1031\insrsid3552349         }{\f2\fs20\cf11\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 
+// Create a new instance of CodeGenerator from a custom name space
+\par }{\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349         }{\f2\fs20\cf11\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 // + emptyLocationDirectory == true: location will be cleared
+\par }{\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349         }{\f2\fs20\cf11\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 // + createEmptyPackage == true: empty packages will be created
+\par }{\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349         CodeGenerator generator = }{\f2\fs20\cf2\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 new}{
+\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349  CodeGenerator(}{\f2\fs20\cf2\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 true}{
+\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 , }{\f2\fs20\cf2\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 true}{
+\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 , NAMESPACE);
+\par 
+\par         }{\f2\fs20\cf11\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 // Generate code for some classifier
+\par }{\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349         }{\f2\fs20\cf11\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 // the pacakge of class1 is com.topcoder.uml.stubclassgenerator
+\par }{\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349         }{\f2\fs20\cf11\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 // its name is Foo
+\par }{\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349         }{\f2\fs20\cf11\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 // therefore it will be written to:
+\par }{\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349         }{\f2\fs20\cf11\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 // location/com/topcoder/uml/stubclassgenerator/Foo.java
+\par }{\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349         generator.generateCode("Java", location, class1);
+\par 
+\par         }{\f2\fs20\cf11\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 // Generate code for a list of classifiers in C#
+\par }{\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349         List<Classifier> classList = }{\f2\fs20\cf2\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 new}{
+\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349  ArrayList<Classifier>();
+\par         classList.add(class1);
+\par         classList.add(class2);
+\par         generator.generateCodeForClassifiers("C#", location, classList);
+\par 
+\par         }{\f2\fs20\cf11\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 // Generate code for a whole package
+\par }{\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349         generator.generateCode("Java", location, package1);
+\par 
+\par         }{\f2\fs20\cf11\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 // Generate code for list of packages
+\par }{\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349         List<Package> packageList = }{\f2\fs20\cf2\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 new}{
+\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349  ArrayList<Package>();
+\par         packageList.add(package1);
+\par         packageList.add(package2);
+\par         generator.generateCodeForPackages("Java", location, packageList);
+\par 
+\par         }{\f2\fs20\cf11\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 // Generate combined code for package and for classifier which is not
+\par }{\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349         }{\f2\fs20\cf11\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 // part of given package.
+\par }{\f2\fs20\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349         generator.generateCode("Java", location, class2);
+\par }\pard\plain \s16\ql \li720\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid3552349 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f2\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349   }{
+\f2\lang2057\langfe1031\langnp2057\langfenp1031\insrsid3552349\charrsid3552349 generator.generateCode("Java", location, package1);}{\f2\fs24\cf18\insrsid4880921\charrsid4880921 
+\par }\pard \s16\ql \li0\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid8995007 {\insrsid7878456\charrsid8995007 
+\par {\listtext\pard\plain\s1 \b\f1\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14431288 \hich\af1\dbch\af0\loch\f1 5.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0\pararsid14431288 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid14431288 Future Enhancements
+\par }\pard\plain \s16\ql \li720\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid11557582 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15664694 None}{\insrsid14431288\charrsid11557582 
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0\pararsid13112680 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid11213828 
+\par }}

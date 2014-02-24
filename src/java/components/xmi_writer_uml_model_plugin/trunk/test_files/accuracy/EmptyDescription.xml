@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<CMConfig>
+ 
+	<Config name="com.topcoder.xmi.writer.transformers.model.ReflectedXMIDescription">
+	  <!-- Below two elements' configuration is expected to be correct -->
+		<Property name="ModelElement">
+
+		</Property>
+	</Config>
+	
+</CMConfig>

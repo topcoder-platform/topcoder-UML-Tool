@@ -1,0 +1,384 @@
+{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\froman\fprq2\fcharset2 Symbol;}{\f3\fmodern\fprq1\fcharset0 Courier New;}{\f4\fswiss\fprq2\fcharset0 Verdana;}}
+{\colortbl ;\red0\green0\blue255;\red0\green128\blue0;\red0\green0\blue0;}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}{\s3 heading 3;}}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx720\ul\b\f0\fs28 XMI Writer - Diagram Interchange Plugin 1.0 \line Component Specification\par
+\pard\nowidctlpar\li720\sa120\ulnone\b0\fs20\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 1.\tab Design\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\b0\fs20 When persisting a UML design to file, the standard open file format, specified by the OMG, is XMI (XML Metadata Interchange). Part of the XMI specification includes a section where diagram information can be stored. This component is a plugin to an XMI Writer, allowing Diagram Interchange elements to be transformed to XMI and persisted.\par
+This is achieved through a large package of classes, each of which is responsible for converting a single Diagram Interchange class into an XMI Node. These are built up recursively, mirroring the associations in the Diagram Interchange component, and handed to a Diagram2XMITransformer class. The latter acts as fa\'e7ade - when given any recognized diagram element, it determines which element transformer should be used, delegates the transform, and formats the resulting data.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.1\tab Design Patterns \par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\b0\i Fa\'e7ade\i0 : Diagram2XMITransformer acts as fa\'e7ade, providing a simple transformation method that hides the more complex Element-level transformation from the calling application.   \par
+\i Composite\i0 : The DiagramInterchangeElementTransformer instances act in a composite manner, allowing the tree of diagram information to be written in the same way as writing just a leaf of XMI.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.2\tab Industry Standards \par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\b0 XMI - Diagram interchange. For formal specification XSD, see "Annex D: Diagram Interchange XML Schema" (pg 67) in the accompanying "Diagram_Interchange_Formal" pdf file.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.3\tab Required Algorithms\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\b0 The most complex part is making sure that the Element transformers abide by the XSD provided - to do this, possible code is provided in the Appendix (section 6), one part for each of the 22 element transformers in this component. \line They all follow the same general structure:\par
+\pard\nowidctlpar\li1440\sa120\sl240\slmult0\i a) Create the Element Node\line b) Set the attributes using member values\line c) Append Nodes for single members\line d) Append Nodes for collection members\line e) Append Nodes from the superclass node\rquote s children \line f) Return the node created in step a.\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\i0 The other algorithm worth mentioning is ID resolution - there is a Sequence Diagram covering it, and in pseudo code\line\i\tab a) Try getting the ID for the element from the XMI Writer object\line\tab b) If it exists already, return it.\line\tab c) Otherwise, generate a new ID using Java\rquote s UUID generator\line\tab d) Convert to a string and set the element\rquote s ID in the XMI Writer object.\line\tab e) Return this string.\i0\par
+\pard\keepn\nowidctlpar\s2\fi-720\li720\sb120\sa60\sl240\slmult0\tx0\tx720\b 1.4\tab Component Class Overview\par
+\pard\nowidctlpar\b0\fs24\par
+\f1\tab\b\f0\fs20 Diagram2XMITransformer:\par
+\pard\nowidctlpar\li1440\b0 The Diagram2XMITransformer is the communication point between the XMI Writer component, and the underlying strategies provided to transform XMI Document Interchange elements into valid XMI. The main entry point into the system is the transform(elt, stream) method, inherited from the XMITransformer interface. This takes a DocumentInterchange element and writes its XMI to an output stream. Within the component, this is done by converting the element to an XML Node first, then writing this to the stream. \par
+\pard\nowidctlpar\par
+\pard\nowidctlpar\fi720\b DiagramInterchangeElementTransformer: << interface >>\par
+\pard\nowidctlpar\li1440\b0 Interface that defines the contract for specific Element  transformers within the Diagram Interchange writer component. Classes that implement this interface are used to convert objects of a single type of class into their XMI representation. This is performed by the transform method, taking the element and XML document, and returning a Node of XML that conforms to the XSD for the given object. Implementations of this class are not required to be threadsafe.\par
+\pard\nowidctlpar\fi720\li720\par
+\pard\nowidctlpar\fi720\b PropertyTransformer:\par
+DiagramElementTransformer:\par
+ReferenceTransformer:\par
+DiagramLinkTransformer:\par
+GraphElementTransformer:\par
+GraphNodeTransformer:\par
+GraphEdgeTransformer:\par
+GraphConnectorTransformer:\par
+DiagramTransformer:\par
+SemanticModelBridgeTransformer:\par
+SimpleSemanticModelElementTransformer:\par
+Uml1SemanticModelBridgeTransformer:\par
+CoreSemanticModelBridgeTransformer:\b0  \par
+\b LeafElementTransformer:\b0  \par
+\b ImageTransformer:\par
+TextElementTransformer:\b0  \par
+\b DimensionTransformer:\b0  \par
+\b PointTransformer:\b0  \par
+\b BezierPointTransformer:\par
+GraphicPrimitiveTransformer:\par
+PolylineTransformer:\par
+EllipseTransformer:\par
+\pard\nowidctlpar\li1440\b0 All [Class]Transfomer provides the XMI transformation strategy for instances of their corresponding [Class]. They provided the logic for the transform() method - see the appendix documentation for more details. In addition, the default no-arg constructor is provided for each. These classes does not handle their thread safety, for reasons mentioned in 1.6\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.5\tab Component Exception Definitions\par
+\pard\nowidctlpar\li720\sa120\b0 No new components are defined - The custom UnknownElementException and XMITransformException are used from the XMI Writer component.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 1.6\tab Thread Safety\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\b0 This component is not thread safe - there is no protection against multiple threads using concurrent access to modify the state of objects in use. Instead, the XMI writing should be handled in a thread safe manner by the calling application, for example making sure only one thread performs the writing while any others do not change the underlying data structures.\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 2.\tab Environment Requirements\tab\tab\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 2.1\tab Environment\par
+\pard\nowidctlpar\fi-360\li1080\tx1080\b0\f2\'b7\tab\f0 Java 1.5 for compilation and development\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 2.2\tab TopCoder Software Components\par
+\pard\nowidctlpar\fi-360\li1080\sa120\tx1080\b0\f2\'b7\tab\f0 Diagram Interchange 1.0, for all the diagram interchange data structures.\par
+\f2\'b7\tab\f0 XMI Writer 1.0, for access to XMITransformer and associated exceptions.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 2.3\tab Third Party Components\par
+\pard\nowidctlpar\s3\li720\sb120\sa60\sl240\slmult0\tx720\b0 The org.w3c.dom package is required for XML parsing.\par
+\pard\nowidctlpar\f1\fs24\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0 3.\tab Installation and Configuration\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 3.1\tab Package Name\par
+\pard\nowidctlpar\fi720\b0 com.topcoder.xmi.writer.transformers.diagram\line\tab com.topcoder.xmi.writer.transformers.diagram.elementtransformers\par
+\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b  3.2\tab Configuration Parameters\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\b0 There is no required external configuration for this component - the only configuration step is performed programmatically, passing values into the Diagram2XMITransformer constructor. See the demo(section 4.3) for an example of what parameters to give.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 3.3\tab Dependencies Configuration\par
+\pard\nowidctlpar\sa120\b0\tab None\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24 4.\tab Usage Notes\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\fs20 4.1\tab Required steps to test the component\par
+\pard\nowidctlpar\fi-360\li1080\sa120\tx1080\b0\f2\'b7\tab\f0 Extract the component distribution.\par
+\pard\nowidctlpar\fi-360\li1080\sa120\f2\'b7\tab\f0 Follow {\field{\*\fldinst{HYPERLINK "C:\\\\filez\\\\work\\\\tc\\\\tcs_corp\\\\templates\\\\component\\\\" \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\l "_Dependencies_Configuration" }}{\fldrslt{\cf1\ul Dependencies Configuration}}}\cf0\ulnone\f0\fs20 .\par
+\f2\'b7\tab\f0 Execute \lquote ant test\rquote  within the directory that the distribution was extracted to.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 4.2\tab Required steps to use the component\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\b0 To use the component, all that needs to be done is to construct an instance with valid element transformers, then elements of known classes can be transformed. See below for a demo of how this can be achieved.\par
+\pard\keepn\nowidctlpar\s2\sb120\sa60\sl240\slmult0\tx0\b 4.3\tab Demo\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\cf2\b0\f3\fs15 // Element Transformer setup:\cf0\par
+Map < String, DiagramInterchangeElementTransformer > transMap =\par
+\pard\nowidctlpar\fi825\li720\sa120\sl240\slmult0 new HashMap < String, DiagramInterchangeElementTransformer >();\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0 String base = "com.topcoder.diagraminterchange.";\par
+transMap.put(base + "Property",       new PropertyTransformer());\par
+transMap.put(base + "DiagramElement", new DiagramElementTransformer());\par
+transMap.put(base + "Reference",      new ReferenceTransformer());\par
+\cf2 // ... etc.\par
+\cf0 transMap.put(base + "Polyline",       new PolylineTransformer());\par
+transMap.put(base + "Ellipse",        new EllipseTransformer());\par
+transMap.put(base + "Diagram",        new DiagramTransformer());\par
+transMap.put(base + "Point",        new PointTransformer());\par
+transMap.put(base + "Dimension",        new DimensionTransformer());\par
+transMap.put(base + "GraphNode",        new GraphNodeTransformer());\par
+transMap.put(base + "TextElement",        new TextElementTransformer());\par
+\par
+\cf2 // tagNameMappings setup:\par
+\cf0 Map < String, String > tagNameMappings = new HashMap < String, String >();\par
+\par
+\cf2 // XML Transformer setup:\par
+\cf0 Transformer xmit = TransformerFactory.newInstance().newTransformer();\par
+xmit.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");\par
+xmit.setOutputProperty(OutputKeys.INDENT, "yes");\par
+\par
+\cf2 // Component initialization:\par
+\cf0 Diagram2XMITransformer trans\par
+    = new Diagram2XMITransformer(transMap, tagNameMappings, xmit, true);\par
+\cf2 // Due to defaults, this is the same as\par
+// new Diagram2XMITransformer(transMap, tagNameMappings);\par
+// use with XMI Writer:\par
+\cf0 Map < TransformerType, XMITransformer > tMap = new HashMap < TransformerType, XMITransformer>();\par
+tMap.put(TransformerType.Diagram, trans);\par
+UMLModelManager manager = new UMLModelManager();\par
+XMIWriter writer = new XMIWriter(manager, tMap);\par
+\par
+\cf2 // check a few initial setups:\par
+// check PolylineTransformer could be found for the the Polyline class\par
+\cf0 DiagramInterchangeElementTransformer polylineTr =\par
+    trans.getElementTransformer(base + "Polyline");\par
+assertTrue("The polylineTr should be of PolylineTransformer tpye", polylineTr instanceof PolylineTransformer);\par
+\cf2 // check if could not find a Transformer for a class, an UnknownElementException will be thrown\par
+\cf0 try \{\par
+    trans.getElementTransformer("unrecognisedclass");\par
+    fail("UnknownElementException is expected.");\par
+\} catch (UnknownElementException e)\{\par
+   \cf2  // good\par
+\cf0\}\par
+\cf2 // set up some elements to be transformed\par
+// assume makePoint returns a Point with the given x/y\par
+// and makeProperty returns a property with the given key/valu\cf0 e\par
+\cf2 // make a Diagram:\par
+\cf0 Diagram diag = new Diagram();\par
+diag.setName("Main Class Diagram");\par
+diag.setPosition(makePoint(0.0, 0.0));\par
+diag.setSize(makeDimension(250.0, 250.0));\par
+diag.setViewport(makePoint(0.0, 0.0));\par
+diag.setZoom(0.9);\par
+\par
+\cf2 // make a text box to put in there, with Node container:\par
+\cf0 TextElement txt = new TextElement();\par
+txt.setText("Title");\par
+GraphNode holder = new GraphNode();\par
+holder.addContained(txt);\par
+holder.setPosition(makePoint(120.0, 30.0));\par
+holder.setSize(makeDimension(40.0, 25.0));\par
+holder.addProperty(makeProperty("font-size", "20.0"));\par
+\cf2 // add to diagram\par
+\cf0 diag.addContained(holder);\par
+\par
+\cf2 // make an ellipse:\par
+\cf0 Ellipse els = new Ellipse();\par
+els.setRadiusX(22.0);\par
+els.setRadiusY(22.0);\par
+els.setRotation(0.0);\par
+els.setStartAngle(0.0);\par
+els.setEndAngle(6.283185307179586); // 2 pi\par
+els.setVisible(false);\par
+els.setCenter(makePoint(200.0, 30.0));\par
+els.addProperty(makeProperty("fill", "#0000ff"));\par
+\cf2 // add to diagram\par
+\cf0 diag.addContained(els);\par
+\par
+\cf2 // transform\par
+\cf0 try \{\par
+\cf2     // see provided sample.xmi for possible output - note that\par
+    // it it\rquote s a complete XMI file yet, so can\rquote t be loaded\par
+\cf0     trans.transform(diag, System.out);\par
+\} catch (Exception e)\{\par
+   \cf2  // this might occur, errors are not suppressed\par
+\cf0     throw e;\par
+\}\par
+\cf2 // add this diagram\par
+\cf0 manager.addDiagram(diag);\par
+\cf2 // will write the diagram data to the sample file:\par
+\cf0 writer.transform(new File("test_files/sample.xmi"), true);\par
+\cf2 // the output is show below:\par
+/*\par
+\pard\nowidctlpar\fi-225\li945\sa120\sl240\slmult0  * <UML:Diagram name="Main Class Diagram" visible="true" \par
+\pard\nowidctlpar\fi825\sa120\sl240\slmult0 *            xmi.id="95605017-f101-4743-832d-298426acf5ab"   zoom="0.9">\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0  *      <UML:Diagram.viewport>\par
+ *          <UML:Point x="0.0" y="0.0"/>\par
+ *       </UML:Diagram.viewport>\par
+ *      <UML:GraphNode.size>\par
+ *          <UML:Dimension height="250.0" width="250.0"/>\par
+ *      </UML:GraphNode.size>\par
+ *      <UML:GraphElement.position>\par
+ *          <UML:Point x="0.0" y="0.0"/>\par
+ *      </UML:GraphElement.position>\par
+ *      <UML:GraphElement.contained>\par
+ *          <UML:GraphNode visible="true" xmi.id="35ae2d8c-e6de-4c0c-bfc0-243dd29592ff">\par
+ *              <UML:GraphNode.size>\par
+ *                  <UML:Dimension height="25.0" width="40.0"/>\par
+ *              </UML:GraphNode.size>\par
+ *           <UML:GraphElement.position>\par
+ *               <UML:Point x="120.0" y="30.0"/>\par
+ *           </UML:GraphElement.position>\par
+ *           <UML:GraphElement.contained>\par
+ *               <UML:TextElement text="Title" visible="true" xmi.id="68cec23e-a960-4098-9add-70ec5f483cc0"/>\par
+ *           </UML:GraphElement.contained>\par
+ *           <UML:DiagramElement.property>\par
+ *               <UML:Property key="font-size" value="20.0"/>\par
+ *           </UML:DiagramElement.property>\par
+ *          </UML:GraphNode>\par
+ *          <UML:Ellipse endAngle="6.283185307179586" radiusX="22.0" radiusY="22.0" rotation="0.0"\par
+ *              startAngle="0.0" visible="false" xmi.id="782936e7-5bc9-4cbb-874f-da654fcf2d7e">\par
+ *              <UML:Ellipse.center>\par
+ *                  <UML:Point x="200.0" y="30.0"/>\par
+ *              </UML:Ellipse.center>\par
+ *              <UML:DiagramElement.property>\par
+ *                  <UML:Property key="fill" value="#0000ff"/>\par
+ *              </UML:DiagramElement.property>\par
+ *          </UML:Ellipse>\par
+ *      </UML:GraphElement.contained>\par
+ * </UML:Diagram>\par
+ */\par
+// transform unregistered class:\par
+\cf0 try \{\par
+    trans.transform(new Integer(0), System.out);\par
+\} catch (UnknownElementException e)\{\par
+    // will get here - integers don\rquote t have a transformer\par
+\par
+\}\par
+\par
+\cf2 // transform to node:\par
+\cf0 try \{\par
+    \cf2 // get document from builder\par
+\cf0     Document doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();\par
+    Node node = trans.transform(diag, doc);\par
+    assertTrue("The name of the node should be 'UML:Diagram'.", node.getNodeName().equals("UML:Diagram"));\par
+\} catch (Exception e)\{\par
+    \cf2 // shouldn\rquote t get here\par
+\cf0\}\par
+\par
+\cf2 // suppress any exception\par
+\cf0 trans.setWithExceptions(false);\par
+try \{\par
+    trans.transform(new Integer(0), System.out);\par
+\} catch (UnknownElementException e) \{\par
+   \cf2  // won\rquote t get here - integers are unknown, but errors suppressed\par
+\cf0\}\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\f0\fs24\page 5.\tab Future Enhancements\par
+\pard\nowidctlpar\li720\sa120\sl240\slmult0\b0\fs20 Two changes that would simplify this are both more about changing how the XMI Writer overall is used, rather than this component. Firstly, it would be useful if the Node-output method of transform() was all that was required, rather than the OutputStream as is currently used. This would seemingly allow more DOM-based interactions with the transformed data, both inside the Diagram Interchange plug-in, as well as the others.\par
+The second change would be to make the XMI Writer handle all identification. Currently, each writer plug-in is responsible for setting its own identifiers for the objects it handles - this may lead to problems if multiple plug-ins use different identification techniques, problems could also occur if they use the same and have some identifier overlap. At the very least, the duplication of effort wouldn\rquote t\rquote  be required if the XMI writer was responsible for id assignment.\par
+Finally, if optimization is desired, it would be possible for element transformers to directly use any other transformers they require, rather than going through the fa\'e7ade entry. For example, a polyline could get the Point transformer from its Diagram2XMITransformer, and then \i locally \i0 format all of its waypoints, as opposed to calling the Diagram2XMITransformer\rquote s transform() each time.\par
+\pard\nowidctlpar\sa120\par
+\pard\keepn\nowidctlpar\s1\sb120\sa60\sl240\slmult0\tx360\b\fs24\page 6.\tab Appendix - Transformer algorithms\par
+\pard\nowidctlpar\li-567\ri-716\i\f4\fs20 PropertyTransformer:\par
+\b0\i0\f3\fs18 Element ret = document.createElement("UML:Property");\line ret.setAttribute("key", element.getKey());\par
+ret.setAttribute("value", element.getValue());\b\i\par
+\par
+\f4\fs20 DiagramElementTransformer:\par
+\b0\i0\f3\fs18 Element ret = document.createElement("UML:DiagramElement");\line ret.setAttribute("xmi.id", caller.resolveID(element));\par
+ret.setAttribute("visible", "" + element.isVisible()); \line\par
+// if has\par
+Element tmp = document.createElement("UML:DiagramElement.property");\line for(Property prop : properties)\{\line     tmp.appendChild(caller.transform(prop, document)); \line\}\par
+ret.appendChild(tmp);\par
+\par
+// if has\par
+Element tmp = document.createElement("UML:DiagramElement.reference");\par
+for(Reference ref : references)\{\par
+    tmp.appendChild(caller.transform(ref, document));\line\}\par
+ret.appendChild(tmp);\line\par
+\b\i\par
+\f4\fs20 ReferenceTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:Reference");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("isIndividualRepresentation",  ""+element.isIndividualRepresentation());\line\line DiagramElement elt = getReferenced();\line tmp =  document.createElement("UML:DiagramLink.referenced");\line Element docRef = document.createElement("UML:DiagramElement");\line docRef.setAttribute("xmi.idref", caller.resolveID(elt));\line tmp.appendChild(docRef);\line ret.appendChild(tmp);\par
+\par
+\pard\cf3 Node parentNode = super.transform(element, document, caller);\par
+Node node = parentNode.getFirstChild();\par
+while (node != null) \{\par
+\tab ret.appendChild(node);\par
+\tab node = parentNode.getFirstChild();\par
+\pard\nowidctlpar\li-567\ri-716\}\cf0\par
+\b\i\line\f4\fs20 DiagramLinkTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:DiagramLink");\line ret.setAttribute("xmi.id", caller.resolveID(element));\par
+ret.setAttribute("zoom", element.getZoom());\line\tab\line Element tmp = document.createElement("UML:DiagramLink.viewport");\par
+tmp.appendChild(caller.transform(element.getViewport(), document));\line ret.appendChild(tmp);\line\line tmp =  document.createElement("UML:DiagramLink.diagram");\line Element docRef = document.createElement("UML:Diagram");\line docRef.setAttribute("xmi.idref", caller.resolveID(element.getDiagram()));\line tmp.appendChild(docRef);\line ret.appendChild(tmp);\line\par
+\b\i\line\f4\fs20 GraphElementTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:GraphElement");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("visible", "" + element.isVisible());\line  \line Element tmp = document.createElement("UML:GraphElement.position");\par
+tmp.appendChild(caller.transform(element.getPosition(), document));\line ret.appendChild(tmp);\line\par
+// if has\par
+tmp = document.createElement("UML:GraphElement.anchorage\rdblquote );\line for(GraphConnector con : element.getAnchorages())\{\line     tmp.appendChild(caller.transform(con, document));\line\}\par
+ret.appendChild(tmp);\par
+\par
+// if has\line tmp = document.createElement("UML:GraphElement.contained");\par
+for(DiagramElement con : element.getContaineds())\line     tmp.appendChild(caller.transform(con, document));\line ret.appendChild(tmp);\line\par
+if has\line tmp = document.createElement("UML:GraphElement.semanticModel");\line tmp.appendChild(caller.transform(element.getSemanticModel(), document)); // if not null\line ret.appendChild(tmp);\line\par
+// if has\par
+tmp = document.createElement("UML:GraphElement.link");\line for(DiagramLink link : element.getLinks())\{\line     tmp.appendChild(caller.transform(link, document));\line\}\par
+ret.appendChild(tmp);\line\par
+\pard\cf3 Node parentNode = super.transform(element, document, caller);\par
+Node node = parentNode.getFirstChild();\par
+while (node != null) \{\par
+\tab ret.appendChild(node);\par
+\tab node = parentNode.getFirstChild();\par
+\pard\nowidctlpar\li-567\ri-716\}\cf0\line\b\i\par
+\line\f4\fs20 GraphNodeTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:GraphNode");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("visible", "" + element.isVisible());\par
+\line Element tmp = document.createElement("UML:GraphNode.size");\par
+tmp.appendChild(caller.transform(element.getSize(), document));\line ret.appendChild(tmp);\line\line\pard\cf3 Node parentNode = super.transform(element, document, caller);\par
+Node node = parentNode.getFirstChild();\par
+while (node != null) \{\par
+\tab ret.appendChild(node);\par
+\tab node = parentNode.getFirstChild();\par
+\pard\nowidctlpar\li-567\ri-716\}\cf0\line\b\i\line\f4\fs20 GraphEdgeTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:GraphEdge");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("visible", "" + element.isVisible());\line\par
+// if has\line Element tmp = document.createElement("UML:GraphEdge.waypoints");\line for(Point waypoint : element.getWaypoints())\line     tmp.appendChild(caller.transform(waypoint, document));\line ret.appendChild(tmp);\line\par
+// if has\par
+tmp = document.createElement("UML:GraphEdge.anchor");\line for(GraphConnector con : element.getAnchors())\{\line     Element conRef = document.createElement("UML:GraphConnector");\line     conRef.setAttribute("xmi.idref", caller.resolveID(con));\line     tmp.appendChild(conRef);\line\}\par
+ret.appendChild(tmp);\line\line\pard\cf3 Node parentNode = super.transform(element, document, caller);\par
+Node node = parentNode.getFirstChild();\par
+while (node != null) \{\par
+\tab ret.appendChild(node);\par
+\tab node = parentNode.getFirstChild();\par
+\pard\nowidctlpar\li-567\ri-716\}\cf0\par
+\b\i\par
+\f4\fs20\line GraphConnectorTransformer:\par
+\b0\i0\f3\fs18 Element ret = document.createElement("UML:GraphConnector");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line\b\i\line\b0\i0 Element tmp = document.createElement("UML:GraphConnector.position");\par
+tmp.appendChild(caller.transform(element.getPosition(), document));\line ret.appendChild(tmp);\line\par
+// if has\par
+tmp = document.createElement("UML:GraphConnector.graphEdge");\line for(GraphEdge edge : graphEdges)\{\line     Element edgeRef = document.createElement("UML:GraphEdge");\line     edgeRef.setAttribute("xmi.idref", caller.resolveID(edge));\line     tmp.appendChild(edgeRef);\par
+\}\par
+ret.appendChild(tmp);\line\b\i\line\f4\fs20 DiagramTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:Diagram");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("visible", "" + element.isVisible());\line ret.setAttribute("name", element.getName());\line ret.setAttribute("zoom", element.getZoom());\line\line Element tmp = document.createElement("UML:Diagram.viewport");\par
+tmp.appendChild(caller.transform(element.getViewport(), document));\line ret.appendChild(tmp);\line\line Element tmp = document.createElement("UML:Diagram.owner");\par
+tmp.appendChild(caller.transform(element.getOwner(), document));\line ret.appendChild(tmp);\line // if has\par
+tmp = document.createElement("UML:Diagram.diagramLink");\line for(DiagramLink link : element.getDiagramLinks())\{\line     Element linkref = document.createElement("UML:DiagramLink");\line     linkRef.setAttribute("xmi.idref", caller.resolveID(link));\line     tmp.appendChild(linkRef);\par
+\}\par
+ret.appendChild(tmp);\line\line\line\pard\cf3 Node parentNode = super.transform(element, document, caller);\par
+Node node = parentNode.getFirstChild();\par
+while (node != null) \{\par
+\tab ret.appendChild(node);\par
+\tab node = parentNode.getFirstChild();\par
+\pard\nowidctlpar\li-567\ri-716\}\cf0\par
+\b\i\par
+\line\f4\fs20 SemanticModelBridgeTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:SemanticModelBridge");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("presentation", element.getPresentation());\par
+\b\i\line\f4\fs20 SimpleSemanticModelElementTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:SimpleSemanticModelBridge");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("presentation", element.getPresentation());\line ret.setAttribute("typeinfo", element.getTypeInfo());\par
+\b\i\line\f4\fs20 Uml1SemanticModelBridgeTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:Uml1SemanticModelBridge");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("presentation", element.getPresentation());\par
+\line Element tmp = document.createElement("UML:Uml1SemanticModelBridge.element");\line Element eltRef = \'85; // get the basic node for the contained element, using class name\line eltRef.setAttribute("xmi.idref", caller.resolveID(element.getElement()));\line tmp.appendChild( eltRef );\line ret.appendChild(tmp);\b\i\line\line\f4\fs20 CoreSemanticModelBridgeTransformer:\f3\fs18\par
+\b0\i0 Element ret = document.createElement("UML:CoreSemanticModelBridge");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("presentation", element.getPresentation());\par
+\b\i\par
+\f4\fs20 LeafElementTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:LeafElement");\line ret.setAttribute("visible", "" + element.isVisible());\line\pard\cf3 Node parentNode = super.transform(element, document, caller);\par
+Node node = parentNode.getFirstChild();\par
+while (node != null) \{\par
+\tab ret.appendChild(node);\par
+\tab node = parentNode.getFirstChild();\par
+\pard\nowidctlpar\li-567\ri-716\}\cf0\par
+\b\i\line\f4\fs20 ImageTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:Image");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("visible", "" + element.isVisible());\line ret.setAttribute("url", element.getUri());\line ret.setAttribute("mimeType", element.getMimeType());\line\line\pard\cf3 Node parentNode = super.transform(element, document, caller);\par
+Node node = parentNode.getFirstChild();\par
+while (node != null) \{\par
+\tab ret.appendChild(node);\par
+\tab node = parentNode.getFirstChild();\par
+\pard\nowidctlpar\li-567\ri-716\}\cf0\par
+\b\i\line\f4\fs20 TextElementTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:TextElement");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("visible", "" + element.isVisible());\line ret.setAttribute("text", element.getText());\line\line\pard\cf3 Node parentNode = super.transform(element, document, caller);\par
+Node node = parentNode.getFirstChild();\par
+while (node != null) \{\par
+\tab ret.appendChild(node);\par
+\tab node = parentNode.getFirstChild();\par
+\pard\nowidctlpar\li-567\ri-716\}\cf0\par
+\b\i\line\f4\fs20 DimensionTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:Dimension");\line ret.setAttribute("width", element.getWidth());\par
+ret.setAttribute("height", element.getHeight());\b\i\par
+\line\f4\fs20 PointTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:Point");\line ret.setAttribute("x", ""+element.getX());\par
+ret.setAttribute("y", ""+element.getY());\b\i\par
+\line\f4\fs20 BezierPointTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:BezierPoint");\line ret.setAttribute("x", ""+element.getX());\par
+ret.setAttribute("y", ""+element.getY());\line\b\i\par
+\b0\i0 Element controlPoints = document.createElement("UML:BezierPoint.controls");\line for(Point p : controls)\par
+    controlPoints.appendChild(caller.transform(p, document));\line ret.appendChild(controlPoints)\b\i\par
+\par
+\f4\fs20 GraphicPrimitiveTransformer\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:GraphicPrimitive");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("visible", "" + element.isVisible());\line\line\pard\cf3 Node parentNode = super.transform(element, document, caller);\par
+Node node = parentNode.getFirstChild();\par
+while (node != null) \{\par
+\tab ret.appendChild(node);\par
+\tab node = parentNode.getFirstChild();\par
+\pard\nowidctlpar\li-567\ri-716\}\cf0\par
+\b\i\line\f4\fs20 PolylineTransformer:\f3\fs18\line\b0\i0 Element ret = document.createElement("UML:Polyline");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("visible", "" + element.isVisible());\par
+ret.setAttribute("closed",  ""+element.isClosed());\line\line Element tmp = document.createElement("UML:Polyline.waypoints");\line for(Point p : element.getWaypoints())\line     tmp.appendChild(caller.transform(p, document));\line ret.appendChild(tmp);\line\line\pard\cf3 Node parentNode = super.transform(element, document, caller);\par
+Node node = parentNode.getFirstChild();\par
+while (node != null) \{\par
+\tab ret.appendChild(node);\par
+\tab node = parentNode.getFirstChild();\par
+\pard\nowidctlpar\li-567\ri-716\}\cf0\par
+\b\i\f4\fs20\line EllipseTransformer:\par
+\b0\i0\f3\fs18 Element ret = document.createElement("UML:Ellipse");\line ret.setAttribute("xmi.id", caller.resolveID(element));\line ret.setAttribute("visible", "" + element.isVisible());\line ret.setAttribute("radiusX",  ""+element.getRadiusX());\line ret.setAttribute("radiusY",  ""+element.getRadiusY());\line ret.setAttribute("rotation",  ""+element.getRotation());\line ret.setAttribute("startAngle",  ""+element.getStartAngle());\line ret.setAttribute("endAngle",  ""+element.getEndAngle());\line\line Element tmp = document.createElement("UML:Ellipse.center");\par
+tmp.appendChild(caller.transform(element.getCenter(), document));\line ret.appendChild(tmp);\par
+\par
+\pard\cf3 Node parentNode = super.transform(element, document, caller);\par
+Node node = parentNode.getFirstChild();\par
+while (node != null) \{\par
+\tab ret.appendChild(node);\par
+\tab node = parentNode.getFirstChild();\par
+\pard\nowidctlpar\li-567\ri-716\}\cf0\line\f4\line\i\par
+\pard\nowidctlpar\par
+}
+ 

@@ -1,0 +1,6 @@
+<CMConfig>
+  <!-- This is well formed configuration: all properties is absent-->
+  <Config name="com.topcoder.xmi.reader.XMIReader">
+      
+   </Config> 
+</CMConfig>

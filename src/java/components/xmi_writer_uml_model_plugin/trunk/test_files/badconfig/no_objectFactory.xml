@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<CMConfig>
+	<Config name="Invalid2">
+	  <!-- ignoreUnknownElementType flag, true/false, REQUIRED-->
+		<Property name="ignoreUnknownElementType">
+			<Value>true</Value>
+		</Property>
+		<!-- XMIDescription object name in objectFactory, REQUIRED -->
+		<Property name="xmiDescription">
+		  <Value>xmiDescriptionObject</Value>
+		</Property>
+	</Config>
+</CMConfig>

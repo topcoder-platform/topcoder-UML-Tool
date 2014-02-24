@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<CMConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<property name="vsbPolicy">
+		<value>-1</value>
+	</property>
+	<property name="hsbPolicy">
+		<value>31</value>
+	</property>
+	<property name="toolBarClass">
+		<value>com.topcoder.gui.panels.documentation.plugins.html.toolbars.DefaultHTMLDocumentationEditorToolBar</value>
+	</property>
+	<property name="XSDPath">
+		<value>test_files/xhtml1-strict.xsd</value>
+	</property>
+	<Config name="toolBarConfig">
+		<property name="cutImage">
+			<value>test_files/cut.png</value>
+		</property>
+		<property name="cutShortKey">
+			<value>X</value>
+		</property>
+		<property name="cutTooltip">
+			<value>This is my cut tool tip.</value>
+		</property>
+		<property name="copyImage">
+			<value>test_files/copy.png</value>
+		</property>
+		<property name="copyShortKey">
+			<value>C</value>
+		</property>
+		<property name="copyTooltip">
+			<value>This is my copy tool tip.</value>
+		</property>
+		<property name="pasteImage">
+			<value>test_files/paste.png</value>
+		</property>
+		<property name="pasteShortKey">
+			<value>V</value>
+		</property>
+		<property name="pasteTooltip">
+			<value>This is my paste tool tip.</value>
+		</property>
+		<property name="undoImage">
+			<value>test_files/undo.png</value>
+		</property>
+		<property name="undoShortKey">
+			<value>Z</value>
+		</property>
+		<property name="undoTooltip">
+			<value>This is my undo tool tip.</value>
+		</property>
+		<property name="redoImage">
+			<value>test_files/redo.png</value>
+		</property>
+		<property name="redoShortKey">
+			<value>Y</value>
+		</property>
+		<property name="redoTooltip">
+			<value>This is my redo tool tip.</value>
+		</property>
+		<property name="boldImage">
+			<value>test_files/bold.png</value>
+		</property>
+		<property name="boldShortKey">
+			<value>B</value>
+		</property>
+		<property name="boldTooltip">
+			<value>This is my bold tool tip.</value>
+		</property>
+		<property name="italicImage">
+			<value>test_files/italic.png</value>
+		</property>
+		<property name="italicShortKey">
+			<value>I</value>
+		</property>
+		<property name="italicTooltip">
+			<value>This is my italic tool tip.</value>
+		</property>
+		<property name="underlineImage">
+			<value>test_files/underline.png</value>
+		</property>
+		<property name="underlineShortKey">
+			<value>U</value>
+		</property>
+		<property name="underlineTooltip">
+			<value>This is my underline tool tip.</value>
+		</property>
+		<property name="fontSizeConfig">
+			<value>10</value>
+			<value>1</value>
+			<value>-2</value>
+		</property>
+	</Config>
+</CMConfig>

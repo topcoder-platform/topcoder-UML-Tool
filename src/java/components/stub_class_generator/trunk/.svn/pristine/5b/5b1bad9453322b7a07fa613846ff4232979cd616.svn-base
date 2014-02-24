@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMConfig>
+<Property name="javaLanguage">
+<Value>java</Value>
+</Property>
+<Property name="C#Language">
+<Value>c#</Value>
+</Property>
+<Property name="documentation">
+<Value>documentation</Value>
+</Property>
+<Property name="tagsDocumentation">
+<Value>documentation#</Value>
+</Property>
+<Property name="new">
+<Value>new</Value>
+</Property>
+<Property name="readonly">
+<Value>readonly</Value>
+</Property>
+<Property name="virtual">
+<Value>virtual</Value>
+</Property>
+<Property name="override">
+<Value>override</Value>
+</Property>
+<Property name="sealed">
+<Value>sealed</Value>
+</Property>
+<Property name="extern">
+<Value>extern</Value>
+</Property>
+<Property name="delegate">
+<Value>delegate</Value>
+</Property>
+<Property name="explicit">
+<Value>explicit</Value>
+</Property>
+<Property name="implicit">
+<Value>implicit</Value>
+</Property>
+<Property name="struct">
+<Value>struct</Value>
+</Property>
+<Property name="property_get">
+<Value>property_get</Value>
+</Property>
+<Property name="property_set">
+<Value>property_set</Value>
+</Property>
+<Property name="property">
+<Value>property</Value>
+</Property>
+<Property name="destructor">
+<Value>destructor</Value>
+</Property>
+<Property name="protected internal">
+<Value>protected internal</Value>
+</Property>
+</CMConfig>

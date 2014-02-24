@@ -1,0 +1,998 @@
+<?xml version="1.0"?>
+<project name="TopCoder UML Tool" default="dist" basedir=".">
+
+	<!-- COMPONENT PARAMETERS -->
+	<property name="component" value="TopCoder_UML_Tool" />
+	<property name="package" value="com.topcoder" />
+	<property name="packagedir" value="com/topcoder" />
+	<property name="distfilename" value="topcoder_uml_tool" />
+	<property name="component_path" value="${distfilename}/${application_version}" />
+	<property name="application_version" value="1.2.6" />
+	<property name="application_copyright_year" value="2013" />
+
+	<!-- DIRECTORY SETUP -->
+	<property name="srcdir" value="src" />
+	<property name="tcs_libdir" value="lib/tcs" />
+	<property name="ext_libdir" value="lib" />
+	<property name="jar_tcs_libdir" value="lib/tcs" />
+	<property name="jar_ext_libdir" value="lib" />
+	<property name="docsdir" value="docs" />
+	<property name="configdir" value="conf" />
+	<property name="testlogdir" value="log" />
+	<property name="testfiles" value="test_files" />
+	<property name="javadocsdir" value="${docsdir}/javadocs" />
+	<property name="webdir" value="web" />
+	<property name="resourcesdir" value="resources" />
+	<property name="reports" value="reports" />
+
+	<property name="tcs_srcdir" value="src/java/components" />
+
+	<property name="javasrc" value="${srcdir}/java" />
+	<property name="javamain" value="${javasrc}/main" />
+	<property name="javatests" value="${javasrc}/tests" />
+	<property name="javaizpack" value="${javasrc}/izpack" />
+
+	<property name="builddir" value="build" />
+	<property name="build_classdir" value="${builddir}/classes" />
+	<property name="build_uml_model_src" value="${builddir}/uml_model_src" />
+	<property name="build_manager_src" value="${builddir}/manager_src" />
+	<property name="build_testclassdir" value="${builddir}/testClasses" />
+	<property name="build_targetclassdir" value="${builddir}/targetclasses" />
+	<property name="build_izpackclassdir" value="${builddir}/izpack" />
+	<property name="build_distdir" value="${builddir}/dist" />
+	<property name="build_docsdir" value="${builddir}/${docsdir}" />
+	<property name="build_javadocsdir" value="${builddir}/${javadocsdir}" />
+	<property name="build_webdir" value="${builddir}/${webdir}" />
+	<property name="build_lib" value="${builddir}/lib" />
+	<property name="build_tcsdistdir" value="${build_distdir}/${distfilename}-${application_version}" />
+
+	<!-- EXECUTION TAGS -->
+	<property name="debug" value="off" />
+	<property name="verbose" value="no" />
+
+	<!-- COMPONENT DISTRIBUTION STRUCTURE -->
+	<property name="dist_conf" value="${build_tcsdistdir}/${configdir}" />
+	<property name="dist_lib" value="${build_distdir}/lib/tcs" />
+	<property name="dist_src" value="${build_tcsdistdir}/${srcdir}" />
+	<property name="dist_docs" value="${build_tcsdistdir}/${docsdir}" />
+	<property name="dist_javadocs" value="${build_tcsdistdir}/${javadocsdir}" />
+	<property name="dist_testfiles" value="${build_tcsdistdir}/${testfiles}" />
+
+	<!-- NAME FOR .JAR AND .WAR FILES -->
+	<property name="component.jar" value="${dist_lib}/${component_path}/${distfilename}.jar" />
+	<property name="javadoc.jar" value="javadocs.jar" />
+	<property name="component.tests.jar" value="${dist_lib}/${distfilename}_tests.jar" />
+	<property name="component.war" value="${dist_examples}/${distfilename}.war" />
+	<property name="component.dist.jar" value="${build_distdir}/${distfilename}-${application_version}.jar" />
+	<property name="dev_submission.jar" value="${component}_${application_version}_dev_submission.jar" />
+	<property name="design_submission.jar" value="${component}_${application_version}_design_submission.jar" />
+	<property name="dev_dist.jar" value="${component}_${application_version}_dev_dist.jar" />
+	<property name="design_dist.jar" value="${component}_${application_version}_design_dist.jar" />
+
+	<!-- DOCUMENT PACKAGE -->
+	<property name="dist_docpackage" value="${builddir}/doc_package" />
+	<property name="docpackage.jar" value="${distfilename}_docs.jar" />
+
+	<!-- TCS Dependencies -->
+	<property name="configuration_manager.version" value="2.1.5" />
+	<property name="configuration_manager.jar.name" value="configuration_manager.jar" />
+	<property name="configuration_manager.path" value="configuration_manager/${configuration_manager.version}" />
+	<property name="configuration_manager.jar" value="${tcs_libdir}/${configuration_manager.path}/${configuration_manager.jar.name}" />
+
+	<property name="base_exception.version" value="2.0" />
+	<property name="base_exception.jar.name" value="base_exception.jar" />
+	<property name="base_exception.path" value="base_exception/${base_exception.version}" />
+	<property name="base_exception.jar" value="${tcs_libdir}/${base_exception.path}/${base_exception.jar.name}" />
+
+	<property name="generic_event_manager.version" value="1.0" />
+	<property name="generic_event_manager.jar.name" value="generic_event_manager.jar" />
+	<property name="generic_event_manager.path" value="generic_event_manager/${generic_event_manager.version}" />
+	<property name="generic_event_manager.jar" value="${tcs_libdir}/${generic_event_manager.path}/${generic_event_manager.jar.name}" />
+
+	<property name="logging_wrapper.version" value="1.2" />
+	<property name="logging_wrapper.jar.name" value="logging_wrapper.jar" />
+	<property name="logging_wrapper.path" value="logging_wrapper/${logging_wrapper.version}" />
+	<property name="logging_wrapper.jar" value="${tcs_libdir}/${logging_wrapper.path}/${logging_wrapper.jar.name}" />
+
+	<property name="memory_usage.version" value="2.0" />
+	<property name="memory_usage.jar.name" value="memory_usage.jar" />
+	<property name="memory_usage.path" value="memory_usage/${memory_usage.version}" />
+	<property name="memory_usage.jar" value="${tcs_libdir}/${memory_usage.path}/${memory_usage.jar.name}" />
+
+	<property name="object_factory.version" value="2.0.1" />
+	<property name="object_factory.jar.name" value="object_factory.jar" />
+	<property name="object_factory.path" value="object_factory/${object_factory.version}" />
+	<property name="object_factory.jar" value="${tcs_libdir}/${object_factory.path}/${object_factory.jar.name}" />
+
+	<property name="simple_cache.version" value="2.0.2" />
+	<property name="simple_cache.jar.name" value="simple_cache.jar" />
+	<property name="simple_cache.path" value="simple_cache/${simple_cache.version}" />
+	<property name="simple_cache.jar" value="${tcs_libdir}/${simple_cache.path}/${simple_cache.jar.name}" />
+
+	<property name="typesafe_enum.version" value="1.0" />
+	<property name="typesafe_enum.jar.name" value="typesafe_enum.jar" />
+	<property name="typesafe_enum.path" value="typesafe_enum/${typesafe_enum.version}" />
+	<property name="typesafe_enum.jar" value="${tcs_libdir}/${typesafe_enum.path}/${typesafe_enum.jar.name}" />
+
+	<property name="image_manipulation.version" value="1.0" />
+	<property name="image_manipulation.jar.name" value="image_manipulation.jar" />
+	<property name="image_manipulation.path" value="image_manipulation/${image_manipulation.version}" />
+	<property name="image_manipulation.jar" value="${tcs_libdir}/${image_manipulation.path}/${image_manipulation.jar.name}" />
+
+	<!-- Assembly Components -->
+	<property name="assembly_components.path" value="Assembly_Components" />
+
+	<property name="UML_Tool_Backend.version" value="1.0" />
+	<property name="UML_Tool_Backend.jar.name" value="UML_Tool_Backend.jar" />
+	<property name="UML_Tool_Backend.path" value="UML_Tool_Backend/${UML_Tool_Backend.version}" />
+	<property name="UML_Tool_Backend.jar" value="${tcs_libdir}/${assembly_components.path}/${UML_Tool_Backend.path}/${UML_Tool_Backend.jar.name}" />
+
+	<!-- 3rd Party Dependencies  -->
+	<property name="junit.jar" value="${ext_libdir}/junit/junit.jar" />
+
+	<path id="buildlibs">
+		<pathelement location="${junit.jar}" />
+		<pathelement location="${configuration_manager.jar}" />
+		<pathelement location="${base_exception.jar}" />
+		<pathelement location="${memory_usage.jar}" />
+		<pathelement location="${object_factory.jar}" />
+		<pathelement location="${logging_wrapper.jar}" />
+		<pathelement location="${generic_event_manager.jar}" />
+		<pathelement location="${simple_cache.jar}" />
+		<pathelement location="${typesafe_enum.jar}" />
+		<pathelement location="${image_manipulation.jar}" />
+		<pathelement location="${ext_libdir}/jai_core.jar" />
+		<pathelement location="${ext_libdir}/jai_codec.jar" />
+		<pathelement location="${ext_libdir}/log4j-1.2.15.jar" />
+		<pathelement location="${ext_libdir}/jfcunit/jakarta-regexp-1.2.jar" />
+		<pathelement location="${ext_libdir}/jfcunit/jfcunit.jar" />
+		<pathelement location="${ext_libdir}/swingunit/swingunit.jar" />
+		<pathelement location="${configdir}" />
+		<pathelement location="${build_classdir}" />
+                <fileset dir="${ext_libdir}/eclipse" includes="**/*.jar" />
+	</path>
+
+	<path id="test.build.classpath">
+		<pathelement location="${build_testclassdir}" />
+		<pathelement location="${build_classdir}" />
+		<pathelement location="${testfiles}" />
+		<path refid="buildlibs" />
+	</path>
+
+	<target name="reports" depends="test">
+		<mkdir dir="${reports}" />
+
+		<junitreport todir="${reports}">
+			<fileset dir="${testlogdir}">
+				<include name="*.xml" />
+			</fileset>
+			<report format="frames" todir="${reports}" />
+		</junitreport>
+
+		<echo>The execution of reports is complete.  Reports are available in /${reports}</echo>
+	</target>
+
+	<path id="runtime.classpath">
+		<pathelement location="${build_classdir}" />
+		<path refid="buildlibs" />
+	</path>
+
+	<target name="compile" depends="compile_components">
+		<mkdir dir="${build_classdir}" />
+
+		<antcall target="compile_mac_lnf" />
+
+		<javac srcdir="${javamain}" destdir="${build_classdir}" includes="${packagedir}/umltool/deploy/**" excludes="**/UMLToolMacLookAndFeel.java" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:deprecation" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<delete file="${configdir}/Version.properties"/>
+		<propertyfile file="${configdir}/Version.properties">
+			<entry key="version" value="${application_version}"/>
+			<entry key="copyrightYear" value="${application_copyright_year}"/>
+		</propertyfile>
+
+	</target>
+
+	<!-- Compile components -->
+	<property name="component_src_path" value="trunk/src/java/main" />
+
+	<property name="uml_model_manager.componentName" value="uml_model_manager" />
+	<property name="uml_model_manager.srcpath" value="${tcs_srcdir}/${uml_model_manager.componentName}/${component_src_path}/" />
+
+	<property name="uml_project_configuration.componentName" value="uml_project_configuration" />
+	<property name="uml_project_configuration.srcpath" value="${tcs_srcdir}/${uml_project_configuration.componentName}/${component_src_path}/" />
+
+	<property name="standard_class_loader.componentName" value="standard_class_data_loader" />
+	<property name="standard_class_loader.srcpath" value="${tcs_srcdir}/${standard_class_loader.componentName}/${component_src_path}/" />
+
+	<property name="action_manager.componentName" value="action_manager" />
+	<property name="action_manager.srcpath" value="${tcs_srcdir}/${action_manager.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_-_actions.componentName" value="uml_model_-_actions" />
+	<property name="uml_model_-_actions.srcpath" value="${tcs_srcdir}/${uml_model_-_actions.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_-_activity_graph.componentName" value="uml_model_-_activity_graphs" />
+	<property name="uml_model_-_activity_graph.srcpath" value="${tcs_srcdir}/${uml_model_-_activity_graph.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_-_collaborations.componentName" value="uml_model_-_collaborations" />
+	<property name="uml_model_-_collaborations.srcpath" value="${tcs_srcdir}/${uml_model_-_collaborations.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_-_common_behavior.componentName" value="uml_model_-_common_behavior" />
+	<property name="uml_model_-_common_behavior.srcpath" value="${tcs_srcdir}/${uml_model_-_common_behavior.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_-_core.componentName" value="uml_model_-_core" />
+	<property name="uml_model_-_core.srcpath" value="${tcs_srcdir}/${uml_model_-_core.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_-_core_auxiliary_elements.componentName" value="uml_model_-_core_auxiliary_elements" />
+	<property name="uml_model_-_core_auxiliary_elements.srcpath" value="${tcs_srcdir}/${uml_model_-_core_auxiliary_elements.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_-_core_classifiers.componentName" value="uml_model_-_core_classifiers" />
+	<property name="uml_model_-_core_classifiers.srcpath" value="${tcs_srcdir}/${uml_model_-_core_classifiers.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_-_core_dependencies.componentName" value="uml_model_-_core_dependencies" />
+	<property name="uml_model_-_core_dependencies.srcpath" value="${tcs_srcdir}/${uml_model_-_core_dependencies.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_-_core_extension_mechanisms.componentName" value="uml_model_-_core_extension_mechanisms" />
+	<property name="uml_model_-_core_extension_mechanisms.srcpath" value="${tcs_srcdir}/${uml_model_-_core_extension_mechanisms.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_-_core_relationships.componentName" value="uml_model_-_core_relationships" />
+	<property name="uml_model_-_core_relationships.srcpath" value="${tcs_srcdir}/${uml_model_-_core_relationships.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_-_model_management.componentName" value="uml_model_-_model_management" />
+	<property name="uml_model_-_model_management.srcpath" value="${tcs_srcdir}/${uml_model_-_model_management.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_-_use_cases.componentName" value="uml_model_-_use_cases" />
+	<property name="uml_model_-_use_cases.srcpath" value="${tcs_srcdir}/${uml_model_-_use_cases.componentName}/${component_src_path}/" />
+
+	<property name="auxiliary_action.componentName" value="auxiliary_action" />
+	<property name="auxiliary_action.srcpath" value="${tcs_srcdir}/${auxiliary_action.componentName}/${component_src_path}/" />
+
+	<property name="vertical_label.componentName" value="vertical_label" />
+	<property name="vertical_label.srcpath" value="${tcs_srcdir}/${vertical_label.componentName}/${component_src_path}/" />
+
+	<property name="closable_tab.componentName" value="closable_tab" />
+	<property name="closable_tab.srcpath" value="${tcs_srcdir}/${closable_tab.componentName}/${component_src_path}/" />
+
+	<property name="section_layout.componentName" value="section_layout" />
+	<property name="section_layout.srcpath" value="${tcs_srcdir}/${section_layout.componentName}/${component_src_path}/" />
+
+	<property name="side_menu.componentName" value="side_menu" />
+	<property name="side_menu.srcpath" value="${tcs_srcdir}/${side_menu.componentName}/${component_src_path}/" />
+
+	<property name="swing_configuration_manager_editor.componentName" value="swing_configuration_manager_editor" />
+	<property name="swing_configuration_manager_editor.srcpath" value="${tcs_srcdir}/${swing_configuration_manager_editor.componentName}/${component_src_path}/" />
+
+	<property name="diagram_interchange.componentName" value="diagram_interchange" />
+	<property name="diagram_interchange.srcpath" value="${tcs_srcdir}/${diagram_interchange.componentName}/${component_src_path}/" />
+
+	<property name="diagram_action.componentName" value="diagram_action" />
+	<property name="diagram_action.srcpath" value="${tcs_srcdir}/${diagram_action.componentName}/${component_src_path}/" />
+
+	<property name="diagram_edges.componentName" value="diagram_edges" />
+	<property name="diagram_edges.srcpath" value="${tcs_srcdir}/${diagram_edges.componentName}/${component_src_path}/" />
+
+	<property name="diagram_elements.componentName" value="diagram_elements" />
+	<property name="diagram_elements.srcpath" value="${tcs_srcdir}/${diagram_elements.componentName}/${component_src_path}/" />
+
+	<property name="diagram_uml_activity.componentName" value="diagram_uml_activity" />
+	<property name="diagram_uml_activity.srcpath" value="${tcs_srcdir}/${diagram_uml_activity.componentName}/${component_src_path}/" />
+
+	<property name="diagram_uml_auxiliary_elements.componentName" value="diagram_uml_auxiliary_elements" />
+	<property name="diagram_uml_auxiliary_elements.srcpath" value="${tcs_srcdir}/${diagram_uml_auxiliary_elements.componentName}/${component_src_path}/" />
+
+	<property name="diagram_uml_class_edges.componentName" value="diagram_uml_class_edges" />
+	<property name="diagram_uml_class_edges.srcpath" value="${tcs_srcdir}/${diagram_uml_class_edges.componentName}/${component_src_path}/" />
+
+	<property name="diagram_uml_class_elements.componentName" value="diagram_uml_class_elements" />
+	<property name="diagram_uml_class_elements.srcpath" value="${tcs_srcdir}/${diagram_uml_class_elements.componentName}/${component_src_path}/" />
+
+	<property name="diagram_uml_sequence_elements.componentName" value="diagram_uml_sequence_elements" />
+	<property name="diagram_uml_sequence_elements.srcpath" value="${tcs_srcdir}/${diagram_uml_sequence_elements.componentName}/${component_src_path}/" />
+
+	<property name="diagram_uml_use_case.componentName" value="diagram_uml_use_case" />
+	<property name="diagram_uml_use_case.srcpath" value="${tcs_srcdir}/${diagram_uml_use_case.componentName}/${component_src_path}/" />
+
+	<property name="diagram_viewer.componentName" value="diagram_viewer" />
+	<property name="diagram_viewer.srcpath" value="${tcs_srcdir}/${diagram_viewer.componentName}/${component_src_path}/" />
+
+	<property name="document_tree.componentName" value="document_tree" />
+	<property name="document_tree.srcpath" value="${tcs_srcdir}/${document_tree.componentName}/${component_src_path}/" />
+
+	<property name="documentation_panel.componentName" value="documentation_panel" />
+	<property name="documentation_panel.srcpath" value="${tcs_srcdir}/${documentation_panel.componentName}/${component_src_path}/" />
+
+	<property name="elements_toolbar.componentName" value="elements_toolbar" />
+	<property name="elements_toolbar.srcpath" value="${tcs_srcdir}/${elements_toolbar.componentName}/${component_src_path}/" />
+
+	<property name="event_manager.componentName" value="event_manager" />
+	<property name="event_manager.srcpath" value="${tcs_srcdir}/${event_manager.componentName}/${component_src_path}/" />
+
+	<property name="image_exporter.componentName" value="image_exporter" />
+	<property name="image_exporter.srcpath" value="${tcs_srcdir}/${image_exporter.componentName}/${component_src_path}/" />
+
+	<property name="print_manager.componentName" value="print_manager" />
+	<property name="print_manager.srcpath" value="${tcs_srcdir}/${print_manager.componentName}/${component_src_path}/" />
+
+	<property name="project_action.componentName" value="project_action" />
+	<property name="project_action.srcpath" value="${tcs_srcdir}/${project_action.componentName}/${component_src_path}/" />
+
+	<property name="properties_panel.componentName" value="properties_panel" />
+	<property name="properties_panel.srcpath" value="${tcs_srcdir}/${properties_panel.componentName}/${component_src_path}/" />
+
+	<property name="stub_class_generator.componentName" value="stub_class_generator" />
+	<property name="stub_class_generator.srcpath" value="${tcs_srcdir}/${stub_class_generator.componentName}/${component_src_path}/" />
+
+	<property name="style_panel.componentName" value="style_panel" />
+	<property name="style_panel.srcpath" value="${tcs_srcdir}/${style_panel.componentName}/${component_src_path}/" />
+
+	<property name="uml_tool_actions_activity_elements_actions.componentName" value="uml_tool_actions_-_activity_elements_actions" />
+	<property name="uml_tool_actions_activity_elements_actions.srcpath" value="${tcs_srcdir}/${uml_tool_actions_activity_elements_actions.componentName}/${component_src_path}/" />
+
+	<property name="uml_tool_actions_class_elements_actions.componentName" value="uml_tool_actions_-_class_elements_actions" />
+	<property name="uml_tool_actions_class_elements_actions.srcpath" value="${tcs_srcdir}/${uml_tool_actions_class_elements_actions.componentName}/${component_src_path}/" />
+
+	<property name="uml_tool_actions_diagram_actions.componentName" value="uml_tool_actions_-_diagram_actions" />
+	<property name="uml_tool_actions_diagram_actions.srcpath" value="${tcs_srcdir}/${uml_tool_actions_diagram_actions.componentName}/${component_src_path}/" />
+
+	<property name="uml_tool_actions_diagram_elements_actions.componentName" value="uml_tool_actions_-_diagram_elements_actions" />
+	<property name="uml_tool_actions_diagram_elements_actions.srcpath" value="${tcs_srcdir}/${uml_tool_actions_diagram_elements_actions.componentName}/${component_src_path}/" />
+
+	<property name="uml_tool_actions_diagram_elements_add_actions.componentName" value="uml_tool_actions_-_diagram_elements_add_actions" />
+	<property name="uml_tool_actions_diagram_elements_add_actions.srcpath" value="${tcs_srcdir}/${uml_tool_actions_diagram_elements_add_actions.componentName}/${component_src_path}/" />
+
+	<property name="uml_tool_actions_element_properties_actions.componentName" value="uml_tool_actions_-_element_properties_actions" />
+	<property name="uml_tool_actions_element_properties_actions.srcpath" value="${tcs_srcdir}/${uml_tool_actions_element_properties_actions.componentName}/${component_src_path}/" />
+
+	<property name="uml_tool_actions_sequence_elements_actions.componentName" value="uml_tool_actions_-_sequence_elements_actions" />
+	<property name="uml_tool_actions_sequence_elements_actions.srcpath" value="${tcs_srcdir}/${uml_tool_actions_sequence_elements_actions.componentName}/${component_src_path}/" />
+
+	<property name="xmi_reader.componentName" value="xmi_reader" />
+	<property name="xmi_reader.srcpath" value="${tcs_srcdir}/${xmi_reader.componentName}/${component_src_path}/" />
+
+	<property name="xmi_reader_uml_model_plugin.componentName" value="xmi_reader_uml_model_plugin" />
+	<property name="xmi_reader_uml_model_plugin.srcpath" value="${tcs_srcdir}/${xmi_reader_uml_model_plugin.componentName}/${component_src_path}/" />
+
+	<property name="xmi_reader_uml_activity_graph_plugin.componentName" value="xmi_reader_uml_activity_graph_plugin" />
+	<property name="xmi_reader_uml_activity_graph_plugin.srcpath" value="${tcs_srcdir}/${xmi_reader_uml_activity_graph_plugin.componentName}/${component_src_path}/" />
+
+	<property name="xmi_reader_diagram_interchange_plugin.componentName" value="xmi_reader_diagram_interchange_plugin" />
+	<property name="xmi_reader_diagram_interchange_plugin.srcpath" value="${tcs_srcdir}/${xmi_reader_diagram_interchange_plugin.componentName}/${component_src_path}/" />
+
+	<property name="xmi_writer_diagram_interchange_plugin.componentName" value="xmi_writer_diagram_interchange_plugin" />
+	<property name="xmi_writer_diagram_interchange_plugin.srcpath" value="${tcs_srcdir}/${xmi_writer_diagram_interchange_plugin.componentName}/${component_src_path}/" />
+
+	<property name="xmi_writer_uml_model_plugin.componentName" value="xmi_writer_uml_model_plugin" />
+	<property name="xmi_writer_uml_model_plugin.srcpath" value="${tcs_srcdir}/${xmi_writer_uml_model_plugin.componentName}/${component_src_path}/" />
+
+	<property name="zoom_panel.componentName" value="zoom_panel" />
+	<property name="zoom_panel.srcpath" value="${tcs_srcdir}/${zoom_panel.componentName}/${component_src_path}/" />
+
+	<property name="zuml_2_tcuml_converter.componentName" value="zuml_2_tcuml_converter" />
+	<property name="zuml_2_tcuml_converter.srcpath" value="${tcs_srcdir}/${zuml_2_tcuml_converter.componentName}/${component_src_path}/" />
+
+	<property name="zuml_2_tcuml_converter_activity_diagrams.componentName" value="zuml_2_tcuml_converter_-_activity_diagrams" />
+	<property name="zuml_2_tcuml_converter_activity_diagrams.srcpath" value="${tcs_srcdir}/${zuml_2_tcuml_converter_activity_diagrams.componentName}/${component_src_path}/" />
+
+	<property name="zuml_2_tcuml_converter_sequence_diagrams.componentName" value="zuml_2_tcuml_converter_sequence_diagrams" />
+	<property name="zuml_2_tcuml_converter_sequence_diagrams.srcpath" value="${tcs_srcdir}/${zuml_2_tcuml_converter_sequence_diagrams.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_data_types.componentName" value="uml_model_-_data_types" />
+	<property name="uml_model_data_types.srcpath" value="${tcs_srcdir}/${uml_model_data_types.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_state_machines.componentName" value="uml_model_-_state_machines" />
+	<property name="uml_model_state_machines.srcpath" value="${tcs_srcdir}/${uml_model_state_machines.componentName}/${component_src_path}/" />
+
+	<property name="uml_model_data_types.componentName" value="uml_model_-_data_types" />
+	<property name="uml_model_data_types.srcpath" value="${tcs_srcdir}/${uml_model_data_types.componentName}/${component_src_path}/" />
+
+	<property name="xmi_writer.componentName" value="xmi_writer" />
+	<property name="xmi_writer.srcpath" value="${tcs_srcdir}/${xmi_writer.componentName}/${component_src_path}/" />
+
+	<property name="xmi_writer_uml_activity_graph_plugin.componentName" value="xmi_writer_uml_activity_graph_plugin" />
+	<property name="xmi_writer_uml_activity_graph_plugin.srcpath" value="${tcs_srcdir}/${xmi_writer_uml_activity_graph_plugin.componentName}/${component_src_path}/" />
+
+	<property name="uml_tool_actions_use_case_elements_actions.componentName" value="uml_tool_actions_-_use_case_elements_actions" />
+	<property name="uml_tool_actions_use_case_elements_actions.srcpath" value="${tcs_srcdir}/${uml_tool_actions_use_case_elements_actions.componentName}/${component_src_path}/" />
+
+	<property name="uml_tool_actions_diagram_elements_actions.componentName" value="uml_tool_actions_-_diagram_elements_actions" />
+	<property name="uml_tool_actions_diagram_elements_actions.srcpath" value="${tcs_srcdir}/${uml_tool_actions_diagram_elements_actions.componentName}/${component_src_path}/" />
+
+	<property name="uml_tool_actions_diagram_elements_add_actions.componentName" value="uml_tool_actions_-_diagram_elements_add_actions" />
+	<property name="uml_tool_actions_diagram_elements_add_actions.srcpath" value="${tcs_srcdir}/${uml_tool_actions_diagram_elements_add_actions.componentName}/${component_src_path}/" />
+
+	<property name="uml_tool_jar_importer.componentName" value="uml_tool_jar_importer" />
+	<property name="uml_tool_jar_importer.srcpath" value="${tcs_srcdir}/${uml_tool_jar_importer.componentName}/${component_src_path}/" />
+
+	<available classname="apple.laf.AquaLookAndFeel" property="mac" />
+
+	<target name="compile_uml_model">
+
+		<mkdir dir="${build_uml_model_src}" />
+
+		<copy todir="${build_uml_model_src}">
+			<fileset dir="${uml_model_-_actions.srcpath}" />
+			<fileset dir="${uml_model_-_activity_graph.srcpath}" />
+			<fileset dir="${uml_model_-_common_behavior.srcpath}" />
+			<fileset dir="${uml_model_-_collaborations.srcpath}" />
+			<fileset dir="${uml_model_-_core.srcpath}" />
+			<fileset dir="${uml_model_-_core_auxiliary_elements.srcpath}" />
+			<fileset dir="${uml_model_-_core_classifiers.srcpath}" />
+			<fileset dir="${uml_model_-_core_extension_mechanisms.srcpath}" />
+			<fileset dir="${uml_model_-_core_dependencies.srcpath}" />
+			<fileset dir="${uml_model_-_core_relationships.srcpath}" />
+			<fileset dir="${uml_model_data_types.srcpath}" />
+			<fileset dir="${uml_model_state_machines.srcpath}" />
+			<fileset dir="${uml_model_-_model_management.srcpath}" />
+			<fileset dir="${uml_model_-_use_cases.srcpath}" />
+		</copy>
+
+		<mkdir dir="${build_classdir}" />
+		<javac srcdir="${build_uml_model_src}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+	</target>
+
+	<target name="compile_manager" depends="compile_uml_model">
+
+		<mkdir dir="${build_manager_src}" />
+
+		<copy todir="${build_manager_src}">
+			<fileset dir="${uml_model_manager.srcpath}" />
+			<fileset dir="${uml_project_configuration.srcpath}" />
+		</copy>
+
+		<mkdir dir="${build_classdir}" />
+
+		<javac srcdir="${standard_class_loader.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${diagram_interchange.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${build_manager_src}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+	</target>
+
+	<target name="compile_mac_lnf" if="mac">
+		<javac srcdir="${javamain}" destdir="${build_classdir}" includes="**/UMLToolMacLookAndFeel.java" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+	</target>
+
+	<target name="compile_components" depends="compile_uml_model, compile_manager">
+
+		<mkdir dir="${build_classdir}" />
+
+		<javac srcdir="${action_manager.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${javamain}" destdir="${build_classdir}" includes="${packagedir}/umltool/lnf/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${swing_configuration_manager_editor.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${vertical_label.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${closable_tab.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${section_layout.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${side_menu.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${auxiliary_action.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${diagram_action.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${zoom_panel.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${diagram_viewer.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<!-- javac srcdir="${diagram_elements.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac -->
+
+		<javac srcdir="${diagram_edges.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${diagram_uml_activity.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${diagram_uml_auxiliary_elements.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${diagram_uml_class_edges.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${diagram_uml_class_elements.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${diagram_uml_sequence_elements.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${diagram_uml_use_case.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${document_tree.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${documentation_panel.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${elements_toolbar.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${event_manager.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${image_exporter.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${print_manager.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${properties_panel.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${stub_class_generator.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${style_panel.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${uml_tool_actions_activity_elements_actions.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${uml_tool_actions_class_elements_actions.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${uml_tool_actions_diagram_actions.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${uml_tool_actions_diagram_elements_actions.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${uml_tool_actions_diagram_elements_add_actions.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${uml_tool_actions_element_properties_actions.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${uml_tool_actions_sequence_elements_actions.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${xmi_reader.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${xmi_reader_uml_model_plugin.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${xmi_reader_diagram_interchange_plugin.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${xmi_reader_uml_activity_graph_plugin.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${javamain}" destdir="${build_classdir}" includes="${packagedir}/umltool/backend/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${xmi_writer.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${xmi_writer_diagram_interchange_plugin.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${xmi_writer_uml_model_plugin.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${xmi_writer_uml_activity_graph_plugin.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${zuml_2_tcuml_converter.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${zuml_2_tcuml_converter_activity_diagrams.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${zuml_2_tcuml_converter_sequence_diagrams.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${project_action.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${uml_tool_actions_use_case_elements_actions.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${uml_tool_actions_diagram_elements_actions.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<javac srcdir="${uml_tool_jar_importer.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="buildlibs" />
+		</javac>
+
+		<!--
+        <javac srcdir="${uml_tool_actions_diagram_elements_add_actions.srcpath}" destdir="${build_classdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+
+           <compilerarg value="-Xlint:unchecked" />
+            <classpath refid="buildlibs" />
+        </javac>-->
+	</target>
+
+	<!-- End compile components -->
+	<target name="compile_tests" depends="compile">
+		<mkdir dir="${build_testclassdir}" />
+		<javac srcdir="${javatests}" destdir="${build_testclassdir}" includes="${packagedir}/**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="test.build.classpath" />
+		</javac>
+	</target>
+
+	<target name="test" depends="compile_tests,prepareOs">
+		<mkdir dir="${testlogdir}" />
+		<junit fork="true" haltonerror="false">
+			<classpath location="${resourcesdir}" />
+			<classpath refid="test.build.classpath" />
+			<test name="com.topcoder.umltool.deploy.AllTests" todir="${testlogdir}">
+				<formatter type="plain" usefile="true" />
+				<formatter type="xml" usefile="true" />
+			</test>
+		</junit>
+	</target>
+
+	<target name="dist" depends="compile">
+		<mkdir dir="${dist_lib}/${component_path}" />
+		<jar jarfile="${component.jar}" basedir="${build_classdir}" />
+	</target>
+
+	<target name="dist_tests" depends="compile_tests">
+		<mkdir dir="${dist_lib}" />
+		<jar jarfile="${component.tests.jar}" basedir="${build_testclassdir}" />
+	</target>
+
+	<target name="javadoc" depends="compile">
+		<mkdir dir="${dist_javadocs}" />
+		<javadoc packagenames="${package}.*" sourcepath="${javamain}" classpath="${build_classdir}" classpathref="buildlibs" destdir="${dist_javadocs}" windowtitle="Topcoder Software" header="&lt;table border=0 cellpadding=0 cellspacing=2&gt;&lt;tr&gt;&lt;td&gt;&lt;font class=tcoder2&gt;&#091; &lt;/font&gt;&lt;font class=tcoder1&gt;TOP&lt;/font&gt;&lt;font class=tcoder2&gt;CODER &lt;/font&gt;&lt;font class=tcoder2&gt;&#093;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font class=tcoder4&gt;&#153;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=tcoder3 align=center&gt;&lt;font class=tcoder3&gt;SOFTWARE&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" footer="&lt;table border=0 cellpadding=0 cellspacing=2&gt;&lt;tr&gt;&lt;td&gt;&lt;font class=tcoder2&gt;&#091; &lt;/font&gt;&lt;font class=tcoder1&gt;TOP&lt;/font&gt;&lt;font class=tcoder2&gt;CODER &lt;/font&gt;&lt;font class=tcoder2&gt;&#093;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font class=tcoder4&gt;&#153;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=tcoder3 align=center&gt;&lt;font class=tcoder3&gt;SOFTWARE&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" bottom="&lt;font class=tcoder5&gt;Contact TopCoder Software at &lt;a href='http://software.topcoder.com'&gt;software.topcoder.com&lt;/a&gt;&lt;/font&gt;" stylesheetfile="${javadocsdir}/stylesheet.css" verbose="${verbose}">
+			<tag name="copyright" description="Copyright:" scope="types" />
+		</javadoc>
+	</target>
+
+	<target name="clean">
+		<delete dir="${builddir}" />
+	</target>
+
+
+	<!-- MAC OS X specific target to build a TopCoder UML Tool application bundle -->
+	<target name="build_mac_appbundle" depends="compile" description="Make a double-clickable Mac OS X application">
+		<mkdir dir="${build_distdir}" />
+		<mkdir dir="${application_resources_java}" />
+		<mkdir dir="${application_macos}" />
+
+		<!-- copy UML Tool classes -->
+		<copy toDir="${application_resources_java}">
+			<fileset dir="${build_classdir}" />
+			<!-- copy UML TOOL classes to application bundle -->
+		</copy>
+
+		<!-- copy libraries -->
+		<copy toDir="${application_resources_java}/lib">
+			<fileset dir="${ext_libdir}" />
+			<!-- copy the lib directory to the application bundle -->
+		</copy>
+
+		<!-- copy resources -->
+		<copy toDir="${application_resources}/resources">
+			<fileset dir="${resourcesdir}" />
+		</copy>
+
+		<!-- copy config files -->
+		<copy toDir="${application_resources}/conf">
+			<fileset dir="${configdir}" />
+		</copy>
+
+		<!-- copy application stub -->
+		<copy file="${apple_appstub}" toFile="${application_macos}/${ant.project.name}" />
+		<!-- fix stub permissions -->
+		<exec executable="/bin/chmod">
+			<arg line="755 '${application_macos_stub}'" />
+		</exec>
+
+		<!-- prepare the list of .jar libraries to be included in the bundle's CLASSPATH -->
+		<fileset dir="${application_resources_java}/" id="lib.jars">
+			<include name="**/*.jar" />
+		</fileset>
+		<pathconvert pathsep=":" property="jarfiles" refid="lib.jars">
+			<compositemapper>
+				<regexpmapper from="${application_resources_java}(.*)" to="$JAVAROOT\1/" />
+			</compositemapper>
+		</pathconvert>
+
+		<!-- copy and configure Info.plist -->
+		<copy file="${resources_macosx}/Info.plist" toFile="${build_distdir}/${ant.project.name}.app/Contents/Info.plist">
+			<filterset>
+				<filter token="PROJECTNAMEASIDENTIFIER" value="${ant.project.name}" />
+				<filter token="MAINCLASS" value="com.topcoder.umltool.deploy.UMLToolDeploy" />
+				<filter token="CONF" value="$APP_PACKAGE/Contents/Resources/conf" />
+				<filter token="RESOURCES" value="$APP_PACKAGE/Contents/Resources/resources" />
+				<filter token="JARS" value="${jarfiles}" />
+				<filter token="VERSION" value="${application_version}" />
+			</filterset>
+		</copy>
+		<!-- copy the icon -->
+		<copy file="${resources_macosx}/${ant.project.name}.icns" toDir="${application_resources}" />
+		<!-- copy document icon -->
+		<copy file="${resources_macosx}/${ant.project.name} Document.icns" toDir="${application_resources}" />
+	</target>
+
+	<!-- MAC OS X SPECIFIC PROPERTIES -->
+	<property name="apple_appstub" location="/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub" />
+	<property name="application_macos" location="${build_distdir}/${ant.project.name}.app/Contents/MacOS" />
+	<property name="application_macos_stub" location="${application_macos}/${ant.project.name}" />
+	<property name="application_resources" location="${build_distdir}/${ant.project.name}.app/Contents/Resources" />
+	<property name="application_resources_java" location="${build_distdir}/${ant.project.name}.app/Contents/Resources/Java" />
+	<property name="resources_macosx" location="resources_macosx" />
+	<!-- location of Mac OS X specific resources -->
+	<property name="dmg_license" location="${resources_macosx}/license.r" />
+
+
+	<!-- MAC OS X specific target to build a disk image containing TopCoder UML Tool application bundle -->
+	<target name="build_mac_diskimage" depends="build_mac_appbundle">
+
+		<property name="app.archive" value="${build_distdir}/${ant.project.name}.app" />
+
+		<!-- delete .dmg file if already exists -->
+		<delete file="${build_distdir}/${ant.project.name}.dmg" />
+
+		<!-- create .dmg file from application bundle -->
+		<exec executable="hdiutil" failonerror="true">
+			<arg value="create" />
+			<arg value="-srcfolder" />
+			<arg value="${app.archive}" />
+			<arg value="-mode" />
+			<arg value="0555" />
+			<arg value="${build_distdir}/${ant.project.name}.dmg" />
+		</exec>
+
+		<!-- convert .dmg file to UDIF zlib-compressed temporary file -->
+		<exec executable="hdiutil" failonerror="true">
+			<arg value="convert" />
+			<arg value="${build_distdir}/${ant.project.name}.dmg" />
+			<arg value="-format" />
+			<arg value="UDZO" />
+			<arg value="-o" />
+			<arg value="${build_distdir}/tmp.dmg" />
+		</exec>
+
+		<!-- unflatten to add license -->
+		<exec executable="hdiutil" failonerror="true">
+			<arg value="unflatten" />
+			<arg value="${build_distdir}/tmp.dmg" />
+		</exec>
+
+		<!-- add license in Rez source format -->
+		<fileset dir="/Developer/Headers/FlatCarbon/" id="rdesc">
+			<include name="**/*.r" />
+		</fileset>
+		<pathconvert pathsep=" " property="res.desc" refid="rdesc" />
+
+		<exec executable="/Developer/Tools/Rez" failonerror="true">
+			<arg line="${res.desc}" />
+			<arg value="-a" />
+			<arg value="${dmg_license}" />
+			<arg value="-o" />
+			<arg value="${build_distdir}/tmp.dmg" />
+		</exec>
+
+		<!-- flatten back again -->
+		<exec executable="hdiutil" failonerror="true">
+			<arg value="flatten" />
+			<arg value="${build_distdir}/tmp.dmg" />
+		</exec>
+
+		<!-- rename the archive with license -->
+		<delete file="${build_distdir}/${ant.project.name}.dmg" />
+		<move file="${build_distdir}/tmp.dmg" tofile="${build_distdir}/${ant.project.name}.dmg" />
+
+		<!-- finish making .dmg file -->
+		<exec executable="hdiutil" failonerror="true">
+			<arg value="internet-enable" />
+			<arg value="-yes" />
+			<arg value="${build_distdir}/${ant.project.name}.dmg" />
+		</exec>
+	</target>
+
+	<target name="run" depends="compile">
+		<java classname="com.topcoder.umltool.deploy.UMLToolDeploy" fork="true" maxmemory="512m">
+			<!--
+            <compilerarg value="class.xmi"/>
+            -->
+			<classpath>
+				<path refid="buildlibs" />
+				<pathelement path="${build_classdir}" />
+				<pathelement path="${resourcesdir}" />
+			</classpath>
+		</java>
+	</target>
+
+	<target name="osCheck">
+		<condition property="isMac">
+			<os family="mac" />
+		</condition>
+		<condition property="notMac">
+			<not>
+				<os family="mac" />
+			</not>
+		</condition>
+	</target>
+
+	<target name="prepareMac" depends="osCheck" if="isMac">
+		<copy todir="${testfiles}/SwingUnitScript" overwrite="true">
+			<fileset dir="${testfiles}/SwingUnitScript/mac" includes="*.xml" />
+		</copy>
+	</target>
+
+	<target name="prepareOther" depends="osCheck" if="notMac">
+		<copy todir="${testfiles}/SwingUnitScript" overwrite="true">
+			<fileset dir="${testfiles}/SwingUnitScript/other" includes="*.xml" />
+		</copy>
+	</target>
+
+	<target name="prepareOs" depends="prepareMac,prepareOther">
+	</target>
+
+	<!-- Define locations and other properties -->
+	<property name="izpack.dir" value="C:/Program Files/IzPack" />
+	<property name="input.xml" value="${basedir}/installer/installer.xml" />
+        <property name="topcoderizpack_jarname" value="topcoder_uml_tool_izpack.jar"/>
+
+	<path id="izpacklibs">
+                <fileset dir="${izpack.dir}/lib" includes="**/*.jar" />
+	</path>
+
+	<!-- Define the izpack compiler -->
+	<taskdef name="izpack" classpath="${izpack.dir}/lib/compiler.jar" classname="com.izforge.izpack.ant.IzPackTask">
+		<classpath>
+	                <fileset dir="${izpack.dir}/lib" includes="**/*.jar" />
+		</classpath>
+	</taskdef>
+
+	<!-- Builds the installer using installer.xml configurations -->
+	<target name="build_installer" depends="compile">
+		<mkdir dir="${build_izpackclassdir}" />
+
+		<javac srcdir="${javaizpack}" destdir="${build_izpackclassdir}" includes="**" debug="true" verbose="${verbose}">
+			<compilerarg value="-Xlint:unchecked" />
+			<classpath refid="izpacklibs" />
+		</javac>
+
+		<jar destfile="${builddir}/${topcoderizpack_jarname}" basedir="${build_izpackclassdir}"/>
+
+		<move file="${builddir}/${topcoderizpack_jarname}" todir="${izpack.dir}/topcoder"/>
+
+		<izpack input="${input.xml}" output="${builddir}/${component}_Installer-${application_version}.jar" installerType="standard" basedir="${basedir}/installer" izPackDir="${izpack.dir}/" />
+
+		<delete dir="${izpack.dir}/topcoder"/>
+
+		<jar destfile="${builddir}/${component}_Installer-${application_version}.jar" basedir="${build_izpackclassdir}" update="true"/>
+	</target>
+
+</project>

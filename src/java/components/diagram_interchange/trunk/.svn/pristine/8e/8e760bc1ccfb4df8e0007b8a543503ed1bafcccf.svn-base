@@ -1,0 +1,333 @@
+{\rtf1\adeflang1025\ansi\ansicpg936\uc2\adeff0\deff0\stshfdbch13\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe2052{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f13\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}\'cb\'ce\'cc\'e5{\*\falt SimSun};}
+{\f37\fnil\fcharset134\fprq2{\*\panose 00000000000000000000}@\'cb\'ce\'cc\'e5;}{\f39\froman\fcharset238\fprq2 Times New Roman CE;}{\f40\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f42\froman\fcharset161\fprq2 Times New Roman Greek;}
+{\f43\froman\fcharset162\fprq2 Times New Roman Tur;}{\f44\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f45\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f46\froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\f47\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f49\fswiss\fcharset238\fprq2 Arial CE;}{\f50\fswiss\fcharset204\fprq2 Arial Cyr;}{\f52\fswiss\fcharset161\fprq2 Arial Greek;}{\f53\fswiss\fcharset162\fprq2 Arial Tur;}
+{\f54\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f55\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic);}{\f56\fswiss\fcharset186\fprq2 Arial Baltic;}{\f57\fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f59\fmodern\fcharset238\fprq1 Courier New CE;}
+{\f60\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f62\fmodern\fcharset161\fprq1 Courier New Greek;}{\f63\fmodern\fcharset162\fprq1 Courier New Tur;}{\f64\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew);}
+{\f65\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic);}{\f66\fmodern\fcharset186\fprq1 Courier New Baltic;}{\f67\fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\f171\fnil\fcharset0\fprq2 SimSun Western{\*\falt SimSun};}
+{\f411\fnil\fcharset0\fprq2 @\'cb\'ce\'cc\'e5 Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 \snext0 Normal;}{
+\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext0 heading 1;}{
+\s2\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext0 heading 2;}{
+\s3\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext0 heading 3;}{\*\cs10 \additive 
+\ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\lang1024\langfe1024\loch\f0\hich\af0\dbch\af13\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{
+\s15\ql \li100\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin100\itap0\culi2500 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext0 \styrsid6632265 Date;}}
+{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\rsidtbl \rsid20291\rsid268224\rsid658581\rsid787558\rsid1665318\rsid4596673\rsid4721502\rsid6632265\rsid6638452\rsid7942883\rsid9256054\rsid11950679\rsid13528426\rsid16661752}{\*\generator Microsoft Word 11.
+0.8106;}{\info{\operator topcoder}{\creatim\yr2006\mo12\dy1\hr20\min35}{\revtim\yr2006\mo12\dy2\hr10\min15}{\version13}{\edmins73}{\nofpages6}{\nofwords1502}{\nofchars8567}{\nofcharsws10049}{\vern24611}{\*\password 00000000}}{\*\xmlnstbl {\xmlns1 http://s
+chemas.microsoft.com/office/word/2003/wordml}}\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect 
+\ftnbj\aenddoc\donotembedsysfont0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3
+\jcompress\viewkind4\viewscale100\rsidroot1665318 \fet0{\*\wgrffmtfilter 013f}\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta \dbch )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}
+{\pntxta \dbch )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}
+{\pntxta \dbch )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}\pard\plain \ltrpar\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx720\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 
+\ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs28 \ltrch\fcs0 \b\fs28\ul\insrsid4596673 \hich\af1\dbch\af13\loch\f1 Diagram Interchange 1.0 Component Specification
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 1.\tab Design
+\par }\pard\plain \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+The Diagram Interchange component declares the interfaces from the Diagram Interchange 2.0 framework. It provides a basic implementation for each interface and provides powerful API to access the collection attributes.
+\par \hich\af1\dbch\af13\loch\f1 For more information on the usage of \hich\af1\dbch\af13\loch\f1 the Diagram Interchange model, see its OMG specification (}{\field{\*\fldinst {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\hich\af1\dbch\af13\loch\f1 HYPERLINK "http://www.omg.org/" }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid6638452\charrsid1665318 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b2800000068007400740070003a002f002f007700770077002e006f006d0067002e006f00720067002f00000000}}}{\fldrslt {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\f0\ul\cf2\lang1040\langfe2052\langnp1040\insrsid4596673 \hich\af0\dbch\af13\loch\f0 http://www.omg.org}}}\sectd \linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 ).
+\par 
+\par \hich\af1\dbch\af13\loch\f1 All the concrete classes can be extended in an extra-package to accommodate further functionalities.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 All the classes in this component are s\hich\af1\dbch\af13\loch\f1 erializable.
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 1.1\tab Design Patterns 
+\par }\pard\plain \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 None.}{\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f0\fs20\insrsid4596673 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 1.2\tab Industry Standards 
+\par }\pard\plain \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 UML 1.5.
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 1.3\tab Required Algorithms}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 
+\b\f0\fs20\insrsid4596673 
+\par }\pard\plain \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 There }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid658581 \hich\af1\dbch\af13\loch\f1 are}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+ no required algorithms in the requirements and the development of this component is straightforward. It is for this reason that no sequence diagram i\hich\af1\dbch\af13\loch\f1 s provided with this design.}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\f0\insrsid4596673 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 1.4\tab Component Class Overview
+\par }\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ai\af1\afs20 \ltrch\fcs0 \i\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 1.4.1\tab Package com.topcoder.diagraminterchange
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 
+\b\f0\insrsid4596673 \tab \hich\af0\dbch\af13\loch\f0 Public class GraphNode extends GraphElement}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+This class and GraphEdge are the core classes of Diagram Interchange and every visible model element is re\hich\af1\dbch\af13\loch\f1 
+presented by them. The base class of GraphNode and GraphEdge is GraphElement.This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class GraphEdge extends GraphElement}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 
+\hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+This class and GraphNode are the core classes of Diagram Interchange and every visible\hich\af1\dbch\af13\loch\f1 
+ model element is represented by them. The base class of GraphEdge and GraphNode is GraphElement. A GraphEdge has two GraphConnectors which are called anchors and are its connection end point. This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public abstract\hich\af0\dbch\af13\loch\f0  class GraphElement extends DiagramElement}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+GraphElements are linked via GraphConnector. A GraphElement can own any number of GraphConnectors, called anchorages. GraphElement extends DiagramElement. A GraphElement can contain any number of D\hich\af1\dbch\af13\loch\f1 
+iagramElements. This class is abstract but has no abstract methods. This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public abstract class DiagramElement implements Serializable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 
+\hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 This is the base class of GraphElement, LeafElement and Reference. This class 
+\hich\af1\dbch\af13\loch\f1 is abstract but has no abstract methods. This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class Diagram extends GraphNode}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 :
+}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 This class represents a }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4721502 
+\hich\af1\dbch\af13\loch\f1 Diagram that}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1  is a special GraphNode. This is the topmost GraphElement of any graph or diagram. This cl\hich\af1\dbch\af13\loch\f1 
+ass is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public abstract class LeafElement extends DiagramElement}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 
+\hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+A LeafElement is used when a model element has an optional representation. A LeafElement can be an Image, a TextElement or a GraphicPrimitive. This class is \hich\af1\dbch\af13\loch\f1 
+abstract but has no abstract methods. This class is thread-safe because it has no attributes, but subclasses extending this one are not required to be thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class Image extends LeafElement}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 :
+}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 This class represents an Image. It references an i\hich\af1\dbch\af13\loch\f1 
+mage file. This class is mutable and is not thread-safe.
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class TextElement extends LeafElement
+}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+This class represents a TextElement, which can be used for the text part of a model element. This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public abs\hich\af0\dbch\af13\loch\f0 tract class GraphicPrimitive extends LeafElement}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 This class is the base for all GraphicPrimitives. }{\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \fs20\insrsid4721502 \hich\af1\dbch\af13\loch\f1 This specification defines}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+ the Polyline and the Ellipse, but other custom classes can extend this class in an extra-package. This class is abstract but has \hich\af1\dbch\af13\loch\f1 
+no abstract methods. This class is thread-safe because it has no attributes, but subclasses extending this one are not required to be thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class Polyline}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid268224 \hich\af0\dbch\af13\loch\f0 
+ extends GraphicPrimitive}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 This class represents}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid787558 
+\hich\af1\dbch\af13\loch\f1  the Polyline graphic primitive}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid9256054 \hich\af1\dbch\af13\loch\f1 . It}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1  is
+\hich\af1\dbch\af13\loch\f1  a line passing through all ordered waypoints. This class is mutable and is not thread-safe.
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class Ellipse}{\rtlch\fcs1 \ab\af0 
+\ltrch\fcs0 \b\f0\insrsid268224 \hich\af0\dbch\af13\loch\f0  extends GraphicPrimitive}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+This class represents the Ellipse graphic primitive. This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class \hich\af0\dbch\af13\loch\f0 DiagramLink implements Serializable}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+This class is used to link GraphElements with Diagrams. This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class GraphConnector implements Serializable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 
+\hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+ GraphConnector links GraphElement instances. This class allows linking of a GraphEdge with a GraphNode or another GraphEdge; GraphConnector does not permit two GraphNode instances to be linked. This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class \hich\af0\dbch\af13\loch\f0 Reference extends DiagramElement}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+A DiagramElement can contain references to other diagram element. This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class Property implements Serializable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 
+\hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 Properties specify the appearance of DiagramElements. There i
+\hich\af1\dbch\af13\loch\f1 s a set of standard properties but non-standard ones could be added too. This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public abstract class SemanticModelBridge}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid268224 
+\hich\af0\dbch\af13\loch\f0  implements Serializable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 This class is used for different purposes. This is the base class of
+\hich\af1\dbch\af13\loch\f1  SimpleSemanticModelElement, Uml1SemanticModelBridge and CoreSemanticModelBridge. This class is abstract but has no abstract methods. This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class SimpleSemanticModelElement extends SemanticModelBridge}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 
+\hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 This \hich\af1\dbch\af13\loch\f1 
+class is used to represent elements with a simple semantic model. This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class Uml1SemanticModelBridge extends SemanticModelBridge}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 
+\hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+This class is used to represent elements that have an UML semantic model. This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class CoreSemanticModelBridge extends SemanticModelBridge}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 
+\hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 This class is used to represent elements that have a core semantic m
+\hich\af1\dbch\af13\loch\f1 odel. This class is thread-safe because it has no attributes, but subclasses extending this one are not required to be thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class Point implements Serializable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 
+\hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 This is the basic implementation of Point. This class is mutable and is not th
+\hich\af1\dbch\af13\loch\f1 read-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class BezierPoint extends Point}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 :
+}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+This is the basic implementation of BezierPoint. This class is mutable and is not thread-safe.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 Public class Dimension implements Serializable}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 
+\hich\af0\dbch\af13\loch\f0 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }\pard \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+This is the basic implementation of Dimension. This class is mutable and is not thread-safe.
+\par }\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ai\af0\afs20 \ltrch\fcs0 \i\f0\fs20\insrsid4596673 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 1.5\tab Component Exception Definitions}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 
+\b\f0\fs20\insrsid4596673 
+\par }\pard\plain \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 None.
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 1.6\tab Thread Safety}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 
+\b\f0\fs20\insrsid4596673 
+\par }\pard\plain \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 The classes in this component are not thread-safe, since thread safety is not required. All the classe\hich\af1\dbch\af13\loch\f1 
+s, except CoreSemanticModelBridge, are mutable: this is the main reason why this component is not thread safe. Instead, the calling application is required to ensure thread safety, for example by declaring all methods synchronized.
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 2.\tab Environment Requireme\hich\af1\dbch\af13\loch\f1 nts}{\rtlch\fcs1 
+\ab\af0\afs20 \ltrch\fcs0 \b\f0\fs20\insrsid4596673 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 2.1\tab Environment
+\par }\pard\plain \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 At minimum, Java 1.5 is required for compilation and executing test cases.
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 2.2\tab TopCoder Software Components
+\par }\pard\plain \ltrpar\ql \fi-360\li1080\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1080\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \f0\insrsid4596673 \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\ul\insrsid4596673 \hich\af0\dbch\af13\loch\f0 UML Model Core 1.0}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 
+. The Uml1SemanticModelBridge has an association with the Element class.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596673 
+\par }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\f0\insrsid4596673 \hich\af0\dbch\af13\loch\f0 NOTE: The default location for TopCo\hich\af0\dbch\af13\loch\f0 
+der Software component jars is ../lib/tcs/COMPONENT_NAME/COMPONENT_VERSION relative to the component installation.}{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\f0\cf1\insrsid4596673 \hich\af0\dbch\af13\loch\f0 
+  Setting the tcs_libdir property in topcoder_global.properties will overwrite this default location.}{\rtlch\fcs1 \ai\af1 \ltrch\fcs0 \i\insrsid4596673 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 2.3\tab Third Party Components
+\par }\pard\plain \ltrpar\s3\ql \li720\ri0\sb120\sa120\sl240\slmult0\nowidctlpar\tx720\wrapdefault\faauto\outlinelevel2\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 None.}{\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f0\fs20\insrsid4596673 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 3.\tab Inst\hich\af1\dbch\af13\loch\f1 allation and Configuration
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 3.1\tab Package Name
+\par }\pard\plain \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af2\afs20 
+\ltrch\fcs0 \f2\fs20\insrsid4596673 \hich\af2\dbch\af13\loch\f2 com.topcoder.diagraminterchange
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 3.2\tab Configuration Parameters}{\rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 
+\b\f0\fs20\insrsid4596673 
+\par }\pard\plain \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 None.}{\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f0\fs20\insrsid4596673 
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 3.3\tab Dependencies Configuration
+\par }\pard\plain \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 None.}{\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f0\fs20\insrsid4596673 
+\par }\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 4.\tab Usage Notes
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 4.1\tab Required steps to test the component
+\par }\pard\plain \ltrpar\ql \fi-360\li1080\ri0\sa120\nowidctlpar\tx1080\wrapdefault\faauto\rin0\lin1080\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 
+\af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid4596673 \loch\af3\dbch\af13\hich\f3 \'b7\'20}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 Extract the component distribution.
+\par }\pard \ltrpar\ql \fi-360\li1080\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1080\itap0 {\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid4596673 \loch\af3\dbch\af13\hich\f3 \'b7\'20}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 
+\hich\af1\dbch\af13\loch\f1 Execute \hich\f1 \lquote \hich\af1\dbch\af13\loch\f1 ant test\hich\f1 \rquote \loch\f1  within the directory that the distribution was extracted to.
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 4.2\tab Required steps to use the component
+\par }\pard\plain \ltrpar\ql \fi-360\li1080\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin1080\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af3\afs20 
+\ltrch\fcs0 \f3\fs20\insrsid4596673 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 Extract the component distribution.
+\par }{\rtlch\fcs1 \af3\afs20 \ltrch\fcs0 \f3\fs20\insrsid4596673 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 Follow the demo
+\par }\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx0\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 4.3\tab Demo
+\par }\pard\plain \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 This demo show}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid1665318 \hich\af1\dbch\af13\loch\f1 s}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 
+ how to use the API to instantiate a class of this component and \hich\af1\dbch\af13\loch\f1 how to access its simple attributes,}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid1665318 \hich\af1\dbch\af13\loch\f1  collection attributes and list}{
+\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1  attributes.
+\par \hich\af1\dbch\af13\loch\f1 For this purpose, GraphEdge is taken as example, but the same API is used for all attributes of this component classes.}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \fs20\insrsid11950679 
+\par }\pard \ltrpar\ql \li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid11950679 {\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\fs20\insrsid11950679 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\fs20\insrsid6632265\charrsid6632265 \hich\af1\dbch\af13\loch\f1 4.3.1 Instantiate a class}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\fs20\insrsid6632265 \hich\af1\dbch\af13\loch\f1 .}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 
+\b\fs20\insrsid4596673\charrsid6632265 
+\par }\pard \ltrpar\ql \li720\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0\pararsid11950679 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid6632265\charrsid6632265 \hich\af2\dbch\af13\loch\f2 // create a new instance
+\par \hich\af2\dbch\af13\loch\f2 Gra\hich\af2\dbch\af13\loch\f2 phEdge edge = new GraphEdge();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid4596673 
+\par }\pard \ltrpar\ql \li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid11950679 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid6632265 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\fs20\insrsid6632265 \hich\af1\dbch\af13\loch\f1 4.3.2 }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\fs20\insrsid6632265\charrsid6632265 \hich\af1\dbch\af13\loch\f1 Access simple attributes.
+\par }\pard \ltrpar\ql \li720\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0\pararsid11950679 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid6632265\charrsid6632265 \hich\af2\dbch\af13\loch\f2 // assuming we have got a Point
+\par \hich\af2\dbch\af13\loch\f2 Point position = new Point();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid6632265 
+\par }\pard \ltrpar\ql \li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid11950679 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid6632265 
+\par }\pard \ltrpar\ql \li720\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0\pararsid11950679 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid6632265\charrsid6632265 \hich\af2\dbch\af13\loch\f2 // set the new position
+\par \hich\af2\dbch\af13\loch\f2 edge.setPosition(position);
+\par }\pard \ltrpar\ql \li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid11950679 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid6632265\charrsid6632265 
+\par }\pard \ltrpar\ql \li720\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0\pararsid11950679 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid6632265\charrsid6632265 \hich\af2\dbch\af13\loch\f2 // get the current position
+\par \hich\af2\dbch\af13\loch\f2 Point edgePosition = edge.getPosition();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid4596673 
+\par }\pard \ltrpar\ql \li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid11950679 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid6632265 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\fs20\insrsid11950679 \hich\af1\dbch\af13\loch\f1 4.3.3 }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\fs20\insrsid11950679\charrsid11950679 \hich\af1\dbch\af13\loch\f1 Access collection attributes}{\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \b\fs20\insrsid11950679 \hich\af1\dbch\af13\loch\f1 .}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\fs20\insrsid6632265\charrsid11950679 
+\par }\pard \ltrpar\ql \li720\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0\pararsid11950679 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid11950679\charrsid11950679 \hich\af2\dbch\af13\loch\f2 // assuming we have got two DiagramLinks
+\par \hich\af2\dbch\af13\loch\f2 DiagramLink diagramLink1 = new DiagramLink();
+\par }\pard \ltrpar\ql \li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid11950679 {\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid11950679\charrsid11950679 \hich\af2\dbch\af13\loch\f2        DiagramLink diagramLink2 = new DiagramLink();
+
+\par 
+\par \hich\af2\dbch\af13\loch\f2        // append element 1 and 2
+\par \hich\af2\dbch\af13\loch\f2        edge.addLink(diagramLink1);
+\par \hich\af2\dbch\af13\loch\f2        edge.addLi\hich\af2\dbch\af13\loch\f2 nk(diagramLink2);
+\par 
+\par \hich\af2\dbch\af13\loch\f2        // remove element 1
+\par \hich\af2\dbch\af13\loch\f2        boolean hasBeenRemoved = edge.removeLink(diagramLink1);
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid11950679 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid11950679\charrsid11950679 \hich\af2\dbch\af13\loch\f2        // get a copy of all the elements
+\par \hich\af2\dbch\af13\loch\f2        Collection<DiagramLink> edgeLinks = edge.getLinks();
+\par 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid7942883 \hich\af2\dbch\af13\loch\f2        // }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid7942883 \hich\af2\dbch\af13\loch\f2 check}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\insrsid11950679\charrsid11950679 \hich\af2\dbch\af13\loch\f2  element 2 for inclusion
+\par \hich\af2\dbch\af13\loch\f2    \hich\af2\dbch\af13\loch\f2     boolean isIn = edge.containsLink(diagramLink2);
+\par 
+\par \hich\af2\dbch\af13\loch\f2        // count the number of elements
+\par \hich\af2\dbch\af13\loch\f2        int howMany = edge.countLinks();
+\par 
+\par \hich\af2\dbch\af13\loch\f2        // remove all the elements
+\par \hich\af2\dbch\af13\loch\f2        edge.clearLinks();}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid4596673 
+\par }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid11950679 
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\fs20\insrsid11950679 \hich\af1\dbch\af13\loch\f1 4.3.4 }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\fs20\insrsid11950679\charrsid11950679 \hich\af1\dbch\af13\loch\f1 Access list attributes}{\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \b\fs20\insrsid11950679 \hich\af1\dbch\af13\loch\f1 .
+\par \tab }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid11950679\charrsid11950679 \hich\af2\dbch\af13\loch\f2 // Assuming we have got four BezierPoints
+\par \hich\af2\dbch\af13\loch\f2        BezierPoint bezierPoint1 = new BezierPoint();
+\par \hich\af2\dbch\af13\loch\f2        BezierPoint bezierPoint2 = new BezierPoint();
+\par \hich\af2\dbch\af13\loch\f2        BezierPoint bezierPoint3 = new BezierPoint();
+\par \hich\af2\dbch\af13\loch\f2        BezierPoint bezierPoint4 = new BezierPoint();
+\par 
+\par \hich\af2\dbch\af13\loch\f2  \hich\af2\dbch\af13\loch\f2       // append element 2 and 3
+\par \hich\af2\dbch\af13\loch\f2        edge.addWaypoint(bezierPoint2);
+\par \hich\af2\dbch\af13\loch\f2        edge.addWaypoint(bezierPoint3);
+\par 
+\par \hich\af2\dbch\af13\loch\f2        // insert element 4 at position 2
+\par \hich\af2\dbch\af13\loch\f2        edge.addWaypoint(2, bezierPoint4);
+\par 
+\par \hich\af2\dbch\af13\loch\f2        // replace the element at position 0 with element 1
+\par \hich\af2\dbch\af13\loch\f2   \hich\af2\dbch\af13\loch\f2      edge.setWaypoint(0, bezierPoint1);
+\par 
+\par \hich\af2\dbch\af13\loch\f2        // remove the element at position }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid20291 \hich\af2\dbch\af13\loch\f2 1}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid11950679\charrsid11950679 
+\par \hich\af2\dbch\af13\loch\f2        Point removed = edge.removeWaypoint(}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid20291 \hich\af2\dbch\af13\loch\f2 1}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid11950679\charrsid11950679 
+\hich\af2\dbch\af13\loch\f2 );
+\par 
+\par \hich\af2\dbch\af13\loch\f2        // remove the element }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid20291 \hich\af2\dbch\af13\loch\f2 4}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid11950679\charrsid11950679 
+\par \hich\af2\dbch\af13\loch\f2        boolean hasBeenRemoved = edge.removeWaypoint(bezierPoint}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid20291 \hich\af2\dbch\af13\loch\f2 4}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 
+\f2\fs20\insrsid11950679\charrsid11950679 \hich\af2\dbch\af13\loch\f2 );
+\par 
+\par \hich\af2\dbch\af13\loch\f2        // get a copy of a\hich\af2\dbch\af13\loch\f2 ll the elements
+\par \hich\af2\dbch\af13\loch\f2        List<Point> edgeWaypoints = edge.getWaypoints();
+\par 
+\par \hich\af2\dbch\af13\loch\f2        // }{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid7942883\charrsid7942883 \hich\af2\dbch\af13\loch\f2 check}{\rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\insrsid11950679\charrsid11950679 \hich\af2\dbch\af13\loch\f2 
+ element 1 for inclusion
+\par \hich\af2\dbch\af13\loch\f2        boolean isIn = edge.containsWaypoint(bezierPoint1);
+\par 
+\par \hich\af2\dbch\af13\loch\f2        // get the index of element 1
+\par \hich\af2\dbch\af13\loch\f2        \hich\af2\dbch\af13\loch\f2 int index = edge.indexOfWaypoint(bezierPoint1);
+\par 
+\par \hich\af2\dbch\af13\loch\f2        // get the number of elements
+\par \hich\af2\dbch\af13\loch\f2        int howMany = edge.countWaypoints();
+\par 
+\par \hich\af2\dbch\af13\loch\f2        // remove all the elements
+\par \hich\af2\dbch\af13\loch\f2        edge.clearWaypoints();
+\par }{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \b\fs20\insrsid11950679\charrsid11950679 
+\par }\pard\plain \ltrpar\s2\ql \fi-360\li360\ri0\sb120\sa120\sl240\slmult0\keepn\nowidctlpar\tx360\wrapdefault\faauto\outlinelevel1\rin0\lin360\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \ab\af1\afs20 \ltrch\fcs0 \b\fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 5\tab Future Enhancements
+\par }\pard\plain \ltrpar\ql \fi720\li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af1\afs20 
+\ltrch\fcs0 \fs20\insrsid4596673 \hich\af1\dbch\af13\loch\f1 Provide more specific implementations \hich\af1\dbch\af13\loch\f1 of the interfaces of Diagram Interchange Framework 2.0.
+\par }}

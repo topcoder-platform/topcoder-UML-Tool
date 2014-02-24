@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMConfig>
+	<Config name="com.topcoder.util.log">
+		<Property name="logClass">
+			<Value>com.topcoder.util.log.jdk14.Jdk14Log</Value>
+		</Property>
+		<Property name="Jdk14Log.log.target">
+		<Value>System.err</Value>
+		</Property>
+	</Config>	
+</CMConfig>

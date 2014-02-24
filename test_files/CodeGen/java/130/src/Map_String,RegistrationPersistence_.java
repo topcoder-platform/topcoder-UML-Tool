@@ -1,0 +1,5 @@
+/**
+*/
+class Map<String,RegistrationPersistence>{
+}
+

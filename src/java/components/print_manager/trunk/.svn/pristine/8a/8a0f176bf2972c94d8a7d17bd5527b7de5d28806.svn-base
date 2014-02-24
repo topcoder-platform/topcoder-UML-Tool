@@ -1,0 +1,64 @@
+<CMConfig>
+	<Config name="valid">
+		<Property name="objectFactoryNamespace">
+			<Value>ObjectFactory.PrintManager</Value>
+		</Property>
+		<Property name="componentVisibleMaker">
+			<Value>ComponentVisibleMaker</Value>
+		</Property>
+		<Property name="printFormatRetriever">
+			<Value>PrintFormatRetriever</Value>
+		</Property>
+		<Property name="hasPrintDialog">
+			<Value>false</Value>
+		</Property>
+	</Config>
+	
+	<Config name="missing_objectFactoryNamespace">
+		<Property name="componentVisibleMaker">
+			<Value>ComponentVisibleMaker</Value>
+		</Property>
+		<Property name="printFormatRetriever">
+			<Value>PrintFormatRetriever</Value>
+		</Property>
+		<Property name="hasPrintDialog">
+			<Value>false</Value>
+		</Property>
+	</Config>
+	
+	<Config name="missing_componentVisibleMaker">
+		<Property name="objectFactoryNamespace">
+			<Value>ObjectFactory.PrintManager</Value>
+		</Property>
+		<Property name="printFormatRetriever">
+			<Value>PrintFormatRetriever</Value>
+		</Property>
+		<Property name="hasPrintDialog">
+			<Value>false</Value>
+		</Property>
+	</Config>
+	
+	<Config name="missing_printFormatRetriever">
+		<Property name="objectFactoryNamespace">
+			<Value>ObjectFactory.PrintManager</Value>
+		</Property>
+		<Property name="componentVisibleMaker">
+			<Value>ComponentVisibleMaker</Value>
+		</Property>
+		<Property name="hasPrintDialog">
+			<Value>false</Value>
+		</Property>
+	</Config>
+	
+	<Config name="missing_hasPrintDialog">
+		<Property name="objectFactoryNamespace">
+			<Value>ObjectFactory.PrintManager</Value>
+		</Property>
+		<Property name="componentVisibleMaker">
+			<Value>ComponentVisibleMaker</Value>
+		</Property>
+		<Property name="printFormatRetriever">
+			<Value>PrintFormatRetriever</Value>
+		</Property>
+	</Config>
+</CMConfig>

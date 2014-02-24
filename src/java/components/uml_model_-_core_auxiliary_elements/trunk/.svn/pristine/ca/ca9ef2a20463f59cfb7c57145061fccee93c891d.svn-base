@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=UML Model - Core Auxiliary Elements
+component.distfilename=uml_model_-_core_auxiliary_elements
+component.package=com.topcoder.uml.model.core.auxiliaryelements
+component.packagedir=com/topcoder/uml/model/core/auxiliaryelements
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

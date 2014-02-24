@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=UML Tool Actions - Diagram Elements Actions
+component.distfilename=uml_tool_actions_-_diagram_elements_actions
+component.package=com.topcoder.uml.actions.diagram.elements
+component.packagedir=com/topcoder/uml/actions/diagram/elements
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

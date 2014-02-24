@@ -1,0 +1,1250 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<XMI xmlns:UML='org.omg.xmi.namespace.UML' xmi.version='1.5'
+	xmlns:UML2='org.omg.xmi.namespace.UML2'>
+	<XMI.content>
+		<UML:Model xmi.id='TC_UML_46752217-89ed-4134-adfa-42f5e760ac98'
+			isSpecification='false' isAbstract='false' isLeaf='false'
+			isRoot='false'>
+			<UML:Namespace.ownedElement>
+				<UML:Collaboration
+					xmi.id='TC_UML_2462f0d4-65d0-49e6-a11d-a5441ccad5c0'
+					isAbstract='false' isLeaf='false' isRoot='false'
+					isSpecification='false'>
+					<UML:Collaboration.collaborationInstanceSet>
+						<UML:CollaborationInstanceSet
+							xmi.id='TC_UML_9d65c4d3-ae7e-4f10-b0a1-32fa60630169'
+							isSpecification='false'>
+							<UML:CollaborationInstanceSet.collaboration>
+								<UML:Collaboration
+									xmi.idref='TC_UML_2462f0d4-65d0-49e6-a11d-a5441ccad5c0'/>
+							</UML:CollaborationInstanceSet.collaboration>
+							<UML:CollaborationInstanceSet.participatingInstance>
+								<UML:Object
+									xmi.idref='TC_UML_d7282ca2-9cfc-4440-a291-a4806fb9ec47'/>
+								<UML:Object
+									xmi.idref='TC_UML_785cf4cd-99cd-4525-9efd-cd58246d8716'/>
+								<UML:Object
+									xmi.idref='TC_UML_ea408f96-99d1-406a-a0a7-0fd0255dcd09'/>
+							
+							</UML:CollaborationInstanceSet.participatingInstance>
+							<UML:CollaborationInstanceSet.participatingLink>
+								<UML:Link
+									xmi.idref='TC_UML_a75e3329-378b-4323-a121-d283cc58ff22'/>
+								<UML:Link
+									xmi.idref='TC_UML_373f938b-8523-442d-bef8-2c4085f3da7d'/>
+								<UML:Link
+									xmi.idref='TC_UML_488c5d58-e98c-45de-ade8-47e60a06fc95'/>
+								<UML:Link
+									xmi.idref='TC_UML_9cffecec-10f7-4f33-892d-c11e80d186d8'/>
+							</UML:CollaborationInstanceSet.participatingLink>
+						</UML:CollaborationInstanceSet>
+					</UML:Collaboration.collaborationInstanceSet>
+					<UML:ModelElement.name>Collaboration
+						1</UML:ModelElement.name>
+					<UML:Namespace.ownedElement>
+						<UML:Object
+							xmi.id='TC_UML_d7282ca2-9cfc-4440-a291-a4806fb9ec47'
+							visibility='public' isSpecification='false'>
+							<UML:ModelElement.name>
+								Application</UML:ModelElement.name>
+						</UML:Object>
+						<UML:Object
+							xmi.id='TC_UML_785cf4cd-99cd-4525-9efd-cd58246d8716'
+							visibility='public' isSpecification='false'>
+							<UML:Instance.classifier>
+								<UML:Interface
+									xmi.idref='TC_UML_3cfdf2bb-9313-45b1-9d8d-938f12e0cf35'/>
+							</UML:Instance.classifier>
+							<UML:ModelElement.name>
+								service</UML:ModelElement.name>
+						</UML:Object>
+						<UML:Stimulus
+							xmi.id='TC_UML_55f43640-95d9-4500-8d59-33ed2f684826'
+							isSpecification='false'>
+							<UML:Stimulus.dispatchAction>
+								<UML:Procedure
+									xmi.id='TC_UML_8c45cf7d-0521-496a-b0c1-a638ed3ba420'
+									isList='false' isSpecification='false'>
+									<UML:Procedure.action>
+										<UML:CallOperationAction
+											xmi.id='TC_UML_e242b26e-9695-4365-9dc2-a3d4aa660296'
+											isAsynchronous='false'
+											isSpecification='false'>
+										</UML:CallOperationAction>
+									</UML:Procedure.action>
+								</UML:Procedure>
+							</UML:Stimulus.dispatchAction>
+							<UML:Stimulus.communicationLink>
+								<UML:Link
+									xmi.id='TC_UML_a75e3329-378b-4323-a121-d283cc58ff22'
+									isSpecification='false'>
+									<UML:Link.connection>
+										<UML:LinkEnd
+											xmi.id='TC_UML_c6c63bd8-4718-4594-be7f-cfbd7c6aeb0d'
+											isSpecification='false'>
+											<UML:LinkEnd.link>
+												<UML:Link
+													xmi.idref='TC_UML_a75e3329-378b-4323-a121-d283cc58ff22'/>
+											</UML:LinkEnd.link>
+										</UML:LinkEnd>
+									</UML:Link.connection>
+									<UML:Link.stimulus>
+										<UML:Stimulus
+											xmi.idref='TC_UML_55f43640-95d9-4500-8d59-33ed2f684826'/>
+									</UML:Link.stimulus>
+									<UML:ModelElement.name>get value :
+										get(&quot;name&quot;)</UML:ModelElement.name>
+								</UML:Link>
+							</UML:Stimulus.communicationLink>
+						</UML:Stimulus>
+						<UML:Stimulus
+							xmi.id='TC_UML_ce78f706-9965-4408-830e-8e1a22e3595a'
+							isSpecification='false'>
+							<UML:Stimulus.dispatchAction>
+								<UML:Procedure
+									xmi.id='TC_UML_ad2e6fc9-4c2c-40c3-89da-3b6cbf7ef339'
+									isList='false' isSpecification='false'>
+								</UML:Procedure>
+							</UML:Stimulus.dispatchAction>
+							<UML:Stimulus.communicationLink>
+								<UML:Link
+									xmi.id='TC_UML_373f938b-8523-442d-bef8-2c4085f3da7d'
+									isSpecification='false'>
+									<UML:Link.connection>
+										<UML:LinkEnd
+											xmi.id='TC_UML_00b13788-07d7-48c3-84b9-4a3be1f38a55'
+											isSpecification='false'>
+											<UML:LinkEnd.link>
+												<UML:Link
+													xmi.idref='TC_UML_373f938b-8523-442d-bef8-2c4085f3da7d'/>
+											</UML:LinkEnd.link>
+										</UML:LinkEnd>
+									</UML:Link.connection>
+									<UML:Link.stimulus>
+										<UML:Stimulus
+											xmi.idref='TC_UML_ce78f706-9965-4408-830e-8e1a22e3595a'/>
+									</UML:Link.stimulus>
+									<UML:ModelElement.name>
+										value:String</UML:ModelElement.name>
+								</UML:Link>
+							</UML:Stimulus.communicationLink>
+						</UML:Stimulus>
+						<UML:Object
+							xmi.id='TC_UML_ea408f96-99d1-406a-a0a7-0fd0255dcd09'
+							visibility='public' isSpecification='false'>
+							<UML:Instance.classifier>
+								<UML:Class
+									xmi.idref='TC_UML_540151d0-7d34-49b3-8096-8f4ac1134f63'/>
+							</UML:Instance.classifier>
+							<UML:ModelElement.name>aaa</UML:ModelElement.name>
+						</UML:Object>
+						<UML:Stimulus
+							xmi.id='TC_UML_6adb52b5-0323-4b45-8d0f-6c9438f72e11'
+							isSpecification='false'>
+							<UML:Stimulus.dispatchAction>
+								<UML:Procedure
+									xmi.id='TC_UML_9c1a0af6-6a18-4d06-920f-44452d24d559'
+									isList='false' isSpecification='false'>
+									<UML:Procedure.action>
+										<UML:CallOperationAction
+											xmi.id='TC_UML_637c757a-4945-429b-9cfe-7dfd9c6410b5'
+											isAsynchronous='false'
+											isSpecification='false'>
+										</UML:CallOperationAction>
+									</UML:Procedure.action>
+								</UML:Procedure>
+							</UML:Stimulus.dispatchAction>
+							<UML:Stimulus.communicationLink>
+								<UML:Link
+									xmi.id='TC_UML_488c5d58-e98c-45de-ade8-47e60a06fc95'
+									isSpecification='false'>
+									<UML:Link.connection>
+										<UML:LinkEnd
+											xmi.id='TC_UML_1f2aaaf8-b653-480f-923e-d7133f694566'
+											isSpecification='false'>
+											<UML:LinkEnd.link>
+												<UML:Link
+													xmi.idref='TC_UML_488c5d58-e98c-45de-ade8-47e60a06fc95'/>
+											</UML:LinkEnd.link>
+										</UML:LinkEnd>
+									</UML:Link.connection>
+									<UML:Link.stimulus>
+										<UML:Stimulus
+											xmi.idref='TC_UML_6adb52b5-0323-4b45-8d0f-6c9438f72e11'/>
+									</UML:Link.stimulus>
+									<UML:ModelElement.name>get aaa value:
+										getValue(&quot;a&quot;)</UML:ModelElement.name>
+								</UML:Link>
+							</UML:Stimulus.communicationLink>
+						</UML:Stimulus>
+						<UML:Stimulus
+							xmi.id='TC_UML_b78c9b85-feec-4ccd-b83a-656eb641e086'
+							isSpecification='false'>
+							<UML:Stimulus.dispatchAction>
+								<UML:Procedure
+									xmi.id='TC_UML_0b105b4a-268a-47b1-b883-ef5731eac7f7'
+									isList='false' isSpecification='false'>
+								</UML:Procedure>
+							</UML:Stimulus.dispatchAction>
+							<UML:Stimulus.communicationLink>
+								<UML:Link
+									xmi.id='TC_UML_9cffecec-10f7-4f33-892d-c11e80d186d8'
+									isSpecification='false'>
+									<UML:Link.connection>
+										<UML:LinkEnd
+											xmi.id='TC_UML_d7ae56e3-ca25-4609-a8fb-9dc71521d7e9'
+											isSpecification='false'>
+											<UML:LinkEnd.link>
+												<UML:Link
+													xmi.idref='TC_UML_9cffecec-10f7-4f33-892d-c11e80d186d8'/>
+											</UML:LinkEnd.link>
+										</UML:LinkEnd>
+									</UML:Link.connection>
+									<UML:Link.stimulus>
+										<UML:Stimulus
+											xmi.idref='TC_UML_b78c9b85-feec-4ccd-b83a-656eb641e086'/>
+									</UML:Link.stimulus>
+									<UML:ModelElement.name>aaa :
+										AAA</UML:ModelElement.name>
+								</UML:Link>
+							</UML:Stimulus.communicationLink>
+						</UML:Stimulus>
+					</UML:Namespace.ownedElement>
+				</UML:Collaboration>
+				<UML:Package xmi.id='TC_UML_cb20f18c-c5fc-4ecc-ae5d-90cc06bb44a4'
+					isSpecification='false' isAbstract='false' isLeaf='false'
+					isRoot='false'>
+					<UML:Namespace.ownedElement>
+						<UML:Package
+							xmi.id='TC_UML_0e2d4e12-36f1-48db-89f7-2be9bf8fa3f7'
+							isSpecification='false' isAbstract='false'
+							isLeaf='false' isRoot='false'>
+							<UML:Namespace.ownedElement>
+								<UML:Interface
+									xmi.id='TC_UML_3cfdf2bb-9313-45b1-9d8d-938f12e0cf35'
+									isAbstract='false' isLeaf='false'
+									isRoot='false' visibility='public'
+									isSpecification='false'>
+									<UML:ModelElement.name>
+										Map</UML:ModelElement.name>
+								</UML:Interface>
+							</UML:Namespace.ownedElement>
+							<UML:ModelElement.name>util</UML:ModelElement.name>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+					<UML:ModelElement.name>java</UML:ModelElement.name>
+				</UML:Package>
+				<UML:Package xmi.id='TC_UML_4baa23ef-5b9d-45ae-b349-85b14dd506fe'
+					isSpecification='false' isAbstract='false' isLeaf='false'
+					isRoot='false'>
+					<UML:Namespace.ownedElement>
+						<UML:Class
+							xmi.id='TC_UML_540151d0-7d34-49b3-8096-8f4ac1134f63'
+							isActive='false' isAbstract='false' isLeaf='false'
+							isRoot='false' visibility='public'
+							isSpecification='false'>
+							<UML:ModelElement.name>AAA</UML:ModelElement.name>
+						</UML:Class>
+					</UML:Namespace.ownedElement>
+					<UML:ModelElement.name>BBB</UML:ModelElement.name>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue
+					xmi.id='TC_UML_08d4166c-38fb-42e4-a0f8-2d5b65ff0195'
+					isSpecification='false'>
+					<UML:TaggedValue.dataValue>Java</UML:TaggedValue.dataValue>
+					<UML:TaggedValue.type>
+						<UML:TagDefinition
+							xmi.id='TC_UML_0c23e281-d1fe-4fab-b2c0-4c43e4273ca4'
+							isSpecification='false'>
+							<UML:TagDefinition.tagType>
+								ProjectLanguage</UML:TagDefinition.tagType>
+						</UML:TagDefinition>
+					</UML:TaggedValue.type>
+				</UML:TaggedValue>
+			</UML:ModelElement.taggedValue>
+		</UML:Model>
+		<UML:Diagram name="SD1" visible="true"
+			xmi.id="TC_UML_e9f1fa14-fb86-48f1-90af-8b918b1023f8" zoom="1.0">
+			<UML:Diagram.viewport>
+				<UML:Point x="0.0" y="0.0"/>
+			</UML:Diagram.viewport>
+			<UML:Diagram.owner>
+				<UML:Uml1SemanticModelBridge
+					xmi.id="TC_UML_679a5fc2-3607-4800-8aff-74a07dd1b7be">
+					<UML:Uml1SemanticModelBridge.element>
+						<UML:Collaboration
+							xmi.idref="TC_UML_2462f0d4-65d0-49e6-a11d-a5441ccad5c0"/>
+					</UML:Uml1SemanticModelBridge.element>
+				</UML:Uml1SemanticModelBridge>
+			</UML:Diagram.owner>
+			<UML:GraphNode.size>
+				<UML:Dimension height="459.0" width="1046.0"/>
+			</UML:GraphNode.size>
+			<UML:GraphElement.position>
+				<UML:Point x="20.0" y="20.0"/>
+			</UML:GraphElement.position>
+			<UML:GraphElement.contained>
+				<UML:GraphNode visible="true"
+					xmi.id="TC_UML_d497d0ce-94c0-4e68-a84e-39ab2676a7cd">
+					<UML:GraphNode.size>
+						<UML:Dimension height="170.0" width="80.0"/>
+					</UML:GraphNode.size>
+					<UML:GraphElement.position>
+						<UML:Point x="124.0" y="50.0"/>
+					</UML:GraphElement.position>
+					<UML:GraphElement.anchorage>
+						<UML:GraphConnector
+							xmi.id="TC_UML_04a38904-dbba-49e8-be5b-fa5755b93039">
+							<UML:GraphConnector.position>
+								<UML:Point x="163.0" y="113.0"/>
+							</UML:GraphConnector.position>
+							<UML:GraphConnector.graphEdge>
+								<UML:GraphEdge
+									xmi.idref="TC_UML_466fde24-408e-4e0f-92db-c1803fe0a1e5"/>
+							</UML:GraphConnector.graphEdge>
+						</UML:GraphConnector>
+						<UML:GraphConnector
+							xmi.id="TC_UML_ccebc51c-86a3-4fe5-8809-c180a0f89c63">
+							<UML:GraphConnector.position>
+								<UML:Point x="162.0" y="133.0"/>
+							</UML:GraphConnector.position>
+							<UML:GraphConnector.graphEdge>
+								<UML:GraphEdge
+									xmi.idref="TC_UML_47eb1d51-c35e-4f0e-b347-d4f73c0f0733"/>
+							</UML:GraphConnector.graphEdge>
+						</UML:GraphConnector>
+					</UML:GraphElement.anchorage>
+					<UML:GraphElement.semanticModel>
+						<UML:Uml1SemanticModelBridge
+							xmi.id="TC_UML_801f1ef0-bb45-4467-bdb0-e0610f1757b1">
+							<UML:Uml1SemanticModelBridge.element>
+								<UML:Object
+									xmi.idref="TC_UML_d7282ca2-9cfc-4440-a291-a4806fb9ec47"/>
+							</UML:Uml1SemanticModelBridge.element>
+						</UML:Uml1SemanticModelBridge>
+					</UML:GraphElement.semanticModel>
+					<UML:DiagramElement.property>
+						<UML:Property key="FILL_COLOR" value="#6666FF"/>
+					</UML:DiagramElement.property>
+				</UML:GraphNode>
+				<UML:GraphNode visible="true"
+					xmi.id="TC_UML_0c8aa2de-6c89-4c8c-8957-296627407d09">
+					<UML:GraphNode.size>
+						<UML:Dimension height="170.0" width="80.0"/>
+					</UML:GraphNode.size>
+					<UML:GraphElement.position>
+						<UML:Point x="355.0" y="50.0"/>
+					</UML:GraphElement.position>
+					<UML:GraphElement.anchorage>
+						<UML:GraphConnector
+							xmi.id="TC_UML_e7def95e-724c-43d9-8944-7a65650d81de">
+							<UML:GraphConnector.position>
+								<UML:Point x="386.0" y="113.0"/>
+							</UML:GraphConnector.position>
+							<UML:GraphConnector.graphEdge>
+								<UML:GraphEdge
+									xmi.idref="TC_UML_466fde24-408e-4e0f-92db-c1803fe0a1e5"/>
+							</UML:GraphConnector.graphEdge>
+						</UML:GraphConnector>
+						<UML:GraphConnector
+							xmi.id="TC_UML_c895737d-8c38-449a-b74e-892de82c3dd3">
+							<UML:GraphConnector.position>
+								<UML:Point x="425.0" y="133.0"/>
+							</UML:GraphConnector.position>
+							<UML:GraphConnector.graphEdge>
+								<UML:GraphEdge
+									xmi.idref="TC_UML_47eb1d51-c35e-4f0e-b347-d4f73c0f0733"/>
+							</UML:GraphConnector.graphEdge>
+						</UML:GraphConnector>
+						<UML:GraphConnector
+							xmi.id="TC_UML_e9d80909-7c7d-446a-adf6-180818746a31">
+							<UML:GraphConnector.position>
+								<UML:Point x="420.0" y="122.0"/>
+							</UML:GraphConnector.position>
+							<UML:GraphConnector.graphEdge>
+								<UML:GraphEdge
+									xmi.idref="TC_UML_01472647-4e4d-48f9-aa77-7c407c9a6ccf"/>
+							</UML:GraphConnector.graphEdge>
+						</UML:GraphConnector>
+						<UML:GraphConnector
+							xmi.id="TC_UML_e9251ce0-e429-45c4-aa05-1a3467ca2e19">
+							<UML:GraphConnector.position>
+								<UML:Point x="417.0" y="145.0"/>
+							</UML:GraphConnector.position>
+							<UML:GraphConnector.graphEdge>
+								<UML:GraphEdge
+									xmi.idref="TC_UML_6b2b35ec-dadd-4f51-9f96-2a831477caee"/>
+							</UML:GraphConnector.graphEdge>
+						</UML:GraphConnector>
+					</UML:GraphElement.anchorage>
+					<UML:GraphElement.semanticModel>
+						<UML:Uml1SemanticModelBridge
+							xmi.id="TC_UML_c99c4e26-0f8e-45be-938f-a6e706b50994">
+							<UML:Uml1SemanticModelBridge.element>
+								<UML:Object
+									xmi.idref="TC_UML_785cf4cd-99cd-4525-9efd-cd58246d8716"/>
+							</UML:Uml1SemanticModelBridge.element>
+						</UML:Uml1SemanticModelBridge>
+					</UML:GraphElement.semanticModel>
+					<UML:DiagramElement.property>
+						<UML:Property key="FILL_COLOR" value="#99F433"/>
+						<UML:Property key="STROKE_COLOR" value="#33FF00"/>
+						<UML:Property key="FONT_COLOR" value="#333333"/>
+					</UML:DiagramElement.property>
+				</UML:GraphNode>
+				<UML:GraphEdge visible="true"
+					xmi.id="TC_UML_466fde24-408e-4e0f-92db-c1803fe0a1e5">
+					<UML:GraphEdge.waypoints>
+						<UML:Point x="167.0" y="110.0"/>
+						<UML:Point x="392.0" y="110.0"/>
+					</UML:GraphEdge.waypoints>
+					<UML:GraphEdge.anchor>
+						<UML:GraphConnector
+							xmi.idref="TC_UML_04a38904-dbba-49e8-be5b-fa5755b93039"/>
+						<UML:GraphConnector
+							xmi.idref="TC_UML_e7def95e-724c-43d9-8944-7a65650d81de"/>
+					</UML:GraphEdge.anchor>
+					<UML:GraphElement.position>
+						<UML:Point x="163.0" y="113.0"/>
+					</UML:GraphElement.position>
+					<UML:GraphElement.contained>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_cc7b4f74-18cd-4320-8509-04854ec0d267">
+							<UML:GraphElement.contained>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_84ad6189-4127-4791-a2ae-221cd3158a6b">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeStart"
+											xmi.id="TC_UML_3675042f-9bd2-4ce8-8239-4f2c1ae99347"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_db4ab505-acd0-4177-85c2-f01066eab7ba">
+									<UML:GraphElement.contained>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_7efc32ae-8b46-426e-8a72-a5b9299609c8">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="Name"
+													xmi.id="TC_UML_facba3f1-cd65-44fb-9b9a-91c299352fc8"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+									</UML:GraphElement.contained>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_b88446ff-9efc-481b-b632-c10d10ebddec">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeEnd"
+											xmi.id="TC_UML_559d7851-3bcd-42f7-9b37-785f0204dc11"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+							</UML:GraphElement.contained>
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement
+									typeInfo="StereotypeCompartment"
+									xmi.id="TC_UML_760d429a-e3ea-4119-86cb-5279b74aac98"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_e65c92a6-7f89-4582-8ee0-7283b2a30cc7">
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement typeInfo="Name"
+									xmi.id="TC_UML_cb524804-d867-457e-b3d8-0f4b4e3a7d92"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_7d5e2a0d-d857-4941-b077-b2b0156e80b4">
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement typeInfo="Name"
+									xmi.id="TC_UML_7e875a21-1867-4ac9-a468-22ea9f9b112a"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_640cb321-57fe-48d3-81a1-9c65cb391685">
+							<UML:GraphElement.contained>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_87d7f4b5-2093-4023-8f57-0af4387ef47d">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeStart"
+											xmi.id="TC_UML_d19fb0a8-8b1d-422d-a701-d68cefe7ec1b"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_5c398398-ca30-4d41-aef9-1e1577c01da8">
+									<UML:GraphElement.contained>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_aff9e2f2-8ed2-47fb-ad71-357a41532211">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="Name"
+													xmi.id="TC_UML_0220ccfa-ec5b-4df5-a7c1-f15d7c93b723"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+									</UML:GraphElement.contained>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_30cb6acc-f83d-4ed5-b3a7-cbbb2f7b844e">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeEnd"
+											xmi.id="TC_UML_f7d07c56-7210-471e-9ebc-5d2d118891f0"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+							</UML:GraphElement.contained>
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement
+									typeInfo="StereotypeCompartment"
+									xmi.id="TC_UML_a7efcbdf-a15b-4c4d-8a43-7a9a7649d7aa"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+					</UML:GraphElement.contained>
+					<UML:GraphElement.semanticModel>
+						<UML:Uml1SemanticModelBridge
+							xmi.id="TC_UML_0fd9fa86-4dd4-4b24-9d19-dfc2e01556fb">
+							<UML:Uml1SemanticModelBridge.element>
+								<UML:Link
+									xmi.idref="TC_UML_a75e3329-378b-4323-a121-d283cc58ff22"/>
+							</UML:Uml1SemanticModelBridge.element>
+						</UML:Uml1SemanticModelBridge>
+					</UML:GraphElement.semanticModel>
+					<UML:DiagramElement.property>
+						<UML:Property key="STROKE_COLOR" value="000000"/>
+						<UML:Property key="FILL_COLOR" value="B0C4DE"/>
+						<UML:Property key="FONT_COLOR" value="000000"/>
+						<UML:Property key="FONT_FAMILY" value="Arial"/>
+						<UML:Property key="FONT_STYLE" value="0"/>
+						<UML:Property key="FONT_SIZE" value="10"/>
+					</UML:DiagramElement.property>
+				</UML:GraphEdge>
+				<UML:GraphEdge visible="true"
+					xmi.id="TC_UML_47eb1d51-c35e-4f0e-b347-d4f73c0f0733">
+					<UML:GraphEdge.waypoints>
+						<UML:Point x="392.0" y="170.0"/>
+						<UML:Point x="167.0" y="170.0"/>
+					</UML:GraphEdge.waypoints>
+					<UML:GraphEdge.anchor>
+						<UML:GraphConnector
+							xmi.idref="TC_UML_c895737d-8c38-449a-b74e-892de82c3dd3"/>
+						<UML:GraphConnector
+							xmi.idref="TC_UML_ccebc51c-86a3-4fe5-8809-c180a0f89c63"/>
+					</UML:GraphEdge.anchor>
+					<UML:GraphElement.position>
+						<UML:Point x="425.0" y="133.0"/>
+					</UML:GraphElement.position>
+					<UML:GraphElement.contained>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_7c90f9e3-b9f1-4f72-b19e-af7a0b04e7fd">
+							<UML:GraphElement.contained>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_a8bbf1b5-44b1-4ef3-a5e6-9f221fea01ae">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeStart"
+											xmi.id="TC_UML_1f3a9e42-d494-4518-a796-dbc2e1826d64"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_1279953b-0683-4f9f-9073-0eb8144300c6">
+									<UML:GraphElement.contained>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_ebc1d2e8-8862-4ec0-bdf8-21fd058e4d9e">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="Name"
+													xmi.id="TC_UML_fae72e7e-a287-4bc8-b7a0-1248f2e7fd0e"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+									</UML:GraphElement.contained>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_2d276705-ddf3-4d0e-a971-f7927e42c252">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeEnd"
+											xmi.id="TC_UML_35c30f8b-099d-47df-9c28-994efa3ce319"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+							</UML:GraphElement.contained>
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement
+									typeInfo="StereotypeCompartment"
+									xmi.id="TC_UML_f87545e9-ca48-4f77-99e2-11ce2a2e5c71"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_17f20346-1850-47c6-9ce7-f60ca38a0b8b">
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement typeInfo="Name"
+									xmi.id="TC_UML_c411dcf9-e401-4961-b593-ee0723ffd992"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_d56c98ea-ac1e-43e9-9bec-738c6532c92a">
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement typeInfo="Name"
+									xmi.id="TC_UML_64dd0c64-f002-427d-92ce-cb4ae4a2124e"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_1173a5b9-f64a-42a7-a6de-48d8198bceca">
+							<UML:GraphElement.contained>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_45c2f3e0-20bd-49b1-ad3c-d049543675f7">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeStart"
+											xmi.id="TC_UML_fdd71ba2-73e6-469d-ad2d-3bbda23df653"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_f9121294-56c3-4c85-951d-ae21c489213a">
+									<UML:GraphElement.contained>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_c714d6e8-6b9a-4978-b1f4-341830395110">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="Name"
+													xmi.id="TC_UML_a7ccc6e2-f007-4b2a-b12b-8c7de70104d6"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+									</UML:GraphElement.contained>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_6a31da98-ffa2-4c0b-8ed0-ca0fc2e1e76d">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeEnd"
+											xmi.id="TC_UML_4a74d3d4-c4ba-407a-abfc-a2761ccd25e4"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+							</UML:GraphElement.contained>
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement
+									typeInfo="StereotypeCompartment"
+									xmi.id="TC_UML_8997e0bc-ffbf-417f-a9f0-347fab80fdf0"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+					</UML:GraphElement.contained>
+					<UML:GraphElement.semanticModel>
+						<UML:Uml1SemanticModelBridge
+							xmi.id="TC_UML_4c996a3e-b7ba-4a03-81ce-b4d2b83b05e5">
+							<UML:Uml1SemanticModelBridge.element>
+								<UML:Link
+									xmi.idref="TC_UML_373f938b-8523-442d-bef8-2c4085f3da7d"/>
+							</UML:Uml1SemanticModelBridge.element>
+						</UML:Uml1SemanticModelBridge>
+					</UML:GraphElement.semanticModel>
+					<UML:DiagramElement.property>
+						<UML:Property key="STROKE_COLOR" value="000000"/>
+						<UML:Property key="FILL_COLOR" value="B0C4DE"/>
+						<UML:Property key="FONT_COLOR" value="000000"/>
+						<UML:Property key="FONT_FAMILY" value="Arial"/>
+						<UML:Property key="FONT_STYLE" value="0"/>
+						<UML:Property key="FONT_SIZE" value="10"/>
+					</UML:DiagramElement.property>
+				</UML:GraphEdge>
+				<UML:GraphNode visible="true"
+					xmi.id="TC_UML_a32b1061-01e3-4878-8501-248e93016ce7">
+					<UML:GraphNode.size>
+						<UML:Dimension height="170.0" width="80.0"/>
+					</UML:GraphNode.size>
+					<UML:GraphElement.position>
+						<UML:Point x="605.0" y="50.0"/>
+					</UML:GraphElement.position>
+					<UML:GraphElement.anchorage>
+						<UML:GraphConnector
+							xmi.id="TC_UML_43dc0880-f474-4e93-bbc9-a57b02f98077">
+							<UML:GraphConnector.position>
+								<UML:Point x="660.0" y="122.0"/>
+							</UML:GraphConnector.position>
+							<UML:GraphConnector.graphEdge>
+								<UML:GraphEdge
+									xmi.idref="TC_UML_01472647-4e4d-48f9-aa77-7c407c9a6ccf"/>
+							</UML:GraphConnector.graphEdge>
+						</UML:GraphConnector>
+						<UML:GraphConnector
+							xmi.id="TC_UML_66f07453-76f7-4064-9798-29db3cebb99a">
+							<UML:GraphConnector.position>
+								<UML:Point x="701.0" y="145.0"/>
+							</UML:GraphConnector.position>
+							<UML:GraphConnector.graphEdge>
+								<UML:GraphEdge
+									xmi.idref="TC_UML_6b2b35ec-dadd-4f51-9f96-2a831477caee"/>
+							</UML:GraphConnector.graphEdge>
+						</UML:GraphConnector>
+					</UML:GraphElement.anchorage>
+					<UML:GraphElement.semanticModel>
+						<UML:Uml1SemanticModelBridge
+							xmi.id="TC_UML_92c8d78c-279e-4dc6-acf2-e6a788b927f4">
+							<UML:Uml1SemanticModelBridge.element>
+								<UML:Object
+									xmi.idref="TC_UML_ea408f96-99d1-406a-a0a7-0fd0255dcd09"/>
+							</UML:Uml1SemanticModelBridge.element>
+						</UML:Uml1SemanticModelBridge>
+					</UML:GraphElement.semanticModel>
+					<UML:DiagramElement.property>
+						<UML:Property key="FILL_COLOR" value="#FF00CC"/>
+					</UML:DiagramElement.property>
+				</UML:GraphNode>
+				<UML:GraphEdge visible="true"
+					xmi.id="TC_UML_01472647-4e4d-48f9-aa77-7c407c9a6ccf">
+					<UML:GraphEdge.waypoints>
+						<UML:Point x="398.0" y="130.0"/>
+						<UML:Point x="642.0" y="130.0"/>
+					</UML:GraphEdge.waypoints>
+					<UML:GraphEdge.anchor>
+						<UML:GraphConnector
+							xmi.idref="TC_UML_e9d80909-7c7d-446a-adf6-180818746a31"/>
+						<UML:GraphConnector
+							xmi.idref="TC_UML_43dc0880-f474-4e93-bbc9-a57b02f98077"/>
+					</UML:GraphEdge.anchor>
+					<UML:GraphElement.position>
+						<UML:Point x="420.0" y="122.0"/>
+					</UML:GraphElement.position>
+					<UML:GraphElement.contained>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_66cbeba1-e0c8-4e86-98fd-b7a2acd19e14">
+							<UML:GraphElement.contained>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_717f560c-679a-4c36-b7b5-33631f5b2bae">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeStart"
+											xmi.id="TC_UML_4f5b5495-3e20-4568-b77b-5f80773f2007"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_a473b8c1-0cce-44ea-8b9f-300aa4c562d2">
+									<UML:GraphElement.contained>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_9a89933d-91ac-435a-b5df-a4d615e546f6">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="Name"
+													xmi.id="TC_UML_0497f062-e80a-41ca-b6fd-6289a6ae3fec"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+									</UML:GraphElement.contained>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_45756856-ca28-487c-b05d-8f3ca2363ce5">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeEnd"
+											xmi.id="TC_UML_ee8977a0-fe27-4a36-8d07-7055cd21b065"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+							</UML:GraphElement.contained>
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement
+									typeInfo="StereotypeCompartment"
+									xmi.id="TC_UML_51ce1f3b-7a43-48ee-87fb-3f9ef7479d50"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_e0aaf403-f473-4175-b504-56b16328cffb">
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement typeInfo="Name"
+									xmi.id="TC_UML_94a6698a-a978-48ba-b0e9-d8451e997915"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_b71c2f9f-b30b-497c-87aa-c9dac13a6435">
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement typeInfo="Name"
+									xmi.id="TC_UML_bee66114-b401-4fcf-a903-e9b363a694d8"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_bdd948f1-688b-4dad-b24e-4d9e494f386e">
+							<UML:GraphElement.contained>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_e3ec9549-1027-496c-8b09-c9300b72ec70">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeStart"
+											xmi.id="TC_UML_cf220ab1-38db-4eea-849f-cb99eafc6150"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_5ad1bb48-ae85-462f-a063-558ebbc190e3">
+									<UML:GraphElement.contained>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_4b7d4d9d-9800-4fbb-9726-b3e5380843e3">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="Name"
+													xmi.id="TC_UML_0a7b16e7-be96-40f4-b087-ec9f72f0dea2"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+									</UML:GraphElement.contained>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_047bfe68-25f6-43c3-ad47-67f4ce503a2a">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeEnd"
+											xmi.id="TC_UML_28caedea-a49f-4c4a-a8c9-677dc444b14e"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+							</UML:GraphElement.contained>
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement
+									typeInfo="StereotypeCompartment"
+									xmi.id="TC_UML_d5390290-941a-4276-938a-cb202a298bf9"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+					</UML:GraphElement.contained>
+					<UML:GraphElement.semanticModel>
+						<UML:Uml1SemanticModelBridge
+							xmi.id="TC_UML_16515deb-3ec9-4d06-820b-f900b9261ec6">
+							<UML:Uml1SemanticModelBridge.element>
+								<UML:Link
+									xmi.idref="TC_UML_488c5d58-e98c-45de-ade8-47e60a06fc95"/>
+							</UML:Uml1SemanticModelBridge.element>
+						</UML:Uml1SemanticModelBridge>
+					</UML:GraphElement.semanticModel>
+					<UML:DiagramElement.property>
+						<UML:Property key="STROKE_COLOR" value="000000"/>
+						<UML:Property key="FILL_COLOR" value="B0C4DE"/>
+						<UML:Property key="FONT_COLOR" value="000000"/>
+						<UML:Property key="FONT_FAMILY" value="Arial"/>
+						<UML:Property key="FONT_STYLE" value="0"/>
+						<UML:Property key="FONT_SIZE" value="10"/>
+					</UML:DiagramElement.property>
+				</UML:GraphEdge>
+				<UML:GraphEdge visible="true"
+					xmi.id="TC_UML_6b2b35ec-dadd-4f51-9f96-2a831477caee">
+					<UML:GraphEdge.waypoints>
+						<UML:Point x="642.0" y="150.0"/>
+						<UML:Point x="398.0" y="150.0"/>
+					</UML:GraphEdge.waypoints>
+					<UML:GraphEdge.anchor>
+						<UML:GraphConnector
+							xmi.idref="TC_UML_66f07453-76f7-4064-9798-29db3cebb99a"/>
+						<UML:GraphConnector
+							xmi.idref="TC_UML_e9251ce0-e429-45c4-aa05-1a3467ca2e19"/>
+					</UML:GraphEdge.anchor>
+					<UML:GraphElement.position>
+						<UML:Point x="701.0" y="145.0"/>
+					</UML:GraphElement.position>
+					<UML:GraphElement.contained>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_85ac513e-c862-4e4a-a1ff-5db7e15bf15e">
+							<UML:GraphElement.contained>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_0f20ac70-82ae-45b9-b28f-756862b20479">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeStart"
+											xmi.id="TC_UML_ebb068ce-6bf2-40bb-b051-c3e9c4152a04"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_dbe11864-61e3-4bfc-80c2-9d10341cbca9">
+									<UML:GraphElement.contained>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_cb4f812d-ab8f-4d46-90f5-c13ce4b7862a">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="Name"
+													xmi.id="TC_UML_69dbebf6-d80f-4710-a298-b6b7d7f5d01a"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+									</UML:GraphElement.contained>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_bd98f1ce-976f-4880-b922-a8cb9633bdd2">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeEnd"
+											xmi.id="TC_UML_4febfad5-3a66-48b2-8e55-a871c2adc598"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+							</UML:GraphElement.contained>
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement
+									typeInfo="StereotypeCompartment"
+									xmi.id="TC_UML_29149c85-083e-4815-a51f-63242cd07636"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_0e4620ae-6a7b-464d-a7f6-abd693027047">
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement typeInfo="Name"
+									xmi.id="TC_UML_0410124e-1c41-4780-a8e6-0785f3d83ea9"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_231dfa86-d3b7-4954-8bcb-b5f83fe6be36">
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement typeInfo="Name"
+									xmi.id="TC_UML_cdc7d172-c4a3-428e-9d3d-cd2cc7e9209d"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_0ed13078-fa99-4085-b40c-4af44fcab05e">
+							<UML:GraphElement.contained>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_12ceb0b7-a8ff-4401-952d-8a345d421d70">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeStart"
+											xmi.id="TC_UML_e14a2b77-b9ae-4f6c-91c7-78f426d4d558"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_6a3ec8ff-e15b-49a3-a331-b03e60ea1213">
+									<UML:GraphElement.contained>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_c17ea01a-a37d-4f2d-89d9-8ed0b3d25654">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="Name"
+													xmi.id="TC_UML_eb5b00f0-3f54-4ea1-b95b-1f944c4f9ee5"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+									</UML:GraphElement.contained>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_fa005a88-9a47-40b0-91d8-52194a0b3dd0">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeEnd"
+											xmi.id="TC_UML_f2d8b9e5-4e82-48d7-a16c-c7354d2beaf2"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+							</UML:GraphElement.contained>
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement
+									typeInfo="StereotypeCompartment"
+									xmi.id="TC_UML_b5245dcc-812a-4745-9bb1-aace9764d5d6"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+					</UML:GraphElement.contained>
+					<UML:GraphElement.semanticModel>
+						<UML:Uml1SemanticModelBridge
+							xmi.id="TC_UML_258de5bd-9de4-4776-8f95-14b94ef3049a">
+							<UML:Uml1SemanticModelBridge.element>
+								<UML:Link
+									xmi.idref="TC_UML_9cffecec-10f7-4f33-892d-c11e80d186d8"/>
+							</UML:Uml1SemanticModelBridge.element>
+						</UML:Uml1SemanticModelBridge>
+					</UML:GraphElement.semanticModel>
+					<UML:DiagramElement.property>
+						<UML:Property key="STROKE_COLOR" value="000000"/>
+						<UML:Property key="FILL_COLOR" value="B0C4DE"/>
+						<UML:Property key="FONT_COLOR" value="000000"/>
+						<UML:Property key="FONT_FAMILY" value="Arial"/>
+						<UML:Property key="FONT_STYLE" value="0"/>
+						<UML:Property key="FONT_SIZE" value="10"/>
+					</UML:DiagramElement.property>
+				</UML:GraphEdge>
+			</UML:GraphElement.contained>
+			<UML:GraphElement.semanticModel>
+				<UML:SimpleSemanticModelElement typeInfo="SequenceDiagram"
+					xmi.id="TC_UML_74c5599f-b353-4606-b814-b0df640101b7"/>
+			</UML:GraphElement.semanticModel>
+		</UML:Diagram>
+		<UML:Diagram name="CD1" visible="true"
+			xmi.id="TC_UML_7674ddbd-f0b8-4ead-b0c1-3af589ce016e" zoom="1.0">
+			<UML:Diagram.viewport>
+				<UML:Point x="0.0" y="0.0"/>
+			</UML:Diagram.viewport>
+			<UML:Diagram.owner>
+				<UML:Uml1SemanticModelBridge
+					xmi.id="TC_UML_06859aad-8dbd-4817-a824-724202f5e504">
+					<UML:Uml1SemanticModelBridge.element>
+						<UML:Model
+							xmi.idref="TC_UML_46752217-89ed-4134-adfa-42f5e760ac98"/>
+					</UML:Uml1SemanticModelBridge.element>
+				</UML:Uml1SemanticModelBridge>
+			</UML:Diagram.owner>
+			<UML:GraphNode.size>
+				<UML:Dimension height="459.0" width="1046.0"/>
+			</UML:GraphNode.size>
+			<UML:GraphElement.position>
+				<UML:Point x="20.0" y="20.0"/>
+			</UML:GraphElement.position>
+			<UML:GraphElement.contained>
+				<UML:GraphNode visible="true"
+					xmi.id="TC_UML_4321b98b-8d58-4bb2-abbc-aa1532ed6529">
+					<UML:GraphNode.size>
+						<UML:Dimension height="124.0" width="140.0"/>
+					</UML:GraphNode.size>
+					<UML:GraphElement.position>
+						<UML:Point x="159.0" y="102.0"/>
+					</UML:GraphElement.position>
+					<UML:GraphElement.contained>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_63a34388-b565-410d-a7f2-e598ad2ca211">
+							<UML:GraphElement.contained>
+								<UML:GraphNode visible="false"
+									xmi.id="TC_UML_7c7096c7-f606-412b-9113-2da701e6534f">
+									<UML:GraphElement.contained>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_8c7ec6b7-1f52-4f32-876c-b119e43b19d5">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="StereotypeStart"
+													xmi.id="TC_UML_8c02a639-a45f-480b-b58e-e217b5163719"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_7298f44e-e1a8-4038-bcee-f51346abffdb">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="StereotypeEnd"
+													xmi.id="TC_UML_edc9bc0f-c2ce-4cb4-9a7d-fe85ace845b2"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+									</UML:GraphElement.contained>
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="StereotypeCompartment"
+											xmi.id="TC_UML_ee55444a-fa30-43c6-b9c7-e565e68648bd"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_6d4902dd-bd73-4e71-9e2d-f4ad7d7604e0">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="Name"
+											xmi.id="TC_UML_27dd1459-e598-4c43-b5b6-99470fed5148"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="false"
+									xmi.id="TC_UML_d159ed73-8229-4ebe-aea6-a7d631a768c9">
+									<UML:GraphElement.contained>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_8f746595-edf7-4d09-8d3d-c3d1ac742b22">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="NamespaceStart"
+													xmi.id="TC_UML_4e3b9a66-0bce-494d-ada7-3579ae7a95f5"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_69578874-c16d-475b-9312-b72020267d0b">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="NamespaceEnd"
+													xmi.id="TC_UML_8e7625fa-3f5f-4ebf-977a-f32b4ab36b28"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+									</UML:GraphElement.contained>
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="NamespaceCompartment"
+											xmi.id="TC_UML_d228a4d2-9861-46dd-b68d-c42267d6f51d"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+							</UML:GraphElement.contained>
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement
+									typeInfo="NameCompartment"
+									xmi.id="TC_UML_700a125d-3b9a-44cb-b524-b5df0ee347c7"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_e94edf18-8ccd-4f6d-92a9-e1982f42b2d6">
+							<UML:GraphElement.semanticModel>
+								<UML:SimpleSemanticModelElement
+									typeInfo="BodyCompartment"
+									xmi.id="TC_UML_ea3a9392-9514-4e43-b26d-50c83b0a9ca3"/>
+							</UML:GraphElement.semanticModel>
+						</UML:GraphNode>
+						<UML:GraphNode visible="true"
+							xmi.id="TC_UML_d653fb50-61a1-4efe-bfc2-a1ec4cc3083e">
+							<UML:GraphNode.size>
+								<UML:Dimension height="72.0" width="100.0"/>
+							</UML:GraphNode.size>
+							<UML:GraphElement.position>
+								<UML:Point x="27.0" y="42.0"/>
+							</UML:GraphElement.position>
+							<UML:GraphElement.contained>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_3d8d3b54-90d9-4b35-80d0-88fba9140aab">
+									<UML:GraphElement.contained>
+										<UML:GraphNode visible="false"
+											xmi.id="TC_UML_380d75d6-e72f-40e1-8141-15109737463a">
+											<UML:GraphElement.contained>
+												<UML:GraphNode visible="true"
+													xmi.id="TC_UML_06b8e5ff-3f4a-46f4-b2fe-a93162a7cc41">
+													
+													<UML:GraphElement.semanticModel>
+														
+															<UML:SimpleSemanticModelElement
+															typeInfo="StereotypeStart"
+															xmi.id="TC_UML_6fe68e09-69bd-4c8d-bb28-2ddabbd85166"/>
+													
+													</UML:GraphElement.semanticModel>
+												</UML:GraphNode>
+												<UML:GraphNode visible="true"
+													xmi.id="TC_UML_3ca5bdc1-f4a0-4b80-90af-920837f613cf">
+													
+													<UML:GraphElement.semanticModel>
+														
+															<UML:SimpleSemanticModelElement
+															typeInfo="StereotypeEnd"
+															xmi.id="TC_UML_fe2e626e-d237-4aed-ab20-e73b4d5298ee"/>
+													
+													</UML:GraphElement.semanticModel>
+												</UML:GraphNode>
+											</UML:GraphElement.contained>
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="StereotypeCompartment"
+													xmi.id="TC_UML_d2be696f-46df-4c64-844c-ecd8e8f413eb"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_4dcc7efe-1a83-4355-bec3-9f0200071588">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="Name"
+													xmi.id="TC_UML_12f5c517-ddbf-438b-92c1-cef1bd8d5670"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+										<UML:GraphNode visible="false"
+											xmi.id="TC_UML_77dd19b4-b475-4114-862c-a794f097f57c">
+											<UML:GraphElement.contained>
+												<UML:GraphNode visible="true"
+													xmi.id="TC_UML_ba0fae43-f1e8-4740-a239-78a538f936a2">
+													
+													<UML:GraphElement.semanticModel>
+														
+															<UML:SimpleSemanticModelElement
+															typeInfo="NamespaceStart"
+															xmi.id="TC_UML_bcf8649e-af88-4c3c-bb4f-a6e5e84d7088"/>
+													
+													</UML:GraphElement.semanticModel>
+												</UML:GraphNode>
+												<UML:GraphNode visible="true"
+													xmi.id="TC_UML_14a188f0-3ee9-4790-a0e2-5b464f645026">
+													
+													<UML:GraphElement.semanticModel>
+														
+															<UML:SimpleSemanticModelElement
+															typeInfo="NamespaceEnd"
+															xmi.id="TC_UML_38a64172-fee1-48d8-a541-aa8583e5adc4"/>
+													
+													</UML:GraphElement.semanticModel>
+												</UML:GraphNode>
+											</UML:GraphElement.contained>
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="NamespaceCompartment"
+													xmi.id="TC_UML_ac177b3f-f74e-40b3-97b1-38a132870946"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+									</UML:GraphElement.contained>
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="NameCompartment"
+											xmi.id="TC_UML_5ab18b44-7eb5-418a-bfcd-8e713dcc0794"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_32dba64e-b46c-41e2-abfa-ae18864615b1">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="CompartmentSeparator"
+											xmi.id="TC_UML_0f929600-730c-451f-9bb9-8c64dca83034"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_713e22f1-ff58-4ecc-be4c-525be9a6d99e">
+									<UML:GraphElement.contained>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_6c9f3c5e-5c6d-491f-a2c0-ca4a019af30c">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="DelimitedSection"
+													xmi.id="TC_UML_12dcb028-a1a2-48fa-9b07-8d080706bcc3"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+									</UML:GraphElement.contained>
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="AttributeCompartment"
+											xmi.id="TC_UML_b071997e-d7fa-4820-b459-7e86da93bd9a"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_32dba64e-b46c-41e2-abfa-ae18864615b1">
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="CompartmentSeparator"
+											xmi.id="TC_UML_0f929600-730c-451f-9bb9-8c64dca83034"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+								<UML:GraphNode visible="true"
+									xmi.id="TC_UML_9a2c40e8-9d5a-4d86-9dd5-e694be8925eb">
+									<UML:GraphElement.contained>
+										<UML:GraphNode visible="true"
+											xmi.id="TC_UML_add13a7f-a483-4501-84ab-d736b5775bf9">
+											<UML:GraphElement.semanticModel>
+												<UML:SimpleSemanticModelElement
+													typeInfo="DelimitedSection"
+													xmi.id="TC_UML_af8b8720-f6df-49e6-bda6-1e97ebad77af"/>
+											</UML:GraphElement.semanticModel>
+										</UML:GraphNode>
+									</UML:GraphElement.contained>
+									<UML:GraphElement.semanticModel>
+										<UML:SimpleSemanticModelElement
+											typeInfo="OperationCompartment"
+											xmi.id="TC_UML_fc630b40-b71c-4ad5-94eb-087fce1014f2"/>
+									</UML:GraphElement.semanticModel>
+								</UML:GraphNode>
+							</UML:GraphElement.contained>
+							<UML:GraphElement.semanticModel>
+								<UML:Uml1SemanticModelBridge
+									xmi.id="TC_UML_2148c627-5538-4bda-b462-b44378b2e715">
+									<UML:Uml1SemanticModelBridge.element>
+										<UML:Class
+											xmi.idref="TC_UML_540151d0-7d34-49b3-8096-8f4ac1134f63"/>
+									</UML:Uml1SemanticModelBridge.element>
+								</UML:Uml1SemanticModelBridge>
+							</UML:GraphElement.semanticModel>
+							<UML:DiagramElement.property>
+								<UML:Property key="STROKE_COLOR" value="000000"/>
+								<UML:Property key="FILL_COLOR" value="CCFFCC"/>
+								<UML:Property key="FONT_COLOR" value="000000"/>
+								<UML:Property key="FONT_FAMILY" value="Arial"/>
+								<UML:Property key="FONT_STYLE" value="0"/>
+								<UML:Property key="FONT_SIZE" value="10"/>
+							</UML:DiagramElement.property>
+						</UML:GraphNode>
+					</UML:GraphElement.contained>
+					<UML:GraphElement.semanticModel>
+						<UML:Uml1SemanticModelBridge
+							xmi.id="TC_UML_9ead08fa-cb0d-4801-9393-11fb62dbe189">
+							<UML:Uml1SemanticModelBridge.element>
+								<UML:Package
+									xmi.idref="TC_UML_4baa23ef-5b9d-45ae-b349-85b14dd506fe"/>
+							</UML:Uml1SemanticModelBridge.element>
+						</UML:Uml1SemanticModelBridge>
+					</UML:GraphElement.semanticModel>
+					<UML:DiagramElement.property>
+						<UML:Property key="STROKE_COLOR" value="000000"/>
+						<UML:Property key="FILL_COLOR" value="FFF2CC"/>
+						<UML:Property key="FONT_COLOR" value="000000"/>
+						<UML:Property key="FONT_FAMILY" value="Arial"/>
+						<UML:Property key="FONT_STYLE" value="0"/>
+						<UML:Property key="FONT_SIZE" value="10"/>
+					</UML:DiagramElement.property>
+				</UML:GraphNode>
+			</UML:GraphElement.contained>
+			<UML:GraphElement.semanticModel>
+				<UML:SimpleSemanticModelElement typeInfo="ClassDiagram"
+					xmi.id="TC_UML_2160e87e-24b5-4f94-8a9d-3a3cd42b187c"/>
+			</UML:GraphElement.semanticModel>
+		</UML:Diagram>
+	</XMI.content>
+</XMI>

@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=XMI Reader UML Model Plugin
+component.distfilename=xmi_reader_uml_model_plugin
+component.package=com.topcoder.xmi.reader.handlers.uml.model
+component.packagedir=com/topcoder/xmi/reader/handlers/uml/model
+component.version.major=1
+component.version.minor=0
+component.version.micro=1
+component.version.build=1

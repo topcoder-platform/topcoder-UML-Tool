@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="dist" name="Dependency Import">
+    <!--property file defining the component's dependencies-->
+    <!--Properties used in compile_targets ANT target for JDK version x-->
+    <property name="component.target" value="1.5"/>
+    <property name="component.bootclasspath" value="${java_1_5_bootclasspath}"/>
+    <!--TCS dependencies-->
+    <property name="action_manager.jar" value="${tcs_libdir}/action_manager/1.0.0/action_manager.jar"/>
+    <property name="base_exception.jar" value="${tcs_libdir}/base_exception/2.0.0/base_exception.jar"/>
+    <property name="diagram_interchange.jar" value="${tcs_libdir}/diagram_interchange/1.0.1/diagram_interchange.jar"/>
+    <property name="logging_wrapper.jar" value="${tcs_libdir}/logging_wrapper/2.0.0/logging_wrapper.jar"/>
+    <property name="uml_model_-_activity_graphs.jar" value="${tcs_libdir}/uml_model_-_activity_graphs/1.0.0/uml_model_-_activity_graphs.jar"/>
+    <property name="uml_model_-_common_behavior.jar" value="${tcs_libdir}/uml_model_-_common_behavior/1.0.0/uml_model_-_common_behavior.jar"/>
+    <property name="uml_model_-_core.jar" value="${tcs_libdir}/uml_model_-_core/1.0.0/uml_model_-_core.jar"/>
+    <property name="uml_model_-_core_auxiliary_elements.jar" value="${tcs_libdir}/uml_model_-_core_auxiliary_elements/1.0.0/uml_model_-_core_auxiliary_elements.jar"/>
+    <property name="uml_model_-_core_extension_mechanisms.jar" value="${tcs_libdir}/uml_model_-_core_extension_mechanisms/1.0.0/uml_model_-_core_extension_mechanisms.jar"/>
+    <property name="uml_model_-_core_relationships.jar" value="${tcs_libdir}/uml_model_-_core_relationships/1.0.0/uml_model_-_core_relationships.jar"/>
+    <property name="uml_model_-_data_types.jar" value="${tcs_libdir}/uml_model_-_data_types/1.0.0/uml_model_-_data_types.jar"/>
+    <property name="uml_model_-_model_management.jar" value="${tcs_libdir}/uml_model_-_model_management/1.0.0/uml_model_-_model_management.jar"/>
+    <property name="uml_model_-_state_machines.jar" value="${tcs_libdir}/uml_model_-_state_machines/1.0.0/uml_model_-_state_machines.jar"/>
+    <property name="uml_model_-_use_cases.jar" value="${tcs_libdir}/uml_model_-_use_cases/1.0.0/uml_model_-_use_cases.jar"/>
+    <property name="uml_model_manager.jar" value="${tcs_libdir}/uml_model_manager/1.0.0/uml_model_manager.jar"/>
+    <property name="uml_project_configuration.jar" value="${tcs_libdir}/uml_project_configuration/1.0.0/uml_project_configuration.jar"/>
+    <!--3rd party dependencies-->
+    <property name="junit.jar" value="${ext_libdir}/junit/3.8.2/junit.jar" />
+    <!--Path declarations which are to be used in the master build file.-->
+    <path id="component.tcs-dependencies">
+        <pathelement location="${action_manager.jar}"/>
+        <pathelement location="${base_exception.jar}"/>
+        <pathelement location="${diagram_interchange.jar}"/>
+        <pathelement location="${logging_wrapper.jar}"/>
+        <pathelement location="${uml_model_-_activity_graphs.jar}"/>
+        <pathelement location="${uml_model_-_common_behavior.jar}"/>
+        <pathelement location="${uml_model_-_core.jar}"/>
+        <pathelement location="${uml_model_-_core_auxiliary_elements.jar}"/>
+        <pathelement location="${uml_model_-_core_extension_mechanisms.jar}"/>
+        <pathelement location="${uml_model_-_core_relationships.jar}"/>
+        <pathelement location="${uml_model_-_data_types.jar}"/>
+        <pathelement location="${uml_model_-_model_management.jar}"/>
+        <pathelement location="${uml_model_-_state_machines.jar}"/>
+        <pathelement location="${uml_model_-_use_cases.jar}"/>
+        <pathelement location="${uml_model_manager.jar}"/>
+        <pathelement location="${uml_project_configuration.jar}"/>
+    </path>
+    <path id="component.3rdParty-dependencies"/>
+    <path id="component.test.3rdParty-dependencies">
+        <pathelement location="${junit.jar}" />
+	  </path>
+</project>

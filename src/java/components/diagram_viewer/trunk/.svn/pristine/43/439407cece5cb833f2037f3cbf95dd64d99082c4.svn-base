@@ -1,0 +1,16 @@
+<CMConfig>
+
+    <!-- Configure the Zoom Action -->
+	<Config name="com.topcoder.gui.diagramviewer.ZoomAction">
+		<Property name="name">
+			<Value>zoom1</Value>
+		</Property>
+		<Property name="zoom_tab_action_icon">
+			<Value>accuracyTests/zoomout.icon</Value>
+		</Property>
+		<Property name="increment">
+			<Value>-10</Value>
+		</Property>
+	</Config>
+
+</CMConfig>

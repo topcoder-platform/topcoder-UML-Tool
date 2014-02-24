@@ -1,0 +1,481 @@
+<CMConfig>
+  <Config name="PropertyTemplateDiagramElementFormatter.fail">
+    <Property name="com.topcoder.diagraminterchange.TextElement">
+      <Property name="property1">
+        <Value>value1</Value>
+      </Property>
+      <Property name="property2">
+        <Value>value2</Value>
+      </Property>
+    </Property>
+  </Config>
+
+  <Config name="ProjectConfigurationManager.acc">
+    <Property name="stereotypes">
+      <Property name="Java">
+        <Property name="Class">
+          <Value>exception</Value>
+          <Value>abstract</Value>
+        </Property>
+        <Property name="Operation">
+          <Value>final</Value>
+          <Value>abstract</Value>
+        </Property>
+      </Property>
+      <Property name="CSharp">
+        <Property name="Class">
+          <Value>exception</Value>
+          <Value>abstract</Value>
+        </Property>
+      </Property>
+    </Property>
+    <Property name="defaultProjectLanguage">
+      <Value>Java</Value>
+    </Property>
+  </Config>
+
+<Config name="getDefaultProjectLanguage.fail1">
+    <Property name="stereotypes">
+      <Property name="Java">
+        <Property name="Class">
+          <Value>exception</Value>
+          <Value>abstract</Value>
+        </Property>
+        <Property name="Operation">
+          <Value>final</Value>
+          <Value>abstract</Value>
+        </Property>
+      </Property>
+      <Property name="CSharp">
+        <Property name="Class">
+          <Value>exception</Value>
+          <Value>abstract</Value>
+        </Property>
+      </Property>
+    </Property>
+    <!--Property name="defaultProjectLanguage">
+      <Value>Java</Value>
+    </Property-->
+  </Config>
+
+  <Config name="getDefaultProjectLanguage.fail2">
+    <Property name="stereotypes">
+      <Property name="Java">
+        <Property name="Class">
+          <Value>exception</Value>
+          <Value>abstract</Value>
+        </Property>
+        <Property name="Operation">
+          <Value>final</Value>
+          <Value>abstract</Value>
+        </Property>
+      </Property>
+      <Property name="CSharp">
+        <Property name="Class">
+          <Value>exception</Value>
+          <Value>abstract</Value>
+        </Property>
+      </Property>
+    </Property>
+    <Property name="defaultProjectLanguage">
+      <Value> </Value>
+    </Property>
+  </Config>
+
+<Config name="com.topcoder.uml.projectconfiguration.ProjectConfigurationManager">
+    <Property name="stereotypes">
+      <Property name="Java">
+        <Property name="Class">
+          <Value>exception</Value>
+          <Value>abstract</Value>
+        </Property>
+        <Property name="Operation">
+          <Value>final</Value>
+          <Value>abstract</Value>
+        </Property>
+      </Property>
+      <Property name="CSharp">
+        <Property name="Class">
+          <Value>exception</Value>
+          <Value>abstract</Value>
+        </Property>
+      </Property>
+    </Property>
+    <Property name="defaultProjectLanguage">
+      <Value>Java</Value>
+    </Property>
+  </Config>
+  <Config name="com.topcoder.uml.projectconfiguration.ProjectConfigurationManager.objectfactory">
+    <Property name="standardClassDataLoader">
+      <Property name="type">
+        <Value>com.topcoder.uml.standardclassloader.StandardClassDataLoaderImpl</Value>
+      </Property>
+    </Property>
+    <Property name="stereotypeLoader">
+      <Property name="type">
+        <Value>com.topcoder.uml.projectconfiguration.stereotypeloader.XMLStereotypeLoader</Value>
+      </Property>
+      <Property name="params">
+        <Property name="param1">
+          <Property name="type">
+            <Value>String</Value>
+          </Property>
+          <Property name="value">
+            <Value>com.topcoder.uml.projectconfiguration.ProjectConfigurationManager</Value>
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+  </Config>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Config name="Java14EnumElementFormatter.fail1">
+    <Property name="exceptionStereotypeName">
+      <Value>exception</Value>
+    </Property>
+    <!--Property name="enumStereotypeName">
+      <Value>enum</Value>
+    </Property-->
+    <Property name="createStereotypeName">
+      <Value>create</Value>
+    </Property>
+    <Property name="createStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+    <Property name="stringClassName">
+      <Value>String</Value>
+    </Property>
+    <Property name="throwableClassName">
+      <Value>Throwable</Value>
+    </Property>
+    <Property name="exceptionClassName">
+      <Value>Exception</Value>
+    </Property>
+    <Property name="enumClassName">
+      <Value>Enum</Value>
+    </Property>
+    <Property name="serializationInfoClassName">
+      <Value>SerializationInfo</Value>
+    </Property>
+    <Property name="streamingContextClassName">
+      <Value>StreamingContext</Value>
+    </Property>
+    <Property name="operationStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+  </Config>
+
+      <Config name="Java14EnumElementFormatter.fail2">
+    <Property name="exceptionStereotypeName">
+      <Value>exception</Value>
+    </Property>
+    <Property name="enumStereotypeName">
+      <Value> </Value>
+    </Property>
+    <Property name="createStereotypeName">
+      <Value>create</Value>
+    </Property>
+    <Property name="createStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+    <Property name="stringClassName">
+      <Value>String</Value>
+    </Property>
+    <Property name="throwableClassName">
+      <Value>Throwable</Value>
+    </Property>
+    <Property name="exceptionClassName">
+      <Value>Exception</Value>
+    </Property>
+    <Property name="enumClassName">
+      <Value>Enum</Value>
+    </Property>
+    <Property name="serializationInfoClassName">
+      <Value>SerializationInfo</Value>
+    </Property>
+    <Property name="streamingContextClassName">
+      <Value>StreamingContext</Value>
+    </Property>
+    <Property name="operationStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+  </Config>
+
+
+      <Config name="Java14EnumElementFormatter.fail3">
+    <Property name="exceptionStereotypeName">
+      <Value>exception</Value>
+    </Property>
+    <Property name="enumStereotypeName">
+      <Value>enum</Value>
+    </Property>
+    <!--Property name="createStereotypeName">
+      <Value>create</Value>
+    </Property-->
+    <Property name="createStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+    <Property name="stringClassName">
+      <Value>String</Value>
+    </Property>
+    <Property name="throwableClassName">
+      <Value>Throwable</Value>
+    </Property>
+    <Property name="exceptionClassName">
+      <Value>Exception</Value>
+    </Property>
+    <Property name="enumClassName">
+      <Value>Enum</Value>
+    </Property>
+    <Property name="serializationInfoClassName">
+      <Value>SerializationInfo</Value>
+    </Property>
+    <Property name="streamingContextClassName">
+      <Value>StreamingContext</Value>
+    </Property>
+    <Property name="operationStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+  </Config>
+      <Config name="Java14EnumElementFormatter.fail4">
+    <Property name="exceptionStereotypeName">
+      <Value>exception</Value>
+    </Property>
+    <Property name="enumStereotypeName">
+      <Value>enum</Value>
+    </Property>
+    <Property name="createStereotypeName">
+      <Value> </Value>
+    </Property>
+    <Property name="createStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+    <Property name="stringClassName">
+      <Value>String</Value>
+    </Property>
+    <Property name="throwableClassName">
+      <Value>Throwable</Value>
+    </Property>
+    <Property name="exceptionClassName">
+      <Value>Exception</Value>
+    </Property>
+    <Property name="enumClassName">
+      <Value>Enum</Value>
+    </Property>
+    <Property name="serializationInfoClassName">
+      <Value>SerializationInfo</Value>
+    </Property>
+    <Property name="streamingContextClassName">
+      <Value>StreamingContext</Value>
+    </Property>
+    <Property name="operationStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+  </Config>
+
+      <Config name="Java14EnumElementFormatter.fail5">
+    <Property name="exceptionStereotypeName">
+      <Value>exception</Value>
+    </Property>
+    <Property name="enumStereotypeName">
+      <Value>enum</Value>
+    </Property>
+    <Property name="createStereotypeName">
+      <Value>create</Value>
+    </Property>
+    <Property name="createStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+    <Property name="stringClassName">
+      <Value>String</Value>
+    </Property>
+    <Property name="throwableClassName">
+      <Value>Throwable</Value>
+    </Property>
+    <Property name="exceptionClassName">
+      <Value>Exception</Value>
+    </Property>
+    <!--Property name="enumClassName">
+      <Value>Enum</Value>
+    </Property-->
+    <Property name="serializationInfoClassName">
+      <Value>SerializationInfo</Value>
+    </Property>
+    <Property name="streamingContextClassName">
+      <Value>StreamingContext</Value>
+    </Property>
+    <Property name="operationStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+  </Config>
+      <Config name="Java14EnumElementFormatter.fail6">
+    <Property name="exceptionStereotypeName">
+      <Value>exception</Value>
+    </Property>
+    <Property name="enumStereotypeName">
+      <Value>enum</Value>
+    </Property>
+    <Property name="createStereotypeName">
+      <Value>create</Value>
+    </Property>
+    <Property name="createStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+    <Property name="stringClassName">
+      <Value>String</Value>
+    </Property>
+    <Property name="throwableClassName">
+      <Value>Throwable</Value>
+    </Property>
+    <Property name="exceptionClassName">
+      <Value>Exception</Value>
+    </Property>
+    <Property name="enumClassName">
+      <Value> </Value>
+    </Property>
+    <Property name="serializationInfoClassName">
+      <Value>SerializationInfo</Value>
+    </Property>
+    <Property name="streamingContextClassName">
+      <Value>StreamingContext</Value>
+    </Property>
+    <Property name="operationStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+  </Config>
+
+
+
+
+
+
+
+  <Config name="Java14EnumElementFormatter.acc">
+    <Property name="exceptionStereotypeName">
+      <Value>exception</Value>
+    </Property>
+    <Property name="enumStereotypeName">
+      <Value>enum</Value>
+    </Property>
+    <Property name="createStereotypeName">
+      <Value>create</Value>
+    </Property>
+    <Property name="createStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+    <Property name="stringClassName">
+      <Value>String</Value>
+    </Property>
+    <Property name="throwableClassName">
+      <Value>Throwable</Value>
+    </Property>
+    <Property name="exceptionClassName">
+      <Value>Exception</Value>
+    </Property>
+    <Property name="enumClassName">
+      <Value>Enum</Value>
+    </Property>
+    <Property name="serializationInfoClassName">
+      <Value>SerializationInfo</Value>
+    </Property>
+    <Property name="streamingContextClassName">
+      <Value>StreamingContext</Value>
+    </Property>
+    <Property name="operationStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+  </Config>
+
+    <Config name="CSharpExceptionElementFormatter.acc">
+    <Property name="exceptionStereotypeName">
+      <Value>exception</Value>
+    </Property>
+    <Property name="enumStereotypeName">
+      <Value>enum</Value>
+    </Property>
+    <Property name="createStereotypeName">
+      <Value>create</Value>
+    </Property>
+    <Property name="createStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+    <Property name="stringClassName">
+      <Value>String</Value>
+    </Property>
+    <Property name="throwableClassName">
+      <Value>Throwable</Value>
+    </Property>
+    <Property name="exceptionClassName">
+      <Value>Exception</Value>
+    </Property>
+    <Property name="enumClassName">
+      <Value>Enum</Value>
+    </Property>
+    <Property name="serializationInfoClassName">
+      <Value>SerializationInfo</Value>
+    </Property>
+    <Property name="streamingContextClassName">
+      <Value>StreamingContext</Value>
+    </Property>
+    <Property name="operationStereotypeBaseClass">
+      <Value>BehavioralFeature</Value>
+    </Property>
+  </Config>
+
+    <Config name="XMLStereotypeLoader.acc">
+    <Property name="stereotypes">
+      <Property name="Java">
+        <Property name="Class">
+          <Value>exception</Value>
+          <Value>abstract</Value>
+        </Property>
+      </Property>
+    </Property>
+  </Config>
+
+      <Config name="XMLStereotypeLoader.fail1">
+    <Property name="stereotypes_invalid">
+      <Property name="Java">
+        <Property name="Class">
+          <Value>exception</Value>
+          <Value>abstract</Value>
+        </Property>
+      </Property>
+    </Property>
+  </Config>
+
+        <Config name="XMLStereotypeLoader.fail2">
+    <Property name="stereotypes">
+      <Property name="Java_invalid">
+        <Property name="Class">
+          <Value>exception</Value>
+          <Value>abstract</Value>
+        </Property>
+      </Property>
+    </Property>
+  </Config>
+
+        <Config name="XMLStereotypeLoader.fail3">
+    <Property name="stereotypes">
+      <Property name="Java">
+        <Property name="Class_invalid">
+          <Value>exception</Value>
+          <Value>abstract</Value>
+        </Property>
+      </Property>
+    </Property>
+  </Config>
+
+</CMConfig>

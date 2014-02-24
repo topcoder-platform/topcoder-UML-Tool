@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<CMConfig>
+    <Config name="DocEditor_WithWrap">
+        <Property name="wordwrap">
+            <Value>yes</Value>
+        </Property>
+    </Config>
+
+    <Config name="DocEditor_WithoutWrap">
+        <Property name="wordwrap">
+            <Value>no</Value>
+        </Property>
+    </Config>
+</CMConfig>

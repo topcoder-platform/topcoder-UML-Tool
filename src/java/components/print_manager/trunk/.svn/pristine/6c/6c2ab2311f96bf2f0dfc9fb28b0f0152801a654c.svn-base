@@ -1,0 +1,15 @@
+<CMConfig>
+
+    <Property name="DefaultComponentVisibleMaker">
+      <Property name="type">
+        <Value>com.topcoder.swing.print.impl.DefaultComponentVisibleMaker</Value>
+      </Property>
+    </Property>
+
+    <Property name="MockPrintFormatRetriever">
+      <Property name="type">
+        <Value>com.topcoder.swing.print.accuracytests.MockPrintFormatRetriever</Value>
+      </Property>
+    </Property>
+
+</CMConfig>

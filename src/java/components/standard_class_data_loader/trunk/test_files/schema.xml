@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+XML schema for the custom XML files read by XMLLanguageDataClassLoader
+      Intial Version, 1.0 
+ -->
+<xsd:schema>
+    <xsd:complexType name="StandardClassData">
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element type="Namespace" /> 
+            <xs:element type="Class" /> 
+            <xs:element type="Interface" /> 
+            <xs:element type="DataType" /> 
+            <xs:element type="Primitive" /> 
+            <xs:element type="Enumeration" /> 
+        </xsd:choice>
+    </xsd:complexType>
+    <xsd:element name="StandardClassData" type="StandardClassData" /> 
+    
+    <!-- A namespace container for the other model elements: -->
+    <xsd:complexType name="Namespace">
+        <!-- may contain anything but a method: -->
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element type="Namespace" /> 
+            <xs:element type="Class" /> 
+            <xs:element type="Interface" /> 
+            <xs:element type="DataType" /> 
+            <xs:element type="Primitive" /> 
+            <xs:element type="Enumeration" /> 
+        </xsd:choice>
+        <xsd:attribute name="name" type="xsd:string" use="required" />
+    </xsd:complexType>
+    <xsd:element name="Namespace" type="Namespace" />
+    
+    <!-- A Class spec containing optional methods: -->
+     
+    <xsd:complexType name="Class">
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element type="Namespace" /> 
+            <xs:element type="Class" /> 
+            <xs:element type="Interface" /> 
+            <xs:element type="DataType" /> 
+            <xs:element type="Primitive" /> 
+            <xs:element type="Enumeration" /> 
+            <xs:element type="Method" />
+        </xsd:choice>
+        <xsd:attribute name="name" type="xsd:string" use="required" />
+    </xsd:complexType>
+    <xsd:element name="Class" type="Class" />       
+         
+    <!-- An Interface spec containing optional methods: -->
+     
+          <xsd:complexType name="Interface">
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element type="Namespace" /> 
+            <xs:element type="Class" /> 
+            <xs:element type="Interface" /> 
+            <xs:element type="DataType" /> 
+            <xs:element type="Primitive" /> 
+            <xs:element type="Enumeration" /> 
+            <xs:element type="Method" />
+        </xsd:choice>
+        <xsd:attribute name="name" type="xsd:string" use="required" />
+    </xsd:complexType>
+    <xsd:element name="Interface" type="Interface" />             
+    
+    <!-- Data types: -->
+    <xsd:complexType name="DataType">
+        <xsd:attribute name="name" type="xsd:string" use="required" />
+    </xsd:complexType>
+    <xsd:element name="DataType" type="DataType" />
+    
+    <!-- Built-in system primitives: -->
+    <xsd:complexType name="Primitive">
+        <xsd:attribute name="name" type="xsd:string" use="required" />
+    </xsd:complexType>
+    <xsd:element name="Primitive" type="Primitive" />
+    
+    <!-- Enumeration of values: -->
+    <xsd:complexType name="Enumeration">
+        <xsd:attribute name="name" type="xsd:string" use="required" />
+    </xsd:complexType>
+    <xsd:element name="Enumeration" type="Enumeration" />
+    
+    <!-- Methods within Class / Interface (does not extend Namespace) -->
+    <xsd:complexType name="Method">
+        <xsd:attribute name="name" type="xsd:string" use="required" />
+    </xsd:complexType>
+    <xsd:element name="Method" type="Method" />
+
+</xsd:schema>

@@ -1,0 +1,295 @@
+<CMConfig>
+	<Config name="DiagramViewer">
+		<Property name="max_open_tabs">
+			<Value>50</Value>
+		</Property>
+
+		<Property name="tab_titile_displayed_in_full_version">
+			<Value>true</Value>
+		</Property>
+
+		<Property name="tab_shortened_title_max_length">
+			<Value>100</Value>
+		</Property>
+
+		<Property name="backgound_grid_visiblity">
+			<Value>false</Value>
+		</Property>
+
+		<Property name="diagram_view_background_color">
+		</Property>
+
+		<Property name="diagram_view_gap">
+			<Value>10</Value>
+		</Property>
+
+		<Property name="zoom_rotate_increment">
+			<Value>10</Value>
+		</Property>
+
+		<Property name="object_factory_namespace">
+			<Value>ObjectFactory</Value>
+		</Property>
+
+		<Property name="diagram_view_cache">
+		</Property>
+
+		<Property name="grid_renderer">
+		</Property>
+
+
+
+		<Property name="zoom_in_action_namespace">
+			<Value>ZoomInAction</Value>
+		</Property>
+
+		<Property name="zoom_out_action_namespace">
+			<Value>ZoomOutAction</Value>
+		</Property>
+
+		<Property name="close_tab_action_namespace">
+			<Value>CloseTabAction</Value>
+		</Property>
+	</Config>
+
+	<Config name="DiagramViewer1">
+		<Property name="max_open_tabs">
+			<Value>50</Value>
+		</Property>
+
+		<Property name="tab_titile_displayed_in_full_version">
+			<Value>true</Value>
+		</Property>
+
+		<Property name="tab_shortened_title_max_length">
+			<Value>100</Value>
+		</Property>
+
+		<Property name="backgound_grid_visiblity">
+			<Value>false</Value>
+		</Property>
+
+		<Property name="diagram_view_background_color">
+		</Property>
+
+		<Property name="diagram_view_gap">
+			<Value>10</Value>
+		</Property>
+
+		<Property name="zoom_rotate_increment">
+			<Value>21</Value>
+		</Property>
+		<Property name="grid_size">
+			<Value>12</Value>
+		</Property>
+
+		<Property name="object_factory_namespace">
+			<Value>ObjectFactory</Value>
+		</Property>
+
+		<Property name="diagram_view_cache">
+		</Property>
+
+		<Property name="grid_renderer">
+		</Property>
+
+
+
+		<Property name="zoom_in_action_namespace">
+			<Value>ZoomInAction</Value>
+		</Property>
+
+		<Property name="zoom_out_action_namespace">
+			<Value>ZoomOutAction</Value>
+		</Property>
+
+		<Property name="close_tab_action_namespace">
+			<Value>CloseTabAction</Value>
+		</Property>
+	</Config>
+
+
+<!-- Configure the Zoom In Button -->
+	<Config name="ZoomInAction">
+		<Property name="name">
+			<Value>zoom in</Value>
+		</Property>
+
+		<Property name="icon">
+			<Value>test_files/zoomin.icon</Value>
+		</Property>
+
+		<Property name="increment">
+			<Value>10</Value>
+		</Property>
+	</Config>
+
+<!-- Configure the Zoom Out Button -->
+	<Config name="ZoomOutAction">
+		<Property name="name">
+			<Value>zoom out</Value>
+		</Property>
+		<Property name="icon">
+			<Value>test_files/zoomout.icon</Value>
+		</Property>
+		<Property name="increment">
+			<Value>-10</Value>
+		</Property>
+	</Config>
+
+<!-- Configure the Close Tab Button -->
+	<Config name="CloseTabAction">
+	    <Property name="name">
+			<Value>close tab</Value>
+		</Property>
+
+		<Property name="icon">
+			<Value>test_files/close.icon</Value>
+		</Property>
+	</Config>
+
+
+
+<!-- Configure the ObjectFactory -->
+	<Config name="ObjectFactory">
+		<Property name="viewCache">
+			<Property name="type">
+				<Value>com.topcoder.gui.diagramviewer.MockCache</Value>
+			</Property>
+		</Property>
+
+		<Property name="gridRenderer">
+			<Property name="type">
+				<Value>com.topcoder.gui.diagramviewer.gridrenderers.SimpleGridRenderer</Value>
+			</Property>
+		<Property name="params">
+          <Property name="param1">
+            <Property name="type">
+              <Value>int</Value>
+            </Property>
+            <Property name="value">
+              <Value>10</Value>
+            </Property>
+          </Property>
+        </Property>
+		</Property>
+	</Config>
+		<Config name="DiagramViewer_2">
+		<Property name="max_open_tabs">
+			<Value>20</Value>
+		</Property>
+
+		<Property name="tab_titile_displayed_in_full_version">
+			<Value>twqf</Value>
+		</Property>
+
+		<Property name="tab_shortened_title_max_length">
+			<Value>werwr</Value>
+		</Property>
+
+		<Property name="backgound_grid_visiblity">
+			<Value>falsdfsde</Value>
+		</Property>
+
+		<Property name="diagram_view_background_color">
+		    <Value>UU01</Value>
+		</Property>
+
+		<Property name="diagram_view_gap">
+			<Value>adfwqef</Value>
+		</Property>
+
+		<Property name="zoom_rotate_increment">
+			<Value>21</Value>
+		</Property>
+		<Property name="grid_size">
+			<Value>12+547</Value>
+		</Property>
+
+		<Property name="object_factory_namespace">
+			<Value>ObjectFactory</Value>
+		</Property>
+
+		<Property name="diagram_view_cache">
+			<Value>view_cache</Value>
+		</Property>
+
+		<Property name="grid_renderer">
+			<Value>renderer</Value>
+		</Property>
+
+
+
+		<Property name="zoom_in_action_namespace">
+			<Value>ZoomInAction</Value>
+		</Property>
+
+		<Property name="zoom_out_action_namespace">
+			<Value>ZoomOutAction</Value>
+		</Property>
+
+		<Property name="close_tab_action_namespace">
+			<Value>CloseTabAction</Value>
+		</Property>
+	</Config>
+
+		<Config name="DiagramViewer_3">
+		<Property name="max_open_tabs">
+			<Value>aaadf</Value>
+		</Property>
+
+		<Property name="tab_titile_displayed_in_full_version">
+			<Value>twqf</Value>
+		</Property>
+
+		<Property name="tab_shortened_title_max_length">
+			<Value>werwr</Value>
+		</Property>
+
+		<Property name="backgound_grid_visiblity">
+			<Value>falsdfsde</Value>
+		</Property>
+
+		<Property name="diagram_view_background_color">
+		    <Value>UU01</Value>
+		</Property>
+
+		<Property name="diagram_view_gap">
+			<Value>adfwqef</Value>
+		</Property>
+
+		<Property name="zoom_rotate_increment">
+			<Value>21</Value>
+		</Property>
+		<Property name="grid_size">
+			<Value>12+547</Value>
+		</Property>
+
+		<Property name="object_factory_namespace">
+			<Value>Ob++ctory</Value>
+		</Property>
+
+		<Property name="diagram_view_cache">
+			<Value>view_cache</Value>
+		</Property>
+
+		<Property name="grid_renderer">
+			<Value>renderer</Value>
+		</Property>
+
+
+
+		<Property name="zoom_in_action_namespace">
+			<Value>ZoomInAction</Value>
+		</Property>
+
+		<Property name="zoom_out_action_namespace">
+			<Value>ZoomOutAction</Value>
+		</Property>
+
+		<Property name="close_tab_action_namespace">
+			<Value>CloseTabAction</Value>
+		</Property>
+	</Config>
+
+</CMConfig>

@@ -1,0 +1,761 @@
+{\rtf1\ansi\ansicpg1251\uc1 \deff1\deflang1049\deflangfe1049{\fonttbl{\f0\froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Palatino};}{\f1\fswiss\fcharset204\fprq2{\*\panose 020b0604020202020204}Arial{\*\falt Arial};}
+{\f2\fmodern\fcharset204\fprq1{\*\panose 02070309020205020404}Courier New{\*\falt Courier New};}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol{\*\falt Symbol};}
+{\f14\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings{\*\falt Wingdings};}{\f17\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}SimSun{\*\falt SimSun};}{\f28\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}@SimSun;}
+{\f37\froman\fcharset0\fprq2 Times New Roman{\*\falt Palatino};}{\f35\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Palatino};}{\f38\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Palatino};}
+{\f39\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Palatino};}{\f40\froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Palatino};}{\f41\froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Palatino};}
+{\f42\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Palatino};}{\f45\fswiss\fcharset0\fprq2 Arial{\*\falt Arial};}{\f43\fswiss\fcharset238\fprq2 Arial CE{\*\falt Arial};}{\f46\fswiss\fcharset161\fprq2 Arial Greek{\*\falt Arial};}
+{\f47\fswiss\fcharset162\fprq2 Arial Tur{\*\falt Arial};}{\f48\fswiss\fcharset177\fprq2 Arial (Hebrew){\*\falt Arial};}{\f49\fswiss\fcharset178\fprq2 Arial (Arabic){\*\falt Arial};}{\f50\fswiss\fcharset186\fprq2 Arial Baltic{\*\falt Arial};}
+{\f53\fmodern\fcharset0\fprq1 Courier New{\*\falt Courier New};}{\f51\fmodern\fcharset238\fprq1 Courier New CE{\*\falt Courier New};}{\f54\fmodern\fcharset161\fprq1 Courier New Greek{\*\falt Courier New};}
+{\f55\fmodern\fcharset162\fprq1 Courier New Tur{\*\falt Courier New};}{\f56\fmodern\fcharset177\fprq1 Courier New (Hebrew){\*\falt Courier New};}{\f57\fmodern\fcharset178\fprq1 Courier New (Arabic){\*\falt Courier New};}
+{\f58\fmodern\fcharset186\fprq1 Courier New Baltic{\*\falt Courier New};}{\f173\fnil\fcharset0\fprq2 SimSun Western{\*\falt SimSun};}{\f261\fnil\fcharset0\fprq2 @SimSun Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;
+\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;
+\red128\green128\blue128;\red192\green192\blue192;\red127\green0\blue85;\red63\green127\blue95;\red0\green0\blue192;\red63\green95\blue191;\red127\green127\blue159;\red127\green159\blue191;\red42\green0\blue255;}{\stylesheet{
+\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\f1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 \snext0 Normal;}{\s1\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 
+\fs24\lang1033\langfe2052\loch\f1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext0 heading 1;}{\s2\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\f1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 
+\sbasedon0 \snext0 heading 2;}{\s3\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\f1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext0 heading 3;}{\*\cs10 \additive Default Paragraph Font;}{
+\s15\ql \li1080\ri0\sa120\nowidctlpar\faauto\rin0\lin1080\itap0 \fs20\cf6\lang1033\langfe2052\loch\f1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext15 Body Text 2;}{\s16\ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 
+\fs20\cf6\lang1033\langfe2052\loch\f1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext16 Body Text Indent 2;}}{\*\listtable{\list\listtemplateid-1294186302\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat0\levelspace0\levelindent0{\leveltext\'01*;}{\levelnumbers;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 }{\listname ;}\listid-2}{\list\listtemplateid-1574025752{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat4\levelspace0\levelindent0{\leveltext\'01\'00;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-720\li720\jclisttab\tx720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat3
+\levelspace0\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-720\li720\jclisttab\tx720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-720\li720\jclisttab\tx720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-1080\li1080\jclisttab\tx1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-1080\li1080\jclisttab\tx1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-1440\li1440\jclisttab\tx1440 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 
+\fi-1440\li1440\jclisttab\tx1440 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-1800\li1800\jclisttab\tx1800 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-1800\li1800\jclisttab\tx1800 }{\listname ;}\listid317736949}
+{\list\listtemplateid111423810\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li1440\jclisttab\tx1440 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'01.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2160\jclisttab\tx2160 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'02.;}{\levelnumbers\'01;}
+\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li2880\jclisttab\tx2880 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'03.;}{\levelnumbers
+\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3600\jclisttab\tx3600 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289
+\'02\'04.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li4320\jclisttab\tx4320 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747291\'02\'05.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li5040\jclisttab\tx5040 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid68747279\'02\'06.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5760\jclisttab\tx5760 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid68747289\'02\'07.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li6480\jclisttab\tx6480 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'08.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li7200\jclisttab\tx7200 }{\listname ;}\listid409231172}{\list\listtemplateid-1050127448\listhybrid
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace720\levelindent0{\leveltext\leveltemplateid1430410166\'01\'97;}{\levelnumbers;}\fs24\loch\af0\hich\af0\dbch\af17\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li1080\jclisttab\tx1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li1800\jclisttab\tx1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers
+;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li2520\jclisttab\tx2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68747265
+\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li3240\jclisttab\tx3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li3960\jclisttab\tx3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li4680\jclisttab\tx4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li5400\jclisttab\tx5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li6120\jclisttab\tx6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li6840\jclisttab\tx6840 }{\listname ;}\listid493304787}
+{\list\listtemplateid111423810\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid543181538\'01\u-4051 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li1440\jclisttab\tx1440 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'01.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2160\jclisttab\tx2160 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'02.;}{\levelnumbers\'01;}
+\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li2880\jclisttab\tx2880 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'03.;}{\levelnumbers
+\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3600\jclisttab\tx3600 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289
+\'02\'04.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li4320\jclisttab\tx4320 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747291\'02\'05.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li5040\jclisttab\tx5040 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid68747279\'02\'06.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5760\jclisttab\tx5760 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid68747289\'02\'07.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li6480\jclisttab\tx6480 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1
+\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'08.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li7200\jclisttab\tx7200 }{\listname ;}\listid641884850}{\list\listtemplateid111423810\listhybrid
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'00.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1440
+\jclisttab\tx1440 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'01.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 
+\fi-360\li2160\jclisttab\tx2160 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'02.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1 \fi-180\li2880\jclisttab\tx2880 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'03.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3600\jclisttab\tx3600 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'04.;}{\levelnumbers\'01;}
+\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li4320\jclisttab\tx4320 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'05.;}{\levelnumbers
+\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li5040\jclisttab\tx5040 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279
+\'02\'06.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5760\jclisttab\tx5760 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\leveltemplateid68747289\'02\'07.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li6480\jclisttab\tx6480 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\leveltemplateid68747291\'02\'08.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li7200\jclisttab\tx7200 }{\listname ;}\listid1047265429}{\list\listtemplateid-285808028\listhybrid{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3988 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-420\li420\jclisttab\tx420 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01\u-3986 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-420\li840\jclisttab\tx840 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3979 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-420\li1260
+\jclisttab\tx1260 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3988 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 
+\fi-420\li1680\jclisttab\tx1680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01\u-3986 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1\fbias0 \fi-420\li2100\jclisttab\tx2100 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3979 ?;}{\levelnumbers;}\f14\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-420\li2520\jclisttab\tx2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3988 ?;}{\levelnumbers
+;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-420\li2940\jclisttab\tx2940 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691
+\'01\u-3986 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-420\li3360\jclisttab\tx3360 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698693\'01\u-3979 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-420\li3780\jclisttab\tx3780 }{\listname ;}\listid1238444898}{\list\listtemplateid530850304\listhybrid{\listlevel\levelnfc0
+\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'00.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1440\jclisttab\tx1440 }{\listlevel
+\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'01.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2160\jclisttab\tx2160 }
+{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'02.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li2880
+\jclisttab\tx2880 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'03.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 
+\fi-360\li3600\jclisttab\tx3600 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'04.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1 \fi-360\li4320\jclisttab\tx4320 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'05.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li5040\jclisttab\tx5040 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'06.;}{\levelnumbers\'01;}
+\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5760\jclisttab\tx5760 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'07.;}{\levelnumbers
+\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li6480\jclisttab\tx6480 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291
+\'02\'08.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li7200\jclisttab\tx7200 }{\listname ;}\listid1547327820}{\list\listtemplateid1612872454\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'00.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li360\jclisttab\tx360 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'01.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1080\jclisttab\tx1080 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'02.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li1800\jclisttab\tx1800 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'03.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2520\jclisttab\tx2520 }{\listlevel\levelnfc4\levelnfcn4
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'04.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3240\jclisttab\tx3240 }{\listlevel\levelnfc2
+\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'05.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li3960\jclisttab\tx3960 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'06.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li4680\jclisttab\tx4680 }
+{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'07.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5400
+\jclisttab\tx5400 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'08.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 
+\fi-180\li6120\jclisttab\tx6120 }{\listname ;}\listid1822892001}}{\*\listoverridetable{\listoverride\listid-2\listoverridecount1{\lfolevel\listoverrideformat{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelold
+\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 }}\ls1}{\listoverride\listid1238444898\listoverridecount0\ls2}{\listoverride\listid317736949\listoverridecount0\ls3}
+{\listoverride\listid1047265429\listoverridecount0\ls4}{\listoverride\listid409231172\listoverridecount0\ls5}{\listoverride\listid641884850\listoverridecount0\ls6}{\listoverride\listid1547327820\listoverridecount0\ls7}{\listoverride\listid1822892001
+\listoverridecount0\ls8}{\listoverride\listid493304787\listoverridecount0\ls9}}{\info{\author Gencheng Wu}{\operator kit}{\creatim\yr2007\mo2\dy6\hr10\min52}{\revtim\yr2008\mo2\dy20\hr16\min17}{\version80}{\edmins441}{\nofpages9}{\nofwords3399}
+{\nofchars19376}{\*\company Microsoft}{\nofcharsws0}{\vern8283}}\margl1701\margr850\margt1134\margb1134 \widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984
+\dghshow0\dgvshow3\jcompress\viewkind1\viewscale144\viewzk2\nolnhtadjtbl \fet0\sectd \linex0\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain 
+\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx720\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs28\ul \hich\af1\dbch\af17\loch\f1 
+Document Tree 1.1 Component Specification
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\fs20 
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b \hich\af1\dbch\af17\loch\f1 1.\tab Design
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\fs20 \hich\af1\dbch\af17\loch\f1 
+The Document Tree component provides a SWING tree that allows the user to select model elements and groups of model eleme\hich\af1\dbch\af17\loch\f1 
+nts. It also provides a way to signal the user of name changes and selections. It provides three kinds of views - diagram view, package view, and class view. It also allows for multiple tabs so that different kinds of views may be viewed on different tabs
+\hich\af1\dbch\af17\loch\f1 .
+\par \hich\af1\dbch\af17\loch\f1 
+The primary interface of the design is the DocumentTreeTabbedPane interface which acts as a facade and hides the complexity of the component from the user. This interface represents a tabbed pane containing document tree panels. Each panel consists of a c
+\hich\af1\dbch\af17\loch\f1 
+ombo-box to choose between different types of views and a tree-view that shows the chosen view.  It also has buttons to close that tab and create a new tab. The tree view itself is abstracted in a different interface, with different implementations showin
+\hich\af1\dbch\af17\loch\f1 g\hich\af1\dbch\af17\loch\f1  different kinds of views. This view architecture also uses a few anonymous listener classes that allow listening to changing of node names and also selections.
+\par \hich\af1\dbch\af17\loch\f1 There is no model explicitly implemented by this component. The default tree model provided by \hich\af1\dbch\af17\loch\f1 
+swing is used. We have our own tree node class which simply holds the actual element (graph element, model element or otherwise) that is in a tree node. We also define our own listener interface and events which can be used by applications to listen to se
+\hich\af1\dbch\af17\loch\f1 l\hich\af1\dbch\af17\loch\f1 ection and name change events.
+\par \hich\af1\dbch\af17\loch\f1 This component also provides drag support, allowing tree nodes to be dragged out from the tree view. Note that JTree already has support to act as a drag source. The data flavor of our drag is simply the JVM local object corr
+\hich\af1\dbch\af17\loch\f1 esponding to an array of DocumentTreeNode objects. This can be constructed as follows.
+\par }{\f2\fs16 \hich\af2\dbch\af17\loch\f2 new DataFlavor(DataFlavor.javaJVMLocalObjectMimeType +
+\par \hich\af2\dbch\af17\loch\f2                ";class=\\"" + DocumentTreeNode[].class.getName() + "\\"");
+\par }{\fs20 \hich\af1\dbch\af17\loch\f1 We simply enable drag in the JTree and se\hich\af1\dbch\af17\loch\f1 t a custom transfer handler.
+\par }{\fs20\cf6 \hich\af1\dbch\af17\loch\f1 In the version 1.1 overall layout will be updated to match updates to the overall application.
+\par {\listtext\pard\plain\s16 \cf6\lang1033\langfe2052\dbch\af17\langnp1033\langfenp2052 \loch\af0\dbch\af17\hich\f0 \'97\tab}}\pard\plain \s16\ql \fi-360\li1080\ri0\sa120\nowidctlpar\jclisttab\tx1080\faauto\ls9\rin0\lin1080\itap0 
+\fs20\cf6\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\hich\af1\dbch\af17\loch\f1 \hich\f1 In the diagram tree currently, there is a drop-down to choose new tabs to add to the tree view, as well as \'93\loch\f1 \hich\f1 
+Add\'94\loch\f1 \hich\f1  and \'93\loch\f1 \hich\f1 Close\'94\loch\f1  butto\hich\af1\dbch\af17\loch\f1 \hich\f1 ns.  The drop-down, \'93\loch\f1 \hich\f1 Add\'94\loch\f1 \hich\f1 , and \'93\loch\f1 \hich\f1 Close\'94\loch\f1  buttons should be removed.
+
+\par {\listtext\pard\plain\cf6\lang1033\langfe2052\dbch\af17\langnp1033\langfenp2052 \loch\af0\dbch\af17\hich\f0 \'97\tab}}\pard\plain \ql \fi-360\li1080\ri0\sa120\nowidctlpar\jclisttab\tx1080\faauto\ls9\rin0\lin1080\itap0 
+\fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\fs20\cf6 \hich\af1\dbch\af17\loch\f1 The tabs shown in the view are configurable, so we are able to change the tabs and order of the tabs shown without having to change
+\hich\af1\dbch\af17\loch\f1  the\hich\af1\dbch\af17\loch\f1  code\hich\af1\dbch\af17\loch\f1 .
+\par {\listtext\pard\plain\cf6\lang1033\langfe2052\dbch\af17\langnp1033\langfenp2052 \loch\af0\dbch\af17\hich\f0 \'97\tab}\hich\af1\dbch\af17\loch\f1 In spite of all changes above, old v\hich\af1\dbch\af17\loch\f1 
+ersion of component is fully functional and can be used too. Moreover, using the old version doesn\hich\f1 \rquote \loch\f1 t bring any headaches to the user: he need to change nothing migrating from 1.0 to 1.1 (even configs may be left unchanged).
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 {\fs20\cf6 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 \hich\af1\dbch\af17\loch\f1 1.1\tab 
+Design Patterns 
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\i\fs20 \hich\af1\dbch\af17\loch\f1 Model-View\hich\af1\dbch\af17\loch\f1 -Controller Pattern }{
+\fs20 \hich\af1\dbch\af17\loch\f1 - This pattern is used to separate the model from the view. The controller is handled implicitly by Swing.}{\i\fs20 
+\par \hich\af1\dbch\af17\loch\f1 Facade Pattern}{\fs20 \hich\af1\dbch\af17\loch\f1  - The DocumentTreeTabbedPane interface acts as a facade and hides the complexity of the underlying component.
+\par }{\i\fs20 \hich\af1\dbch\af17\loch\f1 Obse\hich\af1\dbch\af17\loch\f1 rver Pattern - }{\fs20 \hich\af1\dbch\af17\loch\f1 This pattern is used to observe the events happening in the GUI through the use of listeners.
+\par }{\i\fs20\cf6 \hich\af1\dbch\af17\loch\f1 Strategy Pattern \hich\f1 \endash \loch\f1  }{\fs20\cf6 \hich\af1\dbch\af17\loch\f1 Used to plug new (1.1) implementation of DocumentTreePanel into whole component and leave old implementation still working.
+
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 \hich\af1\dbch\af17\loch\f1 1.2\tab 
+\hich\af1\dbch\af17\loch\f1 Industry Standards 
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\fs20 \hich\af1\dbch\af17\loch\f1 JFC / Swing.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 \hich\af1\dbch\af17\loch\f1 1.3\tab 
+Required Algorithms
+\par }\pard\plain \ql \li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\i\fs20 \hich\af1\dbch\af17\loch\f1 1.3.1\tab Manipulating the tree
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 
+All the XXXDocumentTreeView classes need to manipulate tree structures so that a tree structure can be displayed. The developer should first acquaint himself with the javax.swing.tree package which contains the interfaces and classes we will be using for 
+\hich\af1\dbch\af17\loch\f1 o\hich\af1\dbch\af17\loch\f1 ur tree structure. Note that the actual reference to tree nodes will be held by the BaseDocumentTreeView class.
+\par \hich\af1\dbch\af17\loch\f1 All three tree manipulations are similar because, in essence we do traversal of some tree-like structure in the UML model and translate it into \hich\af1\dbch\af17\loch\f1 
+a tree for our purpose. The difference lies in which nodes are handled by which views. For example the Class View would not concern itself with diagram elements while the Diagram View wouldn't concern itself with model element hierarchy.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-180\li900\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin900\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Initialization \hich\af1\dbch\af17\loch\f1 - Initialization always consists of adding the element which acts as the root of the tree.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-180\li900\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin900\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Addition - Whenever a node is to be added to our tree, it implies that all nodes under the node need to be added and not just that node. Addition of a single node\hich\af1\dbch\af17\loch\f1 
+ is done as follows.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-180\li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Creating a DefaultMutableTreeNode which contains as a user object, the DocumentTreeNode to be added. 
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-180\li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Add this tree node to the tree model under the suitable parent.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-180\li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Add it to the two member maps storing DocumentTreeNode vs. D\hich\af1\dbch\af17\loch\f1 efaultMutableTreeNode and the reverse relationship.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-180\li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Fire the appropriate event in the tree model.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-180\li900\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin900\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Removal - Similarly, whenever a node is removed, it implies that all its child nodes also need to be removed. Removal of a single node is as follows.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-180\li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 From the member map, get the DefaultMutableTreeNode to be removed. Remove it from the tree model.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-180\li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Remove this node from the two member maps.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-180\li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Fire the appropriate event in the tree model.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-180\li900\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin900\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Update - When a node is updated, there are two possibilitie\hich\af1\dbch\af17\loch\f1 
+s. If only its name has changed, we simply fire the appropriate event in the tree model. However, if its parent namespace has changed, we remove it and then add it back into the tree.
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Now that we are comfortable with the basic process of tree node manipula\hich\af1\dbch\af17\loch\f1 
+tion, we shall describe how the hierarchies are traversed for each tree view. The developer must have a certain degree of familiarity with the UML components before proceeding below. A moderate understanding of the Diagram Interchange, UML Model Core, UML
+\hich\af1\dbch\af17\loch\f1  \hich\af1\dbch\af17\loch\f1 Model Management, UML Model Manager, UML Model Activity Graphs, UML Model Collaborations is required.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Diagram Centric - The root is the UML model, under it we have a layer of diagram categories which do not correspond to any entities but are simply stri\hich\af1\dbch\af17\loch\f1 
+ngs used to group diagrams together. Under each diagram category, we have diagrams. The category of a diagram is given by its SimpleSemanticModelBridge.typeInfo member. Note that the Diagram class is also a GraphElement class and Graph Element contains Di
+\hich\af1\dbch\af17\loch\f1 a\hich\af1\dbch\af17\loch\f1 
+gram Elements as children. This is the hierarchy which we are going to use for our tree. Therefore we start with the root Graph Element (the diagram in our case) and traverse all its children Diagram Elements. Any children which are also Graph Element obj
+\hich\af1\dbch\af17\loch\f1 e\hich\af1\dbch\af17\loch\f1 cts are traversed further and so on.
+\par }\pard \ql \li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 
+A GraphElement which has a UML1SemanticModelBridge is a possible candidate for entering the tree. It enters the tree if the underlying ModelElement is a package, class, interface or relationship. Note that all graph ele\hich\af1\dbch\af17\loch\f1 
+ments are added directly under the diagram and the depth of this tree is therefore 4 at most.
+\par \hich\af1\dbch\af17\loch\f1 For the add/update/remove tree node methods externally called, this view will ignore all document tree nodes that are not diagram categories or graph elements. A \hich\af1\dbch\af17\loch\f1 
+brief pseudo-code of the procedure to traverse the hierarchy is as follows.
+\par }\pard \ql \li1080\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin1080\itap0 {\f2\fs16 \hich\af2\dbch\af17\loch\f2 void traverse(GraphElement element)
+\par \{
+\par \hich\af2\dbch\af17\loch\f2   if(element.semanticModelBridge instanceof Uml1SemanticModelBridge)
+\par \hich\af2\dbch\af17\loch\f2   \{
+\par \hich\af2\dbch\af17\loch\f2     ModelElement me = (ModelElement) bridge.element;
+\par \hich\af2\dbch\af17\loch\f2     if (me instanceof \{Package,Class,Interface,Relationship\})
+\par \hich\af2\dbch\af17\loch\f2       add this graph element
+\par \hich\af2\dbch\af17\loch\f2   \}
+\par \hich\af2\dbch\af17\loch\f2   List<DiagramElements> children = element.containeds;
+\par \hich\af2\dbch\af17\loch\f2   for each child
+\par \hich\af2\dbch\af17\loch\f2   \{
+\par \hich\af2\dbch\af17\loch\f2     if(child instanceof GraphElement)
+\par \hich\af2\dbch\af17\loch\f2       traverse(child)
+\par \hich\af2\dbch\af17\loch\f2   \}
+\par \}
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Class Centric - \hich\af1\dbch\af17\loch\f1 
+The root is the UML model. The hierarchy we are going to use is that of namespaces. Each namespace contains a list of owned elements and this translates into our parent-child relationship. If the owned ModelElement is also a namespace, we traverse its chi
+\hich\af1\dbch\af17\loch\f1 l\hich\af1\dbch\af17\loch\f1 dren too and so on. Since the model itself is also a namespace, we can conveniently start from there.
+\par }\pard \ql \li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 
+We also need to add the standard class data. This can be done by getting the project configuration from the model manager and getting the list of standard\hich\af1\dbch\af17\loch\f1 
+ namespaces from it. The same traversal procedure as before needs to be applied to each namespace. These namespaces will be added under the model.
+\par \hich\af1\dbch\af17\loch\f1 For the add/update/remove tree node methods externally called, this view will ignore all document tree nodes \hich\af1\dbch\af17\loch\f1 
+that are not model elements. A brief pseudo-code of the procedure to traverse the hierarchy is as follows.
+\par }\pard \ql \li1080\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin1080\itap0 {\f2\fs16 \hich\af2\dbch\af17\loch\f2 void traverse(ModelElement me)
+\par \{
+\par \hich\af2\dbch\af17\loch\f2   if(me instanceOf
+\par \hich\af2\dbch\af17\loch\f2      \{Namespace,Classifier,AssociationEnd,Method,Attribute\} )
+\par \hich\af2\dbch\af17\loch\f2   \{
+\par \hich\af2\dbch\af17\loch\f2     add this me;
+\par \hich\af2\dbch\af17\loch\f2   \}
+\par \hich\af2\dbch\af17\loch\f2   if(me in\hich\af2\dbch\af17\loch\f2 stanceOf Namespace)
+\par \hich\af2\dbch\af17\loch\f2   \{
+\par \hich\af2\dbch\af17\loch\f2     for each owned element
+\par \hich\af2\dbch\af17\loch\f2     \{
+\par \hich\af2\dbch\af17\loch\f2       traverse(owned element);
+\par \hich\af2\dbch\af17\loch\f2     \}
+\par \hich\af2\dbch\af17\loch\f2   \}
+\par \hich\af2\dbch\af17\loch\f2   if(me instanceOf Classifier)
+\par \hich\af2\dbch\af17\loch\f2   \{
+\par \hich\af2\dbch\af17\loch\f2     for each association end
+\par \hich\af2\dbch\af17\loch\f2     \{
+\par \hich\af2\dbch\af17\loch\f2       traverse(association end);
+\par \hich\af2\dbch\af17\loch\f2     \}
+\par \hich\af2\dbch\af17\loch\f2     for each feature
+\par \hich\af2\dbch\af17\loch\f2     \{
+\par \hich\af2\dbch\af17\loch\f2       trave\hich\af2\dbch\af17\loch\f2 rse(feature);
+\par \hich\af2\dbch\af17\loch\f2     \}
+\par \hich\af2\dbch\af17\loch\f2   \}
+\par \}
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 
+Package Centric - A package centric view is simply a class view with additional nodes, from outside the hierarchy. After constructing the class centric view, we get the diagrams of the model and add it under their namespaces. T\hich\af1\dbch\af17\loch\f1 
+hen we get the activity graphs of the model and also add these under their namespaces.
+\par }\pard \ql \li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 
+For the add/update/remove tree node methods externally called, this view will ignore all document tree nodes that are not model elements, except for those graph elements\hich\af1\dbch\af17\loch\f1  that are diagrams.
+\par }\pard\plain \s15\ql \li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin1080\itap0 \fs20\cf6\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\hich\af1\dbch\af17\loch\f1 
+This implementation not supposed to be used in new TC UML Tool versions, but it still can be turned on through configuration.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 
+\hich\af1\dbch\af17\loch\f1 1.4\tab Component Class Overview
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 \hich\af1\dbch\af17\loch\f1 
+DocumentTreeTabbedPane - }{\fs20 \hich\af1\dbch\af17\loch\f1 This interface gives the contract for a tabbed pane, whe\hich\af1\dbch\af17\loch\f1 re each pane cntains a document tree panel.
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 DocumentTreeTabbedPaneImpl - }{\fs20 \hich\af1\dbch\af17\loch\f1 This class implements the previous interface.}{\b\fs20 
+\par \hich\af1\dbch\af17\loch\f1 DocumentTreePanel - }{\fs20 \hich\af1\dbch\af17\loch\f1 This interface gives the cont\hich\af1\dbch\af17\loch\f1 ract for a panel, which contains a tree view, and a combo-box to select which tree view is shown.
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 DocumentTreePanelImpl - }{\fs20 \hich\af1\dbch\af17\loch\f1 This class implements the previous interface.}{\b\fs20 
+\par \hich\af1\dbch\af17\loch\f1 DocumentTreeView - }{\fs20 \hich\af1\dbch\af17\loch\f1 This interface gives the contract for a tree view, which shows the UM\hich\af1\dbch\af17\loch\f1 L model as a JTree.
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 BaseDocumentTreeView - }{\fs20 \hich\af1\dbch\af17\loch\f1 This abstract class implements the previous interface, defining the functionalities common to all views.
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 DiagramCentricDocumentTreeView }{\fs20 \hich\af1\dbch\af17\loch\f1 - This concrete extension of BaseDocumentTreeView shows a diagram-centric tre\hich\af1\dbch\af17\loch\f1 e view of the UML model.}{\b\fs20 
+\par \hich\af1\dbch\af17\loch\f1 PackageCentricDocumentTreeView }{\fs20 \hich\af1\dbch\af17\loch\f1 - This concrete extension of BaseDocumentTreeView shows a package-centric tree view of the UML model.}{\b\fs20 
+\par \hich\af1\dbch\af17\loch\f1 ClassCentricDocumentTreeView }{\fs20 \hich\af1\dbch\af17\loch\f1 - This concrete extension of BaseDocumentTreeView shows a class-centr\hich\af1\dbch\af17\loch\f1 ic tree view of the UML model.
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 DocumentTreeViewType - }{\fs20 \hich\af1\dbch\af17\loch\f1 This enumeration represents the type of a document tree view.}{\b\fs20 
+\par \hich\af1\dbch\af17\loch\f1 DocumentTreeNode - }{\fs20 \hich\af1\dbch\af17\loch\f1 This class represents a node in a document tree view.
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 DocumentTreeNodeType - }{\fs20 \hich\af1\dbch\af17\loch\f1 This enumeration represents the type of a no\hich\af1\dbch\af17\loch\f1 de in a document tree view.
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 DocumentTreeEventListener - }{\fs20 \hich\af1\dbch\af17\loch\f1 This interface lays the contract for listening to events occuring in the document tree.
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 NameChangedEvent - }{\fs20 \hich\af1\dbch\af17\loch\f1 This class represents a name change event.}{\b\fs20 
+\par \hich\af1\dbch\af17\loch\f1 SelectionChangedEvent - }{\fs20 \hich\af1\dbch\af17\loch\f1 This class represents a se\hich\af1\dbch\af17\loch\f1 lection change event.
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 DocumentTreeNodeTransferable - }{\fs20 \hich\af1\dbch\af17\loch\f1 This class is a transferable implementation for document tree node arrays.
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 DocumentTreeViewTransferHandler - }{\fs20 \hich\af1\dbch\af17\loch\f1 This class is a custom transfer handler that handles transfers for DocumentTreeView classes.
+\par }\pard \ql \fi701\li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0\cufi350 {\b\fs20 \hich\af1\dbch\af17\loch\f1 I\hich\af1\dbch\af17\loch\f1 conTreeCellRenderer }{\fs20 \loch\af1\dbch\af17\hich\f1 \endash \loch\f1 
+ This class provides custom icons for each tree node.
+\par }\pard \ql \fi700\li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0\cufi350 {\fs20 
+\par }\pard \ql \fi701\li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0\cufi350 {\b\fs20 \hich\af1\dbch\af17\loch\f1 ViewChangedEvent}{\fs20 \hich\af1\dbch\af17\loch\f1  \hich\f1 \endash \loch\f1 
+This class represents a view changed event.
+\par }\pard \ql \fi700\li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0\cufi350 {\fs20 
+\par }\pard \ql \li701\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin701\itap0 {\b\fs20\cf6 \hich\af1\dbch\af17\loch\f1 SimpleDocumentTreePanel}{\fs20\cf6 \hich\af1\dbch\af17\loch\f1  \hich\f1 \endash \loch\f1 
+ This is new implementation of DocumentTreePanel (from version 1.1), meeting new layout requ\hich\af1\dbch\af17\loch\f1 irements.
+\par }\pard \ql \fi700\li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0\cufi350 {\f2\fs20 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 
+\hich\af1\dbch\af17\loch\f1 1.5\tab Component Exception Definitions
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 \hich\af1\dbch\af17\loch\f1 
+DocumentTreeConfigurationException - }{\fs20 \hich\af1\dbch\af17\loch\f1 This exception represents an error during configuration of a class of this component.
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 java.lang.IllegalArgumentException - }{\fs20 \hich\af1\dbch\af17\loch\f1 This exception is thrown to indicate an illegal method argument.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 
+\hich\af1\dbch\af17\loch\f1 1.6\tab Thread Safety
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\fs20 \hich\af1\dbch\af17\loch\f1 
+This component is not thread safe. Almost all classes have mutable data as tree structures may change and at a higher level, tabs or listeners may be add\hich\af1\dbch\af17\loch\f1 
+ed/removed. There is no requirement for this component to be thread safe. In a multi-threaded scenario once the GUI has been realized, it is essential to access this component from a single thread (the AWT event dispatch thread) since there are many SWING
+\hich\af1\dbch\af17\loch\f1  \hich\af1\dbch\af17\loch\f1 components used, which are also thread unsafe.
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b 
+\hich\af1\dbch\af17\loch\f1 2.\tab Environment Requirements\tab \tab 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 
+\hich\af1\dbch\af17\loch\f1 2.1\tab Environment
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\sa120\nowidctlpar\tx1080{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\fs20 \hich\af1\dbch\af17\loch\f1 At minimum, Java 1.5 is required for compilation and testing.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 
+\hich\af1\dbch\af17\loch\f1 2.2\tab TopCoder Software Components
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\sa120\nowidctlpar\tx1080{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\fs20 \hich\af1\dbch\af17\loch\f1 Base Exception 1.0 - This excetion is used as a base exception\hich\af1\dbch\af17\loch\f1 
+ for the exception of our component.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar\tx1080{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Configuration Manager 2.1.5 - This component is used to read configuration properties.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar\tx1080{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Object Factory 2.0.1 - This component is used to create various objects - such as the XXXDocumentTreeView classes as well as t\hich\af1\dbch\af17\loch\f1 
+he TreeCellRenderer implementation - and plug them in dynamically.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar\tx1080{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Diagram Interchange 1.0 - This component is used to show a diagram view of the document tree.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar\tx1080{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 UML Model Core 1.0 - This component is used to represent the class and package views. It \hich\af1\dbch\af17\loch\f1 contains the core UML elements that will be shown.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar\tx1080{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 UML Model Manager 1.0 - This component is used to manage the entire model and access the different parts of the model.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar\tx1080{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 UML Project Configuration 1.0 - This component represents the project configurat\hich\af1\dbch\af17\loch\f1 ion fmo which we get our standard class data.
+\par }\pard \ql \li720\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 {\i\f0 \hich\af0\dbch\af17\loch\f0 
+NOTE: The default location for TopCoder Software component jars is../lib/tcs/COMPONENT_NAME/COMPONENT_VERSION relative to the component installation.}{\i\f0\cf1 \hich\af0\dbch\af17\loch\f0   Setting the tcs_libdir property in topcoder_global.properti
+\hich\af0\dbch\af17\loch\f0 es will overwrite this default location.}{\fs20 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 
+\hich\af1\dbch\af17\loch\f1 2.3\tab Third Party Components
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\tx1080{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\fs20 \hich\af1\dbch\af17\loch\f1 None.
+\par }\pard\plain \s3\ql \li720\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx720{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel2\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\i\fs20\cf1 
+\hich\af1\dbch\af17\loch\f1 NOTE: The default location for 3}{\i\fs20\cf1\super \hich\af1\dbch\af17\loch\f1 rd}{\i\fs20\cf1 \hich\af1\dbch\af17\loch\f1 
+ party packages is ../lib relative to this component installation.  Setting the ext_libdir property in topcoder_global.properties will overwrite thi\hich\af1\dbch\af17\loch\f1 s default location.}{\i\f0\fs20 
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b 
+\hich\af1\dbch\af17\loch\f1 3.\tab Installation and Configuration
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 
+\hich\af1\dbch\af17\loch\f1 3.1\tab Package Name
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\fs20 \hich\af1\dbch\af17\loch\f1 
+com.topcoder.gui.trees.document
+\par \hich\af1\dbch\af17\loch\f1 com.topcoder.gui.trees.document.impl
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 
+\hich\af1\dbch\af17\loch\f1 3.2\tab Configuration Parameters
+\par }\pard\plain \ql \li0\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\i\fs20 \hich\af1\dbch\af17\loch\f1 3.2.1\tab 
+Common properties
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 {\b\fs20 \hich\af1\dbch\af17\loch\f1 config_manager_specification_factory_namespace - }{\fs20 \hich\af1\dbch\af17\loch\f1 
+The namespace to create the ConfigManagerSpecificationFactory from. }{\b\fs20 \hich\af1\dbch\af17\loch\f1 Required.}{\i\fs20 
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0 {\i\fs20 \hich\af1\dbch\af17\loch\f1 3.2.2\tab Configuring the DocumentTreeTabbedPaneImpl class
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 {\b\fs20 \hich\af1\dbch\af17\loch\f1 tree_cell_renderer - }{\fs20 \hich\af1\dbch\af17\loch\f1 
+The key to create the class to render tree cells suing the Object Factory. }{\b\fs20 \hich\af1\dbch\af17\loch\f1 Required.
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0 {\i\fs20\cf6 \hich\af1\dbch\af17\loch\f1 3.2.2.a  Configur\hich\af1\dbch\af17\loch\f1 ing default tabs for the panel
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 {\b\fs20\cf6 \hich\af1\dbch\af17\loch\f1 default_tabs \hich\f1 \endash \loch\f1  }{\fs20\cf6 \hich\af1\dbch\af17\loch\f1 
+Each value of this key represents one tab to be opened by default. To be exact, it\hich\f1 \rquote \loch\f1 s string \hich\f1 \endash \loch\f1 
+ fully qualified class name of the DocumentTreeView implementation to use in the tab. Order of values in the configur\hich\af1\dbch\af17\loch\f1 ation is the order of tabs in the panel. It\hich\f1 \rquote \loch\f1 s }{\b\fs20\cf6 
+\hich\af1\dbch\af17\loch\f1 optional}{\fs20\cf6 \hich\af1\dbch\af17\loch\f1 , but if missed the configuration for old (1.0) style panel must be presented (see 3.2.3).}{\i\fs20\cf6 
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0 {\i\fs20 \hich\af1\dbch\af17\loch\f1 3.2.3\tab Configuring the DocumentTreePanelImpl class
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 {\b\fs20 \hich\af1\dbch\af17\loch\f1 view_types - }{\fs20 \hich\af1\dbch\af17\loch\f1 This parent property holds as child properties t
+\hich\af1\dbch\af17\loch\f1 he list of view types, their associated classes and the text to show in the combo-box to choose views. }{\fs20\cf6 \hich\af1\dbch\af17\loch\f1 It\hich\f1 \rquote \loch\f1 s }{\b\fs20\cf6 \hich\af1\dbch\af17\loch\f1 optional}{
+\fs20\cf6 \hich\af1\dbch\af17\loch\f1 , but must be presented if no configuration for the new (1.1) style provided (see 3.2.2.a).
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 view_types.<child-property-name> - }{\fs20 \hich\af1\dbch\af17\loch\f1 The name of a\hich\af1\dbch\af17\loch\f1 
+ child property gives the view type as the name of DocumentTreeViewType enumeration. Using the static members of the Enum class, we should be able to get back the appropriate enum instance from the given name. }{\b\fs20 \hich\af1\dbch\af17\loch\f1 
+Required. }{\fs20 \hich\af1\dbch\af17\loch\f1 Example: DIAGRAM_CENTRIC
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 view_types.\hich\af1\dbch\af17\loch\f1 <child-property>.view_class - }{\fs20 \hich\af1\dbch\af17\loch\f1 
+This sub-property of a child property gives the fully qualified class name to be used to construct this view type using the reflection. }{\b\fs20 \hich\af1\dbch\af17\loch\f1 Required.}{\fs20 
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 view_types.<child-property>.view_text - }{\fs20 \hich\af1\dbch\af17\loch\f1 This sub-property of a child property gi\hich\af1\dbch\af17\loch\f1 ves the text to be used in the combo-box to describe this view type. }{
+\b\fs20 \hich\af1\dbch\af17\loch\f1 Required. }{\fs20 \hich\af1\dbch\af17\loch\f1 Example: "Diagram-Centric" (quotes for clarity)
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0 {\i\fs20 \hich\af1\dbch\af17\loch\f1 3.2.4\tab Configuring the IconTreeCellRenderer class
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 {\b\fs20 \hich\af1\dbch\af17\loch\f1 icons - }{\fs20 \hich\af1\dbch\af17\loch\f1 
+This parent property holds as child properties the list of classes to ad\hich\af1\dbch\af17\loch\f1 d icons to, along with their associated icons. }{\b\fs20 \hich\af1\dbch\af17\loch\f1 Required.}{\fs20 
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 icons.<child-property-name> - }{\fs20 \hich\af1\dbch\af17\loch\f1 The name of a child property gives the fully qualified class name of the class to which this icon must be selected. }{\b\fs20 
+\hich\af1\dbch\af17\loch\f1 Required. }{\fs20 \hich\af1\dbch\af17\loch\f1 Example: com.topcoder.uml.model.core.Namesp\hich\af1\dbch\af17\loch\f1 ace
+\par }{\b\fs20 \hich\af1\dbch\af17\loch\f1 icons.<child-property-value> - }{\fs20 \hich\af1\dbch\af17\loch\f1 The name of a child property gives the path where the icon may be found. }{\b\fs20 \hich\af1\dbch\af17\loch\f1 Required. }{\fs20 
+\hich\af1\dbch\af17\loch\f1 Example: ../conf/icons/namespace.gif
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0 {\i\fs20 \hich\af1\dbch\af17\loch\f1 3.2.5\tab Configuring the DiagramCentricDocumentTreeViewclass
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 {\b\fs20 \hich\af1\dbch\af17\loch\f1 diagram_categories -}{\fs20 \hich\af1\dbch\af17\loch\f1  This parent property h\hich\af1\dbch\af17\loch\f1 
+olds as child properties the list of diagram type info to diagram category name mappings. }{\b\fs20 \hich\af1\dbch\af17\loch\f1 Required}{\fs20 \hich\af1\dbch\af17\loch\f1 .\line }{\b\fs20 \hich\af1\dbch\af17\loch\f1 
+diagram_categories.<child-property-name> -}{\fs20 \hich\af1\dbch\af17\loch\f1  The name of a child property gives the type info to be mapped. }{\b\fs20 \hich\af1\dbch\af17\loch\f1 Required}{\fs20 \hich\af1\dbch\af17\loch\f1 .\line }{\b\fs20 
+\hich\af1\dbch\af17\loch\f1 diagram_categories.<child-property-value\hich\af1\dbch\af17\loch\f1 > -}{\fs20 \hich\af1\dbch\af17\loch\f1  The value of a child property gives the name of the diagram category for this type info. }{\b\fs20 
+\hich\af1\dbch\af17\loch\f1 Required}{\fs20 \hich\af1\dbch\af17\loch\f1 .
+\par }\pard \ql \li0\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0 {\i\fs20 \hich\af1\dbch\af17\loch\f1 3.2.6\tab Configuring the PackageCentricDocumentTreeView
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 {\b\fs20 \hich\af1\dbch\af17\loch\f1 activity_graphs_category_name \hich\f1 \endash \loch\f1  }{\fs20 \hich\af1\dbch\af17\loch\f1 
+The name of the activity graphs category, }{\b\fs20 \hich\af1\dbch\af17\loch\f1 Required\line collaborations_ca\hich\af1\dbch\af17\loch\f1 tegory_name \hich\f1 \endash \loch\f1  }{\fs20 \hich\af1\dbch\af17\loch\f1 The name of the collaborations category, 
+}{\b\fs20 \hich\af1\dbch\af17\loch\f1 Required
+\par 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 
+\hich\af1\dbch\af17\loch\f1 3.3\tab Dependencies Configuration
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\fs20 \hich\af1\dbch\af17\loch\f1 None.
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b 
+\hich\af1\dbch\af17\loch\f1 4.\tab Usage Notes
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 
+\hich\af1\dbch\af17\loch\f1 4.1\tab Required steps to test the component
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard\plain \ql \fi-360\li1080\ri0\sa120\nowidctlpar\tx1080{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\fs20 \hich\af1\dbch\af17\loch\f1 Extract the component distribution.
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Follow }{\field{\*\fldinst {\fs20 \hich\af1\dbch\af17\loch\f1 HYPERLINK\hich\af1\dbch\af17\loch\f1  "C:\\\\filez\\\\work\\\\tc\\\\tcs_corp\\\\\hich\af1\dbch\af17\loch\f1 templates\\\\
+component\\\\" \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\l "_Dependencies_Configuration" }{\fs20 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b02000000030000000303000000000000c00000000000004600002f000000433a5c66696c657a5c776f726b5c74635c7463735f636f72705c74656d706c617465735c636f6d706f6e656e745c00ffffadde0000000000000000000000000000000000000000000000000000000000
+0000000000}}}{\fldrslt {\fs20\ul\cf2 \hich\af1\dbch\af17\loch\f1 Dependencies Configuration}}}{\fs20 \hich\af1\dbch\af17\loch\f1 .
+\par {\pntext\pard\plain\fs20\lang1033\langfe2052\loch\af3\hich\af3\dbch\af17\langnp1033\langfenp2052 \loch\af3\dbch\af17\hich\f3 \'b7\tab}}\pard \ql \fi-360\li1080\ri0\sa120\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3 {\pntxtb \'b7}}
+\faauto\ls1\rin0\lin1080\itap0 {\fs20 \hich\af1\dbch\af17\loch\f1 Execute \hich\f1 \lquote \loch\f1 ant test\hich\f1 \rquote \loch\f1  within the directory that the distribution was extracted to.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 \hich\af1\dbch\af17\loch\f1 4.2\tab 
+Required steps to \hich\af1\dbch\af17\loch\f1 use the component
+\par }\pard\plain \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\fs20 \hich\af1\dbch\af17\loch\f1 See Demo.
+\par {\listtext\pard\plain\s2 \b\fs20\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\langnp1033\langfenp2052 \hich\af1\dbch\af17\loch\f1 4.3\tab}}\pard\plain \s2\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\tx0\jclisttab\tx720\faauto\ls3\ilvl1\outlinelevel1\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20 \hich\af1\dbch\af17\loch\f1 Demo
+\par {\listtext\pard\plain\s2 \b\fs20\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\langnp1033\langfenp2052 \hich\af1\dbch\af17\loch\f1 4.4\tab}\hich\af1\dbch\af17\loch\f1 Demo for a classic view}{
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         UMLModelManager model = TestHelper.}{\i\f2\fs16\cf1 
+\hich\af2\dbch\af17\loch\f2 createUMLModelManager}{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2 ();}{\f2\fs16 
+\par 
+\par }{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         ModelElement modelElement = }{\b\f2\fs16\cf17 \hich\af2\dbch\af17\loch\f2 new}{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2  GuardImpl();}{\f2\fs16 
+\par 
+\par }{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         }{\f2\fs16\cf18 \hich\af2\dbch\af17\loch\f2 // Create a new tabbed pane object}{\f2\fs16 
+\par }\pard \ql \fi-640\li640\ri0\nowidctlpar\faauto\rin0\lin640\itap0\cufi-400 {\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         DocumentTreeTabbe\hich\af2\dbch\af17\loch\f2 dPane treeTabbedPane = }{\b\f2\fs16\cf17 \hich\af2\dbch\af17\loch\f2 new}{
+\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2  DocumentTreeTabbedPaneImpl(model, TestHelper.}{\i\f2\fs16\cf19 \hich\af2\dbch\af17\loch\f2 NAMESPACE}{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2 );}{\f2\fs16 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f2\fs16 
+\par }{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         }{\f2\fs16\cf18 \hich\af2\dbch\af17\loch\f2 // Get the tabbed pane and add it onto a container}{\f2\fs16 
+\par }{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         JPanel panel = }{\b\f2\fs16\cf17 \hich\af2\dbch\af17\loch\f2 new}{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2  JPanel();}{\f2\fs16 
+\par }{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         panel.add(}{\f2\fs16\ul\cf2 \hich\af2\dbch\af17\loch\f2 treeTabbedPane}{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2 .getTabbedPane());}{\f2\fs16 
+\par 
+\par }\pard \ql \fi-640\li640\ri0\nowidctlpar\faauto\rin0\lin640\itap0\cufi-400 {\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         }{\f2\fs16\cf18 \hich\af2\dbch\af17\loch\f2 
+// We may programmatically add/remove panes, get/set the chosen view as well as set the selected nodes}{\f2\fs16 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         }{\f2\fs16\cf18 \hich\af2\dbch\af17\loch\f2 // In the beginning, we start with three tabs}{\f2\fs16 
+\par }{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         }{\f2\fs16\cf18 \hich\af2\dbch\af17\loch\f2 // There is already a default tab, so we add two}{\f2\fs16 
+\par }\pard \ql \fi-640\li640\ri0\nowidctlpar\faauto\rin0\lin640\itap0\cufi-400 {\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2      treeTabbedPane.createNewPanel().setCu\hich\af2\dbch\af17\loch\f2 rrentView(DocumentTreeViewType.}{\i\f2\fs16\cf19 
+\hich\af2\dbch\af17\loch\f2 PACKAGE_CENTRIC}{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2 );}{\f2\fs16 
+\par }\pard \ql \fi-480\li480\ri0\nowidctlpar\faauto\rin0\lin480\itap0\cufi-300 {\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2      treeTabbedPane.createNewPanel().setCurrentView(DocumentTreeViewType.}{\i\f2\fs16\cf19 \hich\af2\dbch\af17\loch\f2 DIAGRAM_CENTRIC}{
+\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2 );}{\f2\fs16 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2      treeTabbedPane.createNewPanel().setCurrentView(DocumentTreeViewType.}{\i\f2\fs16\cf19 \hich\af2\dbch\af17\loch\f2 CLASS_CENTRIC}{\f2\fs16\cf1 
+\hich\af2\dbch\af17\loch\f2 );}{\f2\fs16 
+\par 
+\par }{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         }{\f2\fs16\cf18 \hich\af2\dbch\af17\loch\f2 // When user click\hich\af2\dbch\af17\loch\f2 s a model element in the diagram}{\f2\fs16 
+\par }{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         DocumentTreeNode node = }{\b\f2\fs16\cf17 \hich\af2\dbch\af17\loch\f2 new}{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2  DocumentTreeNode(modelElement);}{\f2\fs16 
+\par }{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         treeTabbedPane.setSelectedTreeNodes(}{\b\f2\fs16\cf17 \hich\af2\dbch\af17\loch\f2 new}{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2  DocumentTreeNode[] \{node\});}{\f2\fs16 
+\par 
+\par }{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         }{\f2\fs16\cf18 \hich\af2\dbch\af17\loch\f2 // we may also add a listener to listen to events}{\f2\fs16 
+\par }{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2         DocumentTree\hich\af2\dbch\af17\loch\f2 EventListener myListener = }{\b\f2\fs16\cf17 \hich\af2\dbch\af17\loch\f2 new}{\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2  SimpleDocumentTreeEventListener();}{
+\f2\fs16 
+\par }\pard \ql \fi640\li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0\cufi400 {\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2 treeTabbedPane.addDocumentTreeEventListener(myListener);
+\par {\listtext\pard\plain\s2 \b\fs20\cf6\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\langnp1033\langfenp2052 \hich\af1\dbch\af17\loch\f1 4.5\tab}}\pard\plain \s2\ql \fi-720\li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\tx0\jclisttab\tx720\faauto\ls3\ilvl1\outlinelevel1\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b\fs20\cf6 \hich\af1\dbch\af17\loch\f1 Demo for a new (from version 1.1) view.
+\par }\pard\plain \ql \fi-480\li480\ri0\nowidctlpar\faauto\rin0\lin480\itap0\cufi-300 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\f2\fs16\cf1 \hich\af2\dbch\af17\loch\f2 
+        UMLModelManager model = TestHelper.createUMLModelManager();
+\par 
+\par \hich\af2\dbch\af17\loch\f2         // Create a \hich\af2\dbch\af17\loch\f2 new tabbed pane object
+\par \hich\af2\dbch\af17\loch\f2         DocumentTreeTabbedPane treeTabbedPane = new DocumentTreeTabbedPaneImpl(model, TestHelper.NAMESPACE_NEW);
+\par 
+\par \hich\af2\dbch\af17\loch\f2         // Get the tabbed pane and add it onto a container
+\par \hich\af2\dbch\af17\loch\f2         JPanel panel = new JPanel();
+\par \hich\af2\dbch\af17\loch\f2         panel.add(treeTabbedPane.getTabbedPane());
+\par 
+\par \hich\af2\dbch\af17\loch\f2         // We may can't programmatically add/remove tabs, but can set 
+\par \hich\af2\dbch\af17\loch\f2         // In the beginning (with sample configuration), we start with three tabs
+\par \hich\af2\dbch\af17\loch\f2         treeTabbedPane.getTabbedPane().setSelectedI\hich\af2\dbch\af17\loch\f2 ndex(0);
+\par \hich\af2\dbch\af17\loch\f2         treeTabbedPane.getTabbedPane().setSelectedIndex(1);
+\par \hich\af2\dbch\af17\loch\f2         treeTabbedPane.getTabbedPane().setSelectedIndex(2);
+\par 
+\par \hich\af2\dbch\af17\loch\f2         // select a tree node
+\par \hich\af2\dbch\af17\loch\f2         DefaultMutableTreeNode root = (DefaultMutableTreeNode)
+\par \hich\af2\dbch\af17\loch\f2             treeTabbedPane.getCur\hich\af2\dbch\af17\loch\f2 rentPanel().getCurrentView().getTree().getModel().getRoot();
+\par \hich\af2\dbch\af17\loch\f2         treeTabbedPane.setSelectedTreeNodes(new DocumentTreeNode[] \{(DocumentTreeNode) root.getUserObject()\});
+\par 
+\par \hich\af2\dbch\af17\loch\f2         // we may also add a listener to listen to events
+\par \hich\af2\dbch\af17\loch\f2         DocumentTreeEvent\hich\af2\dbch\af17\loch\f2 Listener myListener = new SimpleDocumentTreeEventListener();
+\par \hich\af2\dbch\af17\loch\f2         treeTabbedPane.addDocumentTreeEventListener(myListener);}{
+\par }\pard \ql \fi640\li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0\cufi400 {\f2\fs16\cf1 
+\par {\listtext\pard\plain\fs28\cf1\lang1033\langfe2052\loch\af14\hich\af14\dbch\af17\langnp1033\langfenp2052 \loch\af14\dbch\af17\hich\f14 \'6c\tab}}\pard \ql \fi-420\li420\ri0\sa120\nowidctlpar\jclisttab\tx420\faauto\ls2\rin0\lin420\itap0 {\b\f2\fs28\cf1 
+\hich\af2\dbch\af17\loch\f2 Swing Demonstration
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 /**}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 This}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 is}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 a}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 demo}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 frame}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 for}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 using}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 functionality}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 provided}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 by}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 this}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 document}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 tree}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 component.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @author }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 TCSDEVELOPER}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @version }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 1.0}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 */}{\f2\fs13 
+\par }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 public}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 class}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  FrameDemo }{
+\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 extends}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  JFrame \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 /**}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 The}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 content}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 panel}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 of}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 this}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  
+}{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 frame.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 */}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 private}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  JPanel }{\f2\fs13\cf19\highlight8 \hich\af2\dbch\af17\loch\f2 jContentPane}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 ;}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 /**}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 The}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 tree}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 tabbed}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 pane}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 of}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  
+}{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 this}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 frame.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 */}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 private}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  DocumentTreeTabbedPaneImpl }{\f2\fs13\cf19\highlight8 
+\hich\af2\dbch\af17\loch\f2 treeTabbedPane}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 ;}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 /**}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 This}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 is}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }
+{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 default}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 constructor.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @throws }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 Exception}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 if}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 any}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 exception}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 occurs}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 */}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 public}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  FrameDemo() }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 throws}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  Exception \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         initialize();}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     \}}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 /**}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 This}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 method}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 initializes}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 widgets}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 in}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 this}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  
+}{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 frame.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @throws }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 Exception}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 if}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 any}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 exception}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 occurs}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 */}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 public}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 void}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  initialize() }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 throws}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  Exception \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 this}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 .setContentPane(getJContentPane());}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 this}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 .setTitle(}{\f2\fs13\cf23\highlight8 \hich\af2\dbch\af17\loch\f2 "Frame Demo"}
+{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 );}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     \}}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 /**}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 This}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 method}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 initializes}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 jContentPane.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @return }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 content}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 panel}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 for}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 this}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 frame.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @throws }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 Exception}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 if}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 any}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 exception}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 occurs}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 */}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 public}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  JPanel getJContentPane() }{\b\f2\fs13\cf17\highlight8 
+\hich\af2\dbch\af17\loch\f2 throws}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  Exception \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 if}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  (}{\f2\fs13\cf19\highlight8 \hich\af2\dbch\af17\loch\f2 jContentPane}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  == }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 null}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 ) \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             }{\f2\fs13\cf19\highlight8 \hich\af2\dbch\af17\loch\f2 jContentPane}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  = }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 new}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  JPanel();}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             }{\f2\fs13\cf19\highlight8 \hich\af2\dbch\af17\loch\f2 jContentPane}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 .setLayout(}{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 
+new}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  BorderLayout());}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             }{\f2\fs13\cf19\highlight8 \hich\af2\dbch\af17\loch\f2 treeTabbedPane}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  = }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 new}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  DocumentTreeTabbedPaneImpl(TestHelper.}{\i\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 createUMLModelManager}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 (), }{\f2\fs13\cf23\highlight8 
+\hich\af2\dbch\af17\loch\f2 "some_namespace"}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 );}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             DocumentTreePanel treePanel = }{\f2\fs13\cf19\highlight8 \hich\af2\dbch\af17\loch\f2 treeTabbedPane}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 .getCurrentPanel();}{\f2\fs13 
+
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 for}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  (DocumentTreeView view : treePanel.getAllViews()) \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2                 view.getTree\hich\af2\dbch\af17\loch\f2 ().addMouseListener(}{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 new}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 
+ DragMouseAdapter());}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             \}}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             }{\f2\fs13\cf19\highlight8 \hich\af2\dbch\af17\loch\f2 treeTabbedPane}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 .addDocumentTreeEventListener(}{\b\f2\fs13\cf17\highlight8 
+\hich\af2\dbch\af17\loch\f2 new}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  DocumentTreeEventListenerImpl());}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             }{\f2\fs13\cf19\highlight8 \hich\af2\dbch\af17\loch\f2 jContentPane}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 .add(}{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 new}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  JScrollPane(}{\f2\fs13\cf19\highlight8 \hich\af2\dbch\af17\loch\f2 treeTabbedPane}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 .getTabbedPane()), BorderLayout.}{\i\f2\fs13\cf19\highlight8 
+\hich\af2\dbch\af17\loch\f2 CENTER}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 );}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         \}}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 return}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf19\highlight8 \hich\af2\dbch\af17\loch\f2 jContentPane}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 ;}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     \}}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 /**}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 This}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 class}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 extends}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 MouseAdapter}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 class}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 and}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 is}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }
+{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 used}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 for}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 DnD}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 demonstration.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @author }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 TCSDEVELOPER}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @version }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 1.0}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 */}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 private}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 class}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  DragMouseAdapter }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 extends}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  MouseAdapter \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 /**}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 Handles}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 mouse}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 pressed}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 event.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @param }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 e}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 mouse}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 event.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 */}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 public}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 void}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  mousePressed(MouseEvent e) \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             JComponent c = (JComponent) e.getSource();}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             TransferHandler handler = c.getTransferHandler();}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             handler.exportAsDrag(c, e, TransferHandler.COPY);}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         \}}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     \}}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 /**}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 This}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 class}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 implements}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 DocumentTreeEventListener}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 interface}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 and}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 is}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }
+{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 used}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 for}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 tree}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 event}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 handling}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 demonstration.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @author }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 TCSDEVELOPER}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @version }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 1.0}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 */}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 private}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 class}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  DocumentTreeEventListenerImpl }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 implements}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  DocumentTreeEventListener \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 /**}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 This}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 method}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 is}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 called}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 to}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 indicate}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 to}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 listener}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 that}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 
+ }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 selection}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 of}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 nodes}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 has}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 changed.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @param }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 event}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 The}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 event}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 denoting}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 selection.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 */}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 public}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 void}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  treeNodeSelectionChanged(SelectionChangedEvent event) \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             System.}{\i\f2\fs13\cf19\highlight8 \hich\af2\dbch\af17\loch\f2 out}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 .println(}{\f2\fs13\cf23\highlight8 \hich\af2\dbch\af17\loch\f2 
+"Received SelectionChangedEvent : selected nodes are "}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2                 + Arrays.}{\i\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 asList}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 (event.getSelectedTreeNodes()));}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         \}}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 /**}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 This}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 method}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 is}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 called}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 to}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 indicate}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 to}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 listener}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 that}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 
+ }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 name}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 of}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 a}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 node}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 
+has}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 changed.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @param }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 event}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 The}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 event}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 denoting}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 change}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 of}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 name.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2          }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 */}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 public}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 void}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  treeNodeNameChanged(NameChangedEvent event) \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             System.}{\i\f2\fs13\cf19\highlight8 \hich\af2\dbch\af17\loch\f2 out}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 .print(}{\f2\fs13\cf23\highlight8 \hich\af2\dbch\af17\loch\f2 
+"Received NameChangedEvent : The tree node is ["}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  + event.getTreeNode()}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2                 + }{\f2\fs13\cf23\highlight8 \hich\af2\dbch\af17\loch\f2 "], The new name is ["}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  + event.getNewName() + }{\f2\fs13\cf23\highlight8 
+\hich\af2\dbch\af17\loch\f2 "]."}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 );}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         \}}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     \}}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 /**}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 The}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 entry}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 of}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 
+ }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 demo}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 program.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @param }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 args}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 arguments}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @throws }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 Exception}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 to}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 JUnit}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2      }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 */}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 public}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 static}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 void}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  main(String[] args) }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 throws}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  Exception \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         TestHelper.}{\i\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 loadConfigurations}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 ();}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         FrameDemo frameDemo = }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 new}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  FrameDemo();}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         frameDemo.addWindowListener(}{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 new}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  WindowAdapter() \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 /**}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2              }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2              }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 This}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 method}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 handles}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 situation}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 when}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 the}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 frame}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 is}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 
+ }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 closing.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2              }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2              }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2              }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 <p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2              }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 The}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 namespaces}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 are}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 cleared}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 in}{\f2\fs13\cf1\highlight8 
+\hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 this}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 method.}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2              }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf21\highlight8 \hich\af2\dbch\af17\loch\f2 </p>}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2              }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2              }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 *}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf22\highlight8 \hich\af2\dbch\af17\loch\f2 @param }{
+\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 event}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 a}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 window}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 event}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\f2\fs13\cf20\highlight8 
+\hich\af2\dbch\af17\loch\f2 instance}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2              }{\f2\fs13\cf20\highlight8 \hich\af2\dbch\af17\loch\f2 */}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 public}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 void}{
+\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  windowClosing(WindowEvent event) \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2                 }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 super}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 .windowClosed(event);}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2                 }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 try}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2    \hich\af2\dbch\af17\loch\f2                  TestHelper.}{\i\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 clearConfig}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 ();}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2                 \} }{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 catch}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  (UnknownNamespaceException e) \{}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2                     }{\f2\fs13\cf18\highlight8 \hich\af2\dbch\af17\loch\f2 // ignore}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2                 \}}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2             \}}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         \});}{\f2\fs13 
+\par 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         frameDemo.setDefaultCloseOperation(JFrame.}{\i\f2\fs13\cf19\highlight8 \hich\af2\dbch\af17\loch\f2 EXIT_ON_CLOSE}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 );}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         fra\hich\af2\dbch\af17\loch\f2 meDemo.setSize(}{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 new}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2  Dimension(500, 500));}{\f2\fs13 
+
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2         frameDemo.setVisible(}{\b\f2\fs13\cf17\highlight8 \hich\af2\dbch\af17\loch\f2 true}{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2 );}{\f2\fs13 
+\par }{\f2\fs13\cf1\highlight8 \hich\af2\dbch\af17\loch\f2     \}}{\f2\fs13 
+\par }\pard \ql \fi520\li0\ri0\sa120\nowidctlpar\faauto\rin0\lin0\itap0\cufi400 {\f2\fs13\cf1\highlight8 \}}{\fs13 
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\b \hich\af1\dbch\af17\loch\f1 5.\tab 
+Future Enhancements
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af1\hich\af1\dbch\af17\cgrid\langnp1033\langfenp2052 {\fs20 \hich\af1\dbch\af17\loch\f1 More tree views may be added.}{\f0 
+\par }}

@@ -1,0 +1,932 @@
+{\rtf1\adeflang1025\ansi\ansicpg1251\uc1\adeff0\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1049\deflangfe1041{\fonttbl{\f0\froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Palatino};}{\f1\fswiss\fcharset204\fprq2{\*\panose 020b0604020202020204}Arial{\*\falt Arial};}
+{\f2\fmodern\fcharset204\fprq1{\*\panose 02070309020205020404}Courier New{\*\falt Courier New};}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol{\*\falt Symbol};}
+{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings{\*\falt Wingdings};}{\f40\froman\fcharset0\fprq2 Times New Roman{\*\falt Palatino};}{\f38\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Palatino};}
+{\f41\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Palatino};}{\f42\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Palatino};}{\f43\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Palatino};}
+{\f44\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Palatino};}{\f45\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Palatino};}{\f46\froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Palatino};}
+{\f50\fswiss\fcharset0\fprq2 Arial{\*\falt Arial};}{\f48\fswiss\fcharset238\fprq2 Arial CE{\*\falt Arial};}{\f51\fswiss\fcharset161\fprq2 Arial Greek{\*\falt Arial};}{\f52\fswiss\fcharset162\fprq2 Arial Tur{\*\falt Arial};}
+{\f53\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew){\*\falt Arial};}{\f54\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic){\*\falt Arial};}{\f55\fswiss\fcharset186\fprq2 Arial Baltic{\*\falt Arial};}
+{\f56\fswiss\fcharset163\fprq2 Arial (Vietnamese){\*\falt Arial};}{\f60\fmodern\fcharset0\fprq1 Courier New{\*\falt Courier New};}{\f58\fmodern\fcharset238\fprq1 Courier New CE{\*\falt Courier New};}
+{\f61\fmodern\fcharset161\fprq1 Courier New Greek{\*\falt Courier New};}{\f62\fmodern\fcharset162\fprq1 Courier New Tur{\*\falt Courier New};}{\f63\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew){\*\falt Courier New};}
+{\f64\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic){\*\falt Courier New};}{\f65\fmodern\fcharset186\fprq1 Courier New Baltic{\*\falt Courier New};}{\f66\fmodern\fcharset163\fprq1 Courier New (Vietnamese){\*\falt Courier New};}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;
+\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red204\green204\blue204;}{\stylesheet{\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 
+\af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{
+\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 2;}{\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 
+\rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 3;}{\s4\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 4;}{
+\s5\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl4\outlinelevel4\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 
+\f1\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 5;}{\s6\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl5\outlinelevel5\adjustright\rin0\lin0\itap0 
+\rtlch\fcs1 \ai\af1\afs22\alang1025 \ltrch\fcs0 \i\f1\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 6;}{\s7\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl6\outlinelevel6\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 7;}{
+\s8\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl7\outlinelevel7\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 8;}{\s9\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl8\outlinelevel8\adjustright\rin0\lin0\itap0 
+\rtlch\fcs1 \ab\ai\af1\afs18\alang1025 \ltrch\fcs0 \b\i\f1\fs18\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 9;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\*\cs15 \additive \rtlch\fcs1 \af0 
+\ltrch\fcs0 \ul\cf2 \sbasedon10 Hyperlink;}{\s16\ql \li0\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext16 Body Text;}{\s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 
+\i\f1\fs20\cf2\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext16 \sautoupd InfoBlue;}{\s18\ql \li0\ri0\widctlpar\tqc\tx4320\tqr\tx8640\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 
+\ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext18 \styrsid3280102 header;}{\s19\ql \li0\ri0\widctlpar\tqc\tx4320\tqr\tx8640\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 
+\af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext19 \styrsid3280102 footer;}{\*\ts20\tsrowd\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh
+\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \sbasedon11 \snext20 \styrsid7940917 Table Grid;}}
+{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\listtable{\list\listtemplateid-985754512{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 
+\ltrch\fcs0 \hres0\chhres0 \s1\jclisttab\tx360 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \s2
+\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \s3\jclisttab\tx0 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \s4\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \s5\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \s6\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \s7\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \s8\jclisttab\tx0 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \s9
+\jclisttab\tx0 }{\listname ;}\listid-5}{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fbias0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fbias0\hres0\chhres0 \fi-432\li1512\jclisttab\tx1512\lin1512 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fbias0\hres0\chhres0 \fi-504\li1944\jclisttab\tx1944\lin1944 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fbias0\hres0\chhres0 \fi-648\li2448\jclisttab\tx2520\lin2448 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers
+\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-792\li2952\jclisttab\tx3240\lin2952 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li3456\jclisttab\tx3600\lin3456 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1080\li3960\jclisttab\tx4320\lin3960 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1224\li4464
+\jclisttab\tx4680\lin4464 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1440\li5040\jclisttab\tx5400\lin5040 }{\listname ;}\listid190529798}{\list\listtemplateid-1875065816{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li792\jclisttab\tx792\lin792 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-648\li1728\jclisttab\tx1800\lin1728 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-792\li2232\jclisttab\tx2520\lin2232 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li2736\jclisttab\tx2880\lin2736 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1080\li3240\jclisttab\tx3600\lin3240 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 
+\fi-1224\li3744\jclisttab\tx3960\lin3744 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers
+\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1440\li4320\jclisttab\tx4680\lin4320 }{\listname ;}\listid307249117}{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li792\jclisttab\tx792\lin792 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1224\jclisttab\tx1224\lin1224 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-648\li1728\jclisttab\tx1800\lin1728 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-792\li2232\jclisttab\tx2520\lin2232 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li2736\jclisttab\tx2880\lin2736 }
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 
+\fi-1080\li3240\jclisttab\tx3600\lin3240 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1224\li3744\jclisttab\tx3960\lin3744 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1440\li4320\jclisttab\tx4680\lin4320 }{\listname ;}\listid476730108}
+{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li360
+\jclisttab\tx360\lin360 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li792
+\jclisttab\tx792\lin792 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1224
+\jclisttab\tx1224\lin1224 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 
+\fi-648\li1728\jclisttab\tx1800\lin1728 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fbias0\hres0\chhres0 \fi-792\li2232\jclisttab\tx2520\lin2232 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li2736\jclisttab\tx2880\lin2736 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1080\li3240\jclisttab\tx3600\lin3240 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1224\li3744\jclisttab\tx3960\lin3744 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fbias0\hres0\chhres0 \fi-1440\li4320\jclisttab\tx4680\lin4320 }{\listname ;}\listid599721756}{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li1512\jclisttab\tx1512\lin1512 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1944\jclisttab\tx1944\lin1944 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-648\li2448\jclisttab\tx2520\lin2448 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-792\li2952\jclisttab\tx3240\lin2952 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li3456\jclisttab\tx3600\lin3456 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1080\li3960\jclisttab\tx4320\lin3960 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 
+\fi-1224\li4464\jclisttab\tx4680\lin4464 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers
+\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1440\li5040\jclisttab\tx5400\lin5040 }{\listname ;}\listid617684099}{\list\listtemplateid-1825028312\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc4\levelnfcn4\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc2
+\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li3600
+\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 
+\fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747291\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 
+\hres0\chhres0 \fi-180\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747279\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 
+\af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747289\'02\'07.;}{\levelnumbers
+\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747291
+\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li7200\jclisttab\tx7200\lin7200 }{\listname ;}\listid662199597}{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li1512\jclisttab\tx1512\lin1512 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1944\jclisttab\tx1944\lin1944 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-648\li2448\jclisttab\tx2520\lin2448 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-792\li2952\jclisttab\tx3240\lin2952 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li3456\jclisttab\tx3600\lin3456 }{\listlevel\levelnfc0
+\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1080\li3960
+\jclisttab\tx4320\lin3960 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1224\li4464\jclisttab\tx4680\lin4464 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers
+\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1440\li5040\jclisttab\tx5400\lin5040 }{\listname ;}\listid713773159}{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li1512\jclisttab\tx1512\lin1512 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1944\jclisttab\tx1944\lin1944 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-648\li2448\jclisttab\tx2520\lin2448 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-792\li2952\jclisttab\tx3240\lin2952 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li3456
+\jclisttab\tx3600\lin3456 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1080\li3960\jclisttab\tx4320\lin3960 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers
+\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1224\li4464\jclisttab\tx4680\lin4464 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1440\li5040\jclisttab\tx5400\lin5040 }{\listname ;}\listid719355194}
+{\list\listtemplateid-160384884\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }
+{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li1800\jclisttab\tx1800\lin1800 }
+{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li2520\jclisttab\tx2520\lin2520 }
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li3240\jclisttab\tx3240\lin3240 }
+{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li3960\jclisttab\tx3960\lin3960 }
+{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li4680\jclisttab\tx4680\lin4680 }
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li5400\jclisttab\tx5400\lin5400 }
+{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li6120\jclisttab\tx6120\lin6120 }
+{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li6840\jclisttab\tx6840\lin6840 }
+{\listname ;}\listid806357716}{\list\listtemplateid932329388\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0\hres0\chhres0 
+\fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0\hres0\chhres0 \fi-360\li1800
+\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0\hres0\chhres0 \fi-360\li2520
+\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0\hres0\chhres0 \fi-360\li3240
+\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0\hres0\chhres0 \fi-360\li3960\jclisttab\tx3960\lin3960 
+}{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0\hres0\chhres0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0\hres0\chhres0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0\hres0\chhres0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0\hres0\chhres0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid876431865}
+{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li1080
+\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li1512
+\jclisttab\tx1512\lin1512 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1944
+\jclisttab\tx1944\lin1944 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 
+\fi-648\li2448\jclisttab\tx2520\lin2448 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fbias0\hres0\chhres0 \fi-792\li2952\jclisttab\tx3240\lin2952 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li3456\jclisttab\tx3600\lin3456 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1080\li3960\jclisttab\tx4320\lin3960 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1224\li4464\jclisttab\tx4680\lin4464 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fbias0\hres0\chhres0 \fi-1440\li5040\jclisttab\tx5400\lin5040 }{\listname ;}\listid1138302163}{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li792\jclisttab\tx792\lin792 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1224\jclisttab\tx1224\lin1224 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-648\li1728\jclisttab\tx1800\lin1728 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-792\li2232\jclisttab\tx2520\lin2232 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li2736\jclisttab\tx2880\lin2736 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1080\li3240\jclisttab\tx3600\lin3240 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 
+\fi-1224\li3744\jclisttab\tx3960\lin3744 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers
+\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1440\li4320\jclisttab\tx4680\lin4320 }{\listname ;}\listid1207373222}{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li1512\jclisttab\tx1512\lin1512 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1944\jclisttab\tx1944\lin1944 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-648\li2448\jclisttab\tx2520\lin2448 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-792\li2952\jclisttab\tx3240\lin2952 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li3456\jclisttab\tx3600\lin3456 }
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 
+\fi-1080\li3960\jclisttab\tx4320\lin3960 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1224\li4464\jclisttab\tx4680\lin4464 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1440\li5040\jclisttab\tx5400\lin5040 }{\listname ;}\listid1305574885}
+{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li1080
+\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li1512
+\jclisttab\tx1512\lin1512 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1944
+\jclisttab\tx1944\lin1944 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 
+\fi-648\li2448\jclisttab\tx2520\lin2448 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fbias0\hres0\chhres0 \fi-792\li2952\jclisttab\tx3240\lin2952 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li3456\jclisttab\tx3600\lin3456 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1080\li3960\jclisttab\tx4320\lin3960 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1224\li4464\jclisttab\tx4680\lin4464 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fbias0\hres0\chhres0 \fi-1440\li5040\jclisttab\tx5400\lin5040 }{\listname ;}\listid1479303477}{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li792\jclisttab\tx792\lin792 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1224\jclisttab\tx1224\lin1224 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-648\li1728\jclisttab\tx1800\lin1728 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-792\li2232\jclisttab\tx2520\lin2232 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li2736\jclisttab\tx2880\lin2736 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1080\li3240\jclisttab\tx3600\lin3240 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 
+\fi-1224\li3744\jclisttab\tx3960\lin3744 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers
+\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1440\li4320\jclisttab\tx4680\lin4320 }{\listname ;}\listid1636642415}{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li1512\jclisttab\tx1512\lin1512 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1944\jclisttab\tx1944\lin1944 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-648\li2448\jclisttab\tx2520\lin2448 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-792\li2952\jclisttab\tx3240\lin2952 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li3456\jclisttab\tx3600\lin3456 }
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 
+\fi-1080\li3960\jclisttab\tx4320\lin3960 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1224\li4464\jclisttab\tx4680\lin4464 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1440\li5040\jclisttab\tx5400\lin5040 }{\listname ;}\listid1700161726}
+{\list\listtemplateid-1316327076\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0\hres0\chhres0 \fi-360\li1440
+\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0\hres0\chhres0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0\hres0\chhres0 \fi-360\li2880
+\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0\hres0\chhres0 \fi-360\li3600
+\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0\hres0\chhres0 \fi-360\li4320
+\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0\hres0\chhres0 \fi-360\li5040
+\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0\hres0\chhres0 \fi-360\li5760
+\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0\hres0\chhres0 \fi-360\li6480
+\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0\hres0\chhres0 \fi-360\li7200
+\jclisttab\tx7200\lin7200 }{\listname ;}\listid1786732205}{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li1512\jclisttab\tx1512\lin1512 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1944\jclisttab\tx1944\lin1944 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-648\li2448\jclisttab\tx2520\lin2448 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers
+\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-792\li2952\jclisttab\tx3240\lin2952 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li3456\jclisttab\tx3600\lin3456 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1080\li3960\jclisttab\tx4320\lin3960 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1224\li4464
+\jclisttab\tx4680\lin4464 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1440\li5040\jclisttab\tx5400\lin5040 }{\listname ;}\listid1926112924}{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li1512\jclisttab\tx1512\lin1512 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1944\jclisttab\tx1944\lin1944 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-648\li2448\jclisttab\tx2520\lin2448 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-792\li2952\jclisttab\tx3240\lin2952 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li3456\jclisttab\tx3600\lin3456 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1080\li3960
+\jclisttab\tx4320\lin3960 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1224\li4464\jclisttab\tx4680\lin4464 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers
+\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1440\li5040\jclisttab\tx5400\lin5040 }{\listname ;}\listid1979262204}{\list\listtemplateid-1208855564\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0\hres0\chhres0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0\hres0\chhres0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0\hres0\chhres0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0\hres0\chhres0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0\hres0\chhres0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747265\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0\hres0\chhres0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747267\'01o;}{\levelnumbers;}\f2\fbias0\hres0\chhres0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid68747269\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0\hres0\chhres0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid2060544109}
+{\list\listtemplateid-1825028312{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li1440
+\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li2880
+\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li3600
+\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li4320
+\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li5040
+\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li5760
+\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li6480
+\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li7200
+\jclisttab\tx7200\lin7200 }{\listname ;}\listid2126461891}{\list\listtemplateid-909986888{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'04\'00.\'01.;}{\levelnumbers\'01\'03;}\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fbias0\hres0\chhres0 \fi-432\li1512\jclisttab\tx1512\lin1512 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'06\'00.\'01.\'02.;}{\levelnumbers\'01\'03\'05;}\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fbias0\hres0\chhres0 \fi-504\li1944\jclisttab\tx1944\lin1944 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'08\'00.\'01.\'02.\'03.;}{\levelnumbers\'01\'03\'05\'07;}
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-648\li2448\jclisttab\tx2520\lin2448 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0a\'00.\'01.\'02.\'03.\'04.;}{\levelnumbers
+\'01\'03\'05\'07\'09;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-792\li2952\jclisttab\tx3240\lin2952 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'0c\'00.\'01.\'02.\'03.\'04.\'05.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-936\li3456\jclisttab\tx3600\lin3456 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'0e\'00.\'01.\'02.\'03.\'04.\'05.\'06.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1080\li3960\jclisttab\tx4320\lin3960 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'10\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1224\li4464
+\jclisttab\tx4680\lin4464 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'12\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08.;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-1440\li5040\jclisttab\tx5400\lin5040 }{\listname ;}\listid2130927114}{\list\listtemplateid-605103684{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0
+{\leveltext\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\leveltext
+\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li7200\jclisttab\tx7200\lin7200 }{\listname ;}\listid2131849953}}{\*\listoverridetable{\listoverride\listid-5\listoverridecount9{\lfolevel\listoverridestartat\levelstartat1
+}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel
+\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}\ls1}{\listoverride\listid806357716\listoverridecount9{\lfolevel}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel
+\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat
+\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}\ls2}{\listoverride\listid876431865\listoverridecount9{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}\ls3}{\listoverride\listid2060544109
+\listoverridecount0\ls4}{\listoverride\listid719355194\listoverridecount0\ls5}{\listoverride\listid2131849953\listoverridecount0\ls6}{\listoverride\listid190529798\listoverridecount0\ls7}{\listoverride\listid1305574885\listoverridecount0\ls8}
+{\listoverride\listid1207373222\listoverridecount0\ls9}{\listoverride\listid1479303477\listoverridecount0\ls10}{\listoverride\listid476730108\listoverridecount0\ls11}{\listoverride\listid599721756\listoverridecount0\ls12}{\listoverride\listid2130927114
+\listoverridecount0\ls13}{\listoverride\listid662199597\listoverridecount0\ls14}{\listoverride\listid2126461891\listoverridecount0\ls15}{\listoverride\listid1700161726\listoverridecount0\ls16}{\listoverride\listid713773159\listoverridecount0\ls17}
+{\listoverride\listid1138302163\listoverridecount0\ls18}{\listoverride\listid617684099\listoverridecount0\ls19}{\listoverride\listid1926112924\listoverridecount0\ls20}{\listoverride\listid1636642415\listoverridecount0\ls21}{\listoverride\listid307249117
+\listoverridecount0\ls22}{\listoverride\listid1979262204\listoverridecount0\ls23}{\listoverride\listid1786732205\listoverridecount0\ls24}}{\*\rsidtbl \rsid25119\rsid134939\rsid149567\rsid462038\rsid530791\rsid726502\rsid745122\rsid807117\rsid948699
+\rsid1079250\rsid1132178\rsid1201714\rsid1250482\rsid1512515\rsid1520707\rsid1708339\rsid1847534\rsid2319792\rsid2360032\rsid2491623\rsid2498517\rsid2571638\rsid2784315\rsid2838143\rsid2886387\rsid2887872\rsid2893747\rsid2895884\rsid2972645\rsid3015362
+\rsid3047345\rsid3108042\rsid3108694\rsid3153803\rsid3214906\rsid3278078\rsid3280102\rsid3369720\rsid3413357\rsid3423062\rsid3476353\rsid3617182\rsid3812900\rsid3897978\rsid4018616\rsid4136469\rsid4147677\rsid4155980\rsid4264426\rsid4337335\rsid4403368
+\rsid4596756\rsid4723660\rsid4784665\rsid4856517\rsid4926885\rsid5066576\rsid5132397\rsid5268654\rsid5376425\rsid5390363\rsid5464490\rsid5668788\rsid5716092\rsid5904456\rsid6041911\rsid6109645\rsid6161748\rsid6291498\rsid6322333\rsid6453540\rsid6501367
+\rsid6579818\rsid6774323\rsid6958128\rsid6965143\rsid7035611\rsid7176190\rsid7347109\rsid7354237\rsid7477641\rsid7493292\rsid7630071\rsid7882814\rsid7889542\rsid7940917\rsid7949362\rsid8013901\rsid8090657\rsid8155044\rsid8526714\rsid8541864\rsid8656852
+\rsid8679643\rsid8787938\rsid8914495\rsid9068830\rsid9122935\rsid9257224\rsid9318375\rsid9385291\rsid9442264\rsid9459270\rsid9780571\rsid10032401\rsid10108042\rsid10176387\rsid10225089\rsid10241056\rsid10380255\rsid10448893\rsid10582060\rsid11156680
+\rsid11272339\rsid11365865\rsid11426750\rsid11474124\rsid11692991\rsid11941874\rsid12008632\rsid12018720\rsid12324357\rsid12393170\rsid12460005\rsid12461081\rsid12466737\rsid12476849\rsid12721473\rsid12728248\rsid12732860\rsid12782156\rsid12913128
+\rsid12978532\rsid12986402\rsid13003719\rsid13048995\rsid13131040\rsid13243546\rsid13265991\rsid13308408\rsid13452797\rsid13513492\rsid13715539\rsid14052466\rsid14181732\rsid14301142\rsid14424325\rsid14442138\rsid14502451\rsid14550920\rsid14686013
+\rsid14705415\rsid14762020\rsid14836055\rsid14969237\rsid14970283\rsid15011362\rsid15093667\rsid15147198\rsid15148839\rsid15355624\rsid15429510\rsid15469304\rsid15546533\rsid15559979\rsid15614982\rsid15615253\rsid15882013\rsid15882297\rsid15997669
+\rsid16017400\rsid16019741\rsid16122209\rsid16206280\rsid16266574\rsid16266885\rsid16399249\rsid16582743\rsid16646964\rsid16722552}{\*\generator Microsoft Word 11.0.0000;}{\info{\title <<Component>> <<Version>> Component Specification}{\author gpaul}
+{\operator -}{\creatim\yr2004\mo6\dy16\hr17\min44}{\revtim\yr2008\mo8\dy2\hr13\min54}{\version177}{\edmins849}{\nofpages12}{\nofwords3985}{\nofchars22716}{\*\company TopCoder}{\nofcharsws26648}{\vern24613}{\*\password 00000000}}{\*\xmlnstbl {\xmlns1 http:
+//schemas.microsoft.com/office/word/2003/wordml}{\xmlns2 urn:schemas-microsoft-com:office:smarttags}}\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\donotembedsysfont0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dgmargin
+\dghspace180\dgvspace180\dghorigin1800\dgvorigin1440\dghshow1\dgvshow1\jexpand\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\splytwnine\ftnlytwnine\htmautsp\nolnhtadjtbl\useltbaln\alntblind\lytcalctblwd\lyttblrtgr\lnbrkrule\rsidroot8013901 \fet0
+{\*\wgrffmtfilter 013f}\ilfomacatclnup0{\*\ftnsep \ltrpar \pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid3280102 \chftnsep 
+\par }}{\*\ftnsepc \ltrpar \pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid3280102 \chftnsepc 
+\par }}{\*\aftnsep \ltrpar \pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid3280102 \chftnsep 
+\par }}{\*\aftnsepc \ltrpar \pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid3280102 \chftnsepc 
+\par }}\ltrpar \sectd \ltrsect\linex0\endnhere\sectlinegrid360\sectdefaultcl\sftnbj {\headerr \ltrpar \pard\plain \ltrpar\s18\qc \li0\ri0\widctlpar\tqc\tx4320\tqr\tx8640\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3280102 
+\rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid3280102 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\tx720\wrapdefault\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs28 \ltrch\fcs0 \fs28\ul\insrsid15148839 
+Swing Birds Eye View Control}{\rtlch\fcs1 \af1\afs28 \ltrch\fcs0 \fs28\ul\insrsid3280102  }{\rtlch\fcs1 \af1\afs28 \ltrch\fcs0 \fs28\ul\insrsid15148839 1.0}{\rtlch\fcs1 \af1\afs28 \ltrch\fcs0 \fs28\ul\insrsid3280102  Component Specification
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+Design
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15148839 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid15148839 The UML Tool displays diagrams used for software modeling. These diagrams tend to get very large, and usually the diagrams are too large to be displayed in their entirety on a single dis
+play. To address this issue, this component will display a thumbnail view of a diagram, allowing the user to drag a view port to various areas on the diagram, allowing for easier manipulation of the displayed areas.}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15148839 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid15148839\charrsid15148839 Design Considerations
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15148839 This design is ve
+ry simple, but supports thumbnail view for any JComponent. The BirdsEyeView is a main class, which works as a parent container for this control. It is used as a public API of this component, and stores some objects, like ZoomPanel, ViewPort, input JCompon
+ent, etc.
+\par The ViewPort class is a JComponent and provides a simple bordered rectangle with opacity, which will be drawn over the zoomed input object. The view port accepts mouse events and can be dragged by the user.
+\par The external code (some kind of the inpu
+t object manager) will be notified when view port is moved. The ViewPortListener interface defines a simple listener for that purpose, and the ViewPortEvent class provides the event data. The external code should implement that ViewPortListener and regist
+er by using ViewPort.addViewPortListener(\'85) method.
+\par Please note, this component is automatically notified in any change in the input object, because the BirdsEyeView class will be registered as a child JComponent of the input object. Anyway, the user of our
+ component has to provide the position and dimension of the input object view port.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7477641 
+ Without such information it is not possible to properly use the control. And we can not retrieve that view port information of the input object, because it can be provided 
+in different ways (for example, with scrolling) and JComponent can be of any child type.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15148839 
+\par 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 1.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 Design Patterns 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid3812900 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \b\insrsid3812900\charrsid3812900 Observer pattern}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3812900  is implemented by the ViewPort class, which allows }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12324357 registering}{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid3812900  ViewPortListener instances and will call them in the case when ViewPort has changed.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8526714\charrsid8526714 An}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8526714 d the similar }{\rtlch\fcs1 \af1 \ltrch\fcs0 \b\insrsid8526714\charrsid8526714 Listener pattern}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8526714 
+ is also used \endash  the ViewPortListener defines a listener interface, ViewPortEvent is an event data, and the ViewPort is producer of events. The concrete listeners \endash  will be in the external application. 
+\par Of course, we also re-use Listener pattern, defined in the AWT and Swing, because BirdsEyeView and ViewPort classes will be registered to the MouseListener and/or MouseMotionListener and we will be }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12324357 notified}
+{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8526714  by those mouse events.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8526714\charrsid8526714 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \b\insrsid12476849\charrsid12476849 Composite pattern}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12476849  is re-used from JComponent. Each JComponent can have children of any }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12324357 
+JComponent}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12476849  and we use this technique to combine ZoomPanel, ViewPort and BirdsEyeView all together. All of them }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12324357 have}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid12476849  the same method \endash  paintComponent(\'85), which allows us the cascading update and drawing of those components.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3812900 
+\par 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 1.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 Industry Standards 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \lang1033\langfe1042\langfenp1042\insrsid5132397 JFC Swing (from JSE 5).
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 1.3\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 Required Algorithms
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6109645 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \b\i\ul\insrsid807117\charrsid807117 Important Notes:
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid6109645 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls23\adjustright\rin0\lin1080\itap0\pararsid6109645 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6109645 Please note, all }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12324357 algorithms}{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid6109645  below do not use precise rounding when converting double\~=>\~int data types. The developer should check this issue in the actual control \endash  how will it look. Most likely, all will be fine}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid4155980  and this is the fastest way}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6109645 . If not, then please apply the precise rounding: Math.round(\'85) method}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid1512515  can be used}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid6109645 .}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid807117 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid12393170 \hich\af1\dbch\af0\loch\f1 2.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12393170 
+And the special checks are needed when deleting by 0 \endash  it should not occur in most likely cases, but anyway should be checked and skipped (like if zoom factor == 0.0, then use zoom factor = 1.0).
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid807117 \hich\af1\dbch\af0\loch\f1 3.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid807117 
+The getSize( null ) was used in algorithms below to make them fully clear. The developer could change t
+hat to getWidth() and getHeight() to slightly improve performance. And getLocation( null ) was also used in algorithms below to make them fully clear. The developer could change that to getX() and getY() to }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4723660 
+slightly}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid807117  improve performance.
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6109645 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6109645\charrsid6109645 
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af0\afs20 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid5132397 \hich\af1\dbch\af0\loch\f1 1.3.1\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid5132397 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397 Creating and Drawing the Birds Eye View}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \i\ul\insrsid6965143\charrsid6965143 Create the BirdsEyeView class}{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid5132397\charrsid6965143 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6965143 This algorithm relates to the BirdsEyeView(inputObject, inputObjectViewDimension, inputObjectViewPosition) constructor of the BirdsEyeView class. The next actions should be performed.}{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid5132397 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid6579818 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls5\adjustright\rin0\lin1080\itap0\pararsid6965143 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6579818 Set the internal fields:\line this.inputObject = inputObject;\line this.viewPort = new ViewPort();\line 
+this.zoomPanel = new ZoomPanel( inputObject );\line this.inputObjectViewDimension = inputObjectViewDimension;\line this.inputObjectViewPosition = inputObjectViewPosition;}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6965143 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid15614982 \hich\af1\dbch\af0\loch\f1 2.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15614982 Retrieve the c
+onfiguration parameters:\line Color overlayColor = UIManager.getColor( \'93}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15614982\charrsid7940917 BirdsEyeView.overlayColor}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15614982 \'94 );\line 
+Color overlayBorderColor=UIManager.getColor(\'93}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15614982\charrsid7940917 BirdsEyeView.overlay}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15614982 Border}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15614982\charrsid7940917 Color
+}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15614982 \'94);}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3108694 \line int overlayBorderThickness}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid1520707  }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3108694 =}{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid1520707  }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2360032 UIManager.getInt}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3108694 (\'93}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3108694\charrsid7940917 BirdsEyeView.overlay}{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid3108694 BorderThickness\'94);}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15614982 \line double opacity =}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13003719  Double.parseDouble( }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15614982 
+ UIManager.getString(\'93}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15614982\charrsid7940917 BirdsEyeView.overlay}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15614982 Opacity\'94}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13003719 ) );}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid6579818 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid13003719 \hich\af1\dbch\af0\loch\f1 3.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13003719 
+Set the properties of the viewPort field:\line this.viewPort.setOpacity( opacity );\line this.viewPort.setBackground( overlayColor );\line this.viewPort.set}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12461081 Foreground}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid13003719 ( overlayBorderColor );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15614982 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3153803 \hich\af1\dbch\af0\loch\f1 4.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3153803 Set the border:\line 
+this.viewPort.setBorder( BorderFactory.createLineBorder( overlayBorderColor}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3108694 , overlayBorderThickness}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3153803  ) );
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16266574 \hich\af1\dbch\af0\loch\f1 5.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16266574 
+Register the mouse listener for the current class:\line this.addMouseListener( this );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13003719 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16266574 \hich\af1\dbch\af0\loch\f1 6.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16266574 Set the par
+ent-child hierarchy of the }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2893747 used JComponent}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4723660  instances}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2893747 :\line this.inputObject.add( this );\line 
+this.add( this.zoomPanel );\line this.zoomPanel.add( this.viewPort );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16266574 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid2893747 \hich\af1\dbch\af0\loch\f1 7.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2893747 Draw the}{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid6291498  entire}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2893747  component}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid1708339  (this.paintComponent(\'85) will be called)}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2893747 :\line this.repaint();
+
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6965143 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid25119 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid6965143\charrsid6965143 Draw in the BirdsEyeView class
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid11692991 This algorithm relates to the paintComponent( g ) method of the BirdsEyeView class. The next actions should be performed.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6965143 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid15469304 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls8\adjustright\rin0\lin1080\itap0\pararsid11692991 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15469304 Calculate the zoom factor:\line Dimension }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15615253 thisS}{
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15469304 ize  = this.getSize(}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14969237  null }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15469304 );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15615253 \line 
+Dimension inputSize = this.getInputObject().getSize(}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14969237  null }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15615253 );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15469304 \line double scale}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid15615253 Width}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15469304  = }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15615253 thisS}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15469304 ize.get}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15615253 Width}{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid15469304 () / }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15615253 inputSize.getWidth();\line double scaleHeight = thisSize.getHeight() / inputSize.getHeight();}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15997669 \line double }{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid10108042 zoom}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15997669 Factor = the minimum value from scaleWidth and scaleHeight;}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6291498 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid15882297 \hich\af1\dbch\af0\loch\f1 2.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15882297 Set the zoomFactor}{\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid14550920  to the zoomPanel}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15882297 :\line this.getZoomPanel().setZoomFactor( zoomFactor );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15469304 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid4926885 \hich\af1\dbch\af0\loch\f1 3.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4926885 Calculate the size of the view port:
+\line Dimension viewPortSize = new Dimension( this.getInputObjectViewDimension().getWidth()}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid1201714  * zoomFactor}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4926885 , this.getInputObjectViewDimension().getHeight()}{
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid1201714  * zoomFactor}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4926885  );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15882297 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid1201714 \hich\af1\dbch\af0\loch\f1 4.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid1201714 Set the view port size:\line 
+this.getViewPort().setSize( viewPortSize );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4926885 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14550920 \hich\af1\dbch\af0\loch\f1 5.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14550920 
+Calculate the location of the view port:\line }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid948699 Point viewPortLocation = new Point( this.getInputObjectViewPosition().getX() * zoomFactor, this.getInputObjectViewPosition().getY() * zoomFactor );}{\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid14550920 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16122209 \hich\af1\dbch\af0\loch\f1 6.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16122209 Set the }{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14550920 location of the view port:\line }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid948699 this.getViewPort().setLocation( viewPortLocation );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid1847534 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14550920 \hich\af1\dbch\af0\loch\f1 7.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14550920 Set }{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid10448893 t}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14550920 he zoom factor to the viewPort:\line this.getViewPort().setZoomFactor( zoomFactor );
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16722552 \hich\af1\dbch\af0\loch\f1 8.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16722552 That\rquote s all \endash  return}{
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid530791  here}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16722552 , and the children components will be automatically repainted (including zoomPanel and viewPort)}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid10032401  \endash 
+ they will draw the actual image of the control}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16722552 .
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397 
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af0\afs20 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16266574 \hich\af1\dbch\af0\loch\f1 1.3.2\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid5132397 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16266574 Creating and }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397 Drawing of the {\*\xmlopen\xmlns2{\factoidname PlaceName}}{\*\xmlopen\xmlns2{\factoidname place}}View{\*\xmlclose} {\*\xmlopen\xmlns2{\factoidname 
+PlaceType}}Port{\*\xmlclose}{\*\xmlclose}
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6291498 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \i\ul\insrsid6291498\charrsid6965143 Create the View}{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid6291498 Port}{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid6291498\charrsid6965143  class
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6291498 This algorithm relates to the ViewPort( ) constructor of the ViewPort class. The next actions should be performed.
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid6291498 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls7\adjustright\rin0\lin1080\itap0\pararsid6291498 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6291498 Register the mouse listener for the current class:\line }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5268654 
+this.addMouseListener( this );\line }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6291498 this.addMouseMotionListener( this );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6291498 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6291498 {\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid6291498\charrsid6965143 Draw in the View}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\i\ul\insrsid6291498 Port}{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid6291498\charrsid6965143  class
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3153803 
+This algorithm relates to the paintComponent( g ) method of the ViewPort class. The next actions should be performed.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6291498 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid13265991 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls10\adjustright\rin0\lin1080\itap0\pararsid13265991 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13265991 Draw the background:\line g.setColor(this.getBackground());\line g.fillRect(0, 0
+, this.getWidth(), this.getHeight());
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid13265991 \hich\af1\dbch\af0\loch\f1 2.\tab}Apply the opacity:\line Graphics2D g2 = (Graphics2D) g;\line 
+g2.setComposite( AlphaComposite.getInstance( AlphaComposite.SRC_OVER, }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7354237 (float) }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13265991 this.getOpacity() ) );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3153803 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid15355624 \hich\af1\dbch\af0\loch\f1 3.\tab}}\pard \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls10\adjustright\rin0\lin1080\itap0\pararsid3153803 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15355624 Calculate the location of the input object view port:\line Point 
+currentLocation = this.getLocation( null );\line int x = }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8787938 currentLocation.getX() / }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid10241056 this.getZ}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8787938 oomFactor}{
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid10241056 ()}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8787938 ;\line int y = currentLocation.getY() / }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid10241056 this.getZ}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8787938 oomFactor}{
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid10241056 ()}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8787938 ;}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13265991 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3108042 \hich\af1\dbch\af0\loch\f1 4.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3108042 
+Make the event data for the input object view port:\line ViewPortEvent event = new ViewPortEvent( x, y );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15355624 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3047345 \hich\af1\dbch\af0\loch\f1 5.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3047345 
+Fire the listeners to update the current position of the input object view port (the manager of the input object is most likely the consumer of this event):\line this.fireVie}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13513492 w}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3047345 PortListeners( event );
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12782156 
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af0\afs20 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid12782156 \hich\af1\dbch\af0\loch\f1 1.3.3\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid12782156 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12782156 Processing Events in the BirdsEyeView Class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid6109645 This algorithm relates to the mousePressed( event ) method of the BirdsEyeView class. The next actions should be performed.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12782156 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid6109645 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls13\adjustright\rin0\lin1080\itap0\pararsid6109645 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6109645 Get the mouse coordinates:\line int x = }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7630071 
+event.getClientX();\line int y = event.getClientY();}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6109645 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16582743 \hich\af1\dbch\af0\loch\f1 2.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16582743 
+Please note, the zoomPanel will fully cover
+ the BirdsEyeView control, and that zoomPanel has a special pre-processing of all the mouse events, which go through it. That zoomPanel convert their coordinates to the inputObject coordinates, which are not applicable for us. So, the conve}{\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid12008632 r}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16582743 sion back is needed:\line x = x / this.getZoomPanel().getZoomFactor();\line y = y / this.getZoomPanel().getZoomFactor();
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid7630071 \hich\af1\dbch\af0\loch\f1 3.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7630071 Check if the x and y are inside the 
+\'93this\'94 control bounds (just to be sure) \endash  and return if any of them is outside \'93this\'94 control.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6109645 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14969237 \hich\af1\dbch\af0\loch\f1 4.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14969237 Retrieve the size of the view port:
+\line Dimension viewPortSize = this.getViewPort().getSize( null );\line int viewPortWidth = viewPortSize.getWidth();\line int viewPortHeight = viewPortSize.getHeight();}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7630071 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14969237 \hich\af1\dbch\af0\loch\f1 5.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14969237 
+Check the limits of the view port borders:
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14969237 \hich\af1\dbch\af0\loch\f1 5.1.\tab}}\pard \ltrpar\s16\ql \fi-432\li1512\ri0\sa120\widctlpar
+\jclisttab\tx1512\wrapdefault\aspalpha\aspnum\faauto\ls13\ilvl1\adjustright\rin0\lin1512\itap0\pararsid14969237 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14969237 Check }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8155044 the }{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid14969237 left limit:\line if (x - (viewPortWidth/2)) < 0, set x =}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14969237\charrsid14969237  }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14969237 viewPortWidth/2;
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14969237 \hich\af1\dbch\af0\loch\f1 5.2.\tab}Check }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8155044 the }{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid14969237 right limit:\line if (x + (viewPortWidth/2)) >= this.getSize( null ).getWidth(), set x =}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14969237\charrsid14969237  }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14969237 
+this.getSize( null ).getWidth() - viewPortWidth/2 - 1;
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid8155044 \hich\af1\dbch\af0\loch\f1 5.3.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8155044 Check the top limit:\line 
+if (y - (viewPortHeight/2)) < 0, set y =}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8155044\charrsid14969237  }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid8155044 viewPortHeight/2;
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid12986402 \hich\af1\dbch\af0\loch\f1 5.4.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12986402 Check the bottom limit:\line 
+if (y + (viewPortHeight/2)) >= this.getSize( null ).getHeight(), set y =}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12986402\charrsid14969237  }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12986402 this.getSize( null ).getHeight() - viewPortHeight/2 - 1;
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid7347109 \hich\af1\dbch\af0\loch\f1 6.\tab}}\pard \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls13\adjustright\rin0\lin1080\itap0\pararsid6109645 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7347109 Calculate the new location of the view port:\line Point newVi
+ewPortLocation = new Point( x - viewPortWidth/2, y - viewPortHeight/2 );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14969237 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid11474124 \hich\af1\dbch\af0\loch\f1 7.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid11474124 
+Set the new position of the view port:\line this.getViewPort().setLocation( newViewPortLocation );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7347109 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid11474124 \hich\af1\dbch\af0\loch\f1 8.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid11474124 Repaint the entire component}{
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12466737  (please note, it will also fire all the view port listeners)}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid11474124 :\line this.repaint();
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12782156 
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af0\afs20 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid12782156 \hich\af1\dbch\af0\loch\f1 1.3.4\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid12782156 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12782156 Processing Events in the ViewPort Class
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \i\ul\insrsid2838143\charrsid2838143 Mouse Pressed Event Processing}{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid12782156\charrsid2838143 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2838143 This algorithm relates to mousePressed( event ) algorithm of the ViewPort class. The next actions should be performed.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid2784315 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls16\adjustright\rin0\lin1080\itap0\pararsid2838143 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2784315 Start the dragging:\line this.setDragging( true );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2838143 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid2784315 \hich\af1\dbch\af0\loch\f1 2.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2784315 Set the current dragging position:
+\line this.getDragPosition().setLocation( event.getClientX(), event.getClientY() );
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid10582060 \hich\af1\dbch\af0\loch\f1 3.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid10582060 
+It is suggested to finish processing of this event here and do not propagate the event to the parent controls, 
+which will center the view port of mouse press (the event.consume() method can help on this). But the developer can experiment with this feature \endash 
+ how will it look in the actual GUI? May be centering of the view port even then pressing on it will be fine.
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2838143 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2838143 {\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid2838143\charrsid2838143 Mouse }{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid2838143 
+Dragged}{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid2838143\charrsid2838143  Event Processing
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2838143 This algorithm relates to mouse}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3617182 Dragged}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2838143 
+( event ) algorithm of the ViewPort class. The next actions should be performed.
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid9122935 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls18\adjustright\rin0\lin1080\itap0\pararsid2838143 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9122935 If this.isDragging() == true, then do the next actions:}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2838143 
+
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid9122935 \hich\af1\dbch\af0\loch\f1 1.1.\tab}}\pard \ltrpar\s16\ql \fi-432\li1512\ri0\sa120\widctlpar
+\jclisttab\tx1512\wrapdefault\aspalpha\aspnum\faauto\ls18\ilvl1\adjustright\rin0\lin1512\itap0\pararsid9122935 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9122935 Get the new dragging position:\line 
+Point newDragPosition = new Point( event.getClientX(), event.getClientY() );
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3369720 \hich\af1\dbch\af0\loch\f1 1.2.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3369720 
+If this.getDragPosition().equals( newDragPosition )}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid11365865  == true,}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3369720  then simply return \endash  no mo}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4403368 
+ving of the view port is needed:\line return();}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3369720 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid4337335 \hich\af1\dbch\af0\loch\f1 1.3.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4337335 Calculate the displacements:\line 
+int xDelta =newDragPosition.getX() \endash  this.getDragPosition().getX();\line int yDelta =newDragPosition.getY() \endash  this.getDragPosition().getY();}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3369720 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16399249 \hich\af1\dbch\af0\loch\f1 1.4.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16399249 
+Retrieve the size of the view port:\line Dimension viewPortSize = this.getSize( null );\line int viewPortWidth = viewPortSize.getWidth();\line int viewPortHeight = viewPortSize.getHeight();}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3369720 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid4596756 \hich\af1\dbch\af0\loch\f1 1.5.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596756 
+Get the current location of the view port:\line Point viewPortLocation = this.getLocation( null );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6161748 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid6161748 \hich\af1\dbch\af0\loch\f1 1.6.\tab}Calculate the possible new location of the view port:}{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid4596756 \line int x = viewPortLocation.getX()}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6161748  + xDelta}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596756 ;\line int y = viewPortLocation.get}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6041911 Y}{
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596756 ()}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6161748  + yDelta}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596756 ;}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16399249 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid9780571 \hich\af1\dbch\af0\loch\f1 1.7.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9780571 Get the size of the parent control:
+\line Dimension parentSize = this.getParent().getSize( null );\line int parentWidth = parentSize.getWidth();\line int parentHeight = parentSize.getHeight();}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4596756 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid6161748 \hich\af1\dbch\af0\loch\f1 1.8.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6161748 Check the limits of the view port
+ borders for the new}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16206280  location}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid6161748 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12460005 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16206280 \hich\af1\dbch\af0\loch\f1 1.8.1.\tab}}\pard \ltrpar\s16\ql \fi-720\li2160\ri0\sa120\widctlpar
+\jclisttab\tx2160\wrapdefault\aspalpha\aspnum\faauto\ls18\ilvl2\adjustright\rin0\lin2160\itap0\pararsid16206280 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16206280 Check the left limit (}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13243546 d}{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid16206280 o not move the view port outside the parent}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13243546  control}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16206280 ):\line if (x < 0 ) return;
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16206280 \hich\af1\dbch\af0\loch\f1 1.8.2.\tab}Check the right limit (}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13243546 d}{
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16206280 o not move the view port outside the parent}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13243546  control}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16206280 ):\line if ((x+viewPortWidth) > parentWidth ) return;
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid13243546 \hich\af1\dbch\af0\loch\f1 1.8.3.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13243546 
+Check the top limit (do not move the view port outside the parent control):\line if (y < 0 ) return;}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16206280 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid13243546 \hich\af1\dbch\af0\loch\f1 1.8.4.\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13243546 
+Check the bottom limit (do not move the view port outside the parent control):\line if ((y+viewPortHeight) > parentHeight ) return;
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid16019741 \hich\af1\dbch\af0\loch\f1 1.9.\tab}}\pard \ltrpar\s16\ql \fi-432\li1512\ri0\sa120\widctlpar
+\jclisttab\tx1512\wrapdefault\aspalpha\aspnum\faauto\ls18\ilvl1\adjustright\rin0\lin1512\itap0\pararsid9122935 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid16019741 All checks were passed, therefore \endash  set the new location of the view port:\line 
+this.setLocation( x, y );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7176190 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid7176190 \hich\af1\dbch\af0\loch\f1 1.10.\tab}}\pard \ltrpar\s16\ql \fi-540\li1620\ri0\sa120\widctlpar
+\jclisttab\tx1620\wrapdefault\aspalpha\aspnum\faauto\ls18\ilvl1\adjustright\rin0\lin1620\itap0\pararsid6322333 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7176190 Set the new value for }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9442264 the }{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid7176190 drag position:\line this.getDragPosition().setLocation( newDragPosition );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9122935 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid7176190 \hich\af1\dbch\af0\loch\f1 1.11.\tab}}\pard \ltrpar\s16\ql \fi-540\li1620\ri0\sa120\widctlpar
+\jclisttab\tx1620\wrapdefault\aspalpha\aspnum\faauto\ls18\ilvl1\adjustright\rin0\lin1620\itap0\pararsid14502451 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7176190 Repaint the view port:\line this.repaint();}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9122935 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2838143 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2838143 {\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid2838143\charrsid2838143 Mouse }{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid2838143 
+Released}{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\ul\insrsid2838143\charrsid2838143  Event Processing
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2838143 This a}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3617182 lgorithm relates to mouseReleased}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2838143 
+( event ) algorithm of the ViewPort class. The next actions should be performed.
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid13308408 \hich\af1\dbch\af0\loch\f1 1.\tab}}\pard \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls20\adjustright\rin0\lin1080\itap0\pararsid2838143 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid13308408 Stop the dragging:\line this.setDragging( false );}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2838143 
+
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2838143 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 1.4\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 Component Class Overview
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af0\afs20 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid5132397\charrsid5132397 \hich\af1\dbch\af0\loch\f1 1.4.1\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid5132397 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397\charrsid5132397 com.topcoder.swing.birdseyeview}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397  Package}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397\charrsid5132397 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \b\insrsid5132397\charrsid5132397 BirdsEyeView:
+\par }\pard \ltrpar\s16\ql \li1440\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397 The main class of the component. Th}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid14052466 is is a JComponent child. It is}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397 
+ just a container for the ZoomPanel and there is some business logic: the input object (JComponent), view port, dimension and position of the input object view port are stored in this class. They are accessible through setters/getters. This class processe
+s mousePressed event - will center this component view port at the mouse cursor.
+\par Please note, the BirdsEyeView will be added as a child JComponent to the inputObject. So, the BirdsEyeView will be automatically updated when the parent InputObject changes. Th
+e paintComponent(...) method of this class will be called on any update of the input object. All calculations will be performed in that method.
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2491623\charrsid2491623 Please note, setting the properties of this class do not perform repainting of the control, because the efficiency is very important and several properties will be usually set (not just once).
+
+\par }\pard \ltrpar\s16\ql \li720\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \b\insrsid5132397\charrsid5132397 ViewPort:
+\par }\pard \ltrpar\s16\ql \li1440\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397\charrsid5132397 
+The view port of the birds eye view. This class represents the JComponent (just a simple rectangle), which will be shown over the birds eye view zoom panel and defin
+e the current view port. This is a zoomed view port related to the view port of the input object. It supports dragging by mouse and mouse press event is also processed }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5904456\charrsid5132397 - will}{\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid5132397\charrsid5132397  center this component view port at the mouse cursor. The view port has an opacity
+ from 0.0 (0%) to 1.0 (100%). This class will be automatically updated on any change in the ZoomPanel or BirdsEyeView JComponent, because it is a child of them. The paintComponent(...) method of this class will be called on any updates. All calculations w
+ill be performed in that method.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2491623  }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2491623\charrsid2491623 This class support }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5904456\charrsid2491623 registration}{\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid2491623\charrsid2491623  of the view port listeners, which will be called in the case when the input object view port position should be changed.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2491623\charrsid2491623 Please note, setting the properties of this class do not perform repainting of the control, because the efficiency is very important and several properties will be usually set (not just once).
+
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397 
+\par {\listtext\pard\plain\ltrpar \s3 \rtlch\fcs1 \ai\af0\afs20 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid5132397\charrsid5132397 \hich\af1\dbch\af0\loch\f1 1.4.2\tab}}\pard\plain \ltrpar\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0\pararsid5132397 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 \i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397\charrsid5132397 com.topcoder.swing.birdseyeview.event}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397  Package}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397\charrsid5132397 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \b\insrsid5132397\charrsid5132397 ViewPortListener}{\rtlch\fcs1 \af1 \ltrch\fcs0 \b\insrsid5132397  (interface)}{\rtlch\fcs1 \af1 \ltrch\fcs0 \b\insrsid5132397\charrsid5132397 :
+\par }\pard \ltrpar\s16\ql \li1440\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397\charrsid5132397 The listener interface for view port actions. This 
+interface defines a public contract for ViewPort listeners. It simply defines one method - viewPortMoved - to be consumed by external code. The manager of the input object should register for this viewPortMoved event to be notified when the view port has 
+moved over the zoom panel.
+\par }\pard \ltrpar\s16\ql \li720\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \b\insrsid5132397\charrsid5132397 ViewPortEvent:
+\par }\pard \ltrpar\s16\ql \li1440\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397\charrsid5132397 An event which indicates that }{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid5904456\charrsid5132397 a}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397\charrsid5132397  view port action occurred in a component. This is a simple data container class for storing information about view port. It has }{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid5904456\charrsid5132397 information}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397\charrsid5132397  about new coordinates of the input object view port.
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397\charrsid5132397 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 1.5\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 Component Exception Definitions
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\keepn\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \b\insrsid5132397\charrsid5132397 IllegalArgumentException:
+\par }\pard \ltrpar\s16\ql \li1440\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin1440\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397 This exception is for reporting }{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid5904456 wrong}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397  arguments data of method parameters. It can be thrown is argument is null, or has incorrect value.
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5132397 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397 
+\par No custom exceptions were defined, because this is a GUI control component and it is very simple.
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5132397\charrsid5132397 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 1.6\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 Thread Safety
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid9385291 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \lang1033\langfe1042\langfenp1042\insrsid9385291\charrsid10176387 This component is not thread-safe, because most of the classes in this component are mutable except the event class.}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\lang1033\langfe1042\langfenp1042\insrsid9385291  That event class is thread}{\rtlch\fcs1 \af1 \ltrch\fcs0 \lang1033\langfe1042\langfenp1042\insrsid5904456 -}{\rtlch\fcs1 \af1 \ltrch\fcs0 \lang1033\langfe1042\langfenp1042\insrsid9385291 
+safe because it is immutable.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \lang1033\langfe1042\langfenp1042\insrsid9385291\charrsid10176387  Thread-safety is not required. Like many other standard }{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\lang1033\langfe1042\langfenp1042\insrsid9385291 S}{\rtlch\fcs1 \af1 \ltrch\fcs0 \lang1033\langfe1042\langfenp1042\insrsid9385291\charrsid10176387 wing }{\rtlch\fcs1 \af1 \ltrch\fcs0 \lang1033\langfe1042\langfenp1042\insrsid4136469 components}{
+\rtlch\fcs1 \af1 \ltrch\fcs0 \lang1033\langfe1042\langfenp1042\insrsid9385291  and controls}{\rtlch\fcs1 \af1 \ltrch\fcs0 \lang1033\langfe1042\langfenp1042\insrsid9385291\charrsid10176387 
+, thread-safety should be cared by users. And there is one issue we want to discuss further. Event listeners list is used by both the ma
+in application thread (adding or removing listeners), and the event dispatching thread (using the listeners). This problem can be solved by listenerList field in JComponent, which is thread-safe. We add the listeners to th}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\lang1033\langfe1042\langfenp1042\insrsid9385291 at}{\rtlch\fcs1 \af1 \ltrch\fcs0 \lang1033\langfe1042\langfenp1042\insrsid9385291\charrsid10176387  list, so thread safe}{\rtlch\fcs1 \af1 \ltrch\fcs0 \lang1033\langfe1042\langfenp1042\insrsid9385291 ty}{
+\rtlch\fcs1 \af1 \ltrch\fcs0 \lang1033\langfe1042\langfenp1042\insrsid9385291\charrsid10176387  is not a problem here.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9385291 
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 2.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+Environment Requirements\tab \tab 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 2.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 Environment
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1042\langnp1033\langfenp1042\insrsid2887872 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls4\adjustright\rin0\lin1080\itap0\pararsid2887872 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\lang1033\langfe1042\langfenp1042\insrsid2887872 Development language: Java 1.5.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1042\langnp1033\langfenp1042\insrsid2887872 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \lang1033\langfe1042\langfenp1042\insrsid2887872 
+Compile target: Java 1.5.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2887872 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2887872 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2887872 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 2.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 TopCoder Software Components
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid15882013\charrsid1250482 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin1080\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\b\insrsid15882013\charrsid1250482 Zoom Panel 1.0}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15882013  \endash  }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15882013\charrsid15882013 
+component provides a Java Swing panel that performs zoom (and other kind of transformations) for another JComponent. It will transform the graphics of the original component to a certain zoom factor}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15882013 
+\par }\pard\plain \ltrpar\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ai\af0 \ltrch\fcs0 
+\i\insrsid2887872 
+\par }{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\insrsid3280102 NOTE: The default location for TopCoder Software component jars is../lib/tcs/COMPONENT_NAME/COMPONENT_VERSION relative to the component installation.}{\rtlch\fcs1 \ai\af0 \ltrch\fcs0 
+\i\cf1\insrsid3280102   Setting the tcs_libdir property in topcoder_global.properties will overwrite this default location.}{\rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f1\fs20\insrsid3280102 
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 2.3\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 Third Party Components
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid2887872 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin1080\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2887872 None.}{
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+\par }\pard\plain \ltrpar\s3\ql \li720\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx720\wrapdefault\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \ai\af1\afs20\alang1025 \ltrch\fcs0 
+\i\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf1\insrsid2887872 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \cf1\insrsid3280102 NOTE: The default location for 3}{\rtlch\fcs1 \af1 \ltrch\fcs0 \cf1\super\insrsid3280102 rd}{\rtlch\fcs1 \af1 \ltrch\fcs0 \cf1\insrsid3280102 
+ party packages is ../lib relative to this component installation.  Setting the ext_libdir property in topcoder_global.properties will overwrite this default location.
+\par }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid2887872 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid2887872\charrsid2887872 
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 3.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+Installation and Configuration
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 3.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 Package Name
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid462038 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid462038\charrsid462038 com.topcoder.swing.birdseyeview}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid462038  \endash  the package with the main classes of this component.
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid462038\charrsid462038 com.topcoder.swing.birdseyeview.event}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid462038  \endash  contains listener interface and the event data class.
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid462038\charrsid462038 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 3.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 Configuration Parameters
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid7940917 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid7940917 All the configuration properties of this component will be provided through the UIManager. They are shown on the next table.
+\par \ltrrow}\trowd \irow0\irowband0\ltrrow\ts20\trgaph108\trrh360\trleft720\trhdr\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblrsid6501367\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol\tblind828\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat17\cltxlrtb\clftsWidth3\clwWidth2676\clcbpatraw17 \cellx4371\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\clcbpat17\cltxlrtb\clftsWidth3\clwWidth2676\clcbpatraw17 \cellx6458\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat17\cltxlrtb\clftsWidth3\clwWidth2676\clcbpatraw17 \cellx8748
+\pard\plain \ltrpar\s16\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid7940917\yts20 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \b\insrsid7940917\charrsid7940917 Parameter\cell Description\cell Values\cell }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid7940917 \trowd \irow0\irowband0\ltrrow\ts20\trgaph108\trrh360\trleft720\trhdr\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr
+\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblrsid6501367\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol\tblind828\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat17\cltxlrtb\clftsWidth3\clwWidth2676\clcbpatraw17 \cellx4371\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\clcbpat17\cltxlrtb\clftsWidth3\clwWidth2676\clcbpatraw17 \cellx6458\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \clcbpat17\cltxlrtb\clftsWidth3\clwWidth2676\clcbpatraw17 \cellx8748\row \ltrrow
+}\trowd \irow1\irowband1\ltrrow\ts20\trgaph108\trrh360\trleft720\trkeep\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblrsid6501367\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol\tblind828\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx4371\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx6458\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx8748\pard\plain \ltrpar
+\s16\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid7940917\yts20 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid7940917\charrsid7940917 BirdsEyeView.overlayColor\cell }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7940917 The fill color of the view port.\cell }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9318375 Color.}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\b\i\insrsid9318375\charrsid9318375 Optional}{\rtlch\fcs1 \af1 \ltrch\fcs0 \b\i\insrsid7940917\charrsid9318375 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9318375 
+\par It can be absent/null \endash  means use the default color}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4147677  (gray)}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9318375 .\cell }\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid7940917 
+\trowd \irow1\irowband1\ltrrow\ts20\trgaph108\trrh360\trleft720\trkeep\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblrsid6501367\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol\tblind828\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx4371\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx6458\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx8748\row \ltrrow}\pard\plain \ltrpar
+\s16\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid7940917\yts20 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid7940917\charrsid7940917 BirdsEyeView.overlayBorderColor\cell }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7940917 The border color of the view port.\cell }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9318375 Color.}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\b\i\insrsid9318375\charrsid9318375 Optional}{\rtlch\fcs1 \af1 \ltrch\fcs0 \b\i\insrsid7940917\charrsid9318375 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9318375 
+\par It can be absent/null \endash  means use the default color}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4147677  (black)}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9318375 .\cell }\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid7940917 
+\trowd \irow2\irowband2\ltrrow\ts20\trgaph108\trrh360\trleft720\trkeep\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblrsid6501367\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol\tblind828\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx4371\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx6458\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx8748\row \ltrrow}\pard\plain \ltrpar
+\s16\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid7940917\yts20 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid4147677\charrsid7940917 BirdsEyeView.overlayBorder}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4147677 Thickness}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4147677\charrsid7940917 \cell }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4147677 
+The thickness (in pixels) of the view port border.\cell int.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \b\i\insrsid4147677\charrsid14705415 Optional}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4147677 
+\par 
+\par It should be 0 or greater. It can be absent \endash  means use the default value (1).\cell }\pard\plain \ltrpar\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid4147677 \trowd \irow3\irowband3\ltrrow\ts20\trgaph108\trrh360\trleft720\trkeep\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr
+\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblrsid6501367\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol\tblind828\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx4371\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx6458\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx8748\row \ltrrow}\pard\plain \ltrpar
+\s16\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\pararsid7940917\yts20 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid7940917\charrsid7940917 BirdsEyeView.overlayOpacity\cell }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7940917 The opacity value of the view port.\cell }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9318375 String.}{\rtlch\fcs1 \af1 \ltrch\fcs0 
+\b\i\insrsid9318375\charrsid9318375 Optional}{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\insrsid7940917\charrsid9318375 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9318375 
+\par Actually, this is double value to be parsed from the string. It should be from 0.0 to 1.0. It can be absent/null/empty string \endash  means use the default opacity (0.5).\cell }\pard\plain \ltrpar
+\ql \li0\ri0\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid7940917 
+\trowd \irow4\irowband4\lastrow \ltrrow\ts20\trgaph108\trrh360\trleft720\trkeep\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trautofit1\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblrsid6501367\tbllkhdrrows\tbllklastrow\tbllkhdrcols\tbllklastcol\tblind828\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl
+\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx4371\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx6458\clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2676\clshdrawnil \cellx8748\row }\pard\plain \ltrpar
+\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid7940917 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid7940917 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9318375 The configuration options can be retrieved like this:\line Color overlayColor = UIManager.getColor( \'93}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9318375\charrsid7940917 BirdsEyeView.overlayColor}{\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid9318375 \'94 );
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid7940917\charrsid7940917 
+\par {\*\bkmkstart _Dependencies_Configuration}{\*\bkmkend _Dependencies_Configuration}{\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 3.3
+\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 
+\b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 Dependencies Configuration
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid11941874 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid11941874 None.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid11941874 
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 4.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+Usage Notes
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 4.1\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 Required steps to test the component
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \ltrpar\s16\ql \fi-360\li1080\ri0\sa120\widctlpar
+\jclisttab\tx1080\wrapdefault\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin1080\itap0 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+Extract the component distribution.
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Follow }{\field\fldedit{\*\fldinst {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid11941874 
+HYPERLINK  \\l "_Dependencies_Configuration"}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2319792 {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b02000000080000001c0000005f0044006500700065006e00640065006e0063006900650073005f0043006f006e00660069006700750072006100740069006f006e00000000000000}}}{\fldrslt {\rtlch\fcs1 \af1 \ltrch\fcs0 \cs15\ul\cf2\insrsid3280102 
+Dependencies Configuration}}}\sectd \linex0\endnhere\sectlinegrid360\sectdefaultcl\sftnbj {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 .
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \loch\af3\dbch\af0\hich\f3 \'b7\tab}Execute \lquote ant test\rquote 
+ within the directory that the distribution was extracted to.
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid11941874 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid11941874 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 4.2\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 Required steps to use the component
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid11941874 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid11941874 None special.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid11941874 
+\par {\listtext\pard\plain\ltrpar \s2 \rtlch\fcs1 \ab\af0\afs20 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 4.3\tab}}\pard\plain \ltrpar\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\wrapdefault\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs20\alang1025 \ltrch\fcs0 \b\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 
+\insrsid3280102 Demo
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5390363 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid5390363 The graphical example of the birds eye view control is shown on the \'93docs\\}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5390363\charrsid5390363 BirdsEyeMockup.png}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5390363 \'94
+ file. It most likely to be used with the TC UML Tool. So, }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid1079250 the user scenario is as follows.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid1079250 First, let\rquote s create our birds eye view control:
+\par }\pard \ltrpar\s16\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5390363 {\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid5390363\charrsid9459270 // }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 
+\i\f2\fs18\cf11\insrsid11272339\charrsid9459270 Assume we have the b}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid5390363\charrsid9459270 ig class diagram, let\rquote s name it an input object
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid5390363 JComponent inputObject = some instance of the big control;
+\par 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid5390363\charrsid9459270 // The currently shown part of the input object has a size. We should use
+\par // that size with our birds eye view control
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid5390363 Dimension inputObjectViewDimension = new Dimension( 800, 600 ); 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid1079250 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid1079250\charrsid9459270 // The user can scroll the input object (for example, the big class 
+\par // diagram). The current location of the left-top origin of the currently 
+\par // shown part of the input object should be used with our birds eye view 
+\par // control
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid1079250 Point inputObjectViewPosition = new Point( 300, 200 );
+\par 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid1079250\charrsid9459270 // Finally \endash  create the birds eye view control
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid12913128 BirdsEyeView control = new BirdsEyeView( inputObject, inputObjectViewDimension, inputObjectViewPosition );}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid1079250 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid12913128\charrsid9459270 // From now on, the birds view control is created, registered as a child 
+\par // of the inputObject, registered to mouse events, and displayed.
+\par // Any changes in the inputObject (like change the entire size of the 
+\par // inputObject, change of the graphical data \endash  add/remove new class) \endash  
+\par // will be automatically displayed by the current control}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid5716092 .}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid12913128 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid5716092 // The user can manually change the size of our control and modify any
+\par // GUI related properties as for other JComponent controls}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid5716092\charrsid9459270 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5390363 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5390363 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14181732 
+The user can interact with the inputObject in his/her application. The most changes are automatically processed by our birds view control, but there are other special cases, where the external code should manually notify our control:}{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid5390363 
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid14181732 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ltrpar\s16\ql \fi-360\li1440\ri0\sa120\widctlpar
+\jclisttab\tx1440\wrapdefault\aspalpha\aspnum\faauto\ls24\adjustright\rin0\lin1440\itap0\pararsid14181732 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14181732 Change the size of t
+he input object view port (like the user can re-size the window of the input object view port). So, we should adjust the size of our control view port in this case.
+\par {\listtext\pard\plain\ltrpar \s16 \rtlch\fcs1 \af1\afs20 \ltrch\fcs0 \f3\fs20\lang1033\langfe1033\langnp1033\langfenp1033\insrsid4784665 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4784665 
+Change the position of the input object view port (like the user can scroll the input object). So, we should adjust the location of our control view port in this case.
+\par }\pard \ltrpar\s16\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid4784665 {\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid4784665 
+\par 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid4784665\charrsid12978532 // Set the new dimension of the input}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid5376425\charrsid12978532 Object}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 
+\i\f2\fs18\cf11\insrsid4784665\charrsid12978532  view port. The birds eye view 
+\par // control will update its own view port size to have proper value}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid9459270\charrsid12978532 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid7882814 control.setInputObjectViewDimension( new Dimension(640, 480) );}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid4784665 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid7882814\charrsid12978532 // Or another way:
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid7882814 {\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid5376425 control.getInputObjectViewDimension().setSize( 500, 400 );
+\par 
+\par }\pard \ltrpar\s16\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5376425 {\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid5376425\charrsid12978532 
+// Set the new position of the inputObejct view port. The birds eye view 
+\par // control will update its own view port position to have proper value
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid5376425 control.setInputObjectViewPosition( new Point(100, 150) );
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid5376425\charrsid12978532 // Or another way
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid5376425 control.getInputObjectViewPosition().setLocation( 90, 80 );
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid11156680 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid11156680\charrsid12978532 // If those updates were performed in the paintComponent(...) method of 
+\par // the input object, then no other actions are needed \endash  our birds eye 
+\par // view control will be updated automatically.
+\par //
+\par // In other case (if dimension and position were changed outside the 
+\par // paintComponent(...) method of the parent JComponent), then we should
+\par // manually redraw our control like this:}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid11156680 \line control.repaint();
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid7882814 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5376425 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5390363 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid12978532 Please note, the user can manipulate with our birds eye view control by mouse.
+}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14686013  For example, the user can drag the birds eye view port rectangle. Or any click outside the birds view port rectangle will center the view po
+rt at the mouse cursor. Of course, the input object view port should reflect those changes. In the case of TC UML Tool, the currently shown part of the class diagram should be moved accordingly. The birds eye view provides a simple and flexible mechanism 
+of notifications \endash  when the input object view port position should be changed (like scrolled). First of all, the external application should provide the concrete listener:}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9459270 
+\par }\pard \ltrpar\s16\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14686013 {\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid14686013\charrsid14686013 // Make the listener class
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid14686013 public class ChangeViewPortListener implements ViewPortListener
+\par \{
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid14686013\charrsid14686013     // Some internal fields, constructor(s), initialization, etc...
+\par 
+\par     // The event handler
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid14686013     public void viewPortMoved( ViewPortEvent event )
+\par     \{
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid14686013\charrsid14686013         // Retrieve the new coordinates of the view port
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid14686013         int x = event.getInputObjectViewX();
+\par         int y = event.getInputObjectViewY();
+\par 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid14686013\charrsid14686013         // Modify the input object view port by new x and y values.
+\par         // Some scrolling actions can be performed here
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid14686013     \}
+\par 
+\par \}}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid14686013\charrsid14686013 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5390363 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14970283 
+\par Please note, that listener action can be implemented inside some other class (like the manager of the input object).
+\par }\pard \ltrpar\s16\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid14970283 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14970283 Second, the concrete listener should be registered in our birds eye view control:
+\line }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid14970283\charrsid14970283 // Make an instance of the listener}{\rtlch\fcs1 \af1 \ltrch\fcs0 \i\cf11\insrsid14970283\charrsid14970283 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid14970283\charrsid14970283 ViewPortListener listener = new ChangeViewPortListener( );}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid4784665 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid14970283 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid14970283\charrsid14970283 // Register the listener to the birds eye view control
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid14970283 control.}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid15559979 getViewPort().}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid14970283 addViewPortListener( listener )}{\rtlch\fcs1 
+\af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid15147198 ;}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14970283 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5390363 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid4784665 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14970283 Now, the }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5464490 listener object will automatically get all the notifications of the required
+ position change for the input object. Please note, the event:ViewPortEvent object, provided to that listener, contains the proper new position for the input object view port. This is not the position of the birds eye view control view port, but the coord
+inates for the input object view port.}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14970283 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid5464490 Of course, the listener can be de-registered like this:
+\par }\pard \ltrpar\s16\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15559979 {\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid15559979\charrsid6453540 // De-register the view port listener
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid15559979 control.getViewPort().remo}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid15093667 veViewPortListener( listener );}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid15559979 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid15093667 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid15093667\charrsid6453540 // Or all the ViewPortListener instances can be easily removed
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid15093667 control.getViewPort().clearViewPortListener}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid15011362 s}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid15093667 ( );}{\rtlch\fcs1 
+\af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid15093667\charrsid15559979 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5390363 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid14970283 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid726502 Please note, the user has an ability to change the input object on-the-fly. For example, the user can switch from class diagram to the sequence diagram. The next actions are needed.}{\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid15559979 
+\par }\pard \ltrpar\s16\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid726502 {\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid726502\charrsid14836055 // Change to another input object
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid726502 control.setInputObject(another instance of the JComponent input object);
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid726502\charrsid14836055 // The next actions were performed in the previous call:
+\par // - the birds eye view was totally de-registered from the previous 
+\par //   inputObject.
+\par // - all the ViewPortListener instances were de-registered from the birds
+\par //   eye view control view port.
+\par // - the zoomPanel was updated with a new inputObject JComponent instance
+\par //}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid13452797\charrsid14836055  - the new inputObject was set to the internals of the bird eye view 
+\par //   control}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid726502\charrsid14836055 
+\par //}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid13452797\charrsid14836055  - the birds eye view control was registered as a child to the new 
+\par //   inputObject}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid726502\charrsid14836055 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid726502 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid13452797\charrsid14836055 // The input object view port position is most likely should be new, not
+\par // from the previous inputObject (for example, the sequence diagram can 
+\par // be scrolled to the different position than class diagram).
+\par // Set the new position of the input object view port
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid13452797 control.setInputObjectViewPosition( new Point(20, 40) );
+\par 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid13452797\charrsid14836055 // The size of the input object view port is most likely should NOT be 
+\par // new, but the same as from previous input object (for example, the 
+\par // shown part of the sequence diagram will be the same as of the previous
+\par // class diagram. So, no updating of the input object view part dimension 
+\par // is needed.
+\par //
+\par // But in the general cases, the user can set the new dimensions of the
+\par // input object view port like this:
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid13452797 control.setInputObjectViewDimension( new Dimension(1024, 768) );
+\par 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid13452797\charrsid14836055 // }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid7949362\charrsid14836055 Please note, the previous listener was removed, because in general 
+\par // case the new inputObject will be a totally different and we can not}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid13452797\charrsid14836055 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid7949362\charrsid14836055 // assume in our component that the user will ALWAYS use just one 
+\par // listener for all the changed input objects.}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid7949362 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid13715539 //}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid13715539\charrsid14836055 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid15147198\charrsid14836055 // So, the user have to manually register a new listener}{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid14836055\charrsid14836055  like this:}{\rtlch\fcs1 
+\af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid15147198\charrsid14836055 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid15147198 control.getViewPort().addViewPortListener( some another listener that implements the ViewPortListener interface );
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid726502\charrsid726502 
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5390363 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3413357 There is a special \'93opacity\'94
+ property in the viewPort part of our birds eye view control. It relates to the transparency of the birds eye view control view port. The }{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid2886387 transparency of the view port can be manually adjusted like this}{
+\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9068830  (of course, other opacity values (like 0.2, 0.123, and so on) can be applied)}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3413357 :}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid15559979 
+\par }\pard \ltrpar\s16\ql \li720\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid3413357 {\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid3413357\charrsid6958128 // Set the semi-transparent view port
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid3413357 client.getViewPort().setOpacity( 0.5 );
+\par 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid3413357\charrsid6958128 // Set the fully transparent view port
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid3413357 client.getViewPort().setOpacity( 0.0 );
+\par 
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \i\f2\fs18\cf11\insrsid3413357\charrsid6958128 // Set the solid (non-transparent) view port
+\par }{\rtlch\fcs1 \af2\afs18 \ltrch\fcs0 \f2\fs18\insrsid3413357 client.getViewPort().setOpacity( 1.0 );
+\par }\pard \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5390363 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid9459270 
+\par {\listtext\pard\plain\ltrpar \s1 \rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\lang1033\langfe1033\langnp1033\langfenp1033\insrsid3280102 \hich\af1\dbch\af0\loch\f1 5.\tab}}\pard\plain \ltrpar\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\wrapdefault\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+Future Enhancements
+\par }\pard\plain \ltrpar\s16\ql \li720\ri0\sa120\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid7493292 \rtlch\fcs1 \af1\afs20\alang1025 \ltrch\fcs0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 
+\af1 \ltrch\fcs0 \insrsid12732860 At some point in the future, the zoom level of the diagram may be tied to a resizable viewport overlay, so if the user resizes the viewport overlay to be bigger, the zoom panel being displayed
+ will have its zoom level set smaller, etc...}{\rtlch\fcs1 \af1 \ltrch\fcs0 \insrsid3280102 
+\par }}

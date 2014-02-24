@@ -1,0 +1,5 @@
+<Class1 name="Thread">
+	<Enumeration name="State" />
+</Class1>
+
+

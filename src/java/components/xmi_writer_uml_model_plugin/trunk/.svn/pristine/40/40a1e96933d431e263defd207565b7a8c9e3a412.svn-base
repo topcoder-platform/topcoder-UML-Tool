@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<CMConfig>
+  <!-- Sample configuration for ReflectedXMIDescription -->
+	<Config name="com.topcoder.uml.xmi.writer.transformers.model.xmidescription.ReflectedXMIDescription.stress">
+	  <!-- Below two elements' configuration is expected to be correct -->
+		<Property name="StressInterface">
+			  <Property name="excludedMethods">
+			    <Value>getExcluded</Value>
+			  </Property>
+			  <Property name="containedNodes">
+			    <Value>stressUMLBean</Value>
+			  </Property>
+		</Property>
+	</Config>
+	
+	<!-- Sample configuration for transformer -->
+	<Config name="com.topcoder.uml.xmi.writer.transformers.model.Model2XMITransformer">
+	  <!-- ignoreUnknownElementType flag, true/false, REQUIRED-->
+		<Property name="ignoreUnknownElementType">
+			<Value>true</Value>
+		</Property>
+		<!-- namespace to create object factory instance, REQUIRED -->
+		<Property name="objectFactory">
+			<Value>com.topcoder.uml.xmi.writer.transformers.model.ObjectFactory</Value>
+		</Property>
+		<!-- XMIDescription object name in objectFactory, REQUIRED -->
+		<Property name="xmiDescription">
+		  <Value>xmiDescriptionObject</Value>
+		</Property>
+	</Config>
+</CMConfig>

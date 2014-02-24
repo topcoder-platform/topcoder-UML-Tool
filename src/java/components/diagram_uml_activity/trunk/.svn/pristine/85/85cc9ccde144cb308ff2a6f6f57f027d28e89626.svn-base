@@ -1,0 +1,354 @@
+{\rtf1\ansi\ansicpg936\uc2\deff4\stshfdbch13\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe2052{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Palatino};}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial{\*\falt Arial};}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol{\*\falt Symbol};}{\f4\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Helvetica;}
+{\f13\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}\'cb\'ce\'cc\'e5{\*\falt SimSun};}{\f37\froman\fcharset0\fprq0{\*\panose 00000000000000000000}?????? Pro W3{\*\falt Times New Roman};}
+{\f38\fnil\fcharset134\fprq2{\*\panose 00000000000000000000}@\'cb\'ce\'cc\'e5;}{\f40\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Palatino};}{\f41\froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Palatino};}
+{\f43\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Palatino};}{\f44\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Palatino};}{\f45\froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Palatino};}
+{\f46\froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Palatino};}{\f47\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Palatino};}{\f48\froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Palatino};}
+{\f50\fswiss\fcharset238\fprq2 Arial CE{\*\falt Arial};}{\f51\fswiss\fcharset204\fprq2 Arial Cyr{\*\falt Arial};}{\f53\fswiss\fcharset161\fprq2 Arial Greek{\*\falt Arial};}{\f54\fswiss\fcharset162\fprq2 Arial Tur{\*\falt Arial};}
+{\f55\fswiss\fcharset177\fprq2 Arial (Hebrew){\*\falt Arial};}{\f56\fswiss\fcharset178\fprq2 Arial (Arabic){\*\falt Arial};}{\f57\fswiss\fcharset186\fprq2 Arial Baltic{\*\falt Arial};}{\f58\fswiss\fcharset163\fprq2 Arial (Vietnamese){\*\falt Arial};}
+{\f80\fswiss\fcharset238\fprq2 Helvetica CE;}{\f81\fswiss\fcharset204\fprq2 Helvetica Cyr;}{\f83\fswiss\fcharset161\fprq2 Helvetica Greek;}{\f84\fswiss\fcharset162\fprq2 Helvetica Tur;}{\f85\fswiss\fcharset177\fprq2 Helvetica (Hebrew);}
+{\f86\fswiss\fcharset178\fprq2 Helvetica (Arabic);}{\f87\fswiss\fcharset186\fprq2 Helvetica Baltic;}{\f88\fswiss\fcharset163\fprq2 Helvetica (Vietnamese);}{\f172\fnil\fcharset0\fprq2 SimSun Western{\*\falt SimSun};}
+{\f422\fnil\fcharset0\fprq2 @\'cb\'ce\'cc\'e5 Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red24\green0\blue164;\red40\green0\blue255;}{\stylesheet{
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\f4\hich\af4\dbch\af13\cgrid\langnp1033\langfenp1033\ulc1 \snext0 Normal;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\loch\f0\hich\af0\dbch\af13\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}}{\*\latentstyles\lsdstimax156\lsdlockeddef1}
+{\*\rsidtbl \rsid353993\rsid735109\rsid2260315\rsid2649882\rsid3892158\rsid4923715\rsid7959508\rsid8083414\rsid13841703}{\*\generator Microsoft Word 11.0.6359;}{\info{\title Diagram UML Activity Elements 1}{\author bryan}{\operator  }
+{\creatim\yr2007\mo3\dy1\hr15\min51}{\revtim\yr2007\mo3\dy27\hr3\min50}{\version6}{\edmins37}{\nofpages8}{\nofwords2286}{\nofchars13034}{\*\company THU}{\nofcharsws15290}{\vern24703}}
+\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0 \facingp\ftnbj\aenddoc\hyphcaps0\hyphauto1\horzdoc\dghspace0\dgvspace0\dghorigin0\dgvorigin0\dghshow0\dgvshow0
+\jexpand\viewkind1\viewscale100\splytwnine\ftnlytwnine\htmautsp\useltbaln\alntblind\lytcalctblwd\lyttblrtgr\lnbrkrule\nobrkwrptbl\snaptogridincell\allowfieldendsel\wrppunct\asianbrkrule\nojkernpunct\rsidroot3892158\newtblstyruls\nogrowautofit \fet0
+{\*\ftnsep \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\af4\hich\af4\dbch\af13\cgrid\langnp1033\langfenp1033\ulc1 {\insrsid3892158 \chftnsep 
+\par }}{\*\ftnsepc \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\af4\hich\af4\dbch\af13\cgrid\langnp1033\langfenp1033\ulc1 {\insrsid3892158 \chftnsepc 
+\par }}{\*\aftnsep \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\af4\hich\af4\dbch\af13\cgrid\langnp1033\langfenp1033\ulc1 {\insrsid3892158 \chftnsep 
+\par }}{\*\aftnsepc \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\af4\hich\af4\dbch\af13\cgrid\langnp1033\langfenp1033\ulc1 {\insrsid3892158 \chftnsepc 
+\par }}\sectd \linex0\footery864\endnhere\sectdefaultcl\sftnbj {\headerl \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\af4\hich\af4\dbch\af13\cgrid\langnp1033\langfenp1033\ulc1 {
+\insrsid3892158 
+\par }}{\headerr \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\af4\hich\af4\dbch\af13\cgrid\langnp1033\langfenp1033\ulc1 {\insrsid3892158 
+\par }}{\footerl \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\af4\hich\af4\dbch\af13\cgrid\langnp1033\langfenp1033\ulc1 {\insrsid3892158 
+\par }}{\footerr \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\af4\hich\af4\dbch\af13\cgrid\langnp1033\langfenp1033\ulc1 {\insrsid3892158 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang 
+{\pntxta \dbch )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}
+{\pntxta \dbch )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}\pard\plain \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar
+\tx720\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 \fs24\cf1\lang1033\langfe1033\loch\af4\hich\af4\dbch\af13\cgrid\langnp1033\langfenp1033\ulc1 {\b\f1\fs28\ul\insrsid3892158 \hich\af1\dbch\af13\loch\f1 
+Diagram UML Activity Elements 1.0 Component Specification
+\par }\pard \ql \li720\ri720\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\insrsid3892158 
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx360\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\insrsid3892158 \hich\af1\dbch\af13\loch\f1 1.\tab Design
+\par }\pard \ql \li720\ri720\sa120\sl240\slmult0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 
+The Diagram UML Activity Elements component provides the graphical diagram elements and edges representing the model elements specific to an activity diagram.
+\par \hich\af1\dbch\af13\loch\f1 This design depends on sever\hich\af1\dbch\af13\loch\f1 al other components that are still under design, so it may be updated and modified in the final fix phase.
+\par \hich\af1\dbch\af13\loch\f1 There are 11 nodes and 1 edges in this components, the nodes are similar in most b}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 e}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 
+havior and only different in something like shape, so two abstract\hich\af1\dbch\af13\loch\f1  super class are a}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 b}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 
+stracted to provide the common logic and let the individual nodes do the different details.
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 1.1\tab Design Patterns 
+\par }\pard \ql \li720\ri720\sa120\sl240\slmult0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 Observer Pattern }{\fs20\loch\af1\hich\af37\insrsid3892158 \loch\af1\hich\af37\dbch\f13 
+\'a3\'ad}{\fs20\loch\af1\hich\af37\insrsid3892158 \hich\af37\dbch\af13\loch\f1  System events are listened in this component, and also custom events are triggered for application to lis\hich\af37\dbch\af13\loch\f1 ten. 
+\par }{\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 Strategy pattern }{\fs20\loch\af1\hich\af37\insrsid3892158 \loch\af1\hich\af37\dbch\f13 \'a3\'ad}{\fs20\loch\af1\hich\af37\insrsid3892158 \hich\af37\dbch\af13\loch\f1 
+ The define of the concrete node classes can be regard as strat}{\fs20\loch\af1\hich\af37\insrsid3892158 \hich\af37\dbch\af13\loch\f1 e}{\fs20\loch\af1\hich\af37\insrsid3892158 \hich\af37\dbch\af13\loch\f1 gies.
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 1.2\tab Industry Standards 
+\par }\pard \ql \li720\ri720\sa120\sl240\slmult0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 JFC/Swing
+\par \hich\af1\dbch\af13\loch\f1 UML 2.0 Diagram Interchange
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 1.3\tab Required Algorithms
+\par }\pard \ql \li720\ri720\sa120\sl240\slmult0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 This component has no complex algorithm, only some straightforward initializ
+\hich\af1\dbch\af13\loch\f1 ations r}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 e}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 lated, and the way to render the node and edge should be chose with some consideration.
+\par \hich\af1\dbch\af13\loch\f1 1.3.1 Build the structure of the GraphNode for InitialNode, ForkNode, JoinNode, Dec}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 i}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 
+sionNode, MergeNode, FlowFinalNode and FinalNode, the structure should be i\hich\af1\dbch\af13\loch\f1 n this form:
+\par \hich\af1\dbch\af13\loch\f1 Uml1SemanticModelBridge.element = <UML:Pseudostate>
+\par \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "StereotypeCompartment"
+\par \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "Name"
+\par }{\insrsid3892158 
+\par }{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 The structure of StereotypeCompartment should be in this form:
+\par \hich\af1\dbch\af13\loch\f1 SimpleSemanticMode\hich\af1\dbch\af13\loch\f1 lElement.typeInfo = " StereotypeCompartment"
+\par \tab \hich\af1\dbch\af13\loch\f1 \hich\f1 [SimpleSemanticModelElement.typeInfo = \'93\loch\f1 KeywordMetaclass" - For interface...]
+\par \tab \hich\af1\dbch\af13\loch\f1 \hich\f1 SimpleSemanticModelElement.typeInfo = \'93\loch\f1 StereotypeStart"
+\par \tab \hich\af1\dbch\af13\loch\f1 Uml1SemanticModelBridge.element = <UML:Stereotype>
+\par \tab \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelEl\hich\af1\dbch\af13\loch\f1 ement.typeInfo = "Name"
+\par \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "StereotypeSeparator"
+\par \tab \hich\af1\dbch\af13\loch\f1 Uml1SemanticModelBridge.element = <UML:Stereotype>
+\par \tab \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "Name"
+\par \tab \hich\af1\dbch\af13\loch\f1 Repeat...
+\par \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "StereotypeEnd"
+\par }{\insrsid3892158 
+\par }{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 The b\hich\af1\dbch\af13\loch\f1 uilding process should be as follow steps:
+\par \tab \hich\af1\dbch\af13\loch\f1 1. Create instances of GraphNode as the structure described, and make the rel}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 a}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 
+tionships by calling method Node#addContained()
+\par \tab \hich\af1\dbch\af13\loch\f1 2. Create instances of SemanticModelBridge, they could be either instances of Uml1Sem\hich\af1\dbch\af13\loch\f1 
+anticModelBridge or instances of SimpleSemanticModelElement, then set them to the corresponding GraphNode by calling method Node#setElement().
+\par }{\insrsid3892158 
+\par }{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 1.3.2 Build the structure of the GraphNode for ObjectFlowNode, ActionState, SendSi}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 g}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 
+nalAction and AcceptEventActi\hich\af1\dbch\af13\loch\f1 on, the structure should be in this form:
+\par \hich\af1\dbch\af13\loch\f1 Uml1SemanticModelBridge.element = <UML:ObjectFlowNode>
+\par \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "NameCompartment"
+\par \tab \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "NameAndType"
+\par \tab \tab \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "Name"
+\par \tab \tab \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "TypeSeparator"
+\par \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 Uml1SemanticModelBridge.element = <UML:Class> (a Classifier)
+\par \tab \tab \tab \tab \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "Name"
+\par \hich\af1\dbch\af13\loch\f1 The process should be similar with 1.3.1.
+\par }{\insrsid3892158 
+\par }{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 1.3.3 Build the structure of the GraphEdg\hich\af1\dbch\af13\loch\f1 e for Transition, the structure should be in the form:
+\par \hich\af1\dbch\af13\loch\f1 Uml1SemanticModelBridge.element = <UML:Transition>
+\par \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "Name"
+\par \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "TransitionDescription"
+\par \tab \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "\hich\af1\dbch\af13\loch\f1 GuardStart"
+\par \tab \tab \hich\af1\dbch\af13\loch\f1 Uml1SemanticModelBridge.element = <UML:Guard>
+\par \tab \tab \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "Name"
+\par \tab \tab \hich\af1\dbch\af13\loch\f1 or SimpleSemanticModelElement.typeInfo = "NullGuard"
+\par \tab \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "GuardEnd"
+\par \tab \hich\af1\dbch\af13\loch\f1 SimpleSemanticModelElement.typeInfo = "St\hich\af1\dbch\af13\loch\f1 ereotypeCompartment"
+\par \hich\af1\dbch\af13\loch\f1 The process should be similar with 1.3.1.
+\par \hich\af1\dbch\af13\loch\f1 The <UML:Transition> should be an instance of com.topcoder.uml.model.statemachines.Transition.
+\par }{\insrsid3892158 
+\par }{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 1.3.4 Render the nodes and edges
+\par \hich\af1\dbch\af13\loch\f1 Most of the nodes and edges in this component have a irregular s\hich\af1\dbch\af13\loch\f1 hape, so there are two method to do the rendering, one is define an array that contains each point\hich\f1 \rquote \loch\f1 
+s graphics i}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 n}{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 
+formation, another is using a image such as a GIF file to render the shape. The developer can choose any method to implement the rendering proce\hich\af1\dbch\af13\loch\f1 ss.
+\par }{\insrsid3892158 
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 1.4\tab Component Class Overview
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 BaseNode (abstract class)}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This class is the base Node of this component, it defines the common b}{\f0\insrsid3892158 
+\hich\af0\dbch\af13\loch\f0 e}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 haviors of all nodes in this component.
+\par \hich\af0\dbch\af13\loch\f0 It contains four properties: fill color, stroke color, font color, and font. (JComponent#setFont and getFont methods are reused to support the font pro}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 p}{\f0\insrsid3892158 
+\hich\af0\dbch\af13\loch\f0 erty.).
+\par \hich\af0\dbch\af13\loch\f0 It implements the MouseListener to react to a mouse double-click event, by showing the edit cont\hich\af0\dbch\af13\loch\f0 rol of the DiagramViewer in order to edit the name of the node.
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 InitialNode}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 
+This class represents the initial node in the activity diagram, it extends the BaseNode to share the common initialization and operation, \hich\af0\dbch\af13\loch\f0 but overrides the methods to provide its own rendering and structure.
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 ObjectFlowNode}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This class is a concrete Node. It takes its information from the Objec}{\f0\insrsid3892158 
+\hich\af0\dbch\af13\loch\f0 t}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 FlowNode from the UML Model and from the GraphNode associa\hich\af0\dbch\af13\loch\f0 
+ted with it, it extends the BaseNode to share the common initialization and operation, but ove}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 r}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 rides the methods to provide its own rendering and structure.
+
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 ActionState}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This class is a concrete Node. It takes its i\hich\af0\dbch\af13\loch\f0 
+nformation from the ActionState from the UML Model and from the GraphNode associated with it, it extends the BaseNode to share the common initialization and operation, but overrides the methods to provide its own rendering and structure.
+\par \hich\af0\dbch\af13\loch\f0 This class is muta\hich\af0\dbch\af13\loch\f0 ble, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 SendSignalAction}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This class is a concrete Node. It takes its information from the }{
+\f0\cf6\lang1033\langfe2052\langfenp2052\insrsid2260315\charrsid13841703 \hich\af0\dbch\af13\loch\f0 Simple}{\f0\cf6\insrsid2260315\charrsid13841703 \hich\af0\dbch\af13\loch\f0 State}{\f0\insrsid2260315 \hich\af0\dbch\af13\loch\f0  }{\f0\insrsid3892158 
+\hich\af0\dbch\af13\loch\f0 with a tag definition attached (TagDefinition("SendSignalAction").value="True") from the UML Model and from the GraphNode associated with \hich\af0\dbch\af13\loch\f0 
+it, it extends the BaseNode to share the common initialization and operation, but overrides the methods to provide its own rendering and structure.
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 AcceptEventAction}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This class is a concrete Node. It takes its info\hich\af0\dbch\af13\loch\f0 rmation from the }{
+\f0\cf6\lang1033\langfe2052\langfenp2052\insrsid2260315\charrsid13841703 \hich\af0\dbch\af13\loch\f0 Simple}{\f0\cf6\insrsid2260315\charrsid13841703 \hich\af0\dbch\af13\loch\f0 State}{\f0\insrsid2260315 \hich\af0\dbch\af13\loch\f0  }{\f0\insrsid3892158 
+\hich\af0\dbch\af13\loch\f0 with a tag definition attached (TagDefinition("AcceptEventAction").value="True") from the UML Model and from the GraphNode associated with it, it extends the BaseNode to share the common initialization and operation, but overri
+\hich\af0\dbch\af13\loch\f0 des the methods to provide its own rendering and structure.
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 ForkNode}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 
+This class is a concrete Node. It takes its information from the Pseudostate with the kind equal to Pseudostate.FORK from the UML Model and from \hich\af0\dbch\af13\loch\f0 the GraphNode associated with it, it extends the BaseNode to share the common in}{
+\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 i}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 tialization and operation, but overrides the methods to provide its own rendering and structure.
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 JoinNode}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This class is a concrete No\hich\af0\dbch\af13\loch\f0 
+de. It takes its information from the Pseudostate with the kind equal to Pseudostate.JOIN from the UML Model and from the GraphNode associated with it, it extends the BaseNode to share the common in}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 i}{
+\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 tialization and operation, but overrides the methods to p\hich\af0\dbch\af13\loch\f0 rovide its own rendering and structure.
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 DecisionNode}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 
+This class is a concrete Node. It takes its information from the Pseudostate with the kind equal to Pseudostate.CHOICE from the UML Model and from the GraphNode associated with it, it extends the BaseNode to share the common in}{\f0\insrsid3892158 
+\hich\af0\dbch\af13\loch\f0 i}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 tialization and operation, b\hich\af0\dbch\af13\loch\f0 ut overrides the methods to provide its own rendering and structure.
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 MergeNode}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 
+This class is a concrete Node. It takes its information from the Pseudostate with the kind equal to Pseudostate.JUNCTION from the UML M\hich\af0\dbch\af13\loch\f0 
+odel and from the GraphNode associated with it, it extends the BaseNode to share the common initialization and operation, but overrides the methods to provide its own rende}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 r}{\f0\insrsid3892158 
+\hich\af0\dbch\af13\loch\f0 ing and structure.
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 FlowFinalNode}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This cla\hich\af0\dbch\af13\loch\f0 
+ss is a concrete Node. It takes its information from the FinalState with a tag definition attached (TagDefin}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 i}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 
+tion("FinalNodeType").value="FlowFinalNode") from the UML Model and from the GraphNode associated with it, it extends the BaseNode to share the com\hich\af0\dbch\af13\loch\f0 
+mon initialization and operation, but overrides the methods to provide its own rende}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 r}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 ing and structure.
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 FinalNode}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This class is a concrete Node. It takes its information from the FinalState from the UML Model and f
+\hich\af0\dbch\af13\loch\f0 rom the GraphNode associated with it, it extends the BaseNode to share the common initialization and operation, but overrides the methods to provide its own rendering and structure.
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 Transition}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This class is a concr\hich\af0\dbch\af13\loch\f0 
+ete Edge, it will be shown as a line (continuous in general with the exception that when it is connected to an ObjectFlowNode is is a dashed line).
+\par \hich\af0\dbch\af13\loch\f0 It contains three TextField fields to represent name, description and stere}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 o}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 type compartment.
+\par \hich\af0\dbch\af13\loch\f0 This class is \hich\af0\dbch\af13\loch\f0 mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 TextField}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This class represents pure text compartment of Node or Edge.
+\par \hich\af0\dbch\af13\loch\f0 It could be used to represent name compartment, stereotype compartment and etc.
+\par \hich\af0\dbch\af13\loch\f0 Text field would be displayed as pure text with font and color inherited form\hich\af0\dbch\af13\loch\f0  parent node or edge.
+\par \hich\af0\dbch\af13\loch\f0 There is no decorator around or on the text.
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 EllipseConnector}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This clas is the connector used to connect to a Node whose shape is ellipse.
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 RectangleCon\hich\af0\dbch\af13\loch\f0 nector}{\f0\insrsid3892158 
+\hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This clas is the connector used to connect to a Node whose shape is re}{\f0\insrsid3892158 
+\hich\af0\dbch\af13\loch\f0 c}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 tangle.
+\par \hich\af0\dbch\af13\loch\f0 This class is mutable, not thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 [event sub-package]}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 TextChangedListener (interface)}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This interface provides a mechanism to let the application \hich\af0\dbch\af13\loch\f0 
+be notified when the text compartment (instance of TextField) of the nodes is changed, there is only one method in this class and it will be called to process the name changed event, the implementation should change the TextField's text to the new one by 
+\hich\af0\dbch\af13\loch\f0 c\hich\af0\dbch\af13\loch\f0 alling the method setText().
+\par \hich\af0\dbch\af13\loch\f0 The implementation is not required to be thread safe.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 TextChangedEvent}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 Encapsulates the related information when changing a Node's compar}{\f0\insrsid3892158 
+\hich\af0\dbch\af13\loch\f0 t}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 ment, the Node property can be retrieved by getSource(), and the GraphNode can be retri\hich\af0\dbch\af13\loch\f0 eved from the Node.
+\par \hich\af0\dbch\af13\loch\f0 This class is immutable so is thread safe.
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 1.5\tab Component Exception Definitions}{\f0\insrsid3892158 
+\hich\af0\dbch\af13\loch\f0 e.
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f0\insrsid3892158 \tab }{\b\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 IllegalGraphElementException}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li0\ri720\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\f1\fs20\insrsid3892158 \tab }{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This exception is used to indicate some GraphNode or GraphEdge is ill}{
+\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 e}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 gal in specific situation. For example, a }{\f0\cf6\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid13841703 \hich\af0\dbch\af13\loch\f0 ActionState}
+{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0  GraphNode is given to }{\f0\cf6\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid13841703 \hich\af0\dbch\af13\loch\f0 Initial}{\f0\cf6\insrsid3892158\charrsid13841703 \hich\af0\dbch\af13\loch\f0 
+Node}{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0  constructor. It could be thrown when retrieving graph information from GraphNode or GraphEdge. 
+\par \tab \hich\af0\dbch\af13\loch\f0 Because this exception may be thrown in many places of application, we make it as a runtime exception. The other reason is that this exception can never happen in normal usage. 
+\par }{\insrsid3892158 
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 1.6\tab Thread Safety
+\par }\pard \ql \li720\ri720\sa120\sl240\slmult0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 This component is not thread safe since most of the classes\hich\af0\dbch\af13\loch\f0 
+ in this component are mutable except the event classes. So thread-safety should be cared by users just like other standard swing components.
+\par \hich\af0\dbch\af13\loch\f0 And there is one issue should be noticed, event listeners list is used by both the main application thread (adding\hich\af0\dbch\af13\loch\f0 
+ or removing listeners), and the event dispatching thread (using the listeners). This problem can be solved by listenerList field in JComponent, which is thread-safe. The listeners is added to the list, so thread safety is not a problem here.
+\par \hich\af0\dbch\af13\loch\f0 However, if t\hich\af0\dbch\af13\loch\f0 
+his component is used in a multi-threaded environment, e.g., there are several worker threads to complete some kind of task; it will not cause any problems as long as the threads have no access to the state of this component, or all the request is posted 
+\hich\af0\dbch\af13\loch\f0 v\hich\af0\dbch\af13\loch\f0 ia the event-dispatcher. Please refer to the javadoc of SwingUtilities class for how to do this.
+\par \hich\af0\dbch\af13\loch\f0 If we really want to achieve thread safety of this component, despite this strongly opposed, we only need to make synchronization around the API that has acces\hich\af0\dbch\af13\loch\f0 
+s to the states to achieve thread safety.
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx360\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\insrsid3892158 \hich\af1\dbch\af13\loch\f1 2.\tab Environment Requirements\tab \tab 
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 2.1\tab Environment
+\par }\pard \ql \fi-360\li1080\ri720\widctlpar\tx1080\aspalpha\aspnum\faauto\adjustright\rin720\lin1080\itap0 {\f3\insrsid3892158 \loch\af3\dbch\af13\hich\f3 \'95\tab }{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 
+At minimum, Java1.5 is required for compilation and executing test cases.
+\par }{\f3\insrsid3892158 \loch\af3\dbch\af13\hich\f3 \'95\tab }{\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 Java 1.5 or higher.
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 2.2\tab TopCoder Software Components
+\par }\pard \ql \li0\ri0\widctlpar\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\insrsid3892158 \tab \bullet \tab }{\f1\cf6\insrsid3892158\charrsid13841703 
+\hich\af1\dbch\af13\loch\f1 Base Exception 1.0 was used to provide a base exception for custom exce}{\f1\cf6\insrsid3892158\charrsid13841703 \hich\af1\dbch\af13\loch\f1 p}{\f1\cf6\insrsid3892158\charrsid13841703 \hich\af1\dbch\af13\loch\f1 tions.
+\par \tab \bullet \tab }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid2260315\charrsid13841703 \hich\af1\dbch\af13\loch\f1 UML Model Core 1.0 }{\f1\cf6\insrsid3892158\charrsid13841703 \hich\af1\dbch\af13\loch\f1 was used to provide }{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid2260315\charrsid13841703 \hich\af1\dbch\af13\loch\f1 UML Model element}{\f1\cf6\insrsid3892158\charrsid13841703 \hich\af1\dbch\af13\loch\f1 .
+\par }\pard \ql \li0\ri0\widctlpar\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid2260315 {\f1\cf6\insrsid3892158\charrsid13841703 \tab \bullet \tab }{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid2260315\charrsid13841703 \hich\af1\dbch\af13\loch\f1 UML Model State Machines}{\f1\cf6\insrsid3892158\charrsid13841703 \hich\af1\dbch\af13\loch\f1  1.0 was used to provide }{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid2260315\charrsid13841703 \hich\af1\dbch\af13\loch\f1 UML Model element}{\f1\cf6\insrsid3892158\charrsid13841703 \hich\af1\dbch\af13\loch\f1 .}{\f1\cf6\insrsid2260315\charrsid13841703 
+\hich\af1\dbch\af13\loch\f1  
+\par }\pard \ql \li0\ri0\widctlpar\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid353993 {\f1\cf6\insrsid2260315\charrsid13841703 \tab \bullet \tab }{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid2260315\charrsid13841703 \hich\af1\dbch\af13\loch\f1 UML}{\f1\cf6\insrsid2260315\charrsid13841703 \hich\af1\dbch\af13\loch\f1  }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid2260315\charrsid13841703 
+\hich\af1\dbch\af13\loch\f1 Model Activity Graphs}{\f1\cf6\insrsid2260315\charrsid13841703 \hich\af1\dbch\af13\loch\f1  1.0 was used to\hich\af1\dbch\af13\loch\f1  provide }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid2260315\charrsid13841703 
+\hich\af1\dbch\af13\loch\f1 UML Model element}{\f1\cf6\insrsid2260315\charrsid13841703 \hich\af1\dbch\af13\loch\f1 .}{\f1\cf6\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1  }{\f1\cf6\insrsid353993\charrsid13841703 
+\par \tab \bullet \tab }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 UML}{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1  }{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 Model \hich\af1\dbch\af13\loch\f1 Core }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1 R}{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1 elationships}{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 1.0 }{
+\f1\cf6\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 was used to provide }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 UML Model el}{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 e}{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 ment}{\f1\cf6\insrsid353993\charrsid13841703 
+\hich\af1\dbch\af13\loch\f1 .
+\par \tab \bullet \tab }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 UML Model }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1 D}{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1 ata}{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1  \hich\af1\dbch\af13\loch\f1 T}{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1 ypes}{\f1\cf6\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1  1.0 was used to provide }{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 UML Model element}{\f1\cf6\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 .\hich\af1\dbch\af13\loch\f1  
+\par \tab \bullet \tab }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 UML}{\f1\cf6\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1  }{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 Model }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1 C}{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1 ommon}{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1  \hich\af1\dbch\af13\loch\f1 B}{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1 ehavior}{\f1\cf6\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1  1.0 was used to\hich\af1\dbch\af13\loch\f1  provide }{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 UML Model element}{\f1\cf6\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 .}{\f1\cf6\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1  
+}{\f1\cf6\insrsid353993\charrsid13841703 
+\par }\pard \ql \li0\ri0\widctlpar\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid2260315 {\f1\cf6\insrsid353993\charrsid13841703 \tab \bullet \tab }{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 UML}{\f1\cf6\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1  }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 
+\hich\af1\dbch\af13\loch\f1 Model }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1 C}{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1 ore}{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1  \hich\af1\dbch\af13\loch\f1 E}{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1 xtension}{
+\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1  \hich\af1\dbch\af13\loch\f1 M}{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1 echanisms}{
+\f1\cf6\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1  1.0 was used to\hich\af1\dbch\af13\loch\f1  provide }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 UML Model element}{
+\f1\cf6\insrsid353993\charrsid13841703 \hich\af1\dbch\af13\loch\f1 .}{\f1\cf6\insrsid3892158\charrsid13841703 
+\par }\pard \ql \li0\ri0\widctlpar\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\f1\cf6\insrsid3892158\charrsid13841703 \tab \bullet \tab \hich\af1\dbch\af13\loch\f1 
+Diagram Elements 1.0 was used to provide class Node and NodeContainer.
+\par \tab \bullet \tab \hich\af1\dbch\af13\loch\f1 Diagram Edges 1.0 was used to provide class Edge.
+\par \tab \bullet \tab \hich\af1\dbch\af13\loch\f1 UML Model }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid2260315\charrsid13841703 \hich\af1\dbch\af13\loch\f1 Core Classifier}{\f1\cf6\insrsid3892158\charrsid13841703 \hich\af1\dbch\af13\loch\f1 
+ 1.0 was used to provide UML Model }{\f1\cf6\lang1033\langfe2052\langfenp2052\insrsid2260315\charrsid13841703 \hich\af1\dbch\af13\loch\f1 element}{\f1\cf6\insrsid3892158\charrsid13841703 \hich\af1\dbch\af13\loch\f1 .
+\par \tab \bullet \tab \hich\af1\dbch\af13\loch\f1 UML Diagram Interchange 1.0 was used to provide UML diagram inte}{\f1\cf6\insrsid3892158\charrsid13841703 \hich\af1\dbch\af13\loch\f1 r}{\f1\cf6\insrsid3892158\charrsid13841703 \hich\af1\dbch\af13\loch\f1 
+change data structure.
+\par }\pard \ql \li720\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\i\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 
+NOTE: The default location for TopCoder Software component jars is../lib/tcs/COMPONENT_NAME/COMPONENT_VERSION relative to the co}{\i\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 m}{\i\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 
+ponent installation.  Setting the tcs_l\hich\af0\dbch\af13\loch\f0 ibdir property in to}{\i\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 p}{\i\f0\insrsid3892158 \hich\af0\dbch\af13\loch\f0 coder_global.properties will overwrite this default location.
+
+\par }\pard \ql \li720\ri720\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\insrsid3892158 
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 2.3\tab Third Party Components
+\par }\pard \ql \fi-360\li1080\ri720\sa120\widctlpar\tx1080\aspalpha\aspnum\faauto\adjustright\rin720\lin1080\itap0 {\f3\fs20\insrsid3892158 \loch\af3\dbch\af13\hich\f3 \'95\tab }{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 JUnit : 3.8.2 : }
+{\field{\*\fldinst {\insrsid3892158 \hich\af4\dbch\af13\loch\f4  HYPERLINK "http://www.junit.org" }{\insrsid4923715 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b2a00000068007400740070003a002f002f007700770077002e006a0075006e00690074002e006f00720067000000000000}}}{\fldrslt {\f1\fs20\ul\cf17\ulc17\insrsid3892158 
+\hich\af1\dbch\af13\loch\f1 http://www.junit.org}}}{\lang1033\langfe2052\langfenp2052\insrsid3892158 
+\par }{\f3\fs20\cf6\insrsid353993\charrsid353993 \loch\af3\dbch\af13\hich\f3 \'95\tab }{\f1\fs20\cf6\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1 J}{\f1\fs20\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid353993 
+\hich\af1\dbch\af13\loch\f1 FC}{\f1\fs20\cf6\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1 Unit}{\f1\fs20\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1  }{
+\cf6\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid353993 
+\par }\pard \ql \li720\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx720\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\i\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 NOTE: The default location for 3}{\i\f1\fs20\super\insrsid3892158 
+\hich\af1\dbch\af13\loch\f1 rd}{\i\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1  party packages is ../lib rela\hich\af1\dbch\af13\loch\f1 tive to this component i}{\i\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 n}{\i\f1\fs20\insrsid3892158 
+\hich\af1\dbch\af13\loch\f1 sta\hich\af1\dbch\af13\loch\f1 l\hich\af1\dbch\af13\loch\f1 lation.  Setting the ext_libdir property in topcoder_global.properties will overwrite this default location.
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx360\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\insrsid3892158 \hich\af1\dbch\af13\loch\f1 3.\tab Installation and Configuration
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 3.1\tab Package Name
+\par }\pard \ql \li720\ri720\sa120\sl240\slmult0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 com.topcoder.gui.diagramviewer.uml.activityelements
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 3.2\tab Configurati\hich\af1\dbch\af13\loch\f1 on Parameters}{\f1\fs20\insrsid3892158 
+\tab \hich\af1\dbch\af13\loch\f1 No configuration.
+\par }{\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 3.3\tab Dependencies Configuration
+\par }\pard \ql \li720\ri720\sa120\sl240\slmult0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 None needed.
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx360\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\insrsid3892158 \hich\af1\dbch\af13\loch\f1 4.\tab Usage Notes
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 4.1\tab Required steps to test the component
+\par }\pard \ql \fi-360\li1080\ri720\sa120\widctlpar\tx1080\aspalpha\aspnum\faauto\adjustright\rin720\lin1080\itap0 {\f3\fs20\insrsid3892158 \loch\af3\dbch\af13\hich\f3 \'95\tab }{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 
+Extract the component distribution.
+\par }{\f3\fs20\insrsid3892158 \loch\af3\dbch\af13\hich\f3 \'95\tab }{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 Follow }{\f1\fs20\ul\cf18\ulc18\insrsid3892158 \hich\af1\dbch\af13\loch\f1 Dependencies Configuration}{\f1\fs20\insrsid3892158 
+\hich\af1\dbch\af13\loch\f1 .
+\par }{\f3\fs20\insrsid3892158 \loch\af3\dbch\af13\hich\f3 \'95\tab }{\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 Execute \hich\f1 \lquote \loch\f1 ant test\hich\f1 \rquote \hich\af1\dbch\af13\loch\f1 
+ within the directory that the distribution was extracted to.
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 4.2\tab Required steps to use the component
+\par }\pard \ql \li720\ri720\sa120\sl240\slmult0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 Nothing special.
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx0\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 4.3\tab Demo
+\par }\pard \ql \li720\ri720\sa120\sl240\slmult0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f1\fs20\cf11\insrsid3892158\charrsid8083414 \hich\af1\dbch\af13\loch\f1 1.}{
+\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid8083414 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\cf11\insrsid3892158\charrsid8083414 \hich\af1\dbch\af13\loch\f1 Create custom properties mappings:
+\par }\pard \ql \li720\ri720\sa120\sl240\slmult0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0\pararsid13841703 {\f1\fs20\cf11\insrsid13841703\charrsid8083414 \hich\af1\dbch\af13\loch\f1 
+Map<String, String> properties = new HashMap<String, String>();
+\par \hich\af1\dbch\af13\loch\f1 properties.\hich\af1\dbch\af13\loch\f1 put("FillColor", "fill_color");
+\par \hich\af1\dbch\af13\loch\f1 properties.put("StrokeColor", "stroke_color");
+\par \hich\af1\dbch\af13\loch\f1 properties.put("FontColor", "font_color");
+\par \hich\af1\dbch\af13\loch\f1 properties.put("FontFamily", "font_family");
+\par \hich\af1\dbch\af13\loch\f1 properties.put("FontStyle", "font_style");
+\par \hich\af1\dbch\af13\loch\f1 properties.put("FontSize", "font_size");}{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid8083414 
+\par }{\f1\fs20\lang1033\langfe2052\langfenp2052\insrsid13841703 
+\par }{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid8083414 \hich\af1\dbch\af13\loch\f1 2.}{\f1\fs20\cf11\insrsid3892158\charrsid8083414 \hich\af1\dbch\af13\loch\f1  }{
+\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid8083414 \hich\af1\dbch\af13\loch\f1 C}{\f1\fs20\cf11\insrsid13841703\charrsid8083414 \hich\af1\dbch\af13\loch\f1 reate new nodes}{
+\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid8083414 \hich\af1\dbch\af13\loch\f1 :}{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1  }{
+\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid8083414 
+\par }{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid8083414 \hich\af1\dbch\af13\loch\f1 node = new InitialNode(graphNode, properties, }{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1 n
+\hich\af1\dbch\af13\loch\f1 ew Point()}{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid8083414 \hich\af1\dbch\af13\loch\f1 , }{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1 n
+\hich\af1\dbch\af13\loch\f1 ew Rectangle()}{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid8083414 \hich\af1\dbch\af13\loch\f1 );
+\par }\pard \ql \li720\ri720\sa120\sl240\slmult0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\insrsid3892158 
+\par }{\f1\fs20\cf11\insrsid3892158\charrsid8083414 \hich\af1\dbch\af13\loch\f1 3. }{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid8083414\charrsid8083414 \hich\af1\dbch\af13\loch\f1 Register listeners}{\f1\fs20\cf11\insrsid3892158\charrsid8083414 
+\hich\af1\dbch\af13\loch\f1 :
+\par \hich\af1\dbch\af13\loch\f1 // After creating the node, register a listener to receive }{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid8083414\charrsid8083414 \hich\af1\dbch\af13\loch\f1 text}{\f1\fs20\cf11\insrsid3892158\charrsid8083414 
+\hich\af1\dbch\af13\loch\f1  changed event:
+\par \hich\af1\dbch\af13\loch\f1 InitialNode node = ...;
+\par \hich\af1\dbch\af13\loch\f1 TextChangedListener listener = new TextChangedListener(}{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid8083414 \hich\af1\dbch\af13\loch\f1 ) \{}{
+\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid3892158\charrsid8083414 
+\par }{\f1\fs20\cf11\insrsid3892158\charrsid8083414 \hich\af1\dbch\af13\loch\f1     }{\f1\fs20\cf11\insrsid13841703\charrsid8083414 \hich\af1\dbch\af13\loch\f1 public void textChanged(TextChangedEvent event) \{}{
+\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid8083414 
+\par }{\f1\fs20\cf11\insrsid3892158\charrsid8083414 \hich\af1\dbch\af13\loch\f1         }{\f1\fs20\cf11\insrsid8083414\charrsid8083414 \hich\af1\dbch\af13\loch\f1 TextField compartment = (TextField) event.getSource();}{
+\f1\fs20\cf11\insrsid3892158\charrsid8083414 
+\par \hich\af1\dbch\af13\loch\f1         }{\f1\fs20\cf11\insrsid8083414\charrsid8083414 \hich\af1\dbch\af13\loch\f1 compartment.setText(event.getNew\hich\af1\dbch\af13\loch\f1 Value());}{\f1\fs20\cf11\insrsid3892158\charrsid8083414 
+\par \hich\af1\dbch\af13\loch\f1     \}
+\par }{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid13841703\charrsid8083414 \}}{\f1\fs20\cf11\insrsid3892158\charrsid8083414 \hich\af1\dbch\af13\loch\f1 ;
+\par \hich\af1\dbch\af13\loch\f1 // register the listener
+\par \hich\af1\dbch\af13\loch\f1 node.getNameCompartment().addTextChangedListener(listener);}{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid3892158\charrsid8083414 
+\par }{\f1\fs20\lang1033\langfe2052\langfenp2052\insrsid8083414 
+\par }\pard \ql \li720\ri720\sa120\sl240\slmult0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0\pararsid8083414 {\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid8083414\charrsid8083414 \hich\af1\dbch\af13\loch\f1 4. Show the node:
+
+\par \hich\af1\dbch\af13\loch\f1 //Create a Diagram Viewer to contain this node}{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid8083414 
+\par }{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid2649882\charrsid2649882 \hich\af1\dbch\af13\loch\f1 node.setVisible(true);
+\par }{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid8083414\charrsid8083414 \hich\af1\dbch\af13\loch\f1 \hich\f1 DiagramViewer viewer = new DiagramViewer(\'85\loch\f1 );
+\par \hich\af1\dbch\af13\loch\f1 viewer.add(node);
+\par \hich\af1\dbch\af13\loch\f1 JDialog dialog = new JDialog((JFrame) null, "}{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1 D\hich\af1\dbch\af13\loch\f1 emo}{
+\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid8083414\charrsid8083414 \hich\af1\dbch\af13\loch\f1 ", true);
+\par \hich\af1\dbch\af13\loch\f1 dialog.setSize(}{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1 5}{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid8083414\charrsid8083414 \hich\af1\dbch\af13\loch\f1 00, }{
+\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid353993 \hich\af1\dbch\af13\loch\f1 5}{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid8083414\charrsid8083414 \hich\af1\dbch\af13\loch\f1 00);
+\par }{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid353993\charrsid353993 \hich\af1\dbch\af13\loch\f1 dialog.getContentPane().add(viewer);}{\f1\fs20\cf11\lang1033\langfe2052\langfenp2052\insrsid8083414\charrsid8083414 
+\par \hich\af1\dbch\af13\loch\f1 dialog.setVisible(true);
+\par }\pard \ql \li0\ri720\sb120\sa60\sl240\slmult0\widctlpar\tx360\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\b\f1\insrsid3892158 \hich\af1\dbch\af13\loch\f1 5.\tab Future Enhancements
+\par }\pard \ql \li720\ri720\sa120\sl240\slmult0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin720\itap0 {\f1\fs20\insrsid3892158 \hich\af1\dbch\af13\loch\f1 Provides more user friendly UI rendering.
+\par }\pard \ql \li0\ri720\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\insrsid3892158 
+\par }\pard \ql \li0\ri720\widctlpar\aspalpha\aspnum\faauto\adjustright\rin720\lin0\itap0 {\insrsid3892158 
+\par }\pard \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 {\insrsid3892158 
+\par }}

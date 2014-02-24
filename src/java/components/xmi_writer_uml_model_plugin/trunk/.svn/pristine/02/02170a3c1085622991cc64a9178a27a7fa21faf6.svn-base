@@ -1,0 +1,19 @@
+<CMConfig>
+  <Config name="com.topcoder.xmi.writer.transformers.model.ObjectFactory">
+      <Property name="xmiDescriptionObject">
+          <Property name="type">
+            <Value>com.topcoder.xmi.writer.transformers.model.xmidescription.ReflectedXMIDescription</Value>
+          </Property>
+          <Property name="params">
+              <Property name="param1">
+			          <Property name="type">
+			            <Value>String</Value>
+			          </Property>
+			          <Property name="value">
+			            <Value>com.topcoder.xmi.writer.transformers.model.xmidescription.ReflectedXMIDescription.stress</Value>
+			          </Property>
+			        </Property>
+          </Property>
+      </Property>
+  </Config>
+</CMConfig>

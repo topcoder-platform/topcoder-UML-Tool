@@ -1,0 +1,9 @@
+#property file defining the components information
+component.name=Document Tree
+component.distfilename=document_tree
+component.package=com.topcoder.gui.trees.document
+component.packagedir=com/topcoder/gui/trees/document
+component.version.major=1
+component.version.minor=1
+component.version.micro=0
+component.version.build=1

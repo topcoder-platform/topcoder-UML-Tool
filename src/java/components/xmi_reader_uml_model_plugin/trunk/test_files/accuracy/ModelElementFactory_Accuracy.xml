@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<CMConfig>
+	<!-- Configuration for ModelElementFactory -->
+	<Config name="com.topcoder.xmi.reader.handlers.modelfactory.ModelElementFactory">
+		<!-- Required xmi element mapping -->
+    	<Property name="xml_to_element_mapping">	
+    		
+    		<Value>UML:CallOperationAction, com.topcoder.uml.model.actions.messagingactions.CallOperationActionImpl</Value>
+	        <Value>UML:SendSignalAction, com.topcoder.uml.model.actions.messagingactions.SendSignalActionImpl</Value>
+	        <Value>UML:CreateObjectAction, com.topcoder.uml.model.actions.objectactions.CreateObjectActionImpl</Value>
+	        <Value>UML:DestroyObjectAction, com.topcoder.uml.model.actions.objectactions.DestroyObjectActionImpl</Value>
+	        
+	        <Value>UML:Message, com.topcoder.uml.model.collaborations.collaborationroles.MessageImpl</Value>
+	        <Value>UML:CollaborationInstanceSet, com.topcoder.uml.model.collaborations.collaborationinstances.CollaborationInstanceSetImpl</Value>
+	        <Value>UML:Collaboration, com.topcoder.uml.model.collaborations.collaborationinteractions.CollaborationImpl</Value>
+	        
+	        <Value>UML:Procedure, com.topcoder.uml.model.commonbehavior.procedure.ProcedureImpl</Value>
+	        <Value>UML:Object, com.topcoder.uml.model.commonbehavior.instances.ObjectImpl</Value>
+	        <Value>UML:Stimulus, com.topcoder.uml.model.commonbehavior.instances.StimulusImpl</Value>
+	        <Value>UML:Link, com.topcoder.uml.model.commonbehavior.links.LinkImpl</Value>
+	        <Value>UML:LinkEnd, com.topcoder.uml.model.commonbehavior.links.LinkEndImpl</Value>
+	        
+	        <Value>UML:Attribute, com.topcoder.uml.model.core.AttributeImpl</Value>
+	        <Value>UML:Operation, com.topcoder.uml.model.core.OperationImpl</Value>
+	        <Value>UML:Parameter, com.topcoder.uml.model.core.ParameterImpl</Value>
+	        <Value>UML:Method, com.topcoder.uml.model.core.MethodImpl</Value>
+	        
+	        <Value>UML:Class, com.topcoder.uml.model.core.classifiers.ClassImpl</Value>
+	        <Value>UML:DataType, com.topcoder.uml.model.core.classifiers.DataTypeImpl</Value>
+	        <Value>UML:Enumeration, com.topcoder.uml.model.core.classifiers.EnumerationImpl</Value>
+	        <Value>UML:EnumerationLiteral, com.topcoder.uml.model.core.classifiers.EnumerationLiteralImpl</Value>
+	        <Value>UML:Interface, com.topcoder.uml.model.core.classifiers.InterfaceImpl</Value>
+	        <Value>UML:Primitive, com.topcoder.uml.model.core.classifiers.PrimitiveImpl</Value>
+	        <Value>UML:ProgrammingLanguageDataType, com.topcoder.uml.model.core.classifiers.ProgrammingLanguageDataTypeImpl</Value>
+
+	        <Value>UML:Comment, com.topcoder.uml.model.core.auxiliaryelements.CommentImpl</Value>
+	        <Value>UML:TemplateParameter, com.topcoder.uml.model.core.auxiliaryelements.TemplateParameterImpl</Value>
+	        <Value>UML:TemplateArgument, com.topcoder.uml.model.core.auxiliaryelements.TemplateArgumentImpl</Value>	    
+	        	        
+	        <Value>UML:Association, com.topcoder.uml.model.core.relationships.AssociationImpl</Value>
+	        <Value>UML:AssociationClass, com.topcoder.uml.model.core.relationships.AssociationClassImpl</Value>
+	        <Value>UML:AssociationEnd, com.topcoder.uml.model.core.relationships.AssociationEndImpl</Value>	        
+	        <Value>UML:Generalization, com.topcoder.uml.model.core.relationships.GeneralizationImpl</Value>
+
+
+	        <Value>UML:Abstraction, com.topcoder.uml.model.core.dependencies.AbstractionImpl</Value>
+	        <Value>UML:Binding, com.topcoder.uml.model.core.dependencies.BindingImpl</Value>
+	        <Value>UML:Dependency, com.topcoder.uml.model.core.dependencies.DependencyImpl</Value>
+	        <Value>UML:Stereotype, com.topcoder.uml.model.core.extensionmechanisms.StereotypeImpl</Value>
+	        <Value>UML:TagDefinition, com.topcoder.uml.model.core.extensionmechanisms.TagDefinitionImpl</Value>
+	        <Value>UML:TaggedValue, com.topcoder.uml.model.core.extensionmechanisms.TaggedValueImpl</Value>
+	        <Value>UML:Usage, com.topcoder.uml.model.core.dependencies.UsageImpl</Value>
+	        
+	            
+	        <Value>UML:Multiplicity, com.topcoder.uml.model.datatypes.MultiplicityImpl</Value>
+	        <Value>UML:MultiplicityRange, com.topcoder.uml.model.datatypes.MultiplicityRangeImpl</Value>
+	        <Value>UML:Expression, com.topcoder.uml.model.datatypes.expressions.ExpressionImpl</Value>
+	        <Value>UML:BooleanExpression, com.topcoder.uml.model.datatypes.expressions.BooleanExpressionImpl</Value>
+	        <Value>UML:MappingExpression, com.topcoder.uml.model.datatypes.expressions.MappingExpressionImpl</Value>
+	        <Value>UML:ProcedureExpression, com.topcoder.uml.model.datatypes.expressions.ProcedureExpressionImpl</Value>
+	        <Value>UML:TypeExpression, com.topcoder.uml.model.datatypes.expressions.TypeExpressionImpl</Value>
+	        
+	        <Value>UML:ElementImport, com.topcoder.uml.model.modelmanagement.ElementImportImpl</Value>
+	        <Value>UML:Package, com.topcoder.uml.model.modelmanagement.PackageImpl</Value>
+	        <Value>UML:Subsystem, com.topcoder.uml.model.modelmanagement.SubsystemImpl</Value>
+	        <Value>UML:Model, com.topcoder.uml.model.modelmanagement.ModelImpl</Value>
+	        
+	        <Value>UML:Actor, com.topcoder.uml.model.usecases.ActorImpl</Value>
+	        <Value>UML:UseCase, com.topcoder.uml.model.usecases.UseCaseImpl</Value>
+	        <Value>UML:Include, com.topcoder.uml.model.usecases.IncludeImpl</Value>
+	        <Value>UML:Extend, com.topcoder.uml.model.usecases.ExtendImpl</Value>
+	    </Property>
+	</Config>
+</CMConfig>

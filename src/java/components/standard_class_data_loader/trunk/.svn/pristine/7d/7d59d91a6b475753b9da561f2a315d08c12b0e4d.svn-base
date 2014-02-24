@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+
+<!-- File containing class data to be loaded -->
+    
+<StandardClassData>
+    <!-- java package -->
+    <Namespace name="java">
+        <!-- nested lang package -->
+        <Namespace name="lang">
+            <!-- example of interface method usage -->
+            <Interface name="Comparable"> 
+                <Method name="compareTo" />
+            </Interface>
+            <Interface name="Cloneable" />
+            
+            <!-- methods are optional though, they can be omitted: -->
+            <Class name="Boolean" />
+            <Class name="Character" />
+            <Class name="Class" />
+            <Class name="String" />
+
+            <Enumeration name="Thread.State" />
+            
+            <DataType name="Deprecated" />
+        </Namespace>    
+        
+        <!-- nested util package -->
+        <Namespace name="util">
+            <!-- interfaces -->
+            <Interface name="Collection" />
+            <Interface name="Iterator" />
+            <Interface name="List" />
+            <Interface name="Map" />
+            <Interface name="Queue" />
+            <Interface name="Set" />
+            
+            <!-- classes -->
+            <Class name="ArrayList" />
+            <Class name="Date" />
+            <Class name="HashMap" />
+            <Class name="HashSet" />
+            <!-- example of class method usage -->
+            <Class name="Random"> 
+                <Method name="Random" />
+                <Method name="next" />
+                <Method name="nextBoolean" />
+                <Method name="nextBytes" />
+                <Method name="nextDouble" />
+                <Method name="nextFloat" />
+                <Method name="nextGaussian" />
+                <Method name="nextInt" />
+                <Method name="nextLong" />
+                <Method name="setSeed" />
+            </Class>
+            
+            <!-- enums -->
+            <Enumeration name="Formatter.BigDecimalLayoutForm" />
+       
+            <!-- nested regex package -->
+            <Namespace name="regex">
+                <Interface name="MatchResult" />
+                <Class name="Matcher" />
+                <Class name="Pattern" />
+            </Namespace>
+        </Namespace>
+    </Namespace>
+    
+    <!-- primitives -->
+    <Test name="boolean" />
+    <Primitive name="char" />
+    <Primitive name="int" />
+    <Primitive name="long" />
+</StandardClassData>

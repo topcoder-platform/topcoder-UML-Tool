@@ -1,0 +1,107 @@
+<CMConfig>
+<Config name="com.topcoder.uml.projectconfiguration.ProjectConfigurationManager">
+    <Property name="exceptionStereotypeName">
+        <Value>exception</Value>
+    </Property>
+	<Property name="enumStereotypeName">
+		<Value>enum</Value>
+	</Property>
+	<Property name="createStereotypeName">
+		<Value>create</Value>
+	</Property>
+	<Property name="stringClassName">
+		<Value>String</Value>
+	</Property>
+	<Property name="enumClassName">
+		<Value>Enum</Value>
+	</Property>
+	<Property name="throwableClassName">
+		<Value>Throwable</Value>
+	</Property>
+	<Property name="exceptionClassName">
+		<Value>Exception</Value>
+	</Property>
+	<Property name="serializationInfoClassName">
+		<Value>SerializationInfo</Value>
+	</Property>
+	<Property name="streamingContextClassName">
+		<Value>StreamingContext</Value>
+	</Property>
+	<Property name="operationStereotypeBaseClass">
+		<Value>Operation</Value>
+	</Property>
+
+	<Property name="stereotypes">
+		<Property name="Java">
+			<Property name="Class">
+				<Value>exception</Value>
+				<Value>abstract</Value>
+			</Property>
+			<Property name="Operation">
+				<Value>final</Value>
+				<Value>abstract</Value>
+			</Property>
+		</Property>
+		<Property name="CSharp">
+		    <Property name="Class">
+		        <Value>exception</Value>
+		        <Value>abstract</Value>
+		    </Property>
+	    </Property>
+    </Property>
+
+    <Property name="defaultProjectLanguage">
+	    <Value>Java</Value>
+    </Property>
+
+	<Property name="com.topcoder.diagraminterchange.Reference">
+		<Property name="property1">
+			<Value>value1</Value>
+		</Property>
+		<Property name="property2">
+	        <Value>value2</Value>
+	    </Property>
+    </Property>
+
+	<Property name="com.topcoder.diagraminterchange.GraphNode">
+	    <Property name="property1">
+	        <Value>value1</Value>
+	    </Property>
+    </Property>
+</Config>
+
+<Config name="com.topcoder.uml.projectconfiguration.ProjectConfigurationManager.objectfactory">
+	<Property name="standardClassDataLoader">
+		<Property name="type">
+			<Value>com.topcoder.uml.actions.diagram.MockStandardClassDataLoader</Value>
+		</Property>
+	</Property>
+	<Property name="stereotypeLoader">
+		<Property name="type">
+			<Value>com.topcoder.uml.projectconfiguration.stereotypeloader.XMLStereotypeLoader</Value>
+		</Property>
+		<Property name="params">
+			<Property name="param1">
+				<Property name="type">
+					<Value>String</Value>
+				</Property>
+				<Property name="value">
+					<Value>namespace</Value>
+				</Property>
+			</Property>
+		</Property>
+	</Property>
+</Config>
+
+<Config name="com.topcoder.util.log">
+	<!-- The Log implementation class -->
+	<Property name="logClass">
+		<Value>com.topcoder.util.log.basic.BasicLog</Value>
+	</Property>
+
+	<!-- Specifies where the output should be written to, System.out or System.err -->
+	<Property name="basic.log.target">
+		<Value>System.out</Value>
+	</Property>    
+</Config>
+</CMConfig>

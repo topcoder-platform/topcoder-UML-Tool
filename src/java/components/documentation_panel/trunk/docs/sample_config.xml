@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+
+<!-- File containing sample configuration details for use with
+ the Documentation Panel component -->
+    
+<CMConfig>
+    <!-- configuration for the overall panel -->
+    <Config name="docPanelNamespace">
+        <!-- required construction parameters
+             for use with the object factory (see below) -->
+        <Property name="objectFactoryNamespace">
+            <Value>documentationPanel.objectFactory</Value>
+        </Property>
+        <Property name="documentEditorKey">
+            <Value>documentEditor</Value>
+        </Property>
+        <Property name="tagEditorKey">
+            <Value>tagEditor</Value>
+        </Property>   
+            -->
+    </Config>
+
+    <!-- default documentation editor namespace -->
+    <Config name="plugins_defaultDocEditor">
+        <!-- Set it to word wrap. Any other Value, 
+                    or no Value, results in no wordwrap -->
+        <Property name="wordwrap">
+            <Value>yes</Value>
+        </Property>
+    </Config>
+
+    <!-- default tag editor namespace -->
+    <Config name="plugins_defaultTagEditor">
+            <!-- set up the new tag prompt Value here if desired:
+        <Property name="tagprompt">
+            <Value>Insert new tag...</Value>
+        </Property>
+            -->
+        
+            <!-- set up the new tag documentation string here if desired:
+        <Property name="Valueprompt>
+            <Value>new Value</Value>
+        </Property>
+            -->
+            
+            <!-- set up the two column names here if desired:
+        <Property name="columnnames">
+            <Value>Tag</Value>
+            <Value>Documentation</Value>
+        </Property>
+            -->
+            
+        <!-- required parameter, option manager namespace -->
+        <Property Value="tagoptionNamespace">
+            <Value>plugins_defaultTagOptions</Value>
+        </Property>
+    </Config>
+
+
+    
+    <!-- sample tag option manager configuration -->
+    <Config name="plugins_defaultTagOptions">
+        <!-- global options -->
+        <Property name="GLOBAL">
+            <!-- some common javadocs options -->
+            <Property name="options">
+                <Value>see</Value>
+                <Value>since</Value>
+                <Value>deprecated</Value>
+            </Property>
+        </Property>
+        
+        <!-- method options -->
+        <Property name="com.topcoder.model.uml.core.OperationImpl">
+            <!-- add two operation options -->
+            <Property name="options">
+                <Value>throws</Value>
+                <Value>exception</Value>
+            </Property>
+            
+            <!-- inherit the global set -->
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+        
+        <!-- class options, adding two to global -->
+        <Property name="com.topcoder.model.uml.core.classifiers.ClassImpl">
+            <Property name="options">
+                <Value>author</Value>
+                <Value>version</Value>
+            </Property>
+            <Property name="links">
+                <Value>GLOBAL</Value>
+            </Property>
+        </Property>
+    </Config>
+    
+    
+    <!-- Namespace for posisble use with the object factory component -->
+    <Config name="documentationPanel.objectFactory">  
+  
+        <!-- Object factory configuration for the default documentation editor panel -->
+        <Property name="documentEditor">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultDocumentationEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="Value">
+                        <Value>plugins_defaultDocEditor</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+        
+        
+        <!-- Object factory configuration for the default documentation editor panel -->
+        <Property name="tagEditor">
+            <Property name="type">
+                <Value>com.topcoder.gui.panels.documentation.plugins.DefaultTagEditor</Value>
+            </Property>
+            <Property name="params">
+                <!-- single-string namespace constructor -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="Value">
+                        <Value>plugins_defaultTagEditor</Value> 
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+    </Config>  
+        
+        
+        
+</CMConfig>

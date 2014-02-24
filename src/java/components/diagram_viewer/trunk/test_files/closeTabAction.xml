@@ -1,0 +1,24 @@
+<CMConfig>
+<!-- Configure the Close Tab Button -->
+	<Config name="TestofCloseTabAction1">
+	    <Property name="name">
+			<Value>close tab</Value>
+		</Property>
+		<Property name="icon">
+			<Value>test_files/close.icon</Value>
+		</Property>
+	</Config>
+		<Config name="TestofCloseTabAction2">
+		<Property name="icon">
+			<Value>test_files/close.icon</Value>
+		</Property>
+	</Config>
+		<Config name="TestofCloseTabAction3">
+	    <Property name="name">
+		</Property>
+		<Property name="icon">
+			<Value></Value>
+		</Property>
+	</Config>
+
+</CMConfig>

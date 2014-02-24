@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=UML Tool Actions - Class Elements Actions
+component.distfilename=uml_tool_actions_-_class_elements_actions
+component.package=com.topcoder.uml.actions.model.classifiers
+component.packagedir=com/topcoder/uml/actions/model/classifiers
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

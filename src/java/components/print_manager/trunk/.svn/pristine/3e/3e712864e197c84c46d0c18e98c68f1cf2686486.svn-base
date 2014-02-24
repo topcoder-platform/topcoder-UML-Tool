@@ -1,0 +1,14 @@
+<CMConfig>
+	<Config name="ObjectFactory.PrintManager">
+		<Property name="ComponentVisibleMaker">
+      		<Property name="type">
+				<Value>com.topcoder.swing.print.MockComponentVisibleMaker</Value>
+			</Property>
+		</Property>
+		<Property name="PrintFormatRetriever">
+      		<Property name="type">
+				<Value>com.topcoder.swing.print.MockPrintFormatRetriever</Value>
+			</Property>
+		</Property>
+	</Config>
+</CMConfig>

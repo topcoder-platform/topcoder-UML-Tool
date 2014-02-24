@@ -1,0 +1,15 @@
+<CMConfig>
+    <Config name="com.topcoder.umltool.xmiconverters.poseidon5">
+        <Property name="ConvertDiagramTitleToTextElement">
+            <Value>true</Value>
+        </Property>
+        <Property name="DefaultTextElementProperties">
+            <Property name="FILL_COLOR">
+                <Value>CCFFCC</Value>
+            </Property>
+            <Property name="FONT_FAMILY">
+                <Value>Arial</Value>
+            </Property>    
+        </Property>
+    </Config>
+</CMConfig>

@@ -1,0 +1,701 @@
+{\rtf1\ansi\ansicpg936\uc2\deff0\stshfdbch13\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe2052{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Palatino};}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial{\*\falt Arial};}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New{\*\falt Courier New};}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol{\*\falt Symbol};}{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings{\*\falt Wingdings};}
+{\f13\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}\'cb\'ce\'cc\'e5{\*\falt SimSun};}{\f35\fnil\fcharset134\fprq2{\*\panose 00000000000000000000}@\'cb\'ce\'cc\'e5;}{\f58\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Palatino};}
+{\f59\froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Palatino};}{\f61\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Palatino};}{\f62\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Palatino};}
+{\f63\froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Palatino};}{\f64\froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Palatino};}{\f65\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Palatino};}
+{\f66\froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Palatino};}{\f68\fswiss\fcharset238\fprq2 Arial CE{\*\falt Arial};}{\f69\fswiss\fcharset204\fprq2 Arial Cyr{\*\falt Arial};}{\f71\fswiss\fcharset161\fprq2 Arial Greek{\*\falt Arial};}
+{\f72\fswiss\fcharset162\fprq2 Arial Tur{\*\falt Arial};}{\f73\fswiss\fcharset177\fprq2 Arial (Hebrew){\*\falt Arial};}{\f74\fswiss\fcharset178\fprq2 Arial (Arabic){\*\falt Arial};}{\f75\fswiss\fcharset186\fprq2 Arial Baltic{\*\falt Arial};}
+{\f76\fswiss\fcharset163\fprq2 Arial (Vietnamese){\*\falt Arial};}{\f78\fmodern\fcharset238\fprq1 Courier New CE{\*\falt Courier New};}{\f79\fmodern\fcharset204\fprq1 Courier New Cyr{\*\falt Courier New};}
+{\f81\fmodern\fcharset161\fprq1 Courier New Greek{\*\falt Courier New};}{\f82\fmodern\fcharset162\fprq1 Courier New Tur{\*\falt Courier New};}{\f83\fmodern\fcharset177\fprq1 Courier New (Hebrew){\*\falt Courier New};}
+{\f84\fmodern\fcharset178\fprq1 Courier New (Arabic){\*\falt Courier New};}{\f85\fmodern\fcharset186\fprq1 Courier New Baltic{\*\falt Courier New};}{\f86\fmodern\fcharset163\fprq1 Courier New (Vietnamese){\*\falt Courier New};}
+{\f190\fnil\fcharset0\fprq2 SimSun Western{\*\falt SimSun};}{\f410\fnil\fcharset0\fprq2 @\'cb\'ce\'cc\'e5 Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;
+\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red63\green127\blue95;
+\red127\green0\blue85;\red42\green0\blue255;}{\stylesheet{\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 \snext0 Normal;}{
+\s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext0 heading 1;}{\s2\ql \li0\ri0\nowidctlpar\faauto\outlinelevel1\rin0\lin0\itap0 
+\fs24\lang1033\langfe2052\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext0 heading 2;}{\s3\ql \li0\ri0\nowidctlpar\faauto\outlinelevel2\rin0\lin0\itap0 
+\fs24\lang1033\langfe2052\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext0 heading 3;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\loch\f0\hich\af0\dbch\af13\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}
+{\*\rsidtbl \rsid591799\rsid610074\rsid3170199\rsid6958482\rsid8010100\rsid8979900}{\*\generator Microsoft Word 11.0.5604;}{\info{\author tc}{\operator tc}{\creatim\yr2008\mo8\dy7\hr21\min3}{\revtim\yr2008\mo8\dy14\hr10\min8}{\version7}{\edmins24}
+{\nofpages11}{\nofwords4153}{\nofchars23673}{\*\company tc}{\nofcharsws27771}{\vern24689}}\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\gutter0 \ftnbj\aenddoc\hyphcaps0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984
+\dghshow0\dgvshow3\jcompress\viewkind4\viewscale100\rsidroot8010100 \fet0\sectd \linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}
+{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta \dbch )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl9
+\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx720\faauto\outlinelevel0\rin0\lin0\itap0 
+\fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs28\ul\insrsid6958482 \hich\af0\dbch\af13\loch\f0 UML Tool JAR Importer 1.0 Component Specification
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\insrsid6958482 
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\insrsid6958482 \hich\af1\dbch\af13\loch\f1 1.
+\tab Design
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 
+The UML Tool currently has no way of importing data into the tool an external source. This component will allow for the import of Java class data into the tool, into an existing diagram. This will enable users to write test Java code and just import it in
+\hich\af1\dbch\af13\loch\f1 t\hich\af1\dbch\af13\loch\f1 o the diagram. This component will import the data directly into the UML Tool project model.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 1.1
+\tab Design Patterns}{\b\fs20\insrsid6958482 
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 Template Method Pattern 
+\par }{\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 The DefaultJarImporter extends JarImporter and implements the template methods retrievePackagesAndClassesFromJar, extr\hich\af1\dbch\af13\loch\f1 
+actExternalClasses, importPackageAndClassesToModel and importToDiagram, it is a Template Method Pattern.
+\par 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 1.2
+\tab Industry Standards}{\b\fs20\insrsid6958482 
+\par }\pard\plain \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 JAR
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 1.3
+\tab Required Algorithms}{\b\fs20\insrsid6958482 
+\par }\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\i\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 
+1.3.1\tab Retrieve packages and classes from JAR file.}{\i\fs20\insrsid6958482 
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 This algorithm is for method DefaultJarImporter#
+\hich\af1\dbch\af13\loch\f1 retrievePackagesAndClassesFromJars.
+\par \hich\af1\dbch\af13\loch\f1 It uses URLClassLoader to load the classes and packages.
+\par 
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0\culi300\pararsid6958482 {\f2\fs16\cf6\insrsid6958482\charrsid6958482 \hich\af2\dbch\af13\loch\f2 // Create an URLClassLoader by the given URL and classpathLoader which is
+\par \hich\af2\dbch\af13\loch\f2         // initialized in the constructor.
+\par \hich\af2\dbch\af13\loch\f2         URLClassLoader loader = createURLClas\hich\af2\dbch\af13\loch\f2 sLoader(jarURLs, classpathLoader);
+\par 
+\par \hich\af2\dbch\af13\loch\f2         // for each jar
+\par \hich\af2\dbch\af13\loch\f2         for (URL jarURL : jarURLs) \{
+\par \hich\af2\dbch\af13\loch\f2             // Create JarFile instance
+\par \hich\af2\dbch\af13\loch\f2             JarFile jar = createJarFile(jarURL);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // for each jar entry
+\par \hich\af2\dbch\af13\loch\f2             for\hich\af2\dbch\af13\loch\f2  (Enumeration<JarEntry> e = jar.entries(); e.hasMoreElements();) \{
+\par \hich\af2\dbch\af13\loch\f2                 // Get the name of class, the format will like : 'com/topcoder/pack/MyEnum.class'
+\par \hich\af2\dbch\af13\loch\f2                 String name = e.nextElement().toString();
+\par 
+\par \hich\af2\dbch\af13\loch\f2                 // Filter the .M\hich\af2\dbch\af13\loch\f2 F file and directory etc.
+\par \hich\af2\dbch\af13\loch\f2                 if (name.endsWith(CLASS)) \{
+\par \hich\af2\dbch\af13\loch\f2                     // it is a class entry, get the class binary name
+\par \hich\af2\dbch\af13\loch\f2                     name = name.substring(0, name.length() - 6).replace('/', '.');
+\par \hich\af2\dbch\af13\loch\f2                     Class<?> claz\hich\af2\dbch\af13\loch\f2 z;
+\par \hich\af2\dbch\af13\loch\f2                     try \{
+\par \hich\af2\dbch\af13\loch\f2                         clazz = loader.loadClass(name);
+\par \hich\af2\dbch\af13\loch\f2                     \} catch (Throwable cnfe) \{
+\par \hich\af2\dbch\af13\loch\f2                         // When the class is invalid, java.lang.ClassFormatError may be thrown.
+\par \hich\af2\dbch\af13\loch\f2                         thro\hich\af2\dbch\af13\loch\f2 w new JarImporterException("Error when loading class with name'" + name
+\par \hich\af2\dbch\af13\loch\f2                             + "' for " + cnfe.getMessage(), cnfe);
+\par \hich\af2\dbch\af13\loch\f2                     \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2                     addClassAndPackage(getClasses(), clazz, name);
+\par \hich\af2\dbch\af13\loch\f2                 \}
+\par \hich\af2\dbch\af13\loch\f2          \hich\af2\dbch\af13\loch\f2    \}
+\par }\pard\plain \s3\ql \li720\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin720\itap0\culi300\pararsid6958482 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {
+\f2\fs16\cf6\insrsid6958482\charrsid6958482 \hich\af2\dbch\af13\loch\f2         \}
+\par }\pard \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin0\itap0\pararsid6958482 {\i\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 1.3.2\tab Extract external classes
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 
+This algorithm is for method DefaultJarImporter#extractExternalClasses.
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0\culi300\pararsid6958482 {\f2\fs16\cf6\insrsid6958482\charrsid6958482 \hich\af2\dbch\af13\loch\f2 // For each class in classes, get the external classes
+\par \hich\af2\dbch\af13\loch\f2         for (Class<?> clazz : getClasses().values()) \{
+\par \hich\af2\dbch\af13\loch\f2             \hich\af2\dbch\af13\loch\f2 // Add all the interfaces implemented by this class and its package to mappings.
+\par \hich\af2\dbch\af13\loch\f2             for (Class<?> inter : clazz.getInterfaces()) \{
+\par \hich\af2\dbch\af13\loch\f2                 addClassAndPackage(getExternalClasses(), inter, inter.getName());
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // Add \hich\af2\dbch\af13\loch\f2 the super class and package to mappings.
+\par \hich\af2\dbch\af13\loch\f2             Class<?> superclass = clazz.getSuperclass();
+\par \hich\af2\dbch\af13\loch\f2             if (superclass != null) \{
+\par \hich\af2\dbch\af13\loch\f2                 addClassAndPackage(getExternalClasses(), superclass, superclass.getName());
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2             /\hich\af2\dbch\af13\loch\f2 / Add all the fields type class and package to mappings.
+\par \hich\af2\dbch\af13\loch\f2             for (Field field : clazz.getDeclaredFields()) \{
+\par \hich\af2\dbch\af13\loch\f2                 addClassAndPackage(getExternalClasses(), field.getType(), field.getType().getName());
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // Add all\hich\af2\dbch\af13\loch\f2  the methods, return type class and package to mappings.
+\par \hich\af2\dbch\af13\loch\f2             for (Method m : clazz.getDeclaredMethods()) \{
+\par \hich\af2\dbch\af13\loch\f2                 // Add each method parameter type and package to mappings.
+\par \hich\af2\dbch\af13\loch\f2                 for (Class<?> paramClass : m.getParameterTypes()) \{
+\par \hich\af2\dbch\af13\loch\f2                     addClassAndPackage(getExternalClasses(), paramClass, paramClass.getName());
+\par \hich\af2\dbch\af13\loch\f2                 \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2                 // Add the return type class and package to mappings.
+\par \hich\af2\dbch\af13\loch\f2                 addClassAndPackage(getExternalClasses(), m.getReturnT\hich\af2\dbch\af13\loch\f2 ype(), m.getReturnType()
+\par \hich\af2\dbch\af13\loch\f2                     .getName());
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par }\pard \ql \li1440\ri0\nowidctlpar\faauto\rin0\lin1440\itap0\culi600\pararsid6958482 {\f2\fs16\cf6\insrsid6958482\charrsid6958482 \hich\af2\dbch\af13\loch\f2         \}}{\f2\fs16\cf6\insrsid6958482 
+\par 
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0\culi300\pararsid6958482 {\f2\fs20\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2    }{\f2\fs16\cf6\insrsid6958482\charrsid6958482 \hich\af2\dbch\af13\loch\f2 
+ private void addClassAndPackage(Map<String, Class<?>> classes, Class<?> clazz, String clazzName) \{
+\par 
+\par \hich\af2\dbch\af13\loch\f2         // http://forums.topcoder.com/?module=Thread&threadID=620923&\hich\af2\dbch\af13\loch\f2 start=0
+\par \hich\af2\dbch\af13\loch\f2         // the 'void' type should be removed.
+\par \hich\af2\dbch\af13\loch\f2         if (VOID.equals(clazzName)) \{
+\par \hich\af2\dbch\af13\loch\f2             return;
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2         if (!this.getClasses().containsKey(clazzName)) \{
+\par \hich\af2\dbch\af13\loch\f2             // Add the classes containing 'int', 'double' etc to external cl\hich\af2\dbch\af13\loch\f2 asses mapping.
+\par \hich\af2\dbch\af13\loch\f2             classes.put(clazzName, clazz);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             java.lang.Package pkg = clazz.getPackage();
+\par 
+\par \hich\af2\dbch\af13\loch\f2             if (pkg == null) \{
+\par \hich\af2\dbch\af13\loch\f2                 getPackages().put("", null);
+\par \hich\af2\dbch\af13\loch\f2             \} else \{
+\par \hich\af2\dbch\af13\loch\f2                 if\hich\af2\dbch\af13\loch\f2  (!getPackages().containsKey(pkg.getName())) \{
+\par \hich\af2\dbch\af13\loch\f2                     getPackages().put(pkg.getName(), pkg);
+\par \hich\af2\dbch\af13\loch\f2                 \}
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par }\pard \ql \fi420\li2160\ri0\nowidctlpar\faauto\rin0\lin2160\itap0\culi900\pararsid6958482 {\f2\fs16\cf6\insrsid6958482\charrsid6958482 \}
+\par }\pard \ql \fi420\li1440\ri0\nowidctlpar\faauto\rin0\lin1440\itap0\culi600\pararsid6958482 {\f2\fs16\cf6\insrsid6958482\charrsid6958482 
+\par }\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\i\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 
+1.3.3\tab Import entities into model}{\i\fs20\insrsid6958482 
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 
+This algorithm is for method DefaultJarImporter#importPackagesAndClasses\hich\af1\dbch\af13\loch\f1 ToModel.
+\par }\pard \ql \fi-360\li1080\ri0\nowidctlpar\tx1080\faauto\rin0\lin1080\itap0 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 1.\tab Add the packages to the model
+\par }\pard \ql \fi-360\li1080\ri0\nowidctlpar\faauto\rin0\lin1080\itap0 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 2.\tab Add the external classes to the model
+\par \hich\af1\dbch\af13\loch\f1 3.\tab Add the classes in the jar to the model
+\par \hich\af1\dbch\af13\loch\f1 4.\tab Add features (attributes and methods) and relationships (association, dependency, abstraction, generalization) of classes in ja\hich\af1\dbch\af13\loch\f1 
+r to model, in this step, the relationships will be also added to the relationships list which may to be added to diagram.
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\f2\fs16\insrsid6958482 
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0\pararsid8979900 {\f2\fs16\cf6\insrsid8979900\charrsid8979900 \hich\af2\dbch\af13\loch\f2 Model model = this.getModelManager().getModel();
+\par 
+\par \hich\af2\dbch\af13\loch\f2         // ///////////////////////////////////////////////////////////////////////\hich\af2\dbch\af13\loch\f2 ////////
+\par \hich\af2\dbch\af13\loch\f2         // Part1 Add packages to model
+\par \hich\af2\dbch\af13\loch\f2         // For each package, add it to model, the 'java.*' package should not filter since
+\par \hich\af2\dbch\af13\loch\f2         // these packages can be in model.
+\par \hich\af2\dbch\af13\loch\f2         for (String packageName : getPackages().keySet()) \{
+\par \hich\af2\dbch\af13\loch\f2             \hich\af2\dbch\af13\loch\f2 // The package name can not be whitespaces.
+\par \hich\af2\dbch\af13\loch\f2             // http://forums.topcoder.com/?module=Thread&threadID=620926&start=0
+\par \hich\af2\dbch\af13\loch\f2             if (packageName.trim().length() > 0) \{
+\par \hich\af2\dbch\af13\loch\f2                 Package p = new PackageImpl();
+\par \hich\af2\dbch\af13\loch\f2                 p.setName(package\hich\af2\dbch\af13\loch\f2 Name);
+\par \hich\af2\dbch\af13\loch\f2                 p.setNamespace(model);
+\par \hich\af2\dbch\af13\loch\f2                 model.addOwnedElement(p);
+\par \hich\af2\dbch\af13\loch\f2                 getModelPackages().put(packageName, p);
+\par \hich\af2\dbch\af13\loch\f2             \} else \{
+\par \hich\af2\dbch\af13\loch\f2                 // default package, add model as the package
+\par \hich\af2\dbch\af13\loch\f2                 getModelPackag\hich\af2\dbch\af13\loch\f2 es().put(packageName.trim(), model);
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2         // ///////////////////////////////////////////////////////////////////////////////
+\par \hich\af2\dbch\af13\loch\f2         // Part2 Add external classes/interfaces/datatypes to model (getModelClasses()).
+\par \hich\af2\dbch\af13\loch\f2         for (C\hich\af2\dbch\af13\loch\f2 lass<?> clazz : getExternalClasses().values()) \{
+\par \hich\af2\dbch\af13\loch\f2             importClassesToModule(clazz, model);
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2         // ///////////////////////////////////////////////////////////////////////////////
+\par \hich\af2\dbch\af13\loch\f2         // Part3 Add classes/interfaces from the jar to \hich\af2\dbch\af13\loch\f2 model (getModelClasses())
+\par \hich\af2\dbch\af13\loch\f2         for (Class<?> clazz : getClasses().values()) \{
+\par \hich\af2\dbch\af13\loch\f2             importClassesToModule(clazz, model);
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2         // ///////////////////////////////////////////////////////////////////////////////
+\par \hich\af2\dbch\af13\loch\f2         // P\hich\af2\dbch\af13\loch\f2 art4 Add features (attributes and methods) and relationships (association,
+\par \hich\af2\dbch\af13\loch\f2         // dependency, abstraction, generalization) of classes to model
+\par \hich\af2\dbch\af13\loch\f2         importClassAttributesToModule(model);
+\par }{\f2\fs16\insrsid8979900 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid8979900 {\f2\fs16\cf6\insrsid8979900\charrsid8979900 \hich\af2\dbch\af13\loch\f2 private void importClassesToModule\hich\af2\dbch\af13\loch\f2 
+(Class<?> clazz, Model model) throws JarImporterException \{
+\par \hich\af2\dbch\af13\loch\f2         // Create corresponding Classifier instance for the class.
+\par \hich\af2\dbch\af13\loch\f2         // The class can be interface or enum or primitive or class.
+\par \hich\af2\dbch\af13\loch\f2         // Note : http://forums.topcoder.com/?module=Thread&\hich\af2\dbch\af13\loch\f2 threadID=620926&start=0
+\par \hich\af2\dbch\af13\loch\f2         // array type should be ignored now and it should be done during final fix.
+\par \hich\af2\dbch\af13\loch\f2         Classifier classifier = null;
+\par \hich\af2\dbch\af13\loch\f2         if (clazz.isInterface()) \{
+\par \hich\af2\dbch\af13\loch\f2             classifier = new InterfaceImpl();
+\par \hich\af2\dbch\af13\loch\f2         \} else if (clazz.isEn\hich\af2\dbch\af13\loch\f2 um()) \{
+\par \hich\af2\dbch\af13\loch\f2             classifier = new EnumerationImpl();
+\par \hich\af2\dbch\af13\loch\f2         \} else if (clazz.isPrimitive()) \{
+\par \hich\af2\dbch\af13\loch\f2             // for inner class, it never happens.
+\par \hich\af2\dbch\af13\loch\f2             classifier = new PrimitiveImpl();
+\par \hich\af2\dbch\af13\loch\f2         \} else if (clazz.isArray()) \{
+\par \hich\af2\dbch\af13\loch\f2             // ignored n\hich\af2\dbch\af13\loch\f2 ow.
+\par \hich\af2\dbch\af13\loch\f2             throw new JarImporterException("array is not supported.");
+\par \hich\af2\dbch\af13\loch\f2         \} else \{
+\par \hich\af2\dbch\af13\loch\f2             classifier = new ClassImpl();
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2         // set the namespace of it, if package is null, set model as its namespace.
+\par \hich\af2\dbch\af13\loch\f2         java.lang.Package j\hich\af2\dbch\af13\loch\f2 avaPackage = clazz.getPackage();
+\par \hich\af2\dbch\af13\loch\f2         if (javaPackage == null) \{
+\par \hich\af2\dbch\af13\loch\f2             classifier.setNamespace(model);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // model will be the owned element for classifier.
+\par \hich\af2\dbch\af13\loch\f2             model.addOwnedElement(classifier);
+\par \hich\af2\dbch\af13\loch\f2         \} else \{
+\par \hich\af2\dbch\af13\loch\f2             Package p = (Package) getModelPackages().get(javaPackage.getName());
+\par \hich\af2\dbch\af13\loch\f2             classifier.setNamespace(p);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // add it to the namespace
+\par \hich\af2\dbch\af13\loch\f2             p.addOwnedElement(classifier);
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2         classifier.setName(clazz.getSimpl\hich\af2\dbch\af13\loch\f2 eName());
+\par 
+\par \hich\af2\dbch\af13\loch\f2         // set 'final', 'static', and 'abstract' modifiers properties to classifier
+\par \hich\af2\dbch\af13\loch\f2         int mod = clazz.getModifiers();
+\par \hich\af2\dbch\af13\loch\f2         classifier.setAbstract(Modifier.isAbstract(mod));
+\par \hich\af2\dbch\af13\loch\f2         classifier.setLeaf(Modifier.isFinal(mod));
+\par \hich\af2\dbch\af13\loch\f2         clas\hich\af2\dbch\af13\loch\f2 sifier.setRoot(Modifier.isStatic(mod));
+\par 
+\par \hich\af2\dbch\af13\loch\f2         // Set the visibility of classifier. Only private, protected and public are supported.
+\par \hich\af2\dbch\af13\loch\f2         setVisibility(classifier, mod);
+\par 
+\par \hich\af2\dbch\af13\loch\f2         // add all the classes and external classes to model classes.
+\par \hich\af2\dbch\af13\loch\f2         /\hich\af2\dbch\af13\loch\f2 / Note: getModelClasses() will contain these class : java.*
+\par \hich\af2\dbch\af13\loch\f2         getModelClasses().put(clazz.getName(), classifier);
+\par }\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin0\itap0\pararsid8979900 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {
+\f2\fs16\cf6\insrsid8979900\charrsid8979900 \hich\af2\dbch\af13\loch\f2     \}
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid8979900 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f2\fs16\cf6\insrsid8979900\charrsid8979900 \hich\af2\dbch\af13\loch\f2 
+    private void importClassAttributesToModule(Model model) \{
+\par \hich\af2\dbch\af13\loch\f2         for (Class<?> cls : getClasses().values()) \{
+\par \hich\af2\dbch\af13\loch\f2             Classifier classifier = getModelClasses().get(cls.getName());
+\par 
+\par \hich\af2\dbch\af13\loch\f2             java.lang.Package pkg = cls.getPackage();
+\par \hich\af2\dbch\af13\loch\f2             String packageName = pkg == null ? "" : pkg.getName();
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // if package name is empty string, model will \hich\af2\dbch\af13\loch\f2 be retrieved from getModelPackages().
+\par \hich\af2\dbch\af13\loch\f2             Package p = getModelPackages().get(packageName);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             List<Relationship> relationships = new ArrayList<Relationship>();
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // add the relationship to relations list.
+\par \hich\af2\dbch\af13\loch\f2             addRelatio\hich\af2\dbch\af13\loch\f2 nWithInterfaces(model, cls, classifier, packageName, p, relationships);
+\par \hich\af2\dbch\af13\loch\f2             addRelationWithSuperClass(model, cls, classifier, packageName, p, relationships);
+\par \hich\af2\dbch\af13\loch\f2             addRelationWithFields(model, cls, classifier, packageName, p, relationships);
+\par \hich\af2\dbch\af13\loch\f2             addRelationWithMethods(model, cls, classifier, packageName, p, relationships);
+\par \hich\af2\dbch\af13\loch\f2             addRelationWithInnerClass(model, cls, classifier, packageName, p, relationships);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             this.getClassesToRelationships().put(classifier, relations\hich\af2\dbch\af13\loch\f2 hips);
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par }\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin0\itap0\pararsid8979900 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {
+\f2\fs16\cf6\insrsid8979900\charrsid8979900 \hich\af2\dbch\af13\loch\f2     \}
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid8979900 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f2\fs16\cf6\insrsid8979900\charrsid8979900 
+\par \hich\af2\dbch\af13\loch\f2 private void addRelationWithInterfaces(Model model, Class<?> cls, Classifier classifier,
+\par \hich\af2\dbch\af13\loch\f2         String packageName, Package p, List<Relationship> relationships) \{
+\par \hich\af2\dbch\af13\loch\f2         for (Class<?> inter : cls.getInterfaces()) \{
+\par \hich\af2\dbch\af13\loch\f2             // \hich\af2\dbch\af13\loch\f2 Create an Abstraction
+\par \hich\af2\dbch\af13\loch\f2             Abstraction abstraction = new AbstractionImpl();
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // add supplier of this abstraction
+\par \hich\af2\dbch\af13\loch\f2             abstraction.addSupplier(getModelClasses().get(inter.getName()));
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // add client of this abstraction
+\par \hich\af2\dbch\af13\loch\f2             abstraction.addClient(classifier);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // set the namespace to.
+\par \hich\af2\dbch\af13\loch\f2             setNamespace(inter, model, abstraction, packageName, p);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             classifier.addClientDependency(abstraction);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             getRelationships().add(abstract\hich\af2\dbch\af13\loch\f2 ion);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // add all the relationship with cls to list.
+\par \hich\af2\dbch\af13\loch\f2             relationships.add(abstraction);
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par \hich\af2\dbch\af13\loch\f2     \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2     private void setNamespace(Class<?> clazz, Model model, ModelElement ele, String packageName,
+\par \hich\af2\dbch\af13\loch\f2         Package p) \{
+\par \hich\af2\dbch\af13\loch\f2         if (\hich\af2\dbch\af13\loch\f2 clazz.getPackage() == null) \{
+\par \hich\af2\dbch\af13\loch\f2             ele.setNamespace(model);
+\par \hich\af2\dbch\af13\loch\f2         \} else \{
+\par \hich\af2\dbch\af13\loch\f2             ele.setNamespace(packageName.equals(clazz.getPackage().getName()) ? p : model);
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par \hich\af2\dbch\af13\loch\f2     \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2     private void setVisibility(ModelElement ele, int mod) \{
+\par \hich\af2\dbch\af13\loch\f2         if (Modifier.isPrivate(mod)) \{
+\par \hich\af2\dbch\af13\loch\f2             ele.setVisibility(VisibilityKind.PRIVATE);
+\par \hich\af2\dbch\af13\loch\f2         \} else if (Modifier.isProtected(mod)) \{
+\par \hich\af2\dbch\af13\loch\f2             ele.setVisibility(VisibilityKind.PROTECTED);
+\par \hich\af2\dbch\af13\loch\f2         \} else if (Modifier.isPublic(mod)) \{
+\par \hich\af2\dbch\af13\loch\f2             \hich\af2\dbch\af13\loch\f2 ele.setVisibility(VisibilityKind.PUBLIC);
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par \hich\af2\dbch\af13\loch\f2     \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2     private void addRelationWithSuperClass(Model model, Class<?> cls, Classifier classifier,
+\par \hich\af2\dbch\af13\loch\f2         String packageName, Package p, List<Relationship> relationships) \{
+\par \hich\af2\dbch\af13\loch\f2         Class<?> superclass =\hich\af2\dbch\af13\loch\f2  cls.getSuperclass();
+\par \hich\af2\dbch\af13\loch\f2         if (superclass != null) \{
+\par \hich\af2\dbch\af13\loch\f2             // Create a Generalization
+\par \hich\af2\dbch\af13\loch\f2             Generalization generalization = new GeneralizationImpl();
+\par \hich\af2\dbch\af13\loch\f2             // set parent of the Generalization
+\par \hich\af2\dbch\af13\loch\f2             generalization.setParent(getMod\hich\af2\dbch\af13\loch\f2 elClasses().get(superclass.getName()));
+\par \hich\af2\dbch\af13\loch\f2             // set child of the Generalization
+\par \hich\af2\dbch\af13\loch\f2             generalization.setChild(classifier);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // set the namespace to.
+\par \hich\af2\dbch\af13\loch\f2             setNamespace(superclass, model, generalization, packageName, p);
+\par 
+\par \hich\af2\dbch\af13\loch\f2     \hich\af2\dbch\af13\loch\f2         classifier.addGeneralization(generalization);
+\par \hich\af2\dbch\af13\loch\f2             getRelationships().add(generalization);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // also add it to the classesToRelationships map
+\par \hich\af2\dbch\af13\loch\f2             // this.getClassesToRelationships().get(classifier).add(generalization);
+\par \hich\af2\dbch\af13\loch\f2             relationships.add(generalization);
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par \hich\af2\dbch\af13\loch\f2     \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2     private void addRelationWithFields(Model model, Class<?> cls, Classifier classifier,
+\par \hich\af2\dbch\af13\loch\f2         String packageName, Package p, List<Relationship> relationships) \{
+\par \hich\af2\dbch\af13\loch\f2         for (Field field : c\hich\af2\dbch\af13\loch\f2 ls.getDeclaredFields()) \{
+\par \hich\af2\dbch\af13\loch\f2             // Here should be the type of field, not using getDeclaringClass.
+\par \hich\af2\dbch\af13\loch\f2             Class<?> fieldClass = field.getType();
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // add the field as the attribute in the classifer
+\par \hich\af2\dbch\af13\loch\f2             Attribute attribute = new\hich\af2\dbch\af13\loch\f2  AttributeImpl();
+\par \hich\af2\dbch\af13\loch\f2             attribute.setType(getModelClasses().get(fieldClass.getName()));
+\par \hich\af2\dbch\af13\loch\f2             attribute.setOwner(classifier);
+\par \hich\af2\dbch\af13\loch\f2             attribute.setName(field.getName());
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // If the field is final, set to frozen.
+\par \hich\af2\dbch\af13\loch\f2             // N\hich\af2\dbch\af13\loch\f2 ote : the static attribute should be done during final fix.
+\par \hich\af2\dbch\af13\loch\f2             int fieldMod = field.getModifiers();
+\par \hich\af2\dbch\af13\loch\f2             if (Modifier.isFinal(fieldMod)) \{
+\par \hich\af2\dbch\af13\loch\f2                 attribute.setChangeability(ChangeableKind.FROZEN);
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // Set \hich\af2\dbch\af13\loch\f2 the visibility of classifier. Only private, protected and public are supported.
+\par \hich\af2\dbch\af13\loch\f2             setVisibility(attribute, fieldMod);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             classifier.addFeature(attribute);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // the relationship to primitive and system classes should be ignore\hich\af2\dbch\af13\loch\f2 d.
+\par \hich\af2\dbch\af13\loch\f2             if (!fieldClass.isPrimitive() && !fieldClass.getName().startsWith(JAVAPREF)) \{
+\par \hich\af2\dbch\af13\loch\f2                 // create AssociationEnd instances
+\par \hich\af2\dbch\af13\loch\f2                 AssociationEnd end1 = new AssociationEndImpl();
+\par \hich\af2\dbch\af13\loch\f2                 end1.setParticipant(classifier);
+\par \hich\af2\dbch\af13\loch\f2                 AssociationEnd end2 = new AssociationEndImpl();
+\par \hich\af2\dbch\af13\loch\f2                 end2.setParticipant(getModelClasses().get(fieldClass.getName()));
+\par \hich\af2\dbch\af13\loch\f2                 end2.setName(field.getName());
+\par 
+\par \hich\af2\dbch\af13\loch\f2              \hich\af2\dbch\af13\loch\f2    // also set visibility to end2.
+\par \hich\af2\dbch\af13\loch\f2                 setVisibility(end2, fieldMod);
+\par 
+\par \hich\af2\dbch\af13\loch\f2                 // create Association instances
+\par \hich\af2\dbch\af13\loch\f2                 Association association = new AssociationImpl();
+\par \hich\af2\dbch\af13\loch\f2                 association.addConnection(end1);
+\par \hich\af2\dbch\af13\loch\f2            \hich\af2\dbch\af13\loch\f2      association.addConnection(end2);
+\par \hich\af2\dbch\af13\loch\f2                 end1.setAssociation(association);
+\par \hich\af2\dbch\af13\loch\f2                 end2.setAssociation(association);
+\par 
+\par \hich\af2\dbch\af13\loch\f2                 // set the namespace to.
+\par \hich\af2\dbch\af13\loch\f2                 setNamespace(fieldClass, model, association, packageName, p)\hich\af2\dbch\af13\loch\f2 ;
+\par 
+\par \hich\af2\dbch\af13\loch\f2                 getRelationships().add(association);
+\par 
+\par \hich\af2\dbch\af13\loch\f2                 // also add it to the classesToRelationships map
+\par \hich\af2\dbch\af13\loch\f2                 // this.getClassesToRelationships().get(classifier).add(association);
+\par \hich\af2\dbch\af13\loch\f2                 relationships.add(association);
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2     \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2     private void addRelationWithMethods(Model model, Class<?> cls, Classifier classifier,
+\par \hich\af2\dbch\af13\loch\f2         String packageName, Package p, List<Relationship> relationships) \{
+\par \hich\af2\dbch\af13\loch\f2         for (Method m : cls.getDeclaredMethods()) \{
+\par \hich\af2\dbch\af13\loch\f2             Operation operation = new OperationImpl();
+\par \hich\af2\dbch\af13\loch\f2             operation.setName(m.getName());
+\par \hich\af2\dbch\af13\loch\f2             operation.setOwner(classifier);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // set final, static, and abstract modifiers properties
+\par \hich\af2\dbch\af13\loch\f2             int mod = m.getModifiers();
+\par 
+\par \hich\af2\dbch\af13\loch\f2    \hich\af2\dbch\af13\loch\f2          operation.setAbstract(Modifier.isAbstract(mod));
+\par \hich\af2\dbch\af13\loch\f2             operation.setLeaf(Modifier.isFinal(mod));
+\par \hich\af2\dbch\af13\loch\f2             operation.setRoot(Modifier.isStatic(mod));
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // Set the visibility of operation. Only private, protected and public are s\hich\af2\dbch\af13\loch\f2 upported.
+\par \hich\af2\dbch\af13\loch\f2             setVisibility(operation, mod);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // add parameters to this operation
+\par \hich\af2\dbch\af13\loch\f2             for (Class<?> paramClass : m.getParameterTypes()) \{
+\par \hich\af2\dbch\af13\loch\f2                 Parameter parameter = new ParameterImpl();
+\par \hich\af2\dbch\af13\loch\f2                 // Note that we\hich\af2\dbch\af13\loch\f2  can't get parameter name from compiled
+\par \hich\af2\dbch\af13\loch\f2                 // class by reflection. So we use the paramClass's name as
+\par \hich\af2\dbch\af13\loch\f2                 // the name.
+\par \hich\af2\dbch\af13\loch\f2                 String name = paramClass.getSimpleName();
+\par \hich\af2\dbch\af13\loch\f2                 // if the class is only one letter.
+\par \hich\af2\dbch\af13\loch\f2   \hich\af2\dbch\af13\loch\f2               if (name.trim().length() == 1) \{
+\par \hich\af2\dbch\af13\loch\f2                     name = name.toLowerCase();
+\par \hich\af2\dbch\af13\loch\f2                 \} else \{
+\par \hich\af2\dbch\af13\loch\f2                     name = name.substring(0, 1).toLowerCase() + name.substring(1);
+\par \hich\af2\dbch\af13\loch\f2                 \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2                 parameter.setName(name);
+\par \hich\af2\dbch\af13\loch\f2                 parameter.setType(getModelClasses().get(paramClass.getName()));
+\par 
+\par \hich\af2\dbch\af13\loch\f2                 operation.addParameter(parameter);
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // also add Return as the parameter with the name "Retur\hich\af2\dbch\af13\loch\f2 n" to operation.
+\par \hich\af2\dbch\af13\loch\f2             Class<?> retType = m.getReturnType();
+\par \hich\af2\dbch\af13\loch\f2             Parameter ret = new ParameterImpl();
+\par \hich\af2\dbch\af13\loch\f2             ret.setName(RETURN);
+\par \hich\af2\dbch\af13\loch\f2             ret.setType(getModelClasses().get(retType.getName()));
+\par \hich\af2\dbch\af13\loch\f2             operation.addParameter(ret);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // Iterate the parameter of the method
+\par \hich\af2\dbch\af13\loch\f2             for (Class<?> paramClass : m.getParameterTypes()) \{
+\par \hich\af2\dbch\af13\loch\f2                 createDependency(model, paramClass, classifier, packageName, p, relationships);
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // set the depen\hich\af2\dbch\af13\loch\f2 dency for return type.
+\par \hich\af2\dbch\af13\loch\f2             createDependency(model, retType, classifier, packageName, p, relationships);
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par \hich\af2\dbch\af13\loch\f2     \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2     private void createDependency(Model model, Class<?> cls, Classifier classifier,
+\par \hich\af2\dbch\af13\loch\f2         String packageName, Package p, List\hich\af2\dbch\af13\loch\f2 <Relationship> relationships) \{
+\par \hich\af2\dbch\af13\loch\f2         if (!cls.isPrimitive() && !cls.getName().startsWith(JAVAPREF)) \{
+\par \hich\af2\dbch\af13\loch\f2             Dependency dependency = new DependencyImpl();
+\par \hich\af2\dbch\af13\loch\f2             Classifier c = getModelClasses().get(cls.getName());
+\par \hich\af2\dbch\af13\loch\f2             if (c != null) \{
+\par \hich\af2\dbch\af13\loch\f2                 // add supplier of this dependency
+\par \hich\af2\dbch\af13\loch\f2                 dependency.addSupplier(c);
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // add client of this dependency
+\par \hich\af2\dbch\af13\loch\f2             dependency.addClient(classifier);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // set the namespace to.
+\par \hich\af2\dbch\af13\loch\f2             setNa\hich\af2\dbch\af13\loch\f2 mespace(cls, model, dependency, packageName, p);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             classifier.addClientDependency(dependency);
+\par \hich\af2\dbch\af13\loch\f2             getRelationships().add(dependency);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // also add it to the classesToRelationships map
+\par \hich\af2\dbch\af13\loch\f2             // getClassesToRelationships\hich\af2\dbch\af13\loch\f2 ().get(classifier).add(dependency);
+\par \hich\af2\dbch\af13\loch\f2             relationships.add(dependency);
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par \hich\af2\dbch\af13\loch\f2     \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2     private void addRelationWithInnerClass(Model model, Class<?> cls, Classifier classifier,
+\par \hich\af2\dbch\af13\loch\f2         String packageName, Package p, List<Relationship> relations\hich\af2\dbch\af13\loch\f2 hips) \{
+\par 
+\par \hich\af2\dbch\af13\loch\f2         // getClasses method can not get the inner class.
+\par \hich\af2\dbch\af13\loch\f2         // getDeclaredClasses is the correct method.
+\par \hich\af2\dbch\af13\loch\f2         for (Class<?> inner : cls.getDeclaredClasses()) \{
+\par \hich\af2\dbch\af13\loch\f2             Dependency dependency = new DependencyImpl();
+\par 
+\par \hich\af2\dbch\af13\loch\f2             Classifier c = getModelClasses().get(inner.getName());
+\par \hich\af2\dbch\af13\loch\f2             if (c != null) \{
+\par \hich\af2\dbch\af13\loch\f2                 // add supplier of this dependency
+\par \hich\af2\dbch\af13\loch\f2                 dependency.addSupplier(c);
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // add client of this abstraction
+\par \hich\af2\dbch\af13\loch\f2      \hich\af2\dbch\af13\loch\f2        dependency.addClient(classifier);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             Stereotype stereotype = new StereotypeImpl();
+\par \hich\af2\dbch\af13\loch\f2             stereotype.setName(INNER);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // Add it to model first.
+\par \hich\af2\dbch\af13\loch\f2             if (!model.containsOwnedElement(stereotype)) \{
+\par \hich\af2\dbch\af13\loch\f2                 mod\hich\af2\dbch\af13\loch\f2 el.addOwnedElement(stereotype);
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2             dependency.addStereotype(stereotype);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // set the namespace to.
+\par \hich\af2\dbch\af13\loch\f2             setNamespace(inner, model, dependency, packageName, p);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             classifier.addClientDependency(dependenc\hich\af2\dbch\af13\loch\f2 y);
+\par \hich\af2\dbch\af13\loch\f2             getRelationships().add(dependency);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // also add it to the classesToRelationships map
+\par \hich\af2\dbch\af13\loch\f2             // getClassesToRelationships().get(classifier).add(dependency);
+\par \hich\af2\dbch\af13\loch\f2             relationships.add(dependency);
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par \hich\af2\dbch\af13\loch\f2     \}
+\par }\pard\plain \s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel2\rin0\lin0\itap0\pararsid8979900 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\i\f1\fs20\insrsid6958482 
+\hich\af1\dbch\af13\loch\f1 1.3.4\tab \hich\af1\dbch\af13\loch\f1 Add the imported classes into the specific diagram}{\i\fs20\insrsid6958482 
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 
+This algorithm is for method DefaultJarImporter#importToDiagram.
+\par \hich\af1\dbch\af13\loch\f1 It is straightforward that just iterate the modelClasses and relationships, for each classifier or relationship, add one GraphNode/GraphEdge\hich\af1\dbch\af13\loch\f1  to the specific diagram. If the specific diagram doesn
+\hich\f1 \rquote \loch\f1 t exist in the UMLModelManager, just throw JarImporterException.
+\par 
+\par }{\f2\fs16\insrsid6958482 
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0\pararsid8979900 {\f2\fs16\cf6\insrsid8979900\charrsid8979900 \hich\af2\dbch\af13\loch\f2 // add the relationships to the diagram first
+\par \hich\af2\dbch\af13\loch\f2         // define the Relationship to GraphEdge map.
+\par \hich\af2\dbch\af13\loch\f2         Map<Relationship, GraphEdg\hich\af2\dbch\af13\loch\f2 e> edges = new HashMap<Relationship, GraphEdge>();
+\par \hich\af2\dbch\af13\loch\f2         for (Relationship ship : getRelationships()) \{
+\par \hich\af2\dbch\af13\loch\f2             GraphEdge edge = new GraphEdge();
+\par \hich\af2\dbch\af13\loch\f2             Uml1SemanticModelBridge brige = new Uml1SemanticModelBridge();
+\par \hich\af2\dbch\af13\loch\f2             brige.setElement(\hich\af2\dbch\af13\loch\f2 ship);
+\par \hich\af2\dbch\af13\loch\f2             edge.setSemanticModel(brige);
+\par \hich\af2\dbch\af13\loch\f2             edge.setPosition(new Point());
+\par 
+\par \hich\af2\dbch\af13\loch\f2             diagram.addContained(edge);
+\par \hich\af2\dbch\af13\loch\f2             edges.put(ship, edge);
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2         // add the classifiers to the diagram
+\par \hich\af2\dbch\af13\loch\f2         for (Classifier classif\hich\af2\dbch\af13\loch\f2 ier : getModelClasses().values()) \{
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // the primitive class and system classes should not be imported.
+\par \hich\af2\dbch\af13\loch\f2             String name = classifier.getNamespace().getName();
+\par \hich\af2\dbch\af13\loch\f2             if (name == null || name.startsWith(JAVAPREF)) \{
+\par \hich\af2\dbch\af13\loch\f2                 \hich\af2\dbch\af13\loch\f2 continue;
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // Create the node for each classifier.
+\par \hich\af2\dbch\af13\loch\f2             GraphNode node = new GraphNode();
+\par \hich\af2\dbch\af13\loch\f2             node.setPosition(new Point());
+\par \hich\af2\dbch\af13\loch\f2             Uml1SemanticModelBridge brige = new Uml1SemanticModelBridge();
+\par \hich\af2\dbch\af13\loch\f2             bri\hich\af2\dbch\af13\loch\f2 ge.setElement(classifier);
+\par \hich\af2\dbch\af13\loch\f2             node.setSemanticModel(brige);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // get related Relationships for this classifier
+\par \hich\af2\dbch\af13\loch\f2             List<Relationship> rs = getClassesToRelationships().get(classifier);
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // the relationships may be nul\hich\af2\dbch\af13\loch\f2 l. For example, A connect to B, the relationship
+\par \hich\af2\dbch\af13\loch\f2             // is owned by B, and when passing A, the return relationship is null.
+\par \hich\af2\dbch\af13\loch\f2             if (rs != null) \{
+\par \hich\af2\dbch\af13\loch\f2                 for (Relationship r : rs) \{
+\par \hich\af2\dbch\af13\loch\f2                     GraphConnector connector = new\hich\af2\dbch\af13\loch\f2  GraphConnector();
+\par \hich\af2\dbch\af13\loch\f2                     GraphEdge edge = edges.get(r);
+\par \hich\af2\dbch\af13\loch\f2                     connector.addGraphEdge(edge);
+\par \hich\af2\dbch\af13\loch\f2                     node.addAnchorage(connector);
+\par \hich\af2\dbch\af13\loch\f2                     edge.addAnchor(connector);
+\par \hich\af2\dbch\af13\loch\f2                 \}
+\par \hich\af2\dbch\af13\loch\f2             \}
+\par 
+\par \hich\af2\dbch\af13\loch\f2             // add it to diagram
+\par \hich\af2\dbch\af13\loch\f2             diagram.addContained(node);
+\par \hich\af2\dbch\af13\loch\f2         \}
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\f2\fs16\insrsid6958482 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 1.4
+\tab Component Class Overview
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 JarImporter:}{\f1\fs20\insrsid6958482 
+\par }\pard \ql \fi720\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 This abstract class defines the APIs to import JARs to TC UML model and diagram. It defines three steps to achieve this purpose, f
+\hich\af1\dbch\af13\loch\f1 
+irst, pull all the classes and packages from the JARs; second, import the packages, classes, related external classes, relationships to the model; third, import all the entities pulled from JARs into a specific diagram. The implementation of them is left 
+\hich\af1\dbch\af13\loch\f1 t\hich\af1\dbch\af13\loch\f1 o the subclasses. This class also defines many variables to store the state of the importing.
+\par \hich\af1\dbch\af13\loch\f1 Thread Safety: This class and the subclasses are not thread-safe because it has state when importing.
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f1\fs20\insrsid6958482 \tab 
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 DefaultJarImporter:}{\f1\fs20\insrsid6958482 
+\par }\pard \ql \fi720\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 This class is the default implementati\hich\af1\dbch\af13\loch\f1 
+on of the JarImporter abstract class. It uses URLClassLoader and JarFile to pull the packages and classes from the JARs, it uses reflection to get the external classes, related relationships, attributes, operations, etc. And then import them into TC UML M
+\hich\af1\dbch\af13\loch\f1 o\hich\af1\dbch\af13\loch\f1 
+del. At last, it just put all the classes and relationships into the specific diagram, the positions in the diagram are not specified. It also allows the user specify an extra classpath so that the target JARs can be imported successfully. Otherwise, some
+\hich\af1\dbch\af13\loch\f1  \hich\af1\dbch\af13\loch\f1 external classes may be unable to be loaded by reflection.
+\par \hich\af1\dbch\af13\loch\f1 Thread Safety: This class is not thread-safe as the base class is not thread-safe.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 1.5
+\tab Component Exception Definitions
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 IllegalArgumentException [System]:
+\par }\pard \ql \fi720\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 This exception is thrown if any argument is\hich\af1\dbch\af13\loch\f1  invalid, for example: parameter is null or string is empty, etc.
+
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\b\f1\fs20\insrsid6958482 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f1\fs20\insrsid6958482 \tab }{\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 JarImporterException [Custom]:
+\par }\pard \ql \fi720\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 This is a custom exception if any errors occurred when importing the jar to the TC UML model and diagram.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 1.6
+\tab Thread Safety
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 This component is not thread-safe
+\hich\af1\dbch\af13\loch\f1  because the JarImporter has inner state when importing the JARs.}{\fs20\insrsid6958482 
+\par }\pard \ql \li720\ri0\sa120\nowidctlpar\faauto\rin0\lin720\itap0 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 
+To make this component completely thread safe synchronization will have to be heavily used in all blocks that mutate internal states, or just creates JarImporter instance for every caller th\hich\af1\dbch\af13\loch\f1 read.}{\fs20\insrsid6958482 
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 
+2.\tab }{\b\f1\insrsid6958482 \hich\af1\dbch\af13\loch\f1 Environment Requirements}{\b\insrsid6958482 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 2.1
+\tab Environment
+\par }\pard\plain \ql \fi-360\li1080\ri0\nowidctlpar\tx1080\faauto\rin0\lin1080\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f3\fs20\insrsid6958482 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{\f1\fs20\insrsid6958482 
+\hich\af1\dbch\af13\loch\f1 Development language: Java 5.0
+\par }\pard \ql \fi-360\li1080\ri0\nowidctlpar\faauto\rin0\lin1080\itap0 {\f3\fs20\insrsid6958482 \loch\af3\dbch\af13\hich\f3 \'b7\tab }{\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 Compile target: Java 5.0
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 2.2
+\tab TopCoder Software Components
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 Base Exception 2.0:}{\f1\fs20\insrsid6958482 
+\hich\af1\dbch\af13\loch\f1  JarImporterException extends BaseCriticalException which is in Base Exception 2.0 component.
+\par }{\b\f1\fs20\cf6\insrsid6958482\charrsid8979900 \hich\af1\dbch\af13\loch\f1 Diagram Interchange 1.0}{\b\f1\fs20\cf6\insrsid8979900\charrsid8979900 \hich\af1\dbch\af13\loch\f1 .1}{\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 :}{
+\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1  It defines Diagram, GraphNode, etc classes.
+\par }{\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 UML Model - Core Dependencies 1.0:}{\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1  It defines Abstraction, Dependency, etc.
+\par }{\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 UML Model - Core Relationships 1.0:}{\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1  It defines Relationship, Association, etc.
+\par }{\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 UML Model - Core 1.0:}{\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1  It defin\hich\af1\dbch\af13\loch\f1 es Attribute, Parameter, Classifier, etc.
+\par }{\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 UML Model - Model Management 1.0:}{\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1  It defines Model, Package, etc.
+\par }{\b\f1\fs20\cf6\insrsid6958482\charrsid591799 \hich\af1\dbch\af13\loch\f1 UML Model - Core Classifier}{\b\f1\fs20\cf6\insrsid591799\charrsid591799 \hich\af1\dbch\af13\loch\f1 s}{\b\f1\fs20\cf6\insrsid6958482\charrsid591799 \hich\af1\dbch\af13\loch\f1 
+ 1.0:}{\f1\fs20\cf6\insrsid6958482\charrsid591799 \hich\af1\dbch\af13\loch\f1  It defines Class, Interface, etc.
+\par }{\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 UML Model - UML\hich\af1\dbch\af13\loch\f1  Model Manager 1.0:}{\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1  UMLModelManager is in that component.
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0\pararsid591799 {\b\f1\fs20\cf6\insrsid591799\charrsid6300213 \hich\af1\dbch\af13\loch\f1 UML Model \hich\f1 \endash \loch\f1  Data}{\b\f1\fs20\cf6\insrsid591799\charrsid10041093 
+\hich\af1\dbch\af13\loch\f1  types 1.0}{\b\f1\fs20\cf6\insrsid591799\charrsid6300213 \hich\af1\dbch\af13\loch\f1 :}{\f1\fs20\cf6\insrsid591799\charrsid6300213 \hich\af1\dbch\af13\loch\f1  It defines \hich\af1\dbch\af13\loch\f1 data type etc.
+\par }{\b\f1\fs20\cf6\insrsid591799\charrsid6300213 \hich\af1\dbch\af13\loch\f1 UML Model \hich\f1 \endash }{\b\f1\fs20\cf6\insrsid591799 \hich\af1\dbch\af13\loch\f1 Core Extension mechanisms}{\b\f1\fs20\cf6\insrsid591799\charrsid6300213 
+\hich\af1\dbch\af13\loch\f1  1.0:}{\f1\fs20\cf6\insrsid591799\charrsid10041093 \hich\af1\dbch\af13\loch\f1  It defines \hich\af1\dbch\af13\loch\f1 Stereotype}{\f1\fs20\cf6\insrsid591799 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\cf6\insrsid610074 
+\hich\af1\dbch\af13\loch\f1 c\hich\af1\dbch\af13\loch\f1 lass etc}{\f1\fs20\cf6\insrsid591799\charrsid10041093 \hich\af1\dbch\af13\loch\f1 .}{\f1\fs20\cf6\insrsid591799\charrsid591799 
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\f1\fs20\insrsid6958482 
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 2.3
+\tab Third Party Components
+\par }\pard\plain \s3\ql \li720\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx720\faauto\outlinelevel2\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 None.
+}{\fs20\insrsid6958482 
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 
+3.\tab }{\b\f1\insrsid6958482 \hich\af1\dbch\af13\loch\f1 Installation and Configuration
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 3.1
+\tab Package Name
+\par }\pard\plain \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 com.topcoder.uml.importer.jarimporter
+\par \hich\af1\dbch\af13\loch\f1 com.topcoder.uml.importer.jarimporter.impl
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 3.2
+\tab Configuration Parameters}{\b\fs20\insrsid6958482 
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 None.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 3.3
+\tab Dependencies Configuration
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 None.}{\fs20\insrsid6958482 
+
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 
+4.\tab }{\b\f1\insrsid6958482 \hich\af1\dbch\af13\loch\f1 Usage Notes
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 4.1
+\tab Required steps to test the component
+\par }\pard\plain \ql \fi-420\li1140\ri0\nowidctlpar\tx1140\faauto\rin0\lin1140\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f10\fs20\insrsid6958482 \loch\af10\dbch\af13\hich\f10 \'9f\tab }{
+\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 Extract the component distribution
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f10\fs20\insrsid6958482 \loch\af10\dbch\af13\hich\f10 \'9f\tab }{\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 Follow }{\field{\*\fldinst {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 
+HYPERLINK "C:\\\\filez\\\\work\\\\tc\\\\tcs_corp\\\\templates\\\\component\\\\" \\\\l "_Dependencies_Configuration" }{\f1\fs20\insrsid3170199\charrsid8010100 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b02000000030000000303000000000000c00000000000004600002f000000433a5c66696c657a5c776f726b5c74635c7463735f636f72705c74656d706c617465735c636f6d706f6e656e745c00ffffadde00000000000000000000000000000000000000000000000000}}
+}{\fldrslt {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 Dependencie\hich\af1\dbch\af13\loch\f1 s Configuration}}}{\f1\fs20\insrsid6958482 
+\par }\pard \ql \fi-420\li1140\ri0\nowidctlpar\tx1140\faauto\rin0\lin1140\itap0 {\f10\fs20\insrsid6958482 \loch\af10\dbch\af13\hich\f10 \'9f\tab }{\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 Execute \hich\f1 \lquote \loch\f1 ant test\hich\f1 \rquote 
+\loch\f1  within the directory that the distribution was extracted to.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 4.2
+\tab Required steps to use the component
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 None.
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 4.3
+\tab Demo
+\par \hich\af1\dbch\af13\loch\f1        }{\f2\fs16\cf6\insrsid6958482\charrsid8979900 \hich\af2\dbch\af13\loch\f2 // Create the UMLModelManager and Diagram
+\par }\pard\plain \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid8010100 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f2\fs16\cf6\insrsid6958482\charrsid8979900 \hich\af2\dbch\af13\loch\f2 
+UMLModelManager umlMgr = UMLModelManager.getInstance();
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0\pararsid8010100 {\f2\fs16\cf6\insrsid6958482\charrsid8979900 \hich\af2\dbch\af13\loch\f2 Diagram diagram = new Diagram();
+\par \hich\af2\dbch\af13\loch\f2 diagram.setName("Main Class Diagram");
+\par \hich\af2\dbch\af13\loch\f2 umlMgr.addDiagram(diagram);
+\par }\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx0\faauto\outlinelevel1\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\fs20\insrsid6958482\charrsid8010100 
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f2\fs16\cf17\insrsid6958482 \hich\af2\dbch\af13\loch\f2 
+// Assume we have two jar named "some_path/Test1.jar" and "some_path/Test2.jar", 
+\par \hich\af2\dbch\af13\loch\f2 // it uses base exception 2.0 component. Base exception 2.0 has the path 
+\par \hich\af2\dbch\af13\loch\f2 // "some_path/base_exception.jar". So we need to initialize the DefaultJarImporter 
+\par \hich\af2\dbch\af13\loch\f2 // with the classpath to base exception 2.0}{\f2\fs16\insrsid6958482 
+\par }{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2 JarImporter importer = }{\b\f2\fs16\cf18\insrsid6958482 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2  DefaultJarImporter(umlMgr, 
+\par }\pard \ql \fi720\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\b\f2\fs16\cf18\insrsid6958482 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2  String[]\{}{\f2\fs16\cf19\insrsid6958482 
+\hich\af2\dbch\af13\loch\f2 "some_path/base_exception.jar"}{\f2\fs16\cf1\insrsid6958482 \}\hich\af2\dbch\af13\loch\f2 );}{\f2\fs16\insrsid6958482 
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\f2\fs16\insrsid6958482 
+\par }{\f2\fs16\cf17\insrsid6958482 \hich\af2\dbch\af13\loch\f2 // you also can create DefaultJarImporter with URLs}{\f2\fs16\insrsid6958482 
+\par }{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2 importer = }{\b\f2\fs16\cf18\insrsid6958482 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2  DefaultJarImporter(umlMgr, 
+\par }\pard \ql \fi720\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\b\f2\fs16\cf18\insrsid6958482 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2  URL[]\{}{\b\f2\fs16\cf18\insrsid6958482 \hich\af2\dbch\af13\loch\f2 
+new}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2  File(}{\f2\fs16\cf19\insrsid6958482 \hich\af2\dbch\af13\loch\f2 "some_path/base_exception.jar"}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2 ).toURI().toURL()\});}{
+\f2\fs16\insrsid6958482 
+\par }\pard \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\f2\fs16\insrsid6958482 
+\par }{\f2\fs16\cf17\insrsid6958482 \hich\af2\dbch\af13\loch\f2 // only import the JARs to Model}{\f2\fs16\insrsid6958482 
+\par }{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2 importer.importJars(}{\b\f2\fs16\cf18\insrsid6958482 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2  String[]\{}{\f2\fs16\cf19\insrsid6958482 
+\hich\af2\dbch\af13\loch\f2 "some_path/Test1.jar"}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2 , }{\f2\fs16\cf19\insrsid6958482 \hich\af2\dbch\af13\loch\f2 "some_path/Test2.jar"}{\f2\fs16\cf1\insrsid6958482 \}\hich\af2\dbch\af13\loch\f2 );}{
+\f2\fs16\insrsid6958482 
+\par 
+\par }{\f2\fs16\cf17\insrsid6958482 \hich\af2\dbch\af13\loch\f2 // you also can import JARs with specified URLs to Model}{\f2\fs16\insrsid6958482 
+\par }{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2 importer.importJars(}{\b\f2\fs16\cf18\insrsid6958482 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2  URL[]\{}{\b\f2\fs16\cf18\insrsid6958482 
+\hich\af2\dbch\af13\loch\f2 new}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2  File(}{\f2\fs16\cf19\insrsid6958482 \hich\af2\dbch\af13\loch\f2 "some_path/Test1.jar"}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2 ).toURI().toURL()\});}
+{\f2\fs16\insrsid6958482 
+\par 
+\par }{\f2\fs16\cf17\insrsid6958482 \hich\af2\dbch\af13\loch\f2 // import the JARs to model, and th\hich\af2\dbch\af13\loch\f2 en import all the entities into specified 
+\par \hich\af2\dbch\af13\loch\f2 // diagram. Here assume there is a class diagram named with "Main Class Diagram"}{\f2\fs16\insrsid6958482 
+\par }{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2 importer.importJarsToDiagram(}{\b\f2\fs16\cf18\insrsid6958482 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2  String[]\{}{\f2\fs16\cf19\insrsid6958482 
+\hich\af2\dbch\af13\loch\f2 "some_path/Test1.jar"}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2 , 
+\par \tab }{\f2\fs16\cf19\insrsid6958482 \hich\af2\dbch\af13\loch\f2 "some_path/Test2.jar"}{\f2\fs16\cf1\insrsid6958482 \}\hich\af2\dbch\af13\loch\f2 , }{\f2\fs16\cf19\insrsid6958482 \hich\af2\dbch\af13\loch\f2 "Main Class Diagram"}{
+\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2 );}{\f2\fs16\insrsid6958482 
+\par 
+\par }{\f2\fs16\cf17\insrsid6958482 \hich\af2\dbch\af13\loch\f2 // you also can u\hich\af2\dbch\af13\loch\f2 se URLs instead.}{\f2\fs16\insrsid6958482 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2 importer.importJarsToDiagram(
+\par }\pard \ql \fi720\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 {\b\f2\fs16\cf18\insrsid6958482 \hich\af2\dbch\af13\loch\f2 new}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2  URL[]\{}{\b\f2\fs16\cf18\insrsid6958482 \hich\af2\dbch\af13\loch\f2 
+new}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2  File(}{\f2\fs16\cf19\insrsid6958482 \hich\af2\dbch\af13\loch\f2 "some_path/Test1.jar"}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2 ).toURI().toURL()\}, 
+\par }{\f2\fs16\cf19\insrsid6958482 \hich\af2\dbch\af13\loch\f2 "Main Class Diagram"}{\f2\fs16\cf1\insrsid6958482 \hich\af2\dbch\af13\loch\f2 );}{\f2\fs16\insrsid6958482 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\fs16\insrsid6958482 
+\par }\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx360\faauto\outlinelevel0\rin0\lin0\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\b\f1\fs16\insrsid6958482 \hich\af1\dbch\af13\loch\f1 
+5.\tab }{\b\f1\insrsid6958482 \hich\af1\dbch\af13\loch\f1 Future Enhancement}{\b\insrsid6958482 
+\par }\pard\plain \ql \li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe2052\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\f1\fs20\insrsid6958482 \hich\af1\dbch\af13\loch\f1 
+Better support for various Java properties will be added in the future, for things like attributes applied to classes and operations to be shown as stereotypes, as well as direct Java source input, and possibly documentation as well.
+\par }}

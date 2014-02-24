@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<CMConfig>
+	<Config name="com.topcoder.swing.imageexporter">
+		<!--
+		<Property name="exportersMap">
+			<Value>custom_exporter</Value>
+		</Property>
+
+		<Property name="jComponentVisibleMaker">
+			<Value>custom_visible_maker</Value>
+		</Property>
+		-->
+		<Property name="objectFactoryNamespace">
+			<Value>ObjectFactory_Exporter</Value>
+		</Property>
+			
+	</Config>
+	
+	<Config name="ObjectFactory_Exporter">
+		<Property name="custom_exporter">
+			<Property name="type">
+				<Value>com.topcoder.swing.imageexporter.MockJComponentImageExporter</Value>
+			</Property>
+		</Property>
+		
+		<Property name="custom_visible_maker">
+			<Property name="type">
+				<Value>com.topcoder.swing.imageexporter.MockVisibleMaker</Value>
+			</Property>
+		</Property>
+	</Config>
+	
+	<Config name="ImageManipulationImageExporterProperties">
+	</Config>
+	
+</CMConfig>

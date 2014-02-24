@@ -1,0 +1,16 @@
+<CMConfig>
+
+    <Property name="objectFactoryNamespace">
+       <Value>com.topcoder.swing.print.accuracytests.of</Value>
+    </Property>
+    <Property name="componentVisibleMaker">
+       <Value>DefaultComponentVisibleMaker</Value>
+    </Property>
+    <Property name="printFormatRetriever">
+       <Value>MockPrintFormatRetriever</Value>
+    </Property>
+    <Property name="hasPrintDialog">
+       <Value>true</Value>
+    </Property>
+
+</CMConfig>

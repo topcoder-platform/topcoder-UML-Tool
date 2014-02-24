@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<CMConfig>
+    <Property name="stereotypes">
+	    <Property name="Java">
+		    <Property name="Class">
+		        <Value>exception</Value>
+		        <Value>abstract</Value>
+		    </Property>
+		    <Property name="Operation">
+		        <Value>final</Value>
+		        <Value>abstract</Value>
+		    </Property>
+	    </Property>
+	    <Property name="CSharp">
+		    <Property name="Class">
+		        <Value>exception</Value>
+		        <Value>abstract</Value>
+		    </Property>
+	    </Property>
+    </Property>
+</CMConfig>

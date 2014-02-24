@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+	<!-- script for creat a new project and a new diagram  -->
+	<scenario name="NewProjectAndDiagram">
+		<KeyType keyStroke="meta N"/>
+		<if verifier="Verify" property="Text" expected="Do you want"
+			comparativeOperator="startsWith" windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="JDialog" componentFinder="COMPONENT_NUMBER" from="LEFT"
+			componentNumber="1" componentClass="JLabel">
+			<Click componentFinder="COMPONENT_NUMBER"
+				componentNumber="1" from="LEFT" componentClass="JButton"
+				windowFinder="CLASS_IS_ACCESSIBLE" windowClass="JDialog" />
+		</if>
+		<Click componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JRadioButton" label="Java"
+			windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowTitle="Choose language" windowClass="JDialog" />
+		<Click componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Accept"
+			windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			windowTitle="Choose language" windowClass="JDialog" />
+		<KeyType keyStroke="meta alt C"/>
+	</scenario>
+
+	<!--
+		script for test 119 in java.
+		1.Add a new class
+		2.Nominate the class with strings including spaces
+	-->
+	<scenario name="java119">
+		<call scenario="NewProjectAndDiagram" />
+		<Click componentClass="JToggleButton" name="Create a new Class"
+			windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentFinder="CLASS_IS_ACCESSIBLE"
+			componentClass="com.topcoder.gui.diagramviewer.DiagramView" x="10"
+			y="10" windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JFormattedTextField" />
+		<SetClipboard text="class name" />
+		<Paste />
+		<KeyType keyStroke="ENTER" />
+		<VerifyText componentFinder="ROOT_CONTAINER"
+			text="Code Generation Failure"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="Code Generation Failure" windowClass="JDialog" />
+	</scenario>
+
+	<!--
+		script for test 120 in java.
+		1.Add a new attribute
+		2.Nominate the attribute with strings including spaces
+	-->
+	<scenario name="java120">
+		<call scenario="NewProjectAndDiagram" />
+		<Click componentClass="JToggleButton" name="Create a new Class"
+			windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentFinder="CLASS_IS_ACCESSIBLE"
+			componentClass="com.topcoder.gui.diagramviewer.DiagramView" x="10"
+			y="10" windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Add Attribute" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JFormattedTextField" />
+		<SetClipboard text="atr name" />
+		<Paste />
+		<KeyType keyStroke="ENTER" />
+		<VerifyText componentFinder="ROOT_CONTAINER"
+			text="Code Generation Failure"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="Code Generation Failure" windowClass="JDialog" />
+	</scenario>
+
+	<!--
+		script for test 121 in java.
+		1.Add a new method
+		2.Nominate the method with strings including spaces
+	-->
+	<scenario name="java121">
+		<call scenario="NewProjectAndDiagram" />
+		<Click componentClass="JToggleButton" name="Create a new Class"
+			windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentFinder="CLASS_IS_ACCESSIBLE"
+			componentClass="com.topcoder.gui.diagramviewer.DiagramView" x="10"
+			y="10" windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Add Operation" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JFormattedTextField" />
+		<SetClipboard text="ope name" />
+		<Paste />
+		<KeyType keyStroke="ENTER" />
+		<VerifyText componentFinder="ROOT_CONTAINER"
+			text="Code Generation Failure"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="Code Generation Failure" windowClass="JDialog" />
+	</scenario>
+
+	<!--
+		script for test 122 in java.
+		1.Add a new class
+		2.Nominate the class with strings including '~','!','@','#','$','%','^','&','*','(',')','+','=', '-'
+	-->
+	<scenario name="java122">
+		<call scenario="NewProjectAndDiagram" />
+		<Click componentClass="JToggleButton" name="Create a new Class"
+			windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentFinder="CLASS_IS_ACCESSIBLE"
+			componentClass="com.topcoder.gui.diagramviewer.DiagramView" x="10"
+			y="10" windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JFormattedTextField" />
+		<SetClipboard text="~!class" />
+		<Paste />
+		<KeyType keyStroke="ENTER" />
+		<VerifyText componentFinder="ROOT_CONTAINER"
+			text="Code Generation Failure"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="Code Generation Failure" windowClass="JDialog" />
+	</scenario>
+
+	<!--
+		script for test 123 in java.
+		1.Add a new attribute
+		2.Nominate the attribute with strings including '~','!','@','#','$','%','^','&','*','(',')','+','=', '-'
+	-->
+	<scenario name="java123">
+		<call scenario="NewProjectAndDiagram" />
+		<Click componentClass="JToggleButton" name="Create a new Class"
+			windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentFinder="CLASS_IS_ACCESSIBLE"
+			componentClass="com.topcoder.gui.diagramviewer.DiagramView" x="10"
+			y="10" windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Add Attribute" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JFormattedTextField" />
+		<SetClipboard text="~!atr" />
+		<Paste />
+		<KeyType keyStroke="ENTER" />
+		<VerifyText componentFinder="ROOT_CONTAINER"
+			text="Code Generation Failure"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="Code Generation Failure" windowClass="JDialog" />
+	</scenario>
+
+	<!--
+		script for test 124 in java.
+		1.Add a new method
+		2.Nominate the method with strings including '~','!','@','#','$','%','^','&','*','(',')','+','=', '-'
+	-->
+	<scenario name="java124">
+		<call scenario="NewProjectAndDiagram" />
+		<Click componentClass="JToggleButton" name="Create a new Class"
+			windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentFinder="CLASS_IS_ACCESSIBLE"
+			componentClass="com.topcoder.gui.diagramviewer.DiagramView" x="10"
+			y="10" windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Add Operation" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JFormattedTextField" />
+		<SetClipboard text="~!ope" />
+		<Paste />
+		<KeyType keyStroke="ENTER" />
+		<VerifyText componentFinder="ROOT_CONTAINER"
+			text="Code Generation Failure"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="Code Generation Failure" windowClass="JDialog" />
+	</scenario>
+
+	<!--
+		script for test 125 in java.
+		1.Add a new class
+		2.Nominate the class with strings starting with digits
+	-->
+	<scenario name="java125">
+		<call scenario="NewProjectAndDiagram" />
+		<Click componentClass="JToggleButton" name="Create a new Class"
+			windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentFinder="CLASS_IS_ACCESSIBLE"
+			componentClass="com.topcoder.gui.diagramviewer.DiagramView" x="10"
+			y="10" windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JFormattedTextField" />
+		<SetClipboard text="12class" />
+		<Paste />
+		<KeyType keyStroke="ENTER" />
+		<VerifyText componentFinder="ROOT_CONTAINER"
+			text="Code Generation Failure"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="Code Generation Failure" windowClass="JDialog" />
+	</scenario>
+
+	<!--
+		script for test 126 in java.
+		1.Add a new method
+		2.Nominate the method with strings starting with digits
+	-->
+	<scenario name="java126">
+		<call scenario="NewProjectAndDiagram" />
+		<Click componentClass="JToggleButton" name="Create a new Class"
+			windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentFinder="CLASS_IS_ACCESSIBLE"
+			componentClass="com.topcoder.gui.diagramviewer.DiagramView" x="10"
+			y="10" windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Add Operation" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JFormattedTextField" />
+		<SetClipboard text="12ope" />
+		<Paste />
+		<KeyType keyStroke="ENTER" />
+		<VerifyText componentFinder="ROOT_CONTAINER"
+			text="Code Generation Failure"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="Code Generation Failure" windowClass="JDialog" />
+	</scenario>
+
+	<!--
+		script for test 127 in java.
+		1.Add a new attribute
+		2.Nominate the attribute with strings starting with digits
+	-->
+	<scenario name="java127">
+		<call scenario="NewProjectAndDiagram" />
+		<Click componentClass="JToggleButton" name="Create a new Class"
+			windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentFinder="CLASS_IS_ACCESSIBLE"
+			componentClass="com.topcoder.gui.diagramviewer.DiagramView" x="10"
+			y="10" windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JButton" label="Add Attribute" />
+		<Click windowFinder="CLASS_IS_ACCESSIBLE"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			componentFinder="COMPONENT_NUMBER" from="BOTTOM" componentNumber="0"
+			componentClass="JFormattedTextField" />
+		<SetClipboard text="12atr" />
+		<Paste />
+		<KeyType keyStroke="ENTER" />
+		<VerifyText componentFinder="ROOT_CONTAINER"
+			text="Code Generation Failure"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="Code Generation Failure" windowClass="JDialog" />
+	</scenario>
+
+	<!--
+		script for test 128 in java.
+		1.Add a final class
+		2.Add a subclass for it
+	-->
+	<scenario name="java128"
+		windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL">
+		<call scenario="NewProjectAndDiagram" />
+		<Click
+			componentFinder="A_COUPLE_OF_CLASS_AND_NAME_IS_EQUAL_STRICTLY"
+			componentClass="JToggleButton" name="Create a new Class"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="TopCoder UML Tool"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentFinder="CLASS_IS_ACCESSIBLE"
+			componentClass="com.topcoder.gui.diagramviewer.DiagramView" x="10"
+			y="10" windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="TopCoder UML Tool"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL"
+			componentClass="JCheckBox" label="Final"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="TopCoder UML Tool"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentClass="JToggleButton"
+			name="Create a Generalizaton"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="TopCoder UML Tool"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Drag componentFinder="CLASS_IS_ACCESSIBLE"
+			componentClass="com.topcoder.gui.diagramviewer.uml.classelements.ClassNode"
+			toX="150" toY="150"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="TopCoder UML Tool"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<VerifyText text="Code Generation Failure"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JDialog" windowTitle="Code Generation Failure"
+			componentFinder="ROOT_CONTAINER" />
+	</scenario>
+
+	<!--
+		script for test 129 in java.
+		1.Add two classes
+		2.Add 'realization' between two classes
+	-->
+	<scenario name="java129"
+		windowFinder="A_COUPLE_OF_CLASS_AND_LABEL_IS_EQUAL">
+		<call scenario="NewProjectAndDiagram" />
+		<Click
+			componentFinder="A_COUPLE_OF_CLASS_AND_NAME_IS_EQUAL_STRICTLY"
+			componentClass="JToggleButton" name="Create a new Class"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="TopCoder UML Tool"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentFinder="CLASS_IS_ACCESSIBLE"
+			componentClass="com.topcoder.gui.diagramviewer.DiagramView" x="10"
+			y="10" windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="TopCoder UML Tool"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click
+			componentFinder="A_COUPLE_OF_CLASS_AND_NAME_IS_EQUAL_STRICTLY"
+			componentClass="JToggleButton" name="Create a new Class"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="TopCoder UML Tool"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentFinder="CLASS_IS_ACCESSIBLE"
+			componentClass="com.topcoder.gui.diagramviewer.DiagramView" x="150"
+			y="150" windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="TopCoder UML Tool"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Click componentClass="JToggleButton"
+			name="Create a Realization"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowTitle="TopCoder UML Tool"
+			windowClass="com.topcoder.umltool.deploy.MainFrame" />
+		<Drag toX="150" toY="150"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="com.topcoder.umltool.deploy.MainFrame"
+			windowTitle="TopCoder UML Tool" componentFinder="COMPONENT_NUMBER"
+			from="TOP" componentNumber="0"
+			componentClass="com.topcoder.gui.diagramviewer.uml.classelements.ClassNode" />
+		<VerifyText text="Code Generation Failure"
+			windowFinder="CLASS_IS_EQUAL_AND_LABEL_IS_INCLUDING"
+			windowClass="JDialog" windowTitle="Code Generation Failure"
+			componentFinder="ROOT_CONTAINER" />
+	</scenario>
+</document>

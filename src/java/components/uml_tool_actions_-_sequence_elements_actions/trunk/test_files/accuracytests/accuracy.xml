@@ -1,0 +1,12 @@
+<!--Configuration for logging wrapper-->
+<Config name="com.topcoder.util.log">
+	<Property name="TestProperty">
+		<Value>TestPropertyValue</Value>
+	</Property>
+	<Property name="basic.log.target">
+		<Value>System.err</Value>
+	</Property>
+	<Property name="logClass">
+		<Value>com.topcoder.uml.actions.model.sequence.accuracytests.AccuracyLog</Value>
+	</Property>
+</Config>

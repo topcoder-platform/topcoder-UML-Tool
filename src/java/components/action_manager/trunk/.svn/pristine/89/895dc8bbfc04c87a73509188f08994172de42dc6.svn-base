@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<CMConfig>
+    <Config name="com.topcoder.util.actionmanager.ActionManager">
+        <Property name="MaximumUndoableActions">
+            <Value>10</Value>
+        </Property>
+        <Property name="LoggerName">
+            <Value>DefaultLog</Value>
+        </Property>
+        <Property name="LoggingLevel">
+            <Value>DEBUG</Value>
+        </Property>
+    </Config>
+
+    <Config name="missing.logger_name">
+        <Property name="MaximumUndoableActions">
+            <Value>10</Value>
+        </Property>
+        <Property name="LoggingLevel">
+            <Value>DEBUG</Value>
+        </Property>
+    </Config>
+
+    <Config name="missing.logging_level">
+        <Property name="MaximumUndoableActions">
+            <Value>10</Value>
+        </Property>
+        <Property name="LoggerName">
+            <Value>DefaultLog</Value>
+        </Property>
+    </Config>
+</CMConfig>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<CMConfig>
+
+<!-- Missing look -->
+
+
+  <Property name="sectionText">
+    <Value>Using Namespace</Value>
+  </Property>
+
+  <Property name="backgroundColor">
+    <Value>Yellow</Value>
+  </Property>
+
+  <Property name="buttonsName">
+    <Value>Button1</Value>
+    <Value>Button2</Value>
+  </Property>
+
+  <Property name="imageLocations">
+    <Value>failuretests/dot1.gif</Value>
+    <Value>failuretests/dot2.gif</Value>
+  </Property>
+
+
+</CMConfig>

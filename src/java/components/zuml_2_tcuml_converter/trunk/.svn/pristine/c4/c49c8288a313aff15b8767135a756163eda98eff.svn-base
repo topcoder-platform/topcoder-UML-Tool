@@ -1,0 +1,27 @@
+<CMConfig>
+    <Config name="com.topcoder.umltool.xmiconverters.poseidon5">
+        <!--This is required-->
+        <Property name="ObjectFactoryNamespace">
+            <Value>object_factory_namespace</Value>
+        </Property>
+        
+        <Property name="PropertyValueTransformers">
+            <Value>transformer:all</Value>
+            <Value>transformer:color</Value>
+        </Property>
+        <!--This is optional-->
+        <!--
+        <Property name="ToReplacePropertyKeys">
+            <Property name="fill">
+                <Value>FILL_COLOR</Value>
+            </Property>
+            <Property name="font-clor">
+                <Value>FONT_COLOR</Value>
+            </Property>
+        </Property>
+        -->
+    </Config>
+    
+    <Config name="object_factory_namespace">
+    </Config>
+</CMConfig>

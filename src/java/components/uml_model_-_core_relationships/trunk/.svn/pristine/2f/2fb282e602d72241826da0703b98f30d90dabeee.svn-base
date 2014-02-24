@@ -1,0 +1,395 @@
+{\rtf1\ansi\ansicpg936\uc2\deff0\stshfdbch13\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe2052{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}
+{\f13\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}\'cb\'ce\'cc\'e5{\*\falt SimSun};}{\f35\fswiss\fcharset0\fprq0{\*\panose 00000000000000000000}ArialMT{\*\falt Arial};}
+{\f50\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}@\'cb\'ce\'cc\'e5;}{\f239\froman\fcharset238\fprq2 Times New Roman CE;}{\f240\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f242\froman\fcharset161\fprq2 Times New Roman Greek;}
+{\f243\froman\fcharset162\fprq2 Times New Roman Tur;}{\f244\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f245\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f246\froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\f247\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f249\fswiss\fcharset238\fprq2 Arial CE;}{\f250\fswiss\fcharset204\fprq2 Arial Cyr;}{\f252\fswiss\fcharset161\fprq2 Arial Greek;}{\f253\fswiss\fcharset162\fprq2 Arial Tur;}
+{\f254\fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f255\fswiss\fcharset178\fprq2 Arial (Arabic);}{\f256\fswiss\fcharset186\fprq2 Arial Baltic;}{\f257\fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f259\fmodern\fcharset238\fprq1 Courier New CE;}
+{\f260\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f262\fmodern\fcharset161\fprq1 Courier New Greek;}{\f263\fmodern\fcharset162\fprq1 Courier New Tur;}{\f264\fmodern\fcharset177\fprq1 Courier New (Hebrew);}
+{\f265\fmodern\fcharset178\fprq1 Courier New (Arabic);}{\f266\fmodern\fcharset186\fprq1 Courier New Baltic;}{\f267\fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\f371\fnil\fcharset0\fprq2 SimSun Western{\*\falt SimSun};}
+{\f741\fnil\fcharset0\fprq2 @\'cb\'ce\'cc\'e5 Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs24\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{\s2\ql \li0\ri0\sb120\sa60\sl240\slmult0
+\keepn\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 heading 2;}{
+\s3\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl2\outlinelevel2\adjustright\rin0\lin0\itap0 \i\fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 
+heading 3;}{\s4\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl3\outlinelevel3\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 
+\sbasedon1 \snext0 heading 4;}{\s5\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl4\outlinelevel4\adjustright\rin0\lin0\itap0 
+\fs22\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 5;}{\s6\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl5\outlinelevel5\adjustright\rin0\lin0\itap0 \i\fs22\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 6;}{\s7\ql \li0\ri0\sb240\sa60\sl240\slmult0
+\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl6\outlinelevel6\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 7;}{
+\s8\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl7\outlinelevel7\adjustright\rin0\lin0\itap0 \i\fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 
+heading 8;}{\s9\ql \li0\ri0\sb240\sa60\sl240\slmult0\nowidctlpar\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl8\outlinelevel8\adjustright\rin0\lin0\itap0 \b\i\fs18\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext0 heading 9;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\loch\f0\hich\af0\dbch\af13\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\*\cs15 \additive \ul\cf2 \sbasedon10 Hyperlink;}{
+\s16\ql \li0\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext16 Body Text;}{\s17\ql \li720\ri0\sa120\sl240\slmult0
+\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \fs20\lang1033\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext16 \sautoupd \styrsid15695053 InfoBlue;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}
+{\*\listtable{\list\listtemplateid-985754512{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\s1\jclisttab\tx360 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}\s2\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\s3\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}\s4
+\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\s5\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\s6\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\s7\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\s8\jclisttab\tx0 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\s9\jclisttab\tx0 }{\listname ;}\listid-5}{\list\listtemplateid2111320222\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid612015766\'02\'00);}{\levelnumbers\'01;}\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\fi-180\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703
+\'02\'03.;}{\levelnumbers\'01;}\fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\fi-360\li3960
+\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\fi-180\li4680\jclisttab\tx4680\lin4680 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\fi-180\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid6953213}{\list\listtemplateid-160384884\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715
+\'02\'02.;}{\levelnumbers\'01;}\fi-180\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\fi-360\li3240
+\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel
+\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\fi-180\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\fi-180\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid806357716}{\list\listtemplateid932329388\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693
+\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689
+\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}
+\f2\fbias0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li4680
+\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698689\'01{\uc1\u-3913 ?};}{\levelnumbers;}\f3\fbias0 \fi-360\li5400\jclisttab\tx5400\lin5400 
+}{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698691\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67698693\'01{\uc1\u-3929 ?};}{\levelnumbers;}\f10\fbias0 \fi-360\li6840\jclisttab\tx6840\lin6840 }{\listname ;}\listid876431865}}{\*\listoverridetable
+{\listoverride\listid-5\listoverridecount9{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat
+\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}\ls1}{\listoverride\listid806357716
+\listoverridecount9{\lfolevel}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}
+{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}\ls2}{\listoverride\listid876431865\listoverridecount9{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}{\lfolevel}
+{\lfolevel}{\lfolevel}{\lfolevel}\ls3}{\listoverride\listid6953213\listoverridecount0\ls4}}{\*\rsidtbl \rsid934120\rsid1602200\rsid2374367\rsid2492492\rsid4149063\rsid4340694\rsid4419725\rsid5403882\rsid5734363\rsid5798571\rsid5987703\rsid6126829
+\rsid6299714\rsid6301839\rsid6303550\rsid6515316\rsid6555085\rsid7406177\rsid7670153\rsid8412877\rsid8787624\rsid10446010\rsid11340402\rsid11405171\rsid15695053}{\*\generator Microsoft Word 11.0.5604;}{\info
+{\title <<Component>> <<Version>> Component Specification}{\author gpaul}{\operator xy}{\creatim\yr2004\mo6\dy16\hr17\min44}{\revtim\yr2006\mo11\dy4\hr16\min53}{\version19}{\edmins399}{\nofpages6}{\nofwords1647}{\nofchars9388}{\*\company TopCoder}
+{\nofcharsws11013}{\vern24689}}\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\gutter0 \ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dgmargin\dghspace180\dgvspace180\dghorigin1800
+\dgvorigin1440\dghshow1\dgvshow1\jexpand\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\splytwnine\ftnlytwnine\htmautsp\nolnhtadjtbl\useltbaln\alntblind\lytcalctblwd\lyttblrtgr\lnbrkrule\rsidroot8412877 \fet0\sectd 
+\linex0\endnhere\sectlinegrid360\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}
+{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta \dbch )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl7
+\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}\pard\plain 
+\s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar\tx720\aspalpha\aspnum\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\fs28\ul\insrsid15695053 
+\hich\af1\dbch\af13\loch\f1 UML_Model Core_Relationships}{\fs28\ul\insrsid934120 \hich\af1\dbch\af13\loch\f1  }{\fs28\ul\insrsid15695053 \hich\af1\dbch\af13\loch\f1 1.0}{\fs28\ul\insrsid934120 \hich\af1\dbch\af13\loch\f1  Component Specification
+\par }\pard\plain \s16\ql \li720\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 
+\par {\listtext\pard\plain\s1 \b\f1\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 1.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Design
+\par }\pard\plain \ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\faauto\rin0\lin720\itap0\pararsid15695053 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\f1\fs20\cf1\insrsid15695053 \hich\af1\dbch\af13\loch\f1 
+The UML Model \hich\af1\dbch\af13\loch\f1 
+- Core Relationships component declares the interfaces from the UML 1.5 framework, from the Core - Relationships package. It provides concrete implementations for each interface and provides powerful API to access the collection attributes.
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 1.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Design Patt
+\hich\af1\dbch\af13\loch\f1 erns 
+\par }\pard\plain \s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15695053 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid15695053\charrsid15695053 
+\hich\af1\dbch\af13\loch\f1 None.}{\insrsid934120\charrsid15695053 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 1.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Industry Standards 
+\par }\pard\plain \s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15695053 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid15695053 
+\hich\af1\dbch\af13\loch\f1 Uml 1.5.}{\insrsid934120 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 1.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Required Algorithms
+\par }\pard\plain \s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15695053 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid15695053 
+\hich\af1\dbch\af13\loch\f1 No algorithms are necessary as the interactions are very simple.}{\insrsid934120 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 1.4\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Component Class Overview
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \tab }{\b\insrsid934120 \hich\af0\dbch\af13\loch\f0 Class Name}{
+\insrsid934120 \hich\af0\dbch\af13\loch\f0 :
+\par }\pard \ql \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15695053 {\b\f1\fs20\insrsid15695053 
+\par }{\b\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 Association
+\par }\pard \qj \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15695053 {\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This interface defines the contract for a association}{\f1\fs20\insrsid15695053 
+\hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 An associatio\hich\af1\dbch\af13\loch\f1 n defines a}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  semantic relationship between }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 classifiers.}{\f1\fs20\insrsid8787624 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+An Association has at least two AssociationEnds. Each}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 end is connected to a Classi}{\f1\fs20\insrsid15695053 
+\hich\af1\dbch\af13\loch\f1 fier - the same Classifier may }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 be connected to more than}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 one AssociationEn}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1 d in the same Association. The }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+Association represents a set of}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 connections among instances of the Classifiers.}{\f1\fs20\insrsid15695053 
+\hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This interface extend}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1 s the GeneralizableElement and }{\f1\fs20\insrsid15695053\charrsid15695053 
+\hich\af1\dbch\af13\loch\f1 Relationship interfaces and add}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 more specific methods that apply to a association}{
+\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 Implementations are not required to be thr\hich\af1\dbch\af13\loch\f1 ead safe.
+\par }\pard \qj \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15695053 {\f1\fs20\insrsid15695053\charrsid15695053 
+\par }{\b\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 AssociationImpl
+\par }\pard \qj \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15695053 {\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This is the default imp}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1 
+lementation of the Association  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 interface.}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+An association defines a}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  semantic relationship between }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 classifiers.}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 An Association has at least two AssociationEnds. Each}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+end is connected to a Classi}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1 fier - the sa\hich\af1\dbch\af13\loch\f1 me Classifier may }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 be connected to more than}{
+\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 one AssociationEn}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1 d in the same Association. The  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 Association represents a set of}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+connections among instances of the Classifiers.}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This class also extends GeneralizableElementAbstractImpl}{
+\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 to reuse the code that exi\hich\af1\dbch\af13\loch\f1 sts in the abstract class.}{\f1\fs20\insrsid15695053 
+\hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This class has a connection}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  list for which a powerful api }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 is provided.}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This class is mutable and }{
+\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1 not thread safe. Since it is a  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 data class it doesn't }{\f1\fs20\insrsid8787624\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+really}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  makes sense to make it thread  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 safe.
+\par }\pard \qj \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15695053 {\f1\fs20\insrsid15695053\charrsid15695053 
+\par }{\b\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 Relationship
+\par }\pard \qj \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15695053 {\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  \tab }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+This interface defines the contract for uml relationships.}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 A relationship is a connection among model elements.}{
+\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 It simply extends ModelEle}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1 ment interface and adds no new  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 method.}{\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 Implementations of this in}{
+\f1\fs20\insrsid15695053 \hich\af1\dbch\af13\loch\f1 terface are not required to be  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 thread safe.
+\par }\pard \qj \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15695053 {\f1\fs20\insrsid15695053\charrsid15695053 
+\par }{\b\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 Relati\hich\af1\dbch\af13\loch\f1 onshipAbstractImpl
+\par }\pard \qj \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid11340402 {\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This abstract class repres}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1 
+ent an abstract }{\f1\fs20\insrsid8787624 \hich\af1\dbch\af13\loch\f1 implementation}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1   }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 of the Relationship interface.}{
+\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 A relationship is a connection among model elements.}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 It extends the abstract Mode}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1 lElementAbstractImpl which has  }{\f1\fs20\insrsid15695053\charrsid15695053 
+\hich\af1\dbch\af13\loch\f1 all the methods from ModelElement implemented}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 (no code is necessary }{\f1\fs20\insrsid11340402 
+\hich\af1\dbch\af13\loch\f1 in this class as everything is  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 implemented in ModelElementAbstractImpl abstract class).}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This class is abstract as it makes no sense for}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  it to be  }{\f1\fs20\insrsid8787624 \hich\af1\dbch\af13\loch\f1 concrete}{
+\f1\fs20\insrsid8787624\charrsid15695053 \hich\af1\dbch\af13\loch\f1 . Concrete}{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1  implemen}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1 tations are no
+\hich\af1\dbch\af13\loch\f1 t required to be  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 thread safe.
+\par }\pard \qj \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15695053 {\f1\fs20\insrsid15695053\charrsid15695053 
+\par }{\b\f1\fs20\insrsid11340402 
+\par }\pard \qj \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid11340402 {\b\f1\fs20\insrsid15695053\charrsid11340402 \hich\af1\dbch\af13\loch\f1 Generalization}{\b\f1\fs20\insrsid11340402 
+\par }\pard \qj \li720\ri0\widctlpar\tx720\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid11340402 {\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This interface defines the contract for a generalization.}{
+\b\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 A generalization is a taxonomic relationship between a }{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 more general element and a}{\b\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+more specific element. The more specific element is fully consisten\hich\af1\dbch\af13\loch\f1 t with the more}{\b\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+general element (it has all of its properties, members, }{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 and relationships) and may}{\b\f1\fs20\insrsid11340402 
+\hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 contain additional information.}{\b\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 
+\hich\af1\dbch\af13\loch\f1 This interface extends Relationship interface and add}{\b\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+more specific methods that apply to a generalization}{\b\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 Implementations a\hich\af1\dbch\af13\loch\f1 
+re not required to be thread safe.}{\b\f1\fs20\insrsid15695053\charrsid11340402 
+\par }\pard \qj \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15695053 {\f1\fs20\insrsid15695053\charrsid15695053 
+\par }{\b\f1\fs20\insrsid15695053\charrsid11340402 \hich\af1\dbch\af13\loch\f1 GeneralizationImpl
+\par }\pard \qj \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid11340402 {\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This is the default implem}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1 
+entation of the Generalization  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 interface.}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+A generalization is a ta}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1 xonomic relationship between a  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 more general element and a}{\f1\fs20\insrsid11340402 
+\hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 more specific element. The }{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1 more specific element \hich\af1\dbch\af13\loch\f1 is fully  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 consistent with the more}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 general element (it has a}{
+\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1 ll of its properties, members,  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 and relationships) and may}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 contain additional information.}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+This class also extends RelationshipAbstractImpl}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 to reuse the code that exis}{\f1\fs20\insrsid11340402 
+\hich\af1\dbch\af13\loch\f1 ts in the abstract class. This  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 class has several simple attributes(discriminator,child,}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 parent, powertype)}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 that describe a ge}{
+\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1 neralization. For these simple  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 attributes setters and getters are provided.}{\f1\fs20\insrsid11340402 
+\hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This class is mutable and }{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1 not thread safe. Since it i\hich\af1\dbch\af13\loch\f1 s a  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 data class it doesn't }{\f1\fs20\insrsid8787624\charrsid15695053 \hich\af1\dbch\af13\loch\f1 really}{\f1\fs20\insrsid11340402 \hich\af1\dbch\af13\loch\f1 
+ makes sense to make it thread  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 safe.
+\par }\pard \qj \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15695053 {\f1\fs20\insrsid15695053\charrsid15695053 
+\par }\pard \qj \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid7670153 {\b\f1\fs20\insrsid15695053\charrsid7670153 \hich\af1\dbch\af13\loch\f1 AssociationClass}{\b\f1\fs20\insrsid7670153 \hich\af1\dbch\af13\loch\f1  
+\par }\pard \qj \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2374367 {\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This interface defines the contract for a}{\f1\fs20\insrsid8787624 
+\hich\af1\dbch\af13\loch\f1 n}{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid8787624\charrsid15695053 \hich\af1\dbch\af13\loch\f1 association}{\f1\fs20\insrsid15695053\charrsid15695053 
+\hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid7670153 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 class.}{\b\f1\fs20\insrsid7670153 \hich\af1\dbch\af13\loch\f1  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 An association class is an association that is also a }{\f1\fs20\insrsid7670153 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+class. It not only connects a set of}{\b\f1\fs20\insrsid7670153 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 classifiers\hich\af1\dbch\af13\loch\f1 
+ but also defines a set of features that belong to the relationship itself and not}{\b\f1\fs20\insrsid7670153 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 any of the classifiers.}{
+\b\f1\fs20\insrsid7670153 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This interface extends Association and Class interfaces }{\f1\fs20\insrsid7670153 \hich\af1\dbch\af13\loch\f1  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 and add no other methods.}{\b\f1\fs20\insrsid7670153 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+Implementations are not required to be thread safe.}{\b\f1\fs20\insrsid15695053\charrsid7670153 
+\par }\pard \qj \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15695053 {\f1\fs20\insrsid15695053\charrsid15695053 
+\par }{\b\f1\fs20\insrsid15695053\charrsid2374367 \hich\af1\dbch\af13\loch\f1 AssociationCl\hich\af1\dbch\af13\loch\f1 assImpl
+\par }\pard \qj \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2374367 {\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This is the }{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 
+concrete implementation of the  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 AssociationClass interface.}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 
+\hich\af1\dbch\af13\loch\f1 An association class is}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  an association that is also a  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 class. It not only connects a set of}{
+\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 classifiers but also defines}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  a set of features that belong  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 to the relationship itself and not}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 any of the classifiers.}
+{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This class also extends RelationshipAbstractImpl}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 to reuse the code that exis}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 ts in the abstract class. }{\f1\fs20\insrsid5734363 \hich\af1\dbch\af13\loch\f1 
+It has an association field of Association type in order to reuse the code because ,in Java, a \hich\af1\dbch\af13\loch\f1 concrete class cannot extend two }{\f1\fs20\insrsid8787624 \hich\af1\dbch\af13\loch\f1 classes. This class}{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1  has several simple attributes(discriminator,child,}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+parent, powertype)}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 that describe a ge}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 neralization. For these simple  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 attributes setters and getters are provided.}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+This class is mutable and }{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 not thread s\hich\af1\dbch\af13\loch\f1 afe. Since it is a  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 data class it doesn't }{
+\f1\fs20\insrsid8787624\charrsid15695053 \hich\af1\dbch\af13\loch\f1 really}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  makes sense to make it thread  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 safe.
+\par }\pard \qj \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15695053 {\f1\fs20\insrsid15695053\charrsid15695053 
+\par }{\b\f1\fs20\insrsid15695053\charrsid2374367 \hich\af1\dbch\af13\loch\f1 AssociationEnd
+\par }\pard \qj \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2374367 {\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This interface defines t}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 
+he contract for an association  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 end.}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+An association end is an end}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 point of an association, which  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 connects the association to}{\f1\fs20\insrsid2374367 
+\hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 a classifier. Each association end is part of o}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 ne  }{\f1\fs20\insrsid15695053\charrsid15695053 
+\hich\af1\dbch\af13\loch\f1 association.}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 It extends ModelElement interface and add}{\f1\fs20\insrsid2374367 
+\hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 more specific methods that apply to an association end.}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 
+\hich\af1\dbch\af13\loch\f1 Implementations are not required to be thread safe.
+\par }\pard \qj \fi720\li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15695053 {\f1\fs20\insrsid15695053\charrsid15695053 
+\par }{\b\f1\fs20\insrsid15695053\charrsid2374367 \hich\af1\dbch\af13\loch\f1 AssociationEndImpl
+\par }\pard \qj \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid2374367 {\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This is the default im\hich\af1\dbch\af13\loch\f1 plem}{\f1\fs20\insrsid2374367 
+\hich\af1\dbch\af13\loch\f1 entation of the AssociationEnd  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 interface.}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 
+\hich\af1\dbch\af13\loch\f1 An association end is an end}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 point of an association, which  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 connects the association to}{
+\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 a classifier. Each }{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 association end is part of one  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 association.}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+This class also extends ModelElementAbstractImpl}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 to reuse the code that exis}{\f1\fs20\insrsid2374367 
+\hich\af1\dbch\af13\loch\f1 ts in the abstract class. This  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 class has several simple attributes(isNavigable, ordering,}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 
+ aggregation, targetKind,  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 multiplicity,}{\f1\fs20\insrsid8787624 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 changeability,}{
+\f1\fs20\insrsid8787624 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 association}{\f1\fs20\insrsid8787624 \hich\af1\dbch\af13\loch\f1 , }{\f1\fs20\insrsid15695053\charrsid15695053 
+\hich\af1\dbch\af13\loch\f1 participant)}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 that describe an ass}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 
+ociation end. For these simple  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 attri\hich\af1\dbch\af13\loch\f1 butes setters and getters are provided.}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This class also provides a }{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 list attribute(qualifiers) and  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 
+a collection attribute(specifications) for which a more}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 powerful api is provided.}{\f1\fs20\insrsid2374367 
+\hich\af1\dbch\af13\loch\f1  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 This class is mutable and }{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 not thread safe. Since it is a  }{
+\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 data class it doe\hich\af1\dbch\af13\loch\f1 sn't }{\f1\fs20\insrsid8787624\charrsid15695053 \hich\af1\dbch\af13\loch\f1 really}{\f1\fs20\insrsid2374367 \hich\af1\dbch\af13\loch\f1 
+ makes sense to make it thread  }{\f1\fs20\insrsid15695053\charrsid15695053 \hich\af1\dbch\af13\loch\f1 safe.
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 1.5\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0\pararsid15695053 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 
+Component Exception Definitions
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6126829 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid6126829 \hich\af0\dbch\af13\loch\f0 None defined.}{
+\insrsid6126829\charrsid6126829 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 1.6\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Thread Safety
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6126829 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid6126829 \hich\af0\dbch\af13\loch\f0 
+The component is not thread safe because all the classes are mutable. It doesn\hich\f0 \rquote \loch\f0 t }{\insrsid8787624 \hich\af0\dbch\af13\loch\f0 really}{\insrsid6126829 \hich\af0\dbch\af13\loch\f0 
+ make sense to make this component thread safe since\hich\af0\dbch\af13\loch\f0 
+ all the classes are data classes. The application should ensure that the classes are used in a thread safe manner. To make the component thread safe, we will have to synchronize all the methods and this will only add an unnecessary overhead.}{
+\insrsid6126829\charrsid6126829 
+\par {\listtext\pard\plain\s1 \b\f1\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 2.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Environmen\hich\af1\dbch\af13\loch\f1 
+t Requirements\tab \tab 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 2.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Environment
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6126829 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid6126829 \hich\af0\dbch\af13\loch\f0 Java 1.5.}{
+\insrsid6126829\charrsid6126829 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 2.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 TopCoder Software Components
+\par }\pard\plain \s16\ql \li720\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid6126829 \hich\af1\dbch\af13\loch\f1 Uml Model Data Types 1.0}
+{\insrsid934120 
+\par }{\insrsid6126829 \hich\af1\dbch\af13\loch\f1 Uml Model Classifiers 1.0
+\par \hich\af1\dbch\af13\loch\f1 Uml Model }{\insrsid4149063 \hich\af1\dbch\af13\loch\f1 Core Requirements 1.0}{\insrsid6126829 
+\par }{\insrsid4149063 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 2.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Third Party Components
+\par }\pard\plain \s3\ql \li720\ri0\sb120\sa60\sl240\slmult0\nowidctlpar\tx720\aspalpha\aspnum\faauto\outlinelevel2\adjustright\rin0\lin720\itap0 \i\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {
+\i0\insrsid4149063\charrsid4149063 \hich\af1\dbch\af13\loch\f1 None.}{\i0\insrsid934120\charrsid4149063 
+\par {\listtext\pard\plain\s1 \b\f1\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 3.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Installation and Configuration
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 3.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Package Name
+\par }\pard\plain \ql \fi720\li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid6299714 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\f35\fs20\insrsid6299714 \hich\af35\dbch\af13\loch\f35 
+com.topcoder.uml.model.core.relationships
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 3.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Configuration Parameters
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid5403882 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid5403882 \hich\af0\dbch\af13\loch\f0 None.}{
+\insrsid5403882\charrsid5403882 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 3.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Dependencies Configuration
+\par }\pard\plain \s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15695053 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid5403882 
+\hich\af1\dbch\af13\loch\f1 None.}{\insrsid934120 
+\par {\listtext\pard\plain\s1 \b\f1\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 4.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Usage Notes
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 4.1\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 
+Required steps to test the component
+\par {\listtext\pard\plain\s16 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard\plain \s16\ql \fi-360\li1080\ri0\sa120\widctlpar\jclisttab\tx1080\aspalpha\aspnum\faauto\ls3\adjustright\rin0\lin1080\itap0 
+\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Extract the component distribution.
+\par {\listtext\pard\plain\s16 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \loch\af3\dbch\af13\hich\f3 \'b7\tab}\hich\af1\dbch\af13\loch\f1 Follow }{\field\fldedit{\*\fldinst {\insrsid934120 \hich\af1\dbch\af13\loch\f1  HYPERLINK "C:\\filez\\work\\
+tc\\tcs_corp\\\hich\af1\dbch\af13\loch\f1 templates\\component\\" \\l "_Dependencies_Configuration" }{\insrsid5798571 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b02000000010000000303000000000000c00000000000004600002900000066696c657a776f726b74637463735f636f727074656d706c61746573636f6d706f6e656e7422206c00ffffadde0000000000000000000000000000000000000000000000000000550033}}}{\fldrslt 
+{\cs15\ul\cf2\insrsid934120 \hich\af1\dbch\af13\loch\f1 Dependencies Configuration}}}{\insrsid934120 \hich\af1\dbch\af13\loch\f1 .
+\par {\listtext\pard\plain\s16 \f3\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \loch\af3\dbch\af13\hich\f3 \'b7\tab}\hich\af1\dbch\af13\loch\f1 Execute \hich\f1 \lquote \loch\f1 ant test\hich\f1 \rquote \loch\f1 
+ within the directory that the distribution was extracted to.
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 4.2\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Required steps to use the component
+
+\par }\pard\plain \s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15695053 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid5403882 
+\hich\af1\dbch\af13\loch\f1 See demo.}{\insrsid934120 
+\par {\listtext\pard\plain\s2 \b\f1\fs20\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 4.3\tab}}\pard\plain \s2\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx0\aspalpha\aspnum\faauto\ls1\ilvl1\outlinelevel1\adjustright\rin0\lin0\itap0 \b\fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Demo
+\par }\pard\plain \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6555085 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid6555085 \hich\af0\dbch\af13\loch\f0 
+The demo will show the api th\hich\af0\dbch\af13\loch\f0 at is provided for a list attribute, a collection attribute and a simple attribute.}{\insrsid6555085\charrsid6555085 
+\par }{\b\insrsid11405171 
+\par }{\b\insrsid6555085 \hich\af0\dbch\af13\loch\f0 1)}{\b\insrsid6555085\charrsid6555085 \hich\af0\dbch\af13\loch\f0 Demo for }{\b\insrsid6555085 \hich\af0\dbch\af13\loch\f0 the api of a list attribute; Association class is used to show this
+\par }{\insrsid11405171 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid10446010 {\insrsid10446010 \hich\af0\dbch\af13\loch\f0 Association association = new AssociationImpl();
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // add a connection
+\par \hich\af0\dbch\af13\loch\f0 AssociationEnd connection1 = ne\hich\af0\dbch\af13\loch\f0 w AssociationEndImpl();
+\par \hich\af0\dbch\af13\loch\f0 association.addConnection(connection1);
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // add another connection at the beginning of the list
+\par \hich\af0\dbch\af13\loch\f0 AssociationEnd connection2 = new AssociationEndImpl();
+\par \hich\af0\dbch\af13\loch\f0 association.addConnection(0, connection2);
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // set another connection on the second position of the list
+\par \hich\af0\dbch\af13\loch\f0 AssociationEnd connection3 = new AssociationEndImpl();
+\par \hich\af0\dbch\af13\loch\f0 association.setConnection(1, connection3);
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // get the number of the connections; the size=2
+\par \hich\af0\dbch\af13\loch\f0 System.\hich\af0\dbch\af13\loch\f0 out.println("size=" + association.countConnections());
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // get the index of connection3; it will be 1
+\par \hich\af0\dbch\af13\loch\f0 System.out.println("index=" + association.indexOfConnection(connection3));
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // check if connection3 is contained; it will print tr\hich\af0\dbch\af13\loch\f0 ue
+\par \hich\af0\dbch\af13\loch\f0 System.out.println(association.containsConnection(connection3));
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // get a copy of the connection list
+\par \hich\af0\dbch\af13\loch\f0 List<AssociationEnd> conn = association.getConnections();
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // get the size of the conn; the size=2
+\par \hich\af0\dbch\af13\loch\f0 Sys\hich\af0\dbch\af13\loch\f0 tem.out.println("size=" + conn.size());
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // get the index of connection3; it will be 1
+\par \hich\af0\dbch\af13\loch\f0 System.out.println("index=" + conn.indexOf(connection3));
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // check if connection3 is contained; it will print true
+\par \hich\af0\dbch\af13\loch\f0 System.out.println(as\hich\af0\dbch\af13\loch\f0 sociation.containsConnection(connection3));
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // remove connection3; it will print true
+\par \hich\af0\dbch\af13\loch\f0 System.out.println(association.removeConnection(connection3));
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // remove the connection at index 0
+\par \hich\af0\dbch\af13\loch\f0 AssociationEnd ae = association.removeConnection(0);
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // the returned value should be connection2. It will print true
+\par \hich\af0\dbch\af13\loch\f0 System.out.println(ae == connection2);
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // to clear all associations from the list the fol\hich\af0\dbch\af13\loch\f0 lowing call can be made
+\par \hich\af0\dbch\af13\loch\f0 association.clearConnections();}{\insrsid1602200 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid1602200 {\insrsid4340694 
+\par }{\b\insrsid4340694\charrsid4340694 \hich\af0\dbch\af13\loch\f0 2)Demo for a collection attribute}{\b\insrsid4340694 \hich\af0\dbch\af13\loch\f0 ; AssociationEnd class is used
+\par }{\insrsid11405171 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6301839 {\insrsid6301839 \hich\af0\dbch\af13\loch\f0 AssociationEnd ae = new AssociationEndImpl();
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // add a 2 specifications
+\par \hich\af0\dbch\af13\loch\f0 Classifier specification1 = new ClassifierImpl();
+\par \hich\af0\dbch\af13\loch\f0 ae.addSpecification(specification1);
+\par \hich\af0\dbch\af13\loch\f0 Classifier specification2 = new ClassifierImpl();
+\par \hich\af0\dbch\af13\loch\f0 ae.addSpecification(specification2);
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // count specifications; it will print 2
+\par \hich\af0\dbch\af13\loch\f0 System.out.println(ae.countSpecifications());
+\par \hich\af0\dbch\af13\loch\f0 // check if specification2 is contained; it will print true
+\par \hich\af0\dbch\af13\loch\f0 System.out.println(ae.containsSpecifi\hich\af0\dbch\af13\loch\f0 cation(specification2));
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // get a collection of all specifications
+\par \hich\af0\dbch\af13\loch\f0 Collection<Classifier> specs = ae.getSpecifications();
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // get the size of specs; it will print 2
+\par \hich\af0\dbch\af13\loch\f0 System.out.println(specs.size());
+\par \hich\af0\dbch\af13\loch\f0 // check\hich\af0\dbch\af13\loch\f0  if specification1 is contained; it will print true
+\par \hich\af0\dbch\af13\loch\f0 System.out.println(specs.contains(specification1));
+\par \hich\af0\dbch\af13\loch\f0 // check if specification2 is contained; it will print true
+\par \hich\af0\dbch\af13\loch\f0 System.out.println(specs.contains(specification2));
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // remove specification2; it will print true
+\par \hich\af0\dbch\af13\loch\f0 System.out.println(ae.removeSpecification(specification2));
+\par 
+\par \hich\af0\dbch\af13\loch\f0 // clear all specifications
+\par \hich\af0\dbch\af13\loch\f0 ae.clearSpecifications();}{\lang1033\langfe2052\langfenp2052\insrsid6515316 
+\par }{\lang1033\langfe2052\langfenp2052\insrsid6301839\charrsid6301839 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6515316 {\b\insrsid6515316\charrsid6515316 \hich\af0\dbch\af13\loch\f0 3)Demo for a simple attribute; Generalization class is used}{\b\insrsid6515316 
+\par }{\insrsid11405171 
+\par }{\insrsid6515316 \hich\af0\dbch\af13\loch\f0 Generalization generalization = new GeneralizationImpl();
+\par }{\insrsid11405171 
+\par }{\insrsid6515316 \hich\af0\dbch\af13\loch\f0 //set the discriminator field; all the three calls are valid
+\par \hich\af0\dbch\af13\loch\f0 generalization.setDiscriminator(}{\lang1033\langfe2052\langfenp2052\insrsid7406177\charrsid7406177 \hich\af0\dbch\af13\loch\f0 "}{\lang1033\langfe2052\langfenp2052\insrsid7406177 \hich\af0\dbch\af13\loch\f0  }{
+\lang1033\langfe2052\langfenp2052\insrsid7406177\charrsid7406177 \hich\af0\dbch\af13\loch\f0 "}{\insrsid6515316 \hich\af0\dbch\af13\loch\f0 );
+\par \hich\af0\dbch\af13\loch\f0 generalization.setDiscriminator(null);
+\par \hich\af0\dbch\af13\loch\f0 generalization.setDiscriminator(}{\lang1033\langfe2052\langfenp2052\insrsid7406177\charrsid7406177 \hich\af0\dbch\af13\loch\f0 "test"}{\insrsid6515316 \hich\af0\dbch\af13\loch\f0 );
+\par }{\insrsid11405171 
+\par }{\insrsid6515316 \hich\af0\dbch\af13\loch\f0 //get the discriminator field
+\par \hich\af0\dbch\af13\loch\f0 System.out.println(generalization.getDiscriminator\hich\af0\dbch\af13\loch\f0 ());
+\par 
+\par }{\b\insrsid6515316\charrsid6515316 \hich\af0\dbch\af13\loch\f0 4)AssociationClassImpl has an extra constructor }{\b\insrsid6515316 \hich\af0\dbch\af13\loch\f0 (added for convenience)
+\par }{\insrsid11405171 
+\par }{\insrsid6515316 \hich\af0\dbch\af13\loch\f0 Association association = new AssociationImpl();}{\insrsid6515316\charrsid6515316 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid934120 {\insrsid6515316 \hich\af0\dbch\af13\loch\f0 Ass}{\insrsid5987703 \hich\af0\dbch\af13\loch\f0 ociationClass ac=new Association}{\insrsid6515316 
+\hich\af0\dbch\af13\loch\f0 ClassImpl(association);}{\insrsid1602200 
+\par }\pard \ql \li720\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid6555085 {\insrsid6555085\charrsid6555085 
+\par {\listtext\pard\plain\s1 \b\f1\lang1033\langfe1033\langfenp1033\insrsid934120 \hich\af1\dbch\af13\loch\f1 5.\tab}}\pard\plain \s1\ql \li0\ri0\sb120\sa60\sl240\slmult0\keepn\nowidctlpar
+\jclisttab\tx360\aspalpha\aspnum\faauto\ls1\outlinelevel0\adjustright\rin0\lin0\itap0 \b\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 \hich\af1\dbch\af13\loch\f1 Future Enhancements
+\par }\pard\plain \s17\ql \li720\ri0\sa120\sl240\slmult0\nowidctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin720\itap0\pararsid15695053 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid5403882 
+\hich\af1\dbch\af13\loch\f1 None.}{\insrsid934120 
+\par }\pard\plain \s16\ql \li0\ri0\sa120\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\loch\af1\hich\af1\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 {\insrsid934120 
+\par }}

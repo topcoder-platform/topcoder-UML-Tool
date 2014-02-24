@@ -1,0 +1,9 @@
+#property file defining the component's information
+component.name=Action Manager
+component.distfilename=action_manager
+component.package=com.topcoder.util.actionmanager
+component.packagedir=com/topcoder/util/actionmanager
+component.version.major=1
+component.version.minor=0
+component.version.micro=0
+component.version.build=1

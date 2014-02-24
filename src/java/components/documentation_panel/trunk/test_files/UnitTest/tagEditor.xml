@@ -1,0 +1,55 @@
+<CMConfig>
+    
+    <Config name="defaultTagEditor_1">
+        <!-- required parameter, option manager namespace -->
+        <Property name="tagoptionNamespace">
+            <Value>tagOptions_1</Value>
+        </Property>
+    </Config>
+    
+    <Config name="defaultTagEditor_2">
+        <!-- required parameter, option manager namespace -->
+        <Property name="tagprompt">
+            <Value>new tag prompt</Value>
+        </Property>
+        <Property name="tagoptionNamespace">
+            <Value>tagOptions_1</Value>
+        </Property>
+    </Config>
+    
+    <Config name="defaultTagEditor_3">
+        <!-- required parameter, option manager namespace -->
+        <Property name="tagprompt">
+            <Value>new tag prompt</Value>
+        </Property>
+        <Property name="valueprompt">
+            <Value>new Value prompt</Value>
+        </Property>
+        <Property name="tagoptionNamespace">
+            <Value>tagOptions_1</Value>
+        </Property>
+    </Config>
+    
+    <Config name="defaultTagEditor_4">
+        <!-- set up the new tag prompt Value here if desired:-->
+        <Property name="tagprompt">
+            <Value>new tag prompt</Value>
+        </Property>
+            
+        <!-- set up the new tag documentation string here if desired:-->
+        <Property name="valueprompt">
+            <Value>new Value prompt</Value>
+        </Property>
+        
+        <!-- set up the two column names here if desired:-->
+        <Property name="columnnames">
+            <Value>Tag name</Value>
+            <Value>Tag doc</Value>
+        </Property>
+            
+        <!-- required parameter, option manager namespace -->
+        <Property name="tagoptionNamespace">
+            <Value>tagOptions_1</Value>
+        </Property>
+    </Config>
+</CMConfig>
