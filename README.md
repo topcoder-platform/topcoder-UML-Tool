@@ -17,3 +17,12 @@ If you have any questions or you would just like to discuss the UML Tool, go to 
 	Installer issue
 Some operating systems supposedly don't support creating shortcuts (icons) according to izPack documentation.
 
+Install the UML tool on Mac OS X
+==================================
+Drag the application from the disk image to your "Applications" folder. When the application is first run, the file associations for XMI, TCUML, and ZUML will be added.
+
+Uninstall the UML tool
+========================
+An icon should be created for the uninstaller (if you selected to install icons, and if the izPack installer supports icons for your OS).
+
+If there is no icon, or for some reason you wish to uninstall manually, go to wherever you installed the app and run the Uninstaller\uninstaller.jar file. This can be done in the GUI if your OS supports it, or else run java -jar uninstaller.jar from the Uninstaller directory.
