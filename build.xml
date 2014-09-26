@@ -960,7 +960,7 @@
 	</target>
 
 	<!-- Define locations and other properties -->
-	<property name="izpack.dir" value="C:/Program Files/IzPack" />
+	<property name="izpack.dir" value="${basedir}/lib/izPack" />
 	<property name="input.xml" value="${basedir}/installer/installer.xml" />
         <property name="topcoderizpack_jarname" value="topcoder_uml_tool_izpack.jar"/>
 

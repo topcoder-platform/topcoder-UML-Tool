@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9: http://docutils.sourceforge.net/" />
+<title>Custom Actions</title>
+<link rel="stylesheet" href="izpack.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="custom-actions">
+<h1 class="title">Custom Actions</h1>
+
+<p>(by Klaus BARTZ)</p>
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#overview" id="id4">Overview</a></li>
+<li><a class="reference internal" href="#how-it-works" id="id5">How It Works</a></li>
+<li><a class="reference internal" href="#custom-action-types" id="id6">Custom Action Types</a><ul>
+<li><a class="reference internal" href="#custom-actions-at-packaging" id="id7">Custom Actions At Packaging</a></li>
+<li><a class="reference internal" href="#custom-actions-at-installing-time" id="id8">Custom Actions At Installing Time</a></li>
+<li><a class="reference internal" href="#custom-actions-at-uninstalling-time" id="id9">Custom Actions At Uninstalling Time</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#package-path" id="id10">Package Path</a></li>
+<li><a class="reference internal" href="#native-libraries-for-uninstallation" id="id11">Native Libraries for Uninstallation</a></li>
+<li><a class="reference internal" href="#what-you-have-to-do" id="id12">What You Have To Do</a></li>
+<li><a class="reference internal" href="#custom-actions-at-packaging-compilerlistener" id="id13">Custom Actions at Packaging (CompilerListener)</a></li>
+<li><a class="reference internal" href="#custom-actions-at-installation-time-installerlistener" id="id14">Custom Actions at Installation Time (InstallerListener)</a></li>
+<li><a class="reference internal" href="#custom-actions-at-uninstallation-time-uninstallerlistener" id="id15">Custom Actions at Uninstallation Time (UninstallerListener)</a></li>
+<li><a class="reference internal" href="#example" id="id16">Example</a></li>
+<li><a class="reference internal" href="#ant-actions-installerlistener-and-uninstallerlistener" id="id17">Ant Actions (InstallerListener and UninstallerListener)</a></li>
+<li><a class="reference internal" href="#the-basic-xml-struture" id="id18">The Basic XML Struture</a><ul>
+<li><a class="reference internal" href="#property-define-a-property" id="id19"><tt class="docutils literal">&lt;property&gt;</tt>: define a property</a></li>
+<li><a class="reference internal" href="#propertyfile-define-properties-in-a-file" id="id20"><tt class="docutils literal">&lt;propertyfile&gt;</tt>: define properties in a file</a></li>
+<li><a class="reference internal" href="#target-target-to-call-at-installation" id="id21"><tt class="docutils literal">&lt;target&gt;</tt>: target to call at installation</a></li>
+<li><a class="reference internal" href="#uninstall-target-target-to-call-on-uninstallation" id="id22"><tt class="docutils literal">&lt;uninstall_target&gt;</tt>: target to call on uninstallation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#registry-access-installerlistener-and-uninstallerlistener" id="id23">Registry access (InstallerListener and UninstallerListener)</a></li>
+<li><a class="reference internal" href="#id1" id="id24">The Basic XML Struture</a><ul>
+<li><a class="reference internal" href="#key-define-a-key" id="id25"><tt class="docutils literal">&lt;key&gt;</tt>: define a key</a></li>
+<li><a class="reference internal" href="#value-define-a-value" id="id26"><tt class="docutils literal">&lt;value&gt;</tt>: define a value</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#extended-uninstall-key" id="id27">Extended Uninstall Key</a></li>
+<li><a class="reference internal" href="#uninstall-behavior" id="id28">Uninstall Behavior</a></li>
+<li><a class="reference internal" href="#examples" id="id29">Examples</a></li>
+<li><a class="reference internal" href="#summary-logger-installerlistener" id="id30">Summary Logger (InstallerListener)</a></li>
+<li><a class="reference internal" href="#bsf-bean-scripting-framework-actions-installerlistener-and-uninstallerlistener" id="id31">BSF (Bean Scripting Framework) Actions (InstallerListener and UninstallerListener)</a></li>
+<li><a class="reference internal" href="#id2" id="id32">The Basic XML Struture</a></li>
+</ul>
+</div>
+<div class="section" id="overview">
+<h1><a class="toc-backref" href="#id4">Overview</a></h1>
+<p>The implementation of custom actions presume knowledge of java. Custom
+actions are not a good starting point for learning java. Learners can use
+existent custom actions but should not implement them as exercise.</p>
+<p>In general the installation procedure is separated into several steps. The
+first step, let's call it the <em>data collection phase</em>, is getting specific
+data needed for the installation process. Typically this is done by typing
+all neded data into one or more panels, if a GUI is used, or automatically by
+reading the data from a config file. In general nothing will be changed on
+the system until all needed data is obtained. But mostly - depending on to
+the information, e.g. the destination path - different input panels are
+involved.</p>
+<p>If all needed data is collected the second step will be perfomed, let us call
+it the <em>action phase</em>. During this step the state of the locale machine will
+be changed, e.g. files will be copied to the installation destination or some
+short cuts will be registered. Each of this subsequent steps are denoted as
+actions. There are actions intended to be reused, so called common actions,
+and actions for one special purpose only, so called custom actions. In IzPack
+there are already some common actions, for example &quot;file transfer&quot;, &quot;parse&quot;
+or &quot;execute&quot;.</p>
+<p>The third step, the <em>reporting phase</em>, is normally represented by a panel
+that reports the result state of the installation (OK, or not OK) and a
+simple good bye message.</p>
+<p>With IzPack there are two ways to implement custom actions. Firstly it is
+always possible to define a custom panel that perfoms the desired actions
+too. Secondly, and that's the new, custom actions are supported.</p>
+<p>Panels still may be used for actions that are perfomed, e.g. before files are
+transferred or after the &quot;execute&quot; action. But if the needed action depends
+on the selected or already installed packages, this works also, but the
+implementation effort is much higher.</p>
+<p>If the action should be performed for several amount of elements of a pack,
+using custom actions will be more easy than using panels. Additional custom
+actions may be defined for installation, but also for packaging and
+uninstallation purposes. If a custom action is also needed for uninstallation
+purposes, it'll be always a good idea to implement a corresponding
+installation action as custom action, but not as panel.</p>
+</div>
+<div class="section" id="how-it-works">
+<h1><a class="toc-backref" href="#id5">How It Works</a></h1>
+<p>Custom actions are implemented as listeners. Each listener implements
+callback methods that will be called at well-defined points. The method
+<tt class="docutils literal">InstallerListener.afterFile</tt> for example will be called after a file has
+been copied. There are different interfaces intended for being used at
+packaging time, at installation time and at uninstallation time.</p>
+<p>Each interface is implemented by a class with the prefix &quot;Simple&quot; (e.g.
+SimpleCompilerListener) that implements all declared interface methods with
+an empty body. These classes may be used as base classes for own listener
+implementations.</p>
+<p>To apply custom actions to the installer, an entry in the apropriate
+install.xml file is needed. The configuration of listeners starts with the
+facultative ELEMENT &quot;listeners&quot; which can contain one or more ELEMENTs of
+&quot;listener&quot;. For a &quot;listener&quot; there are three attributes which determine the
+&quot;compiler&quot;, &quot;installer&quot; and &quot;uninstaller&quot; custom action pupose. Additionally
+it is possible to make the listener OS dependent using the &quot;os&quot; ELEMENT.</p>
+<p>If file related data will be set, the facultative ELEMENT &quot;additionaldata&quot; is
+defined for the ELEMENTs &quot;file&quot;, &quot;singlefile&quot; and &quot;fileset&quot;. This data will
+be automatically moved to the corresponding PackFile objects in the
+install.jar. Extraction and usage should be implemented in a install custom
+action (see example).</p>
+</div>
+<div class="section" id="custom-action-types">
+<h1><a class="toc-backref" href="#id6">Custom Action Types</a></h1>
+<p>Custom actions are intended to be used at packaging time, at installation
+time and at uninstallation time. The interfaces are:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Custom action type</th>
+<th class="head">Interface name</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>Packaging</td>
+<td>com.izforge.izpack.event.CompilerListener</td>
+</tr>
+<tr><td>Installation</td>
+<td>com.izforge.izpack.event.InstallerListener</td>
+</tr>
+<tr><td>Uninstallation</td>
+<td>com.izforge.izpack.event.UninstallerListener</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="custom-actions-at-packaging">
+<h2><a class="toc-backref" href="#id7">Custom Actions At Packaging</a></h2>
+<img alt="img12.png" src="img12.png" />
+<ul class="simple">
+<li><em>(constructor)</em>: only the default constructor will be used. It is
+called from Compiler just after creating the packager. Therefore
+initializing will be better during in the first <tt class="docutils literal">notify</tt> call.</li>
+<li><tt class="docutils literal">reviseAdditionalDataMap</tt> gives the facility to add data to each
+<tt class="docutils literal">PackFile</tt> object. This is the place where file related data can be
+transferred from the install xml file into the install jar file. Although
+each key and value of the map can be any type, but the class definitions
+of all used types must therfore be contained in the installer jar file or
+in the VM's classpath. In general strings are the best choice for being
+used as keys or values. All keys must be unique over all registered
+<tt class="docutils literal">CompilerListeners</tt>. Each call of this method adds own key value pairs
+to the given <tt class="docutils literal">existenDataMap</tt> because more than one listener can be
+used. If the given map is null, a new one will be created.</li>
+<li><tt class="docutils literal">notify</tt> is called at the beginning and at the end of each &quot;add&quot;
+method call which is called in <tt class="docutils literal">Compiler.executeCompiler</tt>.</li>
+</ul>
+</div>
+<div class="section" id="custom-actions-at-installing-time">
+<h2><a class="toc-backref" href="#id8">Custom Actions At Installing Time</a></h2>
+<img alt="img13.png" src="img13.png" />
+<ul class="simple">
+<li><em>(constructor)</em>: only the default constructor will be used. It is
+called from <tt class="docutils literal">Unpacker.run</tt> before unpacking.</li>
+<li><tt class="docutils literal">beforePacks</tt> will be called each time before an unpacking call is
+performed.</li>
+<li><tt class="docutils literal">beforePack</tt> is called before a package is installed. Pack object
+and the number of the pack are passed.</li>
+<li><tt class="docutils literal">isFileListener</tt> determines whether the next four methods are
+called or not. This is a little performance optimizing.</li>
+<li><tt class="docutils literal">beforeDir</tt> is called before a directory is created. In this case,
+when file listeners exist, directories are created recursively and the
+method is called at each step. The file and the current <tt class="docutils literal">PackFile</tt>
+object are passed.</li>
+<li><tt class="docutils literal">afterDir</tt> is called directly after the directory creation.</li>
+<li><tt class="docutils literal">beforeFile</tt> is called before a file is created. The file and
+<tt class="docutils literal">PackFile</tt> object are passed as parameters.</li>
+<li><tt class="docutils literal">afterFile</tt> is the best place to perform file related actions. The
+given <tt class="docutils literal">PackFile</tt> objects contains the additional data which was set at
+packaging.</li>
+<li><tt class="docutils literal">afterPack</tt> will be just called after the pack is closed.</li>
+<li><tt class="docutils literal">afterPacks</tt> is the last step before the handler will be stopped.</li>
+</ul>
+</div>
+<div class="section" id="custom-actions-at-uninstalling-time">
+<h2><a class="toc-backref" href="#id9">Custom Actions At Uninstalling Time</a></h2>
+<img alt="img14.png" src="img14.png" />
+<ul class="simple">
+<li><em>(constructor)</em> : only the default constructor will be used. It is
+called from <tt class="docutils literal">Destroyer.run</tt> as first call.</li>
+<li><tt class="docutils literal">beforeDeletion</tt> will be called after execute files was performed.
+The given list contains all <em>File</em> objects which are marked for deletion.</li>
+<li><tt class="docutils literal">isFileListener</tt> determines whether the next two methods are called
+or not.</li>
+<li><tt class="docutils literal">beforeDelete</tt> is the method which, is called before a single file
+is deleted. The <em>File</em> object is given as parameter.</li>
+<li><tt class="docutils literal">afterDelete</tt> will be invoked after the delete call for a single
+file.</li>
+<li><tt class="docutils literal">afterDeletion</tt> is the last call before the cleanup of created data
+is performed.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="package-path">
+<h1><a class="toc-backref" href="#id10">Package Path</a></h1>
+<p>Custom actions must always implement one of the given listener interfaces. As
+mentioned above, it is also possible to derive from one of the &quot;Simple&quot;
+listeners. The package path is facultative, only the class name must be
+unique over all custom actions. The preparation of a custom action for
+providing it with an installation is very similar to panels. Custom actions
+must also be packed into a jar file with the name of the custom action class
+name. This jar file should be placed in <tt class="docutils literal"><span class="pre">[IzPackRoot]/bin/customActions</span></tt>,
+may be</p>
+<pre class="literal-block">
+[IzPackRoot]/bin/customActions/MyCompilerListener.jar
+[IzPackRoot]/bin/customActions/MyInstallerListener.jar
+[IzPackRoot]/bin/customActions/MyUninstallerListener.jar
+</pre>
+<p>In the default Ant definition file (build.xml) there are some targets for
+this stuff.</p>
+</div>
+<div class="section" id="native-libraries-for-uninstallation">
+<h1><a class="toc-backref" href="#id11">Native Libraries for Uninstallation</a></h1>
+<p>If a custom action uses JNI at installation time, often the associated
+uninstall custom action needs JNI too. For this situation it is possible to
+declare a native library for unstallation. The only work to do is to add a
+<tt class="docutils literal">stage</tt> attribute to the <tt class="docutils literal">native</tt> tag in the install xml file like</p>
+<pre class="literal-block">
+&lt;!-- The native section. We specify here our os dependant
+libs..--&gt; &lt;native type=&quot;3rdparty&quot;
+name=&quot;MyOSHelper.dll&quot;stage=&quot;both&quot; &gt;
+   &lt;os family=&quot;windows&quot; /&gt;
+&lt;/native&gt;
+</pre>
+<p>The needed additional classes are packed into lib/uninstaller-ext.jar. If a
+native library is defined for uninstallation, this file will also be packed
+into the installer.jar as IzPack.unistaller-ext and used at its right
+position.</p>
+</div>
+<div class="section" id="what-you-have-to-do">
+<h1><a class="toc-backref" href="#id12">What You Have To Do</a></h1>
+<p>Follow the steps that are needed to create and use custom actions with the
+&quot;normal&quot; source environment (not standalone compiler) using Ant. Of course,
+it works also with the standalone compiler.</p>
+</div>
+<div class="section" id="custom-actions-at-packaging-compilerlistener">
+<h1><a class="toc-backref" href="#id13">Custom Actions at Packaging (CompilerListener)</a></h1>
+<ul>
+<li><p class="first">Implement <tt class="docutils literal">com.izforge.izpack.event.CompilerListener</tt> or extend
+<tt class="docutils literal">com.izforge.izpack.event.SimpleCompilerListener</tt>. Place it as ``
+[IzPackRoot]/src/lib/[MyPackagePath]/MyCompilerListener.java``.</p>
+</li>
+<li><p class="first">Add a &quot;<tt class="docutils literal"><span class="pre">build-compiler-listener</span></tt>&quot; macro call in to the
+<tt class="docutils literal">build.listeners</tt> target in <tt class="docutils literal"><span class="pre">[IzPackRoot]/src/build.xml</span></tt>. Note that
+the name attribute value in the build-instealler-listener must match
+<tt class="docutils literal">CompilerListener</tt> implementation class name (not including the
+package). You should include the actual Listener implementation, as well
+as any other classes required by the listener.</p>
+<pre class="literal-block">
+&lt;build-compiler-listener
+name=&quot;MyCompilerListener&quot;&gt;
+    &lt;include
+    name=&quot;[MyPackagePath]/MyCompilerListener.java&quot;/&gt;
+    &lt;include
+    name=&quot;[MyPackagePath]/SomeOtherHelperClass.java&quot;/&gt;
+&lt;/build-compiler-listener&gt;
+</pre>
+</li>
+<li><p class="first">Run <tt class="docutils literal"><span class="pre">[IzPackRoot]/src/build.xml</span></tt>. An <tt class="docutils literal">ant</tt> alone will execute the
+required targets.</p>
+</li>
+<li><p class="first">Add a &quot;listeners&quot; ELEMENT with a &quot;listener&quot; ELEMENT with a &quot;compiler&quot;
+attribute in to [MyProjectPath]/install.xml</p>
+<pre class="literal-block">
+&lt;listeners&gt;
+  &lt;listener compiler=&quot;MyCompilerListener&quot; /&gt;
+&lt;listeners&gt;
+</pre>
+</li>
+<li><p class="first">Compile with the following command, or an ant task you have set up.</p>
+<pre class="literal-block">
+java -jar [IzPackRoot]/lib/compiler.jar -HOME [IzPackRoot]
+  [MyProjectPath]/install.xml -b [MyProductPath] -o
+  [MyBuildPath]/install.jar
+</pre>
+</li>
+<li><p class="first">Test it</p>
+</li>
+</ul>
+</div>
+<div class="section" id="custom-actions-at-installation-time-installerlistener">
+<h1><a class="toc-backref" href="#id14">Custom Actions at Installation Time (InstallerListener)</a></h1>
+<p>Perform the same steps as above, replace all occurrences of
+&quot;CompilerListener&quot; with &quot;InstallerListener&quot; and &quot;compiler&quot; with &quot;installer&quot;.</p>
+</div>
+<div class="section" id="custom-actions-at-uninstallation-time-uninstallerlistener">
+<h1><a class="toc-backref" href="#id15">Custom Actions at Uninstallation Time (UninstallerListener)</a></h1>
+<p>Perform the same steps as above, replace all occurrences of
+&quot;CompilerListener&quot; with &quot;UninstallerListener&quot;and &quot;compiler&quot; with
+&quot;uninstaller&quot;.</p>
+</div>
+<div class="section" id="example">
+<h1><a class="toc-backref" href="#id16">Example</a></h1>
+<p>Let us say, we want to set access rights for files and directories on Unix.
+The Java sources are placed in the directory
+<tt class="docutils literal"><span class="pre">[IzPackRoot]/sample/src/com/myCompany/tools/install/listener</span></tt>. There are
+the files ChmodCompilerListener.java and ChmodInstallerListener.java.</p>
+<ul>
+<li><p class="first">Copy the files to  <tt class="docutils literal"><span class="pre">[IzPackRoot]/src/lib/com/myCompany/tools/install/listener</span></tt></p>
+</li>
+<li><p class="first">In <tt class="docutils literal"><span class="pre">[IzPackRoot]/src/build.xml</span></tt> there are the lines</p>
+<pre class="literal-block">
+&lt;!-- CUSTOM ACTION test START
+CUSTOM ACTION test END --&gt;
+</pre>
+<p>Uncomment them (activate the lines between them).</p>
+</li>
+<li><p class="first">Build IzPack new.</p>
+</li>
+<li><p class="first">Compile a test installation with</p>
+<pre class="literal-block">
+java -jar [IzPackRoot]/lib/compiler.jar -HOME [IzPackRoot]
+  [IzPackRoot]/sample/listener/install.xml
+  -b [IzPackRoot]/sample/listener -o
+  [IzPackRoot]/sample/listener/install.jar
+</pre>
+</li>
+<li><p class="first">Install it</p>
+<pre class="literal-block">
+java -jar install.jar
+</pre>
+</li>
+</ul>
+</div>
+<div class="section" id="ant-actions-installerlistener-and-uninstallerlistener">
+<h1><a class="toc-backref" href="#id17">Ant Actions (InstallerListener and UninstallerListener)</a></h1>
+<p>In this section the common ant task custom actions are described in detail.
+It is only for developers who are not acquainted with <tt class="docutils literal">IzPack</tt> or it's
+custom actions. In addition to the basics there are some recapitulations of
+the common custom action techniques and some hints for pitfalls.
+In the package <tt class="docutils literal">com.izforge.izpack.event</tt> there are the ant related custom
+actions <tt class="docutils literal">AntActionInstallerListener</tt> and <tt class="docutils literal">AntActionUninstallerListener</tt>.
+As recapitulation, to add any custom action a reference in install.xml will
+be needed, as example:</p>
+<pre class="literal-block">
+&lt;listeners&gt;
+    &lt;listener installer=&quot;AntActionInstallerListener&quot;
+        uninstaller=&quot;AntActionUninstallerListener&quot; /&gt;
+&lt;/listeners&gt;
+</pre>
+<p>For all referenced listeners a jar file with the same name must exist in
+<tt class="docutils literal"><span class="pre">[IzPackRoot]/bin/customActions</span></tt>. If compilation (packaging) fails with a
+&quot;not found&quot; error, first verify, that the jar file exists. If not, create it.
+With this custom action it is possible to perform ant calls at installation
+and/or uninstallation time. It is not only a wrapper for a comand-line ant
+call, but also an intersected description file defining what target of the
+ant build file should be performed at what time of (un)installation and
+specifies which properties for what IzPack <tt class="docutils literal">pack</tt> are to be used. The
+intersected description file is written as XML, the corresponding dtd is
+placed in src/dtd/event/antaction.dtd. The description file should be
+declared as a resource in the install.xml with the id `` AntActionsSpec.xml``
+e.g.</p>
+<pre class="literal-block">
+&lt;resources&gt;
+    ...
+    &lt;res id=&quot;AntActionsSpec.xml&quot;
+    src=&quot;myInstallSpecs/MyAntActionsSpec.xml&quot; /&gt;
+    ...
+&lt;/resources&gt;
+</pre>
+<p>The precise spelling of the id is important. The base path of <tt class="docutils literal">src</tt> is the
+installation project path. If you want to use ant, you have to specify it
+here. IzPack is designed for running without dependencies on external
+software or libraries. Therefore it is necessary to include everything
+needed, in this case ant self. The field <tt class="docutils literal">&lt;jar&gt;</tt> in installation.xml is
+predestinated for such cases, e.g.</p>
+<pre class="literal-block">
+&lt;jar src=&quot;jar/ant/ant.jar&quot; stage=&quot;both&quot; /&gt;
+</pre>
+<p>Be aware, that an &quot;extended&quot; ant use needs more than one jar, for example
+often <tt class="docutils literal">xercesImpl.jar</tt>. If an obscure &quot;class not found&quot; exception is raised
+during testing, check first for missing jar files.
+For supporting uninstallation the jar field was extended by the attribute
+<tt class="docutils literal">stage</tt>. If an ant uninstaller custom action is used, the uninstaller also
+needs the jar files. If `` stage`` is &quot;both&quot; or &quot;uninstall&quot;, the contents of
+the referenced jar file will be packed into uninstaller.jar. Be aware that
+not the jar file itself, but the contents of it are required. This implies,
+that the paths of the contained files are unique and the information in
+<tt class="docutils literal"><span class="pre">meta-inf/Manifest.mf</span></tt> will be lost.</p>
+</div>
+<div class="section" id="the-basic-xml-struture">
+<h1><a class="toc-backref" href="#id18">The Basic XML Struture</a></h1>
+<p>An ant action will be defined in the resource with the id
+&quot;AntActionsSpec.xml&quot;. Sometimes it will help to lock into
+<tt class="docutils literal"><span class="pre">[IzPackRoot]/src/dtd/event/antaction.dtd</span></tt> or validate a written xml file
+with the dtd.</p>
+<p>On this xml file a substitution will be performed using all defined
+<tt class="docutils literal">IzPack</tt> variables. It is performed just before processing the packs. This
+is a common way of loading spec files into custom actions. For more
+information see method <tt class="docutils literal">com.izforge.izpack.util.SpecHelper.readSpec</tt>. If
+you want to substitute some custom item, simply add a variable via
+idata.setVariable in a custom panel before <tt class="docutils literal">InstallPanel</tt>. The given
+variable name (id) should be written into the xml file in the common variable
+notation.</p>
+<p>The top level XML section is called <tt class="docutils literal">&lt;antactions&gt;</tt>. Only one is possible.
+The <tt class="docutils literal">&lt;antactions&gt;</tt> are segregated in one or more <tt class="docutils literal">&lt;pack&gt;</tt> elements. The
+single attribute <tt class="docutils literal">&lt;name&gt;</tt> of the <tt class="docutils literal">&lt;pack&gt;</tt> corresponds to the same
+structure in install.xml (for more information see also installation.dtd).
+Only the &quot;things&quot; included in the <tt class="docutils literal">&lt;pack&gt;</tt> are performed, if a pack with
+the same name was chosen to be installed. The &quot;things&quot; to be done to self are
+defined by the element <tt class="docutils literal">&lt;antcall&gt;</tt> (without ssss).</p>
+<p>The <tt class="docutils literal">&lt;antcall&gt;</tt> takes the following attributes:</p>
+<ul class="simple">
+<li><tt class="docutils literal">order</tt>: required. Determine at what point of installation the
+antcalls defined by element <tt class="docutils literal">target</tt> should be performed. Possible are
+<tt class="docutils literal">beforepack</tt>, <tt class="docutils literal">afterpack</tt>, <tt class="docutils literal">beforepacks</tt> or <tt class="docutils literal">afterpacks</tt>. Be
+aware that with beforepack(s) there are no installed files and also no
+installed build file. With this order only preexistent build files are
+useable.</li>
+<li><tt class="docutils literal">uninstall_order</tt>: optional. Determine at what point of
+uninstallation the antcalls defined by element <tt class="docutils literal">uninstall_target</tt>
+should be performed. Possible are <tt class="docutils literal">beforedeletion</tt> and
+<tt class="docutils literal">afterdeletion</tt>. As opposed to the behaviour of <tt class="docutils literal">order</tt> the
+referenced files are also accessible in the order <tt class="docutils literal">afterdeletion</tt>. The
+uninstaller action copies the files into tempfiles before deletion which
+are marked as deleteOnExit.</li>
+<li><tt class="docutils literal">quiet</tt>: optional. To quit or not. Possible are yes or no. Default
+is no.</li>
+<li><tt class="docutils literal">verbose</tt>: optional. To output verbose information or not. Possible
+are yes or no. Default is no.</li>
+<li><tt class="docutils literal">logfile</tt>: optional. Path of the file for logging should be
+performed. The logfile should be not marked for uninstallation otherwise
+it will be deleted too.</li>
+<li><tt class="docutils literal">buildfile</tt>: either <tt class="docutils literal">buildfile</tt> or <tt class="docutils literal">buildresource</tt> is required but not both.
+Path of the file which contains the antcall.
+This is the file you normally use as <tt class="docutils literal"><span class="pre">-buildfile</span></tt> during an ant call
+via the command line. In this file variables are not substituted. For
+substitution there are properties in ant which can be used. Never write
+an <tt class="docutils literal">IzPack</tt> variable in an ant buildfile.</li>
+<li><tt class="docutils literal">buildresource</tt>: either <tt class="docutils literal">buildresource</tt> or <tt class="docutils literal">buildfile</tt> is required but not both.
+The value is the id of the resource which contains the antcall.  This resource will be extracted
+out into a temporary file and the path to this file will be passed as if
+<tt class="docutils literal"><span class="pre">-buildfile</span></tt> were specified during the ant call via the command line.  The
+temporary file is removed after the ant call.  In this file variables are
+not substituted. For substitution there are properties in ant which can be used.
+Never write an <tt class="docutils literal">IzPack</tt> variable in an ant buildfile.</li>
+<li><tt class="docutils literal">messageid</tt>: optional. A string ID which refers to
+<tt class="docutils literal"><span class="pre">bin/langpacks/installer/&lt;lang&gt;.xml</span></tt>. If it is defined, the message
+will be displayed in the InstallPanel whilst performing the ant call.</li>
+</ul>
+<p>In addition to the possible attributes there are some elements. All elements
+can be defined more than one time in one <tt class="docutils literal">&lt;antcall&gt;</tt>. All are optional, but
+with no <tt class="docutils literal">&lt;target&gt;</tt> element the <tt class="docutils literal">&lt;antcall&gt;</tt> makes no sense. Do not confuse
+the following: &quot;required&quot;s are related to the attributes of the elements, not
+to the elements themselfs.</p>
+<div class="section" id="property-define-a-property">
+<h2><a class="toc-backref" href="#id19"><tt class="docutils literal">&lt;property&gt;</tt>: define a property</a></h2>
+<p>Property to be used with all <tt class="docutils literal">target</tt> and <tt class="docutils literal">uninstall_target</tt> which are
+defined for this antcall.</p>
+<ul class="simple">
+<li><tt class="docutils literal">name</tt>: required. The name (id) of the property.</li>
+<li><tt class="docutils literal">value</tt>: required. The value of the property.</li>
+</ul>
+</div>
+<div class="section" id="propertyfile-define-properties-in-a-file">
+<h2><a class="toc-backref" href="#id20"><tt class="docutils literal">&lt;propertyfile&gt;</tt>: define properties in a file</a></h2>
+<p>Properties to be used with all targets and uninstall_targets which are
+defined for this antcall given by the path of a properties file.</p>
+<ul class="simple">
+<li><tt class="docutils literal">path</tt>: required. Path of a file which contains properties in the
+syntax which is used by ant. Some ant calls need properties files. For
+these this element is used. One way to fill specific data into it is to
+create a new file in a custom panel and fill it with values given by
+input fields. The file path can be set at installation time, if there is
+a variable in AntActionSpec.xml and an IzPack variable was defined before
+InstallPanel. That file can be only created with deleteOnExit, if no
+<tt class="docutils literal">&lt;uninstall_target&gt;</tt> was defined in this `` &lt;antcall&gt;``. This implies,
+that other <tt class="docutils literal"><span class="pre">&lt;antcall&gt;``s</span> can have a <span class="pre">``&lt;uninstall_target&gt;</span></tt>.</li>
+</ul>
+</div>
+<div class="section" id="target-target-to-call-at-installation">
+<h2><a class="toc-backref" href="#id21"><tt class="docutils literal">&lt;target&gt;</tt>: target to call at installation</a></h2>
+<p>Targets to perform with this antcall at installation time. The targets should
+be defined in the given buildfile or else an ant exception will be raised.
+This is that what you use, if you don't want to perform the default target.
+e.g. cleaning the <tt class="docutils literal">IzPack</tt> project with <tt class="docutils literal">ant clean</tt></p>
+<ul class="simple">
+<li><tt class="docutils literal">name</tt>: required. The name of the target.</li>
+</ul>
+</div>
+<div class="section" id="uninstall-target-target-to-call-on-uninstallation">
+<h2><a class="toc-backref" href="#id22"><tt class="docutils literal">&lt;uninstall_target&gt;</tt>: target to call on uninstallation</a></h2>
+<p>Targets to perform with this antcall at uninstallation time. The targets
+should be defined in the given buildfile otherwise an ant exception will be
+raised. With this target it will be possible to undo the things done at
+installation time.</p>
+<ul class="simple">
+<li><tt class="docutils literal">name</tt>: required. The name of the uninstall target.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="registry-access-installerlistener-and-uninstallerlistener">
+<h1><a class="toc-backref" href="#id23">Registry access (InstallerListener and UninstallerListener)</a></h1>
+<p>The event package of <tt class="docutils literal">IzPack</tt> contains an installer and an uninstaller
+listener for Windows registry access. The listeners uses the separated pack
+<em>com.coi.tools</em> which is also available as source under the src subtree of
+<tt class="docutils literal">IzPack</tt>. The registry will be called by JNI.</p>
+<p>There is no support from the IzPack project of this feature for Windows 95, Windows 98 and Windows ME.
+Please check the patches at <a class="reference external" href="http://jira.codehaus.org/browse/IZPACK-58">http://jira.codehaus.org/browse/IZPACK-58</a> if you need to support those platforms.</p>
+<p>The registry stuff was implemented in all conscience, but certainly WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND</p>
+<p>The listeners themselves are only able to write into the Windows registry at
+installation and delet the writing at uninstall time. But it is also possible
+to use the registry handler as a registry reader in custom panels or costum
+actions. The <cite>CheckedHelloPanel</cite> reads the registry and can be used as
+example for it.</p>
+<p>To add registry support to an installation some changes in the installation
+definition file (often called``install.xml``) are to be made. First the
+declaration of the listener themselves:</p>
+<pre class="literal-block">
+&lt;listeners&gt;
+    &lt;listener installer=&quot;RegistryInstallerListener&quot;
+        uninstaller=&quot;RegistryUninstallerListener&quot; &gt;
+        &lt;os family=&quot;windows&quot;/&gt;
+    &lt;/listener&gt;
+&lt;/listeners&gt;
+</pre>
+<p>It is also recomanded to add the uninstaller listener because it is usual to
+cleanup the registry at uninstallation. The listeners are only used on
+Windows, therefore we declare it.</p>
+<p>As with other listeners a jar file with the same name has to exist in
+<tt class="docutils literal"><span class="pre">[IzPackRoot]/bin/customActions</span></tt>. If compilation (packaging) fails with an
+&quot;not found&quot; error, verify, that the jar file exists. If not, create it. The
+jar files are <tt class="docutils literal">RegistryInstallerListener.jar</tt> and
+<tt class="docutils literal">RegistryUninstallerListener.jar</tt>.</p>
+<p>As second change in <tt class="docutils literal">install.xml</tt> we have to declare the native part JNI
+needs the dll</p>
+<pre class="literal-block">
+&lt;native type=&quot;3rdparty&quot; name=&quot;COIOSHelper.dll&quot; stage=&quot;both&quot;&gt;
+    &lt;os family=&quot;windows&quot;/&gt;
+&lt;/native&gt;
+</pre>
+<p>The dll should be placed in <tt class="docutils literal"><span class="pre">[IzPackRoot]/bin/native/3rdparty</span></tt>. The stage
+&quot;both&quot; marks this dll not only to be put into the installation jar file but
+also to be put into the uninstallation jar file. This will automatically be
+performed by the packager and installation.</p>
+<p>With these two changes the registry support will be incorporated into your
+installation. Without any more actions an uninstall key will be crated in the
+registry at the installation. If you open the software manager of Windows,
+there will be an entry with the variables $APP_NAME $APP_VER, e.g.:</p>
+<pre class="literal-block">
+IzPack 4.6.8 (build 2007.02.15)
+</pre>
+<p>The variables will be defined from the entries &lt;appname&gt; and &lt;appversion&gt; in
+the &lt;info&gt; element of the installation definition file.</p>
+<p>If you would like to have more informations in the uninstaller key or to
+create other keys or values in the registry, you should create a
+specification file. The file should be then refered to in <tt class="docutils literal">install.xml</tt> as
+resource:</p>
+<pre class="literal-block">
+&lt;resources&gt;
+    ...
+    &lt;res src=&quot;mySubPath/MyRegistrySpec.xml&quot;
+    id=&quot;RegistrySpec.xml&quot;/&gt;
+&lt;/resources&gt;
+</pre>
+<p>The id has to be <tt class="docutils literal">RegistrySpec.xml</tt>. The real file name is not of any
+importance but should be written the same as in your source tree. It will be
+securer if you do not use special chars like blanks or umlauts. Be aware! If
+you forget to refer to <tt class="docutils literal">registrySpec.xml</tt> in your <tt class="docutils literal">install.xml</tt> no
+exception will be made because this is a facultative file</p>
+</div>
+<div class="section" id="id1">
+<h1><a class="toc-backref" href="#id24">The Basic XML Struture</a></h1>
+<p>The specification file for registry entries will be defined in the resource
+with the id &quot;ReigstrySpec.xml&quot;. Sometimes it will help to lock into
+<tt class="docutils literal"><span class="pre">[IzPackRoot]/src/dtd/event/registry.dtd</span></tt> or validate a written xml file
+with the dtd.</p>
+<p>On this xml file a substitution will be performed using all defined
+<tt class="docutils literal">IzPack</tt> variables. It is performed just before processing the packs. This
+is a common way of loading spec files into custom actions. For more
+information see method <tt class="docutils literal">com.izforge.izpack.util.SpecHelper.readSpec</tt>. If
+you want to substitute some custom item, simply add a variable via
+idata.setVariable in a custom panel before <tt class="docutils literal">InstallPanel</tt>. The given
+variable name (id) should be written into the xml file in the common variable
+notation.</p>
+<p>The top level XML section is called <tt class="docutils literal">&lt;registry&gt;</tt>. Only one is possible. The
+<tt class="docutils literal">&lt;registry&gt;</tt> is segregated in one or more <tt class="docutils literal">&lt;pack&gt;</tt> elements. The single
+attribute <tt class="docutils literal">&lt;name&gt;</tt> of the <tt class="docutils literal">&lt;pack&gt;</tt> corresponds to the same structure in
+install.xml (for more information see also installation.dtd). <tt class="docutils literal">&lt;pack&gt;</tt> elements
+can have a condition attribute to express that a certain pack shall only be
+performed if the condition is fulfilled. Only the
+&quot;things&quot; included in the <tt class="docutils literal">&lt;pack&gt;</tt> are performed, if a pack with the same
+name was chosen to be installed. Valid &quot;things&quot; are &lt;key&gt; &lt;value&gt;.</p>
+<p>The registry stuff self allows to create keys and values directly under a
+registry root. But Windows self allows this not on &quot;real&quot; roots like
+HKEY_LOCAL_MACHINE or HKEY_USERS. Only link like roots as HKEY_CLASSES_ROOT
+are writeable. A try e.g. on HKLM will be cause an exception and the
+installation fails. The error number in this case normally will be 87 with
+the meaning &quot;wrong parameter&quot;, not &quot;permission denied&quot;.</p>
+<p>We do NOT recommend to create a key or a value directly on a registry root.
+IzPack allows it now as a result of some user requests about it. Most it is
+not needed. E.g. an extension entry under HKEY_CLASSES_ROOT is really an
+entry on HKEY_LOCAL_MACHINESoftwareClasses. Why not write directly
+there?Reading is in opposite to writing no problem.</p>
+<div class="section" id="key-define-a-key">
+<h2><a class="toc-backref" href="#id25"><tt class="docutils literal">&lt;key&gt;</tt>: define a key</a></h2>
+<p>Key to be set at installation time into the Windows registry.</p>
+<ul class="simple">
+<li><tt class="docutils literal">keypath</tt> : required. The path of the key in Windows syntax without
+the root.
+If the key should be placed directly under a registry root (<cite>not recommended;
+often not possible)</cite>) write the key name without any backslash.</li>
+<li><tt class="docutils literal">root</tt> : required. The root of the key as symbol. Valid is one of
+HKCR HKCU HKLM HKU HKPD HKCC HKDDS.</li>
+</ul>
+</div>
+<div class="section" id="value-define-a-value">
+<h2><a class="toc-backref" href="#id26"><tt class="docutils literal">&lt;value&gt;</tt>: define a value</a></h2>
+<p>Value to be set at installation time into the Windows registry.</p>
+<ul class="simple">
+<li><tt class="docutils literal">condition`</tt>: optional. The id of condition which has to be fulfilled to write this value into
+the registry.</li>
+<li><tt class="docutils literal">name</tt> : required. The name of the value to be set or modified
+without a path.
+The default value will be written as the empty string &quot;&quot;.</li>
+<li><tt class="docutils literal">keypath</tt> : required. The key path under which the value should be
+placed in Windows syntax without the root and value name. If the key of
+the value should be placed directly under a registry root (if not exist,
+<cite>not recommended; often not possible)</cite>) write the key name without any
+backslash.
+If the value should be placed directly under a registry root (also not
+recommended and often not possible) write as keypath the empty string &quot;&quot;.</li>
+<li><tt class="docutils literal">root</tt> : required. The root of the key as symbol. Valid is one of
+HKCR HKCU HKLM HKU HKPD HKCC HKDDS.</li>
+<li><tt class="docutils literal">override</tt> : optional. Override an existent value or not. Valid is
+&quot;true&quot; or &quot;false&quot;, default is &quot;true&quot;.</li>
+<li><tt class="docutils literal">saveprevious</tt> : optional. Save the previous value or not. Valid is &quot;true&quot;
+or &quot;false&quot;, default is &quot;true&quot;. Setting to &quot;false&quot; can result in better uninstall
+behavior when an install is performed on top of an existing installation.</li>
+<li><tt class="docutils literal">Contents part</tt>: accurately one of the following content elements
+should be defined. It implicit defines the type of the value.<ul>
+<li><tt class="docutils literal">string</tt> : contents for value to be set if it is a string (REG_SZ).</li>
+<li><tt class="docutils literal">string</tt> : if the string value starts with <cite>%</cite>, then the string is considered as
+an expandable string (REG_EXPAND_SZ) which is useful to reference Windows environment
+variables (e.g., in paths, etc).</li>
+<li><tt class="docutils literal">dword</tt> : contents for value to be set if it is an integer
+(Windows DWORD). Only digits are valid. &quot;48&quot; is valid, &quot;0x30&quot; will be
+raise an NumberFormatException from <tt class="docutils literal">java.lang.Long.parseLong</tt>.</li>
+<li><tt class="docutils literal">&lt;bin&gt;</tt> : element to handle one &quot;line&quot; of binary data.<ul>
+<li><tt class="docutils literal">data</tt> : contents for value of type BINARY written as
+comma separated list of hex. Only hex-digits are valid. &quot;48, f4&quot; is
+valid, &quot;0x48, 0xf4&quot; will be raise an NumberFormatException from
+<tt class="docutils literal">java.lang.Integer.parseInt</tt>.</li>
+</ul>
+</li>
+<li><tt class="docutils literal">&lt;multi&gt;</tt>: element to handle one contents string for
+MULTI_STRINGs.<ul>
+<li><tt class="docutils literal">data</tt> : the contents for the element &lt;multi&gt;.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>In the case of string values being updated, it is possible to reuse the old
+value and have it for substitution through the <tt class="docutils literal">OLD_KEY_VALUE</tt> variable,
+like in the following example:</p>
+<pre class="literal-block">
+&lt;value condition=&quot;izpack.windowsinstall.7&quot; name=&quot;PATH&quot;
+       keypath=&quot;Environment&quot;
+       root=&quot;HKCU&quot;
+       string=&quot;$OLD_KEY_VALUE;&amp;quot;$INSTALL_PATH\bin&amp;quot;&quot;/&gt;
+&lt;value name=&quot;PATH&quot;
+       keypath=&quot;SYSTEM\CurrentControlSet\Control\Session Manager\Environment&quot;
+       root=&quot;HKLM&quot;
+       string=&quot;$OLD_KEY_VALUE;&amp;quot;$INSTALL_PATH\bin&amp;quot;&quot;/&gt;
+</pre>
+<p>Please note that the first value will only be written if the installation is
+running on Windows 7. This is expressed through the reference to the builtin condition
+izpack.windowsinstall.7.</p>
+<p>Maybe the descriptions for type BINARY and MULTI_STRING are not fully
+descriptive. Therefore as example the test entries in the registry
+specification file of IzPack:</p>
+<pre class="literal-block">
+&lt;registry&gt;
+  ...
+  &lt;pack name=&quot;Core&quot; condition=&quot;izpack.windowsinstall.vista&quot;&gt;
+    &lt;value name=&quot;Path&quot;
+      keypath=&quot;SOFTWARE\IzForge\IzPack\$APP_VER&quot;
+      root=&quot;HKLM&quot;
+      string=&quot;$INSTALL_PATH&quot;/&gt;
+    &lt;value name=&quot;DWORD&quot;
+      keypath=&quot;SOFTWARE\IzForge\IzPack\$APP_VER&quot;
+      root=&quot;HKLM&quot;
+      dword=&quot;42&quot;/&gt;
+    &lt;value name=&quot;BIN&quot;
+      keypath=&quot;SOFTWARE\IzForge\IzPack\$APP_VER&quot;
+      root=&quot;HKLM&quot; &gt;
+      &lt;bin data=&quot;42, 49, 4e, 20, 54, 45, 53, 54&quot; /&gt;
+      &lt;bin data=&quot;42, 49, 4e, 20, 54, 45, 53, 54&quot; /&gt;
+    &lt;/value&gt;
+    &lt;value name=&quot;MULTI&quot;
+      keypath=&quot;SOFTWARE\IzForge\IzPack\$APP_VER&quot;
+      root=&quot;HKLM&quot; &gt;
+      &lt;multi data=&quot;A multi string with three elements&quot; /&gt;
+      &lt;multi data=&quot;Element two&quot;/&gt;
+      &lt;multi data=&quot;Element three&quot;/&gt;
+    &lt;/value&gt;
+  &lt;/pack&gt;
+&lt;/registry&gt;
+</pre>
+</div>
+</div>
+<div class="section" id="extended-uninstall-key">
+<h1><a class="toc-backref" href="#id27">Extended Uninstall Key</a></h1>
+<p>There is a special pack named <tt class="docutils literal">UninstallStuff</tt>. If a pack will be declared
+like</p>
+<pre class="literal-block">
+&lt;name=&quot;UninstallStuff&quot;&gt;
+</pre>
+<p>the incorporated elements will be used for creating the uninstall key and
+values instead of the build-in behavior. This pack name should be not used at
+an other point of the installation. It is a virtual and should be used only
+in <tt class="docutils literal">RegistrySpec.xml</tt>.</p>
+<p>The registry handler self cannot ensure the uniqueness of an uninstaller key.
+There is the special panel <tt class="docutils literal">CheckedHelloPanel</tt> which does it. If no pack
+<tt class="docutils literal">UninstallStuff</tt> will be used, this will be performed full automatically.
+If the pack was declared, <strong>all</strong> keypaths under it should be written as
+following:</p>
+<pre class="literal-block">
+...
+&lt;value name=&quot;DisplayName&quot;
+  keypath=&quot;SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$UNI
+  NSTALL_NAME&quot;
+  root=&quot;HKLM&quot;
+  string=&quot;$UNINSTALL_NAME&quot;/&gt;
+...
+</pre>
+<p>The IzPack variable <tt class="docutils literal">$UNINSTALL_NAME</tt> will be defined in the
+<tt class="docutils literal">CheckedHelloPanel</tt>. With the &quot;normal&quot; <tt class="docutils literal">HelloPanel</tt> it is undefined and
+the uninstall key catches the name &quot;$UNINSTALL_NAME&quot;.</p>
+</div>
+<div class="section" id="uninstall-behavior">
+<h1><a class="toc-backref" href="#id28">Uninstall Behavior</a></h1>
+<p>During uninstallation the deletion or modification of written keys or values
+will be performed depending to the following rules:</p>
+<ul>
+<li><p class="first">A review of the registry will be performed only on supported
+operating systems (current only on Windows).</p>
+</li>
+<li><p class="first">A review of the registry will be performed only if the registry stuff
+was bound for uninstallation.</p>
+</li>
+<li><p class="first">Keys: Keys can only be deleted, a modification is not possible.</p>
+<ul>
+<li><p class="first">A previous existent key will be NOT deleted.</p>
+</li>
+<li><p class="first">A newly created key will be deleted, if...</p>
+<ul class="simple">
+<li>no new values or subkeys are added after installation.</li>
+<li>no changes are made at the contents of values after
+installation.</li>
+</ul>
+<p>With other words: if under the key something was changed
+between installation and uninstallation, the key will be persist.</p>
+</li>
+</ul>
+</li>
+<li><p class="first">Values:</p>
+<ul class="simple">
+<li>A newly created value will be deleted, if the contents at
+uninstall time is the same as after installation.</li>
+<li>The contents of a previos existent value will be changed to the
+previous contents (the contents before installation) if the contents at
+uninstall time is the same as after installation.</li>
+</ul>
+<p>In other words: if the contents of a value was changed between
+installation and uninstallation this contents will be persist. There is
+no handling of parts of the contents (important for type MULTI_STRING).</p>
+</li>
+</ul>
+<p>This conservative behavior cannot be changed to a user dependant voting
+because there is no user interface for custom actions at uninstall time.
+Additional the registry handler to not support voting.</p>
+</div>
+<div class="section" id="examples">
+<h1><a class="toc-backref" href="#id29">Examples</a></h1>
+<p>There are the files</p>
+<pre class="literal-block">
+[IzPackRoot]/src/dist-files/IzPack-install-reg.xml
+[IzPackRoot]/src/dist-files/RegistrySpec.xml
+</pre>
+<p><tt class="docutils literal"><span class="pre">IzPack-install-reg.xml</span></tt> contains additional to the normal definition the
+stuff needed to create an <tt class="docutils literal">IzPack</tt> installer which sets on Windows an
+extended uninstall key and some keys and values under a &quot;private&quot; key.
+Compare with the &quot;normal&quot; installation definition of IzPack.</p>
+<p><tt class="docutils literal">RegistrySpec.xml</tt> will be referred by <tt class="docutils literal"><span class="pre">IzPack-install-reg.xml</span></tt> as
+resource. It contains the special pack named <tt class="docutils literal">UninstallStuff</tt> for Izpack
+and defines some additional keys and values.</p>
+</div>
+<div class="section" id="summary-logger-installerlistener">
+<h1><a class="toc-backref" href="#id30">Summary Logger (InstallerListener)</a></h1>
+<p>The listener <tt class="docutils literal">SummaryLoggerInstallerListener</tt> can be used to log the
+<cite>summary of panels</cite> into a file. To use it, add following element to the
+listener section of your installation config file.</p>
+<pre class="literal-block">
+&lt;listeners&gt;
+    &lt;listener installer=&quot;SummaryLoggerInstallerListener&quot;
+        uninstaller=&quot;SummaryLoggerInstallerListener&quot; &gt;
+        &lt;os family=&quot;windows&quot;/&gt;
+    &lt;/listener&gt;
+&lt;/listeners&gt;
+</pre>
+<p>The default path is</p>
+<pre class="literal-block">
+$INSTALL_PATH/Uninstaller/InstallSummary.htm
+</pre>
+<p>It can be changed with the subelement <tt class="docutils literal">summarylogfilepath</tt> of the element
+<tt class="docutils literal">info</tt> of the installation description file. As example:</p>
+<pre class="literal-block">
+&lt;info&gt;
+    ...
+    &lt;summarylogfilepath&gt;
+        $INSTALL_PATH/Uninstaller/MySummary.htm
+    &lt;/summarylogfilepath&gt;
+&lt;/info&gt;
+</pre>
+</div>
+<div class="section" id="bsf-bean-scripting-framework-actions-installerlistener-and-uninstallerlistener">
+<h1><a class="toc-backref" href="#id31">BSF (Bean Scripting Framework) Actions (InstallerListener and UninstallerListener)</a></h1>
+<p>In this section the BSF custom actions are described in detail.
+It is only for developers who are not acquainted with <tt class="docutils literal">IzPack</tt> or it's
+custom actions. In addition to the basics there are some recapitulations of
+the common custom action techniques and some hints for pitfalls.
+In the package <tt class="docutils literal">com.izforge.izpack.event</tt> there are the BSF related custom
+actions <tt class="docutils literal">BSFInstallerListener</tt> and <tt class="docutils literal">BSFUninstallerListener</tt>.
+As recapitulation, to add any custom action a reference in install.xml will
+be needed, as example:</p>
+<pre class="literal-block">
+&lt;listeners&gt;
+    &lt;listener installer=&quot;BSFInstallerListener&quot;
+        uninstaller=&quot;BSFUninstallerListener&quot; /&gt;
+&lt;/listeners&gt;
+</pre>
+<p>For all referenced listeners a jar file with the same name must exist in
+<tt class="docutils literal"><span class="pre">[IzPackRoot]/bin/customActions</span></tt>. If compilation (packaging) fails with a
+&quot;not found&quot; error, first verify, that the jar file exists. If not, create it.
+With this custom action it is possible to perform BSF calls at installation
+and/or uninstallation time. It is not only a wrapper for a comand-line ant
+call, but also an intersected description file defining what target of the
+BSF script should be performed at what time of (un)installation and
+specifies which properties for what IzPack <tt class="docutils literal">pack</tt> are to be used. The
+intersected description file is written as XML, the corresponding dtd is
+placed in src/dtd/event/bsfaction.dtd. The description file should be
+declared as a resource in the install.xml with the id `` BSFActionsSpec.xml``
+e.g.</p>
+<pre class="literal-block">
+&lt;resources&gt;
+    ...
+    &lt;res id=&quot;BSFActionsSpec.xml&quot;
+    src=&quot;myInstallSpecs/MyBSFActionsSpec.xml&quot; /&gt;
+    ...
+&lt;/resources&gt;
+</pre>
+<p>The precise spelling of the id is important. The base path of <tt class="docutils literal">src</tt> is the
+installation project path. If you want to use bsf, you have to specify it
+here. IzPack is designed for running without dependencies on external
+software or libraries. Therefore it is necessary to include everything
+needed, in this case ant self. The field <tt class="docutils literal">&lt;jar&gt;</tt> in installation.xml is
+predestinated for such cases, e.g.</p>
+<pre class="literal-block">
+&lt;jar src=&quot;jar/bsf/bsf.jar&quot; stage=&quot;both&quot; /&gt;
+</pre>
+<p>In addition, you must also include the jar file for the language which you are
+going to use in your BSF scripts, including any additional language dependencies, e.g.</p>
+<pre class="literal-block">
+&lt;jar src=&quot;jar/groovy/groovy-all.jar&quot; stage=&quot;both&quot; /&gt;
+</pre>
+<p>Finally, if you are NOT going to embed your script content in the &quot;BSFActionsSpec.xml&quot;, but
+instead will be including it in an external resource, you must also define that resource in your
+installer.xml file (see below for an explanation)</p>
+<pre class="literal-block">
+&lt;res id=&quot;actions.groovy&quot; src=&quot;myInstallSpecs/actions.groovy&quot; /&gt;
+</pre>
+</div>
+<div class="section" id="id2">
+<h1><a class="toc-backref" href="#id32">The Basic XML Struture</a></h1>
+<p>A BSF action will be defined in the resource with the id
+&quot;BSFActionsSpec.xml&quot;. Sometimes it will help to lock into
+<tt class="docutils literal"><span class="pre">[IzPackRoot]/src/dtd/event/bsfaction.dtd</span></tt> or validate a written xml file
+with the dtd.</p>
+<p>On this xml file a substitution will be performed using all defined
+<tt class="docutils literal">IzPack</tt> variables. It is performed just before processing the packs. This
+is a common way of loading spec files into custom actions. For more
+information see method <tt class="docutils literal">com.izforge.izpack.util.SpecHelper.readSpec</tt>. If
+you want to substitute some custom item, simply add a variable via
+idata.setVariable in a custom panel before <tt class="docutils literal">InstallPanel</tt>. The given
+variable name (id) should be written into the xml file in the common variable
+notation.</p>
+<p>The top level XML section is called <tt class="docutils literal">&lt;bsfactions&gt;</tt>. Only one is possible.
+The <tt class="docutils literal">&lt;bsfactions&gt;</tt> are segregated in one or more <tt class="docutils literal">&lt;pack&gt;</tt> elements. The
+single attribute <tt class="docutils literal">&lt;name&gt;</tt> of the <tt class="docutils literal">&lt;pack&gt;</tt> corresponds to the same
+structure in install.xml (for more information see also installation.dtd).
+Only the &quot;things&quot; included in the <tt class="docutils literal">&lt;pack&gt;</tt> are performed, if a pack with
+the same name was chosen to be installed. The &quot;things&quot; to be done to self are
+defined by the element <tt class="docutils literal">&lt;script&gt;</tt>.</p>
+<p>The <tt class="docutils literal">&lt;script&gt;</tt> takes the following attributes:</p>
+<ul class="simple">
+<li><tt class="docutils literal">language</tt>: required. The name of the BSF language which is being used.  The
+exact name of the language is dependent upon the BSF engine integration of that
+particular language.  Some example values are &quot;javascript&quot; and &quot;groovy&quot;.</li>
+<li><tt class="docutils literal">src</tt>: optional. The name of a resource, defined in your installer.xml, which
+contains the script contents.  This may be used in lieu of embeddeding the script
+contents in the BSFActionsSpec.xml file itself.</li>
+</ul>
+<p>In addition to the possible attributes <tt class="docutils literal">&lt;script&gt;</tt> can contain a <tt class="docutils literal">CDATA</tt> section
+which contains the script content, rather than using the &quot;src&quot; attibute.
+The different installer/uninstaller phases are scripted by creating a symbol definition for
+that particular phase.  The symbol will then be called by the listener (if present), and
+the appropriate phase variables defined.  If a particular phase is not defined, it will be
+skipped.</p>
+<p>NOTE:  In some languages, such as groovy and jython, you must create the function as a closure,
+so that the symbol is globally defined.  In other languages (such as beanshell), you can create
+the function normally.</p>
+<pre class="literal-block">
+&lt;script language=&quot;groovy&quot; src=&quot;actions.groovy&quot; /&gt;
+</pre>
+<p>OR</p>
+<pre class="literal-block">
+&lt;script language=&quot;groovy&quot;&gt;&lt;![CDATA[
+  // Variables defined
+  //   idata - installer data, of type AutomatedInstallerData
+  //   npacks - # of packs selected
+  beforePacks = {
+    print &quot;before packs&quot;;
+  }
+
+  // Variables defined
+  //   idata - installer data, of type AutomatedInstallerData
+  afterPacks = {
+    print &quot;after packs&quot;;
+  }
+
+  // Variables defined
+  //   pack - pack information, of type Pack
+  //   i - the package index
+  beforePack = {
+    print &quot;before pack &quot; + pack.name;
+  }
+
+  // Variables defined
+  //   pack - pack information, of type Pack
+  //   i - the package index
+  afterPack = {
+    print &quot;before pack &quot; + pack.name;
+  }
+
+  // Variables defined
+  //   pack - pack information, of type Pack
+  //   file - the dir which is to be created, of type File
+  beforeDir = {
+    print &quot;before dir &quot; + file.absolutePath;
+  }
+
+  // Variables defined
+  //   pack - pack information, of type Pack
+  //   file - the dir which was created, of type File
+  afterDir = {
+    print &quot;after dir &quot; + file.absolutePath;
+  }
+
+  // Variables defined
+  //   pack - pack information, of type Pack
+  //   file - the file which is to be installed, of type File
+  beforeFile = {
+    print &quot;before file &quot; + file.absolutePath;
+  }
+
+  // Variables defined
+  //   pack - pack information, of type Pack
+  //   file - the file which was installed, of type File
+  afterFile = {
+    print &quot;after file &quot; + file.absolutePath;
+  }
+
+  // Variables defined
+  //   files - pack information, of type Pack
+  //   variables - the variables which were used during the original install, of type Properties
+  beforeDeletion = {
+    print &quot;before deletion&quot;;
+  }
+
+  // Variables defined
+  //   files - pack information, of type Pack
+  //   variables - the variables which were used during the original install, of type Properties
+  afterDeletion = {
+    print &quot;after deletion&quot;;
+  }
+
+  // Variables defined
+  //   file - the file which is to be deleted, of type File
+  //   variables - the variables which were used during the original install, of type Properties
+  beforeDelete = {
+    print &quot;before delete&quot;;
+  }
+
+  // Variables defined
+  //   file - the file which was to be deleted, of type File
+  //   variables - the variables which were used during the original install, of type Properties
+  afterDelete = {
+    print &quot;after delete&quot;;
+  }
+]]&gt;&lt;/script&gt;
+
+&lt;script language=&quot;beanshell&quot;&gt;&lt;![CDATA[
+void beforePacks() {
+    print &quot;INSTALL_PATH=${INSTALL_PATH}&quot;;
+}
+]]&gt;&lt;/script&gt;
+</pre>
+<p>More detailed examples can be downloaded from <a class="reference external" href="http://jira.codehaus.org/secure/attachment/39246/sample.tar.gz">http://jira.codehaus.org/secure/attachment/39246/sample.tar.gz</a>
+and <a class="reference external" href="http://jira.codehaus.org/secure/attachment/39379/sample2.tar.gz">http://jira.codehaus.org/secure/attachment/39379/sample2.tar.gz</a></p>
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+</div>
+</div>
+</body>
+</html>

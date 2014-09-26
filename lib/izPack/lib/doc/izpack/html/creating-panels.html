@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9: http://docutils.sourceforge.net/" />
+<title>Creating Your Own Panels</title>
+<link rel="stylesheet" href="izpack.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="creating-your-own-panels">
+<h1 class="title">Creating Your Own Panels</h1>
+
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#how-to-get-started" id="id2">How to get started</a></li>
+<li><a class="reference internal" href="#next-steps" id="id3">Next Steps</a></li>
+<li><a class="reference internal" href="#access-to-the-variable-substitution-system" id="id4">Access to the Variable Substitution System</a></li>
+<li><a class="reference internal" href="#controlling-flow" id="id5">Controlling Flow</a></li>
+<li><a class="reference internal" href="#reading-xml" id="id6">Reading XML</a></li>
+<li><a class="reference internal" href="#supporting-classes" id="id7">Supporting Classes</a></li>
+<li><a class="reference internal" href="#panels-that-are-not-visible" id="id8">Panels that are not visible</a></li>
+<li><a class="reference internal" href="#a-word-about-building-izpack" id="id9">A word about building IzPack</a></li>
+<li><a class="reference internal" href="#the-izpanel-class" id="id10">The <tt class="docutils literal">IzPanel</tt> Class</a></li>
+<li><a class="reference internal" href="#the-internationalization-of-custom-panels" id="id11">The <tt class="docutils literal">Internationalization</tt> of custom panels</a></li>
+</ul>
+</div>
+<p>In IzPack all of the actual work of installing an application is done in
+panels. The IzPack framework is primarily there to support the operation of
+the panels and to manage the navigation through the installation process.
+This enables a user to decide which operations are carried out during an
+installation and the order in which they are carried out, simply by listing
+the appropriate panels in the desired order.</p>
+<p>As far as extending the functionality of IzPack is concerned, the result of
+this design is that new functionality can be integrated by adding new panels
+to the framework and then listing them in the install spec. Because the
+existing panels all have a visible GUI and because the term panel hints at
+something visible, it is not obvious that a panel does not have to contain
+any visible GUI to function in this framework. There are more details on this
+subject later on in this chapter.</p>
+<div class="section" id="how-to-get-started">
+<h1><a class="toc-backref" href="#id2">How to get started</a></h1>
+<p>To get started with writing your own panels, it is best to place all the
+IzPack code into a separate working directory, from where you can compile it.
+Then try to compile the code as is and get that to work.</p>
+<p>The next step would be to have a look at another panel implementation, so you
+can see how things are done. Make sure you look at the less complicated
+panels, as the panels with advanced features will only be confusing. All the
+code for building UI and such, only detracts from the essentials of what a
+panel needs to do. This means that you shouldn't start with ``
+UserInputPanel`` or <tt class="docutils literal">ShortcutPanel</tt>. <tt class="docutils literal">HelloPanel</tt> is probably a much
+better choice at this stage. The source code for panels is located at:
+<tt class="docutils literal">/src/lib/com/izforge/izpack/panels</tt>.</p>
+<p>You will find that all panels are derived from <tt class="docutils literal">IzPanel</tt>; do the same thing
+with your new panel. Please note that the <tt class="docutils literal">IzPanel</tt> class itself is located
+in the `` com.izforge.izpack.installer`` package but your panels need to
+belong to <tt class="docutils literal">com.izforge.izpack.panels</tt>. Perhaps you can just copy the code
+of a panel, remove all the functional stuff and then start filling in your
+own code. Start with something very simple to begin with, just to see how it
+works. The implementation is really quite straight forward.</p>
+</div>
+<div class="section" id="next-steps">
+<h1><a class="toc-backref" href="#id3">Next Steps</a></h1>
+<p>Once you have a successful compilation, you must place the compiled result of
+your panel code at a special place, so that the installer compiler can fetch
+it when building an installer that uses your panel. Go to: <tt class="docutils literal">/bin/panels</tt></p>
+<p>You will see that there is a subdirectory for each panel. Make a subdirectory
+for your new panel with the exact same name as your panel and place your
+compiled panel code there.</p>
+<p>Once this is accomplished, you are ready to use your panel in an installer.
+Just list it in the spec file like any other panel, compile and in theory it
+will show up when running the installer. Once you made it this far, you can
+dig deeper and get going with your specific needs.</p>
+<p>Oh, and one other thing: If you think the your code might be useful for a
+larger audience, please think about a contribution to IzPack.</p>
+</div>
+<div class="section" id="access-to-the-variable-substitution-system">
+<h1><a class="toc-backref" href="#id4">Access to the Variable Substitution System</a></h1>
+<p>One thing many developers ask about is how to get access to the variable
+substitution system. This is not surprising, because customizing an
+installation for a particular target environment is one of the most important
+functions of an installer and the variable substitution system plays a big
+part in this operation.</p>
+<p>You can get access to the variable substitution system through the protected
+variable <tt class="docutils literal">idata</tt> in <tt class="docutils literal">IzPanel</tt>. This variable is of the type
+<tt class="docutils literal">InstallData</tt>, which is in turn subclassed from <tt class="docutils literal">AutomatedInstallData</tt>.
+The Javadoc documentation will give you more details on these classes. Of
+particular interest in this context are the methods `` getVariable()``,
+<tt class="docutils literal">setVariable()</tt> and <tt class="docutils literal">getVariableValueMap()</tt> in <tt class="docutils literal">AutomatedInstallData</tt>.</p>
+</div>
+<div class="section" id="controlling-flow">
+<h1><a class="toc-backref" href="#id5">Controlling Flow</a></h1>
+<p>Some of the interesting methods in <tt class="docutils literal">com.izforge.izpack.InstallerFrame</tt> that
+you might want to explore are <tt class="docutils literal">lockPrevButton()</tt> and <tt class="docutils literal">lockNextButton()</tt>.
+They allow you to block the use of the button to move back to the previous
+panel and the button that moves to the next panel respectively. Being able to
+control the availability of these buttons to the user is important if one of
+your panels performs a task where the effects cannot be undone. If the user
+would navigate back to the previous panel your installation might get into an
+unknown or even unstable state. On the other hand, if the operations in one
+panel vitally depend that a task in the previous panel is completed, then you
+should block the use of the next button until that task is completed.</p>
+</div>
+<div class="section" id="reading-xml">
+<h1><a class="toc-backref" href="#id6">Reading XML</a></h1>
+<p>If you need configuration files for your panel you would want to use XML for
+that purpose. To read XML files you should use NanoXML, as it is guaranteed
+to be available at installation time. In fact, all of the IzPack
+infrastructure uses NanoXML to read XML files. First you should read the
+NanoXML documentation. The documentation is included as PDF file with the
+IzPack distribution, have a look in <tt class="docutils literal">/doc/nanoxml</tt>. In addition to that,
+the Javadoc-generated class documentation is an excellent resource to get
+help on NanoXML. And then, there is always the code of other panels to see
+practical examples. Generally, it is a much simpler matter to use NanoXML
+then to use the DOM included with the Java distribution, so don't hesitate to
+explore NanoXML.</p>
+</div>
+<div class="section" id="supporting-classes">
+<h1><a class="toc-backref" href="#id7">Supporting Classes</a></h1>
+<p>If your panel requires any supporting classes that are part of the panels
+package, then you must place the .class files into the same directory with
+your panel .class file.</p>
+<p>It is also possible to have supporting classes that are not part of the
+panels package. In fact, these classes don't even have to be in the
+<tt class="docutils literal"><span class="pre">com.izpack...</span></tt> tree. You simply have to ensure that the .class files are
+located in the proper directory structure inside <tt class="docutils literal">/lib/installer.jar</tt>. If
+this is done, they will be available at install time. For your first
+experiments you can simply compile your classes and add them to the .jar
+file using the jar tool or a zip utility. However, ultimately it is much
+easier to use Ant and the IzPack build script to accomplish this task.</p>
+</div>
+<div class="section" id="panels-that-are-not-visible">
+<h1><a class="toc-backref" href="#id8">Panels that are not visible</a></h1>
+<p>If you have a task that needs to be performed at a particular step in the
+installation process, but that does not need any user interaction, you can
+implement a panel that is not visible. To implement this, you should first
+familiarize yourself with the Javadoc documentation of
+<tt class="docutils literal">com.izforge.izpack.InstallerFrame</tt>. In your panel code you get access to
+the right instance of <tt class="docutils literal">InstallerFrame</tt> through the protected variable
+<tt class="docutils literal">parent</tt> in <tt class="docutils literal">IzFrame</tt>.</p>
+<p>To begin with, do not configure any UI. In other words, do not set a layout
+and do not place any GUI elements on your panel. In this context the method
+<tt class="docutils literal">skipPanel()</tt> is what gets the job done. In your <tt class="docutils literal">panelActivate()</tt> method
+you simply perform your task and then call <tt class="docutils literal">parent.skipPanel()</tt>. This gets
+the job done without the user being aware that there was another panel in the
+flow.</p>
+</div>
+<div class="section" id="a-word-about-building-izpack">
+<h1><a class="toc-backref" href="#id9">A word about building IzPack</a></h1>
+<p>If you don't already use Jakarta Ant to support your development work, i
+highly recommend you have a look at it. It is a great help in organizing
+practically all routine tasks connected with building and packaging your
+application. For example, building and getting IzPack ready for distribution
+is not a straight forward process but with Ant this all comes down to
+starting a single command. In addition, IzPack provides its own Ant task,
+which supports the integration of building a complete installer into your
+regular build scripts. You can find more details about this in the chapter
+about advanced features. To get a look at Ant you can visit the following
+link:  <a class="reference external" href="http://ant.apache.org/index.html">http://ant.apache.org/index.html</a>.</p>
+<p>You can find the Ant build script for IzPack itself at: <tt class="docutils literal">/src/build.xml</tt></p>
+</div>
+<div class="section" id="the-izpanel-class">
+<h1><a class="toc-backref" href="#id10">The <tt class="docutils literal">IzPanel</tt> Class</a></h1>
+<img alt="izpanel-uml-diag.png" src="izpanel-uml-diag.png" />
+<p>The two data members are : the install data (refer to the <tt class="docutils literal">InstallData</tt>
+Javadoc reference) and a reference to the parent installer frame.</p>
+<p>The methods have the following functionality :</p>
+<ul class="simple">
+<li><em>(constructor)</em> : called just after the language selection dialog.
+All the panels are constructed at this time and then the installer is
+shown. So be aware of the fact that the installer window is <strong>not</strong> yet
+visible when the panel is created. If you need to do some work when the
+window is created, it is in most cases better do it in <tt class="docutils literal">panelActivate</tt>.</li>
+<li><tt class="docutils literal">isValidated</tt> returns <tt class="docutils literal">true</tt> if the user is allowed to go a step
+further in the installation process. Returning <tt class="docutils literal">false</tt> will lock it.
+For instance the LicencePanel returns <tt class="docutils literal">true</tt> only if the user has
+agreed with the license agreement. The default is to return <tt class="docutils literal">true</tt>.</li>
+<li><tt class="docutils literal">panelActivate</tt> is called when the panel becomes active. This is
+the best place for most initialization tasks. The default is to do
+nothing.</li>
+<li><tt class="docutils literal">makeXMLData</tt> is called to build the automated installer data. The
+default is to do nothing. <tt class="docutils literal">panelRoot</tt> refers to the node in the XML
+tree where you can save your data. Each panel is given a node. You can
+organize it as you want with the markups you want starting from
+<tt class="docutils literal">panelRoot</tt>. It's that simple.</li>
+<li><tt class="docutils literal">runAutomated</tt> is called by an automated-mode installation. Each
+panel is called and can do its job by picking the data collected during a
+previous installation as saved in `` panelRoot`` by <tt class="docutils literal">makeXMLData</tt>.</li>
+<li><tt class="docutils literal">setInitialFocus</tt> with this method it is possible to set a hint
+which component should be get the focus at activation of the panel. It is
+only a hint. Not all components are supported. For more information see
+java.awt.Component.requestFocusInWindow or
+java.awt.Component.requestFocus if the VM version is less than 1.4.</li>
+<li><tt class="docutils literal">getInitialFocus</tt> returns the component which should be get the
+focos at activation of the panel. If no component was set, null returns.</li>
+<li><tt class="docutils literal">getSummaryBody</tt> this method will be called from the SummaryPanel
+to get the summary of this class which should be placed in the
+SummaryPanel. The returned text should not contain a caption of this
+item. The caption will be requested from the method getCaption. If null
+returns, no summary for this panel will be enerated. Default behaviour is
+to return null.</li>
+<li><tt class="docutils literal">getSummaryCaption</tt> this method will be called from the
+SummaryPanel to get the caption for this class which should be placed in
+the SummaryPanel. Default behaviour is to return the string given by
+langpack for the key ClassName.summaryCaption.</li>
+</ul>
+<p>Additionally, there are some helper methods to simplify grid bag layout
+handling and creation of some common used components.</p>
+</div>
+<div class="section" id="the-internationalization-of-custom-panels">
+<h1><a class="toc-backref" href="#id11">The <tt class="docutils literal">Internationalization</tt> of custom panels</a></h1>
+<p>A common way to define language dependant messages for custom panels is to
+add entries into the common langpacks which are stored in the directory</p>
+<pre class="literal-block">
+[IzPackRoot]/bin/langpacks/installer
+</pre>
+<p>New with version 3.8 is the possibility to define a resource for custom
+langpacks. Define e.g.</p>
+<pre class="literal-block">
+&lt;resources&gt;
+    ...
+    &lt;res id=&quot;CustomLangpack.xml_deu&quot;
+        src=&quot;myConfigSubPath/CustomLangpack_deu.xml&quot;/&gt;
+    ...
+&lt;/resources&gt;
+</pre>
+<p>in the install.xml file.The id should be written as shown, the file sub path
+and name can be other than in the example. This file should be using the same
+DTD as the common langpack. For each language a separate file with the ISO3
+extension in the id should be used.</p>
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+</div>
+</div>
+</body>
+</html>

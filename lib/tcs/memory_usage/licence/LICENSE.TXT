@@ -1,6 +1,0 @@
-Copyright 2006-2008 TopCoder, Inc. All rights reserved.
-
-This software is owned by and proprietary to TopCoder, Inc.  You may use this software only subject to the terms of an applicable license.  For some applications, license terms may be found in the file LICENSE in the root directory of the distribution.  
-
-If you have any questions, please contact service@topcoder.com
-

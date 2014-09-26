@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9: http://docutils.sourceforge.net/" />
+<title>Sample Install Definition</title>
+<link rel="stylesheet" href="izpack.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="sample-install-definition">
+<h1 class="title">Sample Install Definition</h1>
+
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+<p>This shows an example of how to use many of the features and advanced features
+discussed in many of the other sections of this documentation.  Look in the
+sample directory for a more basic example and all the necessary files and
+instructions to build your first IzPack installer.</p>
+<p>Normally, a build process will call IzPack from Ant using something like the following:</p>
+<pre class="literal-block">
+&lt;!-- Allows us to use the IzPack Ant task, standalone-compiler.jar added to Ant lib --&gt;
+&lt;taskdef name=&quot;izpack&quot; classpath=&quot;${install.lib}/standalone-compiler.jar&quot;
+    classname=&quot;com.izforge.izpack.ant.IzPackTask&quot;/&gt;
+</pre>
+<pre class="literal-block">
+&lt;!-- Run installer build --&gt;
+&lt;echo message=&quot;Running IzPack to build the installer...&quot;/&gt;
+&lt;izpack input=&quot;install-definition.xml&quot;
+        output=&quot;${output.dir}/${product.short.name}-${product.version}-install.jar&quot;
+        installerType=&quot;standard&quot;
+        inheritAll=&quot;true&quot;
+        basedir=&quot;${temp.dir}&quot;
+        compression=&quot;deflate&quot;
+        compressionlevel=&quot;9&quot;/&gt;
+&lt;!-- Clean working directory --&gt;
+&lt;echo message=&quot;Cleaning up working directory...&quot;/&gt;
+&lt;delete dir=&quot;${temp.dir}&quot; quiet=&quot;true&quot; includeemptydirs=&quot;true&quot;/&gt;
+&lt;echo message=&quot;Done.&quot;/&gt;
+</pre>
+<p><strong>install-definition.xml</strong></p>
+<pre class="literal-block">
+        &lt;?xml version=&quot;1.0&quot; encoding=&quot;iso-8859-1&quot; standalone=&quot;yes&quot; ?&gt;
+
+        &lt;installation version=&quot;1.0&quot;&gt;
+          &lt;!-- Ant properties in this file can be referenced with &#64;{},
+               otherwise use variables below in installer files with ${} --&gt;
+          &lt;info&gt;
+            &lt;appname&gt;&#64;{product.name}&lt;/appname&gt;
+            &lt;appversion&gt;&#64;{product.version}&lt;/appversion&gt;
+            &lt;uninstaller name=&quot;remove.task&quot; path=&quot;${INSTALL_PATH}/Uninstall&quot; write=&quot;yes&quot;/&gt;
+          &lt;/info&gt;
+
+          &lt;guiprefs width=&quot;600&quot; height=&quot;480&quot; resizable=&quot;no&quot;&gt;
+            &lt;laf name=&quot;kunststoff&quot;&gt;
+              &lt;os family=&quot;unix&quot; /&gt;
+            &lt;/laf&gt;
+            &lt;modifier key=&quot;useHeadingPanel&quot; value=&quot;yes&quot;/&gt;
+            &lt;modifier key=&quot;useHeadingForSummary&quot; value=&quot;yes&quot;/&gt;
+&lt;modifier key=&quot;headingImageOnLeft&quot; value=&quot;yes&quot;/&gt;
+            &lt;modifier key=&quot;headingLineCount&quot; value=&quot;2&quot;/&gt;
+            &lt;modifier key=&quot;headingFontSize&quot; value=&quot;1.5&quot;/&gt;
+            &lt;modifier key=&quot;headingBackgroundColor&quot; value=&quot;0x00ffffff&quot;/&gt;
+            &lt;modifier key=&quot;headingPanelCounter&quot; value=&quot;text&quot;/&gt;
+            &lt;modifier key=&quot;headingPanelCounterPos&quot; value=&quot;inHeading&quot;/&gt;
+          &lt;/guiprefs&gt;
+
+          &lt;locale&gt;
+            &lt;langpack iso3=&quot;eng&quot;/&gt;
+          &lt;/locale&gt;
+
+          &lt;!-- Need to define ant properties we want to use during install as variables --&gt;
+          &lt;variables&gt;
+            &lt;variable name=&quot;app.name&quot; value=&quot;&#64;{app.name}&quot;/&gt;
+            &lt;variable name=&quot;UserPathPanelVariable&quot; value=&quot;&#64;{default.dest.dir.sql}&quot;/&gt;
+            &lt;variable name=&quot;UserPathPanelDependsName&quot; value=&quot;Install Database Server&quot;/&gt;
+            &lt;variable name=&quot;jboss.version&quot; value=&quot;&#64;{jboss.version}&quot;/&gt;
+            &lt;variable name=&quot;install.jboss.service&quot; value=&quot;true&quot;/&gt;
+          &lt;/variables&gt;
+
+          &lt;resources&gt;
+            &lt;res id=&quot;box-out-32.png&quot; src=&quot;&#64;{install.res}/box-out-32.png&quot;/&gt;
+            &lt;res id=&quot;customicons.xml&quot; src=&quot;&#64;{install.res}/custom.icons.xml&quot;/&gt;
+            &lt;res id=&quot;CustomLangpack.xml_eng&quot; src=&quot;&#64;{install.res}/custom.eng.xml&quot;/&gt;
+            &lt;res id=&quot;HTMLInfoPanel.info&quot; src=&quot;&#64;{install.res}/license-notice.html&quot;/&gt;
+            &lt;res id=&quot;Heading.image&quot; src=&quot;&#64;{install.res}/heading-image.png&quot;/&gt;
+            &lt;res id=&quot;Installer.image&quot; src=&quot;&#64;{install.res}/side-image.png&quot; /&gt;
+            &lt;res id=&quot;ProcessPanel.Spec.xml&quot; src=&quot;&#64;{build.dir}/processing-tasks.xml&quot;/&gt;
+            &lt;res id=&quot;userInputSpec.xml&quot; src=&quot;&#64;{build.dir}/userInputSpec.xml&quot; /&gt;
+            &lt;res id=&quot;uninstaller.warning&quot; src=&quot;&#64;{install.res}/uninstall-warn.txt&quot;/&gt;
+            &lt;!-- default-dir.txt is written by the calling build.xml --&gt;
+            &lt;res id=&quot;TargetPanel.dir&quot; src=&quot;&#64;{install.res}/default-dir.txt&quot;/&gt;
+          &lt;/resources&gt;
+
+          &lt;panels&gt;
+            &lt;panel classname=&quot;HelloPanel&quot;/&gt;
+            &lt;panel classname=&quot;HTMLInfoPanel&quot;/&gt;
+            &lt;panel classname=&quot;TargetPanel&quot;/&gt;
+            &lt;panel classname=&quot;InstallationGroupPanel&quot;/&gt;
+            &lt;panel classname=&quot;PacksPanel&quot;/&gt;
+            &lt;panel classname=&quot;UserInputPanel&quot; id=&quot;UserInputPanel.0&quot;/&gt;
+            &lt;panel classname=&quot;UserInputPanel&quot; id=&quot;UserInputPanel.1&quot;/&gt;
+            &lt;panel classname=&quot;UserInputPanel&quot; id=&quot;UserInputPanel.2&quot;/&gt;
+            &lt;panel classname=&quot;UserPathPanel&quot;/&gt;
+            &lt;panel classname=&quot;SummaryPanel&quot;/&gt;
+            &lt;panel classname=&quot;InstallPanel&quot;/&gt;
+            &lt;panel classname=&quot;ProcessPanel&quot;/&gt;
+            &lt;panel classname=&quot;SimpleFinishPanel&quot;/&gt;
+          &lt;/panels&gt;
+
+          &lt;listeners&gt;
+              &lt;listener installer=&quot;SummaryLoggerInstallerListener&quot;&gt;
+                  &lt;os family=&quot;windows&quot;/&gt;
+              &lt;/listener&gt;
+          &lt;/listeners&gt;
+
+          &lt;packs&gt;
+            &lt;pack name=&quot;Main Application&quot; required=&quot;yes&quot; installGroups=&quot;New Application&quot; &gt;
+              &lt;description&gt;The first application deployed in a new JBoss application server.&lt;/description&gt;
+              &lt;file src=&quot;&#64;{jboss.version}&quot; targetdir=&quot;$INSTALL_PATH&quot;/&gt;
+            &lt;/pack&gt;
+            &lt;pack name=&quot;Install Database Server&quot; required=&quot;no&quot; preselected=&quot;yes&quot; os=&quot;windows&quot; installGroups=&quot;New Application&quot;&gt;
+              &lt;description&gt;New server installation of the selected database as required by the application.&lt;/description&gt;
+              &lt;file src=&quot;postgresql&quot; targetdir=&quot;$INSTALL_PATH&quot;/&gt;
+              &lt;file src=&quot;sql&quot; targetdir=&quot;$INSTALL_PATH&quot;/&gt;
+              &lt;executable
+                targetfile=&quot;$INSTALL_PATH/postgresql/postgres_install_windows.bat&quot;
+                stage=&quot;postinstall&quot;
+                keep=&quot;true&quot;
+              &gt;
+                &lt;args&gt;
+                  &lt;arg value=&quot;${UserPathPanelVariable}&quot;/&gt;
+                  &lt;arg value=&quot;$HOST_NAME&quot;/&gt;
+                  &lt;arg value=&quot;${db.service.name}&quot;/&gt;
+                  &lt;arg value=&quot;${db.service.password}&quot;/&gt;
+                  &lt;arg value=&quot;${db.su.password}&quot;/&gt;
+                &lt;/args&gt;
+              &lt;/executable&gt;
+            &lt;/pack&gt;
+            &lt;pack name=&quot;JBoss Source Code&quot; required=&quot;no&quot; preselected=&quot;no&quot; installGroups=&quot;New Application&quot;&gt;
+              &lt;description&gt;The JBoss application server source is available as required by the LGPL.&lt;/description&gt;
+              &lt;file src=&quot;src&quot; targetdir=&quot;$INSTALL_PATH/&#64;{jboss.version}&quot; /&gt;
+            &lt;/pack&gt;
+            &lt;pack name=&quot;Update Application&quot; required=&quot;yes&quot; installGroups=&quot;Update Existing Application&quot;&gt;
+              &lt;description&gt;The required application files to update an existing installation.&lt;/description&gt;
+              &lt;file src=&quot;update&quot; targetdir=&quot;$INSTALL_PATH&quot;/&gt;
+            &lt;/pack&gt;
+            &lt;pack name=&quot;Post-Install Tasks&quot; required=&quot;yes&quot;&gt;
+              &lt;description&gt;Configuration and cleanup required for the installation.&lt;/description&gt;
+              &lt;file src=&quot;ant&quot; targetdir=&quot;$INSTALL_PATH&quot;/&gt;
+              &lt;file src=&quot;post-install-tasks.bat&quot; targetdir=&quot;$INSTALL_PATH&quot;/&gt;
+              &lt;file src=&quot;build.xml&quot; targetdir=&quot;$INSTALL_PATH&quot;/&gt;
+              &lt;file src=&quot;Uninstall_PostgreSQL_and_Application.bat&quot; targetdir=&quot;$INSTALL_PATH&quot;/&gt;
+              &lt;file src=&quot;Uninstall_Application_Only.bat&quot; targetdir=&quot;$INSTALL_PATH&quot;/&gt;
+              &lt;parsable targetfile=&quot;$INSTALL_PATH/post-install-tasks.bat&quot;/&gt;
+              &lt;parsable targetfile=&quot;$INSTALL_PATH/build.xml&quot;/&gt;
+              &lt;parsable targetfile=&quot;$INSTALL_PATH/&#64;{jboss.version}/bin/system.properties&quot;/&gt;
+              &lt;parsable targetfile=&quot;$INSTALL_PATH/Uninstall_PostgreSQL_and_Application.bat&quot;/&gt;
+              &lt;parsable targetfile=&quot;$INSTALL_PATH/Uninstall_Application_Only.bat&quot;/&gt;
+            &lt;/pack&gt;
+          &lt;/packs&gt;
+
+          &lt;!-- The native libraries to add. This is required for creating shortcuts on Windows --&gt;
+          &lt;native type=&quot;izpack&quot; name=&quot;ShellLink.dll&quot;/&gt;
+
+        &lt;/installation&gt;
+</pre>
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+</div>
+</body>
+</html>

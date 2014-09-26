@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9: http://docutils.sourceforge.net/" />
+<title>Getting started</title>
+<link rel="stylesheet" href="izpack.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="getting-started">
+<h1 class="title">Getting started</h1>
+
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#overview" id="id2">Overview</a></li>
+<li><a class="reference internal" href="#installation-of-izpack" id="id3">Installation of IzPack</a><ul>
+<li><a class="reference internal" href="#on-windows" id="id4">On Windows</a></li>
+<li><a class="reference internal" href="#on-unix-linux" id="id5">On UNIX/Linux</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#first-compilation" id="id6">First Compilation</a></li>
+<li><a class="reference internal" href="#how-to-develop-and-debug-izpack-using-eclipse" id="id7">How to develop and debug IzPack using Eclipse</a></li>
+<li><a class="reference internal" href="#the-izpack-architecture" id="id8">The IzPack architecture</a><ul>
+<li><a class="reference internal" href="#the-compilation-system" id="id9">The compilation system</a></li>
+<li><a class="reference internal" href="#how-an-installer-works" id="id10">How an installer works</a></li>
+<li><a class="reference internal" href="#the-different-kinds-of-installers" id="id11">The different kinds of installers</a></li>
+<li><a class="reference internal" href="#installers-for-older-vm-versions" id="id12">Installers for older vm versions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="overview">
+<h1><a class="toc-backref" href="#id2">Overview</a></h1>
+<p>To begin with, you should know how IzPack is organized if you want to use it. Let's go into the directory where you have installed IzPack on your machine. There are 3 text files and a set of directories. The most important for the moment are bin/ doc/ sample/. If you are reading this, you already know that doc contains this documentation :-)</p>
+<p>So let's go into bin/. The icons/ directory contains some directories for your system, in case you would like an icon to launch a component of IzPack . But the most important things you can see in bin are the compile scripts (in both unix* and windows formats). Compile is used to compile a ready-to-go xml installation file from a command-line context or from an external tool.</p>
+<p>Note : these scripts can be launched from anywhere on your system as the installer has customized these scripts so that they can inform IzPack of where it is located.</p>
+</div>
+<div class="section" id="installation-of-izpack">
+<h1><a class="toc-backref" href="#id3">Installation of IzPack</a></h1>
+<p>First go get the latest stable version of IzPack from: <a class="reference external" href="http://izpack.org/downloads">http://izpack.org/downloads</a></p>
+<p>If needed download the Latest Java Run Time from Sun's website <a class="reference external" href="http://java.sun.com/">http://java.sun.com/</a>. You should get the JRE if you intend to ONLY run the installer and get the SDK if you're willing to compile as well.</p>
+<div class="section" id="on-windows">
+<h2><a class="toc-backref" href="#id4">On Windows</a></h2>
+<p>Don't forget to set up the environment variables:</p>
+<p>If using the SDK:</p>
+<pre class="literal-block">
+set JAVA_HOME=&quot;C:\j2sdk1.4.2_04&quot;
+set JRE_HOME=%JAVA_HOME%/jre
+set CLASSPATH=%JAVA_HOME%/bin;%CLASSPATH%
+set PATH=%JAVA_HOME%/bin;%JRE_HOME%/bin;%PATH%
+</pre>
+<p>This is obvioulsy assuming that SDK has been installed to &quot;C:j2sdk1.4.2_04&quot;</p>
+<p>If using the JRE:</p>
+<pre class="literal-block">
+set JAVA_HOME=&quot;C:\Program Files\Java\j2re1.4.2_05&quot;
+set CLASSPATH=%JAVA_HOME%/bin;%CLASSPATH%
+set PATH=%JAVA_HOME%/bin;%PATH%
+</pre>
+<p>This is obviously assuming that SDK has been installed to &quot;C:Program FilesJavaj2re1.4.2_05&quot;
+Once this is done, you can install IzPack using the following command:</p>
+<pre class="literal-block">
+java -jar izpack.jar
+</pre>
+<p>Where izpack.jar is the latest release you downloaded from IzPack website.</p>
+</div>
+<div class="section" id="on-unix-linux">
+<h2><a class="toc-backref" href="#id5">On UNIX/Linux</a></h2>
+<p>If needed download the Latest Java Run Time from Sun's website <a class="reference external" href="http://java.sun.com/">http://java.sun.com/</a>. You should get the JRE if you intend to ONLY run the installer, but you should get the SDK if you're willing to compile as well.</p>
+<p>If using the SDK:</p>
+<pre class="literal-block">
+export JAVA_HOME=/usr/java/j2sdk1.4.2_06
+export JAVA_JAR=/usr/java/java_jar
+export JRE_HOME=/usr/java/j2sdk1.4.2_06/jre
+export CLASSPATH=/usr/java/j2sdk1.4.2_06/bin
+export PATH=/usr/java/j2sdk1.4.2_06/bin:/usr/java/j2sdk1.4.2_06/jre/bin:$PATH
+</pre>
+<p>This is obviously assuming that java has been installed to /usr/java/j2sdk1.4.2_06</p>
+<p>If using the JRE:</p>
+<pre class="literal-block">
+export JAVA_HOME=/usr/java/j2re1.4.2_05
+export CLASSPATH=$JAVA_HOME/bin:$CLASSPATH
+export PATH=$JAVA_HOME/bin:$PATH
+</pre>
+<p>This is obviously assuming that SDK has been installed to &quot;/usr/java/j2re1.4.2_05&quot;
+You can put them into any script launched at startup if you don't want to have to do it everytime.
+For example, .bashrc of your user, so that whenever you'll start a bash console the variables will be set.</p>
+<p>To verify that the environment is correct, type SET in the command prompt and check if those variables are set before running any compilation.</p>
+<p>Then you install IzPack using the following command:</p>
+<pre class="literal-block">
+java -jar izpack.jar
+</pre>
+<p>By default it will be installed in /usr/local/IzPack.
+Therefore you can create two scripts, one for compiling your code and the second to execute the installer.</p>
+<p>Compile.sh:</p>
+<pre class="literal-block">
+#!/bin/sh
+/usr/local/IzPack/bin/compile /yourpath/Install.xml -b /yourpath -o /yourpath/yourjaroutput.jar -k standard
+</pre>
+<p>Install.sh:</p>
+<pre class="literal-block">
+#!/bin/sh
+java -jar yourjaroutput.jar
+</pre>
+<p><strong>BUGS and TROUBLESHOOTING</strong></p>
+<ol class="arabic">
+<li><p class="first">This is assuming that you're current Unix/Linux allows the use of the server X. In cas it doesn't here is a way to install IzPack using cygwin (thanks to Shrish Buradkar and Bartz Klaus for this trick):</p>
+<p>Install cygwin on a remote machine. Cygwin can be downloaded from <a class="reference external" href="http://www.cygwin.com/">http://www.cygwin.com/</a>
+Firstly, start the XWindows server on your PC. This could be done by using the startxwin-multiwindow batch file or running /usr/X11R6/bin/startxwin.sh
+From the cygwin Xterm, type xhost +
+Then telnet to the remote UNIX/Linux machine and set the DISPLAY to your PC. So after you have logged into the remote machine, do export DISPLAY=pc-ip-adress:0.0 xterm &amp; java -jar installer.jar
+This should do the job by displaying an xterm from the remote machine onto yor PC.</p>
+</li>
+<li><p class="first">Normally launching packages created by IzPack under Gnome, KDE or XFCE works fine. If when trying to launch a pack you receive this error message:</p>
+<pre class="literal-block">
+Exception in thread &quot;main&quot; java.lang.InternalError: Can't connect to X11
+window server using ':0.0' as the value of the DISPLAY variable.
+        at sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
+        at
+sun.awt.X11GraphicsEnvironment.&lt;clinit&gt;(X11GraphicsEnvironment.java:134)
+        at java.lang.Class.forName0(Native Method)
+        at java.lang.Class.forName(Class.java:141)
+        at
+java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:62)
+        at java.awt.Font.initializeFont(Font.java:308)
+        at java.awt.Font.&lt;init&gt;(Font.java:344)
+        at
+com.izforge.izpack.gui.IzPackMetalTheme.createFont(IzPackMetalTheme.java:62)
+        at
+com.izforge.izpack.gui.IzPackMetalTheme.&lt;init&gt;(IzPackMetalTheme.java:52)
+        at
+com.izforge.izpack.gui.IzPackKMetalTheme.&lt;init&gt;(IzPackKMetalTheme.java:59)
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native
+Method)
+        at
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+        at
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+        at java.lang.reflect.Constructor.newInstance(Constructor.java:274)
+        at java.lang.Class.newInstance0(Class.java:308)
+        at java.lang.Class.newInstance(Class.java:261)
+        at
+com.izforge.izpack.installer.GUIInstaller.loadLookAndFeel(GUIInstaller.java:297)
+        at
+com.izforge.izpack.installer.GUIInstaller.&lt;init&gt;(GUIInstaller.java:100)
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native
+Method)
+        at
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+        at
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+        at java.lang.reflect.Constructor.newInstance(Constructor.java:274)
+        at java.lang.Class.newInstance0(Class.java:308)
+        at java.lang.Class.newInstance(Class.java:261)
+        at com.izforge.izpack.installer.Installer.main(Installer.java:47)
+</pre>
+</li>
+</ol>
+<p>Then, it's most probably the fact that in some distribution the console and environment variables are &quot;erased&quot; when switching between users. So, you can type 'su -' in order to obtain all commands. With 'su -' $DISPLAY variables is erased and all X11 connections is refused. So, a best and fast practice in this way is:</p>
+<blockquote>
+<ol class="arabic simple">
+<li>Log in your system by user</li>
+<li>In shell type: '$ echo $DISPLAY'</li>
+<li>the result seems to be ':0.0'. If the response isn't there you can type:</li>
+<li>'$ export $DISPLAY=&quot;:0.0&quot;'</li>
+<li>Now type $su for a &quot;normal&quot; alias by root.</li>
+<li>Run: $ java -jar &quot;package.jar&quot;</li>
+</ol>
+</blockquote>
+</div>
+</div>
+<div class="section" id="first-compilation">
+<h1><a class="toc-backref" href="#id6">First Compilation</a></h1>
+<p>Now you probably can't wait to build your first installer. So go on open a command-line shell and navigate to sample/. The following should work on both unix* and windows systems. for the latter, just change the path separator (slash '/') to a backslash. So type ($ is your shell prompt !) :</p>
+<pre class="literal-block">
+$ ../bin/compile install.xml -b . -o install.jar -k standard
+ (installer generation text output here)
+$ java -jar install.jar
+</pre>
+<p>There you are! The first command has produced the installer and the second one did launch it.</p>
+</div>
+<div class="section" id="how-to-develop-and-debug-izpack-using-eclipse">
+<h1><a class="toc-backref" href="#id7">How to develop and debug IzPack using Eclipse</a></h1>
+<p>(thanks to Bartz Klaus)</p>
+<p>Here are the steps needed to develop adn debug IzPack with Eclipse:</p>
+<ol class="arabic">
+<li><p class="first">IzPack Installation</p>
+<p>Install the latest stable release of IzPack with the sources !
+For more details see the section &quot;IzPack Installation&quot;.</p>
+</li>
+<li><p class="first">Custom class sources and build.xml</p>
+<p>Put your custom class sources under
+%IZPACK_HOME%srclib
+may be
+%IZPACK_HOME%srclibcomizforgeizpackpanelsMyPanel.java
+Add a create rule into %IZPACK_HOME%srcbuild.xml
+under target &quot;build.panels&quot;</p>
+</li>
+<li><p class="first">Eclipse</p>
+<p>You can get Eclipse from <a class="reference external" href="http://www.eclipse.org/downloads/index.php">http://www.eclipse.org/downloads/index.php</a></p>
+</li>
+<li><p class="first">Create IzPack project</p>
+<p>Select
+File &gt; New &gt; Project...
+Java &gt; Java Project &gt; next &gt;
+give a project name like &quot;IzPack&quot;
+deselect &quot;Use default&quot; ( 2.x) or
+select &quot;Create project at external location&quot; (3.x)
+Browse to %IZPACK_HOME%srclib select it
+Next &gt;
+In &quot;Libraries&quot; select &quot;Add External JARs...&quot;
+select ant.jar and jakarta-regexp-1.3.jar from %IZPACK_HOME%lib
+Finish</p>
+</li>
+<li><p class="first">Debug compile (create installation)</p>
+<p>Select
+Run &gt; Debug...
+Java Application
+New
+give a name e.g. &quot;CompileMyInstall&quot;
+select in &quot;Main&quot; the project &quot;IzPack&quot;
+select as &quot;main class&quot; &quot;Compile&quot; (from package com.izforge.izpack.compiler)
+As &quot;Program arguments&quot; put in (for %SOME_THING% use your local value)
+%SRC_ROOT%%CONFIG_SUBPATH%install.xml -b %SRC_ROOT% -o %INSTALLER_DEST%install.jar
+As &quot;VM arguments&quot; put in
+&quot;-DIZPACK_HOME=n:homebartzkauworkxt150_forIzPackizpack-src&quot;</p>
+<p>No you can debug the compiling of your installation.</p>
+</li>
+</ol>
+<ol class="arabic" start="5">
+<li><p class="first">Debug installation</p>
+<p>Compile your installation; now you have
+%INSTALLER_DEST%install.jar
+Run &gt; Debug...
+Java Application
+New
+give a name e.g. &quot;InstallMyInstall&quot;
+select in &quot;Main&quot; the project &quot;IzPack&quot;
+select as &quot;main class&quot; &quot;Installer&quot; (from package com.izforge.izpack.installer)
+as &quot;VM arguments&quot; use
+-DTRACE=true
+select the tab &quot;Classpath&quot;
+select &quot;User classes&quot; (2.x) or &quot;User Entries&quot; (3.x)
+select &quot;Add External JARs...&quot;
+select %INSTALLER_DEST%install.jar (may be, that's the trick...)
+install.jar must be under the project entry</p>
+<p><strong>BUGS and TROUBLESHOOTING</strong></p>
+<p>If you get this error when running the application
+could not create shortcut instance</p>
+<pre class="literal-block">
+java.lang.Exception: error loading library
+at com.izforge.izpack.util.Librarian.loadLibrary(Librarian.java:249)
+at com.izforge.izpack.util.os.ShellLink.initialize(ShellLink.java:461)
+at com.izforge.izpack.util.os.ShellLink.&lt;init&gt;(ShellLink.java:349)
+at com.izforge.izpack.util.os.Win_Shortcut.initialize(Win_Shortcut.java:79)
+at com.izforge.izpack.panels.ShortcutPanel.&lt;init&gt;(ShortcutPanel.java:473)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at com.izforge.izpack.installer.InstallerFrame.loadPanels(InstallerFrame.java:203)
+at com.izforge.izpack.installer.InstallerFrame.&lt;init&gt;(InstallerFrame.java:160)
+at com.izforge.izpack.installer.GUIInstaller.loadGUI(GUIInstaller.java:391)
+at com.izforge.izpack.installer.GUIInstaller.&lt;init&gt;(GUIInstaller.java:128)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at java.lang.Class.newInstance0(Unknown Source)
+at java.lang.Class.newInstance(Unknown Source)
+at com.izforge.izpack.installer.Installer.main(Installer.java:62)
+</pre>
+<p>then it means you forgot to put the shelllink.dll into the correct source folder in that case, copy      %IZPACK_HOME%binnativeizpackShellLink.dll to
+%IZPACK_HOME%srclibcomizforgeizpackutilosShellLink.dll</p>
+<p>Now you can debug the installation. With 2.x you can edit on demand,
+if %INSTALLER_DEST%install.jar is shown in &quot;Classpath&quot; under the
+project.
+With 3.x it seems so, that always the JAR will be loaded; therefore
+the contents of install.jar and the sources should be synchron.</p>
+</li>
+<li><p class="first">Debug uninstallation</p>
+<p>Install your installation to
+%INSTALL_PATH%
+Run &gt; Debug...
+Java Application
+New
+give a name e.g. &quot;UninstallMyInstall&quot;
+select in &quot;Main&quot; the project &quot;IzPack&quot;
+select as &quot;main class&quot; &quot;Uninstaller&quot; (from package com.izforge.izpack.installer)
+as &quot;VM arguments&quot; use
+-DTRACE=true
+select the tab &quot;Classpath&quot;
+select &quot;User classes&quot; (2.x) or &quot;User Entries&quot; (3.x)
+select &quot;Add External JARs...&quot;
+select %INSTALL_PATH%Uninstalleruninstall.jar
+uninstall.jar must be under the project entry</p>
+<p>Now, you can debug your uninstallation. Don't worry if you get first a NullPointerException in   SelfModifier. This should be; it is a hint, that the class files of your eclipse session are used.
+If debugging not working, look whether:
+there is a fresh installation
+the uninstall.jar is in the &quot;Classpath&quot; tab under the project entry</p>
+</li>
+</ol>
+</div>
+<div class="section" id="the-izpack-architecture">
+<h1><a class="toc-backref" href="#id8">The IzPack architecture</a></h1>
+<p>Now that you have packaged your first installer, it's time for you to understand how the whole thing works.</p>
+<div class="section" id="the-compilation-system">
+<h2><a class="toc-backref" href="#id9">The compilation system</a></h2>
+<p>The compilation system is quite modular. Indeed, you can use the compiler in 2 ways :</p>
+<ul class="simple">
+<li>from a command-line</li>
+<li>from jakarta ant</li>
+</ul>
+<div class="figure">
+<img alt="compilation-overview.png" src="compilation-overview.png" />
+<p class="caption">The compilation architecture.</p>
+</div>
+<p>The compiler takes as its input an xml installation file that describes (at a relatively high-level) the installation. this file contains detailed information such as the application name, the authors, the files to install, the panels to use, which resources to load and much more.</p>
+<p>The compiler can generate different kinds of installers, but this information is not located inside the xml file as it is not were it should be. On the contrary, this is a compiler parameter.</p>
+<p>The compilation options for a command-line installer are the following:</p>
+<p>-?    Gives a list of the available options.
+-b    Specifies the base path, ie the one that will be used to resolve the relative paths. if your xml file contains absolute paths, specify it to an empty string (-b &quot;&quot;).
+-k    Specifies the installer kind, for instance most users will want standard here.
+-o    Specifies the resulting installer jar file name.</p>
+</div>
+<div class="section" id="how-an-installer-works">
+<h2><a class="toc-backref" href="#id10">How an installer works</a></h2>
+<p>An installer presents its panels to the end-user. for instance, there is one to select the packages, one to prompt for the license agreement, one to select the installation path and so on. You have a choice from a variety of panels to place in the installer. For example, you can choose between a plain text and a html text panel for the license agreement. also, if you don't want of the hellopanel, you just don't include it.</p>
+<div class="figure">
+<img alt="installer-content.png" src="installer-content.png" />
+<p class="caption">The content of an installer.</p>
+</div>
+<p>It is very important to understand that some of the panels may need extra data. for instance, the license agreement panel needs the license text. A simple approach to specify such data would have been to add as many xml tags as needed for each panel. However, this makes the xml file too specific and not easy to maintain. The approach that has been chosen is to put the data in files and we call these files resource files. They are specified with a unique xml tag. this is a much cleaner approach.</p>
+<p>You might wonder how your files are packaged. They can be grouped in packs. For instance, you can have one pack for the core files, one for the documentation, one for the source code and so on. In this way, your end-users will have the choice to install a pack or not (provided that the pack they don't want to install is not mandatory). Inside the jar file (which is a zip file), a sub directory contains the pack files. Each pack file contains the files that are part of it. Could we do it simpler ? :-)</p>
+</div>
+<div class="section" id="the-different-kinds-of-installers">
+<h2><a class="toc-backref" href="#id11">The different kinds of installers</a></h2>
+<p>There are 2 kinds of installers available :</p>
+<ul class="simple">
+<li>Standard : a single-file ready-to-run installer</li>
+<li>Web : a web based installer (pack data is located on an http server, and the installer retrieves it at install time (see section 3.6))</li>
+</ul>
+</div>
+<div class="section" id="installers-for-older-vm-versions">
+<h2><a class="toc-backref" href="#id12">Installers for older vm versions</a></h2>
+<p>By default the installer will be made for the current most used version of the java runtime environment. It is possible to create an installation that is runable with an older vm version.</p>
+<p>What version is used can be detected in the ant properties file that is used to build izpack. It is [izpackroot]/src/ant.properties. The value of the property &quot;source&quot; determines the vm version.</p>
+<p>If compatibility to older versions is needed, a recompilation of the jar files of the izpack system should be done. For this the sources of izpack and an ant installation are needed. the sources of izpack are selectable at installation time of izpack. Before a recompilation of all can be triggered, the version of byte code should be changed. This can be done simple by changing the &quot;source&quot; entry in [izpackroot]/src/ant.properties to the needed value. The recompilation should be performed with the current most used vm version because there are classes of it referenced in the izpack code. Usage of an older vm version at installation time will be possible because the classes of the newer vm version are only used after a vm version check. Of course, some features of izpack will be missing at using an old vm version. To recompile izpack go into [izpackroot]/src. Use a current jdk (not jre) for this. call</p>
+<pre class="literal-block">
+ant clean
+</pre>
+<p>followed by</p>
+<pre class="literal-block">
+ant all
+</pre>
+<p>then all jar files in [izpackroot]/lib, [izpackroot]/bin/panels and [izpackroot]/bin/customactions should be recompiled with the selected source version.</p>
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+</div>
+</div>
+</div>
+</body>
+</html>

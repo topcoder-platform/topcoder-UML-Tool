@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9: http://docutils.sourceforge.net/" />
+<title>Sample userInputSpec.xml</title>
+<link rel="stylesheet" href="izpack.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="sample-userinputspec-xml">
+<h1 class="title">Sample userInputSpec.xml</h1>
+
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+<p>Here's an example 3 panel userInputSpec.xml file. You specify the use of this XML document inside your install definition in the resource section like this (assuming your ant build.xml uses a property called build.dir):</p>
+<pre class="literal-block">
+&lt;resources&gt;
+  &lt;res id=&quot;userInputSpec.xml&quot; src=&quot;&#64;{build.dir}/userInputSpec.xml&quot; /&gt;
+&lt;/resources&gt;
+</pre>
+<p><strong>userInputSpec.xml</strong></p>
+<pre class="literal-block">
+&lt;userInput&gt;
+  &lt;!-- Install --&gt;
+    &lt;panel order=&quot;0&quot;&gt;
+        &lt;createForPack name=&quot;Main Application&quot; /&gt;
+        &lt;field type=&quot;title&quot; txt=&quot;Import Keystores&quot; bold=&quot;true&quot; size=&quot;1&quot; /&gt;
+        &lt;field type=&quot;divider&quot; align=&quot;top&quot;/&gt;
+        &lt;!-- Keystore --&gt;
+        &lt;field type=&quot;staticText&quot; align=&quot;left&quot; txt=&quot;Existing SSL keystore to import:&quot;/&gt;
+        &lt;field type=&quot;file&quot; align=&quot;left&quot; variable=&quot;existing.ssl.keystore&quot;&gt;
+          &lt;spec txt=&quot;&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;space&quot;/&gt;
+        &lt;!-- Truststore --&gt;
+        &lt;field type=&quot;staticText&quot; align=&quot;left&quot; txt=&quot;Existing SSL truststore to import:&quot;/&gt;
+        &lt;field type=&quot;file&quot; align=&quot;left&quot; variable=&quot;existing.ssl.truststore&quot;&gt;
+          &lt;spec txt=&quot;&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;space&quot;/&gt;
+        &lt;!-- Signing Keystore --&gt;
+        &lt;field type=&quot;staticText&quot; align=&quot;left&quot; txt=&quot;Existing signing keystore to import:&quot;/&gt;
+        &lt;field type=&quot;file&quot; align=&quot;left&quot; variable=&quot;existing.signing.keystore&quot;&gt;
+          &lt;spec txt=&quot;&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;space&quot;/&gt;
+        &lt;field type=&quot;divider&quot; align=&quot;bottom&quot;/&gt;
+    &lt;/panel&gt;
+    &lt;panel order=&quot;1&quot;&gt;
+      &lt;!-- Validate access to keystores with information from last panel --&gt;
+        &lt;createForPack name=&quot;Main Application&quot; /&gt;
+        &lt;field type=&quot;title&quot; txt=&quot;SSL Keystore Settings&quot; bold=&quot;true&quot; size=&quot;1&quot; /&gt;
+        &lt;field type=&quot;divider&quot; align=&quot;bottom&quot;/&gt;
+        &lt;!-- Skip validation in case customer has something wrong they want to fix later --&gt;
+        &lt;field type=&quot;check&quot; align=&quot;left&quot; variable=&quot;skip.keystore.validation&quot;&gt;
+          &lt;spec txt=&quot; Skip keystore password validation (not recommended)&quot; size=&quot;25&quot; true=&quot;true&quot; false=&quot;false&quot; set=&quot;false&quot;/&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;divider&quot; align=&quot;top&quot;/&gt;
+        &lt;!-- Keystore --&gt;
+        &lt;field type=&quot;combo&quot; variable=&quot;existing.ssl.keystore.type&quot;&gt;
+          &lt;spec txt=&quot;Keystore type:&quot; id=&quot;existing.ssl.keystore.type&quot;&gt;
+            &lt;choice txt=&quot;JKS&quot; value=&quot;JKS&quot; set=&quot;true&quot;/&gt;
+            &lt;!--
+            &lt;choice txt=&quot;PKCS12&quot; value=&quot;PKCS12&quot;/&gt;
+            --&gt;
+          &lt;/spec&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;space&quot;/&gt;
+        &lt;field type=&quot;text&quot; align=&quot;left&quot; variable=&quot;keystore.key.alias&quot;&gt;
+            &lt;spec txt=&quot;Keystore Key Alias:&quot; size=&quot;25&quot; set=&quot;alias-1&quot;/&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;password&quot; align=&quot;left&quot; variable=&quot;keystore.password&quot;&gt;
+          &lt;spec&gt;
+            &lt;pwd txt=&quot;Keystore Password:&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+            &lt;pwd txt=&quot;Retype Password:&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+          &lt;/spec&gt;
+          &lt;validator class=&quot;com.izforge.izpack.util.PasswordEqualityValidator&quot; txt=&quot;Both keystore passwords must match.&quot; id=&quot;key for the error text&quot;/&gt;
+          &lt;validator class=&quot;com.izforge.izpack.util.PasswordKeystoreValidator&quot; txt=&quot;Could not validate keystore with password and alias provided.&quot; id=&quot;key for the error text&quot;&gt;
+            &lt;param name=&quot;keystoreFile&quot; value=&quot;${existing.ssl.keystore}&quot;/&gt;
+            &lt;param name=&quot;keystoreType&quot; value=&quot;${existing.ssl.keystore.type}&quot;/&gt;
+            &lt;param name=&quot;keystoreAlias&quot; value=&quot;${keystore.key.alias}&quot;/&gt;
+            &lt;param name=&quot;skipValidation&quot; value=&quot;${skip.keystore.validation}&quot;/&gt;
+          &lt;/validator&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;space&quot;/&gt;
+        &lt;!-- Truststore --&gt;
+        &lt;field type=&quot;combo&quot; variable=&quot;existing.ssl.truststore.type&quot;&gt;
+          &lt;spec txt=&quot;Truststore type:&quot; id=&quot;existing.ssl.truststore.type&quot;&gt;
+            &lt;choice txt=&quot;JKS&quot; value=&quot;JKS&quot; set=&quot;true&quot;/&gt;
+            &lt;!--
+            &lt;choice txt=&quot;PKCS12&quot; value=&quot;PKCS12&quot;/&gt;
+            --&gt;
+          &lt;/spec&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;space&quot;/&gt;
+        &lt;field type=&quot;password&quot; align=&quot;left&quot; variable=&quot;truststore.password&quot;&gt;
+          &lt;spec&gt;
+            &lt;pwd txt=&quot;Truststore Password:&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+            &lt;pwd txt=&quot;Retype Password:&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+          &lt;/spec&gt;
+          &lt;validator class=&quot;com.izforge.izpack.util.PasswordEqualityValidator&quot; txt=&quot;Both truststore passwords must match.&quot; id=&quot;key for the error text&quot;/&gt;
+          &lt;validator class=&quot;com.izforge.izpack.util.PasswordKeystoreValidator&quot; txt=&quot;Could not validate keystore with password and alias provided.&quot; id=&quot;key for the error text&quot;&gt;
+            &lt;param name=&quot;keystoreFile&quot; value=&quot;${existing.ssl.truststore}&quot;/&gt;
+            &lt;param name=&quot;keystoreType&quot; value=&quot;${existing.ssl.truststore.type}&quot;/&gt;
+            &lt;param name=&quot;skipValidation&quot; value=&quot;${skip.keystore.validation}&quot;/&gt;
+          &lt;/validator&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;divider&quot; align=&quot;bottom&quot;/&gt;
+    &lt;/panel&gt;
+    &lt;panel order=&quot;2&quot;&gt;
+      &lt;!-- Validate access to signing keystore with information from last panel --&gt;
+        &lt;createForPack name=&quot;Main Application&quot; /&gt;
+        &lt;field type=&quot;title&quot; txt=&quot;Signing Keystore Settings&quot; bold=&quot;true&quot; size=&quot;1&quot; /&gt;
+        &lt;field type=&quot;divider&quot; align=&quot;bottom&quot;/&gt;
+        &lt;!-- Skip validation in case customer has something wrong they want to fix later --&gt;
+        &lt;field type=&quot;check&quot; align=&quot;left&quot; variable=&quot;skip.keystore.validation&quot;&gt;
+          &lt;spec txt=&quot; Skip keystore password validation (not recommended)&quot; size=&quot;20&quot; true=&quot;true&quot; false=&quot;false&quot; set=&quot;false&quot;/&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;divider&quot; align=&quot;top&quot;/&gt;
+        &lt;!-- Keystore --&gt;
+        &lt;field type=&quot;combo&quot; variable=&quot;existing.signing.keystore.type&quot;&gt;
+          &lt;spec txt=&quot;Keystore type:&quot; id=&quot;existing.signing.keystore.type&quot;&gt;
+            &lt;choice txt=&quot;JKS&quot; value=&quot;JKS&quot; set=&quot;true&quot;/&gt;
+            &lt;!--
+            &lt;choice txt=&quot;PKCS12&quot; value=&quot;PKCS12&quot;/&gt;
+            --&gt;
+          &lt;/spec&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;space&quot;/&gt;
+        &lt;field type=&quot;password&quot; align=&quot;left&quot; variable=&quot;signing.keystore.password&quot;&gt;
+          &lt;spec&gt;
+            &lt;pwd txt=&quot;Keystore Password:&quot; size=&quot;20&quot; set=&quot;&quot;/&gt;
+            &lt;pwd txt=&quot;Retype Password:&quot; size=&quot;20&quot; set=&quot;&quot;/&gt;
+          &lt;/spec&gt;
+          &lt;validator class=&quot;com.izforge.izpack.util.PasswordEqualityValidator&quot; txt=&quot;Both signing keystore passwords must match.&quot; id=&quot;key for the error text&quot;/&gt;
+          &lt;validator class=&quot;com.izforge.izpack.util.PasswordKeystoreValidator&quot; txt=&quot;Could not access keystore with password provided.&quot; id=&quot;key for the error text&quot;&gt;
+            &lt;param name=&quot;keystoreFile&quot; value=&quot;${existing.signing.keystore}&quot;/&gt;
+            &lt;param name=&quot;keystoreType&quot; value=&quot;${existing.signing.keystore.type}&quot;/&gt;
+            &lt;param name=&quot;skipValidation&quot; value=&quot;${skip.keystore.validation}&quot;/&gt;
+          &lt;/validator&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;space&quot;/&gt;
+        &lt;!-- Signing Key 1 --&gt;
+        &lt;field type=&quot;text&quot; align=&quot;left&quot; variable=&quot;first.signing.keystore.key.alias&quot;&gt;
+            &lt;spec txt=&quot;First Signing Alias:&quot; size=&quot;20&quot; set=&quot;alias-1&quot;/&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;password&quot; align=&quot;left&quot; variable=&quot;first.signing.password&quot;&gt;
+          &lt;spec&gt;
+            &lt;pwd txt=&quot;First Signing Password:&quot; size=&quot;20&quot; set=&quot;&quot;/&gt;
+            &lt;pwd txt=&quot;Retype Password:&quot; size=&quot;20&quot; set=&quot;&quot;/&gt;
+          &lt;/spec&gt;
+          &lt;validator class=&quot;com.izforge.izpack.util.PasswordEqualityValidator&quot; txt=&quot;Both first signing key passwords must match.&quot; id=&quot;key for the error text&quot;/&gt;
+          &lt;validator class=&quot;com.izforge.izpack.util.PasswordKeystoreValidator&quot; txt=&quot;Could not validate keystore with password and first signing alias provided.&quot; id=&quot;key for the error text&quot;&gt;
+            &lt;param name=&quot;keystoreFile&quot; value=&quot;${existing.signing.keystore}&quot;/&gt;
+            &lt;param name=&quot;keystoreType&quot; value=&quot;${existing.signing.keystore.type}&quot;/&gt;
+            &lt;param name=&quot;keystorePassword&quot; value=&quot;${signing.keystore.password}&quot;/&gt;
+            &lt;param name=&quot;keystoreAlias&quot; value=&quot;${first.signing.keystore.key.alias}&quot;/&gt;
+            &lt;param name=&quot;skipValidation&quot; value=&quot;${skip.keystore.validation}&quot;/&gt;
+          &lt;/validator&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;space&quot;/&gt;
+        &lt;!-- Signing Key 2 --&gt;
+        &lt;field type=&quot;text&quot; align=&quot;left&quot; variable=&quot;second.signing.keystore.key.alias&quot;&gt;
+            &lt;spec txt=&quot;Second Signing Alias:&quot; size=&quot;20&quot; set=&quot;crate-cmd-alias&quot;/&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;password&quot; align=&quot;left&quot; variable=&quot;second.signing.password&quot;&gt;
+          &lt;spec&gt;
+            &lt;pwd txt=&quot;Second Signing Password:&quot; size=&quot;20&quot; set=&quot;&quot;/&gt;
+            &lt;pwd txt=&quot;Retype Password:&quot; size=&quot;20&quot; set=&quot;&quot;/&gt;
+          &lt;/spec&gt;
+          &lt;validator class=&quot;com.izforge.izpack.util.PasswordEqualityValidator&quot; txt=&quot;Both second signing key passwords must match.&quot; id=&quot;key for the error text&quot;/&gt;
+          &lt;validator class=&quot;com.izforge.izpack.util.PasswordKeystoreValidator&quot; txt=&quot;Could not validate keystore with password and second signing alias provided.&quot; id=&quot;key for the error text&quot;&gt;
+            &lt;param name=&quot;keystoreFile&quot; value=&quot;${existing.signing.keystore}&quot;/&gt;
+            &lt;param name=&quot;keystoreType&quot; value=&quot;${existing.signing.keystore.type}&quot;/&gt;
+            &lt;param name=&quot;keystorePassword&quot; value=&quot;${signing.keystore.password}&quot;/&gt;
+            &lt;param name=&quot;keystoreAlias&quot; value=&quot;${second.signing.keystore.key.alias}&quot;/&gt;
+            &lt;param name=&quot;skipValidation&quot; value=&quot;${skip.keystore.validation}&quot;/&gt;
+          &lt;/validator&gt;
+        &lt;/field&gt;
+        &lt;field type=&quot;divider&quot; align=&quot;bottom&quot;/&gt;
+    &lt;/panel&gt;
+&lt;/userInput&gt;
+</pre>
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+</div>
+</body>
+</html>

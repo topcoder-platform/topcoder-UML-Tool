@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9: http://docutils.sourceforge.net/" />
+<title>IzPack utilities</title>
+<link rel="stylesheet" href="izpack.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="izpack-utilities">
+<h1 class="title">IzPack utilities</h1>
+
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#windows-executable-wrapper-izpack2exe" id="id8">Windows executable wrapper (izpack2exe)</a><ul>
+<li><a class="reference internal" href="#description" id="id9">Description</a></li>
+<li><a class="reference internal" href="#requirements" id="id10">Requirements</a></li>
+<li><a class="reference internal" href="#usage" id="id11">Usage</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#mac-os-x-application-bundle-wrapper-izpack2app" id="id12">Mac OS X Application bundle wrapper (izpack2app)</a><ul>
+<li><a class="reference internal" href="#id1" id="id13">Description</a></li>
+<li><a class="reference internal" href="#id2" id="id14">Requirements</a></li>
+<li><a class="reference internal" href="#id3" id="id15">Usage</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#java-web-start-jnlp-file-generator-izpack2jnlp" id="id16">Java Web Start JNLP file generator (izpack2jnlp)</a><ul>
+<li><a class="reference internal" href="#id4" id="id17">Description</a></li>
+<li><a class="reference internal" href="#id5" id="id18">Requirements</a></li>
+<li><a class="reference internal" href="#id6" id="id19">Usage</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>The IzPack project includes a set of utilities that you may find useful.</p>
+<p>These projects live outside the regular IzPack installer Subversion repository. You can access it from  <a class="reference external" href="http://svn.berlios.de/svnroot/repos/izpack/izpack-utils/">http://svn.berlios.de/svnroot/repos/izpack/izpack-utils/</a> instead of  <a class="reference external" href="http://svn.berlios.de/svnroot/repos/izpack/izpack-src/">http://svn.berlios.de/svnroot/repos/izpack/izpack-src/</a> for IzPack itself.</p>
+<p>They will be shipped in the official IzPack releases under their own pack.</p>
+<div class="section" id="windows-executable-wrapper-izpack2exe">
+<h1><a class="toc-backref" href="#id8">Windows executable wrapper (izpack2exe)</a></h1>
+<div class="section" id="description">
+<h2><a class="toc-backref" href="#id9">Description</a></h2>
+<p>The 7-Zip project (see <a class="reference external" href="http://www.7-zip.org/">http://www.7-zip.org/</a>) provides a so-called SFX for installers, i.e., an image that can be use to create self-extracting Windows executables. Once its content has been extracted, such a self-extracting executable can launch an executable or a file. In the later case, it is assumed that there exists an association between a file extension and a software component.</p>
+<p>7-Zip SFX for installers works as follows:</p>
+<ol class="arabic simple">
+<li>an executable image is provided</li>
+<li>a configuration file has to be written, specifying among other things the executable or the file to be launched after the extraction phase</li>
+<li>a 7-Zip archive containing the files (including the executable of file to be launched)</li>
+<li>these files simply need to be concatenated to form a SFX Windows executable.</li>
+</ol>
+<p>The IzPack Windows executable wrapper takes an IzPack-generated installer JAR file, and wraps it inside a Windows SFX executable. This has several advantages, among these two ones:</p>
+<ol class="arabic simple">
+<li>some users may find it strange to have a JAR and not an executable</li>
+<li>by naming it with <em>setup</em> or <em>install</em>, Windows VISTA will perform a rights elevation whereas IzPack cannot enforce it when launched as a regular JAR.</li>
+</ol>
+<p>And of course, you can ship a JAR and a Windows executable from the very same IzPack installer descriptor!</p>
+<p>We have customized the SFX image from the 7-Zip project as follows:</p>
+<ul class="simple">
+<li>we have changed the icon</li>
+<li>we have customized some strings to mention that this is a customized version.</li>
+</ul>
+<p>While the rest of the work is licensed under the Apache License version 2, the sole SFX module is licensed under the Lesser GNU General Public License version 2 or later as required by the 7-Zip project.</p>
+</div>
+<div class="section" id="requirements">
+<h2><a class="toc-backref" href="#id10">Requirements</a></h2>
+<p><strong>izpack2exe</strong> is written in Python. It depends on 7-Zip and optionnaly UPX, a tool that can compresses executables.</p>
+<p>In official IzPack releases, we provide this tool <em>batteries-included</em> on Windows, i.e., we will provide:</p>
+<ul class="simple">
+<li><strong>izpack2exe</strong> as a Windows executable, so that you don't need to install Python, and</li>
+<li>7-Zip and UPX executables, so you don't have to download them.</li>
+</ul>
+</div>
+<div class="section" id="usage">
+<h2><a class="toc-backref" href="#id11">Usage</a></h2>
+<p>The usage is quite easy:</p>
+<pre class="literal-block">
+usage: izpack2exe.py [options]
+
+options:
+  -h, --help       show this help message and exit
+  --file=FILE      The installer JAR file / files (1 per bundled file, specify at least the installer JAR!)
+  --output=OUTPUT  The executable file
+  --with-7z=P7Z    Path to the 7-Zip executable
+  --with-upx=UPX   Path to the UPX executable
+  --no-upx         Do not use UPX to further compress the output
+  --launch-file    File to launch after extract (e.g., native launcher)
+</pre>
+<p>A typical wrapping will be done like:</p>
+<pre class="literal-block">
+izpack2exe --file=installer.jar
+</pre>
+</div>
+</div>
+<div class="section" id="mac-os-x-application-bundle-wrapper-izpack2app">
+<h1><a class="toc-backref" href="#id12">Mac OS X Application bundle wrapper (izpack2app)</a></h1>
+<div class="section" id="id1">
+<h2><a class="toc-backref" href="#id13">Description</a></h2>
+<p><strong>izpack2app</strong> is the Mac OS X brother of <strong>izpack2exe</strong>. It bundles a JAR installer inside an application bundle, so that your installer will look like a regular Mac OS X application.</p>
+<p>To do that, we started from the Mac OS X <em>Jar Bundler</em> tool that you can find under <em>/Developer/Java</em>. We bundled a Jar installer, then stripped it. Indeed, an application bundle is nothing else but a structured set of files and directories.</p>
+<p>What <strong>izpack2app</strong> does is simply:</p>
+<ol class="arabic simple">
+<li>copy the bundle files structure,</li>
+<li>put your Jar at the good place, and</li>
+<li>edit the <em>Info.plist</em> to reference your Jar.</li>
+</ol>
+</div>
+<div class="section" id="id2">
+<h2><a class="toc-backref" href="#id14">Requirements</a></h2>
+<p><strong>izpack2app</strong> is written in Python. It does not require any third-party module to work. Python is bundled with Mac OS X and is mainstream on Linux and other Unix variants. We ship it as a Windows executable in the official IzPack releases (and of course also as a Python application!).</p>
+</div>
+<div class="section" id="id3">
+<h2><a class="toc-backref" href="#id15">Usage</a></h2>
+<p>The usage is straightforward:</p>
+<pre class="literal-block">
+izpack2app.py installer.jar Installer.app
+</pre>
+<p>wraps <em>installer.jar</em> as <em>Installer.app</em></p>
+</div>
+</div>
+<div class="section" id="java-web-start-jnlp-file-generator-izpack2jnlp">
+<h1><a class="toc-backref" href="#id16">Java Web Start JNLP file generator (izpack2jnlp)</a></h1>
+<div class="section" id="id4">
+<h2><a class="toc-backref" href="#id17">Description</a></h2>
+<p><strong>izpack2jnlp</strong> is able to generate Java Web Start JNLP files so that IzPack-based installers can also be shipped via Java Web Start.</p>
+</div>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id18">Requirements</a></h2>
+<p><strong>izpack2jnlp</strong> is written in Python and does not need third-party modules to work.</p>
+<p>Please note that it only generates JNLP files: <strong>you must sign your installer JAR</strong> before you actually upload them to a web server as <strong>Java Web Start refuses to launch unsigned JARs</strong>.</p>
+</div>
+<div class="section" id="id6">
+<h2><a class="toc-backref" href="#id19">Usage</a></h2>
+<p>You need to pass a few arguments on the command-line, run:</p>
+<pre class="literal-block">
+izpack2jnlp.py --help
+</pre>
+<p>to see them.</p>
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+</div>
+</div>
+</div>
+</body>
+</html>

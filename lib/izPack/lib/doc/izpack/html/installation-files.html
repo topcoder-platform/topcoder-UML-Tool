@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9: http://docutils.sourceforge.net/" />
+<title>Writing Installation XML Files</title>
+<link rel="stylesheet" href="izpack.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="writing-installation-xml-files">
+<h1 class="title">Writing Installation XML Files</h1>
+
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#what-you-need" id="id2">What You Need</a><ul>
+<li><a class="reference internal" href="#your-editor" id="id3">Your editor</a></li>
+<li><a class="reference internal" href="#writing-xml" id="id4">Writing XML</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#variable-substitution" id="id5">Variable Substitution</a></li>
+<li><a class="reference internal" href="#the-built-in-variables" id="id6">The Built-In Variables</a></li>
+<li><a class="reference internal" href="#environment-variables" id="id7">Environment Variables</a></li>
+<li><a class="reference internal" href="#dynamic-variables" id="id8">Dynamic Variables</a></li>
+<li><a class="reference internal" href="#parse-types" id="id9">Parse Types</a></li>
+<li><a class="reference internal" href="#the-izpack-elements" id="id10">The IzPack Elements</a><ul>
+<li><a class="reference internal" href="#the-root-element-installation" id="id11">The Root Element <tt class="docutils literal">&lt;installation&gt;</tt></a></li>
+<li><a class="reference internal" href="#the-information-element-info" id="id12">The Information Element <tt class="docutils literal">&lt;info&gt;</tt></a></li>
+<li><a class="reference internal" href="#the-packaging-element-packaging" id="id13">The Packaging Element <tt class="docutils literal">&lt;packaging&gt;</tt></a></li>
+<li><a class="reference internal" href="#the-variables-element-variables" id="id14">The Variables Element <tt class="docutils literal">&lt;variables&gt;</tt></a></li>
+<li><a class="reference internal" href="#the-dynamic-variables-element-dynamicvariables" id="id15">The dynamic Variables Element <tt class="docutils literal">&lt;dynamicvariables&gt;</tt></a></li>
+<li><a class="reference internal" href="#the-conditions-element-conditions" id="id16">The Conditions Element <tt class="docutils literal">&lt;conditions&gt;</tt></a></li>
+<li><a class="reference internal" href="#built-in-conditions" id="id17">Built-in conditions</a></li>
+<li><a class="reference internal" href="#the-installer-requirements-element-installerrequirements" id="id18">The Installer Requirements Element <tt class="docutils literal">&lt;installerrequirements&gt;</tt></a></li>
+<li><a class="reference internal" href="#the-gui-preferences-element-guiprefs" id="id19">The GUI Preferences Element <tt class="docutils literal">&lt;guiprefs&gt;</tt></a></li>
+<li><a class="reference internal" href="#the-localization-element-locale" id="id20">The Localization Element <tt class="docutils literal">&lt;locale&gt;</tt></a></li>
+<li><a class="reference internal" href="#the-resources-element-resources" id="id21">The Resources Element <tt class="docutils literal">&lt;resources&gt;</tt></a></li>
+<li><a class="reference internal" href="#the-panels-element-panels" id="id22">The Panels Element <tt class="docutils literal">&lt;panels&gt;</tt></a></li>
+<li><a class="reference internal" href="#help-optional-file-for-a-help" id="id23"><tt class="docutils literal">&lt;help&gt;</tt> - optional file for a help</a></li>
+<li><a class="reference internal" href="#validator-optional-validation-on-idata" id="id24"><tt class="docutils literal">&lt;validator&gt;</tt> - optional validation on idata</a></li>
+<li><a class="reference internal" href="#actions-optional-actions-for-the-panel" id="id25"><tt class="docutils literal">&lt;actions&gt;</tt> - optional actions for the panel</a></li>
+<li><a class="reference internal" href="#the-packs-element-packs" id="id26">The Packs Element <tt class="docutils literal">&lt;packs&gt;</tt></a></li>
+<li><a class="reference internal" href="#internationalization-of-the-packspanel" id="id27">Internationalization of the PacksPanel</a></li>
+<li><a class="reference internal" href="#description-pack-description" id="id28"><tt class="docutils literal">&lt;description&gt;</tt> - pack description</a></li>
+<li><a class="reference internal" href="#depends-pack-dependencies" id="id29"><tt class="docutils literal">&lt;depends&gt;</tt> - pack dependencies</a></li>
+<li><a class="reference internal" href="#os-os-restrictions" id="id30"><tt class="docutils literal">&lt;os&gt;</tt> - OS restrictions</a></li>
+<li><a class="reference internal" href="#updatecheck" id="id31"><tt class="docutils literal">&lt;updatecheck&gt;</tt></a></li>
+<li><a class="reference internal" href="#file-add-files-or-directories" id="id32"><tt class="docutils literal">&lt;file&gt;</tt> - add files or directories</a></li>
+<li><a class="reference internal" href="#additionaldata" id="id33"><tt class="docutils literal">&lt;additionaldata&gt;</tt></a></li>
+<li><a class="reference internal" href="#singlefile-add-a-single-file" id="id34"><tt class="docutils literal">&lt;singlefile&gt;</tt> - add a single file</a></li>
+<li><a class="reference internal" href="#fileset-add-a-fileset" id="id35"><tt class="docutils literal">&lt;fileset&gt;</tt>: add a fileset</a></li>
+<li><a class="reference internal" href="#parsable-parse-a-file-after-installation" id="id36"><tt class="docutils literal">&lt;parsable&gt;</tt> - parse a file after installation</a></li>
+<li><a class="reference internal" href="#executable-mark-file-executable-or-execute-it" id="id37"><tt class="docutils literal">&lt;executable&gt;</tt> - mark file executable or execute it</a></li>
+<li><a class="reference internal" href="#os-make-a-file-os-dependent" id="id38"><tt class="docutils literal">&lt;os&gt;</tt> - make a file OS-dependent</a></li>
+<li><a class="reference internal" href="#the-native-element-native" id="id39">The Native Element <tt class="docutils literal">&lt;native&gt;</tt></a></li>
+<li><a class="reference internal" href="#os-make-a-library-os-dependent" id="id40"><tt class="docutils literal">&lt;os&gt;</tt> - make a library OS-dependent</a></li>
+<li><a class="reference internal" href="#the-jar-merging-element-jar" id="id41">The Jar Merging Element <tt class="docutils literal">&lt;jar&gt;</tt></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#xinclude-style-constructs" id="id42">XInclude-style constructs</a><ul>
+<li><a class="reference internal" href="#the-fallback-element" id="id43">The fallback element</a></li>
+<li><a class="reference internal" href="#the-xfragment-element" id="id44">The xfragment element</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="what-you-need">
+<h1><a class="toc-backref" href="#id2">What You Need</a></h1>
+<div class="section" id="your-editor">
+<h2><a class="toc-backref" href="#id3">Your editor</a></h2>
+<p>In order to write your XML installation files, you just need a plain text
+editor. Of course it's always easier to work with color coded text, so you
+might rather want to work with a text editor having such a feature. Here is a
+list of free editors that work well :</p>
+<ul class="simple">
+<li>Jext : <a class="reference external" href="http://www.jext.org/">http://www.jext.org/</a></li>
+<li>JEdit : <a class="reference external" href="http://www.jedit.org/">http://www.jedit.org/</a></li>
+<li>classics like Vim and (X)Emacs.</li>
+</ul>
+<p>If you are a developer and tend to write your own patches, extension or
+features to IzPack sources, or, if you wish to debug your compilation,
+installation and uninstallation, we recommend these IDE:</p>
+<ul class="simple">
+<li>IntelliJ IDEA : <a class="reference external" href="http://www.jetbrains.com/idea/">http://www.jetbrains.com/idea/</a></li>
+<li>Eclipse : <a class="reference external" href="http://www.eclipse.org/">http://www.eclipse.org/</a></li>
+<li>Netbeans : <a class="reference external" href="http://www.netbeans.org/">http://www.netbeans.org/</a></li>
+</ul>
+<p>For the first one, JetBrains has granted us an Open Source License. All
+project members can ask the Licence Key to one of the project manager.</p>
+<p>The other ones are well know open source projects (Just like us :-)). We provide
+a tutorial on how to develop/debug IzPack using Eclipse in the chapter
+''Getting Started &gt; How to develop and debug IpPack using Eclipse''</p>
+</div>
+<div class="section" id="writing-xml">
+<h2><a class="toc-backref" href="#id4">Writing XML</a></h2>
+<p>Though you might not know much about XML, you have certainly heard about it.
+If you know XML you can skip this subsection as we will briefly present how
+to use XML.</p>
+<p>XML is a markup language, really close to HTML. If you've ever worked with
+HTML the transition will be fast. However there are a few little things to
+know. The markups used in XML have the following form : <tt class="docutils literal">&lt;markup&gt;</tt>. Each
+markup has to be closed somewhere with its ending tag : <tt class="docutils literal">&lt;/markup&gt;</tt>. Each
+tag can contain text and other markups. If a markup does not contain
+anything, it is just reported once : <tt class="docutils literal">&lt;markup/&gt;</tt>. A markup can contain
+attributes like : <tt class="docutils literal">&lt;markup <span class="pre">attr1=&quot;123&quot;</span> <span class="pre">attr2=&quot;hello</span> <span class="pre">!&quot;/&gt;</span></tt>. Here is a sample
+of a valid XML structure :</p>
+<pre class="literal-block">
+&lt;chapter title=&quot;Chapter 1&quot;&gt;
+  &lt;section name=&quot;Introduction&quot;&gt;
+    &lt;paragraph&gt;
+    This is the text of the paragraph number 1. It is available
+    for the very low
+    price of &lt;price currency=&quot;dollar&quot;&gt;1 000 000&lt;/price&gt;.
+    &lt;/paragraph&gt;
+  &lt;/section&gt;
+  &lt;section name=&quot;xxx&quot;&gt;
+  xxx
+  &lt;/section&gt;
+&lt;/chapter&gt;
+</pre>
+<p>You should be aware of the following common mistakes :</p>
+<ul class="simple">
+<li>markups <strong>are</strong> case sensitive : <tt class="docutils literal">&lt;markup&gt;</tt> is different from
+<tt class="docutils literal">&lt;Markup&gt;</tt>.</li>
+<li>you <strong>must</strong> close the markups in the same order as you create them :
+<tt class="docutils literal"><span class="pre">&lt;m1&gt;&lt;m2&gt;(...)&lt;/m2&gt;&lt;/m1&gt;</span></tt> is right but `` &lt;m1&gt;&lt;m2&gt;(...)&lt;/m1&gt;&lt;/m2&gt;`` is
+not.</li>
+</ul>
+<p>Also, an XML file must start with the following header :
+<tt class="docutils literal"><span class="pre">&lt;?xml</span> <span class="pre">version=&quot;1.0&quot;</span> <span class="pre">encoding=&quot;iso-8859-1</span> <span class="pre">standalone=&quot;yes&quot;</span> <span class="pre">?&gt;</span></tt>. The only
+thing you should modify is the encoding (put here the one your text editor
+saves your files to). The `` standalone`` attribute is not very important for
+us.</p>
+<p>This (brief !) introduction to XML was just meant to enable you to write your
+installation specification. For a better introduction there are plenty of
+books and articles/tutorials dealing with XML on the Internet, in book
+stores, in magazines and so on.</p>
+</div>
+</div>
+<div class="section" id="variable-substitution">
+<h1><a class="toc-backref" href="#id5">Variable Substitution</a></h1>
+<p>During the installation process IzPack can substitute variables in various
+places with real values. Obvious targets for variable substitution are
+resource files and launch scripts, however you will notice many more places
+where it is more powerful to use variables rather then hard coded values.
+Wherever variables can be used it will be explained in the documentation.</p>
+<p>There are three types of variables:</p>
+<ul class="simple">
+<li>Built-In variables. These are implemented in IzPack and are all
+dynamic in nature. This means that the value of each variable depends on
+local conditions on the target system.</li>
+<li>Environment variables. These are provided by the operating system the
+installer is run on.</li>
+<li>Variables that you can define. You also define the value, which is
+fixed for a given installation file.</li>
+</ul>
+<p>You define your own variables in the installation XML file with the
+<tt class="docutils literal">&lt;variable&gt;</tt> tag. How to do this is explained in detail later in this
+chapter.</p>
+<p><strong>Please note</strong> that when using variables they must always appear with a
+'<tt class="docutils literal">$</tt>' sign as the first character, even though they are not defined this
+way.</p>
+</div>
+<div class="section" id="the-built-in-variables">
+<h1><a class="toc-backref" href="#id6">The Built-In Variables</a></h1>
+<p>The following variables are built-in :</p>
+<ul class="simple">
+<li><tt class="docutils literal">$INSTALL_PATH</tt> : the installation path on the target system, as
+chosen by the user</li>
+<li><tt class="docutils literal">$APPLICATIONS_DEFAULT_ROOT</tt> : the default path for applications</li>
+<li><tt class="docutils literal">$JAVA_HOME</tt> : the JavaTM virtual machine home path</li>
+<li><tt class="docutils literal">$CLASS_PATH</tt> : the Class Path used mainly for Java Applications</li>
+<li><tt class="docutils literal">$USER_HOME</tt> : the user's home directory path</li>
+<li><tt class="docutils literal">$USER_NAME</tt> : the user name</li>
+<li><tt class="docutils literal">$APP_NAME</tt> : the application name</li>
+<li><tt class="docutils literal">$APP_URL</tt> : the application URL</li>
+<li><tt class="docutils literal">$APP_VER</tt> : the application version</li>
+<li><tt class="docutils literal">$ISO3_LANG</tt> : the ISO3 language code of the selected langpack.</li>
+<li><tt class="docutils literal">$IP_ADDRESS</tt> : the IP Address of the local machine.</li>
+<li><tt class="docutils literal">$HOST_NAME</tt> : the HostName of the local machine.</li>
+<li><tt class="docutils literal">$FILE_SEPARATOR</tt> : the file separator on the installation system</li>
+<li><tt class="docutils literal">$DesktopShortcutCheckboxEnabled</tt> : When set to true, it
+automatically checks the &quot;Create Desktop Shortcuts&quot; button. To see how to
+use it, go to <cite>The Variables Element ``&lt;variables&gt;`</cite> Be careful this
+variable is case sensitve !</li>
+<li><tt class="docutils literal">$InstallerFrame.logfilePath</tt> : The path to the install log. This
+file contains the paths of all installed files. If set to &quot;default&quot; then
+the &quot;$INSTALL_PATH/Uninstaller/install.log&quot; path will be used. To see how
+to use it, go to <cite>The Variables Element ``&lt;variables&gt;`</cite>. If this
+variable is not set, no install.log will be created.</li>
+</ul>
+</div>
+<div class="section" id="environment-variables">
+<h1><a class="toc-backref" href="#id7">Environment Variables</a></h1>
+<p>Environment variables can be accessed via the syntax <tt class="docutils literal">${ENV[variable]}</tt>.
+The curly braces are mandatory. Note that variable names are case-sensitive
+and usually in UPPER CASE.</p>
+<p>Example: To get the value of the OS environment variable &quot;CATALINA_HOME&quot;, use
+<tt class="docutils literal">${ENV[CATALINA_HOME]}</tt>.</p>
+</div>
+<div class="section" id="dynamic-variables">
+<h1><a class="toc-backref" href="#id8">Dynamic Variables</a></h1>
+<p>Dynamic variables can be defined in the installation XML with the <tt class="docutils literal">&lt;variable&gt;</tt> tag inside
+the <tt class="docutils literal">&lt;dynamicvariables&gt;</tt> element. The value of dynamic variables will be evaluated every time a panel
+is switched, i.e. between the panels. Dynamic variables can have a condition which will be evaluated
+first. If it's true, the value would be assigned, otherwise nothing happens to the variable.</p>
+<p>As and addition to normal variables, the value of a variable can either be defined by using the value
+attribute or by using a child element called value.</p>
+<p>Example1: To change a certain directory based on user input, use the following
+<tt class="docutils literal">&lt;variable <span class="pre">name=&quot;test&quot;</span> <span class="pre">value=&quot;/test/${USER_INPUT}&quot;</span> <span class="pre">condition=&quot;hasuserinput&quot;</span> /&gt;</tt>
+The condition has userinput has to be specified in the condition section of installation XML.</p>
+<p>Example2: To comment out something in a xml file if a certain pack with id mycoolfeature is not activated,
+you could use &quot;two&quot; dynamic variables to create a xml comment or not.</p>
+<pre class="literal-block">
+&lt;variable name=&quot;XML_Comment_Start&quot; condition=&quot;!izpack.selected.mycoolfeature&quot;&gt;
+        &lt;value&gt;&lt;![CDATA[&lt;!--]]&gt;&lt;/value&gt;
+&lt;/variable&gt;
+&lt;variable name=&quot;XML_Comment_End&quot; condition=&quot;!izpack.selected.mycoolfeature&quot;&gt;
+        &lt;value&gt;&lt;![CDATA[--&gt;]]&gt;&lt;/value&gt;
+&lt;/variable&gt;
+&lt;variable name=&quot;XML_Comment_Start&quot; value=&quot;&quot; condition=&quot;izpack.selected.mycoolfeature&quot; /&gt;
+&lt;variable name=&quot;XML_Comment_End&quot; value=&quot;&quot; condition=&quot;izpack.selected.mycoolfeature&quot; /&gt;
+</pre>
+<p>The condition izpack.selected.mycoolfeature is generated automatically when a pack with id mycoolfeature
+was specified. You would now use <tt class="docutils literal">${XML_Comment_Start}</tt> and <tt class="docutils literal">${XML_Comment_End}</tt> in a file which
+should be parsed.</p>
+</div>
+<div class="section" id="parse-types">
+<h1><a class="toc-backref" href="#id9">Parse Types</a></h1>
+<p>Parse types apply only when replacing variables in text files. At places
+where it might be necessary to specify a parse type, the documentation will
+mention this. Depending on the parse type, IzPack will handle special cases
+-such as escaping control characters- correctly. The following parse types
+are available:</p>
+<ul class="simple">
+<li><tt class="docutils literal">plain</tt> - use this type for plain text files, where no special
+substitution rules apply. All variables will be replaced with their
+respective values as is.</li>
+<li><tt class="docutils literal">javaprop</tt> - use this type if the substitution happens in a Java
+properties file. Individual variables might be modified to function
+properly within the context of Java property files.</li>
+<li><tt class="docutils literal">java</tt> - use this type for Java files.</li>
+<li><tt class="docutils literal">xml</tt> - use this type if the substitution happens in a XML file.
+Individual variables might be modified to function properly within the
+context of XML files.</li>
+<li><tt class="docutils literal">shell</tt> - use this type if the substitution happens in a shell
+script. Because shell scripts use <tt class="docutils literal">$variable</tt> themselves, an
+alternative variable marker is used: <tt class="docutils literal">%variable</tt> or <tt class="docutils literal">%{variable}</tt>.</li>
+<li><tt class="docutils literal">at</tt> - use this type if the substitution must occure on files
+where paramters are marked with leading AT characters.
+The example: <tt class="docutils literal">&#64;variable</tt>.</li>
+<li><tt class="docutils literal">ant</tt> - use this type if the substitution must occure on files
+where parameters are surrounded with AT characters (similar to ANT
+filters, hence the type name). The example: <tt class="docutils literal">&#64;variable&#64;</tt>.</li>
+</ul>
+<p>Unless using braces to surround variable's name (<tt class="docutils literal">${variable}</tt> or <tt class="docutils literal">%{variable}</tt>},
+the variable name can contain following characters:
+letters, digits, dots, dashes (-), underbars (_).
+Example:
+<tt class="docutils literal"><span class="pre">$this.is-my_variable</span></tt></p>
+<p>If you want to have two variables separated by character that is allowed
+to appear in variable name, for example: <tt class="docutils literal"><span class="pre">$major-version.$minor-version</span></tt>,
+then you must use braces, and the above example should look like:
+<tt class="docutils literal"><span class="pre">${major-version}.${minor-version}</span></tt>.</p>
+</div>
+<div class="section" id="the-izpack-elements">
+<h1><a class="toc-backref" href="#id10">The IzPack Elements</a></h1>
+<p><em>When writing your installer XML files, it's a good idea to have a look at
+the iZPACK installation DTD</em>.</p>
+<div class="section" id="the-root-element-installation">
+<h2><a class="toc-backref" href="#id11">The Root Element <tt class="docutils literal">&lt;installation&gt;</tt></a></h2>
+<p>The root element of an installation is <tt class="docutils literal">&lt;installation&gt;</tt>. It takes one
+required attribute : <tt class="docutils literal">version</tt>. The attribute defines the version of the
+XML file layout and is used by the compiler to identify if it is compatible
+with the XML file. This should be set to <strong>1.0</strong> for the moment.</p>
+</div>
+<div class="section" id="the-information-element-info">
+<h2><a class="toc-backref" href="#id12">The Information Element <tt class="docutils literal">&lt;info&gt;</tt></a></h2>
+<p>This element is used to specify some general information for the installer.
+It contains the following elements :</p>
+<ul class="simple">
+<li><tt class="docutils literal">&lt;appname&gt;</tt> : the application name</li>
+<li><tt class="docutils literal">&lt;appversion&gt;</tt> : the application version</li>
+<li><tt class="docutils literal">&lt;appsubpath&gt;</tt> : the subpath for the default of the installation
+path. A variable substitution and a maskable slash-backslash conversion
+will be done. If this tag is not defined, the application name will be
+used instead.</li>
+<li><tt class="docutils literal">&lt;url&gt;</tt> : the application official website url</li>
+<li><tt class="docutils literal">&lt;authors&gt;</tt> : specifies the author(s) of the application. It must
+contain at least one <tt class="docutils literal">&lt;author&gt;</tt> element whose attributes are :<ul>
+<li><tt class="docutils literal">name</tt> : the author's name</li>
+<li><tt class="docutils literal">email</tt> : the author's email</li>
+</ul>
+</li>
+<li><tt class="docutils literal">&lt;uninstaller&gt;</tt> : specifies whether to create an uninstaller after
+installation, and which name to use for it. This tag has the <tt class="docutils literal">write</tt>
+attribute, with default value `` yes``. If this tag is not specified, the
+uninstaller will still be written. The <tt class="docutils literal">name</tt> attribute can be used to
+change the default name of the generated uninstaller, <em>i.e.</em> ``
+uninstaller.jar``. The <tt class="docutils literal">condition</tt> attribute can be used to specify a
+condition which has to be fullfilled for creating the uninstaller.
+The <tt class="docutils literal">path</tt> attribute can be used to define the destination path where the uninstaller
+is written to, <em>i.e.</em> <tt class="docutils literal"><span class="pre">${INSTALL_PATH}/Uninstaller</span></tt>.</li>
+<li><tt class="docutils literal">&lt;javaversion&gt;</tt> : specifies the minimum version of Java required to
+install your program. Values can be <tt class="docutils literal">1.2</tt>, <tt class="docutils literal">1.2.2</tt>, <tt class="docutils literal">1.4</tt>, etc. The
+test is a lexical comparison against the <tt class="docutils literal">java.version</tt> System property
+on the install machine.</li>
+<li><tt class="docutils literal">&lt;requiresjdk&gt;</tt>: (yes or no) specifies wether a JDK is required for the software
+to be installed and executed. If not, then the user will be informed and given the
+option to still proceed with the installation process or not.</li>
+<li><tt class="docutils literal">&lt;webdir&gt;</tt> : Causes a ''web installer'' to be created, and
+specifies the URL packages are retrieved from at install time. The
+content of the tag must be a properly formed URL.</li>
+<li><tt class="docutils literal">&lt;summarylogfilepath&gt;</tt> : specifies the path for the logfile of the
+<cite>SummaryLoggerInstallerListener</cite>.</li>
+<li><tt class="docutils literal">&lt;writeinstallationinformation&gt;</tt> : (yes or no) specifies if the file .installinformation should
+be written which includes the information about installed packs. The default if not specified is yes.</li>
+<li><tt class="docutils literal">&lt;pack200/&gt;</tt>: adding this element will cause every JAR file that you will add to your packs to be compressed
+using Pack200 (see <a class="reference external" href="http://java.sun.com/j2se/1.5.0/docs/guide/deployment/deployment-guide/pack200.html">http://java.sun.com/j2se/1.5.0/docs/guide/deployment/deployment-guide/pack200.html</a>).
+As a special exception, signed JARs are not compressed using Pack200, as it would invalidate the signatures.
+This makes the compilation process a little bit longer, but it usually results in drasticaly smaller installer
+files. The decompression is relatively fast. Please note that Pack200 compression is destructive, i.e., after
+decompression a JAR won't be identical to its original version (yet the code in the class files remains
+semantically equivalent).</li>
+<li><tt class="docutils literal"><span class="pre">&lt;run-privileged/&gt;</span></tt>: adding this element will make the installer attempt to launch itself with administrator
+permissions. Il also supports a <tt class="docutils literal">condition</tt> attribute to reference a condition id so that the elevation
+is not always attempted (e.g., you may want to activate it only for Windows Vista).
+This is not supported on all platforms, in which case a message will be provided to the user before
+continuing the installation. You can disable this feature for the uninstaller by specifying
+<tt class="docutils literal"><span class="pre">uninstaller=&quot;yes&quot;</span></tt> as an attribute. Only use this feature if you really need to be an administrator
+as part of your installation process.</li>
+</ul>
+<p>Here is an example of a typical <tt class="docutils literal">&lt;info&gt;</tt> section :</p>
+<pre class="literal-block">
+&lt;info&gt;
+  &lt;appname&gt;Super extractor&lt;/appname&gt;
+  &lt;appversion&gt;2.1 beta 6&lt;/appversion&gt;
+  &lt;appsubpath&gt;myCompany/SExtractor&lt;/appsubpath&gt;
+  &lt;url&gt;http://www.superextractor.com/&lt;/url&gt;
+  &lt;authors&gt;
+    &lt;author name=&quot;John John Doo&quot; email=&quot;jjd&#64;jjd-mail.com&quot;/&gt;
+    &lt;author name=&quot;El Goyo&quot; email=&quot;goyoman&#64;mymail.org&quot;/&gt;
+  &lt;/authors&gt;
+  &lt;javaversion&gt;1.2&lt;/javaversion&gt;
+&lt;/info&gt;
+</pre>
+<p>Here is one where the privileges elevation is attempted on Windows Vista and Mac OS X :</p>
+<pre class="literal-block">
+&lt;info&gt;
+    &lt;appname&gt;IzPack&lt;/appname&gt;
+    &lt;appversion&gt;4.2.0&lt;/appversion&gt;
+    &lt;authors&gt;
+        &lt;author email=&quot;&quot; name=&quot;Julien Ponge (project founder)&quot;/&gt;
+        &lt;author email=&quot;&quot; name=&quot;The fantastic IzPack developers and contributors&quot;/&gt;
+    &lt;/authors&gt;
+    &lt;url&gt;http://izpack.org/&lt;/url&gt;
+    &lt;javaversion&gt;1.5&lt;/javaversion&gt;
+    &lt;requiresjdk&gt;no&lt;/requiresjdk&gt;
+    &lt;run-privileged condition=&quot;izpack.windowsinstall.vista|izpack.macinstall&quot;/&gt;
+    &lt;summarylogfilepath&gt;$INSTALL_PATH/installinfo/Summary.htm&lt;/summarylogfilepath&gt;
+&lt;/info&gt;
+</pre>
+</div>
+<div class="section" id="the-packaging-element-packaging">
+<h2><a class="toc-backref" href="#id13">The Packaging Element <tt class="docutils literal">&lt;packaging&gt;</tt></a></h2>
+<p>This element allows to specify packaging options. If not specified, the default will be to create an all in one
+installer. This element will usually be used to create an installer which spans over multiple volumes,
+e.g. the output will be two CDs. The packaging-element contains the following elements:</p>
+<ul>
+<li><p class="first"><tt class="docutils literal">&lt;packager&gt;</tt> : specifies options used by the packager. The packager tag has the <tt class="docutils literal">class</tt> attribute,
+which specifys the class to use for packaging. Currently two implementations
+are available (com.izforge.izpack.compiler.Packager, com.izforge.izpack.compiler.MultiVolumePackager).
+The packager-element can contain the <tt class="docutils literal">&lt;options&gt;</tt> element which can have different attributes for the different
+implementations of packagers. For the MultiVolumePackager, it can have the following attributes:</p>
+<ul class="simple">
+<li><tt class="docutils literal">volumesize</tt>: the size of the volumes</li>
+<li><tt class="docutils literal">firstvolumefreespace</tt>: free space on the first volume used for the installer jar and additional resources like
+readme-files etc.</li>
+</ul>
+</li>
+<li><dl class="first docutils">
+<dt><tt class="docutils literal">&lt;unpacker&gt;</tt> <span class="classifier-delimiter">:</span> <span class="classifier">specifies which unpacker class should be used. Currently there are two unpacker implementations</span></dt>
+<dd><p class="first last">(com.izforge.izpack.compiler.UnPacker, com.izforge.izpack.compiler.MultiVolumeUnPacker).</p>
+</dd>
+</dl>
+</li>
+</ul>
+<p>Here's an example how to specify an installer which will create multiple volumes. In this example the volumes shall be
+CDs with 650 megabytes. There will be an additional free space of 150 megabytes on the first volume. This will result in
+the creation of an installer.jar and multiple installer.pak* files. The installer.jar plus installer.pak plus the additional
+resources have to be copied on the first volume, each installer.pak.&lt;number&gt; on several volumes.</p>
+<pre class="literal-block">
+&lt;packaging&gt;
+  &lt;packager class=&quot;com.izforge.izpack.compiler.MultiVolumePackager&quot;&gt;
+              &lt;!-- 650 MB volumes, 150 MB space on the first volume --&gt;
+      &lt;options volumesize=&quot;681574400&quot; firstvolumefreespace=&quot;157286400&quot;/&gt;
+  &lt;/packager&gt;
+  &lt;unpacker class=&quot;com.izforge.izpack.installer.MultiVolumeUnpacker&quot; /&gt;
+&lt;/packaging&gt;
+</pre>
+</div>
+<div class="section" id="the-variables-element-variables">
+<h2><a class="toc-backref" href="#id14">The Variables Element <tt class="docutils literal">&lt;variables&gt;</tt></a></h2>
+<p>This element allows you to define variables for the variables substitution
+system. Some variables are built-in, such as <tt class="docutils literal">$INSTALL_PATH</tt> (which is the
+installation path chosen by the user). When you define a set of variables,
+you just have to place as many <tt class="docutils literal">&lt;variable&gt;</tt> tags in the file as needed. If
+you define a variable named <tt class="docutils literal">VERSION</tt> you need to type $VERSION in the
+files to parse. The variable substitutor will then replace it with the
+correct value. One <tt class="docutils literal">&lt;variable&gt;</tt> tag take the following attributes :</p>
+<ul class="simple">
+<li><tt class="docutils literal">name</tt> : the variable name</li>
+<li><tt class="docutils literal">value</tt> : the variable value</li>
+</ul>
+<p>Here's a sample <tt class="docutils literal">&lt;variables&gt;</tt> section :</p>
+<pre class="literal-block">
+&lt;variables&gt;
+  &lt;variable name=&quot;app-version&quot; value=&quot;1.4&quot;/&gt;
+  &lt;variable name=&quot;released-on&quot; value=&quot;08/03/2002&quot;/&gt;
+&lt;/variables&gt;
+</pre>
+<p>Here's a precise sample on how to use desktopshortcutcheckboxenabled and
+InstallerFrame.logfilePath variables:</p>
+<pre class="literal-block">
+&lt;variables&gt;
+  &lt;variable name=&quot;InstallerFrame.logfilePath&quot; value=&quot;$INSTALL_PATH
+  /My-install.log&quot;/&gt;
+    &lt;!-- This means that the log name will be My-install and that
+  it will be stored at the root of the installation. --&gt;
+    &lt;!-- Any path is fine. If value is set to &quot;Default&quot; then
+  &quot;$INSTALL_PATH/uninstall/install.log&quot; is used. --&gt;
+    &lt;!-- And if variable isn't defined then no log is written. --&gt;
+  &lt;variable name=&quot;desktopshortcutcheckboxenabled&quot; value=&quot;true&quot;/&gt;
+    &lt;!-- This automatically checks the &quot;Create Desktop Shortcuts&quot;
+  button. Default value is &quot;False&quot;. --&gt;
+&lt;/variables&gt;
+</pre>
+</div>
+<div class="section" id="the-dynamic-variables-element-dynamicvariables">
+<h2><a class="toc-backref" href="#id15">The dynamic Variables Element <tt class="docutils literal">&lt;dynamicvariables&gt;</tt></a></h2>
+<p>This element allows you to define dynamic variables for the variables substitution
+system. In contrast to the static <tt class="docutils literal">&lt;variables</tt>, dynamic variables will be evaluated
+every time, a panel switch is done.</p>
+<p>When you define a set of variables, you just have to place as many <tt class="docutils literal">&lt;variable&gt;</tt> tags
+in the file as needed. Normally you would use the condition attribute to specify, when
+a certain value will be set.</p>
+<p>One <tt class="docutils literal">&lt;variable&gt;</tt> tag take the following attributes :</p>
+<ul class="simple">
+<li><tt class="docutils literal">name</tt> : the variable name</li>
+<li><tt class="docutils literal">value</tt> : the variable value</li>
+<li><tt class="docutils literal">condition</tt> : a condition for this variable, which has to be true to set the value</li>
+</ul>
+<p>Here's a sample <tt class="docutils literal">&lt;dynamicvariables&gt;</tt> section :</p>
+<pre class="literal-block">
+&lt;dynamicvariables&gt;
+  &lt;variable name=&quot;app-version&quot; value=&quot;1.4&quot; condition=&quot;mycondition1&quot; /&gt;
+  &lt;variable name=&quot;app-version&quot; value=&quot;1.4b&quot; condition=&quot;!mycondition1&quot; /&gt;
+  &lt;variable name=&quot;released-on&quot; value=&quot;08/03/2002&quot; /&gt;
+&lt;/dynamicvariables&gt;
+</pre>
+</div>
+<div class="section" id="the-conditions-element-conditions">
+<h2><a class="toc-backref" href="#id16">The Conditions Element <tt class="docutils literal">&lt;conditions&gt;</tt></a></h2>
+<p>This element allows you to define conditions which can be used to dynamically change the installer,
+e.g. the panels shown, the variables set, files parsed, files
+executed and much more. When you define a condition it will get a type and an id. The id has to be unique. Conditions can be referenced
+based on this id (e.g. with the <tt class="docutils literal">RefCondition</tt>).</p>
+<p>There are several built-in types of conditions. At the time of writing this, Izpack has the following built-in types:</p>
+<ul class="simple">
+<li><tt class="docutils literal">VariableCondition</tt>: a condition based on the value of a certain variable</li>
+<li><tt class="docutils literal">PackSelectionCondition</tt>: a condition based on a pack selected for installation</li>
+<li><tt class="docutils literal">JavaCondition</tt>: a condition based on a static java field or method.</li>
+<li><tt class="docutils literal">CompareNumericsCondition</tt>: a condition based on the comparison of a certain variable with a given value and operator.</li>
+</ul>
+<p>There are also boolean types to combine more than one condition:</p>
+<ul class="simple">
+<li><tt class="docutils literal">AndCondition</tt>: both conditions have to be true</li>
+<li><tt class="docutils literal">OrCondition</tt>: only one of both conditions has to be true</li>
+<li><tt class="docutils literal">XOrCondition</tt>: one condition has to be true, the other one has to be false</li>
+<li><tt class="docutils literal">NotCondition</tt>: the condition has to be false</li>
+</ul>
+<p>When you define a set of conditions, you just have to write as many <tt class="docutils literal">&lt;condition&gt;</tt> tags as you like. A
+condition can take the following attributes:</p>
+<ul>
+<li><dl class="first docutils">
+<dt><tt class="docutils literal">type</tt>: the type of the condition. For built-in types, this is the lowercase portion of the condition class</dt>
+<dd><p class="first last">name without condition appended (variable,packselection,java, ...). Custom condition types should be
+referenced by the full qualified class name, e.g. de.dr.rules.MyCoolCondition.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first"><tt class="docutils literal">id</tt>: the id of the condition. This will be used to refer to this conditions in other elements</p>
+</li>
+</ul>
+<p>The condition element can have several child elements depending on the type of this conditions. E.g. the VariableCondition
+has a name and value child element to specify, which variable should have a certain value to fullfil this condition.</p>
+<p>This is an example which defines four conditions, two VariableConditions, a JavaCondition and a AndCondition which will
+refer to two of the first conditions.</p>
+<pre class="literal-block">
+&lt;conditions&gt;
+   &lt;condition type=&quot;variable&quot; id=&quot;standardinstallation&quot;&gt;
+      &lt;name&gt;setup.type&lt;/name&gt;
+      &lt;value&gt;standard&lt;/value&gt;
+   &lt;/condition&gt;
+   &lt;condition type=&quot;variable&quot; id=&quot;expertinstallation&quot;&gt;
+      &lt;name&gt;setup.type&lt;/name&gt;
+      &lt;value&gt;expert&lt;/value&gt;
+   &lt;/condition&gt;
+   &lt;condition type=&quot;java&quot; id=&quot;installonwindows&quot;&gt;
+             &lt;java&gt;
+                     &lt;class&gt;com.izforge.izpack.util.OsVersion&lt;/class&gt;
+                     &lt;field&gt;IS_WINDOWS&lt;/field&gt;
+             &lt;/java&gt;
+             &lt;returnvalue type=&quot;boolean&quot;&gt;true&lt;/returnvalue&gt;
+       &lt;/condition&gt;
+       &lt;condition type=&quot;and&quot; id=&quot;standardinstallation.onwindows&quot;&gt;
+             &lt;condition type=&quot;ref&quot; refid=&quot;standardinstallation&quot;/&gt;
+             &lt;condition type=&quot;ref&quot; refid=&quot;installonwindows&quot; /&gt;
+       &lt;/condition&gt;
+&lt;/conditions&gt;
+</pre>
+<p>Note, from IzPack 3.11 on normally, you don't have to define the compound conditions because you can use a simple
+expression language. The language has the following operators:</p>
+<ul class="simple">
+<li><tt class="docutils literal">+</tt>: an operator for the Andcondition</li>
+<li><tt class="docutils literal">|</tt>: an operator for the OrCondition</li>
+<li><tt class="docutils literal">\</tt>: an operator for the XOrCondition</li>
+<li><tt class="docutils literal">!</tt>: an operator for the NotCondition</li>
+</ul>
+<p>Neverthless if you define really complex conditions it's much easier to define them using the xml structure.</p>
+<p>More types of conditions can be defined by inheriting com.izforge.izpack.Condition class.</p>
+</div>
+<div class="section" id="built-in-conditions">
+<h2><a class="toc-backref" href="#id17">Built-in conditions</a></h2>
+<p>A number of built-in condition IDs are available for you.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="47%" />
+<col width="53%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Name</th>
+<th class="head">Condition</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>izpack.windowsinstall</td>
+<td>The OS is Windows</td>
+</tr>
+<tr><td>izpack.windowsinstall.xp</td>
+<td>The OS is Windows XP</td>
+</tr>
+<tr><td>izpack.windowsinstall.2003</td>
+<td>The OS is Windows Server 2003</td>
+</tr>
+<tr><td>izpack.windowsinstall.vista</td>
+<td>The OS is Windows Vista</td>
+</tr>
+<tr><td>izpack.windowsinstall.7</td>
+<td>The OS is Windows 7</td>
+</tr>
+<tr><td>izpack.macinstall</td>
+<td>The OS is Mac OS X</td>
+</tr>
+<tr><td>izpack.linuxinstall</td>
+<td>The OS is a Linux variant</td>
+</tr>
+<tr><td>izpack.solarisinstall</td>
+<td>The OS is a Solaris variant</td>
+</tr>
+<tr><td>izpack.solarisinstall.x86</td>
+<td>The OS is a Solaris,x86 variant</td>
+</tr>
+<tr><td>izpack.solarisinstall.sparc</td>
+<td>The OS is a Solaris sparc variant</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="the-installer-requirements-element-installerrequirements">
+<h2><a class="toc-backref" href="#id18">The Installer Requirements Element <tt class="docutils literal">&lt;installerrequirements&gt;</tt></a></h2>
+<p>This element allows to specify requirements for running the installation. This will be done based
+on conditions defined in the conditons section.</p>
+<p>An installer requirement consists of a condition and a message which will be shown if the condition
+is not fulfilled. If so, the installer will show the message and exit after that.</p>
+<ul class="simple">
+<li><tt class="docutils literal">installerrequirement</tt>: specifies a single installer requirement. You can define an unlimited number of them.</li>
+</ul>
+<p>Installerrequirements have the following attributes:
+-   <tt class="docutils literal">condition</tt>: an id of a condition defined in the conditions section
+-   <tt class="docutils literal">message</tt>: a message text or a langpack key defining which message should be shown before exiting the installer in case of a missing requirement.</p>
+<pre class="literal-block">
+&lt;installerrequirements&gt;
+   &lt;installerrequirement conditon=&quot;installonwindows&quot; message=&quot;This installer could only be run on Windows operating systems.&quot;/&gt;
+&lt;/installerrequirements&gt;
+</pre>
+</div>
+<div class="section" id="the-gui-preferences-element-guiprefs">
+<h2><a class="toc-backref" href="#id19">The GUI Preferences Element <tt class="docutils literal">&lt;guiprefs&gt;</tt></a></h2>
+<p>This element allows you to set the behavior of your installer GUI. This
+information will not have any effect on the command-line installers that will
+be available in future versions of IzPack. The arguments to specify are :</p>
+<ul class="simple">
+<li><tt class="docutils literal">resizable</tt> : takes <tt class="docutils literal">yes</tt> or <tt class="docutils literal">no</tt> and indicates whether the
+window size can be changed or not.</li>
+<li><tt class="docutils literal">width</tt> : sets the initial window width</li>
+<li><tt class="docutils literal">height</tt> : sets the initial window height.</li>
+</ul>
+<p>Here's a sample :</p>
+<pre class="literal-block">
+&lt;guiprefs resizable=&quot;no&quot; width=&quot;800&quot; height=&quot;600&quot;/&gt;
+</pre>
+<p>Starting from IzPack 3.6, the look and feel can be specified in this section
+on a per-OS basis. For instance you can use the native look and feels on
+Win32 and OS X but use a third-party one on Unix-like platforms. To do that,
+you have to add some children to the <tt class="docutils literal">guiprefs</tt> tag:</p>
+<ul class="simple">
+<li><tt class="docutils literal">laf</tt>: the tag that specifies a look and feel. It has a <tt class="docutils literal">name</tt>
+parameter that defines the look and feel name.</li>
+<li>Each <tt class="docutils literal">laf</tt> element needs at least one <tt class="docutils literal">os</tt> tag, specified like in
+the other parts of the specification that support this tag.</li>
+<li>Like you can add <tt class="docutils literal">os</tt> elements, you can add any number of <tt class="docutils literal">param</tt>
+elements to customize a look and feel. A <tt class="docutils literal">param</tt> elements has two
+attribues: <tt class="docutils literal">name</tt> and `` value``.</li>
+</ul>
+<p>The available look and feels are:</p>
+<ul class="simple">
+<li>Kunststoff: <tt class="docutils literal">kunststoff</tt></li>
+<li>Liquid: <tt class="docutils literal">liquid</tt></li>
+<li>Metouia: <tt class="docutils literal">metouia</tt></li>
+<li>JGoodies Looks: <tt class="docutils literal">looks</tt></li>
+<li>Substance: <tt class="docutils literal">substance</tt></li>
+</ul>
+<p>If you don't specify a look and feel for a particular operating system, then
+the default native one will be used: Windows on Windows, Aqua on Mac OS X and
+Metal on the Unix-like variants.</p>
+<p>The <em>Liquid Look and Feel</em> supports the following parameters:</p>
+<ul class="simple">
+<li><tt class="docutils literal">decorate.frames</tt>: <tt class="docutils literal">yes</tt> means that it will render the frames in
+Liquid style</li>
+<li><tt class="docutils literal">decorate.dialogs</tt>: <tt class="docutils literal">yes</tt> means that it will render the dialogs
+in Liquid style</li>
+</ul>
+<p>The <em>JGoodies Looks</em> look and feel can be specified by using the <tt class="docutils literal">variant</tt>
+parameters. The values can be one of:</p>
+<ul class="simple">
+<li><tt class="docutils literal">windows</tt>: use the Windows look</li>
+<li><tt class="docutils literal">plastic</tt>: use the basic Plastic look</li>
+<li><tt class="docutils literal">plastic3D</tt>: use the Plastic 3D look</li>
+<li><tt class="docutils literal">plasticXP</tt>: use the Plastic XP look (default).</li>
+</ul>
+<p>Here is a small sample:</p>
+<pre class="literal-block">
+&lt;guiprefs height=&quot;600&quot; resizable=&quot;yes&quot; width=&quot;800&quot;&gt;
+    &lt;laf name=&quot;metouia&quot;&gt;
+        &lt;os family=&quot;unix&quot; /&gt;
+    &lt;/laf&gt;
+    &lt;laf name=&quot;looks&quot;&gt;
+        &lt;os family=&quot;windows&quot; /&gt;
+        &lt;param name=&quot;variant&quot; value=&quot;extwin&quot; /&gt;
+    &lt;/laf&gt;
+&lt;/guiprefs&gt;
+</pre>
+<p>The <em>Substance</em> look and feel <em>toned-down</em> themes can be specified using the
+<tt class="docutils literal">variant</tt> parameter, with the value being one of: <tt class="docutils literal">business, business-
+blue, <span class="pre">business-black,</span> creme, sahara, moderate, officesilver</tt>. We have
+reduced the choice to the toned-down themes since they are the only ones to
+actually look decent (the other families colors are way too saturated).
+Please consult <a class="reference external" href="https://substance.dev.java.net/docs/skins/toneddown.html">https://substance.dev.java.net/docs/skins/toneddown.html</a>
+for a gallery of the different toned-down themes.</p>
+<p>Starting from IzPack 3.7, some characteristics can be customized with the
+<tt class="docutils literal">&lt;modifier&gt;</tt> tag. There is a separate description in the <cite>Advanced
+Features</cite> chapter paragraph <cite>Modifying the GUI</cite>.</p>
+</div>
+<div class="section" id="the-localization-element-locale">
+<h2><a class="toc-backref" href="#id20">The Localization Element <tt class="docutils literal">&lt;locale&gt;</tt></a></h2>
+<p>This element is used to specify the language packs (langpacks) that you want
+to use for your installer. You must set one <tt class="docutils literal">&lt;langpack&gt;</tt> markup per
+language. This markup takes the `` iso3`` parameter which specifies the iso3
+language code.</p>
+<p>Here's a sample :</p>
+<pre class="literal-block">
+&lt;locale&gt;
+  &lt;langpack iso3=&quot;eng&quot;/&gt;
+  &lt;langpack iso3=&quot;fra&quot;/&gt;
+  &lt;langpack iso3=&quot;spa&quot;/&gt;
+&lt;/locale&gt;
+</pre>
+<p>The supported ISO3 codes are :</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="24%" />
+<col width="76%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">ISO3 code</th>
+<th class="head">Language</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>cat</td>
+<td>Catalunyan</td>
+</tr>
+<tr><td>chn</td>
+<td>Chinese</td>
+</tr>
+<tr><td>cze</td>
+<td>Czech</td>
+</tr>
+<tr><td>dan</td>
+<td>Danish</td>
+</tr>
+<tr><td>glg</td>
+<td>Galician</td>
+</tr>
+<tr><td>deu</td>
+<td>German</td>
+</tr>
+<tr><td>eng</td>
+<td>English</td>
+</tr>
+<tr><td>eus</td>
+<td>Basque</td>
+</tr>
+<tr><td>fin</td>
+<td>Finnish</td>
+</tr>
+<tr><td>fra</td>
+<td>French</td>
+</tr>
+<tr><td>hun</td>
+<td>Hungarian</td>
+</tr>
+<tr><td>ita</td>
+<td>Italian</td>
+</tr>
+<tr><td>jpn</td>
+<td>Japanese</td>
+</tr>
+<tr><td>mys</td>
+<td>Malaysian</td>
+</tr>
+<tr><td>ned</td>
+<td>Nederlands</td>
+</tr>
+<tr><td>nor</td>
+<td>Norwegian</td>
+</tr>
+<tr><td>pol</td>
+<td>Polnish</td>
+</tr>
+<tr><td>por</td>
+<td>Portuguese (Brazilian)</td>
+</tr>
+<tr><td>prt</td>
+<td>Portuguese (European)</td>
+</tr>
+<tr><td>rom</td>
+<td>Romanian</td>
+</tr>
+<tr><td>rus</td>
+<td>Russian</td>
+</tr>
+<tr><td>scg</td>
+<td>Serbian</td>
+</tr>
+<tr><td>spa</td>
+<td>Spanish</td>
+</tr>
+<tr><td>svk</td>
+<td>Slovakian</td>
+</tr>
+<tr><td>swe</td>
+<td>Swedish</td>
+</tr>
+<tr><td>ukr</td>
+<td>Ukrainian</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="the-resources-element-resources">
+<h2><a class="toc-backref" href="#id21">The Resources Element <tt class="docutils literal">&lt;resources&gt;</tt></a></h2>
+<p>Several panels, such as the license panel and the shortcut panel, require
+additional data to perform their task. This data is supplied in the form of
+resources. This section describes how to specify them. Take a look at each
+panel description to see if it might need any resources. Currently, no checks
+are made to ensure resources needed by any panel have been included. The ``
+&lt;resources&gt;`` element is not required, and no <tt class="docutils literal">&lt;res&gt;</tt> elements are required
+within.
+The <tt class="docutils literal">&lt;resources&gt;</tt> element is the only element besides the <tt class="docutils literal">&lt;packs&gt;</tt>
+element that is taken into consideration in referenced pack-files (see
+<tt class="docutils literal">`&lt;packs&gt;</tt> element`_ for more info)</p>
+<p>You have to set one <tt class="docutils literal">&lt;res&gt;</tt> markup for each resource. Here are the
+attributes to specify :</p>
+<ul class="simple">
+<li><tt class="docutils literal">src</tt> : the path to the resource file which can be named freely of
+course (for instance <tt class="docutils literal"><span class="pre">my-picture.jpg</span></tt>).</li>
+<li><tt class="docutils literal">id</tt> : the resource id, depending on the needs of a particular
+panel</li>
+<li><tt class="docutils literal">parse</tt> : takes <tt class="docutils literal">yes</tt> or <tt class="docutils literal">no</tt> (default is <tt class="docutils literal">no</tt>) - used to
+specify whether the resource must be parsed at the installer compilation
+time. For instance you could set the application version in a readme file
+used by <tt class="docutils literal">InfoPanel</tt>.</li>
+<li><tt class="docutils literal">type</tt> : specifies the parse type. This makes sense only for a text
+resource - the default is <tt class="docutils literal">plain</tt>, other values are <tt class="docutils literal">javaprop, xml, plain, java, shell, at, ant</tt>
+(Java properties file and XML files)</li>
+<li><tt class="docutils literal">encoding</tt> : specifies the resource encoding if the receiver needs
+to know. This makes sense only for a text resource.</li>
+</ul>
+<p>Here's a sample :</p>
+<pre class="literal-block">
+&lt;resources&gt;
+  &lt;res id=&quot;InfoPanel.info&quot; src=&quot;doc/readme.txt&quot; parse=&quot;yes&quot;/&gt;
+  &lt;res id=&quot;LicencePanel.licence&quot; src=&quot;legal/License.txt&quot;/&gt;
+&lt;/resources&gt;
+</pre>
+<p>Please note that in general a resource <tt class="docutils literal">id</tt> is unique. Thus if you define
+multiple resources with the same <tt class="docutils literal">id</tt> the later definition (e.g. a
+resource defined in a referenced pack-file) will overwrite the previous definition.
+However there is an exception for <tt class="docutils literal">packsLang.xml_xyz</tt> files
+(see <cite>Internationalization of the PacksPanel</cite>).
+If multiple packsLang-files were defined, all files will be merged into a single temporary
+file. This allows <tt class="docutils literal">refpack</tt> files to provide their own internationalization-information.</p>
+</div>
+<div class="section" id="the-panels-element-panels">
+<h2><a class="toc-backref" href="#id22">The Panels Element <tt class="docutils literal">&lt;panels&gt;</tt></a></h2>
+<p>Here you tell the compiler which panels you want to use. They will appear in
+the installer in the order in which they are listed in your XML installation
+file. Take a look at the different panels in order to find the ones you need.
+The <tt class="docutils literal">&lt;panel&gt;</tt> markup takes the following attributes:</p>
+<ul class="simple">
+<li><tt class="docutils literal">classname</tt>: which is the classname of the panel.</li>
+<li><tt class="docutils literal">id</tt>: an identifier for a panel which can be used e.g. for referencing in userinput panel definitions.</li>
+<li><tt class="docutils literal">condition</tt>: an id of a condition which has to be fullfilled to show this panel</li>
+<li><tt class="docutils literal">jar</tt>: jar file where the classes for this panel can be found. This attribute is optional. If it is empty (jar=&quot;&quot;) the classes for this panel must be murged using the &lt;jar&gt; tag.</li>
+</ul>
+<p>Here is a sample :</p>
+<pre class="literal-block">
+&lt;panels&gt;
+    &lt;panel classname=&quot;HelloPanel&quot;/&gt;
+    &lt;panel classname=&quot;LicencePanel&quot;/&gt;
+    &lt;panel classname=&quot;TargetPanel&quot;/&gt;
+    &lt;panel classname=&quot;InstallPanel&quot;/&gt;
+    &lt;panel classname=&quot;UserInputPanel&quot; id=&quot;myuserinput&quot; condition=&quot;pack2selected&quot; /&gt;
+    &lt;panel classname=&quot;FinishPanel&quot; jar=&quot;MyFinishPanel.jar&quot;/&gt;
+&lt;/panels&gt;
+</pre>
+<p>The following sections describe the tags available for a <tt class="docutils literal">&lt;panel&gt;</tt> section.</p>
+</div>
+<div class="section" id="help-optional-file-for-a-help">
+<h2><a class="toc-backref" href="#id23"><tt class="docutils literal">&lt;help&gt;</tt> - optional file for a help</a></h2>
+<p>The content of the help file is shown in a small window on the panel, when User
+clicks on the help button. The button is only shown, when a help in the language
+exists.</p>
+<p>The <tt class="docutils literal">&lt;help&gt;</tt> takes the following attributes :</p>
+<ul class="simple">
+<li><tt class="docutils literal">iso3</tt>: iso3 representation of the language the help is written</li>
+<li><tt class="docutils literal">src</tt>: path to the help file to display</li>
+</ul>
+<p>Here's a sample :</p>
+<pre class="literal-block">
+&lt;panel classname=&quot;HelloPanel&quot;&gt;
+  &lt;help iso3=&quot;deu&quot; src=&quot;HelloPanelHelp_deu.html&quot; /&gt;
+  &lt;help iso3=&quot;eng&quot; src=&quot;HelloPanelHelp_eng.html&quot; /&gt;
+&lt;/panel&gt;
+</pre>
+</div>
+<div class="section" id="validator-optional-validation-on-idata">
+<h2><a class="toc-backref" href="#id24"><tt class="docutils literal">&lt;validator&gt;</tt> - optional validation on idata</a></h2>
+<p>This validation is done, when going on for the next panel. It is also done in case
+of an automatic installation. The class must implement the interface
+com.izforge.izpack.installer.DataValidator.</p>
+<p>The <tt class="docutils literal">&lt;validator&gt;</tt> takes the following attributes :</p>
+<ul class="simple">
+<li><tt class="docutils literal">classname</tt>: The class implementing com.izforge.izpack.installer.DataValidator</li>
+</ul>
+<p>Here's a sample :</p>
+<pre class="literal-block">
+&lt;panel classname=&quot;UserInputPanel&quot; id=&quot;jdbc.connection.parameters&quot;&gt;
+  &lt;validator classname=&quot;JdbcConnectionValidator&quot; /&gt;
+&lt;/panel&gt;
+</pre>
+</div>
+<div class="section" id="actions-optional-actions-for-the-panel">
+<h2><a class="toc-backref" href="#id25"><tt class="docutils literal">&lt;actions&gt;</tt> - optional actions for the panel</a></h2>
+<p>Here you can define multiple actions that are done during the lifetime of the panel.
+The class must implement the interface com.izforge.izpack.installer.PanelAction.
+The actions are also called during an automated installation.</p>
+<p>The <tt class="docutils literal">&lt;actions&gt;</tt> tag has no attributes but has <tt class="docutils literal">&lt;action&gt;</tt> markups with the following attributes :</p>
+<ul>
+<li><dl class="first docutils">
+<dt><tt class="docutils literal">stage</tt>: The stage when the action should be triggered.</dt>
+<dd><p class="first last">Possible values are <tt class="docutils literal">preconstruct</tt>, <tt class="docutils literal">preactivate</tt>, <tt class="docutils literal">prevalidate</tt> or <tt class="docutils literal">postvalidate</tt>.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first"><tt class="docutils literal">classname</tt>: The class implementing com.izforge.izpack.installer.PanelAction</p>
+</li>
+</ul>
+<p>Here's a sample :</p>
+<pre class="literal-block">
+&lt;panel classname=&quot;UserInputPanel&quot; id=&quot;jdbc.connection.parameters&quot;&gt;
+  &lt;actions&gt;
+    &lt;action stage=&quot;preconstruct&quot; classname=&quot;ConnectionPreConstructAction&quot; /&gt;
+    &lt;action stage=&quot;preactivate&quot; classname=&quot;ConnectionPreActivateAction&quot; /&gt;
+    &lt;action stage=&quot;prevalidate&quot; classname=&quot;ConnectionPreVAlidateAction&quot; /&gt;
+    &lt;action stage=&quot;postvalidate&quot; classname=&quot;ConnectionPostValidateAction&quot; /&gt;
+  &lt;/actions&gt;
+&lt;/panel&gt;
+</pre>
+</div>
+<div class="section" id="the-packs-element-packs">
+<h2><a class="toc-backref" href="#id26">The Packs Element <tt class="docutils literal">&lt;packs&gt;</tt></a></h2>
+<p>This is a crucial section as it is used to specify the files that need to be
+installed. The <tt class="docutils literal">&lt;packs&gt;</tt> section consists of several <tt class="docutils literal">&lt;pack&gt;</tt>,
+<tt class="docutils literal">&lt;refpack&gt;</tt> and <tt class="docutils literal">&lt;refpackset&gt;</tt> tags.</p>
+<p>The <tt class="docutils literal">&lt;pack&gt;</tt> takes the following attributes :</p>
+<ul class="simple">
+<li><tt class="docutils literal">name</tt>: the pack name</li>
+<li><tt class="docutils literal">required</tt>: takes <tt class="docutils literal">yes</tt> or <tt class="docutils literal">no</tt> and specifies whether the pack
+is optional or not.</li>
+<li><tt class="docutils literal">os</tt>: optional attribute that lets you make the pack targeted to a
+specific <em>operating system</em>, for instance <tt class="docutils literal">unix</tt>, <tt class="docutils literal">mac</tt> and so on.</li>
+<li><tt class="docutils literal">preselected</tt>: optional attribute that lets you choose whether the
+pack is by default selected for installation or not. Possible values are
+<tt class="docutils literal">yes</tt> and <tt class="docutils literal">no</tt>. A pack which is not preselected needs to be
+explicitly selected by the user during installation to get installed.</li>
+<li><tt class="docutils literal">loose</tt>: can be used so that the files are not located in the
+installer Jar. The possible values are <tt class="docutils literal">true</tt> or <tt class="docutils literal">false</tt>, the default
+beeing <tt class="docutils literal">false</tt>. The author of this feature needed to put his
+application on a CD so that the users could run it directly from this
+media. However, he also wanted to offer them the possibility to install
+the software localy. Enabling this feature will make IzPack take the
+files on disk instead of from the installer. <em>Please make sure that your
+relative files paths are correct !</em></li>
+<li><tt class="docutils literal">id</tt>: this attribute is used to give a unique id to the pack to be
+used for internationalization via <tt class="docutils literal">packsLang.xml</tt> file.</li>
+<li><tt class="docutils literal">packImgId</tt>: this attribute is used to reference a unique resource
+that represents the pack's image for the ImgPacksPanel. The resource
+should be defined in the <tt class="docutils literal">&lt;resources&gt;</tt> element of the installation XML
+using the same value for the <tt class="docutils literal">id</tt> attribute of the <tt class="docutils literal">&lt;res&gt;</tt> element.</li>
+<li><tt class="docutils literal">condition</tt>: an id of a condition which has to be fullfilled to install this
+package.</li>
+<li><tt class="docutils literal">hidden</tt>: takes <tt class="docutils literal">true</tt> or <tt class="docutils literal">false</tt> and specifies whether the pack
+shall be shown in the packs panel. The bytes of such a hidden pack will be
+used to calculate the required space, but the pack itself won't be shown. A
+hidden pack can be selected conditionally. So you have to specify a condition to
+enable it for installation.
+The default for this attribute is <tt class="docutils literal">false</tt></li>
+</ul>
+<p>The <tt class="docutils literal">&lt;refpack&gt;</tt> takes only one attribute <tt class="docutils literal">file</tt>, which contains the
+relative path (from the installation compiler) to an externally defined
+packs-definition. This external packs definition is a regular IzPack
+installation XML. However the only elements that are used from that XML file
+are the <tt class="docutils literal">&lt;packs&gt;</tt> and the <tt class="docutils literal">&lt;resources&gt;</tt> elements. This enables a model in
+which a single developer is responsible for maintaining the packs and
+resources (e.g. separate <tt class="docutils literal">packsLang.xml_xyz</tt> files providing internationalization;
+see <cite>Internationalization of the PacksPanel</cite>) related to the development-package
+assigned to him. The main install XML references these xml-files to avoid
+synchronization efforts between the central installation XML and the
+developer-maintained installer XMLs.</p>
+<p>The <tt class="docutils literal">&lt;refpackset&gt;</tt> tag can be used in situations were there is no predefined
+set of <tt class="docutils literal">&lt;refpack&gt;</tt> files, but a given directory should be scanned for
+<tt class="docutils literal">&lt;refpack&gt;</tt> files to be included instead. This element takes the following
+parameters:</p>
+<ul class="simple">
+<li><tt class="docutils literal">dir</tt>: the base directory for the refpackset (relative path)</li>
+<li><tt class="docutils literal">includes</tt>: a pattern of files in <tt class="docutils literal">&lt;refpack&gt;</tt> format that must be included</li>
+</ul>
+<p>An example:</p>
+<pre class="literal-block">
+&lt;refpackset dir=&quot;&quot; includes=&quot;**/refpack.xml&quot; /&gt;
+</pre>
+</div>
+<div class="section" id="internationalization-of-the-packspanel">
+<h2><a class="toc-backref" href="#id27">Internationalization of the PacksPanel</a></h2>
+<p>In order to provide internationalization for the PacksPanel, so that your
+users can be presented with a different name and description for each
+language you support, you have to create a file named <tt class="docutils literal">packsLang.xml_xyz</tt>
+where <tt class="docutils literal">xyz</tt> is the ISO3 code of the language in lowercase. Please be aware
+that case is significant. This file has to be inserted in the resources
+section of `` install.xml`` with the <tt class="docutils literal">id</tt> and <tt class="docutils literal">src</tt> attributes set at the
+name of the file. The format of these files is identical with the
+distribution langpack files located at ``
+$IZPACK_HOME/bin/langpacks/installer``. For the name of the panel you just
+use the pack <tt class="docutils literal">id</tt> as the txt <tt class="docutils literal">id</tt>. For the description you use the pack
+<tt class="docutils literal">id</tt> suffixed with <tt class="docutils literal">.description</tt>.</p>
+<p>An example:</p>
+<pre class="literal-block">
+&lt;resources&gt;
+    &lt;res id=&quot;packsLang.xml_eng&quot; src=&quot;i18n/myPacksLang.xml_eng&quot;/&gt;
+&lt;/resources&gt;
+</pre>
+<p>The <tt class="docutils literal">packsLang.xml_eng</tt> file:</p>
+<pre class="literal-block">
+&lt;langpack&gt;
+    &lt;str id=&quot;myApplication&quot; txt=&quot;Main Application&quot;/&gt;
+    &lt;str id=&quot;myApplication.description&quot; txt=&quot;A description of my main application&quot;/&gt;
+    [...]
+&lt;/langpack&gt;
+</pre>
+<p>The following sections describe the tags available for a <tt class="docutils literal">&lt;pack&gt;</tt> section.</p>
+</div>
+<div class="section" id="description-pack-description">
+<h2><a class="toc-backref" href="#id28"><tt class="docutils literal">&lt;description&gt;</tt> - pack description</a></h2>
+<p>The contents of the <tt class="docutils literal">&lt;description&gt;</tt> tag describe the pack contents. This
+description is displayed if the user highlights the pack during installation.</p>
+</div>
+<div class="section" id="depends-pack-dependencies">
+<h2><a class="toc-backref" href="#id29"><tt class="docutils literal">&lt;depends&gt;</tt> - pack dependencies</a></h2>
+<p>This can be used to make this pack selectable only to be installed only if
+some other is selected to be installed. The pack can depend on more than one
+by specifying more than one `` &lt;depends&gt;`` elements.
+Circular depedencies are not supported and the compiler reports an error if
+one occurs.</p>
+<p>This tag takes the following attribute:</p>
+<ul class="simple">
+<li><tt class="docutils literal">packname</tt>: The name of the pack that it depends on</li>
+</ul>
+</div>
+<div class="section" id="os-os-restrictions">
+<h2><a class="toc-backref" href="#id30"><tt class="docutils literal">&lt;os&gt;</tt> - OS restrictions</a></h2>
+<p>It is possible to restrict a panel to a certain list of operating systems.
+This tag takes the following attributes:</p>
+<ul class="simple">
+<li><tt class="docutils literal">family</tt>: unix, windows or mac</li>
+<li><tt class="docutils literal">name</tt>: the exact OS name (ie Windows, Linux, ...)</li>
+<li><tt class="docutils literal">version</tt>: the exact OS version (see the JVM <tt class="docutils literal">os.version</tt>
+property)</li>
+<li><tt class="docutils literal">arch</tt>: the machine architecture (see the JVM <tt class="docutils literal">os.arch</tt>
+property).</li>
+</ul>
+</div>
+<div class="section" id="updatecheck">
+<h2><a class="toc-backref" href="#id31"><tt class="docutils literal">&lt;updatecheck&gt;</tt></a></h2>
+<p>This feature can update an already installed package, therefore removing
+superfluous files after installation. Here's how this feature author (Tino
+Schwarze) described it on the IzPack development mailing-list:</p>
+<p>&gt; Each pack can now specify an <tt class="docutils literal">&lt;updatecheck&gt;</tt> tag. It supports a subset of
+ant fileset syntax, e.g.:</p>
+<pre class="literal-block">
+&lt;updatecheck&gt;
+  &lt;include name=&quot;lib/**&quot; /&gt;
+  &lt;exclude name=&quot;config/local/** /&gt;
+&lt;/updatecheck&gt;
+</pre>
+<p>&gt; If the paths are relative, they will be matched relative to
+<tt class="docutils literal">$INSTALL_PATH</tt>. Update checks are only enabled if at least one
+<tt class="docutils literal">&lt;include&gt;</tt> is specified. See `` com.izforge.izpack.installer.Unpacker``
+for details.</p>
+</div>
+<div class="section" id="file-add-files-or-directories">
+<h2><a class="toc-backref" href="#id32"><tt class="docutils literal">&lt;file&gt;</tt> - add files or directories</a></h2>
+<p>The <tt class="docutils literal">&lt;file&gt;</tt> tag specifies a file (a directory is a file too) to include
+into the pack. It takes the following attributes:</p>
+<ul class="simple">
+<li><tt class="docutils literal">src</tt>: the file location (relative path) - if this is a directory
+its content will be added recursively. It may contain previously defined
+static variables (see <tt class="docutils literal">&lt;variables&gt;</tt>).</li>
+<li><tt class="docutils literal">targetdir</tt>: the destination directory, could be something like
+<tt class="docutils literal">$INSTALL_PATH/subdirX</tt></li>
+<li><tt class="docutils literal">os</tt>: can optionally specify a target operating system (<tt class="docutils literal">unix,
+windows, mac</tt>) - this means that the file will only be installed on its
+target operating system</li>
+<li><tt class="docutils literal">override</tt>: if <tt class="docutils literal">true</tt> then if the file is already installed, it
+will be overwritten (use <tt class="docutils literal">false</tt> otherwise). Alternative values: <tt class="docutils literal">asktrue</tt> and <tt class="docutils literal">askfalse</tt> -
+ask the user what to do and supply default value for non-interactive use.
+Another possible values is <tt class="docutils literal">update</tt>. It means that the new file is only
+installed if it's modification time is newer than the modification time
+of the already existing file (note that this is not a reliable mechanism
+for updates - you cannot detect whether a file was altered after
+installation this way.) By default it is set to `` update``.</li>
+<li><tt class="docutils literal">unpack</tt>: if <tt class="docutils literal">true</tt> and the file is an archive then its content
+will be unpacked and added as individual files</li>
+<li><tt class="docutils literal">condition</tt>: an id of a condition which has to be fullfilled to install this file</li>
+</ul>
+</div>
+<div class="section" id="additionaldata">
+<h2><a class="toc-backref" href="#id33"><tt class="docutils literal">&lt;additionaldata&gt;</tt></a></h2>
+<p>This tag can also be specified in order to pass additional data related to a
+file tag for customizing.</p>
+<ul class="simple">
+<li><tt class="docutils literal">&lt;key&gt;</tt>: key to identify the data</li>
+<li><tt class="docutils literal">&lt;value&gt;</tt>: value which can be used by a custom action</li>
+</ul>
+</div>
+<div class="section" id="singlefile-add-a-single-file">
+<h2><a class="toc-backref" href="#id34"><tt class="docutils literal">&lt;singlefile&gt;</tt> - add a single file</a></h2>
+<p>Specifies a single file to include. The difference to <tt class="docutils literal">&lt;file&gt;</tt> is that this
+tag allows the file to be renamed, therefore it has a <tt class="docutils literal">target</tt> attribute
+instead of `` targetdir``.</p>
+<ul class="simple">
+<li><tt class="docutils literal">src</tt>: the file location (relative path). It may contain previously
+defined static variables (see <tt class="docutils literal">&lt;variables&gt;</tt>).</li>
+<li><tt class="docutils literal">target</tt>: the destination file name, could be something like
+<tt class="docutils literal">$INSTALL_PATH/subdirX/fileY</tt></li>
+<li><tt class="docutils literal">os</tt>: can optionally specify a target operating system (<tt class="docutils literal">unix,
+windows, mac</tt>) - this means that the file will only be installed on its
+target operating system</li>
+<li><tt class="docutils literal">override</tt>: see <tt class="docutils literal">&lt;file&gt;</tt> for description</li>
+<li><tt class="docutils literal">condition</tt>: an id of a condition which has to be fullfilled to install this file</li>
+</ul>
+<p>A <tt class="docutils literal">&lt;additionaldata&gt;</tt> tag can also be specified for customizing.</p>
+</div>
+<div class="section" id="fileset-add-a-fileset">
+<h2><a class="toc-backref" href="#id35"><tt class="docutils literal">&lt;fileset&gt;</tt>: add a fileset</a></h2>
+<p>The <tt class="docutils literal">&lt;fileset&gt;</tt> tag allows files to be specified using the powerful Jakarta
+Ant set syntax. It takes the following parameters:</p>
+<ul class="simple">
+<li><tt class="docutils literal">dir</tt>: the base directory for the fileset (relative path)</li>
+<li><tt class="docutils literal">targetdir</tt>: the destination path, works like for <tt class="docutils literal">&lt;file&gt;</tt></li>
+<li><tt class="docutils literal">casesensitive</tt>: optionally lets you specify if the names are case-
+sensitive or not - takes <tt class="docutils literal">yes</tt> or <tt class="docutils literal">no</tt></li>
+<li><tt class="docutils literal">defaultexcludes</tt>: optionally lets you specify if the default
+excludes will be used - takes <tt class="docutils literal">yes</tt> or <tt class="docutils literal">no</tt>.</li>
+<li><tt class="docutils literal">os</tt>: specifies the operating system, works like for <tt class="docutils literal">&lt;file&gt;</tt></li>
+<li><tt class="docutils literal">override</tt>: see <tt class="docutils literal">&lt;file&gt;</tt> for description</li>
+<li><tt class="docutils literal">includes</tt>: comma- or space-separated list of patterns of files
+that must be included; all files are included when omitted. This is an
+alternative for multiple include tags.</li>
+<li><tt class="docutils literal">excludes</tt>: comma- or space-separated list of patterns of files
+that must be excluded; no files (except default excludes) are excluded
+when omitted. This is an alternative for multiple exclude tags.</li>
+<li><tt class="docutils literal">condition</tt>: an id of a condition which has to be fullfilled to install the files in this fileset</li>
+</ul>
+<p>You specify the files with <tt class="docutils literal">&lt;include&gt;</tt> and <tt class="docutils literal">&lt;exclude&gt;</tt> tags that take the
+<tt class="docutils literal">name</tt> parameter to specify the Ant-like pattern :</p>
+<ul class="simple">
+<li><tt class="docutils literal">**</tt> : means any subdirectory</li>
+<li><tt class="docutils literal">*</tt> : used as a wildcard.</li>
+</ul>
+<p>Here are some examples of Ant patterns :</p>
+<ul class="simple">
+<li><tt class="docutils literal">&lt;include <span class="pre">name=&quot;lib&quot;/&gt;</span></tt> : will include <tt class="docutils literal">lib</tt> and the
+subdirectories of <tt class="docutils literal">lib</tt></li>
+<li><tt class="docutils literal">&lt;exclude <span class="pre">name=&quot;**/*.java&quot;/&gt;</span></tt> : will exclude any file in any
+directory starting from the base path ending by <tt class="docutils literal">.java</tt></li>
+<li><tt class="docutils literal">&lt;include <span class="pre">name=&quot;lib/*.jar&quot;/&gt;</span></tt> : will include all the files ending
+by <tt class="docutils literal">.jar</tt> in <tt class="docutils literal">lib</tt></li>
+<li><tt class="docutils literal">&lt;exclude <span class="pre">name=&quot;lib/**/*FOO*&quot;/&gt;</span></tt> : will exclude any file in any
+subdirectory starting from <tt class="docutils literal">lib</tt> whose name contains <tt class="docutils literal">FOO</tt>.</li>
+</ul>
+<p>There area set of definitions that are excluded by default file-sets, just as
+in Ant. IzPack defaults to the Ant list of default excludes. There is
+currently no equivalent to the &lt;defaultexcludes&gt; task. Default excludes are:</p>
+<pre class="literal-block">
+**/*\~{}
+**/\#*\#
+**/.\#*
+**/%*%
+**/.\_*
+**/CVS
+**/CVS/**
+**/.cvsignore
+**/SCCS
+**/SCCS/**
+**/vssver.scc
+**/.svn
+**/.svn/**
+**/.DS\_Store
+</pre>
+<p>A <tt class="docutils literal">&lt;additionaldata&gt;</tt> tag can also be specified for customizing.</p>
+</div>
+<div class="section" id="parsable-parse-a-file-after-installation">
+<h2><a class="toc-backref" href="#id36"><tt class="docutils literal">&lt;parsable&gt;</tt> - parse a file after installation</a></h2>
+<p>Files specified by <tt class="docutils literal">&lt;parsable&gt;</tt> are parsed after installation and may have
+variables substituted.</p>
+<ul class="simple">
+<li><tt class="docutils literal">targetfile</tt> : the file to parse, could be something like
+<tt class="docutils literal"><span class="pre">$INSTALL_PATH/bin/launch-script.sh</span></tt>
+A slash will be changed to the system dependant path separator (e.g. to a
+backslash on Windows) only if no backslash masks the slash.</li>
+<li><tt class="docutils literal">type</tt> : specifies the type (same as for the resources) - the
+default is <tt class="docutils literal">plain</tt></li>
+<li><tt class="docutils literal">encoding</tt> : specifies the file encoding</li>
+<li><tt class="docutils literal">os</tt>: specifies the operating system, works like for <tt class="docutils literal">&lt;file&gt;</tt></li>
+<li><tt class="docutils literal">condition</tt>: an id of a condition which has to be fullfilled to parse this file</li>
+</ul>
+</div>
+<div class="section" id="executable-mark-file-executable-or-execute-it">
+<h2><a class="toc-backref" href="#id37"><tt class="docutils literal">&lt;executable&gt;</tt> - mark file executable or execute it</a></h2>
+<p>The <tt class="docutils literal">&lt;executable&gt;</tt> tag is a very useful thing if you need to execute
+something during the installation process. It can also be used to set the
+executable flag on Unix-like systems. Here are the attributes :</p>
+<ul class="simple">
+<li><tt class="docutils literal">targetfile</tt> : the file to run, could be something like
+<tt class="docutils literal"><span class="pre">$INSTALL_PATH/bin/launch-script.sh</span></tt>
+Slashes are handled special (see attribute <tt class="docutils literal">targetfile</tt> of tag
+<tt class="docutils literal">&lt;parsable&gt;</tt>).</li>
+<li><tt class="docutils literal">class</tt> : If the executable is a jar file, this is the class to run
+for a JavaTM program</li>
+<li><tt class="docutils literal">type</tt> : <tt class="docutils literal">bin</tt> or <tt class="docutils literal">jar</tt> (the default is <tt class="docutils literal">bin</tt>)</li>
+<li><tt class="docutils literal">stage</tt> : specifies when to launch : <tt class="docutils literal">postinstall</tt> is just after
+the installation is done, <tt class="docutils literal">never</tt> will never launch it (useful to set
+the +x flag on Unix). <tt class="docutils literal">uninstall</tt> will launch the executable when the
+application is uninstalled. The executable is executed before any files
+are deleted. <tt class="docutils literal">never</tt> is the default value.</li>
+<li><tt class="docutils literal">failure</tt> : specifies what to do when an error occurs : <tt class="docutils literal">abort</tt>
+will abort the installation process, <tt class="docutils literal">ask</tt> (default) will ask the user
+what to do and <tt class="docutils literal">warn</tt> will just tell the user that something is wrong</li>
+<li><tt class="docutils literal">os</tt>: specifies the operating system, works like for <tt class="docutils literal">&lt;file&gt;</tt></li>
+<li><tt class="docutils literal">keep</tt> : specifies whether the file will be kept after execution.
+The default is to delete the file after is has been executed. This can be
+changed by specifying <tt class="docutils literal"><span class="pre">keep=&quot;true&quot;</span></tt>.</li>
+<li><tt class="docutils literal">condition</tt>: an id of a condition which has to be fullfilled to execute this file</li>
+</ul>
+<p>A <tt class="docutils literal">&lt;args&gt;</tt> tag can also be specified in order to pass arguments to the
+executable:</p>
+<ul class="simple">
+<li><tt class="docutils literal">&lt;arg&gt;</tt>: passes the argument specified in the <tt class="docutils literal">value</tt> attribute.
+Slashes are handled special (see attribute <tt class="docutils literal">targetfile</tt> of tag
+<tt class="docutils literal">&lt;parsable&gt;</tt>.</li>
+</ul>
+</div>
+<div class="section" id="os-make-a-file-os-dependent">
+<h2><a class="toc-backref" href="#id38"><tt class="docutils literal">&lt;os&gt;</tt> - make a file OS-dependent</a></h2>
+<p>The <tt class="docutils literal">&lt;os&gt;</tt> tag can be used inside the <tt class="docutils literal">&lt;file&gt;</tt>, <tt class="docutils literal">&lt;fileset&gt;</tt>,
+<tt class="docutils literal">&lt;singlefile&gt;</tt>, <tt class="docutils literal">&lt;parsable&gt;</tt>, <tt class="docutils literal">&lt;executable&gt;</tt> tags to restrict it's
+effect to a specific operating system family, architecture or version using the following attributes:</p>
+<ul class="simple">
+<li><tt class="docutils literal">family</tt>: <tt class="docutils literal">unix, windows, mac</tt> to specify the operating system
+family</li>
+<li><tt class="docutils literal">name</tt>: the operating system name</li>
+<li><tt class="docutils literal">version</tt>: the operating system version</li>
+<li><tt class="docutils literal">arch</tt>: the operating system architecture (for instance the Linux
+kernel can run on i386, sparc, and so on)</li>
+</ul>
+<p>Here's an example installation file fragment:</p>
+<pre class="literal-block">
+&lt;packs&gt;
+
+(...)
+
+    &lt;pack name=&quot;Core&quot; required=&quot;yes&quot;&gt;
+
+    (...)
+
+        &lt;executable targetfile=&quot;$INSTALL_PATH/bin/compile&quot; stage=&quot;never&quot;&gt;
+            &lt;os family=&quot;unix&quot;/&gt;
+        &lt;/executable&gt;
+
+    (...)
+
+    &lt;/pack&gt;
+
+(...)
+
+&lt;/packs&gt;
+</pre>
+</div>
+<div class="section" id="the-native-element-native">
+<h2><a class="toc-backref" href="#id39">The Native Element <tt class="docutils literal">&lt;native&gt;</tt></a></h2>
+<p>Use this if you want to use a feature that requires a native library. The
+native libraries are placed under <tt class="docutils literal"><span class="pre">bin/native/..</span></tt>. There are 2 kinds of
+native libraries : the iZPACK libraries and the third-party ones. The IzPack
+libraries are located at <tt class="docutils literal">bin/native/izpack</tt>, you can place your own
+libraries at `` bin/native/3rdparty``. It is possible to place a native
+library also into the uninstaller.</p>
+<p>It is usable from CustomActions.
+If one or more are referenced for it, the needed support classes are
+automatically placed into the uninstaller. To place it only on operating
+systems for which they are build, it is possible to define an OS restriction.
+This restriction will only be performed for the uninstaller. The markup takes
+the following attributes :</p>
+<ul class="simple">
+<li><tt class="docutils literal">type</tt> : <tt class="docutils literal">izpack</tt> or <tt class="docutils literal">3rdparty</tt></li>
+<li><tt class="docutils literal">name</tt> : the library filename</li>
+<li><tt class="docutils literal">stage</tt>: stage where to use the library (install|uninstall|both)</li>
+<li><tt class="docutils literal">src</tt>  : source directory where to find the library to build the installer</li>
+</ul>
+<p>Note for developers: <tt class="docutils literal">com.izforge.izpack.util.Librarian.loadLibrary()</tt> must be used to
+load custom native libraries, as it performs some housekeeping.</p>
+</div>
+<div class="section" id="os-make-a-library-os-dependent">
+<h2><a class="toc-backref" href="#id40"><tt class="docutils literal">&lt;os&gt;</tt> - make a library OS-dependent</a></h2>
+<p>The <tt class="docutils literal">&lt;os&gt;</tt> tag can be used to restrict the inclusion into the uninstaller
+to a specific operating system family, architecture or version. The inclusion
+into the installer will be always done.</p>
+<p>Here's a sample :</p>
+<pre class="literal-block">
+&lt;native type=&quot;izpack&quot; name=&quot;ShellLink.dll&quot;&gt;
+    &lt;os family=&quot;windows&quot;/&gt;
+&lt;/native&gt;
+</pre>
+</div>
+<div class="section" id="the-jar-merging-element-jar">
+<h2><a class="toc-backref" href="#id41">The Jar Merging Element <tt class="docutils literal">&lt;jar&gt;</tt></a></h2>
+<p>If you adapt iZPACK for your own needs, you might need to merge the content
+of another jar file into the jar installer. For instance, this could be a
+library that you need to merge. The <tt class="docutils literal">&lt;jar&gt;</tt> markup allows you to merge the
+raw content of another jar file into the installer and the uninstaller. It is
+necessary that the paths in the jars are unique because only the contained
+files of the jar are added to the installer jar, not the jar file self. The
+attributes are:</p>
+<ul class="simple">
+<li><tt class="docutils literal">src</tt> : the path at compile time</li>
+<li><tt class="docutils literal">stage</tt>: stage where to use the contents of the additional jar file
+(install|uninstall|both)</li>
+</ul>
+<p>A sample :</p>
+<pre class="literal-block">
+&lt;jar src=&quot;../nicelibrary.jar&quot;/&gt;
+</pre>
+</div>
+</div>
+<div class="section" id="xinclude-style-constructs">
+<h1><a class="toc-backref" href="#id42">XInclude-style constructs</a></h1>
+<p>The xi:include element is used to include xml or text documents in your configuration files.</p>
+<p>The xi:include element can be used anywhere in pretty much any of the xml files used by IzPack. It is supported by the javax DocumentBuilder. It follows the XInclude recommandation produced by the W3C (http://www.w3.org/TR/xinclude/) and should be able to be used as decribed in that document.</p>
+<p>To use the xi:include, you have to specify the namespace xmlns:xi=&quot;http://www.w3.org/2001/XInclude&quot; in your xml.</p>
+<p>If a logical error appear in an included file, the line number shown will indicate the xinclude element in the main xml file.</p>
+<p>The xi:include element has the following attributes:</p>
+<dl class="docutils">
+<dt>href</dt>
+<dd>The location of the file to include. If this is a relative path (e.g. href='../bob.xml') then the file is resolved relative to the document that includes the xinclude element. The href element can be a remote url (e.g. href='<a class="reference external" href="http://example.com/file.txt">http://example.com/file.txt</a>') but this is not recommended.</dd>
+<dt>parse</dt>
+<dd>Indicates that the included file should be treated as xml, forcing the included file to be parsed (which results in all xinclude elements in the included file to also be included), or as text which includes the specified file as a text node. It can have a value of 'xml' or 'text' and defaults to 'xml' if ommitted.</dd>
+<dt>xpointer</dt>
+<dd>In case in parse=&quot;xml&quot;, you can use xpointer to get a part of the included xml. The details of the xpointer framework can be found <a class="reference external" href="http://www.w3.org/TR/2003/REC-xptr-framework-20030325/">http://www.w3.org/TR/2003/REC-xptr-framework-20030325/</a>.</dd>
+<dt>encoding</dt>
+<dd>This is used when the parse attribute is 'text' to specify the character encoding of the included text document. It has no effect if parse is 'xml'.</dd>
+<dt>accept</dt>
+<dd>Used if the href attribute specifies a url accessible via HTTP. The value of this attribute will be added as the accpet header on the HTTP request.</dd>
+</dl>
+<div class="section" id="the-fallback-element">
+<h2><a class="toc-backref" href="#id43">The fallback element</a></h2>
+<p>The xi:fallback element is used to provide a fallback if the xi:include element fails. It can be empty or can contain a valid xml. If it is empty then a failure to include the specified document is supressed. If it contains a xml then a failure to include the specified document causes the xml specified in the fallback is parsed (evaluating nested xinclude elements) and inserted into the document in its place.</p>
+<p>For example the following use of xi:include</p>
+<pre class="literal-block">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;iso-8859-1&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;aaa xmlns:xi=&quot;http://www.w3.org/2001/XInclude&quot;&gt;
+  &lt;xi:include href=&quot;does-not-exist.xml&quot;&gt;
+      &lt;xi:fallback&gt;
+          &lt;bbb/&gt;
+      &lt;/xi:fallback&gt;
+  &lt;/xi:include&gt;
+&lt;/aaa&gt;
+</pre>
+<p>will result in</p>
+<pre class="literal-block">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;iso-8859-1&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;aaa&gt;
+  &lt;bbb/&gt;
+&lt;/aaa&gt;
+</pre>
+<p>if the file 'does-not-exist.xml' does indeed not exist.</p>
+</div>
+<div class="section" id="the-xfragment-element">
+<h2><a class="toc-backref" href="#id44">The xfragment element</a></h2>
+<p>The xfragment element allows document fragments (xml documents without a single top level element) to be included. Simply use the xfragment as the top level element in the included document. It will be removed when the document is included.</p>
+<p>e.g. If I want to use xi:include to include a file containing the following fragments:</p>
+<pre class="literal-block">
+&lt;ffff&gt;
+    &lt;gggg&gt;hello&lt;/gggg&gt;
+&lt;/ffff&gt;
+&lt;hhhh&gt;
+    &lt;iiii&gt;there&lt;/iiii&gt;
+&lt;/hhhh&gt;
+</pre>
+<p>I could use the xfragment element to enable it</p>
+<pre class="literal-block">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;iso-8859-1&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;xfragment&gt;
+    &lt;ffff&gt;
+        &lt;gggg&gt;hello&lt;/gggg&gt;
+    &lt;/ffff&gt;
+    &lt;hhhh&gt;
+        &lt;iiii&gt;there&lt;/iiii&gt;
+    &lt;/hhhh&gt;
+&lt;/xfragment&gt;
+</pre>
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+</div>
+</div>
+</div>
+</body>
+</html>

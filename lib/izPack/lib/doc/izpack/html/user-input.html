@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9: http://docutils.sourceforge.net/" />
+<title>User Input</title>
+<link rel="stylesheet" href="izpack.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="user-input">
+<h1 class="title">User Input</h1>
+
+<p>(by Elmar GROM)</p>
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#the-basic-xml-structure" id="id2">The Basic XML Structure</a></li>
+<li><a class="reference internal" href="#concepts-and-xml-elements-common-to-all-fields" id="id3">Concepts and XML Elements Common to All Fields</a></li>
+<li><a class="reference internal" href="#internationalization" id="id4">Internationalization</a></li>
+<li><a class="reference internal" href="#panel-title" id="id5">Panel Title</a></li>
+<li><a class="reference internal" href="#static-text" id="id6">Static Text</a></li>
+<li><a class="reference internal" href="#visual-separation" id="id7">Visual Separation</a></li>
+<li><a class="reference internal" href="#text-input" id="id8">Text Input</a></li>
+<li><a class="reference internal" href="#radio-buttons" id="id9">Radio Buttons</a></li>
+<li><a class="reference internal" href="#combo-box" id="id10">Combo Box</a></li>
+<li><a class="reference internal" href="#check-box" id="id11">Check Box</a></li>
+<li><a class="reference internal" href="#password-field" id="id12">Password Field</a></li>
+<li><a class="reference internal" href="#file-field" id="id13">File Field</a></li>
+<li><a class="reference internal" href="#multiple-file-field" id="id14">Multiple File Field</a></li>
+<li><a class="reference internal" href="#directory-field" id="id15">Directory Field</a></li>
+<li><a class="reference internal" href="#rule-input" id="id16">Rule Input</a></li>
+<li><a class="reference internal" href="#layout-and-input-rules" id="id17">Layout and Input Rules</a></li>
+<li><a class="reference internal" href="#setting-field-content" id="id18">Setting Field Content</a></li>
+<li><a class="reference internal" href="#the-output-format" id="id19">The Output Format</a></li>
+<li><a class="reference internal" href="#validating-field-content" id="id20">Validating Field Content</a><ul>
+<li><a class="reference internal" href="#notemptyvalidator" id="id21">NotEmptyValidator</a></li>
+<li><a class="reference internal" href="#regularexpressionvalidator" id="id22">RegularExpressionValidator</a></li>
+<li><a class="reference internal" href="#passwordequalityvalidator" id="id23">PasswordEqualityValidator</a></li>
+<li><a class="reference internal" href="#passwordkeystorevalidator" id="id24">PasswordKeystoreValidator</a></li>
+<li><a class="reference internal" href="#creation-your-own-custom-validator" id="id25">Creation Your Own Custom Validator</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#processing-the-field-content" id="id26">Processing the Field Content</a></li>
+<li><a class="reference internal" href="#summary-example" id="id27">Summary Example</a></li>
+<li><a class="reference internal" href="#search" id="id28">Search</a></li>
+<li><a class="reference internal" href="#specification" id="id29">Specification</a></li>
+<li><a class="reference internal" href="#example" id="id30">Example</a></li>
+</ul>
+</div>
+<p>Most of the panels that come with IzPack take user input in some form. In
+some panels this is through a simple user acknowledgment in others the user
+can enter text or select a directory through a file open dialog. In all of
+those cases the user input is used for the specific purpose needed by the
+panel that takes the input. However, if you need user input during
+installation that will later on be available to your application then you
+need to use the user input panel.</p>
+<p>To use this panel, list it in the install file with the class name
+<tt class="docutils literal">UserInputPanel</tt>. In addition, you must write a XML specification and add
+it to the install resources. The name of this resource must be
+<tt class="docutils literal">userInputSpec.xml</tt>.</p>
+<p>A UserInputPanel can be highly dynamic from IzPack 4.3 on, as it will be refreshed
+every time the user input changes and will be rendered based on conditions. Thus
+it would be possible to enable or disable some more options by clicking a checkbox.</p>
+<p>Here's an example <a class="reference external" href="sample-userInputSpec.html">userInputSpec.xml</a> showing 3 panels.  There are some advanced
+features in this example, but the general flow should be looked at first.</p>
+<p>The user input panel is a blank panel that can be populated with UI elements
+through a XML specification file. The specification supports text labels,
+input elements, explanatory text and some minor formatting options.</p>
+<p>The following types of user input elements are supported:</p>
+<ul class="simple">
+<li>Text</li>
+<li>Combo Box</li>
+<li>Radio Buttons</li>
+<li>Check Box</li>
+<li>Password</li>
+<li>File</li>
+<li>Multiple files</li>
+<li>Directory</li>
+<li>Rule Input Field</li>
+<li>Search Field</li>
+</ul>
+<p>Additionally visual elements can be added using the following types:</p>
+<ul class="simple">
+<li>Static Text</li>
+<li>Title</li>
+<li>Space</li>
+<li>Divider</li>
+</ul>
+<p>The way in which this panel conveys the user input to your application is
+through the variable substitution system. User input is not directly inserted
+into your configuration files but the variables that you specify for this
+panel are set in the variable substitution system. After this operation has
+taken place the variables and associated values are available for all
+substitutions made. This way of operation has a number of implications that
+you should be aware of.</p>
+<p>First, not only can you set additional variables in this way but you can also
+modify variables that are defined elsewhere -even built in variables. For
+this reason you should be careful to avoid overlaps when choosing variable
+names. Although there might be cases when it seems useful to modify the value
+of other variables, it is generally not a good idea to do so. Because you
+might not exactly know when other variables are set and when and where they
+are used throughout the installation process, there might be unintended side
+effects.</p>
+<p>Second, the panel must be shown at a point during the installation process
+before the variables are used. In most cases you will use the values to
+substitute variables in launch and configuration files that you supply with
+your installation. For this to work you place this panel before the install
+panel, because the install panel uses the variable substitutor to replace all
+such variables. Although using this panel any later in the process will
+correctly set the variables internally, there won't be any affect on the
+files written to disk. You can also use variables set in this way in other
+panels that you have written yourself. There is a section in the chapter on
+writing your own panel that explains how to do this. Also in this case it is
+important to place the associated input panel in the process before the
+variables are used.</p>
+<p>At this point I would also like to mention that it is possible to hide every
+field element based on conditions.</p>
+<p>It would also be possible to hide select
+elements on the panel or the panel altogether if certain packs are not
+selected. For this to work you must place this panel after the packs panel.
+One side effect of using this feature is that it is not possible to step back
+once the user input panel is displayed. This is because the user might make
+changes in the packs selection that would require a complete rebuild of the
+UI. Unfortunately, building the UI is an irreversible process, therefore the
+user can not be allowed to go back to the packs panel.</p>
+<div class="section" id="the-basic-xml-structure">
+<h1><a class="toc-backref" href="#id2">The Basic XML Structure</a></h1>
+<p>The top level XML section is called <tt class="docutils literal">&lt;userInput&gt;</tt>. For most panels it does
+not make sense to present them more than once, however you might want to
+present multiple user input panels -with different content of course.
+Therefore the <tt class="docutils literal">&lt;userInput&gt;</tt> section can contain multiple tags that each
+specify the details for one panel instance. The tag name for this is
+<tt class="docutils literal">&lt;panel&gt;</tt>.</p>
+<p>The <tt class="docutils literal">&lt;panel&gt;</tt> tag uses the following attributes:</p>
+<p><strong>order</strong> <tt class="docutils literal">- required</tt></p>
+<p>This is the order number of the user input panel for which this specification
+should be used. Counting starts at 0 and increments by 1 for each instance of
+the user input panel. So if a spec should be used for the second occurrence
+of the user input panel use <tt class="docutils literal"><span class="pre">order=&quot;1&quot;</span></tt>.</p>
+<p><strong>layout</strong> <tt class="docutils literal">- optional</tt></p>
+<p>There are three general layout rules this panel uses, they are <tt class="docutils literal">left</tt>,
+<tt class="docutils literal">center</tt> and <tt class="docutils literal">right</tt>. While i think left is most commonly used, you might
+want to experiment with this attribute and see which you like best. The
+default is <tt class="docutils literal">left</tt>.</p>
+</div>
+<div class="section" id="concepts-and-xml-elements-common-to-all-fields">
+<h1><a class="toc-backref" href="#id3">Concepts and XML Elements Common to All Fields</a></h1>
+<p>Before we dive into the details of defining the various UI elements I would
+like to present XML elements and general concepts that apply throughout. This
+saves me a lot of work in writing and you a lot of repetitive reading and
+maybe a tree or two.</p>
+<p>The UI elements are generally laid out top to bottom in the order they appear
+in the XML file. The only exception to this rule is the title, which always
+appears at the very top. The layout pattern for the input fields is as
+follows: If a description is defined, it appears first, using the full
+available layout width. The input field is placed beneath the description.
+With fields such as the text field or the combo box, the label is placed to
+the left and the input field to the right. Fields such as radio buttons and
+check boxes are somewhat indented and have the label text appear to their
+right.</p>
+<p>Each UI element is specified with a <tt class="docutils literal">&lt;field&gt;</tt> tag. The <tt class="docutils literal">type</tt> attribute
+is used to specify what kind of field you want to place. Obviously, the
+<tt class="docutils literal">type</tt> attribute is not optional.</p>
+<p>Each field that takes user input must also specify the variable that should
+be substituted. This is done with the <tt class="docutils literal">variable</tt> attribute.</p>
+<p>Almost all fields allow a description. When a description is allowed it is
+always added in the same way. The description is part of the data within the
+field tag. There can only be one description per field. If you add more than
+one, the first one is used and the others ignored. There are three attributes
+used with this tag. The text is specified through the <tt class="docutils literal">txt</tt> or the <tt class="docutils literal">id</tt>
+attribute. The details on using them are described below. The attributes are
+all optional but you must specify text to use, either directly or through the
+<tt class="docutils literal">id</tt> attribute. In addition, you can set the text justification to
+<tt class="docutils literal">left</tt>, <tt class="docutils literal">center</tt> and <tt class="docutils literal">right</tt> with the <tt class="docutils literal">align</tt> attribute.</p>
+<p>The following example illustrates the general pattern for field
+specification:</p>
+<pre class="literal-block">
+&lt;field type=&quot;text&quot; variable=&quot;myFirstVariable&quot;&gt;
+  &lt;description align=&quot;left&quot; txt=&quot;A description&quot; id=&quot;description1&quot;/&gt;
+  .
+  .
+  .
+&lt;/field&gt;
+</pre>
+<p>A very frequently used pattern is for the definition of text. Where ever text
+is needed (labels, descriptions, static text, choices etc.) it can be
+specified in place using the <tt class="docutils literal">txt</tt> attribute. This is convenient if you are
+only supporting a single language. However, if you would like to separate
+your text definitions from the panel specification or if you need to support
+multiple languages you might want to use the <tt class="docutils literal">id</tt> attribute instead to only
+specify an identifier. You can then add multiple XML files with the same name
+as this spec file (userInputSpec.xml) appended with an underscore '_' and the
+the appropriate three letter ISO3 language code. The content of those files
+must conform to the specification for IzPack language packages. For more
+details on this topic see the chapter on language packages under advanced
+features. <tt class="docutils literal">id</tt> defines an identifier that is also defined in the language
+package, together with the localized text to use. It is possible to use both
+the <tt class="docutils literal">txt</tt> and the <tt class="docutils literal">id</tt> attribute. In this case the text from the language
+package is used. If for some reason the language package is not available or
+the <tt class="docutils literal">id</tt> is not defined there, the text specified with <tt class="docutils literal">txt</tt> is used as
+default.</p>
+<p>All input fields can be pre-set with a value of your choice. Although the
+details vary a bit from field type to field type, the <tt class="docutils literal">set</tt> attribute is
+always used to accomplish this. The <tt class="docutils literal">set</tt> attribute is of course optional.
+Please note that if you use the <tt class="docutils literal">set</tt> attribute, you would have to keep in
+mind, that the UserInputPanel will be rendered after each user input. Thus it will
+be set back to the default value if you don't use a condition to handle that.
+IzPack generates builtin conditions for every variable used as target for a field
+to be able to check if there's any input.</p>
+<p>All fields that take user input use a <tt class="docutils literal">&lt;spec&gt;</tt> tag to define the details of
+the input field. In the some cases the content of this tag is rather simple.
+Input fields with a more complex nature tend to have accordingly complex
+content in this tag. Since the details vary widely, they are explained with
+each input field.</p>
+<p>Any number of <tt class="docutils literal">&lt;createForPack <span class="pre">name=''a</span> pack name'' /&gt;</tt> tags can be added to
+the <tt class="docutils literal">&lt;panel&gt;</tt> and <tt class="docutils literal">&lt;field&gt;</tt> sections. This tag has only one attribute and
+no data. The attribute is <tt class="docutils literal">name</tt> and specifies the name of one of the
+installation packs that you have defined. Here is how it works: if no
+<tt class="docutils literal">&lt;createForPack <span class="pre">...&gt;</span></tt> tag exists in a section, the entity is always
+created. However, if the tag exists, the entity is only created if one or
+more of the listed packs are selected for installation. As mentioned before,
+if you are using this feature, make sure the user input panel shows up after
+the packs panel.</p>
+<p>Also, any number of <tt class="docutils literal">&lt;createForUnselectedPack <span class="pre">name=''a</span> pack name'' /&gt;</tt> tags
+can be added to the <tt class="docutils literal">&lt;panel&gt;</tt> and <tt class="docutils literal">&lt;field&gt;</tt> sections. This tag has only
+one attribute and no data. It works exactly like createForPack except that
+once added user input panel will appear for only NOT Selected packs. As
+mentioned earlier, you need to make sure that the user input panel shows up
+after the packs panel for this feature to work.</p>
+<p>There is a possibility to use variables in those elements where the text is
+supplied via <tt class="docutils literal">txt</tt> attribute. This includes static fields and input fields
+(spec, description). The text can contain unlimited number of variables that
+will be substituted. Variable substitution also works with language packs,
+just use variables in your language pack, and they will be still substituted
+properly.</p>
+<p><strong>Example</strong></p>
+<p>In the following example, the variables: name1, name2, name3 will be substituted.</p>
+<pre class="literal-block">
+&lt;field type=&quot;text&quot; variable=&quot;value1&quot;&gt;
+  &lt;description align=&quot;left&quot; txt=&quot;Configuration for $name1 and $name2&quot; id=&quot;&quot;/&gt;
+  &lt;spec txt=&quot;The value for $name3:&quot; id=&quot;&quot; size=&quot;20&quot; set=&quot;default value&quot; /&gt;
+&lt;/field&gt;
+</pre>
+</div>
+<div class="section" id="internationalization">
+<h1><a class="toc-backref" href="#id4">Internationalization</a></h1>
+<p>To provide internationalization you can create a file named
+<tt class="docutils literal">userInputLang.xml_xyz</tt> where <tt class="docutils literal">xyz</tt> is the ISO3 code of the language in
+lowercase. Please be aware that case is significant. This file has to be
+inserted in the resources section of <tt class="docutils literal">install.xml</tt> with the <tt class="docutils literal">id</tt> and
+<tt class="docutils literal">src</tt> attributes set at the name of the file.</p>
+<p>Example:</p>
+<p>If you have the following userInputSpec.xml and you want to internationalize
+<tt class="docutils literal">input.comment</tt>, <tt class="docutils literal">input.proxy</tt>, <tt class="docutils literal">input.port</tt> for English and French you
+have to create two files named userInputLang.xml_eng and
+userInputLang.xml_fra:</p>
+<pre class="literal-block">
+&lt;userInput&gt;
+&lt;panel order=&quot;0&quot;&gt;
+  &lt;field type=&quot;staticText&quot; align=&quot;left&quot; txt=&quot;My comment is here.&quot;
+  id=&quot;input.comment&quot;/&gt;
+  &lt;field type=&quot;text&quot; variable=&quot;proxyaddress&quot;&gt;
+        &lt;spec txt=&quot;Proxy Host:&quot; id=&quot;input.proxy&quot; size=&quot;25&quot;
+        set=&quot;&quot;/&gt;
+  &lt;/field&gt;
+  &lt;field type=&quot;text&quot; variable=&quot;proxyPort&quot;&gt;
+       &lt;spec txt=&quot;Proxy Port:&quot; id=&quot;input.port&quot; size=&quot;6&quot;
+       set=&quot;&quot;/&gt;
+  &lt;/field&gt;
+&lt;/panel&gt;
+&lt;/userInput&gt;
+</pre>
+<p>userInputLang.xml_eng file contains:</p>
+<pre class="literal-block">
+&lt;langpack&gt;
+  &lt;str id=&quot;input.comment&quot; txt=&quot;English:My comment is here.&quot;/&gt;
+  &lt;str id=&quot;input.proxy&quot; txt=&quot;English:Proxy Host:&quot;/&gt;
+  &lt;str id=&quot;input.port&quot; txt=&quot;English:Proxy Port:&quot;/&gt;
+&lt;/langpack&gt;
+</pre>
+<p>userInputLang.xml_fra file contains:</p>
+<pre class="literal-block">
+&lt;langpack&gt;
+  &lt;str id=&quot;input.comment&quot; txt=&quot;French:My comment is here.&quot;/&gt;
+  &lt;str id=&quot;input.proxy&quot; txt=&quot;French:Proxy Host:&quot;/&gt;
+  &lt;str id=&quot;input.port&quot; txt=&quot;French:Proxy Port:&quot;/&gt;
+&lt;/langpack&gt;
+</pre>
+<p>you will also have to add the following to the install.xml file</p>
+<pre class="literal-block">
+&lt;resources&gt;
+  ...
+  &lt;res id=&quot;userInputSpec.xml&quot; src=&quot;userInputSpec.xml&quot;/&gt;
+  &lt;res id=&quot;userInputLang.xml_eng&quot; src=&quot;userInputLang.xml_eng&quot; /&gt;
+  &lt;res id=&quot;userInputLang.xml_fra&quot; src=&quot;userInputLang.xml_fra&quot; /&gt;
+  ...
+&lt;/resources&gt;
+</pre>
+</div>
+<div class="section" id="panel-title">
+<h1><a class="toc-backref" href="#id5">Panel Title</a></h1>
+<p>You can place an optional title at the top of the panel. Though it is not
+possible to select a font for the title that is different form the one used
+on the rest of the panel, it is possible to modify the font to some extent.
+To specify the title create a <tt class="docutils literal">&lt;field&gt;</tt> tag and use the <tt class="docutils literal">type</tt> attribute
+with the value <tt class="docutils literal">title</tt>. In addition to the <tt class="docutils literal">txt</tt> and <tt class="docutils literal">id</tt> attributes,
+the following attributes are supported:</p>
+<p><strong>italic</strong> <tt class="docutils literal">- optional</tt></p>
+<p>With a value of <tt class="docutils literal">true</tt> specifies that the title font should be in italics.</p>
+<p><strong>bold</strong> <tt class="docutils literal">- optional</tt></p>
+<p>With a value of <tt class="docutils literal">true</tt> specifies that the title font should be bold.</p>
+<p><strong>size</strong> <tt class="docutils literal">- optional</tt></p>
+<p>This attribute specifies the size of the title font. Please note that the
+size is not specified in points but as a relative size multiplier compared to
+the body font on the panel. The default value is 2.</p>
+</div>
+<div class="section" id="static-text">
+<h1><a class="toc-backref" href="#id6">Static Text</a></h1>
+<p>Static text is simply text that is placed on the panel without direct
+connection to any of the input elements. It is laid out to use the entire
+layout width available on the panel and is broken into multiple lines if
+necessary. To specify static text create a <tt class="docutils literal">&lt;field&gt;</tt> tag and use the
+<tt class="docutils literal">type</tt> attribute with a value of <tt class="docutils literal">staticText</tt>. In addition to the ``
+txt`` and <tt class="docutils literal">id</tt> attributes, the text can be justified <tt class="docutils literal">left</tt>, <tt class="docutils literal">center</tt>
+or <tt class="docutils literal">right</tt> with the <tt class="docutils literal">align</tt> attribute. It is not possible to format this
+text in any way. You can also use variables in the text (as it was mentioned
+above), they will be substituted with variable's value.</p>
+<p><strong>Example</strong></p>
+<p>The following example inserts some static text in the panel.</p>
+<pre class="literal-block">
+&lt;field type=&quot;staticText&quot; align=&quot;left&quot;
+       txt=&quot;This is just some simple static text with variable substitution in here: $myvariable.&quot;
+       id=&quot;staticText.text&quot;/&gt;
+</pre>
+</div>
+<div class="section" id="visual-separation">
+<h1><a class="toc-backref" href="#id7">Visual Separation</a></h1>
+<p>Sometimes it is desirable to separate different entities visually. This can
+be accomplished by inserting a space or a divider. A space simply inserts a
+vertical separation of the average height of a single line entity, such as a
+line of text or a an input field. A divider inserts the same amount of space
+but also draws a division line which can be either aligned at the top or
+bottom of the separation.</p>
+<pre class="literal-block">
+&lt;field type=&quot;divider&quot; /&gt;
+&lt;field type=&quot;space&quot; /&gt;
+</pre>
+</div>
+<div class="section" id="text-input">
+<h1><a class="toc-backref" href="#id8">Text Input</a></h1>
+<p>A text input field allows the user to enter and edit a single line of text,
+without length restriction. The input field can have a label, which will show
+to the left of the input field and a description, which can span multiple
+lines. The description is placed above the input field and uses the entire
+available layout width. The width of the input field must be explicitly set,
+otherwise it will only accommodate a single character. To specify a text
+input field create a <tt class="docutils literal">&lt;field&gt;</tt> tag and use the <tt class="docutils literal">type</tt> attribute with a
+value of <tt class="docutils literal">text</tt>. The <tt class="docutils literal">txt</tt> and <tt class="docutils literal">id</tt> attributes are not supported here.
+The <tt class="docutils literal">variable</tt> attribute specifies the variable that should be replaced
+with the text taken from the input field.</p>
+<p><strong>The Data</strong></p>
+<p>The data consists of two items, a description and the spec. The <tt class="docutils literal">&lt;spec&gt;</tt>
+tag uses four attributes. The label text is specified with <tt class="docutils literal">txt</tt> and/or
+<tt class="docutils literal">id</tt> as described above. In addition, the width of the input field as it
+appears on the panel can be set with the <tt class="docutils literal">size</tt> attribute. The value must
+be an integer and sets the field width based on the average character width
+of the active font. If this is not specified, then you will end up with a
+very narrow field that is practically unusable.</p>
+<p>The fourth attribute <tt class="docutils literal">set</tt> is optional. It takes a text string to pre-fill
+the input field.</p>
+<p><strong>Example</strong></p>
+<p>The following example creates a text input field with a label and
+description. The width of the input field will be enough to accommodate 15
+characters. The field will be pre-set with the text 'some text' when the UI
+is first presented.</p>
+<pre class="literal-block">
+&lt;field type=&quot;text&quot; variable=&quot;textInput&quot;&gt;
+  &lt;description align=&quot;left&quot; txt=&quot;A description for a text input field&quot;
+      id=&quot;description.text&quot;/&gt;
+  &lt;spec txt=&quot;Enter some text:&quot; id=&quot;text.label&quot; size=&quot;15&quot; set=&quot;some text&quot;/&gt;
+&lt;/field&gt;
+</pre>
+</div>
+<div class="section" id="radio-buttons">
+<h1><a class="toc-backref" href="#id9">Radio Buttons</a></h1>
+<p>The radio buttons are useful when the user needs to select a specific option
+out of a pre-defined list of choices. This field offers an arbitrary number
+of mutually exclusive buttons, each with its own label. The placement of the
+buttons and labels is different form other fields. First, the button is
+placed to the left and the label text to the right. Second, the buttons are
+not lined up all the way to the left as other labels are but they are
+indented from that location. As with other fields, the description is placed
+above the list of radio buttons and uses the entire available layout width.
+To specify a set of radio buttons create a <tt class="docutils literal">&lt;field&gt;</tt> tag and use the
+<tt class="docutils literal">type</tt> attribute with a value of <tt class="docutils literal">radio</tt>. The <tt class="docutils literal">txt</tt> and `` id``
+attributes are <strong>not</strong> supported here. As with all other input fields, the
+<tt class="docutils literal">variable</tt> attribute specifies that variable that should be replaced with
+the user selection.</p>
+<p><strong>The Data</strong></p>
+<p>The data consists of two items, a description and the spec. The <tt class="docutils literal">&lt;spec&gt;</tt>
+tag has no attributes, instead the specification details are entered as data
+within the `` &lt;spec&gt;`` tag. The <tt class="docutils literal">&lt;spec&gt;</tt> data consists of one or more
+<tt class="docutils literal">&lt;choice&gt;</tt> tags. One <tt class="docutils literal">&lt;choice&gt;</tt> tag is required for each radio button.
+The `` &lt;choice&gt;`` tag accepts the usual <tt class="docutils literal">txt</tt> and <tt class="docutils literal">id</tt> attributes, which
+are used to specify the label text. In addition the following attributes are
+supported:</p>
+<p><strong>value</strong> <tt class="docutils literal">- required</tt></p>
+<p>The <tt class="docutils literal">value</tt> attribute is used to specify which value to insert if this
+associated radio button is selected. In other words, the label text has
+nothing to do with the value that is actually substituted for the variable.
+For this reason there is never an issue if multiple languages are used, the
+value is always the same for a given selection.</p>
+<p><strong>set</strong> <tt class="docutils literal">- optional</tt></p>
+<p>The <tt class="docutils literal">set</tt> attribute accepts the values <tt class="docutils literal">true</tt> and <tt class="docutils literal">false</tt>. Since the
+attribute is optional it can also be omitted, which is interpreted as
+<tt class="docutils literal">false</tt>. If a value of <tt class="docutils literal">true</tt> is used, the associated radio button will
+be selected when the UI is first presented. Obviously, only one of the
+buttons in a set should be set to <tt class="docutils literal">true</tt>.</p>
+<p><strong>Example</strong></p>
+<p>The following example creates a set of four radio buttons with description.
+The second button will be selected when the UI is first presented.</p>
+<pre class="literal-block">
+&lt;field type=&quot;radio&quot; variable=&quot;radioSelection&quot;&gt;
+  &lt;description align=&quot;left&quot; txt=&quot;This is a description for radio buttons&quot;
+            id=&quot;description.radio&quot;/&gt;
+  &lt;spec&gt;
+          &lt;choice txt=&quot;the first choice&quot; id=&quot;radio.label.1&quot; value=&quot;1 selected&quot; /&gt;
+          &lt;choice txt=&quot;the second choice&quot; id=&quot;radio.label.2&quot; value=&quot;2 selected&quot; set=&quot;true&quot; /&gt;
+          &lt;choice txt=&quot;the third choice&quot; id=&quot;radio.label.3&quot; value=&quot;3 selected&quot; /&gt;
+          &lt;choice txt=&quot;the fourth choice&quot; id=&quot;radio.label.4&quot; value=&quot;4 selected&quot; /&gt;
+  &lt;/spec&gt;
+&lt;/field&gt;
+</pre>
+</div>
+<div class="section" id="combo-box">
+<h1><a class="toc-backref" href="#id10">Combo Box</a></h1>
+<p>The combo box provides essentially the same functionality as do the radio
+buttons, just in a different presentation stile. The advantage of the combo
+box is that it is easier to deal with a long list of choices.</p>
+</div>
+<div class="section" id="check-box">
+<h1><a class="toc-backref" href="#id11">Check Box</a></h1>
+<p>If there are a number of choices and any combination of them could be
+selected, not just a single one, then radio buttons are not the way to go.
+You might be better off using a number of check boxes. The layout for a check
+box works in the same way as for radio buttons. The check box is placed
+indented from the left most edge and the label text is placed to the right of
+it. Other than with radio buttons, you cannot define any number of check
+boxes. This field allows the definition of only one check box, which is
+associated with one variable. If you need multiple check boxes you need to
+define one field for each of them. To make it look like a cohesive group you
+simply provide a description only for the first check box. All of the check
+boxes will be positioned in such a way that they look like a group, even
+though they are separate entities and their selections are conveyed to
+different variables. The description is placed above the check box and uses
+the entire available layout width. To specify a check box create a
+<tt class="docutils literal">&lt;field&gt;</tt> tag and use the <tt class="docutils literal">type</tt> attribute with a value of <tt class="docutils literal">check</tt>. As
+with all other input fields, the <tt class="docutils literal">variable</tt> attribute specifies the
+variable that should be replaced with the user input.</p>
+<p><strong>The Data</strong></p>
+<p>The data consists of two items, a description and the spec. The <tt class="docutils literal">&lt;spec&gt;</tt>
+tag accepts the usual <tt class="docutils literal">txt</tt> and <tt class="docutils literal">id</tt> attributes, which are used to
+specify the label text. In addition, the following attributes are supported:</p>
+<p><strong>true</strong> <tt class="docutils literal">- required</tt></p>
+<p>The <tt class="docutils literal">true</tt> attribute specifies the value to use for substitution when the
+box is selected.</p>
+<p><strong>false</strong> <tt class="docutils literal">- required</tt></p>
+<p>The <tt class="docutils literal">false</tt> attribute specifies the value to use for substitution when the
+box is not selected.</p>
+<p><strong>set</strong> <tt class="docutils literal">- optional</tt></p>
+<p>The <tt class="docutils literal">set</tt> attribute accepts the values <tt class="docutils literal">true</tt> and <tt class="docutils literal">false</tt>. Since the
+attribute is optional it can also be omitted, which is interpreted as
+<tt class="docutils literal">false</tt>. If a value of <tt class="docutils literal">true</tt> is used, the check box will be selected
+when the UI is first presented.</p>
+<p><strong>Example</strong></p>
+<p>The following example creates a check box with description. The check box
+will not be selected when the UI is first presented. This could also be
+accomplished by omitting the <tt class="docutils literal">set</tt> attribute.</p>
+<pre class="literal-block">
+&lt;field type=&quot;check&quot; variable=&quot;checkSelection.1&quot;&gt;
+  &lt;description align=&quot;left&quot; txt=&quot;This is a description for a check box&quot;
+            id=&quot;description.check.1&quot;/&gt;
+  &lt;spec txt=&quot;check box 1&quot; id=&quot;check.label.1&quot; true=&quot;on&quot; false=&quot;off&quot;
+      set=&quot;false&quot;/&gt;
+&lt;/field&gt;
+</pre>
+</div>
+<div class="section" id="password-field">
+<h1><a class="toc-backref" href="#id12">Password Field</a></h1>
+<p>The password field allows masked user input to accept password values.  Normally,
+a spec is created with 2 'pwd' elements to allow equality validation (below) and
+ensure the user typed the password correctly. The password field also allows
+<strong>multiple validators</strong> (see below).  This is a very powerful feature for chaining
+validation operations based on user input. See the PasswordKeystoreValidator for
+an example.</p>
+<pre class="literal-block">
+&lt;field type=&quot;password&quot; align=&quot;left&quot; variable=&quot;the.password&quot;&gt;
+  &lt;spec&gt;
+    &lt;pwd txt=&quot;The Password:&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+    &lt;pwd txt=&quot;Retype Password:&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+  &lt;/spec&gt;
+&lt;/field&gt;
+</pre>
+</div>
+<div class="section" id="file-field">
+<h1><a class="toc-backref" href="#id13">File Field</a></h1>
+<p>This field allows the user to select a file from the file system.  Text can be added before
+the selection or a static text element can be added to display above the selection box
+(a little more visually appealing).</p>
+<pre class="literal-block">
+&lt;field type=&quot;file&quot; align=&quot;left&quot; variable=&quot;the.file&quot;&gt;
+  &lt;spec txt=&quot;&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+&lt;/field&gt;
+</pre>
+<pre class="literal-block">
+&lt;field type=&quot;staticText&quot; align=&quot;left&quot; txt=&quot;Existing SSL keystore to import:&quot;/&gt;
+ &lt;field type=&quot;file&quot; align=&quot;left&quot; variable=&quot;existing.ssl.keystore&quot;&gt;
+   &lt;spec txt=&quot;&quot; size=&quot;25&quot; set=&quot;$myconfig&quot; /&gt;
+ &lt;/field&gt;
+</pre>
+<img alt="file-field.png" src="file-field.png" />
+<p>Pressing 'Next' without a file selected show the following message:</p>
+<img alt="file-field-error.png" src="file-field-error.png" />
+<p>Messages for the file field can be customized by creating a custom lang pack and
+overriding the following values (attribute values wrapped for readability):</p>
+<pre class="literal-block">
+&lt;str id=&quot;UserInputPanel.file.nofile.message&quot;   txt=&quot;You must select a valid file.&quot;/&gt;
+&lt;str id=&quot;UserInputPanel.file.nofile.caption&quot;   txt=&quot;No File Selected&quot;/&gt;
+&lt;str id=&quot;UserInputPanel.file.notfile.message&quot;   txt=&quot;The file you have chosen either
+            does not exist or is not valid.&quot;/&gt;
+&lt;str id=&quot;UserInputPanel.file.notfile.caption&quot;   txt=&quot;Invalid File&quot;/&gt;
+</pre>
+<p>Note: Mixing file fields with other fields that have text in front of
+them can lead to formatting (layout) issues. Placing these types of elements on
+different panels can provide a much better user experience.</p>
+</div>
+<div class="section" id="multiple-file-field">
+<h1><a class="toc-backref" href="#id14">Multiple File Field</a></h1>
+<p>This field allows the user to select multiple files from the file system.  Text can be added before
+the selection or a static text element can be added to display above the selection box
+(a little more visually appealing).</p>
+<p>The files in the list can be created as a semi-colon separated string in one varibale. It's also
+possible to let the input field create multiple variables with the given variable appended with indexes.
+E.g. specifying a variable with name the.file and three files selected in the box would lead to three
+variables in the installer (the.file, the.file_1, the.file_2).</p>
+<p>Set-Parameter :</p>
+<p><strong>visibleRows</strong>
+How many rows shall be shown in the list box.</p>
+<p><strong>prefX</strong>
+The preferred width of the list box. The default is 200.</p>
+<p><strong>prefY</strong>
+The preferred height of the list box. The default is 100.</p>
+<p><strong>fileext</strong>
+The file extension to search for. This will be used in the FileChooserDialog.</p>
+<p><strong>fileextdesc</strong>
+The description of the file extension. This will be used in the FileChooserDialog.</p>
+<p><strong>multipleVariables</strong>
+If set to true, multiple variables will be created. Each file will get one variable.</p>
+<p><strong>allowEmptyValue</strong>
+If set to true, no file has to be selected and the box can be left empty.</p>
+<pre class="literal-block">
+&lt;field type=&quot;multifile&quot; align=&quot;left&quot; variable=&quot;the.file&quot;&gt;
+  &lt;spec txt=&quot;&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+&lt;/field&gt;
+</pre>
+<pre class="literal-block">
+&lt;field type=&quot;staticText&quot; align=&quot;left&quot; txt=&quot;Existing SSL keystore to import:&quot;/&gt;
+ &lt;field type=&quot;file&quot; align=&quot;left&quot; variable=&quot;existing.ssl.keystore&quot;&gt;
+   &lt;spec txt=&quot;&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+ &lt;/field&gt;
+</pre>
+<p>Messages for the file field can be customized by creating a custom lang pack and
+overriding the following values (attribute values wrapped for readability):</p>
+<pre class="literal-block">
+&lt;str id=&quot;UserInputPanel.file.nofile.message&quot;   txt=&quot;You must select a valid file.&quot;/&gt;
+&lt;str id=&quot;UserInputPanel.file.nofile.caption&quot;   txt=&quot;No File Selected&quot;/&gt;
+&lt;str id=&quot;UserInputPanel.file.notfile.message&quot;   txt=&quot;The file you have chosen either
+            does not exist or is not valid.&quot;/&gt;
+&lt;str id=&quot;UserInputPanel.file.notfile.caption&quot;   txt=&quot;Invalid File&quot;/&gt;
+</pre>
+<p>Note: Mixing multiple file fields with other fields that have text in front of
+them can lead to formatting (layout) issues. Placing these types of elements on
+different panels can provide a much better user experience.</p>
+</div>
+<div class="section" id="directory-field">
+<h1><a class="toc-backref" href="#id15">Directory Field</a></h1>
+<p>The directory field is essentially the same as the file field except the
+field will ensure a directory is selected.</p>
+<pre class="literal-block">
+&lt;field type=&quot;dir&quot; align=&quot;left&quot; variable=&quot;existing.jboss.home&quot;&gt;
+  &lt;spec txt=&quot;&quot; size=&quot;25&quot; set=&quot;$INSTALL_PATH$FILE_SEPARATOR${jboss.version}&quot; mustExist=&quot;false&quot; /&gt;
+&lt;/field&gt;
+</pre>
+<p>The directory supports the following two special attributes for the <tt class="docutils literal">&lt;spec&gt;</tt> element:</p>
+<p><strong>mustExist</strong> <cite>- optional (default: true)</cite>
+Specifies whether or not the selected path must be an existing directory.</p>
+<p><strong>create</strong> <cite>- optional (default: false)</cite>
+Specifies whether or not the selected directory should be created if it does not exist (requires <cite>mustExist=true</cite>).</p>
+<p>Messages for the directory field can be customized by creating a custom lang pack and
+overriding the following values (attribute values wrapped for readability):</p>
+<pre class="literal-block">
+&lt;str id=&quot;UserInputPanel.dir.nodirectory.message&quot;   txt=&quot;You must select a valid directory.&quot;/&gt;
+&lt;str id=&quot;UserInputPanel.dir.nodirectory.caption&quot;   txt=&quot;No Directory Selected&quot;/&gt;
+&lt;str id=&quot;UserInputPanel.dir.notdirectory.message&quot;   txt=&quot;The directory you have chosen
+            either does not exist or is not valid.&quot;/&gt;
+&lt;str id=&quot;UserInputPanel.dir.notdirectory.caption&quot;   txt=&quot;Invalid Directory&quot;/&gt;
+</pre>
+<p>Note: Mixing directory fields with other fields that have text in front of
+them can lead to formatting (layout) issues. Placing these types of elements on
+different panels can provide a much better user experience.</p>
+</div>
+<div class="section" id="rule-input">
+<h1><a class="toc-backref" href="#id16">Rule Input</a></h1>
+<p>The rule input field is the most powerful and complex one of all the input
+fields offered by this panel. In its most simple incarnation it looks and
+works like a regular text input field. There is also only an incremental
+increase of the complexity in the specification for this case. However, it is
+unlikely that you would use it for such a purpose. The real power of this
+input field comes from the fact that rules can be applied to it that control
+many aspects of its look as well as overt and covert operation.</p>
+</div>
+<div class="section" id="layout-and-input-rules">
+<h1><a class="toc-backref" href="#id17">Layout and Input Rules</a></h1>
+<p>The basic nature of this input field is that of a text input field and as
+mentioned before, in its most simple incarnation that is what it looks like
+and how it operates. However, the layout of the field can be defined in such
+a way that there are multiple logically interconnected text input fields,
+adorned with multiple labels. Further more, each of these fields can be
+instructed to restrict the type of input that will be accepted. Now you might
+ask what this could be useful for. As an answer, let me present a few
+examples that show how this feature can be used. Before i do this however, i
+would like to describe the specification syntax, so that the examples can be
+presented together with the specifications that make them work in a
+meaningful way.</p>
+<p>The actual specification of the layout, the labels and the type of input each
+field accepts all happens in a single string with the <tt class="docutils literal">layout</tt> attribute.
+First let us have a look at the specification format for a single field. This
+format consists of a triplet of information, separated by two colons ':'. A
+typical field spec would look like this: <tt class="docutils literal">N:4:4</tt>, where the first item is a
+key that specifies the type of input this particular field will accept -
+numeric input in the example. The second item is an integer number that
+specifies the physical width of the field, this is the same as in the with of
+any regular text field. Therefore the field in the example will provide space
+to display four characters. The third item specifies the editing length of
+the string or in other words, the maximum length of the string that will be
+accepted by the field. In the <tt class="docutils literal">layout</tt> string you can list as may fields as
+you need, each with its own set of limitations. In addition you can add text
+at the front, the end and in between the fields. The various entities must be
+separated by white space. The behavior of this field is such that when the
+editing length of a field has been reached, the cursor automatically moves on
+to the next field. Also, when the backspace key is used to delete characters
+and the beginning of a field has been reached, the cursor automatically moves
+on to the previous field. So let us have a look a some examples.</p>
+<p><strong>Phone Number</strong></p>
+<p>The following specification will produce a pre formatted input field to
+accept a US phone number with in-house extension. Even though the pattern is
+formatted into number groups as customary, complete with parentheses '(' and
+dash '-', entering the number is as simple as typing all the digits. There is
+no need to advance using the tab key or to enter formatting characters.
+Because the fields only allow numeric entry, there is a much reduced chance
+for entering erroneous information. <tt class="docutils literal">&quot;( N:3:3 ) N:3:3 - N:4:4 x N:5:5&quot;</tt>.
+Each of the fields uses the 'N' key, indicating that only numerals will be
+accepted. Also, each of the fields only accepts strings of the same length as
+the physical width of the field.</p>
+<img alt="img7.png" src="img7.png" />
+<p><strong>E-Mail address</strong></p>
+<p>This specification creates a pattern that is useful for entering an e-mail
+address <tt class="docutils literal">&quot;AN:15:U &#64; AN:10:40 . A:4:4&quot;</tt>. Even though the first field is only
+fifteen characters wide it will accept a string of unlimited length, because
+the 'U' identifier is used for the edit length. The second field is a bit
+more restrictive by only accepting a string up to forty characters long.</p>
+<img alt="img8.png" src="img8.png" />
+<p><strong>IP address</strong></p>
+<p>It might not be uncommon to require entering of an IP address. The following
+simple specification will produce the necessary input field. All fields are
+the same, allowing just three digits of numerical entry. <tt class="docutils literal">&quot;N:3:3 . N:3:3 .
+N:3:3 . N:3:3&quot;</tt></p>
+<img alt="img9.png" src="img9.png" />
+<p><strong>Serial Number or Key Code</strong></p>
+<p>If you ship your product with a CD key code or serial number and require this
+information for registration, you might want to ask the customer to
+transcribe that number from the CD label, so that it is later on accessible
+to your application. As this is always an error prone operation, the
+predefined pattern with the easy editing support and restriction of accepted
+data helps to reduce transcription errors <tt class="docutils literal">&quot;H:4:4 - N:6:6 - N:3:3&quot;</tt>. This
+particular specification will produce three fields, the first accepting four
+hexadecimal, the second six numerical and the third three numerical digits.</p>
+<img alt="img10.png" src="img10.png" />
+<p><strong>Limitations</strong></p>
+<p>Even though the above examples all use single character labels between
+fields, there is no restriction on the length of these labels. In addition,
+it is possible to place label text in front of the first field and after the
+last field and the text can even contain spaces. The only limitation in this
+regard is the fact that all white space in the text will be reduced to a
+single space on the display. This means that it is not possible to use
+multiple spaces or tabs in the text.</p>
+<p>The following table lists and describes all the keys that can be used in the
+specification string.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="2%" />
+<col width="9%" />
+<col width="88%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Key</th>
+<th class="head">Meaning</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>N</td>
+<td>numeric</td>
+<td>The field will accept only numerals.</td>
+</tr>
+<tr><td>H</td>
+<td>hexadecimal</td>
+<td>The field will accept only hexadecimal numerals, that is all numbers from 0-F.</td>
+</tr>
+<tr><td>A</td>
+<td>alphabetic</td>
+<td>The field will accept only alphabetic characters. Numerals and punctuation marks will not be accepted.</td>
+</tr>
+<tr><td>AN</td>
+<td>alpha-numeric</td>
+<td>The field will accept alphabetic characters and numerals but no punctuation marks.</td>
+</tr>
+<tr><td>O</td>
+<td>open</td>
+<td>The filed will accept any input, without restriction.</td>
+</tr>
+<tr><td>U</td>
+<td>unlimited</td>
+<td>This key is only legal for specifying the editing length of a fields. If used, the field imposes no length restriction on the text entered.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="setting-field-content">
+<h1><a class="toc-backref" href="#id18">Setting Field Content</a></h1>
+<p>Like all other input fields the rule input field can also be pre-filled with
+data and as usual, this is accomplished thought the <tt class="docutils literal">set</tt> attribute. As you
+might expect, the details of setting this field are rather on the complicated
+side. In fact you can set each sub field individually and you can leave some
+of the fields blank in the process. The <tt class="docutils literal">set</tt> specification for all sub
+fields is given in a single string. Each field is addressed by its index
+number, with the count starting at 0. The index is followed by a colon ':'
+and then by the content of the field. The string &quot;0:1234 1:af415 3:awer&quot;
+would fill the first subfield with <tt class="docutils literal">1234</tt>, the second one with <tt class="docutils literal">af415</tt>
+and the fourth with <tt class="docutils literal">awer</tt>. The third subfield would stay blank and so
+would any additional fields that might follow.</p>
+<p>The individual field specs must be separated with spaces. Spaces within the
+pre-fill values are not allowed, otherwise the result is undefined.</p>
+</div>
+<div class="section" id="the-output-format">
+<h1><a class="toc-backref" href="#id19">The Output Format</a></h1>
+<p>The user input from all subfields is combined into one single value and used
+to replace the variable associated with the field. You can make a number of
+choices when it comes to the way how the subfield content is combined. This
+is done with the <tt class="docutils literal">resultFormat</tt> and <tt class="docutils literal">separator</tt> attributes. The
+<tt class="docutils literal">resultFormat</tt> attribute can take the following values:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Value</th>
+<th class="head">Meaning</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td><tt class="docutils literal">plainString</tt></td>
+<td>The content of all subfields is simply concatenated into one long string.</td>
+</tr>
+<tr><td><tt class="docutils literal">displayFormat</tt></td>
+<td>The content of all subfields and all labels (as displayed) is concatenated into one long string.</td>
+</tr>
+<tr><td><tt class="docutils literal">specialSeparator</tt></td>
+<td>The content of all subfields is concatenated into one string, using the string specified with the <tt class="docutils literal">separator</tt> attribute to separate the content of the subfields.</td>
+</tr>
+<tr><td><tt class="docutils literal">processed</tt></td>
+<td>The content is processed by Java code that you supply before replacing the variable. How to do this is described below.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="validating-field-content">
+<h1><a class="toc-backref" href="#id20">Validating Field Content</a></h1>
+<p>You can provide runtime validation for user input into a text field and rule field
+via the <tt class="docutils literal">validator</tt> element (which is a child of the <tt class="docutils literal">field</tt> element. There are
+two types of built-in validators already provided: a <tt class="docutils literal">NotEmptyValidator</tt>
+and a <tt class="docutils literal">RegularExpressionValidator</tt>. You can also easily create your own
+validator. In all cases, if the chosen validator returns <tt class="docutils literal">false</tt>, a
+messagebox will display the contents of the <tt class="docutils literal">txt</tt> attribute and the user
+will be unable to continue to the next panel.</p>
+<p>You can specify a processor for a combobox:</p>
+<pre class="literal-block">
+&lt;choice processor=&quot;fully.qualified.class.name&quot;
+        set=&quot;selectedValue&quot;/&gt;
+</pre>
+<p>so that you can fill a combobox with data on a simple way.</p>
+<div class="section" id="notemptyvalidator">
+<h2><a class="toc-backref" href="#id21">NotEmptyValidator</a></h2>
+<p>The <tt class="docutils literal">NotEmptyValidator</tt> simply checks that the user entered a non-null
+value into each subfield, and returns <tt class="docutils literal">false</tt> otherwise.</p>
+</div>
+<div class="section" id="regularexpressionvalidator">
+<h2><a class="toc-backref" href="#id22">RegularExpressionValidator</a></h2>
+<p>The <tt class="docutils literal">RegularExpressionValidator</tt> checks that the user entered a value which
+matches a specified regular expression, as accepted by the Jakarta Regexp
+library (<a class="reference external" href="http://jakarta.apache.org/regexp/">http://jakarta.apache.org/regexp/</a>). The syntax of this
+implementation is described in the javadoc of the <tt class="docutils literal">RE</tt> class
+(<a class="reference external" href="http://jakarta.apache.org/regexp/apidocs/org/apache/regexp/RE.html">http://jakarta.apache.org/regexp/apidocs/org/apache/regexp/RE.html</a>).</p>
+<p>You can specify the regular expression to be tested by passing a parameter
+with a name of <tt class="docutils literal">pattern</tt> to the validator (via the <tt class="docutils literal">param</tt> element), with
+the regular expression as the <tt class="docutils literal">value</tt> attribute. For example, the following
+would validate an e-mail address:</p>
+<p>The example of using Regexp validator in rule input field:</p>
+<pre class="literal-block">
+&lt;field type=&quot;rule&quot; variable=&quot;EMAILaddress&quot;&gt;
+  &lt;spec
+      txt=&quot;Your Email address:&quot; layout=&quot;O:12:U &#64; O:8:40 .
+      A:4:4&quot;
+      set=&quot;0: 1:domain 2:com&quot; resultFormat=&quot;displayFormat&quot;
+  /&gt;
+  &lt;validator
+  class=&quot;com.izforge.izpack.util.RegularExpressionValidator&quot;
+      txt=&quot;Invalid email address!&quot;&gt;
+    &lt;param
+        name=&quot;pattern&quot;
+        value=&quot;[a-zA-Z0-9._-]{3,}&#64;[a-zA-Z0-9._-]+([.][a-zA-Z0
+        -9_-]+)*[.][a-zA-Z0-9._-]{2,4}&quot;
+    /&gt;
+  &lt;/validator&gt;
+&lt;/field&gt;
+</pre>
+<p>The example of using Regexp validator in text input field:</p>
+<pre class="literal-block">
+&lt;field type=&quot;text&quot; variable=&quot;EMAILaddress&quot;&gt;
+  &lt;spec
+      txt=&quot;Your Email address:&quot; set=&quot;you&#64;domain.com&quot; size=&quot;20&quot; id=&quot;&quot;
+  /&gt;
+  &lt;validator
+  class=&quot;com.izforge.izpack.util.RegularExpressionValidator&quot;
+      txt=&quot;Invalid email address!&quot;&gt;
+    &lt;param
+        name=&quot;pattern&quot;
+        value=&quot;[a-zA-Z0-9._-]{3,}&#64;[a-zA-Z0-9._-]+([.][a-zA-Z0
+        -9_-]+)*[.][a-zA-Z0-9._-]{2,4}&quot;
+    /&gt;
+  &lt;/validator&gt;
+&lt;/field&gt;
+</pre>
+<p>An example of using regexp validator in a password field
+(attribute text wrapped for readability):</p>
+<pre class="literal-block">
+&lt;field type=&quot;password&quot; align=&quot;left&quot; variable=&quot;db.password&quot;&gt;
+  &lt;spec&gt;
+    &lt;pwd txt=&quot;DB Password:&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+    &lt;pwd txt=&quot;Retype Password:&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+  &lt;/spec&gt;
+  &lt;validator class=&quot;com.izforge.izpack.util.PasswordEqualityValidator&quot;
+                txt=&quot;Both DB passwords must match.&quot; id=&quot;key for the error text&quot;/&gt;
+  &lt;validator class=&quot;com.izforge.izpack.util.RegularExpressionValidator&quot;
+                txt=&quot;Service password must begin with a character and be 8-20
+                                 mixed-case characters, numbers, and special characters [#&#64;!$_].&quot;
+                                 id=&quot;key for the error text&quot;&gt;
+    &lt;param name=&quot;pattern&quot; value=&quot;^(?=[a-zA-Z])(?=.*[0-9])(?=.*[#&#64;!$_])
+                (?=.*[A-Z])(?=.*[a-z])(?!.*[^a-zA-Z0-9#&#64;!$_])(?!.*\s).{8,20}$&quot;/&gt;
+  &lt;/validator&gt;
+&lt;/field&gt;
+</pre>
+<p>You can test your own regular expressions using the handy applet at
+<a class="reference external" href="http://jakarta.apache.org/regexp/applet.html">http://jakarta.apache.org/regexp/applet.html</a>.</p>
+</div>
+<div class="section" id="passwordequalityvalidator">
+<h2><a class="toc-backref" href="#id23">PasswordEqualityValidator</a></h2>
+<p>This validator uses a password field specification to compare the values in
+each field for equality. Normally, this would be to ensure a password was
+typed correctly before any other validation takes place.</p>
+<pre class="literal-block">
+&lt;field type=&quot;password&quot; align=&quot;left&quot; variable=&quot;the.password&quot;&gt;
+  &lt;spec&gt;
+    &lt;pwd txt=&quot;The Password:&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+    &lt;pwd txt=&quot;Retype Password:&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+  &lt;/spec&gt;
+  &lt;validator class=&quot;com.izforge.izpack.util.PasswordEqualityValidator&quot;
+        txt=&quot;Both passwords must match.&quot; id=&quot;lang pack key for the error text&quot;/&gt;
+&lt;/field&gt;
+</pre>
+</div>
+<div class="section" id="passwordkeystorevalidator">
+<h2><a class="toc-backref" href="#id24">PasswordKeystoreValidator</a></h2>
+<p>This validator uses the password field and parameters you send in from previous
+user input or predefined properties to open a keystore and optionally try to
+get a specified key.</p>
+<p>You must specify the parameter 'keystoreFile', and optionally 'keystoreType'
+(defaults to JKS), 'keystoreAlias' (to check for existence of a key),
+and 'aliasPassword' (for trying to retrieve the key).</p>
+<p>An additional parameter 'skipValidation' can be set to 'true' in a checkbox and
+allow the validator framework to run, but not actually do the validation.</p>
+<p>Optionally checking the key password of multiple keys within a keystore
+requires the keystore password (if different from the key password) be set
+in the 'keystorePassword' parameter.</p>
+<pre class="literal-block">
+&lt;field type=&quot;password&quot; align=&quot;left&quot; variable=&quot;keystore.password&quot;&gt;
+  &lt;spec&gt;
+    &lt;pwd txt=&quot;Keystore Password:&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+    &lt;pwd txt=&quot;Retype Password:&quot; size=&quot;25&quot; set=&quot;&quot;/&gt;
+  &lt;/spec&gt;
+  &lt;validator class=&quot;com.izforge.izpack.util.PasswordEqualityValidator&quot;
+                txt=&quot;Both keystore passwords must match.&quot; id=&quot;key for the error text&quot;/&gt;
+  &lt;validator class=&quot;com.izforge.izpack.util.PasswordKeystoreValidator&quot;
+                txt=&quot;Could not validate keystore with password and alias provided.&quot; id=&quot;key for the error text&quot;&gt;
+    &lt;param name=&quot;keystoreFile&quot; value=&quot;${ssl.keystore}&quot;/&gt;
+    &lt;param name=&quot;keystoreType&quot; value=&quot;${ssl.keystore.type}&quot;/&gt;
+    &lt;param name=&quot;keystoreAlias&quot; value=&quot;${keystore.key.alias}&quot;/&gt;
+    &lt;param name=&quot;skipValidation&quot; value=&quot;${skip.keystore.validation}&quot;/&gt;
+  &lt;/validator&gt;
+&lt;/field&gt;
+</pre>
+</div>
+<div class="section" id="creation-your-own-custom-validator">
+<h2><a class="toc-backref" href="#id25">Creation Your Own Custom Validator</a></h2>
+<p>You can create your own custom Validator implementation simply by creating a
+new class which implements the <tt class="docutils literal">com.izforge.izpack.panels.Validator</tt>
+interface. This interface specifies a single method:
+<tt class="docutils literal">validate(ProcessingClient client)</tt> , which returns a <tt class="docutils literal">boolean</tt> value.
+You can retrieve the value entered by the user by casting the input
+ProcessingClient as a <tt class="docutils literal">RuleInputField</tt> and calling the
+<tt class="docutils literal">RuleInputField.getText()</tt> method. You can also retrieve any parameters to
+your custom <tt class="docutils literal">Validator</tt> by calling the
+<tt class="docutils literal">RuleInputField.getValidatorParams()</tt> which returns a <tt class="docutils literal">java.util.Map</tt>
+object containing parameter names mapped to parameter values. For an example,
+take a look at
+<tt class="docutils literal">com.izforge.izpack.util.RegularExpressionValidator</tt>.</p>
+<p>Set values in the RuleInputField can be preprocessed. At now you can specify
+a processor class to pre process a value to be set at initial value of a
+RuleInputField. Syntax:</p>
+<pre class="literal-block">
+&lt;spec set=&quot;0:defaultVal:classname&quot; .../&gt;
+</pre>
+<p>The class name is an optional value. The class must implement the
+<tt class="docutils literal">Processor</tt> interface.</p>
+</div>
+</div>
+<div class="section" id="processing-the-field-content">
+<h1><a class="toc-backref" href="#id26">Processing the Field Content</a></h1>
+<p>This feature needs to be documented.</p>
+</div>
+<div class="section" id="summary-example">
+<h1><a class="toc-backref" href="#id27">Summary Example</a></h1>
+<pre class="literal-block">
+&lt;field type=&quot;rule&quot; variable=&quot;test1&quot;&gt;
+  &lt;description align=&quot;left&quot; txt=&quot;A description for a rule input
+  field.&quot;
+               id=&quot;description.rule.1&quot;/&gt;
+  &lt;spec txt=&quot;Please enter your phone number:&quot;
+        layout=&quot;( N:3:3 ) N:3:3 - N:4:4 x N:5:5&quot;
+        resultFormat=&quot;specialSeparator&quot; separator=&quot;.&quot;/&gt;
+  &lt;validator class=&quot;com.izforge.izpack.util.NotEmptyValidator&quot;
+             txt=&quot;The phone number is mandatory!&quot; /&gt;
+  &lt;!--processor class=&quot;&quot;/--&gt;
+&lt;/field&gt;
+</pre>
+</div>
+<div class="section" id="search">
+<h1><a class="toc-backref" href="#id28">Search</a></h1>
+<p>The search input field allows the user to choose the location of files or
+directories. It also supports auto-detection of the location using a list of
+suggestions. The field is basically a combobox with an extra button to
+trigger auto-detection (again).</p>
+<img alt="img11.png" src="img11.png" />
+</div>
+<div class="section" id="specification">
+<h1><a class="toc-backref" href="#id29">Specification</a></h1>
+<p>The <tt class="docutils literal">&lt;description&gt;</tt> tag is the same as with other fields</p>
+<p>The <tt class="docutils literal">&lt;spec&gt;</tt> tag supports the following attributes:</p>
+<ul class="simple">
+<li><tt class="docutils literal">filename</tt> - the name of the file or directory to search for</li>
+<li><tt class="docutils literal">type</tt> - what to search for<ul>
+<li><tt class="docutils literal">file</tt> - search for a file</li>
+<li><tt class="docutils literal">directory</tt> - search for a directory</li>
+</ul>
+</li>
+<li><tt class="docutils literal">result</tt> - what to return as the search result<ul>
+<li><tt class="docutils literal">file</tt> - result of search is whole pathname of file or directory found</li>
+<li><tt class="docutils literal">directory</tt> - only return directory where the file was found (this is the same as <tt class="docutils literal">file</tt> when searching for directories)</li>
+<li><tt class="docutils literal">parentdir</tt> - return the full path of the parent directory where the file was found</li>
+</ul>
+</li>
+<li><tt class="docutils literal">checkfilename</tt> - the name of a file or directory to check for
+existence (this can be used to validate the user's selection)</li>
+</ul>
+</div>
+<div class="section" id="example">
+<h1><a class="toc-backref" href="#id30">Example</a></h1>
+<pre class="literal-block">
+&lt;field type=&quot;search&quot; variable=&quot;java_sdk_home&quot;&gt;
+  &lt;description align=&quot;left&quot;
+               txt=&quot;This is a description for a search
+               input field.&quot;
+               id=&quot;description.java_sdk_home&quot;/&gt;
+  &lt;spec txt=&quot;Path to Java SDK:&quot; checkfilename=&quot;lib/tools.jar&quot;
+        type=&quot;file&quot; result=&quot;directory&quot;&gt;
+  &lt;choice value=&quot;/usr/lib/java/&quot; os=&quot;unix&quot; /&gt;
+  &lt;choice value=&quot;/opt/java&quot; os=&quot;unix&quot; /&gt;
+  &lt;choice value=&quot;C:\Program Files\Java&quot; os=&quot;windows&quot; /&gt;
+  &lt;choice value=&quot;C:\Java&quot; os=&quot;windows&quot; /&gt;
+  &lt;/spec&gt;
+&lt;/field&gt;
+</pre>
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+</div>
+</div>
+</body>
+</html>
