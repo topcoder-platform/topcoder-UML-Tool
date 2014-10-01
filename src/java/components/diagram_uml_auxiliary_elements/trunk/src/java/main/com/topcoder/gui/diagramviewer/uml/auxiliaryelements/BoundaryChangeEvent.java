@@ -65,7 +65,6 @@ public class BoundaryChangeEvent extends EventObject {
      * Constructs a bounding change event.
      * </p>
      *
-     * @param node - the node that¡¯s bound changed
      * @param oldBoundary - the old bound value
      * @param newBoundary - the new bound value.
      *
@@ -81,7 +80,6 @@ public class BoundaryChangeEvent extends EventObject {
      * Constructs a bounding change event. Assign the params to corresponding fields.
      * </p>
      *
-     * @param node - the node that¡¯s bound changed
      * @param oldBoundary - the old bound value
      * @param newBoundary - the new bound value.
      * @param message - the message (can be null or empty)

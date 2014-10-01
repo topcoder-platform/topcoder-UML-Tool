@@ -9,7 +9,6 @@ import com.topcoder.util.errorhandling.BaseException;
 /**
  * <p>
  * This exception is used to indicate the configuration errors.
- * It may indicate namespace in <code>ConfigManager</code> doesn¡¯t exist,
  * Or some required properties are not configured.
  * </p>
  *

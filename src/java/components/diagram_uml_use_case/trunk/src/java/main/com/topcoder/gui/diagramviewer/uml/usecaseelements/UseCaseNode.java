@@ -33,7 +33,6 @@ import com.topcoder.diagraminterchange.GraphNode;
  *   SimpleSemanticModelElement.typeInfo = "NameCompartment"
  *      SimpleSemanticModelElement.typeInfo = "StereotypeCompartment"
  *      SimpleSemanticModelElement.typeInfo = "Name"
- *      SimpleSemanticModelElement.typeInfo = "NamespaceCompartment¡±
  * </p>
  * <p>
  * <b>Thread Safety</b>: This class is not thread safe, because the BaseNode class is not thread safe.
@@ -402,7 +401,6 @@ public class UseCaseNode extends BaseNode {
      *   SimpleSemanticModelElement.typeInfo = "NameCompartment"
      *      SimpleSemanticModelElement.typeInfo = "StereotypeCompartment"
      *      SimpleSemanticModelElement.typeInfo = "Name"
-     *      SimpleSemanticModelElement.typeInfo = "NamespaceCompartment¡±
      * </p>
      * @param graphNode the GraphNode instance for check
      * @return the instance of GraphNode

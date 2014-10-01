@@ -59,7 +59,6 @@ import com.topcoder.gui.diagramviewer.uml.usecaseelements.event.PopupMenuTrigger
  *   SimpleSemanticModelElement.typeInfo = "NameCompartment"
  *     SimpleSemanticModelElement.typeInfo = "StereotypeCompartment"
  *     SimpleSemanticModelElement.typeInfo = "Name"
- *     SimpleSemanticModelElement.typeInfo = "NamespaceCompartment¡±
  *   SimpleSemanticModelElement.typeInfo = "BodyCompartment"
  * </p>
  * <p>
@@ -904,7 +903,6 @@ public class SubsystemNodeContainer extends NodeContainer {
      *   SimpleSemanticModelElement.typeInfo = "NameCompartment"
      *     SimpleSemanticModelElement.typeInfo = "StereotypeCompartment"
      *     SimpleSemanticModelElement.typeInfo = "Name"
-     *     SimpleSemanticModelElement.typeInfo = "NamespaceCompartment¡±
      *   SimpleSemanticModelElement.typeInfo = "BodyCompartment"
      * </p>
      *
