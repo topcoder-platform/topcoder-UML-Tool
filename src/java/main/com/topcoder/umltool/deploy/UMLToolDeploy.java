@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.IOException;
 import java.lang.Thread.UncaughtExceptionHandler;
 
+import javax.swing.JFrame;
 import javax.swing.UIDefaults;
 import javax.swing.UIManager;
 import javax.swing.plaf.FontUIResource;
@@ -14,7 +15,6 @@ import javax.swing.plaf.FontUIResource;
 import com.topcoder.umltool.deploy.actions.ExportAllDiagramsAction;
 import com.topcoder.util.log.Log;
 import com.topcoder.util.log.LogFactory;
-
 import com.topcoder.macosx.MacOSXAdapter;
 
 /**
@@ -154,25 +154,41 @@ public class UMLToolDeploy {
             }
         }
 
-        // To be replaced with a custom class loader.
-        final SplashScreen splashScreen = new SplashScreen();
-        splashScreen.setVisible(true);
+        showMainFrame(args, new SplashScreen());
+    }
 
-        try {
-            Thread.sleep(100);
-        } catch (InterruptedException e) {
-            DeployHelper.logException(e);
+    /**
+     * Shows the main frame. It could be terms and conditions frame of the actual main frame.
+     * @param args the command line arguments.
+     * @param splashScreen the splash screen if it needs to be shown first.
+     */
+    public static void showMainFrame(final String[] args, final SplashScreen splashScreen) {
+        if (splashScreen != null) {
+            // To be replaced with a custom class loader.
+            splashScreen.setVisible(true);
+    
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                DeployHelper.logException(e);
+            }
         }
 
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 String fileToLoad = null;
-                MainFrame mainFrame = null;
+                JFrame mainFrame = null;
+                boolean tacAccepted = Boolean.parseBoolean(DeployHelper.getProperty("com.topcoder.umltool.deploy",
+                    "TermsAndConditionsAccepted", "false"));
                 if (args.length > 0) {
                     fileToLoad = args[0];
                 }
                 try {
-                    mainFrame = new MainFrame();
+                    if (tacAccepted) {
+                        mainFrame = new MainFrame();
+                    } else {
+                        mainFrame = new TermsAndConditionsFrame(args);
+                    }
                     try {
                         int width =
                             Integer.parseInt(DeployHelper.getProperty("com.topcoder.umltool.deploy", "Width"));
@@ -182,7 +198,6 @@ public class UMLToolDeploy {
                     } catch (Exception e) {
                         mainFrame.setSize(mainFrame.getMaximumSize());
                     }
-
                 } catch (DeployConfigException e1) {
                     DeployHelper.logException(e1);
                     splashScreen.close();
@@ -205,8 +220,10 @@ public class UMLToolDeploy {
                             (Class[]) null));
                         // register the file handler for opening files double-clicked in finder or drag and dropped
                         // onto the application icon
-                        MacOSXAdapter.setFileHandler(mainFrame, mainFrame.getClass().getDeclaredMethod(
-                            "loadProject", new Class[] {String.class}));
+                        if (tacAccepted) {
+                            MacOSXAdapter.setFileHandler(mainFrame, mainFrame.getClass().getDeclaredMethod(
+                                "loadProject", new Class[] {String.class}));
+                        }
                     } catch (Exception e) {
                         DeployHelper.logException(new DeployConfigException(
                             "Error while loading the MacOSXAdapter", e));
@@ -230,11 +247,16 @@ public class UMLToolDeploy {
                     } else if ("xmi".equals(extension)) {
                         openType = MainFrame.OPEN_PROJECT_XMI_TC;
                     }
-                    mainFrame.loadProject(file, openType);
+                    if (tacAccepted) {
+                        ((MainFrame) mainFrame).loadProject(file, openType);
+                    }
                 }
 
                 mainFrame.setVisible(true);
-                splashScreen.close();
+                
+                if (splashScreen != null) {
+                    splashScreen.close();
+                }
             }
         });
     }
