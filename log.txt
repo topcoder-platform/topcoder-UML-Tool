@@ -7,3 +7,68 @@
 2014-09-26 16:05:42,408 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.AddUseCaseNodeAction - Add Use Case Node
 2014-09-26 16:05:42,408 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.UpdateNodeContainerAction - Node added
 2014-09-26 16:05:45,479 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.AddDependencyEdgeAction - Add Dependency Edge
+2014-10-01 10:42:04,017 INFO AWT-EventQueue-0 com.topcoder.uml.actions.diagram.CreateClassDiagramAction - Create ClassDiagram diagram Class Diagram 1
+2014-10-01 10:42:05,071 INFO AWT-EventQueue-0 com.topcoder.uml.actions.diagram.ChangeDiagramTitleAction - Change Diagram Title Class Diagram 1
+2014-10-01 10:42:05,079 INFO AWT-EventQueue-0 com.topcoder.uml.actions.diagram.ChangeDiagramTitleAction - Change Diagram Title Class Diagram 1
+2014-10-01 10:42:05,941 INFO AWT-EventQueue-0 com.topcoder.uml.actions.diagram.ChangeDiagramTitleAction - Change Diagram Title Class Diagram 1
+2014-10-01 10:42:07,687 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.AddPackageNodeAction - Add Package Node
+2014-10-01 10:42:07,687 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.UpdateNodeContainerAction - Node added
+2014-10-01 10:42:08,777 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.ChangeEntityNameAction - Change entity name to Test
+2014-10-01 10:42:08,787 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.CompositeUndoableAction - Composite actions
+2014-10-01 10:42:11,063 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.AddClassNodeAction - Add Class Node
+2014-10-01 10:42:11,064 INFO AWT-EventQueue-0 com.topcoder.uml.actions.general.ChangeSizeAction - Change size to com.topcoder.diagraminterchange.Dimension@2a9a42ef
+2014-10-01 10:42:11,064 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.UpdateNodeContainerAction - Node added
+2014-10-01 10:42:12,283 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.ChangeEntityNameAction - Change entity name to Test
+2014-10-01 10:42:12,292 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.CompositeUndoableAction - class name changed
+2014-10-01 10:42:14,016 INFO AWT-EventQueue-0 com.topcoder.uml.actions.model.classifiers.feature.AddAttributeAction - Add Attribute
+2014-10-01 10:42:14,024 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.UpdateNodeContainerAction - Attribute added
+2014-10-01 10:42:15,826 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.ChangeEntityNameAction - Change entity name to test
+2014-10-01 10:42:15,837 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.UpdateNodeContainerAction - Attribute text changed.
+2014-10-01 10:42:17,020 INFO AWT-EventQueue-0 com.topcoder.uml.actions.model.classifiers.feature.AddOperationAction - Add operation
+2014-10-01 10:42:17,027 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.UpdateNodeContainerAction - Operation added
+2014-10-01 10:42:18,447 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.ChangeEntityNameAction - Change entity name to test
+2014-10-01 10:42:18,458 INFO AWT-EventQueue-0 com.topcoder.umltool.deploy.actions.undoable.UpdateNodeContainerAction - Operation text changed.
+2014-10-01 10:42:39,708 INFO Thread-5 com.topcoder.uml.actions.general.ChangeSizeAction - Change size to com.topcoder.diagraminterchange.Dimension@1e05b891
+2014-10-01 10:42:39,708 INFO Thread-5 com.topcoder.umltool.deploy.actions.undoable.UpdateDiagramAction - recover
+2014-10-01 10:53:18,149 ERROR AWT-EventQueue-0 UMLToolDeploy - com.topcoder.umltool.deploy.DeployConfigException: Error while loading the MacOSXAdapter
+	at com.topcoder.umltool.deploy.UMLToolDeploy$1.run(UMLToolDeploy.java:228)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:715)
+	at java.awt.EventQueue.access$400(EventQueue.java:82)
+	at java.awt.EventQueue$2.run(EventQueue.java:676)
+	at java.awt.EventQueue$2.run(EventQueue.java:674)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:685)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:196)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:188)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+Caused by: java.lang.NoSuchMethodException: com.topcoder.umltool.deploy.TermsAndConditionsFrame.quit()
+	at java.lang.Class.getDeclaredMethod(Class.java:1973)
+	at com.topcoder.umltool.deploy.UMLToolDeploy$1.run(UMLToolDeploy.java:219)
+	... 14 more
+
+2014-10-01 10:53:31,422 ERROR AWT-EventQueue-0 UMLToolDeploy - com.topcoder.umltool.deploy.DeployConfigException: Error while loading the MacOSXAdapter
+	at com.topcoder.umltool.deploy.UMLToolDeploy$1.run(UMLToolDeploy.java:228)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:209)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:715)
+	at java.awt.EventQueue.access$400(EventQueue.java:82)
+	at java.awt.EventQueue$2.run(EventQueue.java:676)
+	at java.awt.EventQueue$2.run(EventQueue.java:674)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:86)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:685)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:196)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:188)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+Caused by: java.lang.NoSuchMethodException: com.topcoder.umltool.deploy.TermsAndConditionsFrame.quit()
+	at java.lang.Class.getDeclaredMethod(Class.java:1973)
+	at com.topcoder.umltool.deploy.UMLToolDeploy$1.run(UMLToolDeploy.java:219)
+	... 14 more
+

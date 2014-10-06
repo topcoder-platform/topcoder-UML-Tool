@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>tcuml</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>TopCoder UML Tool Document</string>
+			<key>CFBundleTypeName</key>
+			<string>TopCoder UML Tool Document</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSTypeIsPackage</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>zuml</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>TopCoder UML Tool Document</string>
+			<key>CFBundleTypeName</key>
+			<string>TopCoder UML Tool Document</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSTypeIsPackage</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>xmi</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>TopCoder UML Tool Document</string>
+			<key>CFBundleTypeName</key>
+			<string>TopCoder UML Tool Document</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSTypeIsPackage</key>
+			<string>No</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>TopCoder UML Tool</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string>TopCoder UML Tool.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.topcoder.TopCoder UML Tool</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>TopCoder UML Tool</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.2.7</string>
+	<key>Java</key>
+	<dict>
+		<key>ClassPath</key>
+		<string>$JAVAROOT/:$APP_PACKAGE/Contents/Resources/conf:$APP_PACKAGE/Contents/Resources/resources:$JAVAROOT/lib/eclipse/commons-beanutils-1.8.0.jar/:$JAVAROOT/lib/eclipse/commons-digester-2.0.jar/:$JAVAROOT/lib/eclipse/commons-logging-1.1.1.jar/:$JAVAROOT/lib/eclipse/org.eclipse.core.contenttype_3.4.100.v20100505-1235.jar/:$JAVAROOT/lib/eclipse/org.eclipse.core.jobs_3.5.0.v20100515.jar/:$JAVAROOT/lib/eclipse/org.eclipse.core.resources_3.6.0.v20100526-0737.jar/:$JAVAROOT/lib/eclipse/org.eclipse.core.runtime_3.6.0.v20100505.jar/:$JAVAROOT/lib/eclipse/org.eclipse.equinox.common_3.6.0.v20100503.jar/:$JAVAROOT/lib/eclipse/org.eclipse.equinox.preferences_3.3.0.v20100503.jar/:$JAVAROOT/lib/eclipse/org.eclipse.jdt.core_3.6.0.v_A58.jar/:$JAVAROOT/lib/eclipse/org.eclipse.osgi.services_3.2.100.v20100503.jar/:$JAVAROOT/lib/eclipse/org.eclipse.osgi_3.6.0.v20100517.jar/:$JAVAROOT/lib/eclipse/org.eclipse.text_3.5.0.v20100601-1300.jar/:$JAVAROOT/lib/izPack/lib/Uninstaller/uninstaller.jar/:$JAVAROOT/lib/izPack/lib/bin/customActions/AntActionInstallerListener.jar/:$JAVAROOT/lib/izPack/lib/bin/customActions/AntActionUninstallerListener.jar/:$JAVAROOT/lib/izPack/lib/bin/customActions/BSFInstallerListener.jar/:$JAVAROOT/lib/izPack/lib/bin/customActions/BSFUninstallerListener.jar/:$JAVAROOT/lib/izPack/lib/bin/customActions/LateShortcutInstallListener.jar/:$JAVAROOT/lib/izPack/lib/bin/customActions/ProgressBarInstallerListener.jar/:$JAVAROOT/lib/izPack/lib/bin/customActions/RegistryInstallerListener.jar/:$JAVAROOT/lib/izPack/lib/bin/customActions/RegistryUninstallerListener.jar/:$JAVAROOT/lib/izPack/lib/bin/customActions/SummaryLoggerInstallerListener.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/CheckedHelloPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/CompilePanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/ConditionalUserInputPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/DataCheckPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/DefaultTargetPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/ExtendedInstallPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/FinishPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/HTMLHelloPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/HTMLInfoPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/HTMLLicencePanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/HelloPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/ImgPacksPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/InfoPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/InstallPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/InstallationGroupPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/InstallationTypePanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/JDKPathPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/LicencePanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/PacksPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/ProcessPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/SelectPrinterPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/ShortcutPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/SimpleFinishPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/SudoPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/SummaryPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/TargetPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/TreePacksPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/UserInputPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/UserPathPanel.jar/:$JAVAROOT/lib/izPack/lib/bin/panels/XInfoPanel.jar/:$JAVAROOT/lib/izPack/lib/lib/ant.jar/:$JAVAROOT/lib/izPack/lib/lib/bsf.jar/:$JAVAROOT/lib/izPack/lib/lib/compiler.jar/:$JAVAROOT/lib/izPack/lib/lib/installer.jar/:$JAVAROOT/lib/izPack/lib/lib/izevent.jar/:$JAVAROOT/lib/izPack/lib/lib/jakarta-regexp-1.3.jar/:$JAVAROOT/lib/izPack/lib/lib/kunststoff.jar/:$JAVAROOT/lib/izPack/lib/lib/liquidlnf.jar/:$JAVAROOT/lib/izPack/lib/lib/looks.jar/:$JAVAROOT/lib/izPack/lib/lib/metouia.jar/:$JAVAROOT/lib/izPack/lib/lib/nimbus.jar/:$JAVAROOT/lib/izPack/lib/lib/standalone-compiler.jar/:$JAVAROOT/lib/izPack/lib/lib/substance.jar/:$JAVAROOT/lib/izPack/lib/lib/uninstaller-ext.jar/:$JAVAROOT/lib/izPack/lib/lib/uninstaller.jar/:$JAVAROOT/lib/jai_codec.jar/:$JAVAROOT/lib/jai_core.jar/:$JAVAROOT/lib/jfcunit/jakarta-regexp-1.2.jar/:$JAVAROOT/lib/jfcunit/jfcunit.jar/:$JAVAROOT/lib/junit/3.8.1/junit.jar/:$JAVAROOT/lib/junit/junit.jar/:$JAVAROOT/lib/log4j-1.2.15.jar/:$JAVAROOT/lib/swingunit/swingunit.jar/:$JAVAROOT/lib/tcs/Assembly_Components/UML_Tool_Backend/1.0/UML_Tool_Backend.jar/:$JAVAROOT/lib/tcs/Assembly_Components/diagram_edges/1.0.1/diagram_edges.jar/:$JAVAROOT/lib/tcs/Assembly_Components/diagram_elements/1.0/diagram_elements.jar/:$JAVAROOT/lib/tcs/Assembly_Components/diagram_interchange/1.0.1/diagram_interchange.jar/:$JAVAROOT/lib/tcs/Assembly_Components/diagram_uml_activity_elements/1.0/diagram_uml_activity_elements.jar/:$JAVAROOT/lib/tcs/Assembly_Components/diagram_uml_auxiliary_elements/1.0/diagram_uml_auxiliary_elements.jar/:$JAVAROOT/lib/tcs/Assembly_Components/diagram_uml_class_edges/1.0/diagram_uml_class_edges.jar/:$JAVAROOT/lib/tcs/Assembly_Components/diagram_uml_class_elements/1.0.1/diagram_uml_class_elements.jar/:$JAVAROOT/lib/tcs/Assembly_Components/diagram_uml_sequence_elements/1.1/diagram_uml_sequence_elements.jar/:$JAVAROOT/lib/tcs/Assembly_Components/diagram_uml_use_case_elements/1.0/diagram_uml_use_case_elements.jar/:$JAVAROOT/lib/tcs/Assembly_Components/diagram_viewer/1.0.1/diagram_viewer.jar/:$JAVAROOT/lib/tcs/Assembly_Components/document_tree/1.0/document_tree.jar/:$JAVAROOT/lib/tcs/Assembly_Components/documentation_panel/1.0/documentation_panel.jar/:$JAVAROOT/lib/tcs/Assembly_Components/elements_toolbar/1.0/elements_toolbar.jar/:$JAVAROOT/lib/tcs/Assembly_Components/event_manager/1.0/event_manager.jar/:$JAVAROOT/lib/tcs/Assembly_Components/image_exporter/1.0/image_exporter.jar/:$JAVAROOT/lib/tcs/Assembly_Components/print_manager/1.0/print_manager.jar/:$JAVAROOT/lib/tcs/Assembly_Components/properties_panel/1.0/properties_panel.jar/:$JAVAROOT/lib/tcs/Assembly_Components/stub_class_generator/1.0/stub_class_generator.jar/:$JAVAROOT/lib/tcs/Assembly_Components/style_panel/1.0/style_panel.jar/:$JAVAROOT/lib/tcs/Assembly_Components/uml_model_-_data_types/1.0/uml_model_-_data_types.jar/:$JAVAROOT/lib/tcs/Assembly_Components/uml_model_-_state_machines/1.0/uml_model_-_state_machines.jar/:$JAVAROOT/lib/tcs/Assembly_Components/uml_tool_actions_-_activity_elements_actions/1.0/uml_tool_actions_-_activity_elements_actions.jar/:$JAVAROOT/lib/tcs/Assembly_Components/uml_tool_actions_-_auxiliary_elements_actions/1.0/uml_tool_actions_-_auxiliary_elements_actions.jar/:$JAVAROOT/lib/tcs/Assembly_Components/uml_tool_actions_-_class_elements_actions/1.0/uml_tool_actions_-_class_elements_actions.jar/:$JAVAROOT/lib/tcs/Assembly_Components/uml_tool_actions_-_diagram_actions/1.0/uml_tool_actions_-_diagram_actions.jar/:$JAVAROOT/lib/tcs/Assembly_Components/uml_tool_actions_-_diagram_elements_actions/1.0/uml_tool_actions_-_diagram_elements_actions.jar/:$JAVAROOT/lib/tcs/Assembly_Components/uml_tool_actions_-_element_properties_actions/1.0/uml_tool_actions_-_element_properties_actions.jar/:$JAVAROOT/lib/tcs/Assembly_Components/uml_tool_actions_-_project_actions/1.0/uml_tool_actions_-_project_actions.jar/:$JAVAROOT/lib/tcs/Assembly_Components/uml_tool_actions_-_sequence_elements_actions/1.0/uml_tool_actions_-_sequence_elements_actions.jar/:$JAVAROOT/lib/tcs/Assembly_Components/xmi_reader_uml_activity_graph_plugin/1.0/xmi_reader_uml_activity_graph_plugin.jar/:$JAVAROOT/lib/tcs/Assembly_Components/xmi_reader_uml_model_plugin/1.0/xmi_reader_uml_model_plugin.jar/:$JAVAROOT/lib/tcs/Assembly_Components/xmi_writer_diagram_interchange_plugin/1.0.1/xmi_writer_diagram_interchange_plugin.jar/:$JAVAROOT/lib/tcs/Assembly_Components/xmi_writer_uml_model_plugin/1.0/xmi_writer_uml_model_plugin.jar/:$JAVAROOT/lib/tcs/Assembly_Components/zoom_panel/1.0/zoom_panel.jar/:$JAVAROOT/lib/tcs/Assembly_Components/zuml_2_tcuml_converter/1.0/zuml_2_tcuml_converter.jar/:$JAVAROOT/lib/tcs/Assembly_Components/zuml_2_tcuml_converter_activity_diagrams/1.1/zuml_2_tcuml_converter_activity_diagrams.jar/:$JAVAROOT/lib/tcs/Assembly_Components/zuml_2_tcuml_converter_sequence_diagrams/1.0/zuml_2_tcuml_converter_sequence_diagrams.jar/:$JAVAROOT/lib/tcs/base_exception/1.0/base_exception.jar/:$JAVAROOT/lib/tcs/base_exception/2.0/base_exception.jar/:$JAVAROOT/lib/tcs/configuration_manager/2.1.5/configuration_manager.jar/:$JAVAROOT/lib/tcs/generic_event_manager/1.0/generic_event_manager.jar/:$JAVAROOT/lib/tcs/image_manipulation/1.0/image_manipulation.jar/:$JAVAROOT/lib/tcs/logging_wrapper/1.2/logging_wrapper.jar/:$JAVAROOT/lib/tcs/memory_usage/2.0/memory_usage.jar/:$JAVAROOT/lib/tcs/object_factory/2.0.1/object_factory.jar/:$JAVAROOT/lib/tcs/simple_cache/2.0.2/simple_cache.jar/:$JAVAROOT/lib/tcs/swing_configuration_manager_editor/1.0.0/swing_configuration_manager_editor.jar/:$JAVAROOT/lib/tcs/typesafe_enum/1.0/typesafe_enum.jar/</string>
+		<key>JVMVersion</key>
+		<string>1.5+</string>
+		<key>MainClass</key>
+		<string>com.topcoder.umltool.deploy.UMLToolDeploy</string>
+		<key>Properties</key>
+		<dict>
+			<key>apple.laf.useScreenMenuBar</key>
+			<string>true</string>
+		</dict>
+		<key>WorkingDirectory</key>
+		<string>$APP_PACKAGE/Contents/Resources</string>
+	</dict>
+</dict>
+</plist>

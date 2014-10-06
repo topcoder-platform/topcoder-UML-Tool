@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<CMConfig>
+  <!-- Sample configuration for ReflectedXMIDescription -->
+    <Config
+        name="com.topcoder.xmi.writer.transformers.model.xmidescription.ReflectedXMIDescription">
+        <!-- NOTE: All the excluded methods should be actual method names.
+        The contained nodes should be without the "get" and rest of the method name should be in lowercase.
+        -->
+
+        <!-- ============= UML Model Actions ============= -->
+        <!-- All the following elements need no configuration.
+        CallOperationAction, SendSignalAction, ExplicitInvocationAction,
+        CreateObjectAction, DestroyObjectAction,
+        PrimitiveAction
+        -->
+
+        <!-- ============= UML Model Activity Graphs ============= -->
+        <!-- All the following elements need no configuration.
+        CallState, ActionState, ActivityGraph, ObjectFlowState
+        -->
+
+        <!-- ============= UML Model Collaborations ============= -->
+        <!-- All the following elements need no configuration.
+        Message, CollaborationInstanceSet
+        -->
+        <Property name="Collaboration">
+            <Property name="containedNodes">
+                <Value>collaborationInstanceSet</Value>
+            </Property>
+        </Property>
+
+        <!-- ============= UML Model Common Behavior ============= -->
+        <!-- All the following elements need no configuration.
+        Object, LinkEnd
+        -->
+        <Property name="Stimulus">
+            <Property name="containedNodes">
+                <Value>communicationLink</Value>
+                <Value>dispatchAction</Value>
+            </Property>
+        </Property>
+        <Property name="Procedure">
+            <Property name="excludedMethods">
+                <Value>getStimuli</Value>
+            </Property>
+            <Property name="containedNodes">
+                <Value>action</Value>
+            </Property>
+        </Property>
+        <Property name="Instance">
+            <Property name="excludedMethods">
+                <Value>getSendStimuli</Value>
+                <Value>getReceiveStimuli</Value>
+            </Property>
+            <Property name="containedNodes">
+                <Value>ownedLink</Value>
+            </Property>
+        </Property>
+        <Property name="Link">
+            <Property name="excludedMethods">
+                <!-- // Removed for Sequence Edge
+                <Value>getStimuli</Value>
+                 -->
+                <Value>getOwner</Value>
+            </Property>
+            <Property name="containedNodes">
+                <Value>connection</Value>
+            </Property>
+        </Property>
+        <Property name="Classifier">
+            <Property name="containedNodes">
+                <Value>feature</Value>
+            </Property>
+        </Property>
+
+        <!-- ============= UML Model Model Management ============= -->
+        <!-- All the following elements need no configuration.
+        SubSystem, Model, ElementImport
+        -->
+        <Property name="Package">
+            <Property name="containedNodes">
+		    	<Value>elementImport</Value>
+            </Property>
+        </Property>
+
+        <!-- ============= UML Model State Machines ============= -->
+        <!-- All the following elements need no configuration.
+        SimpleState, FinalState, State, PseudoState, StateVertex,
+        -->
+        <Property name="CompositeState">
+            <Property name="containedNodes">
+                <Value>subVertex</Value>
+            </Property>
+        </Property>
+        <Property name="StateMachine">
+            <Property name="containedNodes">
+                <Value>top</Value>
+                <Value>transition</Value>
+            </Property>
+        </Property>
+        <Property name="Transition">
+            <Property name="containedNodes">
+                <Value>guard</Value>
+            </Property>
+        </Property>
+        <Property name="Guard">
+            <Property name="containedNodes">
+                <Value>expression</Value>
+            </Property>
+        </Property>
+
+        <Property name="TaggedValue">
+            <Property name="containedNodes">
+                <Value>dataValue</Value>
+            </Property>
+        </Property>
+
+        <!-- ============= UML Model Use Cases ============= -->
+        <!-- All the following elements need no configuration.
+        Actor, Include, Extend, UseCase
+        -->
+        <Property name="Association">
+            <Property name="containedNodes">
+                <Value>connection</Value>
+            </Property>
+        </Property>
+
+        <!-- ============= UML Model Core ============= -->
+        <!-- All the following elements need no configuration.
+        Feature, Namespace
+        -->
+        <Property name="Namespace">
+            <Property name="containedNodes">
+                <Value>ownedElement</Value>
+            </Property>
+        </Property>
+        <Property name="StructuralFeature">
+            <Property name="containedNodes">
+                <Value>multiplicity</Value>
+            </Property>
+        </Property>
+        <Property name="AssociationEnd">
+            <Property name="containedNodes">
+                <Value>multiplicity</Value>
+                <Value>targetKind</Value>
+            </Property>
+        </Property>
+        <Property name="BehavioralFeature">
+            <Property name="containedNodes">
+                <Value>parameter</Value>
+            </Property>
+        </Property>
+        <Property name="Attribute">
+            <Property name="containedNodes">
+                <Value>initialValue</Value>
+            </Property>
+        </Property>
+        <Property name="Operation">
+            <Property name="excludedMethods">
+                <Value>getMethods</Value>
+            </Property>
+        </Property>
+        <Property name="Method">
+            <Property name="excludedMethods">
+                <Value>getProcedure</Value>
+            </Property>
+            <Property name="containedNodes">
+                <Value>body</Value>
+            </Property>
+        </Property>
+        <Property name="GeneralizableElement">
+            <Property name="excludedMethods">
+                <Value>getSpecifications</Value>
+            </Property>
+        </Property>
+        <Property name="Parameter">
+            <Property name="containedNodes">
+                <Value>defaultValue</Value>
+            </Property>
+    	</Property>
+		<Property name="Multiplicity">
+	    	<Property name="containedNodes">
+				<Value>range</Value>
+	    	</Property>
+    	</Property>
+    	<Property name="MultiplicityRange">
+	    	<Property name="excludedMethods">
+				<Value>getMultiplicity</Value>
+	    	</Property>
+    	</Property>
+        <Property name="ModelElement">
+            <Property name="excludedMethods">
+                <Value>getElementImports</Value>
+                <Value>getReferenceTags</Value>
+                <Value>getBehaviors</Value>
+                <Value>getSupplierDependencies</Value>
+                <Value>getDefaultParameters</Value>
+            </Property>
+            <Property name="containedNodes">
+                <Value>taggedValue</Value>
+                <Value>templateParameter</Value>
+            </Property>
+        </Property>
+    </Config>
+
+    <!-- =============================================================== -->
+    <!-- Configuration for transformer -->
+    <Config name="com.topcoder.xmi.writer.transformers.model.Model2XMITransformer">
+      <!-- ignoreUnknownElementType flag, true/false, REQUIRED-->
+        <Property name="ignoreUnknownElementType">
+            <Value>false</Value>
+        </Property>
+        <!-- namespace to create object factory instance, REQUIRED -->
+        <Property name="objectFactory">
+            <Value>com.topcoder.uml.xmi.writer.transformers.model.objectfactory</Value>
+        </Property>
+        <!-- XMIDescription object name in objectFactory, REQUIRED -->
+        <Property name="xmiDescription">
+          <Value>xmiDescriptionObject</Value>
+        </Property>
+    </Config>
+
+    <!-- Object factory config details-->
+    <Config name="com.topcoder.uml.xmi.writer.transformers.model.objectfactory">
+        <Property name="xmiDescriptionObject">
+            <Property name="type">
+                <Value>com.topcoder.xmi.writer.transformers.model.xmidescription.ReflectedXMIDescription</Value>
+            </Property>
+
+            <Property name="params">
+                <!-- this is the parameter to the constructor, the namespace -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>com.topcoder.xmi.writer.transformers.model.xmidescription.ReflectedXMIDescription</Value>
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+    </Config>
+
+</CMConfig>

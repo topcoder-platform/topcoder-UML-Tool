@@ -7,8 +7,8 @@
 	<property name="packagedir" value="com/topcoder" />
 	<property name="distfilename" value="topcoder_uml_tool" />
 	<property name="component_path" value="${distfilename}/${application_version}" />
-	<property name="application_version" value="1.2.6" />
-	<property name="application_copyright_year" value="2013" />
+	<property name="application_version" value="1.2.7" />
+	<property name="application_copyright_year" value="2014" />
 
 	<!-- DIRECTORY SETUP -->
 	<property name="srcdir" value="src" />
@@ -841,6 +841,12 @@
 		<copy file="${resources_macosx}/${ant.project.name}.icns" toDir="${application_resources}" />
 		<!-- copy document icon -->
 		<copy file="${resources_macosx}/${ant.project.name} Document.icns" toDir="${application_resources}" />
+
+		<!-- Use ad-hoc codesign signature to sign application bundle without identification-->
+		<exec dir="${build_distdir}" executable="/usr/bin/codesign" failonerror="true">
+  			<arg line="-s - -f '${ant.project.name}.app'"/>
+		</exec>
+
 	</target>
 
 	<!-- MAC OS X SPECIFIC PROPERTIES -->
@@ -888,7 +894,7 @@
 			<arg value="${build_distdir}/tmp.dmg" />
 		</exec>
 
-		<!-- add license in Rez source format -->
+		<!-- add license in Rez source format 
 		<fileset dir="/Developer/Headers/FlatCarbon/" id="rdesc">
 			<include name="**/*.r" />
 		</fileset>
@@ -900,7 +906,7 @@
 			<arg value="${dmg_license}" />
 			<arg value="-o" />
 			<arg value="${build_distdir}/tmp.dmg" />
-		</exec>
+		</exec>-->
 
 		<!-- flatten back again -->
 		<exec executable="hdiutil" failonerror="true">
@@ -977,12 +983,12 @@
 
 	<!-- Builds the installer using installer.xml configurations -->
 	<target name="build_installer" depends="compile">
-		<mkdir dir="${build_izpackclassdir}" />
 
+<!--		<mkdir dir="${build_izpackclassdir}" />
 		<javac srcdir="${javaizpack}" destdir="${build_izpackclassdir}" includes="**" debug="true" verbose="${verbose}">
 			<compilerarg value="-Xlint:unchecked" />
 			<classpath refid="izpacklibs" />
-		</javac>
+		</javac> -->
 
 		<jar destfile="${builddir}/${topcoderizpack_jarname}" basedir="${build_izpackclassdir}"/>
 

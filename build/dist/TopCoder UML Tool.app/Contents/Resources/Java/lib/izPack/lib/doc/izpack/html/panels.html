@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9: http://docutils.sourceforge.net/" />
+<title>The Available Panels</title>
+<link rel="stylesheet" href="izpack.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="the-available-panels">
+<h1 class="title">The Available Panels</h1>
+
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#hellopanel" id="id2">HelloPanel</a></li>
+<li><a class="reference internal" href="#htmlhellopanel" id="id3">HTMLHelloPanel</a></li>
+<li><a class="reference internal" href="#checkedhellopanel" id="id4">CheckedHelloPanel</a></li>
+<li><a class="reference internal" href="#infopanel-and-htmlinfopanel" id="id5">InfoPanel and HTMLInfoPanel</a></li>
+<li><a class="reference internal" href="#licencepanel-and-htmllicencepanel" id="id6">LicencePanel and HTMLLicencePanel</a></li>
+<li><a class="reference internal" href="#packspanel" id="id7">PacksPanel</a></li>
+<li><a class="reference internal" href="#imgpackspanel" id="id8">ImgPacksPanel</a></li>
+<li><a class="reference internal" href="#treepackspanel" id="id9">TreePacksPanel</a></li>
+<li><a class="reference internal" href="#targetpanel" id="id10">TargetPanel</a></li>
+<li><a class="reference internal" href="#defaulttargetpanel" id="id11">DefaultTargetPanel</a></li>
+<li><a class="reference internal" href="#installpanel" id="id12">InstallPanel</a></li>
+<li><a class="reference internal" href="#xinfopanel" id="id13">XInfoPanel</a></li>
+<li><a class="reference internal" href="#finishpanel" id="id14">FinishPanel</a></li>
+<li><a class="reference internal" href="#simplefinishpanel" id="id15">SimpleFinishPanel</a></li>
+<li><a class="reference internal" href="#shortcutpanel" id="id16">ShortcutPanel</a></li>
+<li><a class="reference internal" href="#userinputpanel" id="id17">UserInputPanel</a></li>
+<li><a class="reference internal" href="#compilepanel" id="id18">CompilePanel</a></li>
+<li><a class="reference internal" href="#processpanel" id="id19">ProcessPanel</a><ul>
+<li><a class="reference internal" href="#executeclass-execute-java-classes" id="id20"><tt class="docutils literal">&lt;executeclass&gt;</tt> - Execute Java Classes</a></li>
+<li><a class="reference internal" href="#executeforpack-only-execute-the-job-for-certain-packs" id="id21"><tt class="docutils literal">&lt;executeForPack&gt;</tt> - Only execute the job for certain packs</a></li>
+<li><a class="reference internal" href="#logfiledir-output-of-the-processpanel-saved-to-a-log" id="id22"><tt class="docutils literal">&lt;logfiledir&gt;</tt> - Output of the processPanel saved to a log</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#jdkpathpanel" id="id23">JDKPathPanel</a></li>
+<li><a class="reference internal" href="#selectprinterpanel" id="id24">SelectPrinterPanel</a></li>
+<li><a class="reference internal" href="#datacheckpanel" id="id25">DataCheckPanel</a></li>
+<li><a class="reference internal" href="#summarypanel" id="id26">SummaryPanel</a></li>
+<li><a class="reference internal" href="#installationgrouppanel" id="id27">InstallationGroupPanel</a></li>
+<li><a class="reference internal" href="#userpathpanel" id="id28">UserPathPanel</a></li>
+</ul>
+</div>
+<p>In this section I will introduce the various panels available in IzPack. The
+usage for most is pretty simple and described right here. The more elaborate
+ones are explained in more detail in the <em>Advanced Features</em> chapter or in
+their own chapter. The panels are listed by their class name. This is the
+name that must be used with the <tt class="docutils literal">classname</tt> attribute. Please be aware that
+the classname is Case-Sensitive, meaning that if the case from the
+install.xml and the founded class file differs the installation will break.
+In this last case, the installer will Throw an IllegalArgumentException in
+the compiler if the declared class name in the xml file differs in case from
+the founded class file.</p>
+<div class="section" id="hellopanel">
+<h1><a class="toc-backref" href="#id2">HelloPanel</a></h1>
+<p>This panel welcomes the user by displaying the project name, the version, the
+URL as well as the authors.</p>
+</div>
+<div class="section" id="htmlhellopanel">
+<h1><a class="toc-backref" href="#id3">HTMLHelloPanel</a></h1>
+<p>This panel allows an HTML document to be used as the &quot;welcome&quot; panel.  It operates like the 'HTMLInfoPanel',
+except that the resource name &quot;HTMLHelloPanel&quot; is used (i.e., &quot;HTMLHelloPanel.info&quot;).</p>
+</div>
+<div class="section" id="checkedhellopanel">
+<h1><a class="toc-backref" href="#id4">CheckedHelloPanel</a></h1>
+<p>This panel welcomes the user also by displaying the project name, the
+version, the URL as well as the authors.</p>
+<p>Additonal on windows the registry will be scanned for an entry which
+determines that the product is already installed. If so, a dialog will be
+shown which ask whether to install a second version of the product or not. If
+you use this panel do not forget to add the <cite>registry feature</cite> into your
+installation.</p>
+</div>
+<div class="section" id="infopanel-and-htmlinfopanel">
+<h1><a class="toc-backref" href="#id5">InfoPanel and HTMLInfoPanel</a></h1>
+<p>This is a kind of 'README' panel. It presents text of any length. The text is
+specified by the <tt class="docutils literal">(HTML)InfoPanel.info</tt> resource. Starting from IzPack
+3.7.0, variables substitution is allowed.
+To add an image to the HTMLInfoPanel you simply need to add a ressource to
+your install.xml with an ID decided by you, then you can call this image by
+refering it by this same ID.</p>
+<p>In install.xml:</p>
+<pre class="literal-block">
+&lt;resources&gt;
+  &lt;res src=&quot;logo.jpg&quot; id=&quot;GHGHGH&quot;/&gt;
+  .....
+</pre>
+<p>and in file.html:</p>
+<pre class="literal-block">
+&lt;img src=&quot;GHGHGH&quot; /&gt;
+</pre>
+<p>Note that variables are being substituted in HTMLINfoPanel (e.g., <tt class="docutils literal">$JINSTALL_PATH</tt> will be
+replaced with the installation path).</p>
+<p>You can define multiple HTMLInfoPanel with individual HTML texts by giving them a specific id. The resources are named <tt class="docutils literal"><span class="pre">HTMLInfoPanel.&lt;panelid&gt;</span></tt> :</p>
+<pre class="literal-block">
+&lt;resources&gt;
+&lt;res id=&quot;HTMLInfoPanel.readme&quot; src=&quot;readme.html&quot;/&gt;
+&lt;res id=&quot;HTMLInfoPanel.disclaimer&quot; src=&quot;disclaimer.html&quot;/&gt;
+...
+&lt;resources&gt;
+...
+&lt;panels&gt;
+&lt;panel classname=&quot;HTMLInfoPanel&quot; id=&quot;readme&quot; /&gt;
+&lt;panel classname=&quot;HTMLInfoPanel&quot; id=&quot;disclaimer&quot; /&gt;
+...
+&lt;/panels&gt;
+</pre>
+</div>
+<div class="section" id="licencepanel-and-htmllicencepanel">
+<h1><a class="toc-backref" href="#id6">LicencePanel and HTMLLicencePanel</a></h1>
+<p>Note:* There is a mistake in the name - it should be LicensePanel. In France
+the word is Licence ... and one of my diploma is a 'Licence' so ...:* -)</p>
+<p>Adding images to HTMLLicencePanel works exactly the same way as with
+HTMLInfoPanel.</p>
+<p>These panels can prompt the user to acknowledge a license agreement. They
+block unless the user selects the 'agree' option. To specify the license
+agreement text you have to use the `` (HTML)LicencePanel.licence`` resource.</p>
+</div>
+<div class="section" id="packspanel">
+<h1><a class="toc-backref" href="#id7">PacksPanel</a></h1>
+<p>Allows the user to select the packs he wants to install. This
+panel also allows grouping of packs. Look at <tt class="docutils literal">InstallationGroupPanel</tt>
+description to get more details.</p>
+</div>
+<div class="section" id="imgpackspanel">
+<h1><a class="toc-backref" href="#id8">ImgPacksPanel</a></h1>
+<p>This is the same as above, but for each pack a different picture is shown to
+the user. The pictures are specified using the packImgId attribute for each
+pack in the installer XML. The initial image will be the image of the first
+pack that has a packImgId. The image is updated each time the user
+(de)selects a pack that has a packImgId. Of course it's up to you to specify
+an image for each pack in your installation with a unique packImgId. For
+instance if you have 2 packs <tt class="docutils literal">core</tt> and <tt class="docutils literal">documentation</tt> (in this order),
+and you assign both packs a packImgId that is identical to the pack's name
+then the resource for <tt class="docutils literal">core</tt> will be <tt class="docutils literal">core</tt> and the resource for
+<tt class="docutils literal">documentation</tt> will be <tt class="docutils literal">documentation</tt>. The initially shown image will
+be the resource <tt class="docutils literal">core</tt>. The supported image formats depend on what your
+client's JVM supports, but starting from J2SE 1.3, <em>GIF</em>, <em>JPEG</em> and <em>PNG</em>
+are supported.</p>
+</div>
+<div class="section" id="treepackspanel">
+<h1><a class="toc-backref" href="#id9">TreePacksPanel</a></h1>
+<p>This panel is very similar to <tt class="docutils literal">PacksPanel</tt>, but instead of simple list
+of available packs, the tree-like list is constructed. By using the <tt class="docutils literal">parent</tt>
+attribute of <tt class="docutils literal">pack</tt> element, one can specify the hierarchy of the tree.
+This panel supports grouping just like <tt class="docutils literal">PacksPanel</tt> does.</p>
+<p>example</p>
+<pre class="literal-block">
+&lt;installation version=&quot;1.0&quot;&gt;
+   (...)
+    &lt;panels&gt;
+        (...)
+        &lt;panel classname=&quot;TreePacksPanel&quot;/&gt;
+        (...)
+    &lt;/panels&gt;
+
+    &lt;packs&gt;
+        &lt;pack name=&quot;Base&quot;
+            required=&quot;yes&quot;&gt;
+            (...)
+        &lt;/pack&gt;
+        &lt;pack name=&quot;Themes&quot;
+            required=&quot;no&quot;&gt;
+            (...)
+        &lt;/pack&gt;
+        &lt;pack name=&quot;Black&quot;
+            parent=&quot;Themes&quot;
+            required=&quot;no&quot;&gt;
+            (...)
+        &lt;/pack&gt;
+        &lt;pack name=&quot;Red&quot;
+            parent=&quot;Themes&quot;
+            required=&quot;no&quot;&gt;
+            (...)
+        &lt;/pack&gt;
+    &lt;/packs&gt;
+&lt;/installation&gt;
+</pre>
+<p>The result tree contains Base element with no children,
+and Themes with two children named Black and Red.</p>
+</div>
+<div class="section" id="targetpanel">
+<h1><a class="toc-backref" href="#id10">TargetPanel</a></h1>
+<p>This panel allows the user to select the installation path. It can be
+customized with the following resources (they are text files containing the
+path) :</p>
+<ul class="simple">
+<li><tt class="docutils literal">TargetPanel.dir.f</tt> where f stands for the family (<tt class="docutils literal">mac, macosx,
+windows, unix</tt>)</li>
+<li><tt class="docutils literal">TargetPanel.dir</tt> : the directory name, instead of the software to
+install name</li>
+<li><tt class="docutils literal">TargetPanel.dir.d</tt> where d is a &quot;dynamic&quot; name, as returned by the
+JavaTM virtual machine. You should write the name in lowercase and
+replace the spaces with underscores. For instance, you might want a
+different setting for Solaris and GNU/Linux which are both Unix-like
+systems. The resources would be <tt class="docutils literal">TargetPanel.dir.sunos,
+TargetPanel.dir.linux</tt>. You should have a Unix-resource in case it
+wouldn't work though.</li>
+</ul>
+<p>The 'ShowCreateDirectoryMessage' variable may be used to suppress the
+&quot;target directory will be created&quot; dialog. If the 'ShowCreateDirectoryMessage'
+variable is set to &quot;false&quot; then the dialog will not be shown. If the 'ShowCreateDirectoryMessage'
+variable is set to &quot;true&quot; or is not specified then the dialog will be shown if the target directory
+does not exist. See the &quot;Variables Element&quot; section for information on how to specify variables.</p>
+</div>
+<div class="section" id="defaulttargetpanel">
+<h1><a class="toc-backref" href="#id11">DefaultTargetPanel</a></h1>
+<p>The default installation directory is specified as in the TargetPanel (using
+identical names (TargetPanel... not DefaultTargetPanel...),
+but will not allow the user to change the installation path. It can be used when
+software must be installed in a specific location.</p>
+</div>
+<div class="section" id="installpanel">
+<h1><a class="toc-backref" href="#id12">InstallPanel</a></h1>
+<p>You should always have this one as it launches the installation process !</p>
+</div>
+<div class="section" id="xinfopanel">
+<h1><a class="toc-backref" href="#id13">XInfoPanel</a></h1>
+<p>A panel showing text parsed by the variable substitutor. The text can be
+specified through the <tt class="docutils literal">XInfoPanel.info</tt> resource. This panel can be useful
+when you have to show information after the installation process is completed
+(for instance if the text contains the target path).  The font can
+be set on this text through the optional variable <tt class="docutils literal">XinfoPanel.font</tt>, and its value is
+to be formatted consistent with the support provided by java.awt.Font.decode().</p>
+<p>In the following example the font size and type are omitted, but they
+can also be part of the value:</p>
+<pre class="literal-block">
+&lt;variable name=&quot;XInfoPanel.font&quot; value=&quot;monospaced&quot;/&gt;
+</pre>
+</div>
+<div class="section" id="finishpanel">
+<h1><a class="toc-backref" href="#id14">FinishPanel</a></h1>
+<p>A ending panel, able to write automated installer information. For details
+see the chapter on 'Advanced Features'.</p>
+</div>
+<div class="section" id="simplefinishpanel">
+<h1><a class="toc-backref" href="#id15">SimpleFinishPanel</a></h1>
+<p>Same as <tt class="docutils literal">FinishPanel</tt>, but without the automated installer features. It is
+aimed at making the life easier for end-users who will never encounter the
+automated installer extra feature.</p>
+</div>
+<div class="section" id="shortcutpanel">
+<h1><a class="toc-backref" href="#id16">ShortcutPanel</a></h1>
+<p>This panel is used to create desktop shortcuts. For details on using the
+ShortcutPanel see the chapter 'Desktop Shortcuts'.</p>
+</div>
+<div class="section" id="userinputpanel">
+<h1><a class="toc-backref" href="#id17">UserInputPanel</a></h1>
+<p>This panel allows you to prompt the user for data. What the user is prompted
+for is specified using an XML file which is included as a resource to the
+installer.</p>
+</div>
+<div class="section" id="compilepanel">
+<h1><a class="toc-backref" href="#id18">CompilePanel</a></h1>
+<p>This panel allows you to compile just installed Java sourcecode. The details
+for the compilation are specified using the resource
+<tt class="docutils literal">CompilePanel.Spec.xml</tt>. The XML file has the following format:</p>
+<pre class="literal-block">
+&lt;compilation&gt;
+  &lt;global&gt;
+    &lt;compiler&gt;
+      &lt;choice value=&quot;$JAVA_HOME/bin/javac&quot; /&gt;
+      &lt;choice value=&quot;jikes&quot; /&gt;
+    &lt;/compiler&gt;
+    &lt;arguments&gt;
+      &lt;choice value=&quot;-O -g:none&quot; /&gt;
+      &lt;choice value=&quot;-O&quot; /&gt;
+      &lt;choice value=&quot;-g&quot; /&gt;
+      &lt;choice value=&quot;&quot; /&gt;
+    &lt;/arguments&gt;
+  &lt;/global&gt;
+  &lt;jobs&gt;
+    &lt;classpath add=&quot;$INSTALL_PATH/src/classes/&quot; /&gt;
+    &lt;job name=&quot;optional name&quot;&gt;
+      &lt;directory name=&quot;$INSTALL_PATH/src/classes/xyz&quot; /&gt;
+    &lt;/job&gt;
+    &lt;job name=&quot;another job&quot;&gt;
+      &lt;packdepency name=&quot;some package name&quot; /&gt;
+      &lt;classpath sub=&quot;$INSTALL_PATH/&quot; /&gt;
+      &lt;directory name=&quot;$INSTALL_PATH/src/classes/abc&quot; /&gt;
+      &lt;file name=&quot;$INSTALL_PATH/some/file.java&quot; /&gt;
+    &lt;/job&gt;
+  &lt;/jobs&gt;
+&lt;/compilation&gt;
+</pre>
+<p>In theory, jobs can be nested but this has not been tested at all. A change
+to the classpath within a job only affects this job and nested jobs. The
+classpath should be specified before any files or directories.</p>
+<p>The user can change the compiler to use and choose from some default
+compilation options before compilation is started.</p>
+<img alt="CompilePanel" src="./compilePanel.png" />
+</div>
+<div class="section" id="processpanel">
+<h1><a class="toc-backref" href="#id19">ProcessPanel</a></h1>
+<p>This panel allows you to execute arbitrary files after installation. The
+details for the compilation are specified using the resource
+<tt class="docutils literal">ProcessPanel.Spec.xml</tt>.</p>
+<p>The XML file has the following format:</p>
+<pre class="literal-block">
+&lt;processing&gt;
+  &lt;job name=&quot;do xyz&quot;&gt;
+    &lt;os family=&quot;windows&quot; /&gt;
+    &lt;executefile name=&quot;$INSTALL_PATH/scripts/xyz.bat&quot;&gt;
+      &lt;arg&gt;doit&lt;/arg&gt;&lt;arg&gt;$variable&lt;/arg&gt;
+    &lt;/executefile&gt;
+  &lt;/job&gt;
+  &lt;job name=&quot;do xyz&quot;&gt;
+    &lt;os family=&quot;unix&quot; /&gt;
+    &lt;executefile name=&quot;$INSTALL_PATH/scripts/xyz.sh&quot;&gt;
+      &lt;arg&gt;doit&lt;/arg&gt;&lt;arg&gt;$variable&lt;/arg&gt;
+    &lt;/executefile&gt;
+  &lt;/job&gt;
+&lt;/processing&gt;
+</pre>
+<p>Each job may have an <tt class="docutils literal">&lt;os&gt;</tt> attribute.</p>
+<p>In addition to <tt class="docutils literal">&lt;arg&gt;</tt> elements, the <tt class="docutils literal">&lt;executefile&gt;</tt> element also accepts <tt class="docutils literal">&lt;env&gt;</tt> elements to set variables in the environment of the target process. This can be useful if this process requires some environment variables, such as its installation directory, to work properly.
+An <tt class="docutils literal">&lt;env&gt;</tt> element has the following syntax: <tt class="docutils literal"><span class="pre">&lt;env&gt;variable=value&lt;/env&gt;</span></tt>. Note the value supports variable substitution, for example:
+<tt class="docutils literal"><span class="pre">&lt;env&gt;MY_PRODUCT_HOME=$INSTALL_PATH&lt;/env&gt;</span></tt>.</p>
+<p>The ProcessPanel now also supports configurable behaviour for the panel's &quot;Previous&quot; and &quot;Next&quot; buttons. By adding <tt class="docutils literal">&lt;onFail&gt;</tt> and <tt class="docutils literal">&lt;onSuccess&gt;</tt> childs to the <tt class="docutils literal">&lt;processing&gt;</tt> element, you define which buttons you want unlocked in case of failure and in case of success, respectively.</p>
+<pre class="literal-block">
+&lt;processing&gt;
+  &lt;job name=&quot;do xyz&quot;&gt;
+    &lt;executefile name=&quot;$INSTALL_PATH/scripts/xyz.bat&quot;&gt;
+      &lt;arg&gt;doit&lt;/arg&gt;&lt;arg&gt;$variable&lt;/arg&gt;
+    &lt;/executefile&gt;
+  &lt;/job&gt;
+  &lt;onFail previous=&quot;true&quot; next=&quot;false&quot; /&gt;
+  &lt;onSuccess previous=&quot;true&quot; next=&quot;true&quot; condition=&quot;mycondition&quot; /&gt;
+  &lt;onSuccess previous=&quot;false&quot; next=&quot;true&quot; condition=&quot;!mycondition&quot; /&gt;
+&lt;/processing&gt;
+</pre>
+<p>In the above example the job <em>do xyz</em> would be run, and if it returned with an error, the <em>next</em> button would be greyed out, and the button to the <em>previous</em> page would be enabled. If it returned without an error, the conditions of the <tt class="docutils literal">&lt;onSuccess&gt;</tt> elements would be checked and the respective action would be taken.</p>
+<div class="section" id="executeclass-execute-java-classes">
+<h2><a class="toc-backref" href="#id20"><tt class="docutils literal">&lt;executeclass&gt;</tt> - Execute Java Classes</a></h2>
+<p>It is also possible to execute Java classes from this panel. Here's what this
+feature author (Alex Bradley) says:</p>
+<p>&gt; i've been able to work around my requirements by extending the
+<tt class="docutils literal">ProcessPanelWorker</tt> functionality to run user-specified classes. i've
+extended the DTD of the `` ProcessPanel.Spec.xml`` to include a new element:</p>
+<pre class="literal-block">
+&lt;executeclass name=&quot;classname&quot;&gt;
+&lt;args..../&gt;
+&lt;/executeclass&gt;
+</pre>
+<p>&gt; i've also added a new sub-class of <tt class="docutils literal">Processable</tt> called <tt class="docutils literal">executeclass</tt>.
+This will run a user-specified class in the context of the installer JVM with
+a single method :</p>
+<pre class="literal-block">
+run( AbstractUIProcessHandler handler, String[] args]);
+</pre>
+<p>&gt; It can do everything i need and more. In particular, it allows me to write
+a process extension and still be able to provide feedback to the user through
+the feedback panel, and to add new functionality to the installer, after its
+been built.</p>
+<p>To use the executeclass facility, you will need to create a jar file with
+your class and then add it to the installer with the <cite>The Jar Merging
+Element</cite>.</p>
+</div>
+<div class="section" id="executeforpack-only-execute-the-job-for-certain-packs">
+<h2><a class="toc-backref" href="#id21"><tt class="docutils literal">&lt;executeForPack&gt;</tt> - Only execute the job for certain packs</a></h2>
+<p>This can be be used to run the job only if the pack is enabled. For example,
+the batch file will if either the <tt class="docutils literal">Sources</tt> or <tt class="docutils literal">Executables</tt> packs are
+selected at install time.</p>
+<pre class="literal-block">
+&lt;processing&gt;
+ &lt;job name=&quot;List files&quot;&gt;
+  &lt;executeForPack name=&quot;Sources&quot;/&gt;
+  &lt;executeForPack name=&quot;Executables&quot;/&gt;
+  &lt;os family=&quot;windows&quot; /&gt;
+  &lt;executefile name=&quot;$INSTALL_PATH\batch\ListFiles.bat&quot; /&gt;
+ &lt;/job&gt;
+&lt;/processing&gt;
+</pre>
+</div>
+<div class="section" id="logfiledir-output-of-the-processpanel-saved-to-a-log">
+<h2><a class="toc-backref" href="#id22"><tt class="docutils literal">&lt;logfiledir&gt;</tt> - Output of the processPanel saved to a log</a></h2>
+<p>New with version 3.7 is the possibility to tee output that is written to the
+ProcessPanel's textarea into an optional logfile. Using this feature is
+pretty much straightforward, you only have to add a line in
+<tt class="docutils literal">ProcessPanel.Spec.xml</tt> that will tell IzPack the location, where the
+logfile should be stored.</p>
+<p>Variable substitution is performed, so you can use <tt class="docutils literal">$INSTALL_PATH</tt> as
+example.</p>
+<p>The name of the logfile is not (yet) configurable but should fit in most
+cases. It will be named</p>
+<pre class="literal-block">
+Install_V&lt;$APP_VER&gt;_&lt;YYYY&gt;-&lt;MM&gt;-&lt;DD&gt;_&lt;hh&gt;-&lt;mm&gt;-&lt;ss&gt;_&lt;RandomId&gt;.log
+</pre>
+<p>Here's an example:</p>
+<pre class="literal-block">
+&lt;processing&gt;
+  &lt;logfiledir&gt;$INSTALL_PATH&lt;/logfiledir&gt;
+  &lt;job name=&quot;do xyz&quot;&gt;
+    &lt;os family=&quot;windows&quot; /&gt;
+    &lt;executefile name=&quot;$INSTALL_PATH/scripts/xyz.bat&quot;&gt;
+      &lt;arg&gt;doit&lt;/arg&gt;&lt;arg&gt;$variable&lt;/arg&gt;
+    &lt;/executefile&gt;
+&lt;/processing&gt;
+</pre>
+<p>This will generate a logfile named e.g.
+<tt class="docutils literal"><span class="pre">Install_V1.3_2004-11-08_19-22-20_43423.log</span></tt> located in <tt class="docutils literal">$INSTALL_PATH</tt>.</p>
+<p><tt class="docutils literal">ProcessPanelWorker</tt> will write all output that is directed to <tt class="docutils literal">stdout</tt>
+and <tt class="docutils literal">stderr</tt> to this file if <tt class="docutils literal">ProcessPanel.Spec.xml</tt> contains the
+<tt class="docutils literal">logfiledir</tt> entry.</p>
+<p>Please note that this one file is used for storing the complete output of all
+jobs and not a file for each job that is run.</p>
+</div>
+</div>
+<div class="section" id="jdkpathpanel">
+<h1><a class="toc-backref" href="#id23">JDKPathPanel</a></h1>
+<p>This panel allows the user to select a JDK path. The variable JAVA_HOME does
+not point to a JDK, else to a JRE also the environment variable points to a
+JDK. This is not a bug, this is the behavior of the VM. But some products
+needs a JDK, for that this panel can be used. There is not only a selection
+of the path else a validation. The validation will be done with the file
+JDKPath/lib/tools.jar. If JAVA_HOME points to the VM which is placed in the
+JDK, the directory will be used as default (JAVA_HOME/..). If there is the
+variable</p>
+<pre class="literal-block">
+JDKPathPanel.skipIfValid
+</pre>
+<p>defined with the value &quot;yes&quot;, the panel will be skiped if the path is valid.
+Additional it is possible to make a version control. If one or both variables</p>
+<pre class="literal-block">
+JDKPathPanel.minVersion
+JDKPathPanel.maxVersion
+</pre>
+<p>are defined, only a JDK will be accepted which has a version in the range of
+it. The detection is a little bit pragmatically, therefor it is possible,
+that the detection can fail at some VMs. The values in the install.xml should
+be like</p>
+<pre class="literal-block">
+&lt;variables&gt;
+  &lt;variable name=&quot;JDKPathPanel.minVersion&quot; value=&quot;1.4.1&quot; /&gt;
+  &lt;variable name=&quot;JDKPathPanel.maxVersion&quot; value=&quot;1.4.99&quot; /&gt;
+  &lt;variable name=&quot;JDKPathPanel.skipIfValid&quot; value=&quot;yes&quot; /&gt;
+&lt;/variables&gt;
+</pre>
+<p>If all is valid, the panels isValidated method sets the variable</p>
+<pre class="literal-block">
+JDKPath
+</pre>
+<p>to the chosen path. Be aware, this variable exist not until the JDKPanel was
+quitted once. At a secound activation, the default will be the last
+selection.</p>
+</div>
+<div class="section" id="selectprinterpanel">
+<h1><a class="toc-backref" href="#id24">SelectPrinterPanel</a></h1>
+<p>This panel will look at the local printers installed and propose a list box
+with all of them. Once chosen, the variable $SELECTED_PRINTER is set to the
+user choice.</p>
+</div>
+<div class="section" id="datacheckpanel">
+<h1><a class="toc-backref" href="#id25">DataCheckPanel</a></h1>
+<p>DataCheckPanel is not for inclusion in an actuall install, but is a debugging
+resource for developers writing custom panels or code to be included in
+IzPack.
+It creates a list of all the variables in InstallData, their values and a
+list of all packs, indicating which are selected.
+This list is printed to the console and appears in a scrollable text area on
+the panel.
+Put the panel in wherever you want to see any variables in InstallData or a
+listing of the packs with a line like this in the &lt;panels&gt; section of
+install.xml:</p>
+<p>&lt;panel classname=&quot;DataCheckPanel&quot; /&gt;</p>
+<p>It will automatically give you a full list of all the variables and packs
+whenever the panel is made active.</p>
+</div>
+<div class="section" id="summarypanel">
+<h1><a class="toc-backref" href="#id26">SummaryPanel</a></h1>
+<p>This panel gives a summary of all shown panels. The best place for it is just
+infront of the InstallPanel. Normaly it contains a warning that this is the
+last panel before installation. The panel contains a scrollable HTML text
+area to display the summary. The informations are collected from each panel
+by calling the methods <tt class="docutils literal">getSummaryCaption</tt> and <tt class="docutils literal">getSummaryBody</tt>.
+<tt class="docutils literal">getSummaryCaption</tt> is implemented in <tt class="docutils literal">IzPanel</tt> with a panel name default
+text. <tt class="docutils literal">getSummaryBody</tt> has to be implemented in all panels which should be
+presented in the summary. If the secound method is not implemented, no
+summary of this panel will be shown.</p>
+<p>Additional it is possible to <cite>log the contents</cite> of the summary panel into a
+HTML file.</p>
+</div>
+<div class="section" id="installationgrouppanel">
+<h1><a class="toc-backref" href="#id27">InstallationGroupPanel</a></h1>
+<p>This Panel groups the pack together. A panel which displays the available
+<em>installGroups</em> found on the packs to allow the user to select a subset of
+the packs based on the pack <em>installGroups</em> attribute. This panel will be
+skipped if there are no pack elements with an <em>installGroups</em> attribute. For
+example</p>
+<pre class="literal-block">
+&lt;installation version=&quot;1.0&quot;&gt;
+   (...)
+    &lt;panels&gt;
+        (...)
+        &lt;panel classname=&quot;InstallationGroupPanel&quot;/&gt;
+        &lt;panel classname=&quot;PacksPanel&quot;/&gt;
+        (...)
+    &lt;/panels&gt;
+
+    &lt;packs&gt;
+        &lt;pack name=&quot;Base&quot;
+            installGroups=&quot;Group1&quot;
+            required=&quot;yes&quot;&gt;
+            (...)
+        &lt;/pack&gt;
+        &lt;pack name=&quot;Docs&quot;
+            installGroups=&quot;Group1,Group2&quot;
+            required=&quot;no&quot;&gt;
+            (...)
+        &lt;/pack&gt;
+        &lt;pack name=&quot;Sources&quot;
+            installGroups=&quot;Group3,Group2&quot;
+            required=&quot;no&quot;&gt;
+            (...)
+        &lt;/pack&gt;
+    &lt;/packs&gt;
+&lt;/installation&gt;
+</pre>
+<p>In above example when InstallationGroupPanel is displayed,
+it contains three radios named Group1, Group2 and Group3. Depending
+on what user selects, the respective Packs will be displayed in
+PacksPanel. InstallationGroupPanel will look for a description
+corresponding to the key
+&quot;InstallationGroupPanel.description.Group1&quot;,
+&quot;InstallationGroupPanel.description.Group2&quot; etc in installation
+langpacks and variables and displays this description for each of
+the Group_i.</p>
+<p>You may also define a sortKey in the variables section of the installer.xml
+to define an alternative sorting. The default sorting is based on the Group
+Name.</p>
+<p>Here is an example for alternative sorting of groups:</p>
+<pre class="literal-block">
+(...)
+&lt;variables&gt;
+   (...)
+    &lt;variable
+    name=&quot;InstallationGroupPanel.sortKey.Group2&quot; value=&quot;A&quot;/&gt;
+    &lt;variable
+    name=&quot;InstallationGroupPanel.sortKey.Group1&quot; value=&quot;B&quot;/&gt;
+    &lt;variable
+    name=&quot;InstallationGroupPanel.sortKey.Group3&quot; value=&quot;C&quot;/&gt;
+&lt;/variables&gt;
+(...)
+</pre>
+<p>By default, your group name (and description) are displayed as-is in the
+installer. If you want them to be localized, add localized names to your
+<tt class="docutils literal">packsLang.xml</tt> resources. The string ID has to be
+InstallationGroupPanel.group.```group_name``.</p>
+<p>Here is an example to localize groups into French (these lines have to be put
+in your <tt class="docutils literal">packsLang.xml_fra</tt> resource) :</p>
+<pre class="literal-block">
+&lt;str id=&quot;InstallationGroupPanel.group.Core&quot; txt=&quot;Noyau de l'application&quot; /&gt;
+&lt;str id=&quot;InstallationGroupPanel.description.Core&quot; txt=&quot;Fichiers principaux, indispensables au fonctionnement de l'application&quot; /&gt;
+&lt;str id=&quot;InstallationGroupPanel.group.Samples&quot; txt=&quot;Fichiers d'exemple&quot; /&gt;
+&lt;str id=&quot;InstallationGroupPanel.description.Samples&quot; txt=&quot;Fichiers d'exemples&quot; /&gt;
+</pre>
+<p>If you want to add html markup to those strings, add <tt class="docutils literal">.html</tt> at the end
+of the string id (after the group name).</p>
+</div>
+<div class="section" id="userpathpanel">
+<h1><a class="toc-backref" href="#id28">UserPathPanel</a></h1>
+<p>This panel allows the user to select a path similar to the installation path.
+Like the installation path, this panel will allow the directory to be created
+if it does not already exist.  It can also be pre-loaded with a path and
+set to only display if a certain pack is selected using the following variables:</p>
+<pre class="literal-block">
+&lt;variable name=&quot;UserPathPanelVariable&quot; value=&quot;&#64;{default.dest.dir.sql}&quot;/&gt;
+&lt;variable name=&quot;UserPathPanelDependsName&quot; value=&quot;Install Database Server&quot;/&gt;
+</pre>
+<p>Final path selection can be accessed using the variable &quot;UserPathPanelVariable&quot;.</p>
+<p>Messages for the UserPathPanel can be customized by creating a custom lang pack and
+overriding the following values (attribute values wrapped for readability):</p>
+<pre class="literal-block">
+&lt;str id=&quot;UserPathPanel.required&quot; txt=&quot;The chosen directory should exist.&quot;/&gt;
+&lt;str id=&quot;UserPathPanel.info&quot; txt=&quot;Select the path: &quot;/&gt;
+&lt;str id=&quot;UserPathPanel.browse&quot; txt=&quot;Browse&quot;/&gt;
+&lt;str id=&quot;UserPathPanel.exists_warn&quot; txt=&quot;The directory already exists!
+            Are you sure you want to install here and possibly overwrite existing files?&quot;/&gt;
+&lt;str id=&quot;UserPathPanel.empty_target&quot; txt=&quot;You have not specified a target
+            location! Is this correct?&quot;/&gt;
+&lt;str id=&quot;UserPathPanel.createdir&quot; txt=&quot;The target directory will be created: &quot; /&gt;
+&lt;str id=&quot;UserPathPanel.nodir&quot;  txt=&quot;This file is not a directory! Please
+            choose a directory!&quot;/&gt;
+&lt;str id=&quot;UserPathPanel.notwritable&quot; txt=&quot;This directory can not be written!
+            Please choose another directory!&quot;/&gt;
+</pre>
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+</div>
+</div>
+</body>
+</html>

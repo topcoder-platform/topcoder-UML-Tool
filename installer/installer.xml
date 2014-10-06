@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<installation version="5.0">
+<installation version="1.0">
  
     <natives>
         <native type="izpack" name="ShellLink.dll"/>
@@ -21,14 +21,14 @@
     
     <info>
         <appname>TopCoder UML Tool</appname>
-        <appversion>1.2.6</appversion>
+        <appversion>1.2.7</appversion>
         <appsubpath>TopCoder UML Tool</appsubpath>
         <url>http://www.topcoder.com/</url>
         <authors>
             <author name="TopCoder" email="service@topcoder.com"/>
         </authors>
         <javaversion>1.7</javaversion>
-        <version>1.2.6</version>
+        <version>1.2.7</version>
     </info>
 
     <guiprefs height="600" resizable="yes" width="800">
@@ -65,7 +65,7 @@
                 <include name="resources/**/*" />
                 <include name="conf/**/*" />
             </fileset>
-            <fileset dir="../docs" targetdir="$INSTALL_PATH">
+            <fileset dir="." targetdir="$INSTALL_PATH">
                 <include name="Readme.txt" />
             </fileset>
             <fileset dir="../build/classes" targetdir="$INSTALL_PATH/bin">

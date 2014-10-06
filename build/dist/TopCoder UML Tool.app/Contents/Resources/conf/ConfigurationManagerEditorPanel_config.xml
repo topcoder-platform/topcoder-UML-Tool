@@ -1,0 +1,64 @@
+<CMConfig>
+	<Config name="ConfigurationManagerEditorPanel">
+		<!--
+			Define the namespace used to load the old values of properties and to
+			save the properties
+		-->
+		<Property name="propertiesNamespace">
+			<Value>com.topcoder.umltool.deploy</Value>
+		</Property>
+
+ 	<!-- Define the properties definitions -->
+		<Property name="propertyDefinitions">
+
+  			<!-- Defines a text field -->
+			<Property name="FontSize">
+				<Value>Font size:</Value>
+				<Value>FREE_TEXT</Value>
+			</Property>
+			<Property name="DiagramFontSize">
+				<Value>Diagram font size:</Value>
+				<Value>FREE_TEXT</Value>
+			</Property>
+			<Property name="AutoSave">
+				<Value>Save backups automatically:</Value>
+				<Value>CHECK_BOX</Value>
+			</Property>
+			<Property name="BackupDirectory">
+				<Value>Backup directory location:</Value>
+				<Value>FREE_TEXT</Value>
+			</Property>
+			<Property name="Antialiasing">
+				<Value>Antialiasing for the diagram view:</Value>
+				<Value>CHECK_BOX</Value>
+			</Property>
+			<Property name="AddOperationAutomatic">
+				<Value>Swift operation creation:</Value>
+				<Value>CHECK_BOX</Value>
+			</Property>
+			<Property name="SettingFile">
+				<Value>Setting file:</Value>
+				<Value>FREE_TEXT</Value>
+			</Property>
+
+		</Property>
+		<Property name="rowsSpacing">
+			<Value>10</Value>
+		</Property>
+		<Property name="columnsSpacing">
+			<Value>20</Value>
+		</Property>
+		<Property name="fontName">
+			<Value>ArialMT</Value>
+		</Property>
+		<Property name="fontStyle">
+			<Value>0</Value><!-- Plain style -->
+		</Property>
+		<Property name="fontSize">
+			<Value>10</Value>
+		</Property>
+		<Property name="fontColor">
+			<Value>black</Value>
+		</Property>
+	</Config>
+</CMConfig>

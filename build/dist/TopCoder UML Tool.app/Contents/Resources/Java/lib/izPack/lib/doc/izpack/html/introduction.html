@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9: http://docutils.sourceforge.net/" />
+<title>Introduction</title>
+<link rel="stylesheet" href="izpack.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="introduction">
+<h1 class="title">Introduction</h1>
+
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#welcome-to-izpack" id="id2">Welcome to IzPack !</a></li>
+<li><a class="reference internal" href="#the-features" id="id3">The Features</a></li>
+<li><a class="reference internal" href="#the-development" id="id4">The Development</a></li>
+<li><a class="reference internal" href="#rd-party-code-used-in-izpack" id="id5">3rd party code used in IzPack</a></li>
+</ul>
+</div>
+<div class="section" id="welcome-to-izpack">
+<h1><a class="toc-backref" href="#id2">Welcome to IzPack !</a></h1>
+<p>IzPack is a tool that will help you to solve your software installation
+problems. It is a JavaTM based software installer builder that will run on
+any operating system coming with a <em>Java Virtual Machine (JVM)</em> that is
+compliant with the Sun JVM 1.5 or higher. Its design is very modular and you
+will be able to choose how <strong>you</strong> want your installer to look and you will
+also be able to customize it using a very simple <em>Application Programming
+Interface (API)</em>. Although IzPack is essentially a JavaTM only application
+(it can run on virtually any operating system), it can interact in a clean
+way with the underlying operating system. Native code can interact with it on
+a specific platform without disturbing the operation on incompatible
+operating systems. For instance, you can develop Unix-specific code that will
+be silent if run on Windows. To put it in a nutshell, whereas most of the
+other JavaTM installers force you to go their way, IzPack will let you go
+<strong>your way</strong>. Some respectable companies have been using it in order to
+produce customized installers for their <em>very</em> specific needs.</p>
+<p><em>&quot;So, if it's so good, how much is it ?&quot;</em> : well, you can get it for free.
+<strong>BUT</strong> IzPack is not a <em>freeware</em>. It's not <em>free</em> as in <em>&quot;free beer&quot;</em> but
+<em>&quot;free as in free speech&quot;</em>. So it's neither <em>freeware</em> nor <em>public domain</em>.
+It is software covered by the Apache Software License 2.0. You have access to
+the IzPack source code and you can modify it to make it suit your needs.</p>
+<p><strong>You are not required to publish your modifications</strong> per the terms of the Apache Software License.
+However if you have made general-purpose changes, please consider <strong>contributing them back</strong> as it
+will benefit to the larger IzPack community. Another benefit of contributing back your changes is
+that you won't have to maintain your own patches and apply them back whenever we publish a new
+version of the software...</p>
+<p>To learn more about the Apache Software License 2.0, visit
+<a class="reference external" href="http://www.apache.org/licenses/LICENSE-2.0.html">http://www.apache.org/licenses/LICENSE-2.0.html</a></p>
+</div>
+<div class="section" id="the-features">
+<h1><a class="toc-backref" href="#id3">The Features</a></h1>
+<p>IzPack uses XML files to describe installations. When you make an installer,
+you have a choice of panels. You can see panels as a kind of plugin that
+composes the installer. For instance, a panel can choose the installation
+path, the packs to install, prompt the user for a license agreement and so
+on. This approach is very modular. You can also create your own panels if you
+have specific needs. In some cases you even have a choice from multiple panel
+versions for the same task. You can also choose the order in which panels
+appear during the installation process. IzPack can be used in a number of
+different ways:</p>
+<ul class="simple">
+<li>by writing the XML installation file &quot;by hand&quot; and compiling it with
+the command line compiler</li>
+<li>by invoking the compiler from the great Apache Ant tool (see
+<a class="reference external" href="http://ant.apache.org/">http://ant.apache.org/</a>) as IzPack can be used as a task for
+Ant</li>
+</ul>
+<p>Here is a brief (and certainly incomplete !) list of the main IzPack features
+:</p>
+<ul class="simple">
+<li>XML based installation files</li>
+<li>easy internationalization using XML files (10 translations are
+already available)</li>
+<li>Ant integration, command-line compiler</li>
+<li>easy customization with the panels and a rich API (even an XML parser
+is included !)</li>
+<li>powerful variable substitution system that you can use to customize
+scripts and more generally any text-based file</li>
+<li>powerful condition system that can be used to conditionally show panels, user input fields and
+execute files conditionally</li>
+<li>different kinds of installers (standard, web-based, multi-volume, ...)</li>
+<li>launching of external executables during the installation process and
+Unix executable flag support (useful for the scripts for instance)</li>
+<li>layout of the installation files in packs (some can be optional)</li>
+<li>native code integration facilities</li>
+<li>jar files nesting support</li>
+<li>... <em>more things to discover and create !</em>.</li>
+</ul>
+</div>
+<div class="section" id="the-development">
+<h1><a class="toc-backref" href="#id4">The Development</a></h1>
+<p>I started writing IzPack in April 2001 and many people have helped me
+improving it since. i prefer not to mention them here as i would for sure
+forget some of them, so please check the file named <tt class="docutils literal">Thanks.txt</tt> which i
+try to get as up-to-date as possible in order to mention everyone who helped
+me. As far as i'm concerned, i'm a french student and i rather see this as a
+fun activity in my free time where i can learn a lot of great things. The
+contributors to the project are both individuals and companies. Help can take
+any form :</p>
+<ul class="simple">
+<li>translations</li>
+<li>new features and various fixes</li>
+<li>bug fixes</li>
+<li>writing manuals</li>
+<li>... anything else you like :-)</li>
+</ul>
+<p>The official IzPack homepage is located at <a class="reference external" href="http://izpack.org/">http://izpack.org/</a>.
+The IzPack developer services are generously hosted by Codehaus at <a class="reference external" href="http://izpack.codehaus.org/">http://izpack.codehaus.org/</a>.
+The project is grateful to the BerliOS community for havinh hosted the services in the past.</p>
+</div>
+<div class="section" id="rd-party-code-used-in-izpack">
+<h1><a class="toc-backref" href="#id5">3rd party code used in IzPack</a></h1>
+<p>IzPack uses several 3rd party libraries and i would like to mention them in
+respect for their respective authors work :</p>
+<ul class="simple">
+<li><em>NanoXML</em> by Marc De Scheemaecker: the XML parser used inside IzPack
+and released under a <em>zlib/png</em>-style license - see <a class="reference external" href="http://nanoxml.sourceforge.net/">http://nanoxml.sourceforge.net/</a></li>
+<li><em>Kunststoff Look and Feel</em> by Incors Gmbh: a SwingTM Look and Feel
+that can be used for installers. Released under the LGPL license - see
+<a class="reference external" href="http://www.incors.org/">http://www.incors.org/</a></li>
+<li><em>Tango Icons</em>: icons from the Tango project at <a class="reference external" href="http://tango.freedesktop.org/">http://tango.freedesktop.org/</a></li>
+<li><em>Some Apache Jakarta classes and libraries</em>: released under the
+<em>Apache License</em></li>
+<li><em>Metouia Look and Feel</em> by Taoufik Romdhane: released under the
+<em>LGPL license</em> - see <a class="reference external" href="http://mlf.sf.net/">http://mlf.sf.net/</a></li>
+<li><em>Liquid Look and Feel</em> by Miroslav Lazarevic: released under the
+<em>LGPL license</em> - see liquidlnf.sf.net/</li>
+<li><em>JGoodies Looks</em> by Karsten Lentzsch: released under a <em>BSD-style
+license</em> - see <a class="reference external" href="http://looks.dev.java.net/">http://looks.dev.java.net/</a></li>
+<li><em>Nimbus look and feel</em> by Sun Microsystems under a LGPL license - see <a class="reference external" href="https://nimbus.dev.java.net/">https://nimbus.dev.java.net/</a></li>
+</ul>
+<p>So, now let's dive into understanding how IzPack works. You'll be surprised
+to see how powerful and simple it can be :-)</p>
+<p><a class="reference external" href="index.html">Go back to the documentation index</a></p>
+</div>
+</div>
+</body>
+</html>

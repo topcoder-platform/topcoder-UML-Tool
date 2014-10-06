@@ -1,0 +1,164 @@
+<CMConfig>
+    <!-- Project configuration manager initialization details-->
+    <Config name="com.topcoder.uml.projectconfiguration.ProjectConfigurationManager">
+        <!-- This property will used by the StandardStereotypeLoader implementations to get the stereotypes-->
+        <Property name="stereotypes">
+            <!-- Language name-->
+            <Property name="Java">
+                <!-- Element type -->
+                <Property name="Class">
+                    <Value>exception</Value>
+                    <Value>abstract</Value>
+                    <Value>enum</Value>
+                </Property>
+                <Property name="Enumeration">
+                    <Value>enum</Value>
+                </Property>
+                <Property name="Operation">
+                    <Value>final</Value>
+                    <Value>abstract</Value>
+                    <Value>create</Value>
+                </Property>
+                <Property name="Link">
+                    <Value>create</Value>
+                </Property>
+            </Property>
+            <!-- Language name-->
+            <Property name="CSharp">
+                <!-- Element type -->
+                <Property name="Class">
+                    <Value>exception</Value>
+                    <Value>abstract</Value>
+                    <Value>enum</Value>
+                    <Value>Serializable</Value>
+                    <Value>ServiceContract</Value>
+                    <Value>DataContract</Value>
+                </Property>
+                <Property name="Enumeration">
+                    <Value>enum</Value>
+                </Property>
+                <Property name="Operation">
+                    <Value>final</Value>
+                    <Value>abstract</Value>
+                    <Value>create</Value>
+                    <Value>OperationContract</Value>
+                </Property>
+                <Property name="Link">
+                    <Value>create</Value>
+                </Property>
+                <Property name="Attribute">
+                    <Value>readonly</Value>
+                    <Value>const</Value>
+                    <Value>property</Value>
+                    <Value>property-get</Value>
+                    <Value>property-set</Value>
+                </Property>
+            </Property>
+        </Property>
+        <!-- Default project language -->
+        <Property name="defaultProjectLanguage">
+            <Value>Java</Value>
+        </Property>
+    </Config>
+
+    <!-- for the formatting of the diagram elements-->
+    <Config name="com.topcoder.uml.projectconfiguration.diagramelementformatters.PropertyTemplateDiagramElementFormatter">
+        <!-- The class name of the elements and its properties-->
+        <Property name="com.topcoder.diagraminterchange.DiagramElement">
+            <Property name="property1">
+                <Value>value1</Value>
+            </Property>
+            <Property name="property2">
+                <Value>value2</Value>
+            </Property>
+        </Property>
+        <!-- The class name of the elements and its properties-->
+        <Property name="com.topcoder.diagraminterchange.GraphNode">
+            <Property name="property1">
+                <Value>value1</Value>
+            </Property>
+        </Property>
+    </Config>
+
+    <!--Object factory configuration-->
+    <Config name="com.topcoder.uml.projectconfiguration.ProjectConfigurationManager.objectfactory">
+        <!-- instantiate a XMLStereotypeLoader using its one arg constructor -->
+        <Property name="stereotypeLoader">
+            <Property name="type">
+                <Value>com.topcoder.uml.projectconfiguration.stereotypeloader.XMLStereotypeLoader</Value>
+            </Property>
+
+            <Property name="params">
+                <!-- this is the parameter to the constructor, the namespace -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>com.topcoder.uml.projectconfiguration.ProjectConfigurationManager</Value>
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+
+        <!-- instantiate a standardClassDataLoader using its no-arg constructor -->
+        <Property name="standardClassDataLoader">
+            <Property name="type">
+                <!-- This is mock value given for example-->
+                <!-- Corresponding CSharp and Java Class loader should be given here-->
+                <!-- FIXED using the real class data loader -->
+                <Value>com.topcoder.uml.standardclassloader.ClassDataLoaderStrategy</Value>
+            </Property>
+
+            <Property name="params">
+                <!-- this is the parameter to the constructor, the namespace -->
+                <Property name="param1">
+                    <Property name="type">
+                        <Value>String</Value>
+                    </Property>
+                    <Property name="value">
+                        <Value>com.topcoder.uml.standardclassloader.ClassDataLoaderStrategy</Value>
+                    </Property>
+                </Property>
+            </Property>
+        </Property>
+    </Config>
+
+    <!--Config details for ElementFormatter's-->
+    <Config name="com.topcoder.uml.projectconfiguration.modelelementformatters.AbstractElementFormatter">
+        <!-- all the required details are given as name and value -->
+        <Property name="exceptionStereotypeName">
+            <Value>exception</Value>
+        </Property>
+        <Property name="enumStereotypeName">
+            <Value>enum</Value>
+        </Property>
+        <Property name="createStereotypeName">
+            <Value>create</Value>
+        </Property>
+        <Property name="createStereotypeBaseClass">
+            <Value>BehavioralFeature</Value>
+        </Property>
+        <Property name="stringClassName">
+            <Value>String</Value>
+        </Property>
+        <Property name="throwableClassName">
+            <Value>Throwable</Value>
+        </Property>
+        <Property name="exceptionClassName">
+            <Value>Exception</Value>
+        </Property>
+        <Property name="serializationInfoClassName">
+            <Value>SerializationInfo</Value>
+        </Property>
+        <Property name="streamingContextClassName">
+            <Value>StreamingContext</Value>
+        </Property>
+        <Property name="operationStereotypeBaseClass">
+            <Value>Operation</Value>
+        </Property>
+        <Property name="enumClassName">
+            <Value>Enum</Value>
+        </Property>
+    </Config>
+</CMConfig>

@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+
+<!-- 	This is a configuration file for SimpleCache component ver 2.0
+	All properties are correct.
+-->
+
+
+<CMConfig>
+<Config name="com.topcoder.util.cache.SimpleCache">
+
+	<!-- 	Which strategy class shoudl be used.
+ 	     	This is a fully qualified java class name.
+		Optional. Defaults to com.topcoder.util.cache.FIFOCacheEvoctionStrategy
+	-->
+    	<Property name="CacheEvictionStrategy">
+      	<Value>com.topcoder.util.cache.FIFOCacheEvictionStrategy</Value>
+    	</Property>
+
+	<!-- 	maximum number of cache entries allowed
+ 	     	This is a posisitive integer value
+		Optional. Defaults to int infinity
+	-->
+    	<Property name="MaxCacheSize">
+      	<Value>10000</Value>
+    	</Property>
+
+	<!-- 	Cache refresh interval after which the cache entries will be refreshed
+		Optional. Defaults to no timeout
+	-->
+	<!--
+    	<Property name="TimeoutMS">
+      	<Value>3600000</Value>
+    	</Property>
+  -->
+	<!-- 	Memory utilization handler used to determine object sizes in memory
+ 	     	This is used to calculate the cache capacity.
+		Optional. Defaults to com.topcoder.util.cache.SimpleMemoryUtilizationHandler
+	-->
+    	<Property name="MemoryUtilizationHandler">
+      	<Value>com.topcoder.umltool.deploy.handlers.NullMemoryUtilizationHandler</Value>
+    	</Property>
+
+	<!-- 	Flag signalling if compression is applied to the entries
+		Optional. Defaults to false
+	-->
+    	<Property name="CompressionFlag">
+      	<Value>true</Value>
+    	</Property>
+
+	<!-- 	A listing of compression handlers that should be applied to cache entries
+		If multiple handlers are present then they are chained based on the order
+		given here. Basically the first handler in the list will be tried first
+		and if it can not compress the entry then the next one will be tried.
+		Each handler can be configured with additional peramaters as specified
+		below.
+		Optional. For defaults please refer to the example give below
+	-->
+    	<Property name="CompressionHandlers">
+		<!-- Put your handler configuration here -->
+		<Property name="SomeHandler">
+			<!-- 	Class name of the handler to be used
+				Required within the context of the compression handler.
+			-->
+	  		<Property name="class">
+	    			<Value>com.topcoder.util.cache.DefaultCompressionHandler</Value>
+	  		</Property>
+
+			<!-- 	A list of accepted types that this handler 'knows' how to compress
+				Optional. Defaults to "java.lang.Object" which will simply match
+				everything. There is an exception: if this is not supplied but the
+				regular expression is supplied then this will default to null.
+				When matching the ObjectType matching will always take precededence
+				over regexp matching.
+			-->
+	  		<Property name="AcceptedObjectTypes">
+	    			<Value>java.util.Vector</Value>
+	    			<Value>java.util.HashMap</Value>
+	  		</Property>
+
+			<!-- 	A regular expression string which can be used to specify the accepted
+				types of objects based on matching class type of the object.
+				Optional. Defaults to null.
+			-->
+	  		<Property name="AcceptedObjectTypesRegex">
+	    			<Value>java.*</Value>
+	  		</Property>
+
+			<!-- 	A fully qualified java class name for the codec to be used with the
+				compression handler.
+				Optional. Defaults to com.topcoder.util.compression.DeflateCodec
+			-->
+	  		<Property name="CompressionCodecClass">
+	    			<Value>com.topcoder.util.compression.LZ77Codec</Value>
+	  		</Property>
+
+			<!-- 	A fully qualified java class name for the byte to object and object to
+				byte conversion handler. Compression Handlers work on byte arrays and
+				thus need some help converting objects into byte array representations and
+				back.
+				Optional. Defaults to com.topcoder.util.cache.SerializableObjectByteConverter
+			-->
+	  		<Property name="ObjectByteConverterClass">
+	    			<Value>com.topcoder.util.cache.SerializableObjectByteConverter</Value>
+	  		</Property>
+		</Property>
+    	</Property>
+ </Config>
+</CMConfig>
