@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <installation version="1.0">
  
-    <natives>
-        <native type="izpack" name="ShellLink.dll"/>
-        <native type="izpack" name="ShellLink_x64.dll"/>
-    </natives>
+    <native type="izpack" name="ShellLink.dll"/>
+    <native type="izpack" name="ShellLink_x64.dll"/>
+    <native type="3rdparty" name="COIOSHelper.dll" stage="both"/>
+	<native type="3rdparty" name="COIOSHelper_x64.dll" stage="both"/>
 
     <resources>
         <res src="windows_shortcut_specification.xml"
@@ -29,6 +29,7 @@
         </authors>
         <javaversion>1.7</javaversion>
         <version>1.2.7</version>
+		<run-privileged condition="izpack.windowsinstall.vista|izpack.windowsinstall.7"/>
     </info>
 
     <guiprefs height="600" resizable="yes" width="800">
