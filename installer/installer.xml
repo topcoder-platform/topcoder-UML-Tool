@@ -29,7 +29,7 @@
         </authors>
         <javaversion>1.7</javaversion>
         <version>1.2.7</version>
-		<run-privileged condition="izpack.windowsinstall.vista|izpack.windowsinstall.7"/>
+		<run-privileged/>
     </info>
 
     <guiprefs height="600" resizable="yes" width="800">
