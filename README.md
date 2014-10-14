@@ -9,7 +9,7 @@ Make sure the machine you are installing on has the proper version of Java (1.7)
 
 Execute installer jar. The OS may support doing this in the GUI, or you can use the command line:
 
-java -jar TopCoder_UML_Tool_Installer-1.2.6.jar
+java -jar TopCoder_UML_Tool_Installer-1.2.7.jar
 
 Follow instructions on installer screen.
 
@@ -19,7 +19,7 @@ Some operating systems supposedly don't support creating shortcuts (icons) accor
 
 Install the UML tool on Mac OS X
 ==================================
-Drag the application from the disk image to your "Applications" folder. When the application is first run, the file associations for XMI, TCUML, and ZUML will be added.
+Drag the application from the unzipped file to your "Applications" folder. When the application is first run, the file associations for XMI, TCUML, and ZUML will be added.
 
 Uninstall the UML tool
 ========================
