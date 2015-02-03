@@ -19,7 +19,7 @@ Some operating systems supposedly don't support creating shortcuts (icons) accor
 
 Install the UML tool on Mac OS X
 ==================================
-Drag the application from the unzipped file to your "Applications" folder. When the application is first run, the file associations for XMI, TCUML, and ZUML will be added.
+Download the TopCoder UML Tool.dmg file. Drag the application from the unzipped file to your "Applications" folder. When the application is first run, the file associations for XMI, TCUML, and ZUML will be added. Depending on your security settings, you may need to grant your Mac permission to run/install the file.
 
 Uninstall the UML tool
 ========================
